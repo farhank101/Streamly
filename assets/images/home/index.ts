@@ -6,7 +6,7 @@ const DEFAULT_TRACK = require("../default-track.png");
 export const genreImages: Record<string, ImageSourcePropType> = {
   // Genres
   hiphop: require("./genres/hiphop.png"),
-  dance_electro: DEFAULT_TRACK,
+  dance_electro: require("./genres/dance_electro.png"),
   pop: DEFAULT_TRACK,
   country: DEFAULT_TRACK,
   rock: DEFAULT_TRACK,
