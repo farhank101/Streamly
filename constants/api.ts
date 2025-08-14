@@ -1,47 +1,83 @@
 /**
- * Streamly App API Constants
- * Contains endpoints and configuration for external services
+ * API Configuration
+ * Centralized configuration for all API endpoints and parameters
  */
+
+import { config } from "../config/environment";
 
 // Base URLs
 export const YOUTUBE_API_BASE_URL = "https://www.googleapis.com/youtube/v3";
-export const AUDIUS_API_BASE_URL = "https://discoveryprovider.audius.co/v1";
+export const LASTFM_API_BASE_URL = "https://ws.audioscrobbler.com/2.0";
+export const GENIUS_API_BASE_URL = "https://api.genius.com";
 
-// Endpoints
+// API Endpoints
 export const ENDPOINTS = {
   // YouTube endpoints
   YOUTUBE: {
     SEARCH: `${YOUTUBE_API_BASE_URL}/search`,
     VIDEOS: `${YOUTUBE_API_BASE_URL}/videos`,
-    PLAYLISTS: `${YOUTUBE_API_BASE_URL}/playlists`,
-    PLAYLIST_ITEMS: `${YOUTUBE_API_BASE_URL}/playlistItems`,
+    CHANNELS: `${YOUTUBE_API_BASE_URL}/channels`,
+    TRENDING: `${YOUTUBE_API_BASE_URL}/videos`,
   },
-
-  // Audius endpoints
-  AUDIUS: {
-    SEARCH: `${AUDIUS_API_BASE_URL}/search/tracks`,
-    TRACKS: `${AUDIUS_API_BASE_URL}/tracks`,
-    TRENDING: `${AUDIUS_API_BASE_URL}/tracks/trending`,
+  // Last.fm endpoints
+  LASTFM: {
+    ARTIST_INFO: `${LASTFM_API_BASE_URL}/?method=artist.getinfo`,
+    TRACK_INFO: `${LASTFM_API_BASE_URL}/?method=track.getinfo`,
+    ALBUM_INFO: `${LASTFM_API_BASE_URL}/?method=album.getinfo`,
+    ARTIST_TOP_TRACKS: `${LASTFM_API_BASE_URL}/?method=artist.gettoptracks`,
+    SEARCH_ARTIST: `${LASTFM_API_BASE_URL}/?method=artist.search`,
+    SEARCH_TRACK: `${LASTFM_API_BASE_URL}/?method=track.search`,
+  },
+  // Genius endpoints
+  GENIUS: {
+    SEARCH: `${GENIUS_API_BASE_URL}/search`,
+    SONG: `${GENIUS_API_BASE_URL}/songs`,
   },
 };
 
-import { config } from "../config/environment";
-
-// API Keys from centralized config
+// API Keys
 export const API_KEYS = {
   YOUTUBE_API_KEY: config.youtube.apiKey,
-  AUDIUS_APP_NAME: config.audius.appName,
+  LASTFM_API_KEY: config.lastfm?.apiKey || "placeholder",
+  GENIUS_API_KEY: config.genius?.apiKey || "placeholder",
 };
 
-// Request parameters
+// Default parameters for API calls
 export const DEFAULT_PARAMS = {
   YOUTUBE: {
+    part: "snippet,contentDetails,statistics",
+    maxResults: 20,
+    type: "video",
+    videoCategoryId: "10", // Music category
+  },
+  LASTFM: {
+    format: "json",
+    limit: 20,
+  },
+  GENIUS: {
+    per_page: 20,
+  },
+};
+
+// Search parameters
+export const SEARCH_PARAMS = {
+  YOUTUBE: {
+    q: "", // Query will be set dynamically
     part: "snippet",
     maxResults: 20,
     type: "video",
+    videoCategoryId: "10",
+    order: "relevance",
   },
-  AUDIUS: {
+  LASTFM: {
+    method: "track.search",
+    track: "", // Query will be set dynamically
+    format: "json",
     limit: 20,
+  },
+  GENIUS: {
+    q: "", // Query will be set dynamically
+    per_page: 20,
   },
 };
 
@@ -49,4 +85,5 @@ export default {
   ENDPOINTS,
   API_KEYS,
   DEFAULT_PARAMS,
+  SEARCH_PARAMS,
 };

@@ -2,18 +2,15 @@
   "expo": {
     "scheme": "streamly",
     "web": {
-      "bundler": "metro"
+      "bundler": "metro",
+      "headers": {
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "Cross-Origin-Embedder-Policy": "require-corp"
+      }
     },
     "plugins": [
       "expo-router",
       "expo-asset",
-      [
-        "@jamsch/expo-speech-recognition",
-        {
-          "microphonePermission": "Allow Streamly to use the microphone for voice search.",
-          "speechRecognitionPermission": "Allow Streamly to use speech recognition for voice search."
-        }
-      ],
       "expo-speech-recognition",
       "expo-font"
     ],

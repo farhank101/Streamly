@@ -1,321 +1,166 @@
 /**
  * Player Context
- * Manages music playback state and controls throughout the app
+ * Manages global audio playback state and controls
  */
 
-import React, {
-  createContext,
-  useContext,
-  useState,
-  useEffect,
-  useRef,
-} from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 import { Track } from "../types/track";
-import { audioService, AudioState } from "../services/audio";
+import { audioService, AudioPlayerState } from "../services/audio";
 
-interface PlayerState {
+interface PlayerContextType {
+  // State
   currentTrack: Track | null;
-  queue: Track[];
   isPlaying: boolean;
-  duration: number;
+  isLoaded: boolean;
   position: number;
-  volume: number;
-  isLoading: boolean;
-  error: string | null;
+  duration: number;
   isBuffering: boolean;
-  rate: number;
-  isLooping: boolean;
-}
+  error: string | null;
+  volume: number;
 
-interface PlayerContextType extends PlayerState {
-  play: (track?: Track) => Promise<void>;
+  // Controls
+  play: (track: Track) => Promise<void>;
   pause: () => Promise<void>;
-  next: () => Promise<void>;
-  previous: () => Promise<void>;
+  stop: () => Promise<void>;
   seek: (position: number) => Promise<void>;
   setVolume: (volume: number) => Promise<void>;
-  setRate: (rate: number) => Promise<void>;
-  setLooping: (looping: boolean) => Promise<void>;
-  addToQueue: (track: Track) => void;
-  removeFromQueue: (index: number) => void;
-  clearQueue: () => void;
-  loadTrack: (track: Track) => Promise<void>;
+  setPlaybackRate: (rate: number) => Promise<void>;
+
+  // Utilities
+  isTrackPlaying: (trackId: string) => boolean;
+  cleanup: () => Promise<void>;
 }
 
-// Create the context with default values
-const PlayerContext = createContext<PlayerContextType>({
-  currentTrack: null,
-  queue: [],
-  isPlaying: false,
-  duration: 0,
-  position: 0,
-  volume: 1,
-  isLoading: false,
-  error: null,
-  isBuffering: false,
-  rate: 1,
-  isLooping: false,
-  play: async () => {},
-  pause: async () => {},
-  next: async () => {},
-  previous: async () => {},
-  seek: async () => {},
-  setVolume: async () => {},
-  setRate: async () => {},
-  setLooping: async () => {},
-  addToQueue: () => {},
-  removeFromQueue: () => {},
-  clearQueue: () => {},
-  loadTrack: async () => {},
-});
+const PlayerContext = createContext<PlayerContextType | undefined>(undefined);
 
-// Custom hook to use the player context
-export const usePlayer = () => useContext(PlayerContext);
+export const usePlayer = () => {
+  const context = useContext(PlayerContext);
+  if (!context) {
+    throw new Error("usePlayer must be used within a PlayerProvider");
+  }
+  return context;
+};
 
-export const PlayerProvider: React.FC<{ children: React.ReactNode }> = ({
-  children,
-}) => {
-  const [state, setState] = useState<PlayerState>({
-    currentTrack: null,
-    queue: [],
+interface PlayerProviderProps {
+  children: React.ReactNode;
+}
+
+export const PlayerProvider: React.FC<PlayerProviderProps> = ({ children }) => {
+  const [playerState, setPlayerState] = useState<AudioPlayerState>({
     isPlaying: false,
-    duration: 0,
+    isLoaded: false,
+    currentTrack: null,
     position: 0,
-    volume: 1,
-    isLoading: false,
-    error: null,
+    duration: 0,
     isBuffering: false,
-    rate: 1,
-    isLooping: false,
+    error: null,
+    volume: 1.0,
   });
 
-  // Subscribe to audio service updates
+  // Subscribe to audio service state changes
   useEffect(() => {
-    const handleAudioUpdate = (audioState: AudioState) => {
-      setState(prev => ({
-        ...prev,
-        isPlaying: audioState.isPlaying,
-        duration: audioState.duration,
-        position: audioState.position,
-        volume: audioState.volume,
-        isLoading: !audioState.isLoaded,
-        error: audioState.error,
-        isBuffering: audioState.isBuffering,
-        rate: audioState.rate,
-        isLooping: audioState.isLooping,
-      }));
-    };
+    const unsubscribe = audioService.subscribe((state) => {
+      setPlayerState(state);
+    });
 
-    // Subscribe to audio service updates
-    audioService.addListener(handleAudioUpdate);
-
-    // Cleanup on unmount
-    return () => {
-      audioService.removeListener(handleAudioUpdate);
-    };
+    return unsubscribe;
   }, []);
 
-  // Update current track when audio service track changes
-  useEffect(() => {
-    const currentTrack = audioService.getCurrentTrack();
-    if (currentTrack !== state.currentTrack) {
-      setState(prev => ({ ...prev, currentTrack }));
-    }
-  }, [state.currentTrack]);
-
-  // Load and play a track
-  const loadTrack = async (track: Track) => {
+  // Play a track
+  const play = async (track: Track): Promise<void> => {
     try {
-      setState(prev => ({ ...prev, isLoading: true, error: null }));
-      await audioService.loadTrack(track);
-      setState(prev => ({ ...prev, currentTrack: track, isLoading: false }));
+      console.log("🎵 PlayerContext.play called with track:", track.title);
+      await audioService.playTrack(track);
     } catch (error) {
-      setState(prev => ({ 
-        ...prev, 
-        isLoading: false, 
-        error: error instanceof Error ? error.message : 'Failed to load track' 
-      }));
+      console.error("❌ PlayerContext.play error:", error);
+      throw error;
     }
   };
 
-  // Play function
-  const play = async (track?: Track) => {
-    try {
-      if (track) {
-        // Load and play a new track
-        await loadTrack(track);
-        await audioService.play();
-      } else if (state.currentTrack) {
-        // Resume current track
-        await audioService.play();
-      }
-    } catch (error) {
-      console.error('Play error:', error);
-      setState(prev => ({ 
-        ...prev, 
-        error: error instanceof Error ? error.message : 'Failed to play track' 
-      }));
-    }
-  };
-
-  // Pause function
-  const pause = async () => {
+  // Pause playback
+  const pause = async (): Promise<void> => {
     try {
       await audioService.pause();
     } catch (error) {
-      console.error('Pause error:', error);
-      setState(prev => ({ 
-        ...prev, 
-        error: error instanceof Error ? error.message : 'Failed to pause track' 
-      }));
+      console.error("❌ PlayerContext.pause error:", error);
+      throw error;
     }
   };
 
-  // Next track function
-  const next = async () => {
+  // Stop playback
+  const stop = async (): Promise<void> => {
     try {
-      if (state.queue.length > 0) {
-        const nextTrack = state.queue[0];
-        const newQueue = state.queue.slice(1);
-        setState(prev => ({
-          ...prev,
-          queue: newQueue,
-        }));
-        await loadTrack(nextTrack);
-        await audioService.play();
-      } else {
-        // No more tracks in queue
-        await audioService.stop();
-        setState(prev => ({
-          ...prev,
-          isPlaying: false,
-          position: 0,
-        }));
-      }
+      await audioService.stop();
     } catch (error) {
-      console.error('Next track error:', error);
-      setState(prev => ({ 
-        ...prev, 
-        error: error instanceof Error ? error.message : 'Failed to play next track' 
-      }));
+      console.error("❌ PlayerContext.stop error:", error);
+      throw error;
     }
   };
 
-  // Previous track function
-  const previous = async () => {
-    try {
-      if (state.position > 3) {
-        // If more than 3 seconds into the song, restart it
-        await audioService.seek(0);
-      } else {
-        // Otherwise, we would go to the previous track in history
-        // For now, just restart the current track
-        await audioService.seek(0);
-      }
-    } catch (error) {
-      console.error('Previous track error:', error);
-      setState(prev => ({ 
-        ...prev, 
-        error: error instanceof Error ? error.message : 'Failed to seek track' 
-      }));
-    }
-  };
-
-  // Seek function
-  const seek = async (position: number) => {
+  // Seek to position
+  const seek = async (position: number): Promise<void> => {
     try {
       await audioService.seek(position);
     } catch (error) {
-      console.error('Seek error:', error);
-      setState(prev => ({ 
-        ...prev, 
-        error: error instanceof Error ? error.message : 'Failed to seek track' 
-      }));
+      console.error("❌ PlayerContext.seek error:", error);
+      throw error;
     }
   };
 
-  // Set volume function
-  const setVolume = async (volume: number) => {
+  // Set volume
+  const setVolume = async (volume: number): Promise<void> => {
     try {
       await audioService.setVolume(volume);
     } catch (error) {
-      console.error('Volume error:', error);
-      setState(prev => ({ 
-        ...prev, 
-        error: error instanceof Error ? error.message : 'Failed to set volume' 
-      }));
+      console.error("❌ PlayerContext.setVolume error:", error);
+      throw error;
     }
   };
 
-  // Set playback rate function
-  const setRate = async (rate: number) => {
+  // Set playback rate
+  const setPlaybackRate = async (rate: number): Promise<void> => {
     try {
-      await audioService.setRate(rate);
+      await audioService.setPlaybackRate(rate);
     } catch (error) {
-      console.error('Rate error:', error);
-      setState(prev => ({ 
-        ...prev, 
-        error: error instanceof Error ? error.message : 'Failed to set playback rate' 
-      }));
+      console.error("❌ PlayerContext.setPlaybackRate error:", error);
+      throw error;
     }
   };
 
-  // Set looping function
-  const setLooping = async (looping: boolean) => {
-    try {
-      await audioService.setLooping(looping);
-    } catch (error) {
-      console.error('Looping error:', error);
-      setState(prev => ({ 
-        ...prev, 
-        error: error instanceof Error ? error.message : 'Failed to set looping' 
-      }));
-    }
+  // Check if a specific track is playing
+  const isTrackPlaying = (trackId: string): boolean => {
+    return audioService.isTrackPlaying(trackId);
   };
 
-  // Add to queue function
-  const addToQueue = (track: Track) => {
-    setState((prev) => ({
-      ...prev,
-      queue: [...prev.queue, track],
-    }));
+  const cleanup = async () => {
+    await audioService.stop();
   };
 
-  // Remove from queue function
-  const removeFromQueue = (index: number) => {
-    setState((prev) => ({
-      ...prev,
-      queue: prev.queue.filter((_, i) => i !== index),
-    }));
-  };
+  const value: PlayerContextType = {
+    // State
+    currentTrack: playerState.currentTrack,
+    isPlaying: playerState.isPlaying,
+    isLoaded: playerState.isLoaded,
+    position: playerState.position,
+    duration: playerState.duration,
+    isBuffering: playerState.isBuffering,
+    error: playerState.error,
+    volume: playerState.volume,
 
-  // Clear queue function
-  const clearQueue = () => {
-    setState((prev) => ({
-      ...prev,
-      queue: [],
-    }));
-  };
-
-  const value = {
-    ...state,
+    // Controls
     play,
     pause,
-    next,
-    previous,
+    stop,
     seek,
     setVolume,
-    setRate,
-    setLooping,
-    addToQueue,
-    removeFromQueue,
-    clearQueue,
-    loadTrack,
+    setPlaybackRate,
+
+    // Utilities
+    isTrackPlaying,
+    cleanup,
   };
 
   return (
     <PlayerContext.Provider value={value}>{children}</PlayerContext.Provider>
   );
 };
-
-export default PlayerContext;

@@ -11,8 +11,11 @@ interface EnvironmentConfig {
   youtube: {
     apiKey: string;
   };
-  audius: {
-    appName: string;
+  lastfm: {
+    apiKey: string;
+  };
+  genius: {
+    apiKey: string;
   };
   app: {
     env: "development" | "production";
@@ -24,7 +27,10 @@ interface EnvironmentConfig {
 const getRequiredEnvVar = (name: string): string => {
   const value = process.env[name];
   if (!value || value === `YOUR_${name.split("_").pop()}`) {
-    throw new Error(`Missing required environment variable: ${name}`);
+    console.warn(
+      `Missing required environment variable: ${name}, using fallback`
+    );
+    return "placeholder"; // Use placeholder instead of throwing error
   }
   return value;
 };
@@ -46,8 +52,11 @@ export const config: EnvironmentConfig = {
   youtube: {
     apiKey: getRequiredEnvVar("EXPO_PUBLIC_YOUTUBE_API_KEY"),
   },
-  audius: {
-    appName: getOptionalEnvVar("EXPO_PUBLIC_AUDIUS_APP_NAME", "streamly"),
+  lastfm: {
+    apiKey: getRequiredEnvVar("EXPO_PUBLIC_LASTFM_API_KEY"),
+  },
+  genius: {
+    apiKey: getRequiredEnvVar("EXPO_PUBLIC_GENIUS_API_KEY"),
   },
   app: {
     env:

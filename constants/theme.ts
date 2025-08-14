@@ -1,36 +1,39 @@
 import { FONTS, FONT_STYLES, FONT_HELPERS } from "./fonts";
 
 export const COLORS = {
-  // Primary Colors
-  primaryAccent: "#F23D3D", // SiriusXM-inspired red
-  primary: "#F23D3D", // Alias for primaryAccent
+  // Primary Colors - Calming & Eye-Friendly Design System
+  primary: "#6366F1", // Indigo - Calming blue-purple
+  primaryAccent: "#6366F1", // Alias for primary
+  secondary: "#8B5CF6", // Violet - Soft purple
+  accent: "#06B6D4", // Cyan - Gentle blue-green
+  highlight: "#F59E0B", // Amber - Warm orange
 
-  // Background Colors
-  background: "#0A0A0A",
-  surface: "#1A1A1A",
-  surfaceVariant: "#2A2A2A",
-  inputBackground: "#1A1A1A",
-  backgroundSecondary: "#111111", // Slightly lighter black for cards
-  backgroundTertiary: "#222222", // For buttons and interactive elements
+  // Background Colors - Sophisticated dark theme
+  background: "#0F0F23", // Deep navy-black
+  surface: "#1A1A2E", // Dark blue-gray
+  surfaceVariant: "#16213E", // Medium blue-gray
+  inputBackground: "#1A1A2E",
+  backgroundSecondary: "#151530",
+  backgroundTertiary: "#1E1E3F",
 
   // Text Colors
-  textPrimary: "#FFFFFF",
-  textSecondary: "#B0B0B0",
-  textTertiary: "#808080",
+  textPrimary: "#F8FAFC", // Soft white
+  textSecondary: "#CBD5E1", // Light gray-blue
+  textTertiary: "#94A3B8", // Medium gray-blue
 
-  // Status Colors
-  success: "#4CAF50",
-  warning: "#FF9800",
-  error: "#F44336",
-  info: "#2196F3",
+  // Status Colors - Calming variants
+  success: "#10B981", // Emerald - Soft green
+  warning: "#F59E0B", // Amber - Warm orange
+  error: "#EF4444", // Red - Soft red
+  info: "#06B6D4", // Cyan - Gentle blue
 
   // Overlay Colors
-  overlay: "rgba(0, 0, 0, 0.7)",
-  overlayLight: "rgba(255, 255, 255, 0.1)",
-  overlayMedium: "rgba(255, 255, 255, 0.2)",
+  overlay: "rgba(15, 15, 35, 0.8)", // Dark overlay
+  overlayLight: "rgba(99, 102, 241, 0.1)", // Indigo glow
+  overlayMedium: "rgba(99, 102, 241, 0.2)", // Stronger indigo glow
 
   // UI Elements
-  divider: "#333333", // Line separators
+  divider: "#334155", // Slate gray
 } as const;
 
 export const SPACING = {
@@ -48,8 +51,8 @@ export const SIZES = {
   buttonHeight: 56,
   inputHeight: 56,
   borderRadius: 12,
-  cardBorderRadius: 12, // Rounded cards like in SiriusXM
-  miniPlayerHeight: 60, // Height for the mini player
+  cardBorderRadius: 12,
+  miniPlayerHeight: 60,
 
   // Icon Sizes
   iconSmall: 16,
@@ -62,28 +65,28 @@ export const SIZES = {
   avatarMedium: 48,
   avatarLarge: 64,
   avatarXLarge: 96,
-  miniAvatarSize: 40, // Smaller avatar size
+  miniAvatarSize: 40,
 } as const;
 
 export const SHADOWS = {
   small: {
-    shadowColor: "#000",
+    shadowColor: "#6366F1",
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.25,
+    shadowOpacity: 0.15,
     shadowRadius: 3.84,
     elevation: 5,
   },
   medium: {
-    shadowColor: "#000",
+    shadowColor: "#6366F1",
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
+    shadowOpacity: 0.2,
     shadowRadius: 4.65,
     elevation: 8,
   },
   large: {
-    shadowColor: "#000",
+    shadowColor: "#6366F1",
     shadowOffset: { width: 0, height: 6 },
-    shadowOpacity: 0.35,
+    shadowOpacity: 0.25,
     shadowRadius: 5.84,
     elevation: 12,
   },

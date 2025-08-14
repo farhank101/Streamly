@@ -25,20 +25,8 @@ const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
 export default function NowPlayingScreen() {
   const router = useRouter();
-  const {
-    currentTrack,
-    isPlaying,
-    position,
-    duration,
-    play,
-    pause,
-    seek,
-    next,
-    previous,
-    queue,
-    isLooping,
-    setLooping,
-  } = usePlayer();
+  const { currentTrack, isPlaying, position, duration, play, pause, seek } =
+    usePlayer();
   const { isAuthenticated } = useAuth();
 
   const [isLiked, setIsLiked] = useState(false);
@@ -142,11 +130,8 @@ export default function NowPlayingScreen() {
         <View style={styles.headerTitleContainer}>
           <Text style={styles.headerTitle}>Now Playing</Text>
         </View>
-        <TouchableOpacity
-          style={styles.queueButton}
-          onPress={() => router.push("/queue")}
-        >
-          <Ionicons name="list" size={24} color={COLORS.textPrimary} />
+        <TouchableOpacity style={styles.queueButton} onPress={() => {}}>
+          <Ionicons name="list" size={24} color={COLORS.textSecondary} />
         </TouchableOpacity>
       </View>
 
@@ -156,7 +141,9 @@ export default function NowPlayingScreen() {
           source={
             currentTrack.thumbnailUrl
               ? { uri: currentTrack.thumbnailUrl }
-              : { uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==' }
+              : {
+                  uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+                }
           }
           style={styles.artwork}
           resizeMode="cover"
@@ -226,17 +213,19 @@ export default function NowPlayingScreen() {
           <Ionicons name="shuffle" size={24} color={COLORS.textSecondary} />
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.controlButton} onPress={previous}>
+        <TouchableOpacity style={styles.controlButton} onPress={() => {}}>
           <Ionicons
             name="play-skip-back"
             size={32}
-            color={COLORS.textPrimary}
+            color={COLORS.textSecondary}
           />
         </TouchableOpacity>
 
         <TouchableOpacity
           style={styles.playPauseButton}
-          onPress={() => (isPlaying ? pause() : play())}
+          onPress={() =>
+            isPlaying ? pause() : currentTrack ? play(currentTrack) : null
+          }
         >
           <Ionicons
             name={isPlaying ? "pause" : "play"}
@@ -245,23 +234,16 @@ export default function NowPlayingScreen() {
           />
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.controlButton} onPress={next}>
+        <TouchableOpacity style={styles.controlButton} onPress={() => {}}>
           <Ionicons
             name="play-skip-forward"
             size={32}
-            color={COLORS.textPrimary}
+            color={COLORS.textSecondary}
           />
         </TouchableOpacity>
 
-        <TouchableOpacity
-          style={styles.controlButton}
-          onPress={() => setLooping(!isLooping)}
-        >
-          <Ionicons
-            name={isLooping ? "repeat" : "repeat"}
-            size={24}
-            color={isLooping ? COLORS.primaryAccent : COLORS.textSecondary}
-          />
+        <TouchableOpacity style={styles.controlButton} onPress={() => {}}>
+          <Ionicons name="repeat" size={24} color={COLORS.textSecondary} />
         </TouchableOpacity>
       </View>
 

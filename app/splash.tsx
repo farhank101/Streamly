@@ -1,317 +1,82 @@
 /**
  * Splash Screen
- * Beautiful introduction screen with Streamly branding
+ * Inspired by SiriusXM app's splash screen
  */
 
-import React, { useEffect } from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-  Dimensions,
-  StatusBar,
-} from "react-native";
-import { useRouter } from "expo-router";
-import { LinearGradient } from "expo-linear-gradient";
-import { Ionicons } from "@expo/vector-icons";
-import { COLORS, SPACING, SIZES, SHADOWS, FONTS } from "../constants/theme";
-import { useAuth } from "../context/AuthContext";
-
-const { width, height } = Dimensions.get("window");
+import React, { useEffect } from 'react';
+import { View, Text, StyleSheet, Image, Animated } from 'react-native';
+import { useRouter } from 'expo-router';
+import { COLORS, SHADOWS } from '../constants/theme';
 
 export default function SplashScreen() {
   const router = useRouter();
-  const { isAuthenticated } = useAuth();
-
+  const fadeAnim = new Animated.Value(0);
+  
   useEffect(() => {
-    // Auto-navigate after 3 seconds or when auth state changes
+    // Fade in animation
+    Animated.timing(fadeAnim, {
+      toValue: 1,
+      duration: 1000,
+      useNativeDriver: true,
+    }).start();
+    
+    // Navigate to onboarding or main app after timeout
     const timer = setTimeout(() => {
-      if (isAuthenticated) {
-        router.replace("/(tabs)");
+      // Check if user has completed onboarding before
+      const hasCompletedOnboarding = false; // This would be a real check in production
+      
+      if (hasCompletedOnboarding) {
+        router.replace('/(tabs)');
       } else {
-        router.replace("onboarding");
+        router.replace('/onboarding');
       }
-    }, 3000);
-
+    }, 2000);
+    
     return () => clearTimeout(timer);
-  }, [isAuthenticated, router]);
-
-  // Manual navigation
-  const handleGetStarted = () => {
-    router.push("/(auth)/register");
-  };
-
-  const handleSignIn = () => {
-    router.push("/(auth)/login");
-  };
-
+  }, []);
+  
   return (
-    <LinearGradient
-      colors={[COLORS.background, "#1a1a2e", "#16213e", "#0f3460"]}
-      style={styles.container}
-    >
-      <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
-
-      <View style={styles.backgroundNotes}>
-        <Ionicons
-          name="musical-note"
-          size={24}
-          color="rgba(255, 255, 255, 0.1)"
-          style={styles.note1}
-        />
-        <Ionicons
-          name="musical-notes"
-          size={20}
-          color="rgba(255, 255, 255, 0.08)"
-          style={styles.note2}
-        />
-        <Ionicons
-          name="musical-note"
-          size={28}
-          color="rgba(255, 255, 255, 0.06)"
-          style={styles.note3}
-        />
-        <Ionicons
-          name="musical-notes"
-          size={16}
-          color="rgba(255, 255, 255, 0.1)"
-          style={styles.note4}
-        />
-        <Ionicons
-          name="musical-note"
-          size={22}
-          color="rgba(255, 255, 255, 0.08)"
-          style={styles.note5}
-        />
-      </View>
-
-      <View style={styles.content}>
-        <View style={styles.brandingContainer}>
-          <View style={styles.logoContainer}>
-            <View style={styles.logo}>
-              <Ionicons
-                name="musical-notes"
-                size={48}
-                color={COLORS.primaryAccent}
-              />
-            </View>
-          </View>
-
-          <Text style={styles.appName}>Streamly</Text>
-          <Text style={styles.tagline}>Your music, everywhere</Text>
-          <Text style={styles.subtitle}>
-            Discover, stream, and enjoy millions of songs from multiple
-            platforms
-          </Text>
+    <View style={styles.container}>
+      <Animated.View style={[styles.logoContainer, { opacity: fadeAnim }]}>
+        {/* Replace with your actual logo */}
+        <View style={styles.logoCircle}>
+          <Text style={styles.logoText}>S</Text>
         </View>
-
-        <View style={styles.featuresContainer}>
-          <View style={styles.featureItem}>
-            <View style={styles.featureIcon}>
-              <Ionicons
-                name="play-circle"
-                size={24}
-                color={COLORS.primaryAccent}
-              />
-            </View>
-            <Text style={styles.featureText}>Unlimited Streaming</Text>
-          </View>
-
-          <View style={styles.featureItem}>
-            <View style={styles.featureIcon}>
-              <Ionicons name="search" size={24} color={COLORS.primaryAccent} />
-            </View>
-            <Text style={styles.featureText}>Smart Search</Text>
-          </View>
-
-          <View style={styles.featureItem}>
-            <View style={styles.featureIcon}>
-              <Ionicons name="heart" size={24} color={COLORS.primaryAccent} />
-            </View>
-            <Text style={styles.featureText}>Personalized</Text>
-          </View>
-        </View>
-      </View>
-
-      <View style={styles.actionContainer}>
-        <TouchableOpacity
-          style={styles.getStartedButton}
-          onPress={handleGetStarted}
-        >
-          <Text style={styles.getStartedButtonText}>Get Started</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.signInButton} onPress={handleSignIn}>
-          <Text style={styles.signInButtonText}>Sign In</Text>
-        </TouchableOpacity>
-      </View>
-
-      <View style={styles.footer}>
-        <Text style={styles.footerText}>
-          By continuing, you agree to our Terms of Service and Privacy Policy
-        </Text>
-      </View>
-    </LinearGradient>
+        <Text style={styles.appName}>Streamly</Text>
+      </Animated.View>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "space-between",
-  },
-  backgroundNotes: {
-    position: "absolute",
-    width: "100%",
-    height: "100%",
-  },
-  note1: {
-    position: "absolute",
-    top: height * 0.15,
-    left: width * 0.1,
-    transform: [{ rotate: "15deg" }],
-  },
-  note2: {
-    position: "absolute",
-    top: height * 0.25,
-    right: width * 0.15,
-    transform: [{ rotate: "-20deg" }],
-  },
-  note3: {
-    position: "absolute",
-    top: height * 0.4,
-    left: width * 0.2,
-    transform: [{ rotate: "45deg" }],
-  },
-  note4: {
-    position: "absolute",
-    top: height * 0.6,
-    right: width * 0.1,
-    transform: [{ rotate: "-30deg" }],
-  },
-  note5: {
-    position: "absolute",
-    top: height * 0.7,
-    left: width * 0.15,
-    transform: [{ rotate: "60deg" }],
-  },
-  content: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    paddingHorizontal: SPACING.xl,
-  },
-  brandingContainer: {
-    alignItems: "center",
-    marginBottom: SPACING.xxl * 2,
+    backgroundColor: COLORS.background,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   logoContainer: {
-    marginBottom: SPACING.lg,
+    alignItems: 'center',
   },
-  logo: {
+  logoCircle: {
     width: 120,
     height: 120,
     borderRadius: 60,
-    backgroundColor: "rgba(255, 255, 255, 0.1)",
-    alignItems: "center",
-    justifyContent: "center",
+    backgroundColor: COLORS.primaryAccent,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 20,
     ...SHADOWS.large,
-    borderWidth: 2,
-    borderColor: "rgba(255, 255, 255, 0.2)",
+  },
+  logoText: {
+    fontSize: 70,
+    fontFamily: 'InterBold',
+    color: COLORS.textPrimary,
   },
   appName: {
+    fontSize: 36,
+    fontFamily: 'InterBold',
     color: COLORS.textPrimary,
-    marginBottom: SPACING.sm,
-    textAlign: "center",
-    fontFamily: FONTS.family.oswaldBold,
-    fontSize: 48,
-  },
-  tagline: {
-    color: COLORS.textSecondary,
-    marginBottom: SPACING.md,
-    textAlign: "center",
-    fontFamily: FONTS.family.oswaldSemiBold,
-    fontSize: 18,
-  },
-  subtitle: {
-    color: COLORS.textTertiary,
-    textAlign: "center",
-    lineHeight: 24,
-    maxWidth: width * 0.8,
-    fontFamily: FONTS.family.interRegular,
-    fontSize: 18,
-  },
-  featuresContainer: {
-    width: "100%",
-    maxWidth: 300,
-  },
-  featureItem: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginBottom: SPACING.lg,
-  },
-  featureIcon: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
-    backgroundColor: "rgba(255, 255, 255, 0.1)",
-    alignItems: "center",
-    justifyContent: "center",
-    marginRight: SPACING.md,
-  },
-  featureText: {
-    color: COLORS.textPrimary,
-    fontFamily: FONTS.family.interRegular,
-    fontSize: 16,
-  },
-  actionContainer: {
-    paddingHorizontal: SPACING.xl,
-    paddingBottom: SPACING.xl,
-  },
-  getStartedButton: {
-    backgroundColor: COLORS.primaryAccent,
-    borderRadius: SIZES.borderRadius,
-    height: SIZES.buttonHeight,
-    alignItems: "center",
-    justifyContent: "center",
-    marginBottom: SPACING.md,
-    ...SHADOWS.medium,
-  },
-  getStartedButtonText: {
-    color: COLORS.textPrimary,
-    textTransform: "uppercase",
-    fontFamily: FONTS.family.interSemiBold,
-    fontSize: 16,
-  },
-  signInButton: {
-    backgroundColor: "transparent",
-    borderRadius: SIZES.borderRadius,
-    height: SIZES.buttonHeight,
-    alignItems: "center",
-    justifyContent: "center",
-    borderWidth: 2,
-    borderColor: "rgba(255, 255, 255, 0.3)",
-  },
-  signInButtonText: {
-    color: COLORS.textPrimary,
-    textTransform: "uppercase",
-    fontFamily: FONTS.family.interMedium,
-    fontSize: 16,
-  },
-  footer: {
-    paddingHorizontal: SPACING.xl,
-    paddingBottom: SPACING.lg,
-  },
-  footerText: {
-    color: COLORS.textTertiary,
-    textAlign: "center",
-    lineHeight: 18,
-    fontFamily: FONTS.family.interRegular,
-    fontSize: 12,
+    letterSpacing: 1,
   },
 });

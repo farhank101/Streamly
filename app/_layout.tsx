@@ -10,6 +10,7 @@ import { View, Text, ActivityIndicator } from "react-native";
 import { AuthProvider, useAuth } from "../context/AuthContext";
 import { PlayerProvider } from "../context/PlayerContext";
 import { useFonts } from "../hooks/useFonts";
+import { storage } from "../services/storage";
 import { COLORS, SPACING, FONTS } from "../constants/theme";
 
 // Loading component
@@ -87,9 +88,25 @@ function MainAppLayout() {
 function AppLayout() {
   const { isAuthenticated, isLoading } = useAuth();
   const { fontsLoaded } = useFonts();
+  const [storageInitialized, setStorageInitialized] = React.useState(false);
 
-  // Show loading component while fonts are loading or auth is checking
-  if (!fontsLoaded || isLoading) {
+  // Initialize storage
+  React.useEffect(() => {
+    const initStorage = async () => {
+      try {
+        await storage.init();
+        setStorageInitialized(true);
+      } catch (error) {
+        console.error("Failed to initialize storage:", error);
+        // Continue without storage for now
+        setStorageInitialized(true);
+      }
+    };
+    initStorage();
+  }, []);
+
+  // Show loading component while fonts are loading, auth is checking, or storage is initializing
+  if (!fontsLoaded || isLoading || !storageInitialized) {
     return <LoadingComponent />;
   }
 

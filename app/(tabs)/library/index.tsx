@@ -7,8 +7,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { COLORS, SPACING } from '../../../constants/theme';
-import { useAuth } from '../../../hooks/useAuth';
+import { COLORS, SPACING, TYPOGRAPHY } from '../../../constants/theme';
 
 // Tab components
 import PlaylistsTab from './playlists';
@@ -19,29 +18,10 @@ type TabType = 'playlists' | 'liked' | 'history';
 
 export default function LibraryScreen() {
   const router = useRouter();
-  const { user, isAuthenticated } = useAuth();
-  const [activeTab, setActiveTab] = useState<TabType>('playlists');
+  const [activeTab, setActiveTab] = useState<TabType>('history');
 
   // Render the appropriate tab content
   const renderTabContent = () => {
-    if (!isAuthenticated) {
-      return (
-        <View style={styles.authPromptContainer}>
-          <Ionicons name="lock-closed-outline" size={48} color={COLORS.textSecondary} />
-          <Text style={styles.authPromptTitle}>Sign in to view your library</Text>
-          <Text style={styles.authPromptText}>
-            Your playlists, liked songs, and listening history will appear here
-          </Text>
-          <TouchableOpacity 
-            style={styles.signInButton}
-            onPress={() => router.push('/(auth)/login')}
-          >
-            <Text style={styles.signInButtonText}>Sign In</Text>
-          </TouchableOpacity>
-        </View>
-      );
-    }
-
     switch (activeTab) {
       case 'playlists':
         return <PlaylistsTab />;
@@ -50,7 +30,7 @@ export default function LibraryScreen() {
       case 'history':
         return <HistoryTab />;
       default:
-        return <PlaylistsTab />;
+        return <HistoryTab />;
     }
   };
 
@@ -62,42 +42,55 @@ export default function LibraryScreen() {
       </View>
 
       {/* Tab navigation */}
-      {isAuthenticated && (
-        <View style={styles.tabContainer}>
-          <ScrollView 
-            horizontal 
-            showsHorizontalScrollIndicator={false}
-            contentContainerStyle={styles.tabScrollContent}
+      <View style={styles.tabContainer}>
+        <ScrollView 
+          horizontal 
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.tabScrollContent}
+        >
+          <TouchableOpacity 
+            style={[styles.tab, activeTab === 'history' && styles.activeTab]}
+            onPress={() => setActiveTab('history')}
           >
-            <TouchableOpacity 
-              style={[styles.tab, activeTab === 'playlists' && styles.activeTab]}
-              onPress={() => setActiveTab('playlists')}
-            >
-              <Text style={[styles.tabText, activeTab === 'playlists' && styles.activeTabText]}>
-                Playlists
-              </Text>
-            </TouchableOpacity>
-            
-            <TouchableOpacity 
-              style={[styles.tab, activeTab === 'liked' && styles.activeTab]}
-              onPress={() => setActiveTab('liked')}
-            >
-              <Text style={[styles.tabText, activeTab === 'liked' && styles.activeTabText]}>
-                Liked Songs
-              </Text>
-            </TouchableOpacity>
-            
-            <TouchableOpacity 
-              style={[styles.tab, activeTab === 'history' && styles.activeTab]}
-              onPress={() => setActiveTab('history')}
-            >
-              <Text style={[styles.tabText, activeTab === 'history' && styles.activeTabText]}>
-                History
-              </Text>
-            </TouchableOpacity>
-          </ScrollView>
-        </View>
-      )}
+            <Ionicons 
+              name="time-outline" 
+              size={20} 
+              color={activeTab === 'history' ? COLORS.primary : COLORS.textSecondary} 
+            />
+            <Text style={[styles.tabText, activeTab === 'history' && styles.activeTabText]}>
+              History
+            </Text>
+          </TouchableOpacity>
+          
+          <TouchableOpacity 
+            style={[styles.tab, activeTab === 'liked' && styles.activeTab]}
+            onPress={() => setActiveTab('liked')}
+          >
+            <Ionicons 
+              name="heart-outline" 
+              size={20} 
+              color={activeTab === 'liked' ? COLORS.highlight : COLORS.textSecondary} 
+            />
+            <Text style={[styles.tabText, activeTab === 'liked' && styles.activeTabText]}>
+              Liked Songs
+            </Text>
+          </TouchableOpacity>
+          
+          <TouchableOpacity 
+            style={[styles.tab, activeTab === 'playlists' && styles.activeTab]}
+            onPress={() => setActiveTab('playlists')}
+          >
+            <Ionicons 
+              name="list-outline" 
+              size={20} 
+              color={activeTab === 'playlists' ? COLORS.secondary : COLORS.textSecondary} 
+            />
+            <Text style={[styles.tabText, activeTab === 'playlists' && styles.activeTabText]}>
+              Playlists
+            </Text>
+          </TouchableOpacity>
+        </ScrollView>
+      </View>
 
       {/* Tab content */}
       <View style={styles.content}>
@@ -114,71 +107,43 @@ const styles = StyleSheet.create({
   },
   header: {
     paddingHorizontal: SPACING.lg,
-    paddingTop: SPACING.lg,
+    paddingTop: SPACING.xl,
     paddingBottom: SPACING.md,
   },
   headerTitle: {
-    fontSize: 28,
-    fontFamily: 'InterBold',
+    ...TYPOGRAPHY.h1,
     color: COLORS.textPrimary,
   },
   tabContainer: {
     borderBottomWidth: 1,
-    borderBottomColor: 'rgba(255, 255, 255, 0.1)',
+    borderBottomColor: COLORS.divider,
+    marginBottom: SPACING.md,
   },
   tabScrollContent: {
     paddingHorizontal: SPACING.lg,
   },
   tab: {
+    flexDirection: 'row',
+    alignItems: 'center',
     paddingVertical: SPACING.sm,
     paddingHorizontal: SPACING.md,
     marginRight: SPACING.md,
     borderRadius: 20,
   },
   activeTab: {
-    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    backgroundColor: COLORS.primary + '15',
   },
   tabText: {
     fontSize: 14,
-    fontFamily: 'InterRegular',
+    fontFamily: 'InterMedium',
     color: COLORS.textSecondary,
+    marginLeft: SPACING.xs,
   },
   activeTabText: {
-    color: COLORS.textPrimary,
-    fontFamily: 'InterBold',
+    color: COLORS.primary,
+    fontFamily: 'InterSemiBold',
   },
   content: {
     flex: 1,
-  },
-  authPromptContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: SPACING.xl,
-  },
-  authPromptTitle: {
-    fontSize: 20,
-    fontFamily: 'InterBold',
-    color: COLORS.textPrimary,
-    marginTop: SPACING.md,
-    marginBottom: SPACING.sm,
-  },
-  authPromptText: {
-    fontSize: 14,
-    fontFamily: 'InterRegular',
-    color: COLORS.textSecondary,
-    textAlign: 'center',
-    marginBottom: SPACING.lg,
-  },
-  signInButton: {
-    backgroundColor: COLORS.primaryAccent,
-    paddingVertical: SPACING.md,
-    paddingHorizontal: SPACING.lg,
-    borderRadius: 8,
-  },
-  signInButtonText: {
-    fontSize: 16,
-    fontFamily: 'InterBold',
-    color: COLORS.textPrimary,
   },
 });

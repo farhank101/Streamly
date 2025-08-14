@@ -3,8 +3,8 @@
  * Shows detailed information about a track and playback controls
  */
 
-import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView, ActivityIndicator, Share } from 'react-native';
+import React, { useEffect, useState, useCallback } from 'react';
+import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView, ActivityIndicator, Share, Alert } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { COLORS, SPACING } from '../../constants/theme';
@@ -13,7 +13,6 @@ import { usePlayer } from '../../hooks/usePlayer';
 import { useAuth } from '../../hooks/useAuth';
 
 export default function TrackDetailScreen() {
-  // Fixed: Remove type annotation to let TypeScript infer the correct type
   const params = useLocalSearchParams();
   const id = typeof params.id === 'string' ? params.id : (Array.isArray(params.id) ? params.id[0] : undefined);
   
@@ -26,54 +25,74 @@ export default function TrackDetailScreen() {
   const [error, setError] = useState<string | null>(null);
   const [isLiked, setIsLiked] = useState(false);
   
-  // Fetch track details
-  useEffect(() => {
-    const fetchTrackDetails = async () => {
-      if (!id) {
-        setError('No track ID provided');
-        setIsLoading(false);
-        return;
-      }
+  const fetchTrackDetails = useCallback(async () => {
+    if (!id) {
+      setError('No track ID provided');
+      setIsLoading(false);
+      return;
+    }
+    
+    try {
+      setIsLoading(true);
+      setError(null);
       
-      try {
-        setIsLoading(true);
-        setError(null);
-        
-        // In a real app, we would fetch the track details from an API
-        // For now, we'll simulate the data
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        
-        // Mock track data - now we can safely use id as string
-        const mockTrack: Track = {
-          id: id,
-          sourceId: id.startsWith('yt') ? `youtube-${id}` : `audius-${id}`,
-          sourceType: id.startsWith('yt') ? 'youtube' : 'audius',
+      // Simulate loading delay
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      let mockTrack: Track;
+      
+      // Check if it's a YouTube video ID format
+      if (id.length === 11 && /^[a-zA-Z0-9_-]{11}$/.test(id)) {
+        try {
+          const { getYouTubeVideo } = await import('../../services/youtube');
+          const youtubeTrack = await getYouTubeVideo(id);
+          mockTrack = youtubeTrack;
+        } catch (error) {
+          console.error('Failed to fetch YouTube video:', error);
+          // Fallback to mock data
+          mockTrack = {
+            id,
+            sourceId: `youtube-${id}`,
+            sourceType: 'youtube',
+            title: `YouTube Track ${id}`,
+            artist: 'Unknown Artist',
+            duration: 240,
+            thumbnailUrl: 'https://via.placeholder.com/500x500/333333/CCCCCC?text=No+Image',
+            createdAt: new Date(),
+            playCount: 1500,
+          };
+        }
+      } else {
+        // Generate mock track data
+        mockTrack = {
+          id,
+          sourceId: `track-${id}`,
+          sourceType: 'youtube',
           title: `Track ${id}`,
           artist: `Artist for ${id}`,
-          album: `Album for ${id}`,
-          duration: 240, // 4 minutes
-          thumbnailUrl: 'https://via.placeholder.com/500',
+          duration: 240,
+          thumbnailUrl: 'https://via.placeholder.com/500x500/333333/CCCCCC?text=No+Image',
           createdAt: new Date(),
           playCount: 1500,
         };
-        
-        setTrack(mockTrack);
-      } catch (err: any) {
-        console.error('Error fetching track details:', err);
-        setError('Failed to load track details. Please try again.');
-      } finally {
-        setIsLoading(false);
       }
-    };
-
-    fetchTrackDetails();
+      
+      setTrack(mockTrack);
+    } catch (err) {
+      console.error('Error fetching track details:', err);
+      setError('Failed to load track details. Please try again.');
+    } finally {
+      setIsLoading(false);
+    }
   }, [id]);
 
-  // Check if this is the currently playing track
+  useEffect(() => {
+    fetchTrackDetails();
+  }, [fetchTrackDetails]);
+
   const isCurrentTrack = currentTrack?.id === id;
 
-  // Handle play/pause
-  const handlePlayPause = () => {
+  const handlePlayPause = useCallback(() => {
     if (!track) return;
     
     if (isCurrentTrack && isPlaying) {
@@ -81,55 +100,66 @@ export default function TrackDetailScreen() {
     } else {
       play(track);
     }
-  };
+  }, [track, isCurrentTrack, isPlaying, play, pause]);
 
-  // Handle like/unlike
-  const handleLike = async () => {
+  const handleLike = useCallback(async () => {
     if (!isAuthenticated) {
-      // Prompt to sign in
       router.push('/(auth)/login');
       return;
     }
     
-    // Toggle like status
-    setIsLiked(!isLiked);
-    
-    // In a real app, we would call an API to like/unlike the track
-    console.log(`${isLiked ? 'Unlike' : 'Like'} track ${id}`);
-  };
+    try {
+      setIsLiked(prev => !prev);
+      // Add actual API call here
+      console.log(`${isLiked ? 'Unlike' : 'Like'} track ${id}`);
+    } catch (error) {
+      console.error('Error liking track:', error);
+      Alert.alert('Error', 'Failed to update like status. Please try again.');
+      // Revert the state on error
+      setIsLiked(prev => !prev);
+    }
+  }, [isAuthenticated, isLiked, id, router]);
 
-  // Handle add to playlist
-  const handleAddToPlaylist = () => {
+  const handleAddToPlaylist = useCallback(() => {
     if (!isAuthenticated) {
-      // Prompt to sign in
       router.push('/(auth)/login');
       return;
     }
     
-    // In a real app, this would open a modal to select a playlist
+    // Add actual playlist functionality here
     console.log(`Add track ${id} to playlist`);
-  };
+    Alert.alert('Coming Soon', 'Playlist functionality will be available soon!');
+  }, [isAuthenticated, id, router]);
 
-  // Handle share
-  const handleShare = async () => {
+  const handleShare = useCallback(async () => {
     if (!track) return;
     
     try {
-      await Share.share({
+      const result = await Share.share({
         message: `Check out "${track.title}" by ${track.artist} on Streamly!`,
         url: `https://streamly.app/track/${id}`,
       });
+      
+      if (result.action === Share.sharedAction) {
+        console.log('Track shared successfully');
+      }
     } catch (error) {
       console.error('Error sharing track:', error);
+      Alert.alert('Error', 'Failed to share track. Please try again.');
     }
-  };
+  }, [track, id]);
 
-  // Format duration from seconds to mm:ss
-  const formatDuration = (seconds: number) => {
+  const formatDuration = useCallback((seconds: number): string => {
+    if (isNaN(seconds) || seconds < 0) return '0:00';
+    
     const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = seconds % 60;
+    const remainingSeconds = Math.floor(seconds % 60);
     return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
-  };
+  }, []);
+
+  const handleRetry = useCallback(() => {
+    fetchTrackDetails();
+  }, [fetchTrackDetails]);
 
   if (isLoading) {
     return (
@@ -143,23 +173,34 @@ export default function TrackDetailScreen() {
   if (error || !track) {
     return (
       <View style={styles.errorContainer}>
+        <Ionicons name="alert-circle-outline" size={64} color={COLORS.textSecondary} />
         <Text style={styles.errorText}>{error || 'Track not found'}</Text>
-        <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
-          <Text style={styles.backButtonText}>Go Back</Text>
-        </TouchableOpacity>
+        <View style={styles.errorButtonContainer}>
+          <TouchableOpacity style={styles.retryButton} onPress={handleRetry}>
+            <Text style={styles.retryButtonText}>Retry</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
+            <Text style={styles.backButtonText}>Go Back</Text>
+          </TouchableOpacity>
+        </View>
       </View>
     );
   }
 
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
-      {/* Track artwork */}
+    <ScrollView 
+      style={styles.container} 
+      contentContainerStyle={styles.contentContainer}
+      showsVerticalScrollIndicator={false}
+    >
       <View style={styles.artworkContainer}>
         <Image 
           source={{ uri: track.thumbnailUrl }} 
           style={styles.artwork}
           resizeMode="cover"
-          defaultSource={{ uri: 'https://via.placeholder.com/500/333333/CCCCCC?text=No+Image' }}
+          onError={(error) => {
+            console.warn('Image failed to load:', error.nativeEvent.error);
+          }}
         />
         <View style={styles.sourceIconContainer}>
           <Ionicons 
@@ -170,24 +211,21 @@ export default function TrackDetailScreen() {
         </View>
       </View>
 
-      {/* Track info */}
       <View style={styles.infoContainer}>
-        <Text style={styles.title} numberOfLines={2}>{track.title}</Text>
-        <Text style={styles.artist} numberOfLines={1}>{track.artist}</Text>
-        {track.album && (
-          <Text style={styles.album} numberOfLines={1}>{track.album}</Text>
-        )}
+        <Text style={styles.title} numberOfLines={3}>{track.title}</Text>
+        <Text style={styles.artist} numberOfLines={2}>{track.artist}</Text>
         <Text style={styles.stats}>
-          {formatDuration(track.duration)} • {track.playCount?.toLocaleString() || 0} plays
+          {formatDuration(track.duration)} • {(track.playCount || 0).toLocaleString()} plays
         </Text>
       </View>
 
-      {/* Action buttons */}
       <View style={styles.actionContainer}>
         <TouchableOpacity 
           style={styles.actionButton} 
           onPress={handlePlayPause}
           activeOpacity={0.7}
+          accessibilityLabel={isCurrentTrack && isPlaying ? 'Pause track' : 'Play track'}
+          accessibilityRole="button"
         >
           <Ionicons 
             name={isCurrentTrack && isPlaying ? 'pause-circle' : 'play-circle'} 
@@ -201,6 +239,8 @@ export default function TrackDetailScreen() {
             style={styles.secondaryButton} 
             onPress={handleLike}
             activeOpacity={0.7}
+            accessibilityLabel={isLiked ? 'Unlike track' : 'Like track'}
+            accessibilityRole="button"
           >
             <Ionicons 
               name={isLiked ? 'heart' : 'heart-outline'} 
@@ -214,6 +254,8 @@ export default function TrackDetailScreen() {
             style={styles.secondaryButton} 
             onPress={handleAddToPlaylist}
             activeOpacity={0.7}
+            accessibilityLabel="Add to playlist"
+            accessibilityRole="button"
           >
             <Ionicons name="add-circle-outline" size={28} color={COLORS.textPrimary} />
             <Text style={styles.secondaryButtonText}>Add</Text>
@@ -223,6 +265,8 @@ export default function TrackDetailScreen() {
             style={styles.secondaryButton} 
             onPress={handleShare}
             activeOpacity={0.7}
+            accessibilityLabel="Share track"
+            accessibilityRole="button"
           >
             <Ionicons name="share-outline" size={28} color={COLORS.textPrimary} />
             <Text style={styles.secondaryButtonText}>Share</Text>
@@ -230,12 +274,11 @@ export default function TrackDetailScreen() {
         </View>
       </View>
 
-      {/* Related tracks section (placeholder) */}
       <View style={styles.relatedContainer}>
         <Text style={styles.sectionTitle}>You Might Also Like</Text>
         
-        {/* This would be a list of related tracks in a real app */}
         <View style={styles.relatedPlaceholder}>
+          <Ionicons name="musical-notes-outline" size={32} color={COLORS.textSecondary} />
           <Text style={styles.placeholderText}>Related tracks will appear here</Text>
         </View>
       </View>
@@ -249,7 +292,7 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.background,
   },
   contentContainer: {
-    paddingBottom: 120, // Space for mini player and tab bar
+    paddingBottom: 120,
   },
   loadingContainer: {
     flex: 1,
@@ -261,6 +304,7 @@ const styles = StyleSheet.create({
     marginTop: SPACING.md,
     color: COLORS.textPrimary,
     fontFamily: 'InterRegular',
+    fontSize: 16,
   },
   errorContainer: {
     flex: 1,
@@ -272,14 +316,33 @@ const styles = StyleSheet.create({
   errorText: {
     color: COLORS.textPrimary,
     fontFamily: 'InterRegular',
+    fontSize: 16,
     textAlign: 'center',
+    marginTop: SPACING.md,
     marginBottom: SPACING.lg,
   },
-  backButton: {
+  errorButtonContainer: {
+    flexDirection: 'row',
+    gap: SPACING.md,
+  },
+  retryButton: {
     backgroundColor: COLORS.primaryAccent,
     paddingVertical: SPACING.sm,
     paddingHorizontal: SPACING.lg,
     borderRadius: 20,
+  },
+  retryButtonText: {
+    color: COLORS.textPrimary,
+    fontFamily: 'InterBold',
+    fontSize: 14,
+  },
+  backButton: {
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    paddingVertical: SPACING.sm,
+    paddingHorizontal: SPACING.lg,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: COLORS.textSecondary,
   },
   backButtonText: {
     color: COLORS.textPrimary,
@@ -292,14 +355,24 @@ const styles = StyleSheet.create({
     maxWidth: 350,
     alignSelf: 'center',
     marginTop: SPACING.xl,
+    marginHorizontal: SPACING.lg,
     borderRadius: 8,
     backgroundColor: 'rgba(255, 255, 255, 0.1)',
     position: 'relative',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 8,
   },
   artwork: {
     width: '100%',
     height: '100%',
     borderRadius: 8,
+    backgroundColor: 'rgba(255, 255, 255, 0.05)',
   },
   sourceIconContainer: {
     position: 'absolute',
@@ -319,6 +392,7 @@ const styles = StyleSheet.create({
     color: COLORS.textPrimary,
     textAlign: 'center',
     marginBottom: SPACING.xs,
+    lineHeight: 30,
   },
   artist: {
     fontSize: 18,
@@ -326,6 +400,7 @@ const styles = StyleSheet.create({
     color: COLORS.textSecondary,
     textAlign: 'center',
     marginBottom: SPACING.xs,
+    lineHeight: 22,
   },
   album: {
     fontSize: 14,
@@ -333,6 +408,7 @@ const styles = StyleSheet.create({
     color: COLORS.textSecondary,
     textAlign: 'center',
     marginBottom: SPACING.sm,
+    lineHeight: 18,
   },
   stats: {
     fontSize: 12,
@@ -351,9 +427,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     width: '80%',
+    maxWidth: 300,
   },
   secondaryButton: {
     alignItems: 'center',
+    padding: SPACING.sm,
   },
   secondaryButtonText: {
     marginTop: SPACING.xs,
@@ -378,9 +456,11 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     justifyContent: 'center',
     alignItems: 'center',
+    gap: SPACING.sm,
   },
   placeholderText: {
     color: COLORS.textSecondary,
     fontFamily: 'InterRegular',
+    textAlign: 'center',
   },
 });

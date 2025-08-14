@@ -5,6 +5,7 @@
 
 import { createClient } from "@supabase/supabase-js";
 import { Database } from "../types/database";
+import { storage } from "./storage";
 
 import { config } from "../config/environment";
 
@@ -174,6 +175,105 @@ export const updateUserProfile = async (userId: string, updates: any) => {
     .single();
 
   return { data, error };
+};
+
+/**
+ * Delete current user's account and associated data.
+ * Note: Deleting the auth user requires a Supabase Edge Function with a service role key.
+ * This function will:
+ * 1) Delete user-owned rows from public tables
+ * 2) Clear local storage data
+ * 3) Invoke the `delete-account` edge function to remove the auth user (if configured)
+ */
+export const deleteUserAccount = async (): Promise<{
+  error: { message: string } | null;
+  authDeletionAttempted: boolean;
+}> => {
+  try {
+    // Get the current authenticated user
+    const { data: userResult, error: userError } =
+      await supabase.auth.getUser();
+    if (userError || !userResult?.user) {
+      return {
+        error: { message: userError?.message || "Not authenticated" },
+        authDeletionAttempted: false,
+      };
+    }
+
+    const userId = userResult.user.id;
+
+    // 1) Delete user data from application tables (scoped by RLS to the current user)
+    // Listen history
+    await supabase.from("listen_history").delete().eq("user_id", userId);
+
+    // Liked tracks
+    await supabase.from("liked_tracks").delete().eq("user_id", userId);
+
+    // Follows (both directions)
+    await supabase
+      .from("user_follows")
+      .delete()
+      .or(`follower_id.eq.${userId},following_id.eq.${userId}`);
+
+    // Playlists and related playlist_tracks
+    const { data: playlists } = await supabase
+      .from("playlists")
+      .select("id")
+      .eq("user_id", userId);
+
+    const playlistIds = (playlists || []).map((p: { id: string }) => p.id);
+    if (playlistIds.length > 0) {
+      await supabase
+        .from("playlist_tracks")
+        .delete()
+        .in("playlist_id", playlistIds);
+    }
+
+    await supabase.from("playlists").delete().eq("user_id", userId);
+
+    // Users profile row
+    await supabase.from("users").delete().eq("id", userId);
+
+    // 2) Clear local storage data
+    try {
+      await storage.clearAllUserData();
+    } catch (storageError) {
+      console.warn("Failed to clear local storage:", storageError);
+      // Continue with account deletion even if local storage cleanup fails
+    }
+
+    // 3) Attempt to delete the auth user via Edge Function (requires service role on server)
+    try {
+      const { error: fnError } = await supabase.functions.invoke(
+        "delete-account",
+        {
+          body: { userId },
+        }
+      );
+      if (fnError) {
+        // Edge function not configured or failed; app data is removed already
+        return {
+          error: { message: fnError.message || "Auth deletion failed" },
+          authDeletionAttempted: true,
+        };
+      }
+    } catch (invokeError: any) {
+      return {
+        error: { message: invokeError?.message || "Auth deletion failed" },
+        authDeletionAttempted: true,
+      };
+    }
+
+    // Sign out locally to clear session
+    await supabase.auth.signOut();
+
+    return { error: null, authDeletionAttempted: true };
+  } catch (error: any) {
+    return {
+      error: { message: error?.message || "Failed to delete account" },
+      authDeletionAttempted: false,
+    };
+  }
 };
 
 export default supabase;

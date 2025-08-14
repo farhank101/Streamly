@@ -19,7 +19,7 @@ import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
 import { COLORS, SPACING, SIZES, SHADOWS, FONTS } from "../../constants/theme";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../hooks/useAuth";
 
 export default function LoginScreen() {
   const router = useRouter();

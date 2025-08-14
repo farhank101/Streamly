@@ -1,52 +1,86 @@
 /**
  * Track Types
- * Type definitions for music tracks from various sources
+ * Type definitions for music tracks and related data structures
  */
 
-export type TrackSource = 'youtube' | 'audius';
+export type TrackSource = 'youtube';
 
 export interface Track {
-  id: string;
-  sourceId: string;      // YouTube or Audius ID
+  id: string;           // Unique identifier
+  sourceId: string;     // YouTube ID
   sourceType: TrackSource;
-  title: string;
-  artist: string;
+  title: string;        // Track title
+  artist: string;       // Artist name
+  duration: number;     // Duration in seconds
+  thumbnailUrl: string; // Album art URL
+  createdAt: Date;      // When track was added
+  playCount?: number;   // Number of times played
+  liked?: boolean;      // Whether user liked this track
+  playlistId?: string;  // If part of a playlist
+}
+
+export interface TrackSearchResult {
+  tracks: Track[];
+  totalResults: number;
+  nextPageToken?: string;
+}
+
+export interface TrackMetadata {
   album?: string;
-  duration: number;      // in seconds
-  thumbnailUrl: string;
-  createdAt: Date;
-  playCount: number;
+  genre?: string;
+  year?: number;
+  lyrics?: string;
+  description?: string;
+  tags?: string[];
 }
 
-export interface PlaylistTrack extends Track {
-  position: number;
-  addedAt: Date;
+// Extended track with metadata
+export interface TrackWithMetadata extends Track {
+  metadata?: TrackMetadata;
 }
 
-export interface LikedTrack extends Track {
-  likedAt: Date;
-}
-
-export interface HistoryTrack extends Track {
-  listenedAt: Date;
-  completed: boolean;
-  listenDuration: number; // in seconds
-}
-
-export interface YouTubeTrack {
+// Playlist interface
+export interface Playlist {
   id: string;
+  name: string;
+  description?: string;
+  tracks: Track[];
+  createdAt: Date;
+  updatedAt: Date;
+  isPublic: boolean;
+}
+
+// Search filters
+export interface SearchFilters {
+  query: string;
+  sourceType?: TrackSource;
+  duration?: {
+    min?: number;
+    max?: number;
+  };
+  sortBy?: 'relevance' | 'date' | 'title' | 'artist';
+  limit?: number;
+}
+
+// API Response interfaces
+export interface YouTubeVideo {
+  id: {
+    videoId: string;
+  };
   snippet: {
     title: string;
-    channelTitle: string;
+    description: string;
     thumbnails: {
       default: { url: string };
       medium: { url: string };
       high: { url: string };
     };
+    channelTitle: string;
     publishedAt: string;
+    duration?: string;
   };
   contentDetails?: {
-    duration: string; // ISO 8601 format
+    duration: string;
   };
   statistics?: {
     viewCount: string;
@@ -54,25 +88,13 @@ export interface YouTubeTrack {
   };
 }
 
-// Legacy provider interface removed; app standardizes on YouTube and Audius
-
-export interface AudiusTrack {
-  id: string;
-  title: string;
-  user: {
-    name: string;
-  };
-  artwork: {
-    '150x150'?: string;
-    '480x480'?: string;
-  };
-  duration: number; // in seconds
-  created_at: string;
-  play_count: number;
-}
-
-// Utility type for track search results
-export interface TrackSearchResult {
-  tracks: Track[];
+export interface YouTubeSearchResponse {
+  items: YouTubeVideo[];
   nextPageToken?: string;
+  pageInfo: {
+    totalResults: number;
+    resultsPerPage: number;
+  };
 }
+
+// Legacy provider interface removed; app standardizes on YouTube

@@ -1,64 +1,65 @@
 /**
  * Audio Service
- * Handles all audio playback functionality using Expo AV
+ * Handles audio playback using Expo AV
  */
 
 import { Audio } from "expo-av";
 import { Track } from "../types/track";
-import { config } from "../config/environment";
 
-export interface AudioState {
+// Audio player state
+export interface AudioPlayerState {
   isPlaying: boolean;
   isLoaded: boolean;
-  duration: number;
-  position: number;
-  volume: number;
-  rate: number;
-  isLooping: boolean;
-  shouldPlay: boolean;
+  currentTrack: Track | null;
+  position: number; // Current position in seconds
+  duration: number; // Total duration in seconds
   isBuffering: boolean;
   error: string | null;
+  volume: number;
 }
 
+// Audio controls
 export interface AudioControls {
   play: () => Promise<void>;
-  pause: () => Promise<void>;
-  stop: () => Promise<void>;
-  seek: (position: number) => Promise<void>;
-  setVolume: (volume: number) => Promise<void>;
-  setRate: (rate: number) => Promise<void>;
-  setLooping: (looping: boolean) => Promise<void>;
+  pause: () => void;
+  stop: () => void;
+  seek: (position: number) => void;
+  setVolume: (volume: number) => void;
+  setPlaybackRate: (rate: number) => void;
 }
 
+// Audio service class
 class AudioService {
   private sound: Audio.Sound | null = null;
   private currentTrack: Track | null = null;
-  private statusUpdateInterval: NodeJS.Timeout | null = null;
-  private listeners: Set<(state: AudioState) => void> = new Set();
-
-  private state: AudioState = {
+  private state: AudioPlayerState = {
     isPlaying: false,
     isLoaded: false,
-    duration: 0,
+    currentTrack: null,
     position: 0,
-    volume: 1.0,
-    rate: 1.0,
-    isLooping: false,
-    shouldPlay: false,
+    duration: 0,
     isBuffering: false,
     error: null,
+    volume: 1.0,
   };
 
+  private listeners: ((state: AudioPlayerState) => void)[] = [];
+  private isLoading: boolean = false;
+
   constructor() {
-    this.initializeAudio();
+    this.initializePlayer();
   }
 
-  private async initializeAudio() {
+  private async initializePlayer() {
     try {
+      console.log("🔧 Initializing audio service...");
+
       // Request audio permissions
       const { status } = await Audio.requestPermissionsAsync();
+      console.log("📱 Audio permission status:", status);
+
       if (status !== "granted") {
-        throw new Error("Audio permission not granted");
+        console.warn("⚠️ Audio permission not granted, but continuing...");
       }
 
       // Set audio mode for background playback
@@ -70,21 +71,94 @@ class AudioService {
         playThroughEarpieceAndroid: false,
       });
 
-      // Create sound object
+      console.log("✅ Audio service initialized successfully");
+    } catch (error) {
+      console.error("❌ Failed to initialize audio service:", error);
+      this.state.error = "Failed to initialize audio player";
+      this.notifyListeners();
+    }
+  }
+
+  // Get current state
+  getState(): AudioPlayerState {
+    return { ...this.state };
+  }
+
+  // Subscribe to state changes
+  subscribe(listener: (state: AudioPlayerState) => void): () => void {
+    this.listeners.push(listener);
+    return () => {
+      const index = this.listeners.indexOf(listener);
+      if (index > -1) {
+        this.listeners.splice(index, 1);
+      }
+    };
+  }
+
+  // Notify all listeners of state changes
+  private notifyListeners() {
+    this.listeners.forEach((listener) => listener(this.getState()));
+  }
+
+  // Play a track
+  async playTrack(track: Track): Promise<void> {
+    try {
+      console.log("🎵 Playing track:", track.title);
+
+      // Prevent concurrent loading
+      if (this.isLoading) {
+        console.log("⏳ Already loading, skipping...");
+        return;
+      }
+
+      this.isLoading = true;
+      this.state.isBuffering = true;
+      this.state.error = null;
+      this.notifyListeners();
+
+      // Unload current track if different
+      if (this.currentTrack && this.currentTrack.id !== track.id) {
+        if (this.sound) {
+          await this.sound.unloadAsync();
+          this.sound = null;
+        }
+      }
+
+      this.currentTrack = track;
+      this.state.currentTrack = track;
+
+      // Get streaming URL - for now, use a simple approach
+      const streamUrl = this.getStreamUrl(track);
+      console.log("🔗 Stream URL:", streamUrl);
+
+      // Create new sound object
       this.sound = new Audio.Sound();
 
       // Set up status update listener
       this.sound.setOnPlaybackStatusUpdate(this.handleStatusUpdate.bind(this));
 
-      console.log("✅ Audio service initialized successfully");
-    } catch (error) {
-      console.error("❌ Failed to initialize audio service:", error);
-      this.state.error =
-        error instanceof Error ? error.message : "Unknown error";
+      // Load the audio source
+      await this.sound.loadAsync({ uri: streamUrl });
+
+      // Start playing
+      await this.sound.playAsync();
+
+      this.state.isPlaying = true;
+      this.state.isBuffering = false;
       this.notifyListeners();
+
+      console.log(`✅ Now playing: ${track.title} by ${track.artist}`);
+    } catch (error) {
+      console.error("❌ Failed to play track:", error);
+      this.state.error = "Failed to play track";
+      this.state.isBuffering = false;
+      this.notifyListeners();
+    } finally {
+      this.isLoading = false;
     }
   }
 
+  // Handle playback status updates
   private handleStatusUpdate(status: any) {
     if (!status.isLoaded) {
       this.state.isLoaded = false;
@@ -102,219 +176,133 @@ class AudioService {
         ? status.positionMillis / 1000
         : 0;
       this.state.volume = status.volume || 1.0;
-      this.state.rate = status.rate || 1.0;
-      this.state.isLooping = status.isLooping || false;
-      this.state.shouldPlay = status.shouldPlay || false;
       this.state.isBuffering = status.isBuffering || false;
     }
 
     this.notifyListeners();
   }
 
-  private notifyListeners() {
-    this.listeners.forEach((listener) => listener({ ...this.state }));
-  }
-
-  public addListener(listener: (state: AudioState) => void) {
-    this.listeners.add(listener);
-    // Immediately notify with current state
-    listener({ ...this.state });
-  }
-
-  public removeListener(listener: (state: AudioState) => void) {
-    this.listeners.delete(listener);
-  }
-
-  public async loadTrack(track: Track): Promise<void> {
-    try {
-      if (!this.sound) {
-        throw new Error("Audio service not initialized");
-      }
-
-      this.currentTrack = track;
-      this.state.error = null;
-
-      // Get streaming URL based on track source
-      const streamUrl = await this.getStreamUrl(track);
-
-      // Load the audio source
-      await this.sound.loadAsync({ uri: streamUrl });
-
-      console.log(`✅ Loaded track: ${track.title}`);
-    } catch (error) {
-      console.error("❌ Failed to load track:", error);
-      this.state.error =
-        error instanceof Error ? error.message : "Unknown error";
-      this.notifyListeners();
-      throw error;
-    }
-  }
-
-  private async getStreamUrl(track: Track): Promise<string> {
-    // This is a placeholder - in a real implementation, you would:
-    // 1. For YouTube: Use a service like youtube-dl or similar to get direct stream URLs
-    // 2. For Audius: Use their streaming endpoints
-
+  // Get streaming URL for a track
+  private getStreamUrl(track: Track): string {
     if (track.sourceType === "youtube") {
-      // For development, return a placeholder
-      // In production, you'd need to implement YouTube stream URL extraction
-      return `https://example.com/youtube/${track.sourceId}`;
-    } else if (track.sourceType === "audius") {
-      // Audius streaming URL format
-      return `https://discoveryprovider.audius.co/v1/tracks/${track.sourceId}/stream`;
+      // For now, use a simple approach with direct YouTube URLs
+      // In a real app, you'd use a service to extract audio streams
+      return `https://www.youtube.com/watch?v=${track.sourceId}`;
+    } else {
+      throw new Error(`Unsupported source type: ${track.sourceType}`);
     }
-
-    throw new Error(`Unsupported track source: ${track.sourceType}`);
   }
 
-  public async play(): Promise<void> {
-    try {
-      if (!this.sound || !this.state.isLoaded) {
-        throw new Error("No track loaded");
-      }
+  // Play current track
+  async play(): Promise<void> {
+    if (!this.sound) {
+      throw new Error("No track loaded");
+    }
 
+    try {
       await this.sound.playAsync();
       console.log("▶️ Playback started");
     } catch (error) {
       console.error("❌ Failed to start playback:", error);
-      this.state.error =
-        error instanceof Error ? error.message : "Unknown error";
+      this.state.error = "Failed to start playback";
       this.notifyListeners();
-      throw error;
     }
   }
 
-  public async pause(): Promise<void> {
-    try {
-      if (!this.sound || !this.state.isLoaded) {
-        return;
-      }
+  // Pause current track
+  async pause(): Promise<void> {
+    if (!this.sound) {
+      return;
+    }
 
+    try {
       await this.sound.pauseAsync();
       console.log("⏸️ Playback paused");
     } catch (error) {
       console.error("❌ Failed to pause playback:", error);
-      this.state.error =
-        error instanceof Error ? error.message : "Unknown error";
-      this.notifyListeners();
-      throw error;
     }
   }
 
-  public async stop(): Promise<void> {
-    try {
-      if (!this.sound || !this.state.isLoaded) {
-        return;
-      }
+  // Stop current track
+  async stop(): Promise<void> {
+    if (!this.sound) {
+      return;
+    }
 
+    try {
       await this.sound.stopAsync();
       await this.sound.setPositionAsync(0);
       console.log("⏹️ Playback stopped");
     } catch (error) {
       console.error("❌ Failed to stop playback:", error);
-      this.state.error =
-        error instanceof Error ? error.message : "Unknown error";
-      this.notifyListeners();
-      throw error;
     }
   }
 
-  public async seek(position: number): Promise<void> {
-    try {
-      if (!this.sound || !this.state.isLoaded) {
-        return;
-      }
+  // Seek to position
+  async seek(position: number): Promise<void> {
+    if (!this.sound) {
+      return;
+    }
 
+    try {
       const positionMillis = position * 1000;
       await this.sound.setPositionAsync(positionMillis);
       console.log(`🔍 Seeked to position: ${position}s`);
     } catch (error) {
       console.error("❌ Failed to seek:", error);
-      this.state.error =
-        error instanceof Error ? error.message : "Unknown error";
-      this.notifyListeners();
-      throw error;
     }
   }
 
-  public async setVolume(volume: number): Promise<void> {
-    try {
-      if (!this.sound) {
-        return;
-      }
+  // Set volume (0.0 to 1.0)
+  async setVolume(volume: number): Promise<void> {
+    if (!this.sound) {
+      return;
+    }
 
+    try {
       const clampedVolume = Math.max(0, Math.min(1, volume));
       await this.sound.setVolumeAsync(clampedVolume);
       this.state.volume = clampedVolume;
       console.log(`🔊 Volume set to: ${clampedVolume}`);
     } catch (error) {
       console.error("❌ Failed to set volume:", error);
-      this.state.error =
-        error instanceof Error ? error.message : "Unknown error";
-      this.notifyListeners();
-      throw error;
     }
   }
 
-  public async setRate(rate: number): Promise<void> {
-    try {
-      if (!this.sound || !this.state.isLoaded) {
-        return;
-      }
+  // Set playback rate
+  async setPlaybackRate(rate: number): Promise<void> {
+    if (!this.sound) {
+      return;
+    }
 
+    try {
       const clampedRate = Math.max(0.5, Math.min(2, rate));
       await this.sound.setRateAsync(clampedRate, true);
-      this.state.rate = clampedRate;
       console.log(`⚡ Playback rate set to: ${clampedRate}x`);
     } catch (error) {
       console.error("❌ Failed to set playback rate:", error);
-      this.state.error =
-        error instanceof Error ? error.message : "Unknown error";
-      this.notifyListeners();
-      throw error;
     }
   }
 
-  public async setLooping(looping: boolean): Promise<void> {
-    try {
-      if (!this.sound || !this.state.isLoaded) {
-        return;
-      }
-
-      await this.sound.setIsLoopingAsync(looping);
-      this.state.isLooping = looping;
-      console.log(`🔁 Looping ${looping ? "enabled" : "disabled"}`);
-    } catch (error) {
-      console.error("❌ Failed to set looping:", error);
-      this.state.error =
-        error instanceof Error ? error.message : "Unknown error";
-      this.notifyListeners();
-      throw error;
-    }
-  }
-
-  public getCurrentTrack(): Track | null {
+  // Get current track
+  getCurrentTrack(): Track | null {
     return this.currentTrack;
   }
 
-  public getState(): AudioState {
-    return { ...this.state };
+  // Check if a track is currently playing
+  isTrackPlaying(trackId: string): boolean {
+    return this.state.isPlaying && this.currentTrack?.id === trackId;
   }
 
-  public async cleanup(): Promise<void> {
+  // Cleanup
+  async destroy(): Promise<void> {
     try {
-      if (this.statusUpdateInterval) {
-        clearInterval(this.statusUpdateInterval);
-        this.statusUpdateInterval = null;
-      }
-
       if (this.sound) {
         await this.sound.unloadAsync();
         this.sound = null;
       }
-
-      this.listeners.clear();
-      console.log("🧹 Audio service cleaned up");
+      this.listeners = [];
+      console.log("🧹 Audio service destroyed");
     } catch (error) {
       console.error("❌ Failed to cleanup audio service:", error);
     }
@@ -324,5 +312,5 @@ class AudioService {
 // Export singleton instance
 export const audioService = new AudioService();
 
-// Export default
-export default audioService;
+// Export types
+export type { AudioPlayerState, AudioControls };

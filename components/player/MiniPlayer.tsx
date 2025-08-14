@@ -21,8 +21,7 @@ const { width } = Dimensions.get("window");
 
 export const MiniPlayer: React.FC = () => {
   const router = useRouter();
-  const { currentTrack, isPlaying, isLoading, error, play, pause } =
-    usePlayer();
+  const { currentTrack, isPlaying, error, play, pause } = usePlayer();
 
   // Don't render if no track is loaded
   if (!currentTrack) {
@@ -33,8 +32,8 @@ export const MiniPlayer: React.FC = () => {
     try {
       if (isPlaying) {
         await pause();
-      } else {
-        await play();
+      } else if (currentTrack) {
+        await play(currentTrack);
       }
     } catch (error) {
       console.error("Play/pause error:", error);
@@ -80,15 +79,8 @@ export const MiniPlayer: React.FC = () => {
         <TouchableOpacity
           style={styles.playButton}
           onPress={handlePlayPause}
-          disabled={isLoading}
         >
-          {isLoading ? (
-            <Ionicons
-              name="ellipsis-horizontal"
-              size={24}
-              color={COLORS.textPrimary}
-            />
-          ) : isPlaying ? (
+          {isPlaying ? (
             <Ionicons name="pause" size={24} color={COLORS.textPrimary} />
           ) : (
             <Ionicons name="play" size={24} color={COLORS.textPrimary} />

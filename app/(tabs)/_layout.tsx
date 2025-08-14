@@ -21,7 +21,7 @@ export default function TabsLayout() {
             paddingBottom: 5,
             marginBottom: SIZES.miniPlayerHeight, // Account for mini player
           },
-          tabBarActiveTintColor: COLORS.primaryAccent,
+          tabBarActiveTintColor: COLORS.primary,
           tabBarInactiveTintColor: COLORS.textSecondary,
           tabBarLabelStyle: {
             fontSize: 12,
@@ -46,7 +46,7 @@ export default function TabsLayout() {
           }}
         />
         <Tabs.Screen
-          name="explore"
+          name="search"
           options={{
             title: 'Search',
             tabBarIcon: ({ color, size }) => (

@@ -17,6 +17,7 @@ import {
   signOut,
   getCurrentUser,
   resetPassword as resetPasswordService,
+  deleteUserAccount as deleteUserAccountService,
 } from "../services/supabase";
 
 interface AuthContextType extends AuthState {
@@ -24,6 +25,7 @@ interface AuthContextType extends AuthState {
   register: (credentials: RegisterCredentials) => Promise<{ error: any }>;
   logout: () => Promise<{ error: any }>;
   resetPassword: (email: string) => Promise<{ error: any }>;
+  deleteAccount: () => Promise<{ error: any }>;
   isAuthenticated: boolean;
 }
 
@@ -37,6 +39,7 @@ const AuthContext = createContext<AuthContextType>({
   register: async () => ({ error: null }),
   logout: async () => ({ error: null }),
   resetPassword: async () => ({ error: null }),
+  deleteAccount: async () => ({ error: null }),
 });
 
 // Custom hook to use the auth context
@@ -241,15 +244,48 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
     }
   };
 
+  // Delete account function
+  const deleteAccount = async () => {
+    try {
+      setState((prev) => ({ ...prev, isLoading: true, error: null }));
+
+      const { error } = await deleteUserAccountService();
+
+      if (error) {
+        setState((prev) => ({
+          ...prev,
+          isLoading: false,
+          error: error.message,
+        }));
+        return { error };
+      }
+
+      // Clear the user state immediately after successful deletion
+      setState({
+        user: null,
+        isLoading: false,
+        error: null,
+        isAuthenticated: false,
+      });
+
+      return { error: null };
+    } catch (error: any) {
+      setState((prev) => ({ ...prev, isLoading: false, error: error.message }));
+      return { error };
+    }
+  };
+
   const value = {
     ...state,
     login,
     register,
     logout,
     resetPassword,
+    deleteAccount,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
 
+export { useAuth, AuthProvider };
 export default AuthContext;

@@ -64,8 +64,8 @@ export default function PlaylistDetailScreen() {
           .fill(null)
           .map((_, index) => ({
             id: `track-${id}-${index}`,
-            sourceId: index % 2 === 0 ? `youtube-${index}` : `audius-${index}`,
-            sourceType: index % 2 === 0 ? "youtube" : "audius",
+            sourceId: `youtube-${index}`,
+            sourceType: "youtube",
             title: `Track ${index + 1}`,
             artist: `Artist ${index + 1}`,
             album: `Album ${index + 1}`,
