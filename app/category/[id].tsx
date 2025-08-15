@@ -1,9 +1,10 @@
 /**
  * Category Screen
- * Displays content for a specific genre or category
+ * Displays content for a specific genre or category with comprehensive sections
+ * Matching the exact design from the reference image
  */
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   View,
   Text,
@@ -12,87 +13,29 @@ import {
   TouchableOpacity,
   Image,
   Dimensions,
+  StatusBar,
 } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
-import { COLORS, SPACING, SIZES } from "../../constants/theme";
+import { COLORS, SPACING, SIZES, FONTS } from "../../constants/theme";
+import { rockGenreData, GenreData, genreData } from "../../constants/genreData";
+import { genreImages } from "../../assets/images/home/index";
+import { getArtistImage } from "../../utils/imageUtils";
 
 const { width } = Dimensions.get("window");
-
-// Mock data for category content
-const categoryData = {
-  "1": { name: "HIP-HOP", color: "#FF6B6B" },
-  "2": { name: "DANCE/ELECTRO", color: "#4ECDC4" },
-  "3": { name: "POP", color: "#45B7D1" },
-  "4": { name: "COUNTRY", color: "#96CEB4" },
-  "5": { name: "ROCK", color: "#FECA57" },
-  "6": { name: "INDIE", color: "#FF9FF3" },
-  "7": { name: "LATIN", color: "#54A0FF" },
-  "8": { name: "K-POP", color: "#5F27CD" },
-  "9": { name: "METAL", color: "#00D2D3" },
-  "10": { name: "RADIO", color: "#FF9F43" },
-};
-
-const popularContent = [
-  {
-    id: "1",
-    title: "Workout Rock",
-    image:
-      "https://via.placeholder.com/200x200/FF6B6B/FFFFFF?text=WORKOUT+ROCK",
-    likes: "414K",
-  },
-  {
-    id: "2",
-    title: "Love Rock",
-    image: "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=LOVE+ROCK",
-    likes: "98K",
-  },
-  {
-    id: "3",
-    title: "Rockabilly",
-    image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=ROCKABILLY",
-    likes: "82K",
-  },
-];
-
-const playlists = [
-  {
-    id: "1",
-    title: "Pop Rock",
-    image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=POP+ROCK",
-    likes: "420K",
-  },
-  {
-    id: "2",
-    title: "Woodstock legends",
-    image: "https://via.placeholder.com/200x200/00B894/FFFFFF?text=WOODSTOCK",
-    likes: "64K",
-  },
-  {
-    id: "3",
-    title: "Guitar!",
-    image: "https://via.placeholder.com/200x200/FAB1A0/FFFFFF?text=GUITAR",
-    likes: "299K",
-  },
-];
 
 export default function CategoryScreen() {
   const { id } = useLocalSearchParams();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("OVERVIEW");
 
-  const category = categoryData[id as keyof typeof categoryData];
+  // Resolve genre by slug from the in-memory database with a safe fallback
+  const slug = String(id || "").toLowerCase();
+  const category: GenreData = genreData[slug] || rockGenreData;
+  const headerImage = (genreImages as any)[slug];
 
-  if (!category) {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.errorText}>Category not found</Text>
-      </View>
-    );
-  }
-
-  const renderContentCard = (item: any) => (
+  const renderContentCard = (item: any, isArtist = false) => (
     <TouchableOpacity style={styles.contentCard} activeOpacity={0.8}>
       <Image source={{ uri: item.image }} style={styles.cardImage} />
       <LinearGradient
@@ -101,26 +44,57 @@ export default function CategoryScreen() {
       >
         <View style={styles.cardContent}>
           <Text style={styles.cardTitle} numberOfLines={2}>
-            {item.title}
+            {item.title || item.name}
           </Text>
-          <View style={styles.cardStats}>
-            <Ionicons name="heart" size={12} color={COLORS.textSecondary} />
-            <Text style={styles.cardLikes}>{item.likes}</Text>
-          </View>
+          {item.artist && (
+            <Text style={styles.cardArtist} numberOfLines={1}>
+              {item.artist}
+            </Text>
+          )}
+          {item.releaseDate && (
+            <Text style={styles.cardReleaseDate} numberOfLines={1}>
+              {item.releaseDate}
+            </Text>
+          )}
         </View>
       </LinearGradient>
-      <TouchableOpacity style={styles.playButton}>
+      {/* Play button in bottom-left corner as shown in the image */}
+      <TouchableOpacity style={styles.playButtonBottomLeft}>
         <Ionicons name="play" size={20} color={COLORS.textPrimary} />
       </TouchableOpacity>
     </TouchableOpacity>
   );
 
-  const renderSection = (title: string, data: any[], showViewAll = false) => (
+  const renderArtistCard = (artist: any) => (
+    <TouchableOpacity style={styles.artistCard} activeOpacity={0.8}>
+      <Image
+        source={getArtistImage(artist.name, artist.image)}
+        style={styles.artistImage}
+      />
+      <Text style={styles.artistName} numberOfLines={1}>
+        {artist.name}
+      </Text>
+    </TouchableOpacity>
+  );
+
+  const handleViewAllTap = (title: string) => {
+    const normalized = title.toLowerCase();
+    if (normalized.includes("playlist")) setActiveTab("PLAYLISTS");
+    else if (normalized.includes("new release")) setActiveTab("NEW RELEASES");
+    else if (normalized.includes("artist")) setActiveTab("ARTISTS");
+  };
+
+  const renderSection = (
+    title: string,
+    data: any[],
+    showViewAll = false,
+    isArtist = false
+  ) => (
     <View style={styles.section}>
       <View style={styles.sectionHeader}>
         <Text style={styles.sectionTitle}>{title}</Text>
         {showViewAll && (
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => handleViewAllTap(title)}>
             <Text style={styles.viewAllText}>View All &gt;</Text>
           </TouchableOpacity>
         )}
@@ -128,21 +102,150 @@ export default function CategoryScreen() {
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.scrollContent}
+        contentContainerStyle={styles.horizontalListContent}
       >
         {data.map((item) => (
           <View key={item.id} style={styles.cardContainer}>
-            {renderContentCard(item)}
+            {isArtist ? renderArtistCard(item) : renderContentCard(item)}
+            {/* Like count below the card */}
+            <View style={styles.cardStatsBelow}>
+              <Ionicons name="heart" size={12} color={COLORS.textSecondary} />
+              <Text style={styles.cardLikesBelow}>{item.likes}</Text>
+            </View>
           </View>
         ))}
       </ScrollView>
     </View>
   );
 
+  const handlePlaylistPress = (playlist: any) => {
+    if (playlist && playlist.id) {
+      router.push(`/playlist/${playlist.id}`);
+    }
+  };
+
+  const renderPlaylistGrid = (title: string, data: any[]) => (
+    <View style={styles.section}>
+      <View style={styles.sectionHeader}>
+        <Text style={styles.sectionTitle}>{title}</Text>
+      </View>
+      <View style={styles.gridContainer}>
+        {data.map((pl) => (
+          <View key={pl.id} style={styles.gridCardWrapper}>
+            <TouchableOpacity
+              style={styles.gridCard}
+              activeOpacity={0.85}
+              onPress={() => handlePlaylistPress(pl)}
+            >
+              <Image source={{ uri: pl.image }} style={styles.gridCardImage} />
+              <LinearGradient
+                colors={["transparent", "rgba(0,0,0,0.8)"]}
+                style={styles.gridCardGradient}
+              >
+                <Text style={styles.gridCardTitle} numberOfLines={2}>
+                  {pl.title}
+                </Text>
+              </LinearGradient>
+              {/* Info button */}
+              <TouchableOpacity style={styles.gridInfoButton}>
+                <Ionicons
+                  name="information-circle"
+                  size={20}
+                  color={COLORS.textPrimary}
+                />
+              </TouchableOpacity>
+            </TouchableOpacity>
+            {/* Playlist title below the card */}
+            <Text style={styles.gridCardTitleBelow} numberOfLines={2}>
+              {pl.title}
+            </Text>
+            {/* Like count below the title */}
+            <View style={styles.gridCardStats}>
+              <Ionicons name="heart" size={12} color={COLORS.textSecondary} />
+              <Text style={styles.gridCardLikes}>{pl.likes}</Text>
+            </View>
+          </View>
+        ))}
+      </View>
+    </View>
+  );
+
+  const renderArtistGrid = (title: string, data: any[]) => (
+    <View style={styles.section}>
+      <View style={styles.sectionHeader}>
+        <Text style={styles.sectionTitle}>{title}</Text>
+      </View>
+      <View style={styles.artistGridContainer}>
+        {data.map((artist) => (
+          <View key={artist.id} style={styles.artistGridCardWrapper}>
+            <TouchableOpacity
+              style={styles.artistGridCard}
+              activeOpacity={0.85}
+              onPress={() => router.push(`/artist/${artist.id}`)}
+            >
+              <Image
+                source={getArtistImage(artist.name, artist.image)}
+                style={styles.artistGridCardImage}
+              />
+              <LinearGradient
+                colors={["transparent", "rgba(0,0,0,0.8)"]}
+                style={styles.artistGridCardGradient}
+              >
+                <Text style={styles.artistGridCardTitle} numberOfLines={2}>
+                  {artist.name}
+                </Text>
+              </LinearGradient>
+              {/* Info button */}
+              <TouchableOpacity style={styles.artistGridInfoButton}>
+                <Ionicons
+                  name="information-circle"
+                  size={20}
+                  color={COLORS.textPrimary}
+                />
+              </TouchableOpacity>
+            </TouchableOpacity>
+            {/* Artist name below the card */}
+            <Text style={styles.artistGridCardTitleBelow} numberOfLines={1}>
+              {artist.name}
+            </Text>
+            {/* Like count below the title */}
+            <View style={styles.artistGridCardStats}>
+              <Ionicons name="heart" size={12} color={COLORS.textSecondary} />
+              <Text style={styles.artistGridCardLikes}>{artist.likes}</Text>
+            </View>
+          </View>
+        ))}
+      </View>
+    </View>
+  );
+
   return (
     <View style={styles.container}>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+
+      {/* Status Bar Area */}
+      <View style={styles.statusBar}>
+        <Text style={styles.statusTime}>14:35</Text>
+        <View style={styles.statusIcons}>
+          <Ionicons name="wifi" size={16} color={COLORS.textPrimary} />
+          <Ionicons name="battery-full" size={16} color={COLORS.textPrimary} />
+        </View>
+      </View>
+
       {/* Header with background image */}
       <View style={styles.header}>
+        {headerImage && (
+          <Image
+            source={headerImage}
+            style={styles.headerImage}
+            resizeMode="cover"
+            blurRadius={12}
+          />
+        )}
         <LinearGradient
           colors={["transparent", "rgba(0,0,0,0.8)"]}
           style={styles.headerGradient}
@@ -158,7 +261,18 @@ export default function CategoryScreen() {
                 color={COLORS.textPrimary}
               />
             </TouchableOpacity>
-            <Text style={styles.headerTitle}>{category.name}</Text>
+            <Text style={styles.headerTitle}>
+              {activeTab === "PLAYLISTS"
+                ? "Playlists"
+                : activeTab === "ARTISTS"
+                ? "Artists"
+                : category.name}
+            </Text>
+            {(activeTab === "PLAYLISTS" || activeTab === "ARTISTS") && (
+              <TouchableOpacity style={styles.searchButton}>
+                <Ionicons name="search" size={24} color={COLORS.textPrimary} />
+              </TouchableOpacity>
+            )}
           </View>
         </LinearGradient>
       </View>
@@ -225,30 +339,28 @@ export default function CategoryScreen() {
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
         {activeTab === "OVERVIEW" && (
           <>
-            {renderSection("Popular in these week", popularContent)}
-            {renderSection("Playlists", playlists, true)}
+            {renderSection("Popular in these week", category.popular)}
+            {renderSection("Playlists", category.playlists, true)}
+            {renderSection("New releases", category.newReleases, true)}
+            {renderSection("Artists", category.artists, true, true)}
           </>
         )}
 
         {activeTab === "PLAYLISTS" && (
-          <View style={styles.centerContent}>
-            <Ionicons name="list" size={64} color={COLORS.textSecondary} />
-            <Text style={styles.centerText}>Playlists coming soon!</Text>
-          </View>
+          <>
+            {renderPlaylistGrid("Playlists", category.playlists)}
+            <View style={styles.podcastSection}>
+              <Text style={styles.podcastText}>Podcast Page</Text>
+            </View>
+          </>
         )}
 
         {activeTab === "NEW RELEASES" && (
-          <View style={styles.centerContent}>
-            <Ionicons name="newspaper" size={64} color={COLORS.textSecondary} />
-            <Text style={styles.centerText}>New releases coming soon!</Text>
-          </View>
+          <>{renderSection("All New Releases", category.newReleases, true)}</>
         )}
 
         {activeTab === "ARTISTS" && (
-          <View style={styles.centerContent}>
-            <Ionicons name="people" size={64} color={COLORS.textSecondary} />
-            <Text style={styles.centerText}>Artists coming soon!</Text>
-          </View>
+          <>{renderArtistGrid("All Artists", category.artists)}</>
         )}
       </ScrollView>
     </View>
@@ -260,9 +372,43 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: COLORS.background,
   },
+  statusBar: {
+    height: 44,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    paddingHorizontal: SPACING.lg,
+    paddingTop: 10,
+    backgroundColor: "rgba(0,0,0,0.3)",
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 10,
+  },
+  statusTime: {
+    fontSize: 16,
+    fontFamily: FONTS.family.interMedium,
+    color: COLORS.textPrimary,
+    fontWeight: "600",
+  },
+  statusIcons: {
+    flexDirection: "row",
+    gap: SPACING.xs,
+  },
   header: {
-    height: 200,
+    height: 220,
     position: "relative",
+    marginTop: 44, // Account for status bar
+  },
+  headerImage: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    width: "100%",
+    height: "100%",
   },
   headerGradient: {
     position: "absolute",
@@ -277,6 +423,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     paddingHorizontal: SPACING.lg,
+    justifyContent: "space-between",
   },
   backButton: {
     width: 40,
@@ -285,36 +432,41 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(0,0,0,0.5)",
     justifyContent: "center",
     alignItems: "center",
-    marginRight: SPACING.md,
   },
   headerTitle: {
     fontSize: 32,
-    fontFamily: "InterBold",
+    fontFamily: FONTS.family.interBold,
     color: COLORS.textPrimary,
     flex: 1,
+    textAlign: "center",
+  },
+  searchButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: "rgba(0,0,0,0.5)",
+    justifyContent: "center",
+    alignItems: "center",
   },
   navTabs: {
     flexDirection: "row",
     paddingHorizontal: SPACING.lg,
-    marginBottom: SPACING.lg,
-    borderBottomWidth: 1,
-    borderBottomColor: "rgba(255, 255, 255, 0.1)",
+    marginBottom: SPACING.sm,
   },
   navTab: {
     marginRight: SPACING.xl,
     paddingBottom: SPACING.sm,
   },
-  activeTab: {
-    borderBottomWidth: 2,
-    borderBottomColor: COLORS.primaryAccent,
-  },
+  activeTab: {},
   navTabText: {
     fontSize: 14,
-    fontFamily: "InterMedium",
+    fontFamily: FONTS.family.interMedium,
     color: COLORS.textSecondary,
   },
   activeTabText: {
     color: COLORS.textPrimary,
+    fontFamily: FONTS.family.interBold,
+    textDecorationLine: "underline",
   },
   content: {
     flex: 1,
@@ -327,30 +479,33 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     paddingHorizontal: SPACING.lg,
-    marginBottom: SPACING.md,
+    marginTop: 0,
+    marginBottom: SPACING.sm,
   },
   sectionTitle: {
     fontSize: 20,
-    fontFamily: "InterBold",
+    fontFamily: FONTS.family.interBold,
     color: COLORS.textPrimary,
   },
   viewAllText: {
     fontSize: 14,
-    fontFamily: "InterMedium",
+    fontFamily: FONTS.family.interMedium,
     color: COLORS.primaryAccent,
   },
-  scrollContent: {
+  horizontalListContent: {
     paddingHorizontal: SPACING.lg,
   },
   cardContainer: {
     marginRight: SPACING.md,
+    alignItems: "center",
   },
   contentCard: {
-    width: 200,
-    height: 200,
+    width: 180,
+    height: 180,
     borderRadius: SIZES.cardBorderRadius,
     overflow: "hidden",
     position: "relative",
+    marginBottom: SPACING.sm,
   },
   cardImage: {
     width: "100%",
@@ -371,8 +526,20 @@ const styles = StyleSheet.create({
   },
   cardTitle: {
     fontSize: 14,
-    fontFamily: "InterBold",
+    fontFamily: FONTS.family.interBold,
     color: COLORS.textPrimary,
+    marginBottom: 4,
+  },
+  cardArtist: {
+    fontSize: 12,
+    fontFamily: FONTS.family.interMedium,
+    color: COLORS.textSecondary,
+    marginBottom: 2,
+  },
+  cardReleaseDate: {
+    fontSize: 10,
+    fontFamily: FONTS.family.interRegular,
+    color: COLORS.textTertiary,
     marginBottom: 4,
   },
   cardStats: {
@@ -381,7 +548,7 @@ const styles = StyleSheet.create({
   },
   cardLikes: {
     fontSize: 11,
-    fontFamily: "InterRegular",
+    fontFamily: FONTS.family.interRegular,
     color: COLORS.textSecondary,
     marginLeft: 4,
   },
@@ -396,25 +563,219 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  centerContent: {
-    flex: 1,
+  playButtonBottomLeft: {
+    position: "absolute",
+    bottom: SPACING.sm,
+    left: SPACING.sm,
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: "rgba(0,0,0,0.6)",
     justifyContent: "center",
     alignItems: "center",
-    paddingHorizontal: SPACING.lg,
-    minHeight: 300,
+    zIndex: 1,
   },
-  centerText: {
-    fontSize: 18,
-    fontFamily: "InterMedium",
+  // Artist card styles
+  artistCard: {
+    width: 100,
+    alignItems: "center",
+  },
+  artistImage: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    marginBottom: SPACING.sm,
+  },
+  artistName: {
+    fontSize: 14,
+    fontFamily: FONTS.family.interMedium,
+    color: COLORS.textPrimary,
+    textAlign: "center",
+    marginBottom: SPACING.xs,
+  },
+  artistStats: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  artistLikes: {
+    fontSize: 11,
+    fontFamily: FONTS.family.interRegular,
     color: COLORS.textSecondary,
-    textAlign: "center",
-    marginTop: SPACING.md,
+    marginLeft: 4,
   },
-  errorText: {
+  // Grid styles for Playlists tab
+  gridContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    paddingHorizontal: SPACING.lg,
+  },
+  gridCardWrapper: {
+    width: (width - SPACING.lg * 3) / 2, // Account for padding and gap
+    marginBottom: SPACING.lg,
+  },
+  gridCard: {
+    width: "100%",
+    height: 140,
+    borderRadius: SIZES.cardBorderRadius,
+    overflow: "hidden",
+    position: "relative",
+  },
+  gridCardImage: {
+    width: "100%",
+    height: "100%",
+  },
+  gridCardGradient: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: "100%",
+    justifyContent: "flex-end",
+    padding: SPACING.sm,
+  },
+  gridCardTitle: {
+    fontSize: 14,
+    fontFamily: FONTS.family.interBold,
+    color: COLORS.textPrimary,
+    marginBottom: SPACING.xs,
+  },
+  gridCardTitleBelow: {
+    fontSize: 12,
+    fontFamily: FONTS.family.interMedium,
+    color: COLORS.textPrimary,
+    paddingHorizontal: SPACING.sm,
+    marginTop: SPACING.xs,
+  },
+  gridPlayButton: {
+    position: "absolute",
+    top: SPACING.sm,
+    right: SPACING.sm,
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: "rgba(0,0,0,0.6)",
+    justifyContent: "center",
+    alignItems: "center",
+    zIndex: 1,
+  },
+  gridInfoButton: {
+    position: "absolute",
+    bottom: SPACING.sm,
+    right: SPACING.sm,
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    backgroundColor: "rgba(0,0,0,0.6)",
+    justifyContent: "center",
+    alignItems: "center",
+    zIndex: 1,
+  },
+  gridCardStats: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginTop: SPACING.sm,
+    paddingHorizontal: SPACING.xs,
+  },
+  gridCardLikes: {
+    fontSize: 12,
+    fontFamily: FONTS.family.interRegular,
+    color: COLORS.textSecondary,
+    marginLeft: 4,
+  },
+  // New styles for Podcast Page
+  podcastSection: {
+    paddingHorizontal: SPACING.lg,
+    paddingVertical: SPACING.md,
+    backgroundColor: COLORS.background,
+    borderTopWidth: 1,
+    borderTopColor: COLORS.border,
+  },
+  podcastText: {
     fontSize: 16,
-    fontFamily: "InterMedium",
-    color: COLORS.error,
+    fontFamily: FONTS.family.interMedium,
+    color: COLORS.textPrimary,
+  },
+  cardStatsBelow: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingHorizontal: SPACING.sm,
+    paddingBottom: SPACING.sm,
+  },
+  cardLikesBelow: {
+    fontSize: 11,
+    fontFamily: FONTS.family.interRegular,
+    color: COLORS.textSecondary,
+    marginLeft: 4,
+  },
+  // Artist grid styles for ARTISTS tab
+  artistGridContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    paddingHorizontal: SPACING.lg,
+  },
+  artistGridCardWrapper: {
+    width: (width - SPACING.lg * 3) / 2, // Account for padding and gap
+    marginBottom: SPACING.lg,
+  },
+  artistGridCard: {
+    width: "100%",
+    height: 160,
+    borderRadius: SIZES.cardBorderRadius,
+    overflow: "hidden",
+    position: "relative",
+  },
+  artistGridCardImage: {
+    width: "100%",
+    height: "100%",
+  },
+  artistGridCardGradient: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: "100%",
+    justifyContent: "flex-end",
+    padding: SPACING.sm,
+  },
+  artistGridCardTitle: {
+    fontSize: 14,
+    fontFamily: FONTS.family.interBold,
+    color: COLORS.textPrimary,
+    marginBottom: SPACING.xs,
+  },
+  artistGridCardTitleBelow: {
+    fontSize: 12,
+    fontFamily: FONTS.family.interMedium,
+    color: COLORS.textPrimary,
+    paddingHorizontal: SPACING.sm,
+    marginTop: SPACING.xs,
     textAlign: "center",
-    marginTop: SPACING.xl,
+  },
+  artistGridInfoButton: {
+    position: "absolute",
+    bottom: SPACING.sm,
+    right: SPACING.sm,
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    backgroundColor: "rgba(0,0,0,0.6)",
+    justifyContent: "center",
+    alignItems: "center",
+    zIndex: 1,
+  },
+  artistGridCardStats: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginTop: SPACING.sm,
+    paddingHorizontal: SPACING.xs,
+    justifyContent: "center",
+  },
+  artistGridCardLikes: {
+    fontSize: 12,
+    fontFamily: FONTS.family.interRegular,
+    color: COLORS.textSecondary,
+    marginLeft: 4,
   },
 });

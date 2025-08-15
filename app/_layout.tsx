@@ -10,8 +10,9 @@ import { View, Text, ActivityIndicator } from "react-native";
 import { AuthProvider, useAuth } from "../context/AuthContext";
 import { PlayerProvider } from "../context/PlayerContext";
 import { useFonts } from "../hooks/useFonts";
-import { storage } from "../services/storage";
+import storage from "../services/storage.platform";
 import { COLORS, SPACING, FONTS } from "../constants/theme";
+import ErrorBoundary from "../components/ErrorBoundary";
 
 // Loading component
 function LoadingComponent() {
@@ -48,6 +49,7 @@ function AuthLayout() {
         contentStyle: { backgroundColor: COLORS.background },
       }}
     >
+      <Stack.Screen name="index" />
       <Stack.Screen name="onboarding" />
       <Stack.Screen name="(auth)/login" />
       <Stack.Screen name="(auth)/register" />
@@ -67,6 +69,7 @@ function MainAppLayout() {
     >
       <Stack.Screen name="(tabs)" />
       <Stack.Screen name="category/[id]" />
+      <Stack.Screen name="mood/[id]" />
       <Stack.Screen name="playlist/[id]" />
       <Stack.Screen name="playlist/edit/[id]" />
       <Stack.Screen name="track/[id]" />
@@ -98,7 +101,6 @@ function AppLayout() {
         setStorageInitialized(true);
       } catch (error) {
         console.error("Failed to initialize storage:", error);
-        // Continue without storage for now
         setStorageInitialized(true);
       }
     };
@@ -122,11 +124,13 @@ function AppLayout() {
 // Root component with providers
 export default function RootLayout() {
   return (
-    <AuthProvider>
-      <PlayerProvider>
-        <StatusBar style="light" />
-        <AppLayout />
-      </PlayerProvider>
-    </AuthProvider>
+    <ErrorBoundary>
+      <AuthProvider>
+        <PlayerProvider>
+          <StatusBar style="light" />
+          <AppLayout />
+        </PlayerProvider>
+      </AuthProvider>
+    </ErrorBoundary>
   );
 }

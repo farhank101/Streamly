@@ -5,39 +5,39 @@
 
 export const FONTS = {
   family: {
-    // Inter font families - using specific font names
-    interThin: "InterThin",
-    interExtraLight: "InterExtraLight",
-    interLight: "InterLight",
-    interRegular: "InterRegular",
-    interMedium: "InterMedium",
-    interSemiBold: "InterSemiBold",
-    interBold: "InterBold",
-    interExtraBold: "InterExtraBold",
-    interBlack: "InterBlack",
+    // Inter font families - using specific font names with system fallbacks
+    interThin: "InterThin, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interExtraLight: "InterExtraLight, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interLight: "InterLight, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interRegular: "InterRegular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interMedium: "InterMedium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interSemiBold: "InterSemiBold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interBold: "InterBold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interExtraBold: "InterExtraBold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interBlack: "InterBlack, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
 
     // Inter italic variants
-    interThinItalic: "InterThinItalic",
-    interExtraLightItalic: "InterExtraLightItalic",
-    interLightItalic: "InterLightItalic",
-    interItalic: "InterItalic",
-    interMediumItalic: "InterMediumItalic",
-    interSemiBoldItalic: "InterSemiBoldItalic",
-    interBoldItalic: "InterBoldItalic",
-    interExtraBoldItalic: "InterExtraBoldItalic",
-    interBlackItalic: "InterBlackItalic",
+    interThinItalic: "InterThinItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interExtraLightItalic: "InterExtraLightItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interLightItalic: "InterLightItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interItalic: "InterItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interMediumItalic: "InterMediumItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interSemiBoldItalic: "InterSemiBoldItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interBoldItalic: "InterBoldItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interExtraBoldItalic: "InterExtraBoldItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    interBlackItalic: "InterBlackItalic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
 
-    // Oswald font families
-    oswaldExtraLight: "OswaldExtraLight",
-    oswaldLight: "OswaldLight",
-    oswaldRegular: "OswaldRegular",
-    oswaldMedium: "OswaldMedium",
-    oswaldSemiBold: "OswaldSemiBold",
-    oswaldBold: "OswaldBold",
+    // Oswald font families with system fallbacks
+    oswaldExtraLight: "OswaldExtraLight, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    oswaldLight: "OswaldLight, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    oswaldRegular: "OswaldRegular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    oswaldMedium: "OswaldMedium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    oswaldSemiBold: "OswaldSemiBold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    oswaldBold: "OswaldBold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
 
     // Legacy aliases for backward compatibility
-    inter: "InterRegular",
-    oswald: "OswaldRegular",
+    inter: "InterRegular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    oswald: "OswaldRegular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
   },
   weight: {
     thin: "100",

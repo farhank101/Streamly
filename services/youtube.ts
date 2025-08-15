@@ -3,19 +3,26 @@
  * Handles YouTube API interactions and audio stream extraction
  */
 
-import { Track, TrackSearchResult } from '../types/track';
-import { ENDPOINTS, API_KEYS, DEFAULT_PARAMS } from '../constants/api';
+import { Track, TrackSearchResult } from "../types/track";
+import { ENDPOINTS, API_KEYS, DEFAULT_PARAMS } from "../constants/api";
 
 // Convert YouTube API response to our Track format
-const convertYouTubeToTrack = (item: any): Track => {
+const convertYouTubeToTrack = (item: any, index?: number): Track => {
+  // Ensure we have a valid videoId, fallback to index if not available
+  const videoId =
+    item.id?.videoId || item.id || `unknown_${index || Date.now()}`;
+
   return {
-    id: `youtube_${item.id.videoId}`,
-    sourceId: item.id.videoId,
-    sourceType: 'youtube',
-    title: item.snippet.title,
-    artist: item.snippet.channelTitle,
+    id: `youtube_${videoId}`,
+    sourceId: videoId,
+    sourceType: "youtube",
+    title: item.snippet?.title || "Unknown Title",
+    artist: item.snippet?.channelTitle || "Unknown Artist",
     duration: 0, // YouTube API doesn't provide duration in search results
-    thumbnailUrl: item.snippet.thumbnails?.high?.url || item.snippet.thumbnails?.medium?.url || '',
+    thumbnailUrl:
+      item.snippet?.thumbnails?.high?.url ||
+      item.snippet?.thumbnails?.medium?.url ||
+      "",
     createdAt: new Date(),
     playCount: 0,
   };
@@ -24,7 +31,10 @@ const convertYouTubeToTrack = (item: any): Track => {
 /**
  * Search for music videos on YouTube
  */
-export const searchYouTube = async (query: string, maxResults: number = 20): Promise<TrackSearchResult> => {
+export const searchYouTube = async (
+  query: string,
+  maxResults: number = 20
+): Promise<TrackSearchResult> => {
   try {
     const params = new URLSearchParams({
       ...DEFAULT_PARAMS.YOUTUBE,
@@ -37,10 +47,12 @@ export const searchYouTube = async (query: string, maxResults: number = 20): Pro
     const data = await response.json();
 
     if (data.error) {
-      throw new Error(data.error.message || 'YouTube API error');
+      throw new Error(data.error.message || "YouTube API error");
     }
 
-    const tracks = data.items.map((item: any) => convertYouTubeToTrack(item));
+    const tracks = data.items.map((item: any, index: number) =>
+      convertYouTubeToTrack(item, index)
+    );
 
     return {
       tracks,
@@ -48,7 +60,7 @@ export const searchYouTube = async (query: string, maxResults: number = 20): Pro
       nextPageToken: data.nextPageToken,
     };
   } catch (error) {
-    console.error('YouTube search error:', error);
+    console.error("YouTube search error:", error);
     throw error;
   }
 };
@@ -56,11 +68,15 @@ export const searchYouTube = async (query: string, maxResults: number = 20): Pro
 /**
  * Get trending music videos from YouTube
  */
-export const getTrendingVideos = async (regionCode: string = 'US', videoCategoryId: string = '10', maxResults: number = 20): Promise<Track[]> => {
+export const getTrendingVideos = async (
+  regionCode: string = "US",
+  videoCategoryId: string = "10",
+  maxResults: number = 20
+): Promise<Track[]> => {
   try {
     const params = new URLSearchParams({
-      part: 'snippet,contentDetails,statistics',
-      chart: 'mostPopular',
+      part: "snippet,contentDetails,statistics",
+      chart: "mostPopular",
       regionCode,
       videoCategoryId,
       maxResults: maxResults.toString(),
@@ -71,12 +87,14 @@ export const getTrendingVideos = async (regionCode: string = 'US', videoCategory
     const data = await response.json();
 
     if (data.error) {
-      throw new Error(data.error.message || 'YouTube API error');
+      throw new Error(data.error.message || "YouTube API error");
     }
 
-    return data.items.map((item: any) => convertYouTubeToTrack(item));
+    return data.items.map((item: any, index: number) =>
+      convertYouTubeToTrack(item, index)
+    );
   } catch (error) {
-    console.error('YouTube trending videos error:', error);
+    console.error("YouTube trending videos error:", error);
     throw error;
   }
 };
@@ -87,7 +105,7 @@ export const getTrendingVideos = async (regionCode: string = 'US', videoCategory
 export const getYouTubeVideo = async (videoId: string): Promise<Track> => {
   try {
     const params = new URLSearchParams({
-      part: 'snippet,contentDetails,statistics',
+      part: "snippet,contentDetails,statistics",
       id: videoId,
       key: API_KEYS.YOUTUBE_API_KEY,
     });
@@ -96,27 +114,30 @@ export const getYouTubeVideo = async (videoId: string): Promise<Track> => {
     const data = await response.json();
 
     if (data.error) {
-      throw new Error(data.error.message || 'YouTube API error');
+      throw new Error(data.error.message || "YouTube API error");
     }
 
     if (!data.items || data.items.length === 0) {
-      throw new Error('Video not found');
+      throw new Error("Video not found");
     }
 
     const item = data.items[0];
     return {
-      id: `youtube_${item.id}`,
-      sourceId: item.id,
-      sourceType: 'youtube',
+      id: `youtube_${item.id || "unknown"}`,
+      sourceId: item.id || "unknown",
+      sourceType: "youtube",
       title: item.snippet.title,
       artist: item.snippet.channelTitle,
       duration: parseDuration(item.contentDetails?.duration) || 0,
-      thumbnailUrl: item.snippet.thumbnails?.high?.url || item.snippet.thumbnails?.medium?.url || '',
+      thumbnailUrl:
+        item.snippet.thumbnails?.high?.url ||
+        item.snippet.thumbnails?.medium?.url ||
+        "",
       createdAt: new Date(),
       playCount: parseInt(item.statistics?.viewCount) || 0,
     };
   } catch (error) {
-    console.error('YouTube get video error:', error);
+    console.error("YouTube get video error:", error);
     throw error;
   }
 };
@@ -126,14 +147,14 @@ export const getYouTubeVideo = async (videoId: string): Promise<Track> => {
  */
 const parseDuration = (duration: string): number => {
   if (!duration) return 0;
-  
+
   const match = duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
   if (!match) return 0;
-  
+
   const hours = parseInt(match[1]) || 0;
   const minutes = parseInt(match[2]) || 0;
   const seconds = parseInt(match[3]) || 0;
-  
+
   return hours * 3600 + minutes * 60 + seconds;
 };
 
@@ -153,35 +174,35 @@ export const getYouTubeStreamUrl = async (videoId: string): Promise<string> => {
 export const getMockTrendingMusic = (): Track[] => {
   return [
     {
-      id: 'youtube_mock_1',
-      sourceId: 'dQw4w9WgXcQ', // Rick Roll - always works
-      sourceType: 'youtube',
-      title: 'Rick Astley - Never Gonna Give You Up',
-      artist: 'Rick Astley',
+      id: "youtube_mock_1",
+      sourceId: "dQw4w9WgXcQ", // Rick Roll - always works
+      sourceType: "youtube",
+      title: "Rick Astley - Never Gonna Give You Up",
+      artist: "Rick Astley",
       duration: 212,
-      thumbnailUrl: 'https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg',
+      thumbnailUrl: "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
       createdAt: new Date(),
       playCount: 1000000,
     },
     {
-      id: 'youtube_mock_2',
-      sourceId: '9bZkp7q19f0', // PSY - Gangnam Style
-      sourceType: 'youtube',
-      title: 'PSY - GANGNAM STYLE',
-      artist: 'officialpsy',
+      id: "youtube_mock_2",
+      sourceId: "9bZkp7q19f0", // PSY - Gangnam Style
+      sourceType: "youtube",
+      title: "PSY - GANGNAM STYLE",
+      artist: "officialpsy",
       duration: 252,
-      thumbnailUrl: 'https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg',
+      thumbnailUrl: "https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg",
       createdAt: new Date(),
       playCount: 5000000,
     },
     {
-      id: 'youtube_mock_3',
-      sourceId: 'kJQP7kiw5Fk', // Luis Fonsi - Despacito
-      sourceType: 'youtube',
-      title: 'Luis Fonsi - Despacito ft. Daddy Yankee',
-      artist: 'Luis Fonsi',
+      id: "youtube_mock_3",
+      sourceId: "kJQP7kiw5Fk", // Luis Fonsi - Despacito
+      sourceType: "youtube",
+      title: "Luis Fonsi - Despacito ft. Daddy Yankee",
+      artist: "Luis Fonsi",
       duration: 282,
-      thumbnailUrl: 'https://img.youtube.com/vi/kJQP7kiw5Fk/hqdefault.jpg',
+      thumbnailUrl: "https://img.youtube.com/vi/kJQP7kiw5Fk/hqdefault.jpg",
       createdAt: new Date(),
       playCount: 8000000,
     },

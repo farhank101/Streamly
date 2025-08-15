@@ -72,6 +72,30 @@ export interface LastfmAlbum {
   };
 }
 
+// Image size priorities for Last.fm images
+const IMAGE_SIZE_PRIORITY = ['mega', 'extralarge', 'large', 'medium', 'small'];
+
+/**
+ * Extract the best available image URL from Last.fm image array
+ */
+export const getBestImageUrl = (images: Array<{ size: string; "#text": string }>): string => {
+  if (!images || !Array.isArray(images)) {
+    return '';
+  }
+
+  // Try to find the highest priority image size
+  for (const size of IMAGE_SIZE_PRIORITY) {
+    const image = images.find(img => img.size === size && img["#text"]);
+    if (image && image["#text"]) {
+      return image["#text"];
+    }
+  }
+
+  // Fallback to any image with a URL
+  const anyImage = images.find(img => img["#text"]);
+  return anyImage ? anyImage["#text"] : '';
+};
+
 /**
  * Get artist information from Last.fm
  */
@@ -94,6 +118,19 @@ export const getArtistInfo = async (artistName: string): Promise<LastfmArtist> =
   } catch (error) {
     console.error("Last.fm artist info error:", error);
     throw error;
+  }
+};
+
+/**
+ * Get artist image URL from Last.fm
+ */
+export const getArtistImage = async (artistName: string): Promise<string> => {
+  try {
+    const artistInfo = await getArtistInfo(artistName);
+    return getBestImageUrl(artistInfo.image);
+  } catch (error) {
+    console.error(`Failed to get artist image for ${artistName}:`, error);
+    return '';
   }
 };
 
@@ -127,6 +164,19 @@ export const getTrackInfo = async (
 };
 
 /**
+ * Get track image URL from Last.fm
+ */
+export const getTrackImage = async (trackName: string, artistName: string): Promise<string> => {
+  try {
+    const trackInfo = await getTrackInfo(trackName, artistName);
+    return getBestImageUrl(trackInfo.image);
+  } catch (error) {
+    console.error(`Failed to get track image for ${trackName} by ${artistName}:`, error);
+    return '';
+  }
+};
+
+/**
  * Get album information from Last.fm
  */
 export const getAlbumInfo = async (
@@ -152,6 +202,19 @@ export const getAlbumInfo = async (
   } catch (error) {
     console.error("Last.fm album info error:", error);
     throw error;
+  }
+};
+
+/**
+ * Get album image URL from Last.fm
+ */
+export const getAlbumImage = async (albumName: string, artistName: string): Promise<string> => {
+  try {
+    const albumInfo = await getAlbumInfo(albumName, artistName);
+    return getBestImageUrl(albumInfo.image);
+  } catch (error) {
+    console.error(`Failed to get album image for ${albumName} by ${artistName}:`, error);
+    return '';
   }
 };
 
@@ -242,11 +305,77 @@ export const searchTracks = async (
   }
 };
 
+/**
+ * Batch fetch images for multiple artists
+ */
+export const batchGetArtistImages = async (artistNames: string[]): Promise<Record<string, string>> => {
+  const results: Record<string, string> = {};
+  
+  try {
+    const promises = artistNames.map(async (artistName) => {
+      try {
+        const imageUrl = await getArtistImage(artistName);
+        return { artistName, imageUrl };
+      } catch (error) {
+        console.error(`Failed to get image for ${artistName}:`, error);
+        return { artistName, imageUrl: '' };
+      }
+    });
+
+    const resolved = await Promise.all(promises);
+    
+    resolved.forEach(({ artistName, imageUrl }) => {
+      results[artistName] = imageUrl;
+    });
+  } catch (error) {
+    console.error('Batch artist image fetch error:', error);
+  }
+
+  return results;
+};
+
+/**
+ * Batch fetch images for multiple tracks
+ */
+export const batchGetTrackImages = async (tracks: Array<{ name: string; artist: string }>): Promise<Record<string, string>> => {
+  const results: Record<string, string> = {};
+  
+  try {
+    const promises = tracks.map(async (track) => {
+      try {
+        const imageUrl = await getTrackImage(track.name, track.artist);
+        const key = `${track.artist} - ${track.name}`;
+        return { key, imageUrl };
+      } catch (error) {
+        console.error(`Failed to get image for ${track.name} by ${track.artist}:`, error);
+        const key = `${track.artist} - ${track.name}`;
+        return { key, imageUrl: '' };
+      }
+    });
+
+    const resolved = await Promise.all(promises);
+    
+    resolved.forEach(({ key, imageUrl }) => {
+      results[key] = imageUrl;
+    });
+  } catch (error) {
+    console.error('Batch track image fetch error:', error);
+  }
+
+  return results;
+};
+
 export default {
   getArtistInfo,
+  getArtistImage,
   getTrackInfo,
+  getTrackImage,
   getAlbumInfo,
+  getAlbumImage,
   getArtistTopTracks,
   searchArtists,
   searchTracks,
+  batchGetArtistImages,
+  batchGetTrackImages,
+  getBestImageUrl,
 };

@@ -17,6 +17,10 @@ interface EnvironmentConfig {
   genius: {
     apiKey: string;
   };
+  spotify: {
+    clientId: string;
+    clientSecret: string;
+  };
   app: {
     env: "development" | "production";
     debugMode: boolean;
@@ -26,13 +30,21 @@ interface EnvironmentConfig {
 // Environment variable getters with validation
 const getRequiredEnvVar = (name: string): string => {
   const value = process.env[name];
-  if (!value || value === `YOUR_${name.split("_").pop()}`) {
+  if (!value || value === `YOUR_${name.split("_").pop()}` || value === "placeholder") {
     console.warn(
       `Missing required environment variable: ${name}, using fallback`
     );
+    // Return a more realistic fallback for development
+    if (name.includes("SUPABASE_URL")) {
+      return "https://placeholder.supabase.co";
+    }
+    if (name.includes("SUPABASE_ANON_KEY")) {
+      return "placeholder-anon-key";
+    }
     return "placeholder"; // Use placeholder instead of throwing error
   }
-  return value;
+  // Clean the value by removing trailing colons and whitespace
+  return value.replace(/[:;]\s*$/, "").trim();
 };
 
 const getOptionalEnvVar = (name: string, defaultValue: string): string => {
@@ -40,7 +52,8 @@ const getOptionalEnvVar = (name: string, defaultValue: string): string => {
   if (!value || value === `YOUR_${name.split("_").pop()}`) {
     return defaultValue;
   }
-  return value;
+  // Clean the value by removing trailing colons and whitespace
+  return value.replace(/[:;]\s*$/, "").trim();
 };
 
 // Build configuration object
@@ -57,6 +70,10 @@ export const config: EnvironmentConfig = {
   },
   genius: {
     apiKey: getRequiredEnvVar("EXPO_PUBLIC_GENIUS_API_KEY"),
+  },
+  spotify: {
+    clientId: getRequiredEnvVar("EXPO_PUBLIC_SPOTIFY_CLIENT_ID"),
+    clientSecret: getRequiredEnvVar("EXPO_PUBLIC_SPOTIFY_CLIENT_SECRET"),
   },
   app: {
     env:

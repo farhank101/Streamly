@@ -24,7 +24,7 @@ import {
   getTrendingMusic,
 } from "../../services/search";
 import { Track } from "../../types/track";
-import { storage } from "../../services/storage";
+import storage from "../../services/storage.platform";
 
 const { width } = Dimensions.get("window");
 

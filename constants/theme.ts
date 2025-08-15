@@ -34,6 +34,7 @@ export const COLORS = {
 
   // UI Elements
   divider: "#334155", // Slate gray
+  border: "#334155", // Border color for sections
 } as const;
 
 export const SPACING = {

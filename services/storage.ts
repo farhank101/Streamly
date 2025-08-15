@@ -60,7 +60,9 @@ class LocalStorageService {
       console.log("✅ Local storage initialized");
     } catch (error) {
       console.error("❌ Failed to initialize local storage:", error);
-      throw error;
+      // Don't throw error, just log it and continue
+      // This prevents the app from getting stuck on storage initialization
+      console.warn("⚠️ Continuing without local storage");
     }
   }
 

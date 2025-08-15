@@ -9,6 +9,7 @@ import { config } from "../config/environment";
 export const YOUTUBE_API_BASE_URL = "https://www.googleapis.com/youtube/v3";
 export const LASTFM_API_BASE_URL = "https://ws.audioscrobbler.com/2.0";
 export const GENIUS_API_BASE_URL = "https://api.genius.com";
+export const SPOTIFY_API_BASE_URL = "https://api.spotify.com/v1";
 
 // API Endpoints
 export const ENDPOINTS = {
@@ -33,6 +34,14 @@ export const ENDPOINTS = {
     SEARCH: `${GENIUS_API_BASE_URL}/search`,
     SONG: `${GENIUS_API_BASE_URL}/songs`,
   },
+  // Spotify endpoints
+  SPOTIFY: {
+    SEARCH: `${SPOTIFY_API_BASE_URL}/search`,
+    ARTISTS: `${SPOTIFY_API_BASE_URL}/artists`,
+    TRACKS: `${SPOTIFY_API_BASE_URL}/tracks`,
+    ALBUMS: `${SPOTIFY_API_BASE_URL}/albums`,
+    RECOMMENDATIONS: `${SPOTIFY_API_BASE_URL}/recommendations`,
+  },
 };
 
 // API Keys
@@ -40,6 +49,8 @@ export const API_KEYS = {
   YOUTUBE_API_KEY: config.youtube.apiKey,
   LASTFM_API_KEY: config.lastfm?.apiKey || "placeholder",
   GENIUS_API_KEY: config.genius?.apiKey || "placeholder",
+  SPOTIFY_CLIENT_ID: config.spotify?.clientId || "placeholder",
+  SPOTIFY_CLIENT_SECRET: config.spotify?.clientSecret || "placeholder",
 };
 
 // Default parameters for API calls
@@ -56,6 +67,10 @@ export const DEFAULT_PARAMS = {
   },
   GENIUS: {
     per_page: 20,
+  },
+  SPOTIFY: {
+    limit: 20,
+    market: "US",
   },
 };
 

@@ -3,7 +3,7 @@
  * Main dashboard for authenticated users with modern design inspired by leading music apps
  */
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   View,
   Text,
@@ -22,7 +22,18 @@ import { useAuth } from "../../hooks/useAuth";
 import { usePlayer } from "../../context/PlayerContext";
 import { Track } from "../../types/track";
 import homeImages from "../../assets/images/home/index";
-import { getMockTrendingMusic } from "../../services/youtube";
+import { genreData } from "../../constants/genreData";
+import { allArtists } from "../../constants/allArtists";
+import ProgressBar from "../../components/player/ProgressBar";
+import {
+  getMockTrendingMusic,
+  getTrendingVideos,
+} from "../../services/youtube";
+import { getArtistInfo } from "../../services/lastfm";
+import {
+  batchGetArtistImages,
+  ImageServiceConfig,
+} from "../../services/imageService";
 
 const { width } = Dimensions.get("window");
 
@@ -59,247 +70,245 @@ interface MoodItem {
 
 type MixedItem = HeaderItem | GenreItem | CategoryItem | MoodItem;
 
-// Helper to resolve local images by key, with fallbacks to remote URL or default placeholder
-const getImageSource = (key?: string, fallbackUrl?: string) => {
-  // Use local image if present in mapping
-  if (key && (homeImages as any)[key]) {
-    return (homeImages as any)[key];
+// Safe image source resolver with proper fallbacks
+const getSafeImageSource = (item: any) => {
+  try {
+    // Priority 1: Local image from homeImages
+    if (item.imageKey && (homeImages as any)[item.imageKey]) {
+      return (homeImages as any)[item.imageKey];
+    }
+
+    // Priority 2: Remote image URL
+    if (
+      item.image &&
+      typeof item.image === "string" &&
+      item.image.trim() !== ""
+    ) {
+      return { uri: item.image.trim() };
+    }
+
+    // Priority 3: Default placeholder
+    return {
+      uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+    };
+  } catch (error) {
+    console.error("Error in getSafeImageSource:", error);
+    return {
+      uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+    };
   }
-  // Fallback to remote URL
-  if (fallbackUrl) {
-    return { uri: fallbackUrl } as const;
-  }
-  // Final fallback to a simple colored background
-  return {
-    uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
-  };
 };
 
-// Mock data for demonstration (now with optional local image keys)
-const recentlyPlayed = [
+// Generate unique keys for React components
+const generateUniqueKey = (item: any, index: number) => {
+  // Ensure we have a valid, unique key
+  if (item.id && item.id !== "undefined" && item.id !== "null") {
+    return item.id;
+  }
+  if (item.name && item.name !== "undefined" && item.name !== "null") {
+    return `${item.name}_${index}`;
+  }
+  if (item.title && item.title !== "undefined" && item.title !== "null") {
+    return `${item.title}_${index}`;
+  }
+  // Use a combination of timestamp and index for guaranteed uniqueness
+  return `item_${Date.now()}_${index}`;
+};
+
+// Mock data with proper unique IDs
+const recentlyPlayedSeed = [
   {
-    id: "1",
+    id: "recent_1",
     title: "Queen",
     artist: "Queen",
     imageKey: "queen",
-    image: "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=Queen",
+    image: "https://picsum.photos/300/300?random=4",
     likes: "598K",
     isArtist: true,
   },
   {
-    id: "2",
+    id: "recent_2",
     title: "70s Rock Anthems Radio",
     subtitle: "PLAYLIST RADIO",
     imageKey: "rock70s",
-    image: "https://via.placeholder.com/150x150/E17055/FFFFFF?text=70s+ROCK",
+    image: "https://picsum.photos/300/300?random=5",
     likes: "420K",
     isPlaylist: true,
   },
   {
-    id: "3",
+    id: "recent_3",
     title: "Progressive",
     artist: "Various Artists",
     imageKey: "progressive",
-    image: "https://via.placeholder.com/150x150/00B894/FFFFFF?text=PROG",
+    image: "https://picsum.photos/300/300?random=6",
     likes: "128K",
   },
 ];
 
 const madeForYou = [
   {
-    id: "1",
+    id: "mfy_1",
     title: "Deep Focus",
     subtitle: "Concentration music",
     imageKey: "deep_focus",
-    image: "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=DEEP+FOCUS",
+    image: "https://picsum.photos/300/300?random=7",
     likes: "678K",
   },
   {
-    id: "2",
-    title: "Productive Morning",
-    subtitle: "Start your day right",
-    imageKey: "productive_morning",
-    image: "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=PRODUCTIVE",
-    likes: "246K",
+    id: "mfy_2",
+    title: "Chill Vibes",
+    subtitle: "Relaxing beats",
+    imageKey: "chill_vibes",
+    image: "https://picsum.photos/300/300?random=8",
+    likes: "543K",
   },
   {
-    id: "3",
-    title: "White Noise",
-    subtitle: "Sleep and relaxation",
-    imageKey: "white_noise",
-    image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=WHITE+NOISE",
-    likes: "146K",
+    id: "mfy_3",
+    title: "Workout Mix",
+    subtitle: "High energy tracks",
+    imageKey: "workout_mix",
+    image: "https://picsum.photos/300/300?random=9",
+    likes: "456K",
   },
 ];
 
-const browseCategories = [
-  {
-    id: "1",
-    name: "HIP-HOP",
-    imageKey: "genre_hiphop",
-    image: "https://via.placeholder.com/200x200/FF6B6B/FFFFFF?text=HIP-HOP",
-    color: "#FF6B6B",
-  },
-  {
-    id: "2",
-    name: "POP",
-    imageKey: "genre_pop",
-    image: "https://via.placeholder.com/200x200/4ECDC4/FFFFFF?text=POP",
-    color: "#4ECDC4",
-  },
-  {
-    id: "3",
-    name: "ROCK",
-    imageKey: "genre_rock",
-    image: "https://via.placeholder.com/200x200/45B7D1/FFFFFF?text=ROCK",
-    color: "#45B7D1",
-  },
-  {
-    id: "4",
-    name: "DANCE",
-    imageKey: "genre_dance",
-    image: "https://via.placeholder.com/200x200/96CEB4/FFFFFF?text=DANCE",
-    color: "#96CEB4",
-  },
-];
+// Get top artists from different genres for recommendations
+const recommendedArtistsSeed = allArtists
+  .filter((artist) => artist.tier === "Top" || artist.tier === "Major")
+  .slice(0, 6)
+  .map((artist) => ({
+    id: artist.id,
+    name: artist.name,
+    imageKey: `artist_${artist.id}`,
+    image: artist.image,
+    likes: artist.likes,
+  }));
 
-const playlistPicks = [
-  {
-    id: "1",
-    title: "Russian Composers",
-    subtitle: "Classical masterpieces",
-    imageKey: "pick_russian_composers",
-    image:
-      "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=RUSSIAN+COMPOSERS",
-    likes: "71K",
-  },
-  {
-    id: "2",
-    title: "Guitar Solos",
-    subtitle: "Epic guitar performances",
-    imageKey: "pick_guitar_solos",
-    image:
-      "https://via.placeholder.com/200x200/55A3FF/FFFFFF?text=GUITAR+SOLOS",
-    likes: "291K",
-  },
-  {
-    id: "3",
-    title: "Workout Energy",
-    subtitle: "High intensity training",
-    imageKey: "pick_workout_energy",
-    image: "https://via.placeholder.com/200x200/FF7675/FFFFFF?text=WORKOUT",
-    likes: "89K",
-  },
-];
-
-const podcasts = [
-  {
-    id: "1",
-    name: "COMEDY",
-    imageKey: "podcast_comedy",
-    image: "https://via.placeholder.com/200x200/FF6B6B/FFFFFF?text=COMEDY",
-    color: "#FF6B6B",
-  },
-  {
-    id: "2",
-    name: "Top 50",
-    imageKey: "podcast_top50",
-    image: "https://via.placeholder.com/200x200/4ECDC4/FFFFFF?text=TOP+50",
-    color: "#4ECDC4",
-  },
-  {
-    id: "3",
-    name: "TRUE CRIME",
-    imageKey: "podcast_true_crime",
-    image: "https://via.placeholder.com/200x200/45B7D1/FFFFFF?text=TRUE+CRIME",
-    color: "#45B7D1",
-  },
-  {
-    id: "4",
-    name: "BUSINESS",
-    imageKey: "podcast_business",
-    image: "https://via.placeholder.com/200x200/96CEB4/FFFFFF?text=BUSINESS",
-    color: "#96CEB4",
-  },
-];
-
-const newReleases = [
-  {
-    id: "1",
-    title: "LPS",
-    subtitle: "Album release 22/03/19",
-    imageKey: "new_lps",
-    image: "https://via.placeholder.com/200x200/FAB1A0/FFFFFF?text=LPS",
-    artist: "Various Artists",
-  },
-  {
-    id: "2",
-    title: "Humble Humble Juice",
-    subtitle: "Album release 14/03/19",
-    imageKey: "new_humble_juice",
-    image: "https://via.placeholder.com/200x200/00B894/FFFFFF?text=HUMBLE",
-    artist: "Various Artists",
-  },
-  {
-    id: "3",
-    title: "Drip",
-    subtitle: "Album release 08/03/19",
-    imageKey: "new_drip",
-    image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=DRIP",
-    artist: "Various Artists",
-  },
-];
-
-const recommendedArtists = [
-  {
-    id: "1",
-    name: "The Smiths",
-    imageKey: "artist_smiths",
-    image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=The+Smiths",
-    likes: "371K",
-  },
-  {
-    id: "2",
-    name: "The Clash",
-    imageKey: "artist_clash",
-    image: "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=The+Clash",
-    likes: "361K",
-  },
-  {
-    id: "3",
-    name: "Joy Division",
-    imageKey: "artist_joy_division",
-    image:
-      "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=Joy+Division",
-    likes: "298K",
-  },
-];
+// Alternative artist names for Last.fm fallback (no longer used for primary search)
+const artistNameMapping = {
+  "Arijit Singh": "Arijit Singh",
+  "Shreya Ghoshal": "Shreya Ghoshal",
+  Pritam: "Pritam",
+  "A.R. Rahman": "A.R. Rahman",
+  Badshah: "Badshah",
+  "Diljit Dosanjh": "Diljit Dosanjh",
+};
 
 const popularPlaylists = [
   {
-    id: "1",
+    id: "playlist_1",
     title: "Hip Hop Hits",
     subtitle: "Best hip hop tracks",
     imageKey: "pl_hiphop_hits",
-    image:
-      "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=HIP-HOP+HITS",
+    image: "https://picsum.photos/300/300?random=10",
     likes: "520K",
   },
   {
-    id: "2",
+    id: "playlist_2",
     title: "Pop Fresh!",
     subtitle: "Latest pop hits",
     imageKey: "pl_pop_fresh",
-    image: "https://via.placeholder.com/200x200/55A3FF/FFFFFF?text=POP+FRESH",
+    image: "https://picsum.photos/300/300?random=11",
     likes: "412K",
   },
   {
-    id: "3",
+    id: "playlist_3",
     title: "Rap Essentials",
     subtitle: "Classic rap tracks",
     imageKey: "pl_rap_essentials",
-    image: "https://via.placeholder.com/200x200/FF7675/FFFFFF?text=RAP",
+    image: "https://picsum.photos/300/300?random=12",
     likes: "389K",
+  },
+];
+
+// Genres data matching your original layout
+const genres = [
+  { id: "hiphop", name: "HIP-HOP", imageKey: "genre_hiphop", likes: "2.1M" },
+  {
+    id: "dance_electro",
+    name: "DANCE/ELECTRO",
+    imageKey: "genre_dance_electro",
+    likes: "1.8M",
+  },
+  { id: "pop", name: "POP", imageKey: "genre_pop", likes: "3.4M" },
+  { id: "country", name: "COUNTRY", imageKey: "genre_country", likes: "1.2M" },
+  { id: "rock", name: "ROCK", imageKey: "genre_rock", likes: "2.8M" },
+  { id: "indie", name: "INDIE", imageKey: "genre_indie", likes: "956K" },
+  { id: "latin", name: "LATIN", imageKey: "genre_latin", likes: "1.5M" },
+  { id: "kpop", name: "K-POP", imageKey: "genre_kpop", likes: "2.3M" },
+  { id: "metal", name: "METAL", imageKey: "genre_metal", likes: "1.1M" },
+  { id: "radio", name: "RADIO", imageKey: "genre_radio", likes: "1.7M" },
+  {
+    id: "progressive",
+    name: "PROGRESSIVE",
+    imageKey: "genre_progressive",
+    likes: "445K",
+  },
+  { id: "decades", name: "DECADES", imageKey: "decades", likes: "890K" },
+  {
+    id: "classical",
+    name: "CLASSICAL",
+    imageKey: "genre_classical",
+    likes: "567K",
+  },
+  { id: "jazz", name: "JAZZ", imageKey: "genre_jazz", likes: "423K" },
+  {
+    id: "instrumentals",
+    name: "INSTRUMENTALS",
+    imageKey: "instrumentals",
+    likes: "678K",
+  },
+  { id: "punk", name: "PUNK", imageKey: "punk", likes: "345K" },
+  { id: "blues", name: "BLUES", imageKey: "blues", likes: "234K" },
+  { id: "soul_funk", name: "SOUL/FUNK", imageKey: "soul_funk", likes: "1.2M" },
+  { id: "reggae", name: "REGGAE", imageKey: "genre_reggae", likes: "789K" },
+];
+
+// Moods data matching your original layout
+const moods = [
+  { id: "party", name: "PARTY", imageKey: "party", likes: "1.8M" },
+  { id: "chill", name: "CHILL", imageKey: "chill", likes: "1.2M" },
+  { id: "workout", name: "WORKOUT", imageKey: "workout", likes: "1.5M" },
+  { id: "focus", name: "FOCUS", imageKey: "focus", likes: "890K" },
+  { id: "driving", name: "DRIVING", imageKey: "driving", likes: "1.1M" },
+  { id: "rainy_day", name: "RAINY DAY", imageKey: "rainy_day", likes: "678K" },
+  { id: "romance", name: "ROMANCE", imageKey: "romance", likes: "2.3M" },
+  { id: "sleep", name: "SLEEP", imageKey: "sleep", likes: "456K" },
+  { id: "comedy", name: "COMEDY", imageKey: "comedy", likes: "234K" },
+  { id: "family", name: "FAMILY", imageKey: "family", likes: "567K" },
+  { id: "dinner", name: "DINNER", imageKey: "dinner", likes: "789K" },
+  { id: "travel", name: "TRAVEL", imageKey: "travel", likes: "1.3M" },
+];
+
+// Podcasts data
+const podcasts = [
+  {
+    id: "podcast_1",
+    title: "Music History",
+    subtitle: "Exploring music through time",
+    imageKey: "genre_classical",
+    likes: "234K",
+  },
+  {
+    id: "podcast_2",
+    title: "Artist Interviews",
+    subtitle: "Behind the scenes with musicians",
+    imageKey: "genre_rock",
+    likes: "189K",
+  },
+  {
+    id: "podcast_3",
+    title: "Music Theory",
+    subtitle: "Understanding the fundamentals",
+    imageKey: "genre_jazz",
+    likes: "156K",
+  },
+  {
+    id: "podcast_4",
+    title: "Concert Stories",
+    subtitle: "Amazing live performance tales",
+    imageKey: "genre_pop",
+    likes: "298K",
   },
 ];
 
@@ -308,31 +317,204 @@ export default function HomeScreen() {
   const router = useRouter();
   const { play, currentTrack, isPlaying, pause } = usePlayer();
   const [trendingMusic, setTrendingMusic] = useState<Track[]>([]);
+  const scrollViewRef = useRef<ScrollView>(null);
+  const genresMoodsRef = useRef<View>(null);
+  const [recommendedArtists, setRecommendedArtists] = useState<any[]>(
+    recommendedArtistsSeed
+  );
+  const [recentlyPlayed, setRecentlyPlayed] =
+    useState<any[]>(recentlyPlayedSeed);
+  const [activeTab, setActiveTab] = useState("OVERVIEW");
+  const [isLoading, setIsLoading] = useState(true);
+  const [showFullGenres, setShowFullGenres] = useState(false);
+  const [showFullMoods, setShowFullMoods] = useState(false);
 
   useEffect(() => {
-    // Load mock trending music for testing
-    const loadTrendingMusic = () => {
-      const mockTrending = getMockTrendingMusic();
-      setTrendingMusic(mockTrending);
+    const loadTrendingMusic = async () => {
+      try {
+        const trending = await getTrendingVideos("US", "10", 20);
+        const withImages = trending.map((t, index) => ({
+          ...t,
+          id:
+            t.id && t.id !== "undefined"
+              ? t.id
+              : `trending_${Date.now()}_${index}`,
+          image: t.thumbnailUrl,
+        }));
+        setTrendingMusic(withImages as unknown as Track[]);
+      } catch (error) {
+        console.error("❌ Failed to load trending music:", error);
+        const mockTrending = getMockTrendingMusic();
+        setTrendingMusic(mockTrending);
+      }
     };
 
-    loadTrendingMusic();
+    const hydrateArtists = async () => {
+      try {
+        console.log("🔄 Starting to hydrate artists...");
+
+        // Use original artist names for Spotify searches
+        const artistNames = recommendedArtistsSeed.map((a) => a.name);
+        console.log("🎵 Artist names to fetch:", artistNames);
+
+        // Explicitly set Spotify as primary source with fallback enabled
+        const imageConfig: Partial<ImageServiceConfig> = {
+          primarySource: "spotify",
+          enableFallback: true,
+        };
+
+        const artistImages = await batchGetArtistImages(
+          artistNames,
+          imageConfig
+        );
+        console.log("🖼️ Batch fetched artist images:", artistImages);
+
+        const updated = recommendedArtistsSeed.map((a) => {
+          // Use original artist name for Spotify
+          const fetchedImage = artistImages[a.name];
+          console.log(`🖼️ Artist image for ${a.name}:`, fetchedImage);
+
+          // Use fetched image if available, otherwise keep original
+          const finalImage = fetchedImage || a.image;
+          console.log(`✅ Final image for ${a.name}:`, finalImage);
+
+          return { ...a, image: finalImage };
+        });
+
+        console.log("🎉 Artists hydrated:", updated);
+        setRecommendedArtists(updated);
+      } catch (error) {
+        console.error("❌ Failed to hydrate artists:", error);
+        console.log("🔄 Using fallback artist data");
+        setRecommendedArtists(recommendedArtistsSeed);
+      }
+    };
+
+    const hydrateRecentlyPlayed = async () => {
+      try {
+        console.log("🔄 Starting to hydrate recently played...");
+
+        const artistNames = recentlyPlayedSeed
+          .filter((item) => item.isArtist && item.artist)
+          .map((item) => item.artist); // Use original artist names
+
+        console.log("🎵 Recently played artist names:", artistNames);
+
+        if (artistNames.length > 0) {
+          // Explicitly set Spotify as primary source with fallback enabled
+          const imageConfig: Partial<ImageServiceConfig> = {
+            primarySource: "spotify",
+            enableFallback: true,
+          };
+
+          const artistImages = await batchGetArtistImages(
+            artistNames,
+            imageConfig
+          );
+          console.log(
+            "🖼️ Batch fetched recently played artist images:",
+            artistImages
+          );
+
+          const updated = recentlyPlayedSeed.map((item) => {
+            if (item.isArtist && item.artist) {
+              // Use original artist name for Spotify
+              const fetchedImage = artistImages[item.artist];
+              console.log(`🖼️ Artist image for ${item.artist}:`, fetchedImage);
+
+              const finalImage = fetchedImage || item.image;
+              console.log(`✅ Final image for ${item.artist}:`, finalImage);
+
+              return { ...item, image: finalImage };
+            }
+            return item;
+          });
+
+          console.log("🎉 Recently played hydrated:", updated);
+          setRecentlyPlayed(updated);
+        } else {
+          console.log("ℹ️ No artists in recently played to hydrate");
+          setRecentlyPlayed(recentlyPlayedSeed);
+        }
+      } catch (error) {
+        console.error("❌ Failed to hydrate recently played:", error);
+        console.log("🔄 Using fallback recently played data");
+        setRecentlyPlayed(recentlyPlayedSeed);
+      }
+    };
+
+    const loadAllData = async () => {
+      setIsLoading(true);
+
+      console.log("🔧 API Configuration check:");
+      console.log(
+        "YouTube API Key:",
+        process.env.EXPO_PUBLIC_YOUTUBE_API_KEY ? "✅ Set" : "❌ Missing"
+      );
+      console.log(
+        "Last.fm API Key:",
+        process.env.EXPO_PUBLIC_LASTFM_API_KEY ? "✅ Set" : "❌ Missing"
+      );
+
+      try {
+        await Promise.all([
+          loadTrendingMusic(),
+          hydrateArtists(),
+          hydrateRecentlyPlayed(),
+        ]);
+      } catch (error) {
+        console.error("❌ Error loading data:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadAllData();
   }, []);
 
-  // Navigation handlers pointing only to existing routes
+  // Navigation handlers
   const handleCardPress = (item: any) => {
+    // Navigate to genre detail if the item id matches a known genre slug
+    if (
+      item?.id &&
+      typeof item.id === "string" &&
+      (genreData as any)[item.id]
+    ) {
+      router.push(`/category/${item.id}`);
+      return;
+    }
+    // Navigate to mood detail if the item id matches a known mood slug
+    const moodSlugs = [
+      "party",
+      "chill",
+      "workout",
+      "focus",
+      "driving",
+      "rainy_day",
+      "romance",
+      "sleep",
+      "comedy",
+      "family",
+      "dinner",
+      "travel",
+    ];
+    if (
+      item?.id &&
+      typeof item.id === "string" &&
+      moodSlugs.includes(item.id)
+    ) {
+      router.push(`/mood/${item.id}`);
+      return;
+    }
     if (item.isArtist || (!item.title && item.name && !item.color)) {
       router.push(`/user/${item.id}`);
     } else if (item.isPlaylist) {
       router.push(`/playlist/${item.id}`);
     } else if (item.name && item.color) {
-      // Genre/Mood - go to search instead of explore
       router.push("/(tabs)/search");
     } else if (item.subtitle && item.subtitle.toLowerCase().includes("album")) {
-      // No album screen yet; send to search as placeholder
       router.push("/(tabs)/search");
     } else if (item.sourceType === "youtube") {
-      // This is a track from YouTube
       if (item.id) {
         router.push(`/track/${item.id}`);
       } else if (item.sourceId) {
@@ -341,60 +523,74 @@ export default function HomeScreen() {
         router.push("/(tabs)/search");
       }
     } else if (item.title) {
-      // Treat as playlist/track fallback
-      router.push(`/playlist/${item.id}`);
-    } else {
       router.push("/(tabs)/search");
     }
   };
 
   const handlePlayPress = (item: any) => {
-    // If it's a track, play it first
-    if (item.sourceType === "youtube") {
-      play(item).catch((error) => {
-        console.error("❌ Failed to play track:", error);
-        // Reset loading state if there's an error
-        // resetLoadingState(); // This line was removed from the new_code, so it's removed here.
-      });
+    if (item.sourceType === "youtube" && item.sourceId) {
+      play(item);
     }
+  };
 
-    // Then navigate to the detail page
-    handleCardPress(item);
+  const togglePlayPause = () => {
+    if (!currentTrack) return;
+    if (isPlaying) {
+      pause();
+    } else {
+      play(currentTrack);
+    }
   };
 
   const handleViewAll = (section: string) => {
-    switch (section) {
-      case "Recently played":
-        router.push("/(tabs)/library/history");
-        break;
-      case "Make monday more productive":
-        router.push("/(tabs)/search");
-        break;
-      case "Browse":
-        // setActiveTab("GENRES & MOODS"); // This line was removed from the new_code, so it's removed here.
-        break;
-      case "Playlist picks":
-      case "Popular playlists":
-        router.push("/(tabs)/library/playlists");
-        break;
-      case "Podcasts":
-        router.push("/(tabs)/search");
-        break;
-      case "New releases for you":
-      case "You might like these artists":
-        router.push("/(tabs)/search");
-        break;
-      default:
-        router.push("/(tabs)/search");
+    if (section === "Genres") {
+      setShowFullGenres(true);
+    } else if (section === "Moods") {
+      setShowFullMoods(true);
+    } else {
+      router.push("/(tabs)/search");
     }
   };
-
-  const [activeTab, setActiveTab] = useState("OVERVIEW");
 
   const navigateHeaderTab = (tab: string) => {
     setActiveTab(tab);
   };
 
+  // Manual refresh function for debugging
+  const refreshImages = async () => {
+    console.log("🔄 Manual refresh triggered");
+    setIsLoading(true);
+
+    try {
+      const artistNames = recommendedArtistsSeed.map(
+        (a) => artistNameMapping[a.name] || a.name
+      );
+      console.log("🎵 Refreshing artist images for:", artistNames);
+
+      const artistImages = await batchGetArtistImages(artistNames);
+      console.log("🖼️ Refresh results:", artistImages);
+
+      const updated = recommendedArtistsSeed.map((a) => {
+        const searchName = artistNameMapping[a.name] || a.name;
+        const lastfmImage = artistImages[searchName];
+        console.log(
+          `🔄 Refresh: ${a.name} (searched as ${searchName}) -> ${
+            lastfmImage || "using fallback"
+          }`
+        );
+        return { ...a, image: lastfmImage || a.image };
+      });
+
+      setRecommendedArtists(updated);
+      console.log("✅ Refresh completed");
+    } catch (error) {
+      console.error("❌ Refresh failed:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Render functions with proper unique keys
   const renderContentCard = (
     item: any,
     isLarge = false,
@@ -410,8 +606,12 @@ export default function HomeScreen() {
       onPress={() => handleCardPress(item)}
     >
       <Image
-        source={getImageSource(item.imageKey, item.image)}
+        source={getSafeImageSource(item)}
         style={styles.cardImage}
+        onError={(error) => console.log("Image load error:", error.nativeEvent)}
+        defaultSource={{
+          uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+        }}
       />
       {!isCircular && (
         <LinearGradient
@@ -465,8 +665,14 @@ export default function HomeScreen() {
       onPress={() => handleCardPress(item)}
     >
       <Image
-        source={getImageSource(item.imageKey, item.image)}
+        source={getSafeImageSource(item)}
         style={styles.browseCardImage}
+        onError={(error) =>
+          console.log("Browse image load error:", error.nativeEvent)
+        }
+        defaultSource={{
+          uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+        }}
       />
       <LinearGradient
         colors={["transparent", "rgba(0,0,0,0.7)"]}
@@ -475,6 +681,46 @@ export default function HomeScreen() {
         <Text style={styles.browseCardName}>{item.name}</Text>
       </LinearGradient>
     </TouchableOpacity>
+  );
+
+  // Grid layout renderer for Genres & Moods (restoring your original design)
+  const renderGridSection = (
+    title: string,
+    data: any[],
+    onBackToPreview: () => void
+  ) => (
+    <View style={styles.section}>
+      <View style={styles.sectionHeader}>
+        <View style={styles.sectionTitleContainer}>
+          <Text style={styles.sectionTitle}>{title}</Text>
+          <TouchableOpacity onPress={onBackToPreview}>
+            <Text style={styles.backToPreviewText}>← Back to Preview</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+      <View style={styles.gridContainer}>
+        {data.map((item, index) => (
+          <TouchableOpacity
+            key={generateUniqueKey(item, index)}
+            style={styles.gridCard}
+            activeOpacity={0.8}
+            onPress={() => handleCardPress(item)}
+          >
+            <Image
+              source={getSafeImageSource(item)}
+              style={styles.gridCardImage}
+              resizeMode="cover"
+            />
+            <LinearGradient
+              colors={["transparent", "rgba(0,0,0,0.8)"]}
+              style={styles.gridCardGradient}
+            >
+              <Text style={styles.gridCardName}>{item.name}</Text>
+            </LinearGradient>
+          </TouchableOpacity>
+        ))}
+      </View>
+    </View>
   );
 
   const renderSection = (
@@ -500,10 +746,13 @@ export default function HomeScreen() {
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.scrollContent}
+        contentContainerStyle={styles.horizontalListContent}
       >
-        {data.map((item) => (
-          <View key={item.id} style={styles.cardContainer}>
+        {data.map((item, index) => (
+          <View
+            key={generateUniqueKey(item, index)}
+            style={styles.cardContainer}
+          >
             {isCircular
               ? renderContentCard(item, isLarge, true)
               : title === "Browse"
@@ -517,7 +766,10 @@ export default function HomeScreen() {
 
   return (
     <ScrollView
+      ref={scrollViewRef}
       style={styles.container}
+      contentContainerStyle={styles.scrollContent}
+      showsVerticalScrollIndicator={false}
       refreshControl={
         <RefreshControl refreshing={false} onRefresh={() => {}} />
       }
@@ -525,12 +777,58 @@ export default function HomeScreen() {
       {/* Header */}
       <View style={styles.header}>
         <LinearGradient
-          colors={[COLORS.primaryAccent, "#8B5CF6"]}
+          colors={[COLORS.primaryAccent, "#8B5CF6", "#7C3AED"]}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
           style={styles.headerGradient}
         >
-          <Text style={styles.headerTitle}>Home</Text>
+          <View style={styles.headerContent}>
+            <Text style={styles.headerTitle}>Welcome Back</Text>
+            <Text style={styles.headerSubtitle}>
+              Discover your next favorite track
+            </Text>
+          </View>
         </LinearGradient>
       </View>
+
+      {/* Continue Listening */}
+      {currentTrack && (
+        <View style={styles.continueCard}>
+          <View style={styles.continueRow}>
+            <Image
+              source={{ uri: currentTrack.thumbnailUrl }}
+              style={styles.continueImage}
+            />
+            <View style={styles.continueInfo}>
+              <Text style={styles.continueLabel}>Continue listening</Text>
+              <Text style={styles.continueTitle} numberOfLines={1}>
+                {currentTrack.title}
+              </Text>
+              <Text style={styles.continueArtist} numberOfLines={1}>
+                {currentTrack.artist}
+              </Text>
+              <View style={styles.continueControls}>
+                <TouchableOpacity
+                  style={styles.continuePlayButton}
+                  onPress={togglePlayPause}
+                  activeOpacity={0.9}
+                >
+                  <Ionicons
+                    name={isPlaying ? "pause" : "play"}
+                    size={20}
+                    color={COLORS.textPrimary}
+                  />
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+          <View style={styles.continueProgress}>
+            <ProgressBar showTime={false} height={6} />
+          </View>
+        </View>
+      )}
+
+      {/* Quick Actions moved to Library screen */}
 
       {/* Navigation Tabs */}
       <ScrollView
@@ -539,7 +837,7 @@ export default function HomeScreen() {
         contentContainerStyle={styles.navTabs}
       >
         <TouchableOpacity
-          style={[styles.navTab, activeTab === "OVERVIEW" && styles.activeTab]}
+          style={styles.navTab}
           onPress={() => navigateHeaderTab("OVERVIEW")}
         >
           <Text
@@ -552,10 +850,7 @@ export default function HomeScreen() {
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[
-            styles.navTab,
-            activeTab === "GENRES & MOODS" && styles.activeTab,
-          ]}
+          style={styles.navTab}
           onPress={() => navigateHeaderTab("GENRES & MOODS")}
         >
           <Text
@@ -568,7 +863,7 @@ export default function HomeScreen() {
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[styles.navTab, activeTab === "PODCASTS" && styles.activeTab]}
+          style={styles.navTab}
           onPress={() => navigateHeaderTab("PODCASTS")}
         >
           <Text
@@ -581,19 +876,16 @@ export default function HomeScreen() {
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[
-            styles.navTab,
-            activeTab === "RECOMMENDED" && styles.activeTab,
-          ]}
-          onPress={() => navigateHeaderTab("RECOMMENDED")}
+          style={styles.navTab}
+          onPress={() => navigateHeaderTab("RECOMMENDATIONS")}
         >
           <Text
             style={[
               styles.navTabText,
-              activeTab === "RECOMMENDED" && styles.activeTabText,
+              activeTab === "RECOMMENDATIONS" && styles.activeTabText,
             ]}
           >
-            RECOMMENDED
+            RECOMMENDATIONS
           </Text>
         </TouchableOpacity>
       </ScrollView>
@@ -601,250 +893,61 @@ export default function HomeScreen() {
       {/* Content based on active tab */}
       {activeTab === "OVERVIEW" && (
         <>
-          {/* Recently Played */}
-          {renderSection("Recently played", recentlyPlayed, false, true)}
-
-          {/* Trending Music */}
-          {trendingMusic.length > 0 &&
-            renderSection(
-              "Trending Now",
-              trendingMusic,
-              true,
-              false,
-              false,
-              "Popular music from YouTube"
-            )}
-
-          {/* Made for you */}
-          {renderSection("Make monday more productive", madeForYou, true)}
-
-          {/* Browse */}
+          {renderSection("Recently Played", recentlyPlayed, false, false, true)}
+          {renderSection("Made For You", madeForYou, true, false, true)}
           {renderSection(
-            "Browse",
-            browseCategories,
-            false,
-            false,
-            true,
-            "Explore by genre and mood"
-          )}
-
-          {/* Playlist picks */}
-          {renderSection(
-            "Playlist picks",
-            playlistPicks,
-            true,
-            false,
-            false,
-            "Selected for you based on your recent activity"
-          )}
-
-          {/* Podcasts */}
-          {renderSection(
-            "Podcasts",
-            podcasts,
-            false,
-            false,
-            true,
-            "Explore by categories and popularity"
-          )}
-
-          {/* New releases for you */}
-          {renderSection(
-            "New releases for you",
-            newReleases,
-            true,
-            false,
-            true
-          )}
-
-          {/* You might like these artists */}
-          {renderSection(
-            "You might like these artists",
+            "Recommended Artists",
             recommendedArtists,
             false,
+            true,
             true
           )}
-
-          {/* Popular playlists */}
           {renderSection(
-            "Popular playlists",
+            "Popular Playlists",
             popularPlaylists,
+            false,
+            false,
+            true
+          )}
+          {renderSection("Trending Now", trendingMusic, false, false, true)}
+        </>
+      )}
+
+      {activeTab === "GENRES & MOODS" && (
+        <>
+          {showFullGenres
+            ? renderGridSection("Genres", genres, () =>
+                setShowFullGenres(false)
+              )
+            : renderSection("Genres", genres.slice(0, 5), false, false, true)}
+          {showFullMoods
+            ? renderGridSection("Moods", moods, () => setShowFullMoods(false))
+            : renderSection("Moods", moods.slice(0, 5), false, false, true)}
+        </>
+      )}
+
+      {activeTab === "PODCASTS" && (
+        <>{renderSection("Popular Podcasts", podcasts, false, false, true)}</>
+      )}
+
+      {activeTab === "RECOMMENDATIONS" && (
+        <>
+          {renderSection(
+            "Personalized Recommendations",
+            recommendedArtists,
+            false,
             true,
+            true
+          )}
+          {renderSection(
+            "Trending Recommendations",
+            trendingMusic,
+            false,
             false,
             true
           )}
         </>
       )}
-
-      {activeTab === "GENRES & MOODS" && (
-        <View style={styles.genresMoodsContainer}>
-          {/* Content Container - No extra margins */}
-          <View style={styles.genresMoodsContentContainer}>
-            {/* Genres Section */}
-            <View style={styles.genresSection}>
-              <Text style={styles.genresSectionTitle}>Genres</Text>
-              <View style={styles.genresGrid}>
-                {[
-                  { id: "1", name: "HIP-HOP", imageKey: "genre_hiphop" },
-                  {
-                    id: "2",
-                    name: "DANCE/ELECTRO",
-                    imageKey: "genre_dance_electro",
-                  },
-                  { id: "3", name: "POP", imageKey: "genre_pop" },
-                  { id: "4", name: "COUNTRY", imageKey: "genre_country" },
-                  { id: "5", name: "ROCK", imageKey: "genre_rock" },
-                  { id: "6", name: "INDIE", imageKey: "genre_indie" },
-                  { id: "7", name: "LATIN", imageKey: "genre_latin" },
-                  { id: "8", name: "K-POP", imageKey: "genre_kpop" },
-                ].map((genre) => (
-                  <TouchableOpacity
-                    key={genre.id}
-                    style={styles.genreCardCompact}
-                    activeOpacity={0.8}
-                    onPress={() => handleCardPress(genre)}
-                  >
-                    <Image
-                      source={getImageSource(genre.imageKey)}
-                      style={styles.genreCardCompactImage}
-                    />
-                    <View style={styles.genreCardCompactOverlay}>
-                      <Text style={styles.genreCardCompactName}>
-                        {genre.name}
-                      </Text>
-                    </View>
-                  </TouchableOpacity>
-                ))}
-              </View>
-            </View>
-
-            {/* Additional Categories Section */}
-            <View style={styles.genresSection}>
-              <View style={styles.genresGrid}>
-                {[
-                  { id: "1", name: "DECADES", imageKey: "decades" },
-                  { id: "2", name: "CLASSICAL", imageKey: "classical" },
-                  { id: "3", name: "JAZZ", imageKey: "jazz" },
-                  { id: "4", name: "INSTRUMENTALS", imageKey: "instrumentals" },
-                  { id: "5", name: "PUNK", imageKey: "punk" },
-                  { id: "6", name: "BLUES", imageKey: "blues" },
-                  { id: "7", name: "SOUL/FUNK", imageKey: "soul_funk" },
-                  { id: "8", name: "REGGAE", imageKey: "reggae" },
-                ].map((category) => (
-                  <TouchableOpacity
-                    key={category.id}
-                    style={styles.genreCardCompact}
-                    activeOpacity={0.8}
-                    onPress={() => router.push(`/category/${category.id}`)}
-                  >
-                    <Image
-                      source={getImageSource(category.imageKey)}
-                      style={styles.genreCardCompactImage}
-                    />
-                    <View style={styles.genreCardCompactOverlay}>
-                      <Text style={styles.genreCardCompactName}>
-                        {category.name}
-                      </Text>
-                    </View>
-                  </TouchableOpacity>
-                ))}
-              </View>
-            </View>
-
-            {/* Moods Section */}
-            <View style={styles.genresSection}>
-              <Text style={styles.genresSectionTitle}>Moods</Text>
-              <View style={styles.genresGrid}>
-                {[
-                  { id: "1", name: "PARTY", imageKey: "party" },
-                  { id: "2", name: "CHILL", imageKey: "chill" },
-                  { id: "3", name: "WORKOUT", imageKey: "workout" },
-                  { id: "4", name: "FOCUS", imageKey: "focus" },
-                  { id: "5", name: "DRIVING", imageKey: "driving" },
-                  { id: "6", name: "RAINY DAY", imageKey: "rainy_day" },
-                  { id: "7", name: "ROMANCE", imageKey: "romance" },
-                  { id: "8", name: "SLEEP", imageKey: "sleep" },
-                  { id: "9", name: "COMEDY", imageKey: "comedy" },
-                  { id: "10", name: "FAMILY", imageKey: "family" },
-                  { id: "11", name: "DINNER", imageKey: "dinner" },
-                  { id: "12", name: "TRAVEL", imageKey: "travel" },
-                ].map((mood) => (
-                  <TouchableOpacity
-                    key={mood.id}
-                    style={styles.genreCardCompact}
-                    activeOpacity={0.8}
-                    onPress={() => router.push(`/category/${mood.id}`)}
-                  >
-                    <Image
-                      source={getImageSource(mood.imageKey)}
-                      style={styles.genreCardCompactImage}
-                    />
-                    <View style={styles.genreCardCompactOverlay}>
-                      <Text style={styles.genreCardCompactName}>
-                        {mood.name}
-                      </Text>
-                    </View>
-                  </TouchableOpacity>
-                ))}
-              </View>
-            </View>
-          </View>
-        </View>
-      )}
-
-      {activeTab === "PODCASTS" && (
-        <View style={styles.tabContent}>
-          <Text style={styles.tabTitle}>Podcasts</Text>
-          <Text style={styles.tabSubtitle}>Discover amazing podcasts</Text>
-
-          {/* Popular Podcast Categories */}
-          <View style={styles.podcastSection}>
-            <Text style={styles.sectionTitle}>Popular Categories</Text>
-            <View style={styles.podcastGrid}>
-              {[
-                { id: "1", name: "TECH", imageKey: "tech_podcast" },
-                { id: "2", name: "BUSINESS", imageKey: "business_podcast" },
-                { id: "3", name: "COMEDY", imageKey: "comedy_podcast" },
-                { id: "4", name: "TRUE CRIME", imageKey: "true_crime_podcast" },
-                { id: "5", name: "HEALTH", imageKey: "health_podcast" },
-                { id: "6", name: "EDUCATION", imageKey: "education_podcast" },
-              ].map((category) => (
-                <TouchableOpacity
-                  key={category.id}
-                  style={styles.podcastCard}
-                  activeOpacity={0.8}
-                  onPress={() => router.push(`/category/${category.id}`)}
-                >
-                  <Image
-                    source={getImageSource(category.imageKey)}
-                    style={styles.podcastCardImage}
-                  />
-                  <LinearGradient
-                    colors={[
-                      "transparent",
-                      "rgba(139, 92, 246, 0.8)",
-                      "rgba(236, 72, 153, 0.8)",
-                    ]}
-                    style={styles.podcastCardGradient}
-                  >
-                    <Text style={styles.podcastCardName}>{category.name}</Text>
-                  </LinearGradient>
-                </TouchableOpacity>
-              ))}
-            </View>
-          </View>
-        </View>
-      )}
-
-      {activeTab === "RECOMMENDED" && (
-        <View style={styles.tabContent}>
-          <Text style={styles.tabTitle}>Recommended</Text>
-          <Text style={styles.tabSubtitle}>Coming soon...</Text>
-        </View>
-      )}
-
-      {/* Spacer for mini player */}
-      <View style={{ height: 100 }} />
     </ScrollView>
   );
 }
@@ -853,43 +956,142 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
+    paddingTop: SPACING.sm,
   },
   header: {
     marginTop: SPACING.lg,
-    marginBottom: SPACING.md,
+    marginBottom: SPACING.lg,
   },
   headerGradient: {
     paddingVertical: SPACING.xl,
     paddingHorizontal: SPACING.lg,
     borderRadius: SIZES.borderRadius,
     marginHorizontal: SPACING.lg,
+    elevation: 8,
+    shadowColor: COLORS.primaryAccent,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+  },
+  headerContent: {
+    alignItems: "center",
   },
   headerTitle: {
-    fontSize: 28,
+    fontSize: 32,
     fontFamily: "InterBold",
     color: COLORS.textPrimary,
     textAlign: "center",
+    marginBottom: SPACING.xs,
+  },
+  headerSubtitle: {
+    fontSize: 16,
+    fontFamily: "InterMedium",
+    color: COLORS.textPrimary,
+    opacity: 0.9,
+    textAlign: "center",
+  },
+  continueCard: {
+    backgroundColor: "transparent",
+    marginHorizontal: 0,
+    paddingHorizontal: SPACING.lg,
+    paddingVertical: SPACING.md,
+    marginBottom: SPACING.lg,
+  },
+  continueRow: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  continueImage: {
+    width: 64,
+    height: 64,
+    borderRadius: SIZES.cardBorderRadius,
+    marginRight: SPACING.md,
+  },
+  continueInfo: {
+    flex: 1,
+  },
+  continueLabel: {
+    fontSize: 12,
+    fontFamily: "InterMedium",
+    color: COLORS.textSecondary,
+    marginBottom: 2,
+  },
+  continueTitle: {
+    fontSize: 16,
+    fontFamily: "InterBold",
+    color: COLORS.textPrimary,
+  },
+  continueArtist: {
+    fontSize: 13,
+    fontFamily: "InterRegular",
+    color: COLORS.textSecondary,
+    marginTop: 2,
+  },
+  continueControls: {
+    marginTop: SPACING.sm,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  continuePlayButton: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: COLORS.primaryAccent,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  continueProgress: {
+    marginTop: SPACING.md,
+  },
+  quickActions: {
+    paddingHorizontal: SPACING.lg,
+    marginBottom: SPACING.lg,
+  },
+  quickAction: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: COLORS.backgroundTertiary,
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderRadius: 18,
+    marginRight: 8,
+    elevation: 0,
+  },
+  quickActionText: {
+    marginLeft: 6,
+    fontSize: 13,
+    fontFamily: "InterMedium",
+    color: COLORS.textPrimary,
+  },
+  navTabsContainer: {
+    backgroundColor: "transparent",
+    marginHorizontal: 0,
+    paddingVertical: 0,
+    marginBottom: 0,
   },
   navTabs: {
     flexDirection: "row",
     paddingHorizontal: SPACING.lg,
-    marginBottom: SPACING.lg,
   },
   navTab: {
     marginRight: SPACING.xl,
-    paddingBottom: SPACING.xs,
+    paddingVertical: SPACING.sm,
+    paddingHorizontal: SPACING.md,
+    borderRadius: SIZES.borderRadius,
   },
   activeTab: {
-    borderBottomWidth: 2,
-    borderBottomColor: COLORS.primaryAccent,
+    backgroundColor: "transparent",
   },
   navTabText: {
     fontSize: 14,
     fontFamily: "InterMedium",
     color: COLORS.textSecondary,
+    fontWeight: "500",
   },
   activeTabText: {
     color: COLORS.textPrimary,
+    fontWeight: "700",
+    textDecorationLine: "underline",
   },
   tabContent: {
     flex: 1,
@@ -910,25 +1112,32 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   section: {
-    marginBottom: SPACING.lg,
+    marginBottom: SPACING.xl,
+    backgroundColor: "transparent",
+    marginHorizontal: 0,
+    paddingVertical: 0,
   },
   sectionHeader: {
     marginBottom: SPACING.sm,
-    marginTop: SPACING.md,
+    marginTop: 0,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
     paddingHorizontal: SPACING.lg,
   },
   sectionTitleContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
     flex: 1,
   },
   sectionTitle: {
-    fontSize: 20,
+    fontSize: 22,
     fontFamily: "InterBold",
     color: COLORS.textPrimary,
     marginBottom: SPACING.sm,
     textAlign: "left",
+    letterSpacing: 0.5,
   },
   sectionSubtitle: {
     fontSize: 14,
@@ -938,9 +1147,17 @@ const styles = StyleSheet.create({
   viewAllText: {
     fontSize: 14,
     fontFamily: "InterMedium",
+    paddingHorizontal: 0,
+    paddingVertical: 0,
+    borderRadius: 0,
+    backgroundColor: "transparent",
     color: COLORS.primaryAccent,
+    overflow: "visible",
   },
   scrollContent: {
+    paddingBottom: SPACING.xl,
+  },
+  horizontalListContent: {
     paddingHorizontal: SPACING.lg,
   },
   cardContainer: {
@@ -952,6 +1169,11 @@ const styles = StyleSheet.create({
     borderRadius: SIZES.cardBorderRadius,
     overflow: "hidden",
     position: "relative",
+    elevation: 4,
+    shadowColor: COLORS.textSecondary,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
   },
   largeCard: {
     width: 200,
@@ -961,6 +1183,11 @@ const styles = StyleSheet.create({
     width: 120,
     height: 150,
     borderRadius: 60,
+    elevation: 4,
+    shadowColor: COLORS.textSecondary,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
   },
   cardImage: {
     width: "100%",
@@ -971,9 +1198,10 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
-    height: "60%",
+    height: "70%",
     justifyContent: "flex-end",
     padding: SPACING.sm,
+    borderRadius: SIZES.cardBorderRadius,
   },
   cardContent: {
     flex: 1,
@@ -1180,8 +1408,55 @@ const styles = StyleSheet.create({
     height: 120,
     borderRadius: SIZES.cardBorderRadius,
     overflow: "hidden",
-    marginBottom: SPACING.sm,
+  },
+  // Grid layout styles for Genres & Moods
+  gridContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    paddingHorizontal: SPACING.lg,
+  },
+  gridCard: {
+    width: "48%",
+    height: 120,
+    borderRadius: SIZES.cardBorderRadius,
+    overflow: "hidden",
+    marginBottom: SPACING.md,
     position: "relative",
+    elevation: 4,
+    shadowColor: COLORS.textSecondary,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
+  },
+  gridCardImage: {
+    width: "100%",
+    height: "100%",
+  },
+  gridCardGradient: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: "100%",
+    justifyContent: "flex-end",
+    alignItems: "center",
+    paddingBottom: SPACING.sm,
+    borderRadius: SIZES.cardBorderRadius,
+  },
+  gridCardName: {
+    fontSize: 16,
+    fontFamily: "InterBold",
+    color: COLORS.textPrimary,
+    textAlign: "center",
+    textShadowColor: "rgba(0, 0, 0, 0.8)",
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
+  },
+  backToPreviewText: {
+    fontSize: 14,
+    fontFamily: "InterMedium",
+    color: COLORS.primary,
   },
   podcastCardImage: {
     width: "100%",

@@ -15,7 +15,8 @@ import {
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { COLORS, SPACING, SIZES, TYPOGRAPHY } from "../../../constants/theme";
-import { storage, HistoryEntry } from "../../../services/storage";
+import storage from "../../../services/storage.platform";
+import { HistoryEntry } from "../../../services/storage";
 
 type SortOption = "date" | "artist" | "title";
 

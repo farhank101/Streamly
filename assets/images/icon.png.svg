@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#121212" />
+  <g transform="translate(512, 512)">
+    <!-- Music note icon -->
+    <path d="M-150,-150 L150,-150 C200,-150 250,-100 250,-50 L250,150 C250,200 200,250 150,250 L-150,250 C-200,250 -250,200 -250,150 L-250,-50 C-250,-100 -200,-150 -150,-150 Z" fill="#1DB954" />
+    <path d="M0,-50 L0,100 C0,125 -25,150 -50,150 C-75,150 -100,125 -100,100 C-100,75 -75,50 -50,50 L-50,0 L-100,-25 L-100,-75 L0,-50 Z" fill="#FFFFFF" />
+    <circle cx="-50" cy="100" r="25" fill="#FFFFFF" />
+    <!-- Sound waves -->
+    <path d="M100,0 C150,0 150,50 150,50 L150,100 C150,100 150,150 100,150" stroke="#FFFFFF" stroke-width="20" fill="none" />
+    <path d="M150,0 C200,0 200,75 200,75 L200,75 C200,75 200,150 150,150" stroke="#FFFFFF" stroke-width="20" fill="none" />
+  </g>
+</svg>
