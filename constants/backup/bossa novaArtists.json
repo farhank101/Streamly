@@ -1,0 +1,43 @@
+[
+  {
+    "id": "3pO5VjZ4wOHCMBXOvbMISG",
+    "name": "Antônio Carlos Jobim",
+    "image": "https://i.scdn.co/image/25438d99922a46a53792e1496b31159ad386806a",
+    "followers": 848362,
+    "spotifyId": "3pO5VjZ4wOHCMBXOvbMISG",
+    "spotifyPopularity": 72,
+    "genres": [
+      "bossa nova",
+      "brazilian jazz",
+      "mpb",
+      "latin jazz"
+    ],
+    "primaryGenre": "bossa nova",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "848.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0FMucZsEnCxs5pqBjHjIc8",
+    "name": "Stan Getz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb45dd470659deedf47618968e",
+    "followers": 523941,
+    "spotifyId": "0FMucZsEnCxs5pqBjHjIc8",
+    "spotifyPopularity": 68,
+    "genres": [
+      "bossa nova",
+      "jazz",
+      "brazilian jazz",
+      "cool jazz",
+      "latin jazz"
+    ],
+    "primaryGenre": "bossa nova",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "523.9K",
+    "tier": "Rising"
+  }
+]

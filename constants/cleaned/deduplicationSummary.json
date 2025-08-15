@@ -1,0 +1,149 @@
+{
+  "totalUniqueArtists": 806,
+  "totalDuplicatesRemoved": 344,
+  "genreBreakdown": {
+    "hiphop": 31,
+    "other": 457,
+    "country": 30,
+    "pop": 96,
+    "reggae": 16,
+    "rock": 79,
+    "r&b": 8,
+    "electronic": 16,
+    "latin": 3,
+    "indie": 10,
+    "metal": 4,
+    "tropical house": 1,
+    "soul_funk": 11,
+    "classical": 15,
+    "punk": 5,
+    "emo": 1,
+    "stutter house": 1,
+    "jazz": 15,
+    "folk": 5,
+    "blues": 2
+  },
+  "topArtists": [
+    {
+      "name": "Bad Bunny",
+      "popularity": 100,
+      "followers": 99107270,
+      "primaryGenre": "reggaeton"
+    },
+    {
+      "name": "Taylor Swift",
+      "popularity": 99,
+      "followers": 141376291,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Drake",
+      "popularity": 99,
+      "followers": 100725524,
+      "primaryGenre": ""
+    },
+    {
+      "name": "The Weeknd",
+      "popularity": 97,
+      "followers": 109282479,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Badshah",
+      "popularity": 96,
+      "followers": 0,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Justin Bieber",
+      "popularity": 96,
+      "followers": 83835982,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Morgan Wallen",
+      "popularity": 95,
+      "followers": 13374059,
+      "primaryGenre": "country"
+    },
+    {
+      "name": "Arijit Singh",
+      "popularity": 95,
+      "followers": 0,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Diljit Dosanjh",
+      "popularity": 95,
+      "followers": 0,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Travis Scott",
+      "popularity": 95,
+      "followers": 40082153,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Shreya Ghoshal",
+      "popularity": 94,
+      "followers": 0,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Guru Randhawa",
+      "popularity": 94,
+      "followers": 0,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Billie Eilish",
+      "popularity": 94,
+      "followers": 115662675,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Bruno Mars",
+      "popularity": 94,
+      "followers": 73856446,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Kendrick Lamar",
+      "popularity": 94,
+      "followers": 43198695,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Arijit Singh",
+      "popularity": 93,
+      "followers": 155504190,
+      "primaryGenre": "hindi pop"
+    },
+    {
+      "name": "Ed Sheeran",
+      "popularity": 93,
+      "followers": 121632336,
+      "primaryGenre": "soft pop"
+    },
+    {
+      "name": "KAROL G",
+      "popularity": 93,
+      "followers": 58713192,
+      "primaryGenre": "reggaeton"
+    },
+    {
+      "name": "Neha Kakkar",
+      "popularity": 93,
+      "followers": 0,
+      "primaryGenre": ""
+    },
+    {
+      "name": "Yo Yo Honey Singh",
+      "popularity": 93,
+      "followers": 0,
+      "primaryGenre": ""
+    }
+  ],
+  "timestamp": "2025-08-15T20:02:12.418Z"
+}

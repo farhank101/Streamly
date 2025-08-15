@@ -1,0 +1,40 @@
+[
+  {
+    "id": "6kACVPfCOnqzgfEF5ryl0x",
+    "name": "Johnny Cash",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb94a8326675bfcafb20f0a235",
+    "followers": 6832500,
+    "spotifyId": "6kACVPfCOnqzgfEF5ryl0x",
+    "spotifyPopularity": 77,
+    "genres": [
+      "classic country",
+      "outlaw country",
+      "country"
+    ],
+    "primaryGenre": "classic country",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "6.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4Ti0EKl2PVEms2NRMVGqNe",
+    "name": "Don Williams",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb196b848b62af7dddaf2b24c2",
+    "followers": 948175,
+    "spotifyId": "4Ti0EKl2PVEms2NRMVGqNe",
+    "spotifyPopularity": 64,
+    "genres": [
+      "classic country",
+      "country",
+      "traditional country"
+    ],
+    "primaryGenre": "classic country",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "948.2K",
+    "tier": "Rising"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "75JvBeqW4BJ4xgnbMAq6MN",
+    "name": "Anne Wilson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb010f87a994fa47d231429ca4",
+    "followers": 383342,
+    "spotifyId": "75JvBeqW4BJ4xgnbMAq6MN",
+    "spotifyPopularity": 65,
+    "genres": [
+      "christian country",
+      "christian",
+      "worship",
+      "ccm"
+    ],
+    "primaryGenre": "christian country",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "383.3K",
+    "tier": "Rising"
+  }
+]

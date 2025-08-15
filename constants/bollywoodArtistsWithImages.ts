@@ -1,6 +1,5 @@
 /**
- * Bollywood Artists Database with Spotify Images
- * Comprehensive list of Bollywood artists with their Spotify data
+ * Bollywood Artists with Spotify Images (auto-generated)
  */
 
 export interface BollywoodArtist {
@@ -11,9 +10,9 @@ export interface BollywoodArtist {
   image: string | null;
   likes: string;
   isArtist: boolean;
-  spotifyId: string | null;
-  spotifyPopularity: number;
-  followers: number;
+  spotifyId?: string | null;
+  spotifyPopularity?: number;
+  followers?: number;
 }
 
 export const bollywoodArtists: BollywoodArtist[] = [
@@ -23,11 +22,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 95,
     "image": "https://i.scdn.co/image/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7",
-    "likes": "155407K",
+    "likes": "95000K",
     "isArtist": true,
     "spotifyId": "4YRxDV8wJFPHPTeXepOstw",
     "spotifyPopularity": 93,
-    "followers": 155407090
+    "followers": 155504190
   },
   {
     "id": "bollywood_2",
@@ -35,11 +34,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 94,
     "image": "https://i.scdn.co/image/ab6761610000e5eb59303d54ce789210e745e1a9",
-    "likes": "31550K",
+    "likes": "94000K",
     "isArtist": true,
     "spotifyId": "0oOet2f43PA68X5RxKobEy",
     "spotifyPopularity": 88,
-    "followers": 31550186
+    "followers": 31566490
   },
   {
     "id": "bollywood_3",
@@ -47,11 +46,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 93,
     "image": "https://i.scdn.co/image/ab6761610000e5eb77c63908ac248d3bf6d42f27",
-    "likes": "48605K",
+    "likes": "93000K",
     "isArtist": true,
     "spotifyId": "5f4QpKfy7ptCHwTqspnSJI",
     "spotifyPopularity": 76,
-    "followers": 48605021
+    "followers": 48607339
   },
   {
     "id": "bollywood_4",
@@ -59,11 +58,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 92,
     "image": "https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84",
-    "likes": "38074K",
+    "likes": "92000K",
     "isArtist": true,
     "spotifyId": "2oSONSC9zQ4UonDKnLqksx",
     "spotifyPopularity": 82,
-    "followers": 38074236
+    "followers": 38104018
   },
   {
     "id": "bollywood_5",
@@ -71,11 +70,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 91,
     "image": "https://i.scdn.co/image/ab6761610000e5eba45f7ef3e1c982461f2dad6b",
-    "likes": "17382K",
+    "likes": "91000K",
     "isArtist": true,
     "spotifyId": "3eDT9fwXKuHWFvgZaaYC5v",
     "spotifyPopularity": 78,
-    "followers": 17382689
+    "followers": 17383827
   },
   {
     "id": "bollywood_6",
@@ -83,11 +82,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 90,
     "image": "https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca",
-    "likes": "55588K",
+    "likes": "90000K",
     "isArtist": true,
     "spotifyId": "1wRPtKGflJrBx9BmLsSwlU",
     "spotifyPopularity": 91,
-    "followers": 55588322
+    "followers": 55645139
   },
   {
     "id": "bollywood_7",
@@ -95,11 +94,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 89,
     "image": "https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c",
-    "likes": "67392K",
+    "likes": "89000K",
     "isArtist": true,
     "spotifyId": "1mYsTxnqsietFxj1OgoGbG",
     "spotifyPopularity": 84,
-    "followers": 67392483
+    "followers": 67433830
   },
   {
     "id": "bollywood_8",
@@ -107,11 +106,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 88,
     "image": "https://i.scdn.co/image/ab6761610000e5ebc7d2a4212ee745b2c72298e0",
-    "likes": "20273K",
+    "likes": "88000K",
     "isArtist": true,
     "spotifyId": "4K6blSRoklNdpw4mzLxwfn",
     "spotifyPopularity": 81,
-    "followers": 20273671
+    "followers": 20282554
   },
   {
     "id": "bollywood_9",
@@ -119,11 +118,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 87,
     "image": "https://i.scdn.co/image/ab6761610000e5eb935b2dd507212bd72a71d7f9",
-    "likes": "19519K",
+    "likes": "87000K",
     "isArtist": true,
     "spotifyId": "3gBKY0y3dFFVRqicLnVZYz",
     "spotifyPopularity": 84,
-    "followers": 19519152
+    "followers": 19529573
   },
   {
     "id": "bollywood_10",
@@ -131,11 +130,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 86,
     "image": "https://i.scdn.co/image/ab6761610000e5eb8de0e6e7e55d7773931ab7f4",
-    "likes": "20472K",
+    "likes": "86000K",
     "isArtist": true,
     "spotifyId": "70B80Lwx2sxti0M1Ng9e8K",
     "spotifyPopularity": 84,
-    "followers": 20472962
+    "followers": 20486359
   },
   {
     "id": "bollywood_11",
@@ -143,11 +142,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 85,
     "image": "https://i.scdn.co/image/ab6761610000e5eb4f1d4019906979d45f7200a3",
-    "likes": "3847K",
+    "likes": "85000K",
     "isArtist": true,
     "spotifyId": "6WPmTGeeoymoVlXVtsCwz7",
     "spotifyPopularity": 72,
-    "followers": 3847084
+    "followers": 3849149
   },
   {
     "id": "bollywood_12",
@@ -155,11 +154,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 84,
     "image": "https://i.scdn.co/image/ab6761610000e5ebbc959d7569618ec2af2210f5",
-    "likes": "21985K",
+    "likes": "84000K",
     "isArtist": true,
     "spotifyId": "1dVygo6tRFXC8CSWURQJq2",
     "spotifyPopularity": 80,
-    "followers": 21985684
+    "followers": 21995322
   },
   {
     "id": "bollywood_13",
@@ -167,11 +166,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 83,
     "image": "https://i.scdn.co/image/ab6761610000e5ebc89e803f887e3829819bf82a",
-    "likes": "1035K",
+    "likes": "83000K",
     "isArtist": true,
     "spotifyId": "19MVxKZZdPj2X0F8pi0OCT",
     "spotifyPopularity": 72,
-    "followers": 1035028
+    "followers": 1036479
   },
   {
     "id": "bollywood_14",
@@ -179,11 +178,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 82,
     "image": "https://i.scdn.co/image/ab6761610000e5ebc6d179e514b5cfe685f19a2e",
-    "likes": "9451K",
+    "likes": "82000K",
     "isArtist": true,
     "spotifyId": "4oVMLzAqW6qhRpZWt8fNw4",
     "spotifyPopularity": 73,
-    "followers": 9451341
+    "followers": 9455473
   },
   {
     "id": "bollywood_15",
@@ -191,11 +190,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 81,
     "image": "https://i.scdn.co/image/ab6761610000e5ebac45eaf028dc58810df0f382",
-    "likes": "27694K",
+    "likes": "81000K",
     "isArtist": true,
     "spotifyId": "3OLGltG8UPIea8sA4w0yg0",
     "spotifyPopularity": 77,
-    "followers": 27694072
+    "followers": 27707260
   },
   {
     "id": "bollywood_16",
@@ -203,11 +202,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 80,
     "image": "https://i.scdn.co/image/ab6761610000e5eb84e0829f8e8abff52255fbd3",
-    "likes": "12090K",
+    "likes": "80000K",
     "isArtist": true,
     "spotifyId": "4W91bbPB2CTSsHwt7eqNl7",
     "spotifyPopularity": 75,
-    "followers": 12090631
+    "followers": 12093041
   },
   {
     "id": "bollywood_17",
@@ -215,11 +214,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 79,
     "image": "https://i.scdn.co/image/ab6761610000e5eb16691117e2ba803946b203ba",
-    "likes": "13555K",
+    "likes": "79000K",
     "isArtist": true,
     "spotifyId": "5GnnSrwNCGyfAU4zuIytiS",
     "spotifyPopularity": 77,
-    "followers": 13555247
+    "followers": 13559551
   },
   {
     "id": "bollywood_18",
@@ -227,11 +226,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 78,
     "image": "https://i.scdn.co/image/ab6761610000e5ebb09a31f853166e721d4d46b2",
-    "likes": "21293K",
+    "likes": "78000K",
     "isArtist": true,
     "spotifyId": "4fEkbug6kZzzJ8eYX6Kbbp",
     "spotifyPopularity": 81,
-    "followers": 21293950
+    "followers": 21299281
   },
   {
     "id": "bollywood_19",
@@ -239,11 +238,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 77,
     "image": "https://i.scdn.co/image/ab6761610000e5eb2573d940f1062a6646891e50",
-    "likes": "9007K",
+    "likes": "77000K",
     "isArtist": true,
     "spotifyId": "5cB4d4jPYjMT326sjihQ4m",
     "spotifyPopularity": 72,
-    "followers": 9007053
+    "followers": 9008783
   },
   {
     "id": "bollywood_20",
@@ -251,11 +250,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 76,
     "image": "https://i.scdn.co/image/ab6761610000e5eb9042ffa2a66773410eca8870",
-    "likes": "7127K",
+    "likes": "76000K",
     "isArtist": true,
     "spotifyId": "2NoJ7NuNs9nyj8Thoh1kbu",
     "spotifyPopularity": 78,
-    "followers": 7127424
+    "followers": 7129868
   },
   {
     "id": "bollywood_21",
@@ -263,11 +262,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 75,
     "image": "https://i.scdn.co/image/ab6761610000e5ebea2b56271cf92bcff45c0ae9",
-    "likes": "20520K",
+    "likes": "75000K",
     "isArtist": true,
     "spotifyId": "2ae6PxICSOZHvjqiCcgon8",
     "spotifyPopularity": 83,
-    "followers": 20520232
+    "followers": 20538357
   },
   {
     "id": "bollywood_22",
@@ -275,11 +274,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 74,
     "image": "https://i.scdn.co/image/ab6761610000e5eba0199b159c0c5a9f62333d32",
-    "likes": "22788K",
+    "likes": "74000K",
     "isArtist": true,
     "spotifyId": "61JrslREXq98hurYL2hYoc",
     "spotifyPopularity": 81,
-    "followers": 22788874
+    "followers": 22806493
   },
   {
     "id": "bollywood_23",
@@ -287,11 +286,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 73,
     "image": "https://i.scdn.co/image/ab6761610000e5eb7c6855a92b408b6f82f3e6d1",
-    "likes": "9899K",
+    "likes": "73000K",
     "isArtist": true,
     "spotifyId": "5as8A4G47Ohu9NSWs3Je8U",
     "spotifyPopularity": 75,
-    "followers": 9899848
+    "followers": 9905305
   },
   {
     "id": "bollywood_24",
@@ -299,11 +298,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 72,
     "image": "https://i.scdn.co/image/ab6761610000e5ebc9ac92d87de28795c1c49730",
-    "likes": "17795K",
+    "likes": "72000K",
     "isArtist": true,
     "spotifyId": "0GF4shudTAFv8ak9eWdd4Y",
     "spotifyPopularity": 80,
-    "followers": 17795165
+    "followers": 17818090
   },
   {
     "id": "bollywood_25",
@@ -311,11 +310,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 71,
     "image": "https://i.scdn.co/image/ab67616d0000b27379e3e03a30c41194a914fc80",
-    "likes": "3785K",
+    "likes": "71000K",
     "isArtist": true,
     "spotifyId": "4etv0ut4ws0GbXBtolzf5e",
     "spotifyPopularity": 69,
-    "followers": 3785706
+    "followers": 3788364
   },
   {
     "id": "bollywood_26",
@@ -323,11 +322,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 70,
     "image": "https://i.scdn.co/image/ab6761610000e5eb261c13ddd720afec5c1dfd4e",
-    "likes": "10031K",
+    "likes": "70000K",
     "isArtist": true,
     "spotifyId": "0gXDpqwYNDODn7fB0RDN8J",
     "spotifyPopularity": 73,
-    "followers": 10031578
+    "followers": 10038430
   },
   {
     "id": "bollywood_27",
@@ -335,11 +334,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 69,
     "image": "https://i.scdn.co/image/ab6761610000e5eb23ef8a548a5ae6925b70d106",
-    "likes": "2503K",
+    "likes": "69000K",
     "isArtist": true,
     "spotifyId": "4kcoiVXIxvUoLUoHY1vJYU",
     "spotifyPopularity": 60,
-    "followers": 2503025
+    "followers": 2504748
   },
   {
     "id": "bollywood_28",
@@ -347,11 +346,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 68,
     "image": "https://i.scdn.co/image/ab6761610000e5eb0bc24613a24f42b7ea2d193e",
-    "likes": "2444K",
+    "likes": "68000K",
     "isArtist": true,
     "spotifyId": "02Um2HIOrUdsy3wqPBZwsj",
     "spotifyPopularity": 60,
-    "followers": 2444077
+    "followers": 2446129
   },
   {
     "id": "bollywood_29",
@@ -359,11 +358,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 67,
     "image": "https://i.scdn.co/image/ab6761610000e5eb168fa44945dc03cb02319832",
-    "likes": "1117K",
+    "likes": "67000K",
     "isArtist": true,
     "spotifyId": "2fi9hpqNbi5neTbKSqG0vW",
     "spotifyPopularity": 56,
-    "followers": 1117435
+    "followers": 1117465
   },
   {
     "id": "bollywood_30",
@@ -371,11 +370,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 66,
     "image": "https://i.scdn.co/image/ab6761610000e5eb6ca54fc9555b6d4631ec6169",
-    "likes": "1394K",
+    "likes": "66000K",
     "isArtist": true,
     "spotifyId": "0QsbYX8XslSSUcztc6u4pO",
     "spotifyPopularity": 51,
-    "followers": 1394563
+    "followers": 1394815
   },
   {
     "id": "bollywood_31",
@@ -383,11 +382,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 65,
     "image": "https://i.scdn.co/image/ab6761610000e5eb1106c2bbc2e6277cf0062834",
-    "likes": "891K",
+    "likes": "65000K",
     "isArtist": true,
     "spotifyId": "0LruguA5aIP6yvLUIkxANh",
     "spotifyPopularity": 42,
-    "followers": 891673
+    "followers": 891685
   },
   {
     "id": "bollywood_32",
@@ -395,11 +394,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 64,
     "image": "https://i.scdn.co/image/ab67616d0000b2738638bbd2baea06f233dbeb1c",
-    "likes": "266K",
+    "likes": "64000K",
     "isArtist": true,
     "spotifyId": "71lk7UDkZK1mabUE6LCASW",
     "spotifyPopularity": 29,
-    "followers": 266609
+    "followers": 266604
   },
   {
     "id": "bollywood_33",
@@ -407,11 +406,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 63,
     "image": "https://i.scdn.co/image/ab6761610000e5ebc921245b32947c7d61a7356c",
-    "likes": "1626K",
+    "likes": "63000K",
     "isArtist": true,
     "spotifyId": "3mpgtUc7wYBNjr04gEiQ4u",
     "spotifyPopularity": 66,
-    "followers": 1626806
+    "followers": 1627814
   },
   {
     "id": "bollywood_34",
@@ -419,11 +418,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 62,
     "image": "https://i.scdn.co/image/ab6761610000e5eb38fd0fc58563ec507daf810b",
-    "likes": "347K",
+    "likes": "62000K",
     "isArtist": true,
     "spotifyId": "33132SkzbRbOGL6fQBWHqQ",
     "spotifyPopularity": 38,
-    "followers": 347998
+    "followers": 347992
   },
   {
     "id": "bollywood_35",
@@ -431,11 +430,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 61,
     "image": "https://i.scdn.co/image/ab6761610000e5eb0f74a374d730cee329e47492",
-    "likes": "2153K",
+    "likes": "61000K",
     "isArtist": true,
     "spotifyId": "3t4P7aXVor3NxlJPZxLzOQ",
     "spotifyPopularity": 64,
-    "followers": 2153717
+    "followers": 2153780
   },
   {
     "id": "bollywood_36",
@@ -443,11 +442,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 60,
     "image": "https://i.scdn.co/image/ab6761610000e5eb33a750f4e8264286af8e751a",
-    "likes": "1722K",
+    "likes": "60000K",
     "isArtist": true,
     "spotifyId": "5C1S9XwxMuuCciutwMhp5t",
     "spotifyPopularity": 68,
-    "followers": 1722885
+    "followers": 1724007
   },
   {
     "id": "bollywood_37",
@@ -455,11 +454,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 59,
     "image": "https://i.scdn.co/image/ab6761610000e5eb9ec194a489e4f6c0d9515b60",
-    "likes": "1396K",
+    "likes": "59000K",
     "isArtist": true,
     "spotifyId": "1HGMG8RHvcu1mfdM9MeTek",
     "spotifyPopularity": 73,
-    "followers": 1396333
+    "followers": 1396482
   },
   {
     "id": "bollywood_38",
@@ -467,11 +466,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 58,
     "image": "https://i.scdn.co/image/ab6761610000e5eb9c22e0ff8c09b0128f67393e",
-    "likes": "6903K",
+    "likes": "58000K",
     "isArtist": true,
     "spotifyId": "4hkB2bR5ek6lJChj6aunCn",
     "spotifyPopularity": 75,
-    "followers": 6903294
+    "followers": 6905640
   },
   {
     "id": "bollywood_39",
@@ -479,11 +478,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 57,
     "image": "https://i.scdn.co/image/ab6761610000e5ebb2d8cc7f3f5c27fa3f93e44e",
-    "likes": "141K",
+    "likes": "57000K",
     "isArtist": true,
     "spotifyId": "5zWKMBKw7KqulFxyz2ULvp",
     "spotifyPopularity": 56,
-    "followers": 141551
+    "followers": 141581
   },
   {
     "id": "bollywood_40",
@@ -491,11 +490,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 56,
     "image": "https://i.scdn.co/image/ab67616d0000b2735544ad0ab844555285721277",
-    "likes": "93K",
+    "likes": "56000K",
     "isArtist": true,
     "spotifyId": "2ME9akyjf2IaOM5DLTqHUS",
     "spotifyPopularity": 52,
-    "followers": 93972
+    "followers": 94078
   },
   {
     "id": "bollywood_41",
@@ -503,11 +502,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 53,
     "image": "https://i.scdn.co/image/ab67616d0000b273c809df14563da1b5e984f777",
-    "likes": "280K",
+    "likes": "53000K",
     "isArtist": true,
     "spotifyId": "6lpXKoHUzxZc5PwyS6cu4C",
     "spotifyPopularity": 59,
-    "followers": 280154
+    "followers": 280632
   },
   {
     "id": "bollywood_42",
@@ -515,11 +514,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 52,
     "image": "https://i.scdn.co/image/ab6761610000e5eb1515f0d5724076f9cfaf8b27",
-    "likes": "3753K",
+    "likes": "52000K",
     "isArtist": true,
     "spotifyId": "2JEjaa7hWhE1BbL3OcoeFR",
     "spotifyPopularity": 73,
-    "followers": 3753569
+    "followers": 3757936
   },
   {
     "id": "bollywood_43",
@@ -527,11 +526,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 51,
     "image": "https://i.scdn.co/image/ab6761610000e5eb59bdab26a58b6839e9b3fe45",
-    "likes": "154K",
+    "likes": "51000K",
     "isArtist": true,
     "spotifyId": "6NqGneT9UxQ6ygqBpp8Hty",
     "spotifyPopularity": 53,
-    "followers": 154193
+    "followers": 154465
   },
   {
     "id": "bollywood_44",
@@ -539,11 +538,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 50,
     "image": "https://i.scdn.co/image/ab6761610000e5eb27852ef557c522e357664824",
-    "likes": "9803K",
+    "likes": "50000K",
     "isArtist": true,
     "spotifyId": "2IUtwMti1OiT3lkW6RubgH",
     "spotifyPopularity": 80,
-    "followers": 9803810
+    "followers": 9810014
   },
   {
     "id": "bollywood_45",
@@ -551,11 +550,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 49,
     "image": "https://i.scdn.co/image/ab6772690000c46cefaf8882f562760329d1edf6",
-    "likes": "5150K",
+    "likes": "49000K",
     "isArtist": true,
     "spotifyId": "5Xpg6PBSUOoho2lI9qLjiu",
     "spotifyPopularity": 76,
-    "followers": 5150273
+    "followers": 5151964
   },
   {
     "id": "bollywood_46",
@@ -563,11 +562,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 48,
     "image": "https://i.scdn.co/image/ab6772690000c46c8bc8055af2dd6f8e8ae1de74",
-    "likes": "2286K",
+    "likes": "48000K",
     "isArtist": true,
     "spotifyId": "0aFGod7DM6b3O5l1AmvFwK",
     "spotifyPopularity": 65,
-    "followers": 2286567
+    "followers": 2286809
   },
   {
     "id": "bollywood_47",
@@ -575,11 +574,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 47,
     "image": "https://i.scdn.co/image/ab67616d0000b273fa031630be607e49b66edc4a",
-    "likes": "190K",
+    "likes": "47000K",
     "isArtist": true,
     "spotifyId": "17Jj3Xia6crs4OatDEpuMR",
     "spotifyPopularity": 54,
-    "followers": 190716
+    "followers": 190810
   },
   {
     "id": "bollywood_48",
@@ -587,11 +586,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 46,
     "image": "https://i.scdn.co/image/ab6761610000e5eb00e3c9afc573a0dc95e7098b",
-    "likes": "1044K",
+    "likes": "46000K",
     "isArtist": true,
     "spotifyId": "0w1zspBrCXnMx8CcB1WR31",
     "spotifyPopularity": 57,
-    "followers": 1044165
+    "followers": 1044817
   },
   {
     "id": "bollywood_49",
@@ -599,11 +598,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 45,
     "image": "https://i.scdn.co/image/ab67616d0000b273398d00dcb06152bd2930559e",
-    "likes": "365K",
+    "likes": "45000K",
     "isArtist": true,
     "spotifyId": "5hgtt9tLxsxvRMWrnxNWVW",
     "spotifyPopularity": 51,
-    "followers": 365034
+    "followers": 365079
   },
   {
     "id": "bollywood_50",
@@ -611,11 +610,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 44,
     "image": "https://i.scdn.co/image/ab67616d0000b273eb71100eb83700cbc047c257",
-    "likes": "635K",
+    "likes": "44000K",
     "isArtist": true,
     "spotifyId": "4y01WeCT5mNIAYRPjJ4sgj",
     "spotifyPopularity": 62,
-    "followers": 635147
+    "followers": 635378
   },
   {
     "id": "bollywood_51",
@@ -623,11 +622,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 43,
     "image": "https://i.scdn.co/image/ab6761610000e5eb70ce580c846a91bb67b7d619",
-    "likes": "243K",
+    "likes": "43000K",
     "isArtist": true,
     "spotifyId": "0POTtVVziAK15RvxYMP3H1",
     "spotifyPopularity": 49,
-    "followers": 243930
+    "followers": 243962
   },
   {
     "id": "bollywood_52",
@@ -635,11 +634,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 42,
     "image": "https://i.scdn.co/image/ab6761610000e5ebdd746a334ae236bb7a95c1d5",
-    "likes": "9819K",
+    "likes": "42000K",
     "isArtist": true,
     "spotifyId": "2wPsNCwhEGb0KvChZ5DD52",
     "spotifyPopularity": 75,
-    "followers": 9819037
+    "followers": 9824303
   },
   {
     "id": "bollywood_53",
@@ -647,11 +646,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 41,
     "image": "https://i.scdn.co/image/ab67616d0000b273fa031630be607e49b66edc4a",
-    "likes": "1212K",
+    "likes": "41000K",
     "isArtist": true,
     "spotifyId": "2HujlDCi1ggnUSdfgipUxE",
     "spotifyPopularity": 64,
-    "followers": 1212054
+    "followers": 1212846
   },
   {
     "id": "bollywood_54",
@@ -659,11 +658,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 40,
     "image": "https://i.scdn.co/image/ab67616d0000b27302a6d22b149df545f41ca4af",
-    "likes": "2041K",
+    "likes": "40000K",
     "isArtist": true,
     "spotifyId": "3wjaprBWmoSJn4KP9tgkxt",
     "spotifyPopularity": 71,
-    "followers": 2041122
+    "followers": 2042227
   },
   {
     "id": "bollywood_55",
@@ -671,11 +670,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 39,
     "image": "https://i.scdn.co/image/ab6761610000e5eb10d7c124cfd46099bfe3b7c5",
-    "likes": "944K",
+    "likes": "39000K",
     "isArtist": true,
     "spotifyId": "2Tu9UYtD5IQF84gTZsM9PO",
     "spotifyPopularity": 53,
-    "followers": 944673
+    "followers": 945199
   },
   {
     "id": "bollywood_56",
@@ -683,11 +682,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 38,
     "image": "https://i.scdn.co/image/ab67616d0000b27332fba7a3609c26dd50bbfd69",
-    "likes": "699K",
+    "likes": "38000K",
     "isArtist": true,
     "spotifyId": "5L0RbvV13JHcxpbO7LxVAp",
     "spotifyPopularity": 55,
-    "followers": 699635
+    "followers": 700278
   },
   {
     "id": "bollywood_57",
@@ -695,11 +694,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 37,
     "image": "https://i.scdn.co/image/ab6761610000e5eb40c1d16c347c09e4fd3da226",
-    "likes": "970K",
+    "likes": "37000K",
     "isArtist": true,
     "spotifyId": "4JXqxFqi9dxlsiXKZhKvzB",
     "spotifyPopularity": 63,
-    "followers": 970244
+    "followers": 970719
   },
   {
     "id": "bollywood_58",
@@ -707,11 +706,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 36,
     "image": "https://i.scdn.co/image/ab6761610000e5eb776714bf7292f39e79b7eddd",
-    "likes": "3179K",
+    "likes": "36000K",
     "isArtist": true,
     "spotifyId": "0aUQnP4HhUQXcurZl9GJIA",
     "spotifyPopularity": 69,
-    "followers": 3179384
+    "followers": 3180195
   },
   {
     "id": "bollywood_59",
@@ -719,11 +718,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 32,
     "image": "https://i.scdn.co/image/ab6761610000e5ebada368118a052fb40d3f1a68",
-    "likes": "3287K",
+    "likes": "32000K",
     "isArtist": true,
     "spotifyId": "19LIHDDSHBD5NyYHI3gpzB",
     "spotifyPopularity": 77,
-    "followers": 3287230
+    "followers": 3292535
   },
   {
     "id": "bollywood_60",
@@ -731,11 +730,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 31,
     "image": "https://i.scdn.co/image/ab6761610000e5eb6f6a3bd3db41766c55b78bc1",
-    "likes": "1755K",
+    "likes": "31000K",
     "isArtist": true,
     "spotifyId": "2o4R2rK7FetH40HTv0SUWl",
     "spotifyPopularity": 67,
-    "followers": 1755261
+    "followers": 1758097
   },
   {
     "id": "bollywood_61",
@@ -743,11 +742,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 30,
     "image": "https://i.scdn.co/image/ab6761610000e5ebfec8d064ff14cbd0c23bbdff",
-    "likes": "2148K",
+    "likes": "30000K",
     "isArtist": true,
     "spotifyId": "5bv6NvAYNuvd2Vq13nHdG3",
     "spotifyPopularity": 62,
-    "followers": 2148999
+    "followers": 2150225
   },
   {
     "id": "bollywood_62",
@@ -755,11 +754,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 29,
     "image": "https://i.scdn.co/image/ab6761610000e5eb1b8709e71a55317386d46e57",
-    "likes": "3719K",
+    "likes": "29000K",
     "isArtist": true,
     "spotifyId": "3cqeO3muWIW5uSmUDNCmyT",
     "spotifyPopularity": 68,
-    "followers": 3719799
+    "followers": 3721762
   },
   {
     "id": "bollywood_63",
@@ -767,11 +766,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 96,
     "image": "https://i.scdn.co/image/ab6761610000e5eb7b386b1320742bd6686854e7",
-    "likes": "30040K",
+    "likes": "96000K",
     "isArtist": true,
     "spotifyId": "0y59o4v8uw5crbN9M3JiL1",
     "spotifyPopularity": 78,
-    "followers": 30040078
+    "followers": 30060483
   },
   {
     "id": "bollywood_64",
@@ -779,11 +778,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 95,
     "image": "https://i.scdn.co/image/ab6761610000e5ebfc043bea91ac91c222d235c9",
-    "likes": "34368K",
+    "likes": "95000K",
     "isArtist": true,
     "spotifyId": "2FKWNmZWDBZR4dE5KX4plR",
     "spotifyPopularity": 79,
-    "followers": 34368492
+    "followers": 34398105
   },
   {
     "id": "bollywood_65",
@@ -791,11 +790,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 94,
     "image": "https://i.scdn.co/image/ab6761610000e5eb531f6fb5759f44e7c3d707d6",
-    "likes": "21649K",
+    "likes": "94000K",
     "isArtist": true,
     "spotifyId": "5rQoBDKFnd1n6BkdbgVaRL",
     "spotifyPopularity": 74,
-    "followers": 21649476
+    "followers": 21655320
   },
   {
     "id": "bollywood_66",
@@ -803,11 +802,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 93,
     "image": "https://i.scdn.co/image/ab6761610000e5ebbc7e4fffd515b47ff1ebbc1f",
-    "likes": "32962K",
+    "likes": "93000K",
     "isArtist": true,
     "spotifyId": "7uIbLdzzSEqnX0Pkrb56cR",
     "spotifyPopularity": 80,
-    "followers": 32962267
+    "followers": 33003576
   },
   {
     "id": "bollywood_67",
@@ -815,11 +814,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 92,
     "image": "https://i.scdn.co/image/ab6761610000e5eb715b4d3baa72278cf77b1c15",
-    "likes": "2204K",
+    "likes": "92000K",
     "isArtist": true,
     "spotifyId": "5UdFr0GeO7jKIaNIJgwB36",
     "spotifyPopularity": 65,
-    "followers": 2204563
+    "followers": 2204939
   },
   {
     "id": "bollywood_68",
@@ -827,11 +826,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 91,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe4bae1cd1803402a906b61ba",
-    "likes": "6086K",
+    "likes": "91000K",
     "isArtist": true,
     "spotifyId": "4Ai0pGz6GhQavjzaRhPTvz",
     "spotifyPopularity": 68,
-    "followers": 6086054
+    "followers": 6086650
   },
   {
     "id": "bollywood_69",
@@ -839,11 +838,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 90,
     "image": "https://i.scdn.co/image/ab6761610000e5eb99646c3d0d9d0ebd1c886ba4",
-    "likes": "697K",
+    "likes": "90000K",
     "isArtist": true,
     "spotifyId": "2oeTqp8DgAmtnP2WGc1OS2",
     "spotifyPopularity": 39,
-    "followers": 697228
+    "followers": 697191
   },
   {
     "id": "bollywood_70",
@@ -851,11 +850,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 89,
     "image": "https://i.scdn.co/image/ab6761610000e5ebdb62eedf9ad6f0786b18a53a",
-    "likes": "5051K",
+    "likes": "89000K",
     "isArtist": true,
     "spotifyId": "008PpLcKUtVXle6JSwkq3I",
     "spotifyPopularity": 61,
-    "followers": 5051676
+    "followers": 5052139
   },
   {
     "id": "bollywood_71",
@@ -863,11 +862,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 88,
     "image": "https://i.scdn.co/image/ab6761610000e5eb9ca75451597097c6e53b75f7",
-    "likes": "4751K",
+    "likes": "88000K",
     "isArtist": true,
     "spotifyId": "5uemEEtB1ZC3s1KM7gReeH",
     "spotifyPopularity": 59,
-    "followers": 4751713
+    "followers": 4752031
   },
   {
     "id": "bollywood_72",
@@ -875,11 +874,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 87,
     "image": "https://i.scdn.co/image/ab6761610000e5eb3de5e76cc83756f612242378",
-    "likes": "9350K",
+    "likes": "87000K",
     "isArtist": true,
     "spotifyId": "5NHm4TU5Twz7owibYxJfFU",
     "spotifyPopularity": 68,
-    "followers": 9350424
+    "followers": 9350933
   },
   {
     "id": "bollywood_73",
@@ -887,11 +886,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 86,
     "image": "https://i.scdn.co/image/ab6761610000e5eb2a354a64d9c5c602db0be2a4",
-    "likes": "20344K",
+    "likes": "86000K",
     "isArtist": true,
     "spotifyId": "6DARBhWbfcS9E4yJzcliqQ",
     "spotifyPopularity": 82,
-    "followers": 20344101
+    "followers": 20365903
   },
   {
     "id": "bollywood_74",
@@ -899,11 +898,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 85,
     "image": "https://i.scdn.co/image/ab6761610000e5ebfb505b37709fa86cfd8f55b3",
-    "likes": "8133K",
+    "likes": "85000K",
     "isArtist": true,
     "spotifyId": "6LEG9Ld1aLImEFEVHdWNSB",
     "spotifyPopularity": 79,
-    "followers": 8133811
+    "followers": 8141971
   },
   {
     "id": "bollywood_75",
@@ -911,11 +910,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 84,
     "image": "https://i.scdn.co/image/ab6761610000e5eb6ea70e84ca3a73d071c82cbb",
-    "likes": "1070K",
+    "likes": "84000K",
     "isArtist": true,
     "spotifyId": "5DHi2MeoRgAwPE0A0qwRMl",
     "spotifyPopularity": 71,
-    "followers": 1070893
+    "followers": 1071116
   },
   {
     "id": "bollywood_76",
@@ -923,11 +922,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 83,
     "image": "https://i.scdn.co/image/ab6761610000e5ebf75e62c3817230d042379243",
-    "likes": "1060K",
+    "likes": "83000K",
     "isArtist": true,
     "spotifyId": "0OS0NZnK7TGIAWx8MkWNFN",
     "spotifyPopularity": 68,
-    "followers": 1060200
+    "followers": 1061520
   },
   {
     "id": "bollywood_77",
@@ -935,11 +934,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 82,
     "image": "https://i.scdn.co/image/ab6761610000e5eb4490e20daec093c04ede38c6",
-    "likes": "8928K",
+    "likes": "82000K",
     "isArtist": true,
     "spotifyId": "5r3wPya2PpeTTsXsGhQU8O",
     "spotifyPopularity": 79,
-    "followers": 8928295
+    "followers": 8940825
   },
   {
     "id": "bollywood_78",
@@ -947,11 +946,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 81,
     "image": "https://i.scdn.co/image/ab6761610000e5eb9973157bdaedef3f77ef8e13",
-    "likes": "43846K",
+    "likes": "81000K",
     "isArtist": true,
     "spotifyId": "4PULA4EFzYTrxYvOVlwpiQ",
     "spotifyPopularity": 79,
-    "followers": 43846652
+    "followers": 43866628
   },
   {
     "id": "bollywood_79",
@@ -959,23 +958,23 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 80,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe5c26f7de5ee2a9089fcb1b3",
-    "likes": "6762K",
+    "likes": "80000K",
     "isArtist": true,
     "spotifyId": "7GgAwYJnBBFT1WogNWf0oj",
     "spotifyPopularity": 60,
-    "followers": 6762750
+    "followers": 6762945
   },
   {
     "id": "bollywood_80",
     "name": "Garry Sandhu",
     "genre": "Bollywood",
     "popularity": 79,
-    "image": "https://i.scdn.co/image/ab6761610000e5eb9fcfd97bf5c77af82c50c22b",
-    "likes": "329K",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a405efdd59430a8e9a7e18b",
+    "likes": "79000K",
     "isArtist": true,
-    "spotifyId": "3fxBst8oqDfPvHHrd9wEse",
-    "spotifyPopularity": 59,
-    "followers": 329797
+    "spotifyId": "7M3xY5iHSzEtoL3FpqOD75",
+    "spotifyPopularity": 65,
+    "followers": 5045034
   },
   {
     "id": "bollywood_81",
@@ -983,11 +982,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 78,
     "image": "https://i.scdn.co/image/ab6761610000e5eb4fabb1f855e1a661fc28495a",
-    "likes": "6894K",
+    "likes": "78000K",
     "isArtist": true,
     "spotifyId": "3xZnxcyeC0vVaJvEA9VqrA",
     "spotifyPopularity": 61,
-    "followers": 6894738
+    "followers": 6896101
   },
   {
     "id": "bollywood_82",
@@ -995,11 +994,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 77,
     "image": "https://i.scdn.co/image/ab6761610000e5eb826f384334f35ca271847e6c",
-    "likes": "10299K",
+    "likes": "77000K",
     "isArtist": true,
     "spotifyId": "2RlWC7XKizSOsZ8F3uGi59",
     "spotifyPopularity": 64,
-    "followers": 10299242
+    "followers": 10299626
   },
   {
     "id": "bollywood_83",
@@ -1007,11 +1006,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 76,
     "image": "https://i.scdn.co/image/ab6761610000e5eb7b01b2abeecd611dbbd3b99d",
-    "likes": "1319K",
+    "likes": "76000K",
     "isArtist": true,
     "spotifyId": "2praKdsjYPKh2yNXBdTWGT",
     "spotifyPopularity": 59,
-    "followers": 1319025
+    "followers": 1319666
   },
   {
     "id": "bollywood_84",
@@ -1019,11 +1018,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 75,
     "image": "https://i.scdn.co/image/ab6761610000e5eb25fb36f6f2e9d2ec036e340f",
-    "likes": "6692K",
+    "likes": "75000K",
     "isArtist": true,
     "spotifyId": "3OQRPFFS3OsltFjFAXu1kE",
     "spotifyPopularity": 65,
-    "followers": 6692164
+    "followers": 6694437
   },
   {
     "id": "bollywood_85",
@@ -1031,11 +1030,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 74,
     "image": "https://i.scdn.co/image/ab6761610000e5eb603c9bcb747ec19b32074757",
-    "likes": "1122K",
+    "likes": "74000K",
     "isArtist": true,
     "spotifyId": "0wmFEqpoc2FgAv8IPtCLBW",
     "spotifyPopularity": 50,
-    "followers": 1122681
+    "followers": 1122648
   },
   {
     "id": "bollywood_86",
@@ -1043,11 +1042,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 73,
     "image": "https://i.scdn.co/image/ab6761610000e5eb74484b56cf47e2ceb1e78586",
-    "likes": "1679K",
+    "likes": "73000K",
     "isArtist": true,
     "spotifyId": "25bvyjHJAszeSV3q0TmEhY",
     "spotifyPopularity": 58,
-    "followers": 1679619
+    "followers": 1679894
   },
   {
     "id": "bollywood_87",
@@ -1055,11 +1054,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 72,
     "image": "https://i.scdn.co/image/ab6761610000e5ebdbcc4ab55ee0cb7dd9a1a0bf",
-    "likes": "6762K",
+    "likes": "72000K",
     "isArtist": true,
     "spotifyId": "3uHUKCspaCzAab9A3LlGAr",
     "spotifyPopularity": 63,
-    "followers": 6762645
+    "followers": 6763074
   },
   {
     "id": "bollywood_88",
@@ -1067,11 +1066,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 71,
     "image": "https://i.scdn.co/image/ab6761610000e5ebffb3332c9cb2450cbca9cf78",
-    "likes": "5915K",
+    "likes": "71000K",
     "isArtist": true,
     "spotifyId": "45LSiycLy1JsWUMObvPvpX",
     "spotifyPopularity": 64,
-    "followers": 5915028
+    "followers": 5915670
   },
   {
     "id": "bollywood_89",
@@ -1079,11 +1078,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 88,
     "image": "https://i.scdn.co/image/ab6761610000e5eb90b6c3d093f9b02aad628eaf",
-    "likes": "14540K",
+    "likes": "88000K",
     "isArtist": true,
     "spotifyId": "6Mv8GjQa7LKUGCAqa9qqdb",
     "spotifyPopularity": 82,
-    "followers": 14540651
+    "followers": 14558947
   },
   {
     "id": "bollywood_90",
@@ -1091,11 +1090,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 87,
     "image": "https://i.scdn.co/image/ab6761610000e5eb3db0499a689aa9b4a47ebba3",
-    "likes": "7788K",
+    "likes": "87000K",
     "isArtist": true,
     "spotifyId": "0L5GV6LN8SWWUWIdBbTLTZ",
     "spotifyPopularity": 76,
-    "followers": 7788042
+    "followers": 7792967
   },
   {
     "id": "bollywood_91",
@@ -1103,11 +1102,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 86,
     "image": "https://i.scdn.co/image/ab6761610000e5eb13a6f2195deea1f736d046e4",
-    "likes": "2526K",
+    "likes": "86000K",
     "isArtist": true,
     "spotifyId": "6ohaQzKaXrobAL8paLSaxq",
     "spotifyPopularity": 71,
-    "followers": 2526753
+    "followers": 2527120
   },
   {
     "id": "bollywood_92",
@@ -1115,11 +1114,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 85,
     "image": "https://i.scdn.co/image/ab6761610000e5eba37271f7a4862a6e99ce345f",
-    "likes": "10600K",
+    "likes": "85000K",
     "isArtist": true,
     "spotifyId": "7HCqGPJcQTyGJ2yqntbuyr",
     "spotifyPopularity": 76,
-    "followers": 10600756
+    "followers": 10606372
   },
   {
     "id": "bollywood_93",
@@ -1127,11 +1126,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 84,
     "image": "https://i.scdn.co/image/ab6761610000e5ebbb4064bef3a825344d5eb79e",
-    "likes": "6818K",
+    "likes": "84000K",
     "isArtist": true,
     "spotifyId": "1mBydYMVBECdDmMfE2sEUO",
-    "spotifyPopularity": 83,
-    "followers": 6818991
+    "spotifyPopularity": 84,
+    "followers": 6830870
   },
   {
     "id": "bollywood_94",
@@ -1139,11 +1138,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 83,
     "image": "https://i.scdn.co/image/ab6761610000e5eb594a6a4881926600966cddb0",
-    "likes": "2308K",
+    "likes": "83000K",
     "isArtist": true,
     "spotifyId": "0qpsFfOT3SmdGmnyV6rOhS",
     "spotifyPopularity": 68,
-    "followers": 2308673
+    "followers": 2309493
   },
   {
     "id": "bollywood_95",
@@ -1151,11 +1150,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 82,
     "image": "https://i.scdn.co/image/ab6761610000e5eb9bd641ceb72d35b63fbb314a",
-    "likes": "10774K",
+    "likes": "82000K",
     "isArtist": true,
     "spotifyId": "09UmIX92EUH9hAK4bxvHx6",
     "spotifyPopularity": 80,
-    "followers": 10774658
+    "followers": 10779869
   },
   {
     "id": "bollywood_96",
@@ -1163,11 +1162,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 81,
     "image": "https://i.scdn.co/image/ab6761610000e5eb6adc98db259e563ee2352b85",
-    "likes": "2085K",
+    "likes": "81000K",
     "isArtist": true,
     "spotifyId": "2kkQthS9OLpK4UqNWYqoVl",
     "spotifyPopularity": 73,
-    "followers": 2085305
+    "followers": 2088178
   },
   {
     "id": "bollywood_97",
@@ -1175,11 +1174,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 80,
     "image": "https://i.scdn.co/image/ab6761610000e5eb4d9659081d3facaf14e427b1",
-    "likes": "14901K",
+    "likes": "80000K",
     "isArtist": true,
     "spotifyId": "0E02VcvA5p1ndkLdqWD5JB",
     "spotifyPopularity": 71,
-    "followers": 14901123
+    "followers": 14904031
   },
   {
     "id": "bollywood_98",
@@ -1187,11 +1186,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 79,
     "image": "https://i.scdn.co/image/ab6761610000e5ebe09b58bac3afccac3e6e546b",
-    "likes": "1584K",
+    "likes": "79000K",
     "isArtist": true,
     "spotifyId": "3dN9MQpjIyNxyeRfz4EDZe",
-    "spotifyPopularity": 75,
-    "followers": 1584253
+    "spotifyPopularity": 76,
+    "followers": 1585208
   },
   {
     "id": "bollywood_99",
@@ -1199,11 +1198,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 78,
     "image": "https://i.scdn.co/image/ab6761610000e5eb90a648e4829a93a8ae460805",
-    "likes": "43K",
+    "likes": "78000K",
     "isArtist": true,
     "spotifyId": "5aL0URFqLCRbrB3cewGLgF",
     "spotifyPopularity": 45,
-    "followers": 43087
+    "followers": 43186
   },
   {
     "id": "bollywood_100",
@@ -1211,11 +1210,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 77,
     "image": "https://i.scdn.co/image/ab6761610000e5eb602092dc433e1ff823bee04e",
-    "likes": "19K",
+    "likes": "77000K",
     "isArtist": true,
     "spotifyId": "0aXLGxJ65wok0y1bVG6flg",
     "spotifyPopularity": 49,
-    "followers": 19920
+    "followers": 19933
   },
   {
     "id": "bollywood_101",
@@ -1223,11 +1222,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 76,
     "image": "https://i.scdn.co/image/ab6761610000e5ebf2b2482a33a527bfb1d94671",
-    "likes": "19K",
+    "likes": "76000K",
     "isArtist": true,
     "spotifyId": "7nVsNB3N2S3AoAyvIPNXlj",
     "spotifyPopularity": 34,
-    "followers": 19612
+    "followers": 19613
   },
   {
     "id": "bollywood_102",
@@ -1235,11 +1234,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 75,
     "image": "https://i.scdn.co/image/ab6761610000e5eb739490cf100bb33f7769e867",
-    "likes": "71K",
+    "likes": "75000K",
     "isArtist": true,
     "spotifyId": "7nok5RndHMd3FHe4ubHX80",
     "spotifyPopularity": 52,
-    "followers": 71790
+    "followers": 71881
   },
   {
     "id": "bollywood_103",
@@ -1247,11 +1246,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 74,
     "image": "https://i.scdn.co/image/ab6761610000e5eb65cf6599905816df2347a58a",
-    "likes": "3421K",
+    "likes": "74000K",
     "isArtist": true,
     "spotifyId": "3qdu3XhzSzkRhbwdFKnSuw",
     "spotifyPopularity": 63,
-    "followers": 3421142
+    "followers": 3421878
   },
   {
     "id": "bollywood_104",
@@ -1259,11 +1258,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 73,
     "image": "https://i.scdn.co/image/ab6761610000e5eb2cfc402fa29cd2949023a8bf",
-    "likes": "11782K",
+    "likes": "73000K",
     "isArtist": true,
     "spotifyId": "0sSxphmGskGCKlwB9xa6WU",
     "spotifyPopularity": 76,
-    "followers": 11782586
+    "followers": 11784789
   },
   {
     "id": "bollywood_105",
@@ -1271,11 +1270,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 72,
     "image": "https://i.scdn.co/image/ab6761610000e5ebd7e0f6a3b721c781859ce6bc",
-    "likes": "6123K",
+    "likes": "72000K",
     "isArtist": true,
     "spotifyId": "71hjb5G92mGoKRSAW3Cj00",
     "spotifyPopularity": 68,
-    "followers": 6123551
+    "followers": 6125379
   },
   {
     "id": "bollywood_106",
@@ -1283,11 +1282,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 71,
     "image": "https://i.scdn.co/image/ab67616d0000b273261cc572f6df52bfd2ad5743",
-    "likes": "286K",
+    "likes": "71000K",
     "isArtist": true,
     "spotifyId": "0xHXoShMJw3xDArjL8IHtt",
     "spotifyPopularity": 52,
-    "followers": 286008
+    "followers": 286103
   },
   {
     "id": "bollywood_107",
@@ -1295,11 +1294,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 70,
     "image": "https://i.scdn.co/image/ab6761610000e5eb1dc3081fe7fea3d0e55f3d85",
-    "likes": "438K",
+    "likes": "70000K",
     "isArtist": true,
     "spotifyId": "4YgUVg4p7xtMOrOS4GjiJZ",
     "spotifyPopularity": 73,
-    "followers": 438588
+    "followers": 438823
   },
   {
     "id": "bollywood_108",
@@ -1307,11 +1306,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 69,
     "image": "https://i.scdn.co/image/ab67616d0000b273fe77bd21eb38ff74b5f21524",
-    "likes": "852K",
+    "likes": "69000K",
     "isArtist": true,
     "spotifyId": "3yS84AjNFqhmuJlIXy7sax",
     "spotifyPopularity": 69,
-    "followers": 852871
+    "followers": 853367
   },
   {
     "id": "bollywood_109",
@@ -1319,11 +1318,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 68,
     "image": "https://i.scdn.co/image/ab67616d0000b273136f87f65afc5f0520b90b1b",
-    "likes": "620K",
+    "likes": "68000K",
     "isArtist": true,
     "spotifyId": "7pWXlTjky0KXWgbdZi9ebq",
     "spotifyPopularity": 66,
-    "followers": 620394
+    "followers": 621403
   },
   {
     "id": "bollywood_110",
@@ -1331,11 +1330,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 67,
     "image": "https://i.scdn.co/image/ab6761610000e5ebd3b213d51e0ea60f0c768a38",
-    "likes": "5925K",
+    "likes": "67000K",
     "isArtist": true,
     "spotifyId": "2JSYASbWU5Y0fVpts3Eq7g",
     "spotifyPopularity": 77,
-    "followers": 5925158
+    "followers": 5928949
   },
   {
     "id": "bollywood_111",
@@ -1343,11 +1342,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 66,
     "image": "https://i.scdn.co/image/ab6761610000e5eb4856cd5a50e74c78ddc61d31",
-    "likes": "1338K",
+    "likes": "66000K",
     "isArtist": true,
     "spotifyId": "4vMKEXQ4cU5hb2BL4omVrT",
     "spotifyPopularity": 62,
-    "followers": 1338354
+    "followers": 1338954
   },
   {
     "id": "bollywood_112",
@@ -1355,11 +1354,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 65,
     "image": "https://i.scdn.co/image/ab67616d0000b27386f1ce790b11125f1cb98306",
-    "likes": "217K",
+    "likes": "65000K",
     "isArtist": true,
     "spotifyId": "5uL7cXOFYlR78lgS08tkBL",
     "spotifyPopularity": 39,
-    "followers": 217845
+    "followers": 218042
   },
   {
     "id": "bollywood_113",
@@ -1367,11 +1366,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 64,
     "image": "https://i.scdn.co/image/ab67616d0000b27396fa496a2cfc301430589024",
-    "likes": "2198K",
+    "likes": "64000K",
     "isArtist": true,
     "spotifyId": "5Uvn1P3OFu268QovsUAnDu",
     "spotifyPopularity": 61,
-    "followers": 2198195
+    "followers": 2198206
   },
   {
     "id": "bollywood_114",
@@ -1379,11 +1378,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 63,
     "image": "https://i.scdn.co/image/ab67616d0000b273f0ee828f6442f54fcabc7d29",
-    "likes": "51K",
+    "likes": "63000K",
     "isArtist": true,
     "spotifyId": "2Ee9Rvm7sX3XbRncNM4qah",
     "spotifyPopularity": 54,
-    "followers": 51858
+    "followers": 52088
   },
   {
     "id": "bollywood_115",
@@ -1391,11 +1390,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 62,
     "image": "https://i.scdn.co/image/ab67616d0000b2736c8ba69af66bb61e655010ff",
-    "likes": "73K",
+    "likes": "62000K",
     "isArtist": true,
     "spotifyId": "4tuzg2QDbDF6ytPrszs4q1",
     "spotifyPopularity": 32,
-    "followers": 73008
+    "followers": 73010
   },
   {
     "id": "bollywood_116",
@@ -1403,11 +1402,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 61,
     "image": "https://i.scdn.co/image/ab67616d0000b2731917d0066788f3587e67c827",
-    "likes": "366K",
+    "likes": "61000K",
     "isArtist": true,
     "spotifyId": "2UsCCEvGf5nfUIG53pJAhi",
     "spotifyPopularity": 31,
-    "followers": 366731
+    "followers": 366718
   },
   {
     "id": "bollywood_117",
@@ -1415,7 +1414,7 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 60,
     "image": "https://i.scdn.co/image/ab67616d0000b27385827bd5b67e96af6fd3286d",
-    "likes": "3K",
+    "likes": "60000K",
     "isArtist": true,
     "spotifyId": "3s73ltz3ZKYnbLBNbjV0HI",
     "spotifyPopularity": 19,
@@ -1427,7 +1426,7 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 59,
     "image": "https://i.scdn.co/image/ab67616d0000b273dbdac32298d9046380ca408a",
-    "likes": "1K",
+    "likes": "59000K",
     "isArtist": true,
     "spotifyId": "5U7e6IDapwyVncR8i3OGyc",
     "spotifyPopularity": 0,
@@ -1439,11 +1438,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 58,
     "image": "https://i.scdn.co/image/ab67616d0000b273d2e78e30bc369b3e02b044a9",
-    "likes": "26K",
+    "likes": "58000K",
     "isArtist": true,
     "spotifyId": "6BZaO5tqEZW7ld35NuCmgA",
-    "spotifyPopularity": 23,
-    "followers": 26873
+    "spotifyPopularity": 24,
+    "followers": 26875
   },
   {
     "id": "bollywood_120",
@@ -1451,7 +1450,7 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 57,
     "image": "https://i.scdn.co/image/ab67616d0000b27321f32d3c0a8070ecdfee937d",
-    "likes": "0K",
+    "likes": "57000K",
     "isArtist": true,
     "spotifyId": "6JjibcRedztecdaJjeH0Rv",
     "spotifyPopularity": 0,
@@ -1463,11 +1462,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 56,
     "image": "https://i.scdn.co/image/ab67616d0000b27372b815b8961fd7e29de734d1",
-    "likes": "1K",
+    "likes": "56000K",
     "isArtist": true,
     "spotifyId": "2xuJCgI5pmhyGIFDNvIkaO",
     "spotifyPopularity": 3,
-    "followers": 1918
+    "followers": 1920
   },
   {
     "id": "bollywood_122",
@@ -1475,11 +1474,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 55,
     "image": "https://i.scdn.co/image/7092f42e494a557b0c03872e2963b21df3136b18",
-    "likes": "101K",
+    "likes": "55000K",
     "isArtist": true,
     "spotifyId": "2GUxWjR8cNgljddVLEp72u",
     "spotifyPopularity": 31,
-    "followers": 101718
+    "followers": 101728
   },
   {
     "id": "bollywood_123",
@@ -1487,11 +1486,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 54,
     "image": "https://i.scdn.co/image/ab67616d0000b2732c794dd687d83280af370cac",
-    "likes": "42K",
+    "likes": "54000K",
     "isArtist": true,
     "spotifyId": "4Gypy00T57lgC7yWaGhNmS",
     "spotifyPopularity": 24,
-    "followers": 42471
+    "followers": 42473
   },
   {
     "id": "bollywood_124",
@@ -1499,11 +1498,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 53,
     "image": "https://i.scdn.co/image/ab6761610000e5eb08f0602fd1c3de5761ef9a4d",
-    "likes": "608K",
+    "likes": "53000K",
     "isArtist": true,
     "spotifyId": "4uE9TgBW0AaPDHL1qYbtd0",
     "spotifyPopularity": 46,
-    "followers": 608810
+    "followers": 608846
   },
   {
     "id": "bollywood_125",
@@ -1511,7 +1510,7 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 52,
     "image": "https://i.scdn.co/image/ab6761610000e5eb0b0764268407db8b3a218301",
-    "likes": "613K",
+    "likes": "52000K",
     "isArtist": true,
     "spotifyId": "6DDCjHWtL6jTl1B5wG8tF6",
     "spotifyPopularity": 39,
@@ -1523,11 +1522,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 51,
     "image": "https://i.scdn.co/image/75a55523ab543c7860101664127081c82a9d8b22",
-    "likes": "222K",
+    "likes": "51000K",
     "isArtist": true,
     "spotifyId": "7CozfB3IEACZpAelpwkUon",
     "spotifyPopularity": 41,
-    "followers": 222342
+    "followers": 222358
   },
   {
     "id": "bollywood_127",
@@ -1535,11 +1534,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 50,
     "image": "https://i.scdn.co/image/ab6761610000e5eb3413401dfa2523d207c3fb75",
-    "likes": "316K",
+    "likes": "50000K",
     "isArtist": true,
     "spotifyId": "1IsvL603uF5ieIXYApKcnr",
     "spotifyPopularity": 32,
-    "followers": 316017
+    "followers": 316014
   },
   {
     "id": "bollywood_128",
@@ -1547,11 +1546,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 49,
     "image": "https://i.scdn.co/image/ab6761610000e5eb5d85af002b4e919f5619e0c2",
-    "likes": "154K",
+    "likes": "49000K",
     "isArtist": true,
     "spotifyId": "3ehCEIDusX13qf207bFKGS",
     "spotifyPopularity": 35,
-    "followers": 154205
+    "followers": 154212
   },
   {
     "id": "bollywood_129",
@@ -1559,11 +1558,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 48,
     "image": "https://i.scdn.co/image/ab6761610000e5eb89b541bc4552fba78c4898e8",
-    "likes": "155K",
+    "likes": "48000K",
     "isArtist": true,
     "spotifyId": "1mMMhynZ6FbbnKjG7Pd9mQ",
     "spotifyPopularity": 26,
-    "followers": 155661
+    "followers": 155660
   },
   {
     "id": "bollywood_130",
@@ -1571,11 +1570,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 47,
     "image": "https://i.scdn.co/image/ab67616d0000b2730248ac00befcf2708f54cd57",
-    "likes": "178K",
+    "likes": "47000K",
     "isArtist": true,
     "spotifyId": "6vvIQFcpGLIum7HYhYwNx0",
     "spotifyPopularity": 44,
-    "followers": 178000
+    "followers": 178013
   },
   {
     "id": "bollywood_131",
@@ -1583,11 +1582,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 46,
     "image": "https://i.scdn.co/image/ab67616d0000b27351db15c3fb0bea1bc9c2e203",
-    "likes": "108K",
+    "likes": "46000K",
     "isArtist": true,
     "spotifyId": "66vrmYfYjnbimFfeICtiRO",
     "spotifyPopularity": 24,
-    "followers": 108528
+    "followers": 108532
   },
   {
     "id": "bollywood_132",
@@ -1595,11 +1594,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 45,
     "image": "https://i.scdn.co/image/ab6761610000e5eb97a03a701b250f2cc7db3622",
-    "likes": "481K",
+    "likes": "45000K",
     "isArtist": true,
     "spotifyId": "5MHTQcUQIhxhZdB6Glwmmk",
     "spotifyPopularity": 48,
-    "followers": 481542
+    "followers": 481608
   },
   {
     "id": "bollywood_133",
@@ -1607,7 +1606,7 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 44,
     "image": "https://i.scdn.co/image/ab67616d0000b2735b423e81235179f451a7b358",
-    "likes": "105K",
+    "likes": "44000K",
     "isArtist": true,
     "spotifyId": "6cb72NHeR6TDLD6Dx8ZfHW",
     "spotifyPopularity": 18,
@@ -1619,11 +1618,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 43,
     "image": "https://i.scdn.co/image/ab67616d0000b273e835b01c202899a59649285a",
-    "likes": "90K",
+    "likes": "43000K",
     "isArtist": true,
     "spotifyId": "4nZmnoNMkDwdutbWCJhL22",
     "spotifyPopularity": 28,
-    "followers": 90238
+    "followers": 90250
   },
   {
     "id": "bollywood_135",
@@ -1631,11 +1630,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 42,
     "image": "https://i.scdn.co/image/ab67616d0000b2733388c68275bcd943f11c5df7",
-    "likes": "3K",
+    "likes": "42000K",
     "isArtist": true,
     "spotifyId": "5VPmryJz6mfnkYqD5Vnxdh",
     "spotifyPopularity": 9,
-    "followers": 3595
+    "followers": 3594
   },
   {
     "id": "bollywood_136",
@@ -1643,7 +1642,7 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 41,
     "image": "https://i.scdn.co/image/ab67616d0000b27314e511415143f2bf6c36fab8",
-    "likes": "0K",
+    "likes": "41000K",
     "isArtist": true,
     "spotifyId": "6VOzlKoFbIu3bVkpd3iIIP",
     "spotifyPopularity": 1,
@@ -1655,11 +1654,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 40,
     "image": "https://i.scdn.co/image/ab67616d0000b27360c83c834cb75aecd61874c0",
-    "likes": "7K",
+    "likes": "40000K",
     "isArtist": true,
     "spotifyId": "5oirEeMjRPZyi3rzYz24Ar",
     "spotifyPopularity": 4,
-    "followers": 7774
+    "followers": 7773
   },
   {
     "id": "bollywood_138",
@@ -1667,11 +1666,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 39,
     "image": "https://i.scdn.co/image/ab6761610000e5eb1eabab66e670e65bf1acc422",
-    "likes": "185K",
+    "likes": "39000K",
     "isArtist": true,
     "spotifyId": "0ivZyfIHsCjQGS5OqHt3hA",
     "spotifyPopularity": 62,
-    "followers": 185670
+    "followers": 185793
   },
   {
     "id": "bollywood_139",
@@ -1679,7 +1678,7 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 38,
     "image": "https://i.scdn.co/image/ab67616d0000b273c5a23c6d134a4d0484277a71",
-    "likes": "0K",
+    "likes": "38000K",
     "isArtist": true,
     "spotifyId": "2gTPBFjo3M9rvMSZWTk9nT",
     "spotifyPopularity": 66,
@@ -1691,11 +1690,11 @@ export const bollywoodArtists: BollywoodArtist[] = [
     "genre": "Bollywood",
     "popularity": 37,
     "image": "https://i.scdn.co/image/ab67616d0000b2730248ac00befcf2708f54cd57",
-    "likes": "178K",
+    "likes": "37000K",
     "isArtist": true,
     "spotifyId": "6vvIQFcpGLIum7HYhYwNx0",
     "spotifyPopularity": 44,
-    "followers": 178000
+    "followers": 178013
   }
 ];
 

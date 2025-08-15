@@ -1,0 +1,23 @@
+[
+  {
+    "id": "74ASZWbe4lXaubB36ztrGX",
+    "name": "Bob Dylan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb791742524609864273747ef5",
+    "followers": 7266719,
+    "spotifyId": "74ASZWbe4lXaubB36ztrGX",
+    "spotifyPopularity": 77,
+    "genres": [
+      "folk rock",
+      "folk",
+      "singer-songwriter",
+      "roots rock",
+      "country rock"
+    ],
+    "primaryGenre": "folk rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "7.3M",
+    "tier": "Popular"
+  }
+]

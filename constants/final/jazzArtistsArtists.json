@@ -1,0 +1,303 @@
+[
+  {
+    "id": "1Mxqyy3pSjf8kZZL4QVxS0",
+    "name": "Frank Sinatra",
+    "image": "https://i.scdn.co/image/fc4e0f474fb4c4cb83617aa884dc9fd9822d4411",
+    "followers": 8217503,
+    "spotifyId": "1Mxqyy3pSjf8kZZL4QVxS0",
+    "spotifyPopularity": 79,
+    "genres": [
+      "christmas",
+      "big band",
+      "adult standards",
+      "swing music",
+      "jazz",
+      "vocal jazz"
+    ],
+    "primaryGenre": "christmas",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "8.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6J7biCazzYhU3gM9j1wfid",
+    "name": "Jamiroquai",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7e6dca959714339b69e9718d",
+    "followers": 2690141,
+    "spotifyId": "6J7biCazzYhU3gM9j1wfid",
+    "spotifyPopularity": 72,
+    "genres": [
+      "acid jazz"
+    ],
+    "primaryGenre": "acid jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3pO5VjZ4wOHCMBXOvbMISG",
+    "name": "Antônio Carlos Jobim",
+    "image": "https://i.scdn.co/image/25438d99922a46a53792e1496b31159ad386806a",
+    "followers": 848362,
+    "spotifyId": "3pO5VjZ4wOHCMBXOvbMISG",
+    "spotifyPopularity": 72,
+    "genres": [
+      "bossa nova",
+      "brazilian jazz",
+      "mpb",
+      "latin jazz"
+    ],
+    "primaryGenre": "bossa nova",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "848.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "19eLuQmk9aCobbVDHc6eek",
+    "name": "Louis Armstrong",
+    "image": "https://i.scdn.co/image/ab6772690000c46c53b6519baafe8f4d6135453e",
+    "followers": 3188889,
+    "spotifyId": "19eLuQmk9aCobbVDHc6eek",
+    "spotifyPopularity": 71,
+    "genres": [
+      "jazz",
+      "swing music",
+      "big band",
+      "vocal jazz",
+      "jazz blues"
+    ],
+    "primaryGenre": "jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "3.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7G1GBhoKtEPnP86X2PvEYO",
+    "name": "Nina Simone",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
+    "followers": 3181188,
+    "spotifyId": "7G1GBhoKtEPnP86X2PvEYO",
+    "spotifyPopularity": 71,
+    "genres": [
+      "vocal jazz",
+      "jazz blues",
+      "soul",
+      "soul jazz",
+      "jazz",
+      "blues"
+    ],
+    "primaryGenre": "vocal jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "3.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1eYhYunlNJlDoQhtYBvPsi",
+    "name": "Ray Charles",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6fc460f10177fa38af69b8bf",
+    "followers": 2570328,
+    "spotifyId": "1eYhYunlNJlDoQhtYBvPsi",
+    "spotifyPopularity": 71,
+    "genres": [
+      "jazz blues",
+      "soul",
+      "soul blues",
+      "blues",
+      "classic soul",
+      "vocal jazz"
+    ],
+    "primaryGenre": "jazz blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3yKoHgjtyenCOIRaD2Gghu",
+    "name": "Cafe Music BGM channel",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9d9f79c6a9a14c98ef467f4",
+    "followers": 277163,
+    "spotifyId": "3yKoHgjtyenCOIRaD2Gghu",
+    "spotifyPopularity": 70,
+    "genres": [
+      "jazz",
+      "bossa nova"
+    ],
+    "primaryGenre": "jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "277.2K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0iOVhN3tnSvgDbcg25JoJb",
+    "name": "Etta James",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb058531dfd9746a96ad85265f",
+    "followers": 1951516,
+    "spotifyId": "0iOVhN3tnSvgDbcg25JoJb",
+    "spotifyPopularity": 70,
+    "genres": [
+      "soul",
+      "jazz blues",
+      "soul blues",
+      "blues",
+      "vocal jazz"
+    ],
+    "primaryGenre": "soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7v4imS0moSyGdXyLgVTIV7",
+    "name": "Nat King Cole",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0ec0ea710ed8ce9e490d9c7b",
+    "followers": 2500169,
+    "spotifyId": "7v4imS0moSyGdXyLgVTIV7",
+    "spotifyPopularity": 70,
+    "genres": [
+      "christmas",
+      "adult standards",
+      "vocal jazz"
+    ],
+    "primaryGenre": "christmas",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5V0MlUE1Bft0mbLlND7FJz",
+    "name": "Ella Fitzgerald",
+    "image": "https://i.scdn.co/image/3c1d23141059785c8a863137d176319329dc17ef",
+    "followers": 2694850,
+    "spotifyId": "5V0MlUE1Bft0mbLlND7FJz",
+    "spotifyPopularity": 69,
+    "genres": [
+      "vocal jazz",
+      "jazz",
+      "swing music",
+      "jazz blues",
+      "big band",
+      "christmas"
+    ],
+    "primaryGenre": "vocal jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0FMucZsEnCxs5pqBjHjIc8",
+    "name": "Stan Getz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb45dd470659deedf47618968e",
+    "followers": 523941,
+    "spotifyId": "0FMucZsEnCxs5pqBjHjIc8",
+    "spotifyPopularity": 68,
+    "genres": [
+      "bossa nova",
+      "jazz",
+      "brazilian jazz",
+      "cool jazz",
+      "latin jazz"
+    ],
+    "primaryGenre": "bossa nova",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "523.9K",
+    "tier": "Rising"
+  },
+  {
+    "id": "11kBu957KTYoAltZHDm8gW",
+    "name": "Buena Vista Social Club",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe35db4d5803c5a4c77dd44db",
+    "followers": 1412472,
+    "spotifyId": "11kBu957KTYoAltZHDm8gW",
+    "spotifyPopularity": 68,
+    "genres": [
+      "son cubano",
+      "latin jazz",
+      "latin",
+      "bolero"
+    ],
+    "primaryGenre": "son cubano",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "1.4M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6I3M904Y9IwgDjrQ9pANiB",
+    "name": "Kenny G",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfce79bf01d99f9434108b56e",
+    "followers": 1244442,
+    "spotifyId": "6I3M904Y9IwgDjrQ9pANiB",
+    "spotifyPopularity": 67,
+    "genres": [
+      "smooth jazz",
+      "christmas"
+    ],
+    "primaryGenre": "smooth jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "1.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3k3RY7kR8f0vp8Cq27P141",
+    "name": "berlioz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3a9ab7733c4e6f95251a806b",
+    "followers": 807327,
+    "spotifyId": "3k3RY7kR8f0vp8Cq27P141",
+    "spotifyPopularity": 67,
+    "genres": [
+      "jazz house",
+      "jazz"
+    ],
+    "primaryGenre": "jazz house",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "807.3K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1YzCsTRb22dQkh9lghPIrp",
+    "name": "Billie Holiday",
+    "image": "https://i.scdn.co/image/4efa6b6871a0f672b78b3d16fd5a03c6cd212d58",
+    "followers": 2049219,
+    "spotifyId": "1YzCsTRb22dQkh9lghPIrp",
+    "spotifyPopularity": 66,
+    "genres": [
+      "jazz",
+      "vocal jazz",
+      "jazz blues",
+      "big band"
+    ],
+    "primaryGenre": "jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "2.0M",
+    "tier": "Popular"
+  }
+]

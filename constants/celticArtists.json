@@ -1,0 +1,23 @@
+[
+  {
+    "id": "5BnNG7QQQDTNd43ozx5y13",
+    "name": "Blackmore's Night",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb75244c3799eaee4925f40bf4",
+    "followers": 188197,
+    "spotifyId": "5BnNG7QQQDTNd43ozx5y13",
+    "spotifyPopularity": 49,
+    "genres": [
+      "celtic",
+      "medieval",
+      "medieval metal",
+      "celtic rock",
+      "folk rock"
+    ],
+    "primaryGenre": "celtic",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "188.2K",
+    "tier": "Rising"
+  }
+]

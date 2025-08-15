@@ -1,0 +1,19 @@
+[
+  {
+    "id": "38yOUctO9eek9ti5NWMQXm",
+    "name": "Caballo Dorado",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe801ea73f6842d5fb3171c4a",
+    "followers": 100382,
+    "spotifyId": "38yOUctO9eek9ti5NWMQXm",
+    "spotifyPopularity": 51,
+    "genres": [
+      "latin country"
+    ],
+    "primaryGenre": "latin country",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "100.4K",
+    "tier": "Rising"
+  }
+]

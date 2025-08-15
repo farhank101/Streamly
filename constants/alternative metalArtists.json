@@ -1,0 +1,19 @@
+[
+  {
+    "id": "5nGIFgo0shDenQYSE0Sn7c",
+    "name": "Evanescence",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7ecf213c7dd78e0049379c5b",
+    "followers": 5850538,
+    "spotifyId": "5nGIFgo0shDenQYSE0Sn7c",
+    "spotifyPopularity": 79,
+    "genres": [
+      "alternative metal"
+    ],
+    "primaryGenre": "alternative metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "5.9M",
+    "tier": "Popular"
+  }
+]

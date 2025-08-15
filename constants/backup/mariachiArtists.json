@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2nszmSgqreHSdJA3zWPyrW",
+    "name": "Luis Miguel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6481401e529e475116702a29",
+    "followers": 19893575,
+    "spotifyId": "2nszmSgqreHSdJA3zWPyrW",
+    "spotifyPopularity": 85,
+    "genres": [
+      "mariachi",
+      "bolero",
+      "latin pop",
+      "villancicos"
+    ],
+    "primaryGenre": "mariachi",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "19.9M",
+    "tier": "Top"
+  },
+  {
+    "id": "6sq1yF0OZEWA4xoXVKW1L9",
+    "name": "Alejandro Fernández",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb452691cfa37fdd5b3417ed0d",
+    "followers": 8516296,
+    "spotifyId": "6sq1yF0OZEWA4xoXVKW1L9",
+    "spotifyPopularity": 79,
+    "genres": [
+      "mariachi",
+      "ranchera",
+      "latin pop",
+      "bolero"
+    ],
+    "primaryGenre": "mariachi",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "8.5M",
+    "tier": "Popular"
+  }
+]

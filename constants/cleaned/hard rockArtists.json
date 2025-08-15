@@ -1,0 +1,21 @@
+[
+  {
+    "id": "27T030eWyCQRmDyuvr1kxY",
+    "name": "Scorpions",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7440170c0628c2945da819c3",
+    "followers": 8395373,
+    "spotifyId": "27T030eWyCQRmDyuvr1kxY",
+    "spotifyPopularity": 77,
+    "genres": [
+      "hard rock",
+      "glam metal",
+      "rock"
+    ],
+    "primaryGenre": "hard rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "8.4M",
+    "tier": "Popular"
+  }
+]

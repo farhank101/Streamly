@@ -1,0 +1,74 @@
+[
+  {
+    "id": "7oPftvlwr6VrsViSDV7fJY",
+    "name": "Green Day",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6ff0cd5ef2ecf733804984bb",
+    "followers": 16987383,
+    "spotifyId": "7oPftvlwr6VrsViSDV7fJY",
+    "spotifyPopularity": 84,
+    "genres": [
+      "punk",
+      "pop punk"
+    ],
+    "primaryGenre": "punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "17.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "5LfGQac0EIXyAN8aUwmNAQ",
+    "name": "The Offspring",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebffb1ffb7c417745cdad67b88",
+    "followers": 6479675,
+    "spotifyId": "5LfGQac0EIXyAN8aUwmNAQ",
+    "spotifyPopularity": 80,
+    "genres": [
+      "punk",
+      "skate punk"
+    ],
+    "primaryGenre": "punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "6.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6Wr3hh341P84m3EI8qdn9O",
+    "name": "Rise Against",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb071291b50cd2f68a7bfe1337",
+    "followers": 2917083,
+    "spotifyId": "6Wr3hh341P84m3EI8qdn9O",
+    "spotifyPopularity": 73,
+    "genres": [
+      "punk",
+      "hardcore punk"
+    ],
+    "primaryGenre": "punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "2.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1co4F2pPNH8JjTutZkmgSm",
+    "name": "Ramones",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5b9f46a5c5bf8243179d56b0",
+    "followers": 2873889,
+    "spotifyId": "1co4F2pPNH8JjTutZkmgSm",
+    "spotifyPopularity": 68,
+    "genres": [
+      "punk",
+      "proto-punk"
+    ],
+    "primaryGenre": "punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "2.9M",
+    "tier": "Popular"
+  }
+]

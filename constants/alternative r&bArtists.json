@@ -1,0 +1,20 @@
+[
+  {
+    "id": "5RTLRtXjbXI2lSXc6jxlAz",
+    "name": "Ravyn Lenae",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb138d70fe372dedacdca53b61",
+    "followers": 740094,
+    "spotifyId": "5RTLRtXjbXI2lSXc6jxlAz",
+    "spotifyPopularity": 81,
+    "genres": [
+      "alternative r&b",
+      "indie soul"
+    ],
+    "primaryGenre": "alternative r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "740.1K",
+    "tier": "Rising"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2IUtwMti1OiT3lkW6RubgH",
+    "name": "K. S. Chithra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb27852ef557c522e357664824",
+    "followers": 9810014,
+    "spotifyId": "2IUtwMti1OiT3lkW6RubgH",
+    "spotifyPopularity": 80,
+    "genres": [
+      "malayalam pop",
+      "telugu pop",
+      "kannada pop",
+      "mollywood",
+      "tamil pop",
+      "tollywood",
+      "devotional",
+      "sandalwood"
+    ],
+    "primaryGenre": "malayalam pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "9.8M",
+    "tier": "Popular"
+  }
+]

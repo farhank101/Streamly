@@ -1,0 +1,20 @@
+[
+  {
+    "id": "7nzSoJISlVJsn7O0yTeMOB",
+    "name": "Joe Hisaishi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb255e3fb8af57399bc9975c61",
+    "followers": 1452116,
+    "spotifyId": "7nzSoJISlVJsn7O0yTeMOB",
+    "spotifyPopularity": 72,
+    "genres": [
+      "japanese classical",
+      "anime"
+    ],
+    "primaryGenre": "japanese classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "1.5M",
+    "tier": "Popular"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "3ozYqVCLohfpXIhalkhM8D",
+    "name": "Aditya Rikhari",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb482c8b15eab378fdebc5e05e",
+    "followers": 1059729,
+    "spotifyId": "3ozYqVCLohfpXIhalkhM8D",
+    "spotifyPopularity": 78,
+    "genres": [
+      "hindi indie",
+      "indian indie",
+      "desi pop",
+      "hindi pop"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "1.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2IKfr1JgPRXmXKAWwrABc6",
+    "name": "Kushagra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb36727564ac48444dd9dfcb3b",
+    "followers": 195703,
+    "spotifyId": "2IKfr1JgPRXmXKAWwrABc6",
+    "spotifyPopularity": 69,
+    "genres": [
+      "hindi indie",
+      "indian indie",
+      "desi pop",
+      "hindi pop"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "195.7K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3qpyErDI4i90q5EGgSRmNK",
+    "name": "Raghav Chaitanya",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf16aafe18e9e1761a79eb406",
+    "followers": 285922,
+    "spotifyId": "3qpyErDI4i90q5EGgSRmNK",
+    "spotifyPopularity": 68,
+    "genres": [
+      "hindi indie",
+      "hindi pop",
+      "indian indie",
+      "bollywood"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "285.9K",
+    "tier": "Rising"
+  },
+  {
+    "id": "29S4JzoFUP1MCyMgKd83zM",
+    "name": "Saaheal",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3567c18bcfc0e8ce0db63055",
+    "followers": 40229,
+    "spotifyId": "29S4JzoFUP1MCyMgKd83zM",
+    "spotifyPopularity": 68,
+    "genres": [
+      "hindi indie"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "40.2K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "3gKTtA1BK4pq1IIHXAyvgO",
+    "name": "UNPLG'd",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf7ed241b5a220864cd14686d",
+    "followers": 61325,
+    "spotifyId": "3gKTtA1BK4pq1IIHXAyvgO",
+    "spotifyPopularity": 66,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "61.3K",
+    "tier": "Emerging"
+  }
+]

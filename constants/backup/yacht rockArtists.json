@@ -1,0 +1,21 @@
+[
+  {
+    "id": "35U9lQaRWSQISxQAB94Meo",
+    "name": "America",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1918619d3b26c6cb16084997",
+    "followers": 2015504,
+    "spotifyId": "35U9lQaRWSQISxQAB94Meo",
+    "spotifyPopularity": 75,
+    "genres": [
+      "yacht rock",
+      "soft rock",
+      "folk rock"
+    ],
+    "primaryGenre": "yacht rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "2.0M",
+    "tier": "Popular"
+  }
+]

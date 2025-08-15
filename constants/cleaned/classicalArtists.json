@@ -1,0 +1,190 @@
+[
+  {
+    "id": "5aIqB5nVVvmFsvSdExz408",
+    "name": "Johann Sebastian Bach",
+    "image": "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88",
+    "followers": 4751637,
+    "spotifyId": "5aIqB5nVVvmFsvSdExz408",
+    "spotifyPopularity": 79,
+    "genres": [
+      "classical",
+      "classical piano"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "4.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4NJhFmfw43RLBLjQvxDuRS",
+    "name": "Wolfgang Amadeus Mozart",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fa9108c6dadb8c3ec21da88",
+    "followers": 5829315,
+    "spotifyId": "4NJhFmfw43RLBLjQvxDuRS",
+    "spotifyPopularity": 78,
+    "genres": [
+      "classical",
+      "opera",
+      "requiem",
+      "classical piano",
+      "chamber music"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "5.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5yxyJsFanEAuwSM5kOuZKc",
+    "name": "London Symphony Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5a5d168879568c94e86c61aa",
+    "followers": 341997,
+    "spotifyId": "5yxyJsFanEAuwSM5kOuZKc",
+    "spotifyPopularity": 76,
+    "genres": [
+      "classical",
+      "orchestra",
+      "opera"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "342.0K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6uRJnvQ3f8whVnmeoecv5Z",
+    "name": "Berliner Philharmoniker",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb055b7b456a9d22d6ae1ed18f",
+    "followers": 254341,
+    "spotifyId": "6uRJnvQ3f8whVnmeoecv5Z",
+    "spotifyPopularity": 74,
+    "genres": [
+      "classical",
+      "orchestra",
+      "opera",
+      "requiem"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "254.3K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2wOqMjp9TyABvtHdOSOTUS",
+    "name": "Ludwig van Beethoven",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba636b0b244253f602a629796",
+    "followers": 5660866,
+    "spotifyId": "2wOqMjp9TyABvtHdOSOTUS",
+    "spotifyPopularity": 74,
+    "genres": [
+      "classical",
+      "classical piano",
+      "chamber music"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "5.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2QOIawHpSlOwXDvSqQ9YJR",
+    "name": "Antonio Vivaldi",
+    "image": "https://i.scdn.co/image/9785700bae86f991f78183076861c7342a4bcf90",
+    "followers": 2690300,
+    "spotifyId": "2QOIawHpSlOwXDvSqQ9YJR",
+    "spotifyPopularity": 72,
+    "genres": [
+      "classical"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "2.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3MKCzCnpzw3TjUYs2v7vDA",
+    "name": "Pyotr Ilyich Tchaikovsky",
+    "image": "https://i.scdn.co/image/9a7c31f43e22a95f6d3c57baf4f87a3a9d2b93e0",
+    "followers": 1507447,
+    "spotifyId": "3MKCzCnpzw3TjUYs2v7vDA",
+    "spotifyPopularity": 71,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "1.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1Uff91EOsvd99rtAupatMP",
+    "name": "Claude Debussy",
+    "image": "https://i.scdn.co/image/5e1155c852578ddf5d2cfea94ccb3a8a65efa882",
+    "followers": 1631827,
+    "spotifyId": "1Uff91EOsvd99rtAupatMP",
+    "spotifyPopularity": 71,
+    "genres": [
+      "classical",
+      "classical piano"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "1.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5zCaQxjl110XTrm4LQ1CxY",
+    "name": "Herbert von Karajan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf67fde1740e91a88445d5bdd",
+    "followers": 193831,
+    "spotifyId": "5zCaQxjl110XTrm4LQ1CxY",
+    "spotifyPopularity": 70,
+    "genres": [
+      "classical",
+      "opera",
+      "orchestra",
+      "requiem"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "193.8K",
+    "tier": "Rising"
+  },
+  {
+    "id": "459INk8vcC0ebEef82WjIK",
+    "name": "Erik Satie",
+    "image": "https://i.scdn.co/image/dd55078caac8105a3799c9d29f5172410da0c904",
+    "followers": 927542,
+    "spotifyId": "459INk8vcC0ebEef82WjIK",
+    "spotifyPopularity": 69,
+    "genres": [
+      "classical",
+      "classical piano"
+    ],
+    "primaryGenre": "classical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "927.5K",
+    "tier": "Rising"
+  }
+]

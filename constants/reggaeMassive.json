@@ -1,0 +1,2971 @@
+[
+  {
+    "id": "2LRoIwlKmHjgvigdNGBHNo",
+    "name": "Feid",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb961f8d198c115a5442c03e0b",
+    "followers": 18229343,
+    "spotifyId": "2LRoIwlKmHjgvigdNGBHNo",
+    "spotifyPopularity": 90,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Reggae",
+    "likes": "18.2M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "3m5qlPf2OkihLz3dRYnkPA",
+    "name": "Ovy On The Drums",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbf7270a270d27e1b6c5b847e",
+    "followers": 1340824,
+    "spotifyId": "3m5qlPf2OkihLz3dRYnkPA",
+    "spotifyPopularity": 87,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Reggae",
+    "likes": "1.3M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "2QsynagSdAqZj3U9HgDzjD",
+    "name": "Bob Marley & The Wailers",
+    "image": "https://i.scdn.co/image/b5aae2067db80f694a980e596e7f49618c1206c9",
+    "followers": 13260024,
+    "spotifyId": "2QsynagSdAqZj3U9HgDzjD",
+    "spotifyPopularity": 84,
+    "genres": [
+      "reggae",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Reggae",
+    "likes": "13.3M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "2eobLT6bmdvl5yGG5qPAgd",
+    "name": "Dj Rockwel Mx",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2a2acfe8213d27e74d75117f",
+    "followers": 33478,
+    "spotifyId": "2eobLT6bmdvl5yGG5qPAgd",
+    "spotifyPopularity": 60,
+    "genres": [
+      "reggaeton mexa",
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Reggae",
+    "likes": "33K",
+    "tier": "Established"
+  },
+  {
+    "id": "5EvFsr3kj42KNv97ZEnqij",
+    "name": "Shaggy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb356dc7e9ba8792cb86a0c50c",
+    "followers": 2437807,
+    "spotifyId": "5EvFsr3kj42KNv97ZEnqij",
+    "spotifyPopularity": 77,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Reggae",
+    "likes": "2.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "5SXEylV07TC57eanSxxg4R",
+    "name": "Stick Figure",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba0f1123095d7e00b8d9fc8ed",
+    "followers": 851447,
+    "spotifyId": "5SXEylV07TC57eanSxxg4R",
+    "spotifyPopularity": 73,
+    "genres": [
+      "reggae",
+      "reggae rock",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Reggae",
+    "likes": "851K",
+    "tier": "Established"
+  },
+  {
+    "id": "4VMYDCV2IEDYJArk749S6m",
+    "name": "Daddy Yankee",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb99a6ccc4aae5ae5404c9eb30",
+    "followers": 37427150,
+    "spotifyId": "4VMYDCV2IEDYJArk749S6m",
+    "spotifyPopularity": 89,
+    "genres": [
+      "reggaeton",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hip hop",
+    "primaryGenre": "Reggae",
+    "likes": "37.4M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "4SsVbpTthjScTS7U2hmr1X",
+    "name": "Arcángel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb188fba614da521f737b24f9e",
+    "followers": 17436160,
+    "spotifyId": "4SsVbpTthjScTS7U2hmr1X",
+    "spotifyPopularity": 87,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hip hop",
+    "primaryGenre": "Reggae",
+    "likes": "17.4M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "1SupJlEpv7RS2tPNRaHViT",
+    "name": "Nicky Jam",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb45780f160ed896e42b6d17b0",
+    "followers": 20203339,
+    "spotifyId": "1SupJlEpv7RS2tPNRaHViT",
+    "spotifyPopularity": 85,
+    "genres": [
+      "reggaeton",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hip hop",
+    "primaryGenre": "Reggae",
+    "likes": "20.2M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "1wZtkThiXbVNtj6hee6dz9",
+    "name": "Wisin & Yandel",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb5496c4b788e181679069ee8",
+    "followers": 8757107,
+    "spotifyId": "1wZtkThiXbVNtj6hee6dz9",
+    "spotifyPopularity": 83,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hip hop",
+    "primaryGenre": "Reggae",
+    "likes": "8.8M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "3SUT1jjM5hzZj9TLfLZGIP",
+    "name": "Tego Calderón",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb145e37118900fb7f7261af16",
+    "followers": 4856820,
+    "spotifyId": "3SUT1jjM5hzZj9TLfLZGIP",
+    "spotifyPopularity": 74,
+    "genres": [
+      "reggaeton",
+      "latin hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Reggae",
+    "likes": "4.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "4q3ewBCX7sLwd24euuV69X",
+    "name": "Bad Bunny",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb81f47f44084e0a09b5f0fa13",
+    "followers": 99107270,
+    "spotifyId": "4q3ewBCX7sLwd24euuV69X",
+    "spotifyPopularity": 100,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Reggae",
+    "likes": "99.1M",
+    "tier": "Superstar"
+  },
+  {
+    "id": "1mcTU81TzQhprhouKaTkpq",
+    "name": "Rauw Alejandro",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb0611e8811c6868ae1fde4de",
+    "followers": 29962171,
+    "spotifyId": "1mcTU81TzQhprhouKaTkpq",
+    "spotifyPopularity": 92,
+    "genres": [
+      "reggaeton",
+      "urbano latino",
+      "trap latino",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Reggae",
+    "likes": "30.0M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "1TA5sGRlKUJXBN4ZyJuDIX",
+    "name": "Blessd",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd50e3f663f6940344b50787a",
+    "followers": 8025782,
+    "spotifyId": "1TA5sGRlKUJXBN4ZyJuDIX",
+    "spotifyPopularity": 84,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Reggae",
+    "likes": "8.0M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "4obzFoKoKRHIphyHzJ35G3",
+    "name": "Becky G",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1b7aaeedafb29af4c513ebd3",
+    "followers": 16474949,
+    "spotifyId": "4obzFoKoKRHIphyHzJ35G3",
+    "spotifyPopularity": 79,
+    "genres": [
+      "reggaeton",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Reggae",
+    "likes": "16.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "1vyhD5VmyZ7KMfW5gqLgo5",
+    "name": "J Balvin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0405b03342c2e56751b9923d",
+    "followers": 38697495,
+    "spotifyId": "1vyhD5VmyZ7KMfW5gqLgo5",
+    "spotifyPopularity": 91,
+    "genres": [
+      "reggaeton",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Reggae",
+    "likes": "38.7M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "3S9Hg7sRKhmtWunFZ2yAYP",
+    "name": "El Bogueto",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1b6988af40abdafa6777a658",
+    "followers": 1305708,
+    "spotifyId": "3S9Hg7sRKhmtWunFZ2yAYP",
+    "spotifyPopularity": 76,
+    "genres": [
+      "reggaeton mexa",
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Reggae",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "1GKIlPFdcewHtpDVCQ8zmJ",
+    "name": "Brray",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb235df98cc24cac6debc78e30",
+    "followers": 743868,
+    "spotifyId": "1GKIlPFdcewHtpDVCQ8zmJ",
+    "spotifyPopularity": 75,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Reggae",
+    "likes": "743K",
+    "tier": "Established"
+  },
+  {
+    "id": "0GgyFUpOyzWDRDqx8FCTDN",
+    "name": "Baby Rasta",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb18f9c5cb23e65bd55af69f24",
+    "followers": 2440835,
+    "spotifyId": "0GgyFUpOyzWDRDqx8FCTDN",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Reggae",
+    "likes": "2.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "2NfSBtmWe7oPw1EmetJVso",
+    "name": "Boza",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb67e69bfa7e97cd5c2d35f032",
+    "followers": 913249,
+    "spotifyId": "2NfSBtmWe7oPw1EmetJVso",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton",
+      "urbano latino",
+      "pop urbano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Reggae",
+    "likes": "913K",
+    "tier": "Established"
+  },
+  {
+    "id": "6DW0QgM048WZ1eDJfq9ZhS",
+    "name": "Rebel Souljahz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb797a00af70578378d44c4898",
+    "followers": 154058,
+    "spotifyId": "6DW0QgM048WZ1eDJfq9ZhS",
+    "spotifyPopularity": 52,
+    "genres": [
+      "nz reggae",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Reggae",
+    "likes": "154K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2ffhJMXvdEJFZISX76ccQL",
+    "name": "Wailing Souls",
+    "image": "https://i.scdn.co/image/ed69e18658ca135302f70bddb5c928d52f52e63c",
+    "followers": 178763,
+    "spotifyId": "2ffhJMXvdEJFZISX76ccQL",
+    "spotifyPopularity": 52,
+    "genres": [
+      "roots reggae",
+      "reggae",
+      "rocksteady",
+      "dub"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Reggae",
+    "likes": "178K",
+    "tier": "Rising"
+  },
+  {
+    "id": "790FomKkXshlbRYZFtlgla",
+    "name": "KAROL G",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb66041ce9eb4497057cbc3496",
+    "followers": 58713192,
+    "spotifyId": "790FomKkXshlbRYZFtlgla",
+    "spotifyPopularity": 93,
+    "genres": [
+      "reggaeton",
+      "latin",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "58.7M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "1r4hJ1h58CWwUQe3MxPuau",
+    "name": "Maluma",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc865fa1b398bc1cd02649f51",
+    "followers": 37793938,
+    "spotifyId": "1r4hJ1h58CWwUQe3MxPuau",
+    "spotifyPopularity": 88,
+    "genres": [
+      "reggaeton",
+      "latin",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "37.8M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "7iK8PXO48WeuP03g8YR51W",
+    "name": "Myke Towers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8372345609bebaf1e948ef7f",
+    "followers": 21014665,
+    "spotifyId": "7iK8PXO48WeuP03g8YR51W",
+    "spotifyPopularity": 90,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "21.0M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "2R21vXR83lH98kGeO99Y66",
+    "name": "Anuel AA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba23ceb177745632b517cb7b2",
+    "followers": 43492745,
+    "spotifyId": "2R21vXR83lH98kGeO99Y66",
+    "spotifyPopularity": 90,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "43.5M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "1i8SpTcr7yvPOmcqrbnVXY",
+    "name": "Ozuna",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb463e10d5f1a533ddd6eb9a04",
+    "followers": 38932771,
+    "spotifyId": "1i8SpTcr7yvPOmcqrbnVXY",
+    "spotifyPopularity": 89,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "latin",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "38.9M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "33ScadVnbm2X8kkUqOkC6Z",
+    "name": "Don Omar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9154bd840cd45e769c4e480",
+    "followers": 15505607,
+    "spotifyId": "33ScadVnbm2X8kkUqOkC6Z",
+    "spotifyPopularity": 87,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "15.5M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "329e4yvIujISKGKz1BZZbO",
+    "name": "Farruko",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69c46f8a2fe8114da9170aca",
+    "followers": 16796300,
+    "spotifyId": "329e4yvIujISKGKz1BZZbO",
+    "spotifyPopularity": 86,
+    "genres": [
+      "reggaeton",
+      "trap latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "16.8M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "1Yj5Xey7kTwvZla8sqdsdE",
+    "name": "Cris MJ",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb418720dd75ca0213bc39e3e5",
+    "followers": 6597915,
+    "spotifyId": "1Yj5Xey7kTwvZla8sqdsdE",
+    "spotifyPopularity": 86,
+    "genres": [
+      "reggaeton chileno",
+      "chilean trap",
+      "chilean mambo",
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "6.6M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "0tmwSHipWxN12fsoLcFU3B",
+    "name": "Manuel Turizo",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb16afb30a06f2830b49c2ceb",
+    "followers": 15372347,
+    "spotifyId": "0tmwSHipWxN12fsoLcFU3B",
+    "spotifyPopularity": 85,
+    "genres": [
+      "reggaeton",
+      "pop urbano",
+      "latin",
+      "colombian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "15.4M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "5H1nN1SzW0qNeUEZvuXjAj",
+    "name": "Danny Ocean",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb485cde5cba6de6e5685278a",
+    "followers": 6310177,
+    "spotifyId": "5H1nN1SzW0qNeUEZvuXjAj",
+    "spotifyPopularity": 85,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "6.3M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "6nVcHLIgY5pE2YCl8ubca1",
+    "name": "JHAYCO",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcc45cb8a69f59976e2895b8c",
+    "followers": 9060572,
+    "spotifyId": "6nVcHLIgY5pE2YCl8ubca1",
+    "spotifyPopularity": 83,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "9.1M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "7CvTknweLr9feJtRGrpDBy",
+    "name": "FloyyMenor",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb035292979f82a70d9be130fd",
+    "followers": 2002967,
+    "spotifyId": "7CvTknweLr9feJtRGrpDBy",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton chileno"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "2.0M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "7j6DKwmjbxvpQO8h914uEz",
+    "name": "Ryan Castro",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc2dd4c5924ae5899f162bebd",
+    "followers": 4211225,
+    "spotifyId": "7j6DKwmjbxvpQO8h914uEz",
+    "spotifyPopularity": 83,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "4.2M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "12vb80Km0Ew53ABfJOepVz",
+    "name": "Ñengo Flow",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebda3f48cf2309aacaab0edce2",
+    "followers": 7130639,
+    "spotifyId": "12vb80Km0Ew53ABfJOepVz",
+    "spotifyPopularity": 83,
+    "genres": [
+      "reggaeton",
+      "trap latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "7.1M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "77ziqFxp5gaInVrF2lj4ht",
+    "name": "Sech",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2ef2187023b7df95a70b4587",
+    "followers": 12048838,
+    "spotifyId": "77ziqFxp5gaInVrF2lj4ht",
+    "spotifyPopularity": 82,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "12.0M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "2jSGzJw0ebJLu7OLVSOcBP",
+    "name": "Plan B",
+    "image": "https://i.scdn.co/image/eb21793908d1eabe0fba02659bdff4e4a4b3724a",
+    "followers": 6331035,
+    "spotifyId": "2jSGzJw0ebJLu7OLVSOcBP",
+    "spotifyPopularity": 82,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "6.3M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0GM7qgcRCORpGnfcN2tCiB",
+    "name": "Tainy",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb50d43598b9074f0d6146127",
+    "followers": 3042868,
+    "spotifyId": "0GM7qgcRCORpGnfcN2tCiB",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "3.0M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "3EiLUeyEcA6fbRPSHkG5kb",
+    "name": "De La Ghetto",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc69e80f5b1d3109ff75680a8",
+    "followers": 7728223,
+    "spotifyId": "3EiLUeyEcA6fbRPSHkG5kb",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "7.7M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0eHQ9o50hj6ZDNBt6Ys1sD",
+    "name": "Yandel",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd9b43435c8221a8fe178f65c",
+    "followers": 8628285,
+    "spotifyId": "0eHQ9o50hj6ZDNBt6Ys1sD",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton",
+      "urbano latino",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "8.6M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "1NRrKr08wLdYUdSOnNDs7M",
+    "name": "Latin Fresh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb30a0c5214e31394d67a0ef11",
+    "followers": 70720,
+    "spotifyId": "1NRrKr08wLdYUdSOnNDs7M",
+    "spotifyPopularity": 47,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "70K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1pQWsZQehhS4wavwh7Fnxd",
+    "name": "Lenny Tavárez",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3afda6e209cde491e2ec3ace",
+    "followers": 3456272,
+    "spotifyId": "1pQWsZQehhS4wavwh7Fnxd",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton",
+      "urbano latino",
+      "trap latino",
+      "argentine trap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "3.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "21451j1KhjAiaYKflxBjr1",
+    "name": "Zion & Lennox",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfa844599a8631cca451a93e5",
+    "followers": 8196480,
+    "spotifyId": "21451j1KhjAiaYKflxBjr1",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "8.2M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "14zUHaJZo1mnYtn6IBRaRP",
+    "name": "Justin Quiles",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2d05ef4037103c9e2a167a3c",
+    "followers": 4945570,
+    "spotifyId": "14zUHaJZo1mnYtn6IBRaRP",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "4.9M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "1TtXnWcUs0FCkaZDPGYHdf",
+    "name": "Darell",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb594bb04c77f6c06c5b4cf1f3",
+    "followers": 4776574,
+    "spotifyId": "1TtXnWcUs0FCkaZDPGYHdf",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "dembow",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "4.8M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "37230BxxYs9ksS7OkZw3IU",
+    "name": "Chencho Corleone",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7ab9ab65a8d38cad451d3417",
+    "followers": 2036895,
+    "spotifyId": "37230BxxYs9ksS7OkZw3IU",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "2.0M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "10VBp06W8NIgMW4JruLCC4",
+    "name": "Kidd Voodoo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6ab6cc599abf883086dc2b60",
+    "followers": 860081,
+    "spotifyId": "10VBp06W8NIgMW4JruLCC4",
+    "spotifyPopularity": 79,
+    "genres": [
+      "reggaeton chileno",
+      "chilean trap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "860K",
+    "tier": "Established"
+  },
+  {
+    "id": "35oGZihZclGoTVuICPXRP9",
+    "name": "Jere Klein",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4b23f03ef7cc9bf87495f85b",
+    "followers": 2925402,
+    "spotifyId": "35oGZihZclGoTVuICPXRP9",
+    "spotifyPopularity": 79,
+    "genres": [
+      "reggaeton chileno",
+      "chilean mambo",
+      "chilean trap",
+      "mambo",
+      "rkt"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "2.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "3E6xrwgnVfYCrCs0ePERDz",
+    "name": "Wisin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5b0446d66cb8dff19ea33ff5",
+    "followers": 9608281,
+    "spotifyId": "3E6xrwgnVfYCrCs0ePERDz",
+    "spotifyPopularity": 79,
+    "genres": [
+      "reggaeton",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "9.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "64aJYyrXljOodnUG6jvhRD",
+    "name": "DJ Luian",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe34cb2ac679537f68b1c60ce",
+    "followers": 2338976,
+    "spotifyId": "64aJYyrXljOodnUG6jvhRD",
+    "spotifyPopularity": 79,
+    "genres": [
+      "reggaeton",
+      "trap latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "2.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "2cPqdH7XMvwaBJEVjheH8g",
+    "name": "Jay Wheeler",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb135da678561711d884cef203",
+    "followers": 4740729,
+    "spotifyId": "2cPqdH7XMvwaBJEVjheH8g",
+    "spotifyPopularity": 78,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "4.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "2T1aUibqR2QC2sINIDQOAK",
+    "name": "Mambo Kingz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb881ed0aa97cc8420685dc90e",
+    "followers": 600206,
+    "spotifyId": "2T1aUibqR2QC2sINIDQOAK",
+    "spotifyPopularity": 78,
+    "genres": [
+      "reggaeton",
+      "trap latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "600K",
+    "tier": "Established"
+  },
+  {
+    "id": "11HepfI1lj6KJHj651rZhM",
+    "name": "Lucky Brown",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb853ac8f6b002f6967069709d",
+    "followers": 963247,
+    "spotifyId": "11HepfI1lj6KJHj651rZhM",
+    "spotifyPopularity": 78,
+    "genres": [
+      "reggaeton chileno",
+      "chilean mambo",
+      "chilean trap",
+      "mambo",
+      "rkt"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "963K",
+    "tier": "Established"
+  },
+  {
+    "id": "00me4Ke1LsvMxt5kydlMyU",
+    "name": "Cosculluela",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf023bccf9a510b84294b3956",
+    "followers": 6799479,
+    "spotifyId": "00me4Ke1LsvMxt5kydlMyU",
+    "spotifyPopularity": 78,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "latin hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "6.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "1pgDilWYDWLoOgGjf1iHNu",
+    "name": "Zion",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f4371bfd653207b5def22d80",
+    "followers": 4524527,
+    "spotifyId": "1pgDilWYDWLoOgGjf1iHNu",
+    "spotifyPopularity": 77,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "4.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "4bw2Am3p9ji3mYsXNXtQcd",
+    "name": "Piso 21",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9b3298d4e296defddfe37503",
+    "followers": 9513411,
+    "spotifyId": "4bw2Am3p9ji3mYsXNXtQcd",
+    "spotifyPopularity": 77,
+    "genres": [
+      "reggaeton",
+      "colombian pop",
+      "pop urbano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "9.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "0KPX4Ucy9dk82uj4GpKesn",
+    "name": "Dalex",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebff284180f08000247df12e2c",
+    "followers": 5096370,
+    "spotifyId": "0KPX4Ucy9dk82uj4GpKesn",
+    "spotifyPopularity": 77,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "5.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "5bv5RplEOwdCvhq0EILh9E",
+    "name": "Lucenzo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb265dde2b466a2e476b1c2b61",
+    "followers": 164226,
+    "spotifyId": "5bv5RplEOwdCvhq0EILh9E",
+    "spotifyPopularity": 74,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "164K",
+    "tier": "Established"
+  },
+  {
+    "id": "1GDbiv3spRmZ1XdM1jQbT7",
+    "name": "NATTI NATASHA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb90f7f9fdc4aace2429df5883",
+    "followers": 10919459,
+    "spotifyId": "1GDbiv3spRmZ1XdM1jQbT7",
+    "spotifyPopularity": 75,
+    "genres": [
+      "reggaeton",
+      "latin",
+      "urbano latino",
+      "bachata"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "10.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "31VFEohvhOUKrtAONEBhMG",
+    "name": "Kenia Os",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8117ce73b5a0335562ba1f23",
+    "followers": 6490725,
+    "spotifyId": "31VFEohvhOUKrtAONEBhMG",
+    "spotifyPopularity": 75,
+    "genres": [
+      "reggaeton mexa"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "6.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "1Ts9of7VPZElwPQnqnDSfW",
+    "name": "Lyanno",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb75ad238e14403fb09faea37",
+    "followers": 1873950,
+    "spotifyId": "1Ts9of7VPZElwPQnqnDSfW",
+    "spotifyPopularity": 75,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "6BV37tKh6pY97mnNdTCzly",
+    "name": "El Malilla",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb162b78c9e1a75dcbfbd5f80a",
+    "followers": 1722523,
+    "spotifyId": "6BV37tKh6pY97mnNdTCzly",
+    "spotifyPopularity": 75,
+    "genres": [
+      "reggaeton mexa",
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "1aw0Cdl1DIrtUrUA6fGbAR",
+    "name": "Dread Mar I",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f95c6e5315e196a970c38cd",
+    "followers": 2947142,
+    "spotifyId": "1aw0Cdl1DIrtUrUA6fGbAR",
+    "spotifyPopularity": 74,
+    "genres": [
+      "spanish-language reggae",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "2.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "4IMAo2UQchVFyPH24PAjUs",
+    "name": "Jowell & Randy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2ab68b2708f4007a4623f652",
+    "followers": 4447206,
+    "spotifyId": "4IMAo2UQchVFyPH24PAjUs",
+    "spotifyPopularity": 74,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "4.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "5lFhCi03HDneWzvCxGctrT",
+    "name": "Jory Boy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb59f03ae6ab47594b586679c0",
+    "followers": 1998849,
+    "spotifyId": "5lFhCi03HDneWzvCxGctrT",
+    "spotifyPopularity": 73,
+    "genres": [
+      "reggaeton",
+      "trap latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "2.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "1ackd5XprZEkH3McKbQD51",
+    "name": "Juan Magán",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb29dcfe53aa0ede90ee9a1211",
+    "followers": 1680633,
+    "spotifyId": "1ackd5XprZEkH3McKbQD51",
+    "spotifyPopularity": 73,
+    "genres": [
+      "reggaeton",
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "47MpMsUfWtgyIIBEFOr4FE",
+    "name": "Lunay",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb45d443b065a66c92d166f598",
+    "followers": 9860526,
+    "spotifyId": "47MpMsUfWtgyIIBEFOr4FE",
+    "spotifyPopularity": 73,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "9.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "3LKXWvXFWrkwUzJWxzwVpW",
+    "name": "Tony Dize",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2e69b2a5617714bdef96f3be",
+    "followers": 3999574,
+    "spotifyId": "3LKXWvXFWrkwUzJWxzwVpW",
+    "spotifyPopularity": 73,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Reggae",
+    "likes": "4.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "3QJzdZJYIAcoET1GcfpNGi",
+    "name": "Damian Marley",
+    "image": "https://i.scdn.co/image/f05f2667aac2bbccd9bf8fcc658b647533257f16",
+    "followers": 1828042,
+    "spotifyId": "3QJzdZJYIAcoET1GcfpNGi",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggae",
+      "ragga",
+      "roots reggae",
+      "dancehall"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "6BH2lormtpjy3X9DyrGHVj",
+    "name": "Bob Marley",
+    "image": "https://i.scdn.co/image/ab67616d0000b273020afd88c3c961749b339872",
+    "followers": 1241236,
+    "spotifyId": "6BH2lormtpjy3X9DyrGHVj",
+    "spotifyPopularity": 53,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "rocksteady"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.2M",
+    "tier": "Rising"
+  },
+  {
+    "id": "3rJ3m1tM6vUgiWLjfV8sRf",
+    "name": "Jimmy Cliff",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb11bdad2b191ac35053d34bd2",
+    "followers": 833838,
+    "spotifyId": "3rJ3m1tM6vUgiWLjfV8sRf",
+    "spotifyPopularity": 61,
+    "genres": [
+      "reggae",
+      "rocksteady",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "833K",
+    "tier": "Established"
+  },
+  {
+    "id": "69MEO1AADKg1IZrq2XLzo5",
+    "name": "UB40",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb057ec513c696b66901270810",
+    "followers": 2593244,
+    "spotifyId": "69MEO1AADKg1IZrq2XLzo5",
+    "spotifyPopularity": 73,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "2.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "0oea1hwGMfUxZbLxJc1XUN",
+    "name": "Peter Tosh",
+    "image": "https://i.scdn.co/image/c935305719f26d05c9d9b51b5b838d5448b44a27",
+    "followers": 1198613,
+    "spotifyId": "0oea1hwGMfUxZbLxJc1XUN",
+    "spotifyPopularity": 59,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "rocksteady",
+      "ragga",
+      "dub"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.2M",
+    "tier": "Rising"
+  },
+  {
+    "id": "5Ayl2bJtN5mdCsxZoxs9n1",
+    "name": "Collie Buddz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6799b9674066738256ee19f3",
+    "followers": 437527,
+    "spotifyId": "5Ayl2bJtN5mdCsxZoxs9n1",
+    "spotifyPopularity": 66,
+    "genres": [
+      "reggae",
+      "dancehall",
+      "roots reggae",
+      "ragga",
+      "reggae rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "437K",
+    "tier": "Established"
+  },
+  {
+    "id": "0Jeckitay8SbvKwqAzWuYH",
+    "name": "Big Mountain",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8d758811d7719850fbf2a4dc",
+    "followers": 168400,
+    "spotifyId": "0Jeckitay8SbvKwqAzWuYH",
+    "spotifyPopularity": 65,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "168K",
+    "tier": "Established"
+  },
+  {
+    "id": "4ryoUS0W8qXokfMxrlJt6O",
+    "name": "Skip Marley",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb39a239113a0c0e9eb94ac0d",
+    "followers": 320432,
+    "spotifyId": "4ryoUS0W8qXokfMxrlJt6O",
+    "spotifyPopularity": 60,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "320K",
+    "tier": "Established"
+  },
+  {
+    "id": "0CIwCGmQMqHqiblnZlFia1",
+    "name": "Stephen Marley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb200689e15f3b95aaf47a05c8",
+    "followers": 715180,
+    "spotifyId": "0CIwCGmQMqHqiblnZlFia1",
+    "spotifyPopularity": 64,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "715K",
+    "tier": "Established"
+  },
+  {
+    "id": "1F23hhbmyCMBq3BadxKNhk",
+    "name": "Pure Negga",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb514aebf69d65d491a67e55df",
+    "followers": 511967,
+    "spotifyId": "1F23hhbmyCMBq3BadxKNhk",
+    "spotifyPopularity": 62,
+    "genres": [
+      "spanish-language reggae",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "511K",
+    "tier": "Established"
+  },
+  {
+    "id": "308gQ5eCBIiSAHmi9tqlJ6",
+    "name": "Lucky Dube",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55f46d4783233c46e22fed98",
+    "followers": 1630910,
+    "spotifyId": "308gQ5eCBIiSAHmi9tqlJ6",
+    "spotifyPopularity": 63,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "ragga",
+      "lovers rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "7BGR8y1VZAWK2oR4zD9COr",
+    "name": "Protoje",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7bb76ad065f165262cf5dae2",
+    "followers": 457360,
+    "spotifyId": "7BGR8y1VZAWK2oR4zD9COr",
+    "spotifyPopularity": 62,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "ragga",
+      "dancehall"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "457K",
+    "tier": "Established"
+  },
+  {
+    "id": "40YyzPIbiMyls21Eb0FZ57",
+    "name": "Kion Studio",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe5d8356076fcddfb6ca4e97f",
+    "followers": 28955,
+    "spotifyId": "40YyzPIbiMyls21Eb0FZ57",
+    "spotifyPopularity": 56,
+    "genres": [
+      "spanish-language reggae",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "28K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7vPGzgDg3qGUY5bWtrO3K4",
+    "name": "Conkarah",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb888d4c3387dd169c20cdeeee",
+    "followers": 84135,
+    "spotifyId": "7vPGzgDg3qGUY5bWtrO3K4",
+    "spotifyPopularity": 52,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "84K",
+    "tier": "Rising"
+  },
+  {
+    "id": "41ekW4MXG59xJMXR8dX1OG",
+    "name": "Alpha Blondy",
+    "image": "https://i.scdn.co/image/5bd002ee052a0f7242c6a85182243a2990e81b1d",
+    "followers": 763699,
+    "spotifyId": "41ekW4MXG59xJMXR8dX1OG",
+    "spotifyPopularity": 62,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "763K",
+    "tier": "Established"
+  },
+  {
+    "id": "1XTGADISSMRf8B4TcVGYUC",
+    "name": "Ky-Mani Marley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5e58da6e2cec104db6eea4fa",
+    "followers": 407132,
+    "spotifyId": "1XTGADISSMRf8B4TcVGYUC",
+    "spotifyPopularity": 64,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "407K",
+    "tier": "Established"
+  },
+  {
+    "id": "2oZcMYiKpjaA2Et5mU3RPP",
+    "name": "Chronixx",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebff811e1e25b9cf99dc4e544f",
+    "followers": 615841,
+    "spotifyId": "2oZcMYiKpjaA2Et5mU3RPP",
+    "spotifyPopularity": 64,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "dancehall",
+      "ragga",
+      "lovers rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "615K",
+    "tier": "Established"
+  },
+  {
+    "id": "2vaWvC8suCFkRXejDOK7EE",
+    "name": "SOJA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb63249f1bc63ff8d4205efbc8",
+    "followers": 1157660,
+    "spotifyId": "2vaWvC8suCFkRXejDOK7EE",
+    "spotifyPopularity": 65,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "reggae rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "4RxUeUyMaEe2T5tvULq5j0",
+    "name": "Snoop Lion",
+    "image": "https://i.scdn.co/image/2b6e02cad1325f5a1205fbef5caae154551661d6",
+    "followers": 320081,
+    "spotifyId": "4RxUeUyMaEe2T5tvULq5j0",
+    "spotifyPopularity": 45,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "320K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5tlNJfV9UIpgnbWmvUEFu7",
+    "name": "Gentleman",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb238d9f19f17c35cad9ce7540",
+    "followers": 487898,
+    "spotifyId": "5tlNJfV9UIpgnbWmvUEFu7",
+    "spotifyPopularity": 59,
+    "genres": [
+      "reggae",
+      "ragga",
+      "roots reggae",
+      "german hip hop",
+      "dancehall"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "487K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6QHu71f8LLeT8n0GzfbYFc",
+    "name": "Gregory Isaacs",
+    "image": "https://i.scdn.co/image/ee22aadbd2d54de47d5e210d005fe4c5c49cb86b",
+    "followers": 773379,
+    "spotifyId": "6QHu71f8LLeT8n0GzfbYFc",
+    "spotifyPopularity": 61,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "lovers rock",
+      "rocksteady",
+      "ragga",
+      "dub"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "773K",
+    "tier": "Established"
+  },
+  {
+    "id": "0IdWDHqu9vAilcEhb3Q0tN",
+    "name": "Sublime Reggae Kings",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6d4e9d7b57c99d04f63cd865",
+    "followers": 35008,
+    "spotifyId": "0IdWDHqu9vAilcEhb3Q0tN",
+    "spotifyPopularity": 49,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "35K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7oEWmZ9dKlAVxTgmjUbYr4",
+    "name": "J Boog",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebae730fd1b54fdccf49a8ae9f",
+    "followers": 345677,
+    "spotifyId": "7oEWmZ9dKlAVxTgmjUbYr4",
+    "spotifyPopularity": 64,
+    "genres": [
+      "reggae",
+      "nz reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "345K",
+    "tier": "Established"
+  },
+  {
+    "id": "21J3YJTyq1biE3SvSNjzuf",
+    "name": "Capleton",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9b786af1f7beae90d162baec",
+    "followers": 394082,
+    "spotifyId": "21J3YJTyq1biE3SvSNjzuf",
+    "spotifyPopularity": 59,
+    "genres": [
+      "reggae",
+      "ragga",
+      "dancehall",
+      "roots reggae",
+      "riddim",
+      "lovers rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "394K",
+    "tier": "Rising"
+  },
+  {
+    "id": "212Jq222D4QnciSA0uWrVN",
+    "name": "Natty Bong",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb139e81fc1512bd2c3860d9c3",
+    "followers": 27300,
+    "spotifyId": "212Jq222D4QnciSA0uWrVN",
+    "spotifyPopularity": 54,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "27K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6UL7BodGc5iVmQGlMwHR0g",
+    "name": "Steel Pulse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7b0863ab8d24bc7c167e572a",
+    "followers": 699084,
+    "spotifyId": "6UL7BodGc5iVmQGlMwHR0g",
+    "spotifyPopularity": 61,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "ragga",
+      "rocksteady",
+      "dub"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "699K",
+    "tier": "Established"
+  },
+  {
+    "id": "2WjvvwAX0mdWwq3aFuUdtc",
+    "name": "Rebelution",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb16febf5ca93319f602000b58",
+    "followers": 908015,
+    "spotifyId": "2WjvvwAX0mdWwq3aFuUdtc",
+    "spotifyPopularity": 66,
+    "genres": [
+      "reggae",
+      "reggae rock",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "908K",
+    "tier": "Established"
+  },
+  {
+    "id": "5eXsZ0hRMSuhtyxfXaRvZP",
+    "name": "The Reggister's",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb92e9e59a21b245bf2883babd",
+    "followers": 11618,
+    "spotifyId": "5eXsZ0hRMSuhtyxfXaRvZP",
+    "spotifyPopularity": 48,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6xqlgBccdlxUh5DeJSx2ho",
+    "name": "Eek-A-Mouse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6c56dcd944a18f31f2876c48",
+    "followers": 287356,
+    "spotifyId": "6xqlgBccdlxUh5DeJSx2ho",
+    "spotifyPopularity": 56,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "dub",
+      "ragga",
+      "rocksteady"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "287K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5BEAZRLV2yIHmrh41l3dKj",
+    "name": "Little Lion Sound",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb31046d4e68a15d788b7da2c9",
+    "followers": 156714,
+    "spotifyId": "5BEAZRLV2yIHmrh41l3dKj",
+    "spotifyPopularity": 56,
+    "genres": [
+      "reggae",
+      "ragga",
+      "dub",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "156K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6gctG6ZKtB0kbGolqccLSS",
+    "name": "General Soundbwoy",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebff65f9b3dbb76babea15fa02",
+    "followers": 10300,
+    "spotifyId": "6gctG6ZKtB0kbGolqccLSS",
+    "spotifyPopularity": 50,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4wLAjfeqAsV66AocWNcowA",
+    "name": "Buju Banton",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf28ffe524727cfa2ce8050d0",
+    "followers": 679603,
+    "spotifyId": "4wLAjfeqAsV66AocWNcowA",
+    "spotifyPopularity": 60,
+    "genres": [
+      "reggae",
+      "dancehall",
+      "ragga",
+      "lovers rock",
+      "roots reggae",
+      "soca"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "679K",
+    "tier": "Established"
+  },
+  {
+    "id": "7dmbpbRfi5fEBqu9A9kwrc",
+    "name": "Iseo & Dodosound",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb107b1776786d51c807ed3451",
+    "followers": 213710,
+    "spotifyId": "7dmbpbRfi5fEBqu9A9kwrc",
+    "spotifyPopularity": 53,
+    "genres": [
+      "reggae",
+      "spanish-language reggae",
+      "dub"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "213K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+    "name": "Toots & The Maytals",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb346451ca43eb84f810f13b96",
+    "followers": 489410,
+    "spotifyId": "6ZFv3wQwwWPiVDWhv0mjQK",
+    "spotifyPopularity": 59,
+    "genres": [
+      "reggae",
+      "rocksteady",
+      "ska",
+      "roots reggae",
+      "dub"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "489K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3skP8Agw0LK6jsIF3hSVwf",
+    "name": "Mo'Kalamity",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3c2ab0566937c78f6f400a70",
+    "followers": 112100,
+    "spotifyId": "3skP8Agw0LK6jsIF3hSVwf",
+    "spotifyPopularity": 54,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "dub",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "112K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0o0rlxlC3ApLWsxFkUjMXc",
+    "name": "Ziggy Marley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2ff8a94ee073f8024665826b",
+    "followers": 1284741,
+    "spotifyId": "0o0rlxlC3ApLWsxFkUjMXc",
+    "spotifyPopularity": 60,
+    "genres": [
+      "reggae",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "3Je8tRazTtqZxGkbeJDGL8",
+    "name": "Kolohe Kai",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf1b95fa2ca1b1945a5952945",
+    "followers": 505879,
+    "spotifyId": "3Je8tRazTtqZxGkbeJDGL8",
+    "spotifyPopularity": 64,
+    "genres": [
+      "nz reggae",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "505K",
+    "tier": "Established"
+  },
+  {
+    "id": "2OnH4HpywAxWkSOEsyjdjn",
+    "name": "Morodo",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb35b08728e12cba98550dda2",
+    "followers": 500133,
+    "spotifyId": "2OnH4HpywAxWkSOEsyjdjn",
+    "spotifyPopularity": 55,
+    "genres": [
+      "spanish-language reggae",
+      "reggae",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "500K",
+    "tier": "Rising"
+  },
+  {
+    "id": "050LEfCTHMWKFC2AI0DEBR",
+    "name": "Rastachai",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb6b900fa505c7bc5217b45aa",
+    "followers": 41473,
+    "spotifyId": "050LEfCTHMWKFC2AI0DEBR",
+    "spotifyPopularity": 51,
+    "genres": [
+      "spanish-language reggae",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "41K",
+    "tier": "Rising"
+  },
+  {
+    "id": "312pFk2xpEwYWLGPehc4Nu",
+    "name": "John Holt",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5505bdd8d65414326123337e",
+    "followers": 158419,
+    "spotifyId": "312pFk2xpEwYWLGPehc4Nu",
+    "spotifyPopularity": 53,
+    "genres": [
+      "reggae",
+      "lovers rock",
+      "rocksteady",
+      "roots reggae",
+      "dub",
+      "ska",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "158K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7a4td2FhkuH58dApiBvnrv",
+    "name": "Julian Marley",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdb37184b6496129107f106e5",
+    "followers": 323877,
+    "spotifyId": "7a4td2FhkuH58dApiBvnrv",
+    "spotifyPopularity": 50,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "323K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5397Q0lxSvxsQkkYiyQGeO",
+    "name": "Christafari",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e268263fabec0c6afd28433",
+    "followers": 137871,
+    "spotifyId": "5397Q0lxSvxsQkkYiyQGeO",
+    "spotifyPopularity": 49,
+    "genres": [
+      "reggae",
+      "christian rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "137K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6uSKeCyQEhvPC2NODgiqFE",
+    "name": "The Wailers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8aa4afdf2ef5885f9cf4d5db",
+    "followers": 607223,
+    "spotifyId": "6uSKeCyQEhvPC2NODgiqFE",
+    "spotifyPopularity": 54,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "rocksteady",
+      "ska",
+      "dub",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "607K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4OuCe7pcpoympU3BxysSfV",
+    "name": "Jamaican Reggae Cuts",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe7a4503c36f3ffa04fdfa83d",
+    "followers": 31367,
+    "spotifyId": "4OuCe7pcpoympU3BxysSfV",
+    "spotifyPopularity": 47,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "31K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6qaKS0nzGP4hfjl4aFZmEU",
+    "name": "Burning Spear",
+    "image": "https://i.scdn.co/image/ab6772690000c46cd7c4f1584295851021dd7288",
+    "followers": 575199,
+    "spotifyId": "6qaKS0nzGP4hfjl4aFZmEU",
+    "spotifyPopularity": 54,
+    "genres": [
+      "roots reggae",
+      "reggae",
+      "dub",
+      "rocksteady",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "575K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3sG7WHWEWaSVehXJRj7t4n",
+    "name": "Reggaeton Latino",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf906c536bfa2c40cb4ef8286",
+    "followers": 19911,
+    "spotifyId": "3sG7WHWEWaSVehXJRj7t4n",
+    "spotifyPopularity": 43,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "19K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4DbtUTi2WsBNdruAZL2pNz",
+    "name": "Culture",
+    "image": "https://i.scdn.co/image/3128af16f496da26edbc6a4c1baee45559af4466",
+    "followers": 398641,
+    "spotifyId": "4DbtUTi2WsBNdruAZL2pNz",
+    "spotifyPopularity": 53,
+    "genres": [
+      "roots reggae",
+      "reggae",
+      "rocksteady",
+      "dub",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "398K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5WcGRaGsl0b9sul7jVdDgc",
+    "name": "Don Carlos",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcaaa252af0ecbaafd72a1664",
+    "followers": 264863,
+    "spotifyId": "5WcGRaGsl0b9sul7jVdDgc",
+    "spotifyPopularity": 55,
+    "genres": [
+      "roots reggae",
+      "reggae",
+      "dub",
+      "ragga",
+      "rocksteady"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "264K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2Y06xyHPovQ8DWLyVIpSJK",
+    "name": "Israel Vibration",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebac6ff4f682acd070d01fafc9",
+    "followers": 540877,
+    "spotifyId": "2Y06xyHPovQ8DWLyVIpSJK",
+    "spotifyPopularity": 53,
+    "genres": [
+      "roots reggae",
+      "reggae",
+      "dub",
+      "ragga",
+      "rocksteady"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "540K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0cpt0xebTXatYk3KvnrU9m",
+    "name": "Pato Banton",
+    "image": "https://i.scdn.co/image/a67435d1de7eaa4aa8d0ce2f72524e2afb1dcf2e",
+    "followers": 79292,
+    "spotifyId": "0cpt0xebTXatYk3KvnrU9m",
+    "spotifyPopularity": 49,
+    "genres": [
+      "reggae",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "79K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6yTNMMqumesCWhMJ47HB2a",
+    "name": "Yellowman",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe1b1f60272b2449d23d32458",
+    "followers": 192582,
+    "spotifyId": "6yTNMMqumesCWhMJ47HB2a",
+    "spotifyPopularity": 51,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "ragga",
+      "dub",
+      "rocksteady",
+      "dancehall"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "192K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7jgZFR40bWjwOrRCOZFB02",
+    "name": "Tribal Seeds",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c53853dfcfd845f81fc62aa",
+    "followers": 354151,
+    "spotifyId": "7jgZFR40bWjwOrRCOZFB02",
+    "spotifyPopularity": 58,
+    "genres": [
+      "reggae",
+      "reggae rock",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "354K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0gYuavkgXQapJXmASabd2o",
+    "name": "Ali Campbell",
+    "image": "https://i.scdn.co/image/7469ad67d59c672f61e99fc0d701ca2192cd8879",
+    "followers": 54570,
+    "spotifyId": "0gYuavkgXQapJXmASabd2o",
+    "spotifyPopularity": 43,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "54K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3Z2jmNAP2UaGa8lPpi54wD",
+    "name": "Ziggy Marley & The Melody Makers",
+    "image": "https://i.scdn.co/image/173e114b07bf3ee7f1f7d6feb11b8c441fcfd1de",
+    "followers": 251722,
+    "spotifyId": "3Z2jmNAP2UaGa8lPpi54wD",
+    "spotifyPopularity": 45,
+    "genres": [
+      "reggae",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "251K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5wdQ2IkL8WASlcyt0x2s8Q",
+    "name": "Mykal Rose",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf3e88d537ca0979ea2adcb3e",
+    "followers": 48345,
+    "spotifyId": "5wdQ2IkL8WASlcyt0x2s8Q",
+    "spotifyPopularity": 46,
+    "genres": [
+      "roots reggae",
+      "reggae",
+      "dub",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "48K",
+    "tier": "Rising"
+  },
+  {
+    "id": "55LyOQNIa9J8wX6y6eJfc0",
+    "name": "Aswad",
+    "image": "https://i.scdn.co/image/6a44b7790cbd365efaf772a930dccf6710feabeb",
+    "followers": 187606,
+    "spotifyId": "55LyOQNIa9J8wX6y6eJfc0",
+    "spotifyPopularity": 48,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "lovers rock",
+      "dub",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "187K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5ro8EfOMDdgMSbIccUShrP",
+    "name": "Tropavibes",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe0dcd64fb2d6cb3121700095",
+    "followers": 100808,
+    "spotifyId": "5ro8EfOMDdgMSbIccUShrP",
+    "spotifyPopularity": 53,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "100K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5FhMGuqdjkRUojGPm8542N",
+    "name": "Raging Fyah",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfc9b99999d81c1198ae94301",
+    "followers": 41941,
+    "spotifyId": "5FhMGuqdjkRUojGPm8542N",
+    "spotifyPopularity": 42,
+    "genres": [
+      "reggae",
+      "roots reggae",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "41K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3Vszg64mczF1dWEcW2dU5W",
+    "name": "Luciano",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb61c7b8fb0122819e7923db3b",
+    "followers": 238807,
+    "spotifyId": "3Vszg64mczF1dWEcW2dU5W",
+    "spotifyPopularity": 47,
+    "genres": [
+      "reggae",
+      "lovers rock",
+      "roots reggae",
+      "ragga",
+      "riddim",
+      "dancehall"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "238K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2u7HXyOB94OUobf3fQtMtF",
+    "name": "Taggy Matcher",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba3f5f49e0521740b07515760",
+    "followers": 13223,
+    "spotifyId": "2u7HXyOB94OUobf3fQtMtF",
+    "spotifyPopularity": 39,
+    "genres": [
+      "reggae",
+      "dub"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "13K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1RBzGO6Nm3uyhUSxP7EDWO",
+    "name": "KEVIN ROLDAN",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55f0f6d11c15cefa357c087d",
+    "followers": 5611234,
+    "spotifyId": "1RBzGO6Nm3uyhUSxP7EDWO",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "5.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "7tuylP1eRs03h8q1fq3Kg5",
+    "name": "Tropic Vibration",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5624de97c490c82ba7a9acff",
+    "followers": 12266,
+    "spotifyId": "7tuylP1eRs03h8q1fq3Kg5",
+    "spotifyPopularity": 43,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "51XrH5fQP2oIQynuKxSWcW",
+    "name": "Sky Rompiendo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb13a70d2887a28d861b437b1f",
+    "followers": 442994,
+    "spotifyId": "51XrH5fQP2oIQynuKxSWcW",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "442K",
+    "tier": "Established"
+  },
+  {
+    "id": "2OHKEe204spO7G7NcbeO2o",
+    "name": "Ñejo",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb375ba63006bb0bb1c92a316",
+    "followers": 4765736,
+    "spotifyId": "2OHKEe204spO7G7NcbeO2o",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "4.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "4z19QMyPVRwbd4Fs2LisBa",
+    "name": "Darkiel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0fd573b819f4c5737aa78f7d",
+    "followers": 1370230,
+    "spotifyId": "4z19QMyPVRwbd4Fs2LisBa",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "1tgVbOZSnzBzPMa6cZgQta",
+    "name": "Yohan Marley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7539f15fa52f55022829974e",
+    "followers": 17184,
+    "spotifyId": "1tgVbOZSnzBzPMa6cZgQta",
+    "spotifyPopularity": 34,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "17K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6XFITTl7cFTdopDY3lUdlY",
+    "name": "J Alvarez",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb38703ed83ac27c8d8f8f7269",
+    "followers": 5736902,
+    "spotifyId": "6XFITTl7cFTdopDY3lUdlY",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "5.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "3g9MKjIP9xrMTY5Pbwr6Nk",
+    "name": "Kreamly",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a72faca4d6de3a009828eae",
+    "followers": 16749,
+    "spotifyId": "3g9MKjIP9xrMTY5Pbwr6Nk",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton chileno",
+      "chilean trap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "16K",
+    "tier": "Established"
+  },
+  {
+    "id": "5fJsY7afrbsyzJj9wdzJMh",
+    "name": "Tito \"El Bambino\"",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3b514e8b000993be0b22bf12",
+    "followers": 4228312,
+    "spotifyId": "5fJsY7afrbsyzJj9wdzJMh",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "4.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "2Atk4SWx7daQtItQBa735M",
+    "name": "Yeri Mua",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf65aa06fe0cd0906c404aaab",
+    "followers": 2358481,
+    "spotifyId": "2Atk4SWx7daQtItQBa735M",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton mexa",
+      "electro corridos"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "2.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "4P2v08fHwV1eqMrDsBOw0W",
+    "name": "Killah Man",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb068366731e4721109b0d0590",
+    "followers": 53378,
+    "spotifyId": "4P2v08fHwV1eqMrDsBOw0W",
+    "spotifyPopularity": 42,
+    "genres": [
+      "spanish-language reggae",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "53K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4LOpbx6vYx5H9GO6bXCqK5",
+    "name": "UB40 featuring Ali, Astro & Mickey",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6c7bbef03cd6bf8c6c65c3bd",
+    "followers": 68285,
+    "spotifyId": "4LOpbx6vYx5H9GO6bXCqK5",
+    "spotifyPopularity": 36,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "68K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7iA6sxOMDOu5MnyfmKQv6m",
+    "name": "Green Lion Crew",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5974e79733e130a012db237e",
+    "followers": 18199,
+    "spotifyId": "7iA6sxOMDOu5MnyfmKQv6m",
+    "spotifyPopularity": 42,
+    "genres": [
+      "reggae",
+      "dub",
+      "roots reggae",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "18K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4kKazhy9tDfOgKSWm5g3F9",
+    "name": "Katteyes",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe6a5aa9d2ee43f6b61681764",
+    "followers": 677874,
+    "spotifyId": "4kKazhy9tDfOgKSWm5g3F9",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton chileno",
+      "chilean trap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "677K",
+    "tier": "Established"
+  },
+  {
+    "id": "2AbQwU2cuEGfD465wCXlg2",
+    "name": "Rawayana",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb5c14a2ec63ac237caab6593",
+    "followers": 1002119,
+    "spotifyId": "2AbQwU2cuEGfD465wCXlg2",
+    "spotifyPopularity": 72,
+    "genres": [
+      "spanish-language reggae",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "6dV7tQuFIXDX8nbGkWCSnz",
+    "name": "Lion D",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb124b8447232d9f8a84507c6c",
+    "followers": 20900,
+    "spotifyId": "6dV7tQuFIXDX8nbGkWCSnz",
+    "spotifyPopularity": 40,
+    "genres": [
+      "reggae",
+      "ragga",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2ydZrTy8U3kOMOzx20s3dg",
+    "name": "DJ Nelson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb75bd36e435556651eff48254",
+    "followers": 1243179,
+    "spotifyId": "2ydZrTy8U3kOMOzx20s3dg",
+    "spotifyPopularity": 72,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "13Kn0OI9oXhBDXClb1hGy3",
+    "name": "Rita Marley",
+    "image": "https://i.scdn.co/image/242813c3cdbda3632901ba9db34d53fb76a1bf37",
+    "followers": 108630,
+    "spotifyId": "13Kn0OI9oXhBDXClb1hGy3",
+    "spotifyPopularity": 40,
+    "genres": [
+      "reggae",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "108K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7qYeIN2r4H1kBvr0Gm9Iav",
+    "name": "Randy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6381c07889027edc122d0cfb",
+    "followers": 788691,
+    "spotifyId": "7qYeIN2r4H1kBvr0Gm9Iav",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "788K",
+    "tier": "Established"
+  },
+  {
+    "id": "5hdhHgpxyniooUiQVaPxQ0",
+    "name": "Nio Garcia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9d887e19892978b0d941c4ae",
+    "followers": 5517393,
+    "spotifyId": "5hdhHgpxyniooUiQVaPxQ0",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "5.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "4PhdYoQGH8s1xee81dqQOO",
+    "name": "Natiruts",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb764999c0589ff0cb6eedc4f1",
+    "followers": 3548950,
+    "spotifyId": "4PhdYoQGH8s1xee81dqQOO",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggae",
+      "mpb",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "3.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "0rjms710nwQTdrQheXHJfz",
+    "name": "Standly",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb17cd09f30346896c19861bec",
+    "followers": 1318571,
+    "spotifyId": "0rjms710nwQTdrQheXHJfz",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggaeton chileno",
+      "chilean trap",
+      "chilean mambo",
+      "mambo",
+      "reggaeton",
+      "rkt"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "2wkoKEfS6dXwThbyTnZWFU",
+    "name": "Mau y Ricky",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb50868fc8685261506ed3cc4a",
+    "followers": 6809135,
+    "spotifyId": "2wkoKEfS6dXwThbyTnZWFU",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggaeton",
+      "latin pop",
+      "pop urbano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "6.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "7wgrXbrp9RJQMri26GZgyH",
+    "name": "Uzielito Mix",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb41c2c21717c21b5e1ece5383",
+    "followers": 824737,
+    "spotifyId": "7wgrXbrp9RJQMri26GZgyH",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggaeton mexa",
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "824K",
+    "tier": "Established"
+  },
+  {
+    "id": "2TjgzYcbTdsZjbT9OItIeB",
+    "name": "Héctor \"El Father\"",
+    "image": "https://i.scdn.co/image/fb6f6b52082b66ee883bccf31fec0640e901ef25",
+    "followers": 1051119,
+    "spotifyId": "2TjgzYcbTdsZjbT9OItIeB",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "0oiElYQBBhWG7ywJdoa9OA",
+    "name": "Eric Donaldson",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737863a42b4bbb91d8913bdee3",
+    "followers": 66484,
+    "spotifyId": "0oiElYQBBhWG7ywJdoa9OA",
+    "spotifyPopularity": 46,
+    "genres": [
+      "roots reggae",
+      "reggae",
+      "rocksteady",
+      "lovers rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "66K",
+    "tier": "Rising"
+  },
+  {
+    "id": "77iZVjeYoYSl5P0K9mIiUE",
+    "name": "Haze",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1e995c033acc8dd01a359850",
+    "followers": 263138,
+    "spotifyId": "77iZVjeYoYSl5P0K9mIiUE",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "263K",
+    "tier": "Established"
+  },
+  {
+    "id": "4fEogLHgLSsp5ETlJCci09",
+    "name": "Heavy Roots",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd9a28068f369157e1593e8ec",
+    "followers": 10822,
+    "spotifyId": "4fEogLHgLSsp5ETlJCci09",
+    "spotifyPopularity": 37,
+    "genres": [
+      "spanish-language reggae",
+      "reggae",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Reggae",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5VHv8HRkyW4zmhoYXu476k",
+    "name": "Opi the Hit Machine",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc18df4e0ca04524ff66a5a56",
+    "followers": 60148,
+    "spotifyId": "5VHv8HRkyW4zmhoYXu476k",
+    "spotifyPopularity": 53,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Reggae",
+    "likes": "60K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5f5mfxC3zijz4RoSNUpfTy",
+    "name": "Vintage Reggae Soundsystem",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1372ba6eccf414a8cd975ffe",
+    "followers": 29618,
+    "spotifyId": "5f5mfxC3zijz4RoSNUpfTy",
+    "spotifyPopularity": 45,
+    "genres": [
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Reggae",
+    "likes": "29K",
+    "tier": "Rising"
+  },
+  {
+    "id": "13VwGEitoK8J0qjNjbgeTN",
+    "name": "Flex",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb48f91958697dbd1ca9fd005d",
+    "followers": 326597,
+    "spotifyId": "13VwGEitoK8J0qjNjbgeTN",
+    "spotifyPopularity": 65,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "romantic",
+    "primaryGenre": "Reggae",
+    "likes": "326K",
+    "tier": "Established"
+  },
+  {
+    "id": "4gaipGwvI72oJZVL2P0WJd",
+    "name": "Nigga",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2e02879fdf70caedb6b5b04a",
+    "followers": 696751,
+    "spotifyId": "4gaipGwvI72oJZVL2P0WJd",
+    "spotifyPopularity": 64,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "romantic",
+    "primaryGenre": "Reggae",
+    "likes": "696K",
+    "tier": "Established"
+  },
+  {
+    "id": "5F73ZVq8ivLhsYF2pGg4Fc",
+    "name": "Makano",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd214ec35d6d89f4dcf239ab",
+    "followers": 686272,
+    "spotifyId": "5F73ZVq8ivLhsYF2pGg4Fc",
+    "spotifyPopularity": 60,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "romantic",
+    "primaryGenre": "Reggae",
+    "likes": "686K",
+    "tier": "Established"
+  },
+  {
+    "id": "6qfKnsgz1CwyqA7lTdieRJ",
+    "name": "Third World",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb90bbbd35453fc4648651582c",
+    "followers": 194026,
+    "spotifyId": "6qfKnsgz1CwyqA7lTdieRJ",
+    "spotifyPopularity": 53,
+    "genres": [
+      "reggae",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "sad",
+    "primaryGenre": "Reggae",
+    "likes": "194K",
+    "tier": "Rising"
+  },
+  {
+    "id": "54P0u0BOmRdmtEVPgcoZy0",
+    "name": "Golden Ganga",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8922e6db45f3a68eb16d3c78",
+    "followers": 119715,
+    "spotifyId": "54P0u0BOmRdmtEVPgcoZy0",
+    "spotifyPopularity": 49,
+    "genres": [
+      "spanish-language reggae",
+      "reggae",
+      "ska"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Reggae",
+    "likes": "119K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2tU377oBzcCBbRNeVve8FC",
+    "name": "Go Golden Junk",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e2f1373ba21071a71c22f5f",
+    "followers": 138742,
+    "spotifyId": "2tU377oBzcCBbRNeVve8FC",
+    "spotifyPopularity": 48,
+    "genres": [
+      "reggaeton mexa",
+      "mexican hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Reggae",
+    "likes": "138K",
+    "tier": "Rising"
+  },
+  {
+    "id": "11IcDecUvnKOttYzE3d0Z1",
+    "name": "Wise \"the Gold Pen\"",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf0de910c54a143ad0e37bd1e",
+    "followers": 103538,
+    "spotifyId": "11IcDecUvnKOttYzE3d0Z1",
+    "spotifyPopularity": 46,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Reggae",
+    "likes": "103K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2MvXKrHantfY5wyPiCOo2k",
+    "name": "Mighty Diamonds",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43803303535e84f29dc73c65",
+    "followers": 124367,
+    "spotifyId": "2MvXKrHantfY5wyPiCOo2k",
+    "spotifyPopularity": 41,
+    "genres": [
+      "roots reggae",
+      "reggae",
+      "lovers rock",
+      "rocksteady",
+      "dub",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "diamond",
+    "primaryGenre": "Reggae",
+    "likes": "124K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6SmpksRq3jxeDZ7roKDb6F",
+    "name": "Sid Diamond",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeb9eeb46e89e187e8f5a9004",
+    "followers": 21050,
+    "spotifyId": "6SmpksRq3jxeDZ7roKDb6F",
+    "spotifyPopularity": 33,
+    "genres": [
+      "nz reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "diamond",
+    "primaryGenre": "Reggae",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0n6sKrG0xKAf8xmdqeNGke",
+    "name": "Los Legendarios",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5bc9cc07a4460428f194f79a",
+    "followers": 90295,
+    "spotifyId": "0n6sKrG0xKAf8xmdqeNGke",
+    "spotifyPopularity": 60,
+    "genres": [
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "legendary",
+    "primaryGenre": "Reggae",
+    "likes": "90K",
+    "tier": "Established"
+  }
+]

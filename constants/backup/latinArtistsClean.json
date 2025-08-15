@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5lwmRuXgjX8xIwlnauTZIP",
+    "name": "Romeo Santos",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6d8b48abede0f9e433aa6e49",
+    "followers": 25957215,
+    "spotifyId": "5lwmRuXgjX8xIwlnauTZIP",
+    "spotifyPopularity": 86,
+    "genres": [
+      "bachata",
+      "latin"
+    ],
+    "primaryGenre": "bachata",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "26.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "4boI7bJtmB1L3b1cuL75Zr",
+    "name": "Mon Laferte",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4d9941b20bbf2bbe3714acc",
+    "followers": 9733259,
+    "spotifyId": "4boI7bJtmB1L3b1cuL75Zr",
+    "spotifyPopularity": 79,
+    "genres": [
+      "latin alternative"
+    ],
+    "primaryGenre": "latin alternative",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "9.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4V8Sr092TqfHkfAA5fXXqG",
+    "name": "Luis Fonsi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3981f9c0501750fffdb65001",
+    "followers": 10909876,
+    "spotifyId": "4V8Sr092TqfHkfAA5fXXqG",
+    "spotifyPopularity": 77,
+    "genres": [
+      "latin"
+    ],
+    "primaryGenre": "latin",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "10.9M",
+    "tier": "Top"
+  }
+]

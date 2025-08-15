@@ -1,0 +1,21 @@
+[
+  {
+    "id": "4KWTAlx2RvbpseOGMEmROg",
+    "name": "R.E.M.",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6334ab6a83196f36475ada7f",
+    "followers": 5258420,
+    "spotifyId": "4KWTAlx2RvbpseOGMEmROg",
+    "spotifyPopularity": 76,
+    "genres": [
+      "jangle pop",
+      "alternative rock",
+      "rock"
+    ],
+    "primaryGenre": "jangle pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "5.3M",
+    "tier": "Popular"
+  }
+]

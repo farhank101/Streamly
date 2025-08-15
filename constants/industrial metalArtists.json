@@ -1,0 +1,22 @@
+[
+  {
+    "id": "6wWVKhxIU2cEi0K81v7HvP",
+    "name": "Rammstein",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb32845b1556f9dbdfe8ee6575",
+    "followers": 11564682,
+    "spotifyId": "6wWVKhxIU2cEi0K81v7HvP",
+    "spotifyPopularity": 81,
+    "genres": [
+      "industrial metal",
+      "metal",
+      "industrial rock",
+      "industrial"
+    ],
+    "primaryGenre": "industrial metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "11.6M",
+    "tier": "Top"
+  }
+]

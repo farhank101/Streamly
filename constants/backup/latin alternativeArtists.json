@@ -1,0 +1,19 @@
+[
+  {
+    "id": "4boI7bJtmB1L3b1cuL75Zr",
+    "name": "Mon Laferte",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4d9941b20bbf2bbe3714acc",
+    "followers": 9733259,
+    "spotifyId": "4boI7bJtmB1L3b1cuL75Zr",
+    "spotifyPopularity": 79,
+    "genres": [
+      "latin alternative"
+    ],
+    "primaryGenre": "latin alternative",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "9.7M",
+    "tier": "Popular"
+  }
+]

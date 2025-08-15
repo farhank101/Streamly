@@ -1,0 +1,21 @@
+[
+  {
+    "id": "2HPaUgqeutzr3jx5a9WyDV",
+    "name": "PARTYNEXTDOOR",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb957320981e31e862bc2fb844",
+    "followers": 9602587,
+    "spotifyId": "2HPaUgqeutzr3jx5a9WyDV",
+    "spotifyPopularity": 87,
+    "genres": [
+      "dark r&b",
+      "r&b",
+      "trap soul"
+    ],
+    "primaryGenre": "dark r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "9.6M",
+    "tier": "Popular"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "5C4PDR4LnhZTbVnKWXuDKD",
+    "name": "Morat",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5edd5edd2ec02722f873e0ef",
+    "followers": 13620573,
+    "spotifyId": "5C4PDR4LnhZTbVnKWXuDKD",
+    "spotifyPopularity": 84,
+    "genres": [
+      "colombian pop",
+      "latin pop"
+    ],
+    "primaryGenre": "colombian pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "13.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "07YUOmWljBTXwIseAUd9TW",
+    "name": "Sebastian Yatra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbf209ec097ccb579f38edc65",
+    "followers": 24145696,
+    "spotifyId": "07YUOmWljBTXwIseAUd9TW",
+    "spotifyPopularity": 82,
+    "genres": [
+      "colombian pop",
+      "reggaeton"
+    ],
+    "primaryGenre": "colombian pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "24.1M",
+    "tier": "Top"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "74XFHRwlV6OrjEM0A2NCMF",
+    "name": "Paramore",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb10c34546a4ca2d7faeb8865",
+    "followers": 9610614,
+    "spotifyId": "74XFHRwlV6OrjEM0A2NCMF",
+    "spotifyPopularity": 83,
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "9.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6FBDaR13swtiWwGhX1WQsP",
+    "name": "blink-182",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5da36f8b98dd965336a1507a",
+    "followers": 9154217,
+    "spotifyId": "6FBDaR13swtiWwGhX1WQsP",
+    "spotifyPopularity": 80,
+    "genres": [
+      "pop punk",
+      "punk",
+      "rock",
+      "skate punk",
+      "emo"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "9.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0qT79UgT5tY4yudH9VfsdT",
+    "name": "Sum 41",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb625af80b68ae4eb559c6c417",
+    "followers": 4266038,
+    "spotifyId": "0qT79UgT5tY4yudH9VfsdT",
+    "spotifyPopularity": 74,
+    "genres": [
+      "pop punk",
+      "punk",
+      "skate punk"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "4.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "46gyXjRIvN1NL1eCB8GBxo",
+    "name": "All Time Low",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8625dac822c90c5f8c605170",
+    "followers": 3146777,
+    "spotifyId": "46gyXjRIvN1NL1eCB8GBxo",
+    "spotifyPopularity": 73,
+    "genres": [
+      "pop punk",
+      "emo",
+      "punk"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "3.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2p4FqHnazRucYQHyDCdBrJ",
+    "name": "Simple Plan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8a6c76b696c37d752a6797e",
+    "followers": 3865995,
+    "spotifyId": "2p4FqHnazRucYQHyDCdBrJ",
+    "spotifyPopularity": 73,
+    "genres": [
+      "pop punk",
+      "punk",
+      "emo"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "3.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1NU9Em6e8dDo36Js6nEo3t",
+    "name": "A Rocket To The Moon",
+    "image": "https://i.scdn.co/image/8ce4861c7dfa1853e0db638cdad9f4fbf422fc03",
+    "followers": 444527,
+    "spotifyId": "1NU9Em6e8dDo36Js6nEo3t",
+    "spotifyPopularity": 52,
+    "genres": [
+      "pop punk"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "444.5K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3k7qB8d47YeYcHlrqaLM4U",
+    "name": "Rocket Rockers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb491e076803c5336911d69e83",
+    "followers": 386128,
+    "spotifyId": "3k7qB8d47YeYcHlrqaLM4U",
+    "spotifyPopularity": 51,
+    "genres": [
+      "pop punk",
+      "indorock",
+      "indonesian indie",
+      "indonesian pop"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "386.1K",
+    "tier": "Rising"
+  }
+]

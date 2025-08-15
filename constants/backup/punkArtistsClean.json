@@ -1,0 +1,91 @@
+[
+  {
+    "id": "5LfGQac0EIXyAN8aUwmNAQ",
+    "name": "The Offspring",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebffb1ffb7c417745cdad67b88",
+    "followers": 6479675,
+    "spotifyId": "5LfGQac0EIXyAN8aUwmNAQ",
+    "spotifyPopularity": 80,
+    "genres": [
+      "punk",
+      "skate punk"
+    ],
+    "primaryGenre": "punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "6.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3SXwqSqAoBz9WCI9PDQzY6",
+    "name": "Fontaines D.C.",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc4b9cd69cf77ce41487dd69a",
+    "followers": 1046387,
+    "spotifyId": "3SXwqSqAoBz9WCI9PDQzY6",
+    "spotifyPopularity": 75,
+    "genres": [
+      "post-punk"
+    ],
+    "primaryGenre": "post-punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "1.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6Wr3hh341P84m3EI8qdn9O",
+    "name": "Rise Against",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb071291b50cd2f68a7bfe1337",
+    "followers": 2917083,
+    "spotifyId": "6Wr3hh341P84m3EI8qdn9O",
+    "spotifyPopularity": 73,
+    "genres": [
+      "punk",
+      "hardcore punk"
+    ],
+    "primaryGenre": "punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "2.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2x9SpqnPi8rlE9pjHBwmSC",
+    "name": "Talking Heads",
+    "image": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+    "followers": 2795438,
+    "spotifyId": "2x9SpqnPi8rlE9pjHBwmSC",
+    "spotifyPopularity": 71,
+    "genres": [
+      "new wave",
+      "post-punk"
+    ],
+    "primaryGenre": "new wave",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "2.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1co4F2pPNH8JjTutZkmgSm",
+    "name": "Ramones",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5b9f46a5c5bf8243179d56b0",
+    "followers": 2873889,
+    "spotifyId": "1co4F2pPNH8JjTutZkmgSm",
+    "spotifyPopularity": 68,
+    "genres": [
+      "punk",
+      "proto-punk"
+    ],
+    "primaryGenre": "punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "2.9M",
+    "tier": "Popular"
+  }
+]

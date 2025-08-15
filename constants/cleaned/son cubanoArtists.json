@@ -1,0 +1,22 @@
+[
+  {
+    "id": "11kBu957KTYoAltZHDm8gW",
+    "name": "Buena Vista Social Club",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe35db4d5803c5a4c77dd44db",
+    "followers": 1412472,
+    "spotifyId": "11kBu957KTYoAltZHDm8gW",
+    "spotifyPopularity": 68,
+    "genres": [
+      "son cubano",
+      "latin jazz",
+      "latin",
+      "bolero"
+    ],
+    "primaryGenre": "son cubano",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "1.4M",
+    "tier": "Popular"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "0k17h0D3J5VfsdmQ1iZtE9",
+    "name": "Pink Floyd",
+    "image": "https://i.scdn.co/image/e69f71e2be4b67b82af90fb8e9d805715e0684fa",
+    "followers": 22379179,
+    "spotifyId": "0k17h0D3J5VfsdmQ1iZtE9",
+    "spotifyPopularity": 83,
+    "genres": [
+      "progressive rock",
+      "psychedelic rock",
+      "classic rock",
+      "art rock",
+      "rock"
+    ],
+    "primaryGenre": "progressive rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "22.4M",
+    "tier": "Top"
+  }
+]

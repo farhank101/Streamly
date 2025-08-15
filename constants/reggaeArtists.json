@@ -1,0 +1,112 @@
+[
+  {
+    "id": "2QsynagSdAqZj3U9HgDzjD",
+    "name": "Bob Marley & The Wailers",
+    "image": "https://i.scdn.co/image/b5aae2067db80f694a980e596e7f49618c1206c9",
+    "followers": 13260024,
+    "spotifyId": "2QsynagSdAqZj3U9HgDzjD",
+    "spotifyPopularity": 84,
+    "genres": [
+      "reggae",
+      "roots reggae"
+    ],
+    "primaryGenre": "reggae",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "13.3M",
+    "tier": "Top"
+  },
+  {
+    "id": "5EvFsr3kj42KNv97ZEnqij",
+    "name": "Shaggy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb356dc7e9ba8792cb86a0c50c",
+    "followers": 2437807,
+    "spotifyId": "5EvFsr3kj42KNv97ZEnqij",
+    "spotifyPopularity": 77,
+    "genres": [
+      "reggae"
+    ],
+    "primaryGenre": "reggae",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "2.4M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5SXEylV07TC57eanSxxg4R",
+    "name": "Stick Figure",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba0f1123095d7e00b8d9fc8ed",
+    "followers": 851447,
+    "spotifyId": "5SXEylV07TC57eanSxxg4R",
+    "spotifyPopularity": 73,
+    "genres": [
+      "reggae",
+      "reggae rock",
+      "roots reggae"
+    ],
+    "primaryGenre": "reggae",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "851.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "69MEO1AADKg1IZrq2XLzo5",
+    "name": "UB40",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb057ec513c696b66901270810",
+    "followers": 2593244,
+    "spotifyId": "69MEO1AADKg1IZrq2XLzo5",
+    "spotifyPopularity": 73,
+    "genres": [
+      "reggae"
+    ],
+    "primaryGenre": "reggae",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "2.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3QJzdZJYIAcoET1GcfpNGi",
+    "name": "Damian Marley",
+    "image": "https://i.scdn.co/image/f05f2667aac2bbccd9bf8fcc658b647533257f16",
+    "followers": 1828042,
+    "spotifyId": "3QJzdZJYIAcoET1GcfpNGi",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggae",
+      "ragga",
+      "roots reggae",
+      "dancehall"
+    ],
+    "primaryGenre": "reggae",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "1.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4PhdYoQGH8s1xee81dqQOO",
+    "name": "Natiruts",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb764999c0589ff0cb6eedc4f1",
+    "followers": 3548950,
+    "spotifyId": "4PhdYoQGH8s1xee81dqQOO",
+    "spotifyPopularity": 71,
+    "genres": [
+      "reggae",
+      "mpb",
+      "roots reggae"
+    ],
+    "primaryGenre": "reggae",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "3.5M",
+    "tier": "Popular"
+  }
+]

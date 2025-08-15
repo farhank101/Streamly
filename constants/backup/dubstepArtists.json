@@ -1,0 +1,22 @@
+[
+  {
+    "id": "5he5w2lnU9x7JFhnwcekXX",
+    "name": "Skrillex",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe32002317387b6d659308a94",
+    "followers": 7607670,
+    "spotifyId": "5he5w2lnU9x7JFhnwcekXX",
+    "spotifyPopularity": 78,
+    "genres": [
+      "dubstep",
+      "edm",
+      "electro",
+      "electronic"
+    ],
+    "primaryGenre": "dubstep",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "",
+    "likes": "7.6M",
+    "tier": "Popular"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "3Isy6kedDrgPYoTS1dazA9",
+    "name": "Sean Paul",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb60c3e9abe7327c0097738f22",
+    "followers": 5206145,
+    "spotifyId": "3Isy6kedDrgPYoTS1dazA9",
+    "spotifyPopularity": 86,
+    "genres": [
+      "dancehall"
+    ],
+    "primaryGenre": "dancehall",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "5.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1OFOShsIbhy1l5x73yuVyB",
+    "name": "Shenseea",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7e1485fb5dde259c4f4f7432",
+    "followers": 1069669,
+    "spotifyId": "1OFOShsIbhy1l5x73yuVyB",
+    "spotifyPopularity": 77,
+    "genres": [
+      "dancehall",
+      "soca",
+      "afrobeats"
+    ],
+    "primaryGenre": "dancehall",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "1.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5FkUhnHQ0KC63549LHHtst",
+    "name": "Skillibeng",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba368a83390fd80e013bb726e",
+    "followers": 520849,
+    "spotifyId": "5FkUhnHQ0KC63549LHHtst",
+    "spotifyPopularity": 76,
+    "genres": [
+      "dancehall"
+    ],
+    "primaryGenre": "dancehall",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "520.8K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2ExGrw6XpbtUAJHTLtUXUD",
+    "name": "Stefflon Don",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb3c6751ef7b8d174d5f79b4c",
+    "followers": 1202316,
+    "spotifyId": "2ExGrw6XpbtUAJHTLtUXUD",
+    "spotifyPopularity": 68,
+    "genres": [
+      "dancehall"
+    ],
+    "primaryGenre": "dancehall",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "1.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6vZKj9U4vIetFGznCpxVN5",
+    "name": "Karl Wine",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb90f0eabf56c7699b26b23f2c",
+    "followers": 14996,
+    "spotifyId": "6vZKj9U4vIetFGznCpxVN5",
+    "spotifyPopularity": 57,
+    "genres": [
+      "moombahton",
+      "dancehall"
+    ],
+    "primaryGenre": "moombahton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "15.0K",
+    "tier": "Emerging"
+  }
+]

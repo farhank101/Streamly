@@ -1,0 +1,250 @@
+[
+  {
+    "id": "7EK1bQADBoqbYXnT4Cqv9w",
+    "name": "John Denver",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb748322a35cb459c837d5ac9e",
+    "followers": 2509363,
+    "spotifyId": "7EK1bQADBoqbYXnT4Cqv9w",
+    "spotifyPopularity": 72,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Folk",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "0cQKFS3DaffGmQGPZ0Miln",
+    "name": "Clement",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb134bd7f7f47668fd67d9313",
+    "followers": 98320,
+    "spotifyId": "0cQKFS3DaffGmQGPZ0Miln",
+    "spotifyPopularity": 46,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "98K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3gd8FJtBJtkRxdfbTu19U2",
+    "name": "Mumford & Sons",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb22f0413399a2275174f909b4",
+    "followers": 6588431,
+    "spotifyId": "3gd8FJtBJtkRxdfbTu19U2",
+    "spotifyPopularity": 77,
+    "genres": [
+      "folk",
+      "indie folk",
+      "folk rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "6.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "7yAymwuYh9RcpX84GSNIq2",
+    "name": "Josiah Queen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb643bfda11e7a4f7796454bea",
+    "followers": 557411,
+    "spotifyId": "7yAymwuYh9RcpX84GSNIq2",
+    "spotifyPopularity": 75,
+    "genres": [
+      "christian folk",
+      "christian",
+      "worship",
+      "christian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "557K",
+    "tier": "Established"
+  },
+  {
+    "id": "0rZp7G3gIH6WkyeXbrZnGi",
+    "name": "Novo Amor",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb18a1928eb2892201f56d39e0",
+    "followers": 1352432,
+    "spotifyId": "0rZp7G3gIH6WkyeXbrZnGi",
+    "spotifyPopularity": 73,
+    "genres": [
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "5Ie2bwKzsBGbzCEuqpkEgT",
+    "name": "Katike Ramu",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734ac140684a1ed4c64d6792a5",
+    "followers": 260295,
+    "spotifyId": "5Ie2bwKzsBGbzCEuqpkEgT",
+    "spotifyPopularity": 50,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "k-pop",
+    "primaryGenre": "Folk",
+    "likes": "260K",
+    "tier": "Rising"
+  },
+  {
+    "id": "26DytDdxKgr9N0tdrBSLs2",
+    "name": "Wilder Woods",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdf61a3ec5978b16905746d31",
+    "followers": 90172,
+    "spotifyId": "26DytDdxKgr9N0tdrBSLs2",
+    "spotifyPopularity": 49,
+    "genres": [
+      "christian folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "Folk",
+    "likes": "90K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3z6Gk257P9jNcZbBXJNX5i",
+    "name": "Regina Spektor",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba36a9f95d59ab791d5e897e9",
+    "followers": 1440297,
+    "spotifyId": "3z6Gk257P9jNcZbBXJNX5i",
+    "spotifyPopularity": 63,
+    "genres": [
+      "anti-folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Folk",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "7Ky9MAWbIE0z5VtPSNiMvd",
+    "name": "Guitarreros",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb16903f39573f53e8c98c1385",
+    "followers": 33377,
+    "spotifyId": "7Ky9MAWbIE0z5VtPSNiMvd",
+    "spotifyPopularity": 36,
+    "genres": [
+      "folklore argentino",
+      "chamamé",
+      "latin folklore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "guitar",
+    "primaryGenre": "Folk",
+    "likes": "33K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0rpMdBzQXf7aYRnu5fDBJy",
+    "name": "Violent Femmes",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb3c3b161756ef6f9c9afef38",
+    "followers": 819277,
+    "spotifyId": "0rpMdBzQXf7aYRnu5fDBJy",
+    "spotifyPopularity": 60,
+    "genres": [
+      "folk punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "violin",
+    "primaryGenre": "Folk",
+    "likes": "819K",
+    "tier": "Established"
+  },
+  {
+    "id": "36quEhAYqOGJgWM9KTwczK",
+    "name": "The Saxophones",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba6eaffd85fd2375fe9470d9b",
+    "followers": 38008,
+    "spotifyId": "36quEhAYqOGJgWM9KTwczK",
+    "spotifyPopularity": 40,
+    "genres": [
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "saxophone",
+    "primaryGenre": "Folk",
+    "likes": "38K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4XNEA2zwGthyCOdS9znQGd",
+    "name": "Vocal Few",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc2c19bdffc335c526dfbd3a1",
+    "followers": 11759,
+    "spotifyId": "4XNEA2zwGthyCOdS9znQGd",
+    "spotifyPopularity": 29,
+    "genres": [
+      "christian folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Folk",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5xia1qpEJF9nVZ7Ut5n00n",
+    "name": "Go Hang Music",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb06870a5006ce077c41fd5512",
+    "followers": 26223,
+    "spotifyId": "5xia1qpEJF9nVZ7Ut5n00n",
+    "spotifyPopularity": 37,
+    "genres": [
+      "folk punk",
+      "anti-folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Folk",
+    "likes": "26K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7HoyQiwbj67vedZeOSFQSJ",
+    "name": "Perlo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2b7763a4ecbfd5c89ab049f4",
+    "followers": 11835,
+    "spotifyId": "7HoyQiwbj67vedZeOSFQSJ",
+    "spotifyPopularity": 35,
+    "genres": [
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Folk",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0sYlth2PW1zWJMEU2vCukz",
+    "name": "Flower Face",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb12a129bb56d187c3d17cf634",
+    "followers": 169030,
+    "spotifyId": "0sYlth2PW1zWJMEU2vCukz",
+    "spotifyPopularity": 52,
+    "genres": [
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Folk",
+    "likes": "169K",
+    "tier": "Rising"
+  }
+]

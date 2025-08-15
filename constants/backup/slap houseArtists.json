@@ -1,0 +1,22 @@
+[
+  {
+    "id": "0NGAZxHanS9e0iNHpR8f2W",
+    "name": "Alok",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6b07a040a57d013a7e49f908",
+    "followers": 11259206,
+    "spotifyId": "0NGAZxHanS9e0iNHpR8f2W",
+    "spotifyPopularity": 80,
+    "genres": [
+      "brazilian bass",
+      "electronic",
+      "slap house",
+      "electro house"
+    ],
+    "primaryGenre": "slap house",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "",
+    "likes": "11.3M",
+    "tier": "Top"
+  }
+]

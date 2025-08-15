@@ -1,0 +1,19 @@
+[
+  {
+    "id": "6J7biCazzYhU3gM9j1wfid",
+    "name": "Jamiroquai",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7e6dca959714339b69e9718d",
+    "followers": 2690141,
+    "spotifyId": "6J7biCazzYhU3gM9j1wfid",
+    "spotifyPopularity": 72,
+    "genres": [
+      "acid jazz"
+    ],
+    "primaryGenre": "acid jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.7M",
+    "tier": "Popular"
+  }
+]

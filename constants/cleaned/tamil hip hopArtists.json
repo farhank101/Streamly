@@ -1,0 +1,46 @@
+[
+  {
+    "id": "7rVV9d6vc4FLT752uRuk71",
+    "name": "Arivu",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebadbe63a828e9f7add3094c19",
+    "followers": 879911,
+    "spotifyId": "7rVV9d6vc4FLT752uRuk71",
+    "spotifyPopularity": 72,
+    "genres": [
+      "tamil hip hop",
+      "tamil pop",
+      "tamil indie",
+      "tamil dance",
+      "kollywood",
+      "malayalam hip hop"
+    ],
+    "primaryGenre": "tamil hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "879.9K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4b1WCDqAVVgxK7KozLkOqc",
+    "name": "Asal Kolaar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb255888bcb4a6feab6e2bb97",
+    "followers": 687108,
+    "spotifyId": "4b1WCDqAVVgxK7KozLkOqc",
+    "spotifyPopularity": 70,
+    "genres": [
+      "tamil hip hop",
+      "tamil indie",
+      "malayalam hip hop",
+      "tamil dance",
+      "tamil pop",
+      "kollywood"
+    ],
+    "primaryGenre": "tamil hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "687.1K",
+    "tier": "Rising"
+  }
+]

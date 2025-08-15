@@ -1,0 +1,20 @@
+[
+  {
+    "id": "7y97mc3bZRFXzT2szRM4L4",
+    "name": "Frédéric Chopin",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe55372097569b7b56b439365",
+    "followers": 3529746,
+    "spotifyId": "7y97mc3bZRFXzT2szRM4L4",
+    "spotifyPopularity": 75,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "primaryGenre": "classical piano",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "3.5M",
+    "tier": "Popular"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "0Q8NcsJwoCbZOHHW63su5S",
+    "name": "Mora",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe6252cc367480d8fe43e711f",
+    "followers": 7679232,
+    "spotifyId": "0Q8NcsJwoCbZOHHW63su5S",
+    "spotifyPopularity": 86,
+    "genres": [
+      "urbano latino",
+      "trap latino",
+      "reggaeton"
+    ],
+    "primaryGenre": "urbano latino",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "7.7M",
+    "tier": "Popular"
+  }
+]

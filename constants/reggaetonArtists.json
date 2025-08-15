@@ -1,0 +1,302 @@
+[
+  {
+    "id": "4q3ewBCX7sLwd24euuV69X",
+    "name": "Bad Bunny",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb81f47f44084e0a09b5f0fa13",
+    "followers": 99107270,
+    "spotifyId": "4q3ewBCX7sLwd24euuV69X",
+    "spotifyPopularity": 100,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino",
+      "latin"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "99.1M",
+    "tier": "Top"
+  },
+  {
+    "id": "790FomKkXshlbRYZFtlgla",
+    "name": "KAROL G",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb66041ce9eb4497057cbc3496",
+    "followers": 58713192,
+    "spotifyId": "790FomKkXshlbRYZFtlgla",
+    "spotifyPopularity": 93,
+    "genres": [
+      "reggaeton",
+      "latin",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "58.7M",
+    "tier": "Top"
+  },
+  {
+    "id": "1mcTU81TzQhprhouKaTkpq",
+    "name": "Rauw Alejandro",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb0611e8811c6868ae1fde4de",
+    "followers": 29962171,
+    "spotifyId": "1mcTU81TzQhprhouKaTkpq",
+    "spotifyPopularity": 92,
+    "genres": [
+      "reggaeton",
+      "urbano latino",
+      "trap latino",
+      "latin"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "30.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "1vyhD5VmyZ7KMfW5gqLgo5",
+    "name": "J Balvin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0405b03342c2e56751b9923d",
+    "followers": 38697495,
+    "spotifyId": "1vyhD5VmyZ7KMfW5gqLgo5",
+    "spotifyPopularity": 91,
+    "genres": [
+      "reggaeton",
+      "latin"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "38.7M",
+    "tier": "Top"
+  },
+  {
+    "id": "7iK8PXO48WeuP03g8YR51W",
+    "name": "Myke Towers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8372345609bebaf1e948ef7f",
+    "followers": 21014665,
+    "spotifyId": "7iK8PXO48WeuP03g8YR51W",
+    "spotifyPopularity": 90,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "21.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "2LRoIwlKmHjgvigdNGBHNo",
+    "name": "Feid",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb961f8d198c115a5442c03e0b",
+    "followers": 18229343,
+    "spotifyId": "2LRoIwlKmHjgvigdNGBHNo",
+    "spotifyPopularity": 90,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "18.2M",
+    "tier": "Top"
+  },
+  {
+    "id": "2R21vXR83lH98kGeO99Y66",
+    "name": "Anuel AA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba23ceb177745632b517cb7b2",
+    "followers": 43492745,
+    "spotifyId": "2R21vXR83lH98kGeO99Y66",
+    "spotifyPopularity": 90,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino",
+      "latin"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "43.5M",
+    "tier": "Top"
+  },
+  {
+    "id": "4VMYDCV2IEDYJArk749S6m",
+    "name": "Daddy Yankee",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb99a6ccc4aae5ae5404c9eb30",
+    "followers": 37427150,
+    "spotifyId": "4VMYDCV2IEDYJArk749S6m",
+    "spotifyPopularity": 89,
+    "genres": [
+      "reggaeton",
+      "latin"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "37.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "1i8SpTcr7yvPOmcqrbnVXY",
+    "name": "Ozuna",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb463e10d5f1a533ddd6eb9a04",
+    "followers": 38932771,
+    "spotifyId": "1i8SpTcr7yvPOmcqrbnVXY",
+    "spotifyPopularity": 89,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "latin",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "38.9M",
+    "tier": "Top"
+  },
+  {
+    "id": "1r4hJ1h58CWwUQe3MxPuau",
+    "name": "Maluma",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc865fa1b398bc1cd02649f51",
+    "followers": 37793938,
+    "spotifyId": "1r4hJ1h58CWwUQe3MxPuau",
+    "spotifyPopularity": 88,
+    "genres": [
+      "reggaeton",
+      "latin",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "37.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "33ScadVnbm2X8kkUqOkC6Z",
+    "name": "Don Omar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9154bd840cd45e769c4e480",
+    "followers": 15505607,
+    "spotifyId": "33ScadVnbm2X8kkUqOkC6Z",
+    "spotifyPopularity": 87,
+    "genres": [
+      "reggaeton",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "15.5M",
+    "tier": "Top"
+  },
+  {
+    "id": "3m5qlPf2OkihLz3dRYnkPA",
+    "name": "Ovy On The Drums",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbf7270a270d27e1b6c5b847e",
+    "followers": 1340824,
+    "spotifyId": "3m5qlPf2OkihLz3dRYnkPA",
+    "spotifyPopularity": 87,
+    "genres": [
+      "reggaeton"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "1.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4SsVbpTthjScTS7U2hmr1X",
+    "name": "Arcángel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb188fba614da521f737b24f9e",
+    "followers": 17436160,
+    "spotifyId": "4SsVbpTthjScTS7U2hmr1X",
+    "spotifyPopularity": 87,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "17.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "329e4yvIujISKGKz1BZZbO",
+    "name": "Farruko",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69c46f8a2fe8114da9170aca",
+    "followers": 16796300,
+    "spotifyId": "329e4yvIujISKGKz1BZZbO",
+    "spotifyPopularity": 86,
+    "genres": [
+      "reggaeton",
+      "trap latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "16.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "0tmwSHipWxN12fsoLcFU3B",
+    "name": "Manuel Turizo",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfb87d42d66722931e826d630",
+    "followers": 15372347,
+    "spotifyId": "0tmwSHipWxN12fsoLcFU3B",
+    "spotifyPopularity": 85,
+    "genres": [
+      "reggaeton",
+      "pop urbano",
+      "latin",
+      "colombian pop"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "15.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "0GM7qgcRCORpGnfcN2tCiB",
+    "name": "Tainy",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb50d43598b9074f0d6146127",
+    "followers": 3042868,
+    "spotifyId": "0GM7qgcRCORpGnfcN2tCiB",
+    "spotifyPopularity": 80,
+    "genres": [
+      "reggaeton"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "3.0M",
+    "tier": "Popular"
+  }
+]

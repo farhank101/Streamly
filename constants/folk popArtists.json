@@ -1,0 +1,54 @@
+[
+  {
+    "id": "16oZKvXb6WkQlVAjwo2Wbg",
+    "name": "The Lumineers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0f882273183345499155d6ed",
+    "followers": 5835596,
+    "spotifyId": "16oZKvXb6WkQlVAjwo2Wbg",
+    "spotifyPopularity": 80,
+    "genres": [
+      "folk pop",
+      "indie folk"
+    ],
+    "primaryGenre": "folk pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "5.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "10exVja0key0uqUkk6LJRT",
+    "name": "Vance Joy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f074ec8c25406680bf26422",
+    "followers": 3435624,
+    "spotifyId": "10exVja0key0uqUkk6LJRT",
+    "spotifyPopularity": 78,
+    "genres": [
+      "folk pop"
+    ],
+    "primaryGenre": "folk pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "3.4M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0gadJ2b9A4SKsB1RFkBb66",
+    "name": "Passenger",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebedb0b7080024080e6efb9965",
+    "followers": 3719726,
+    "spotifyId": "0gadJ2b9A4SKsB1RFkBb66",
+    "spotifyPopularity": 72,
+    "genres": [
+      "folk pop"
+    ],
+    "primaryGenre": "folk pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "3.7M",
+    "tier": "Popular"
+  }
+]

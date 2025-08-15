@@ -1,0 +1,20 @@
+[
+  {
+    "id": "5INjqkS1o8h1imAzPqGZBb",
+    "name": "Tame Impala",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+    "followers": 9107594,
+    "spotifyId": "5INjqkS1o8h1imAzPqGZBb",
+    "spotifyPopularity": 84,
+    "genres": [
+      "neo-psychedelic",
+      "indie"
+    ],
+    "primaryGenre": "neo-psychedelic",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "9.1M",
+    "tier": "Popular"
+  }
+]

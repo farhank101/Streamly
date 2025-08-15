@@ -1,0 +1,55 @@
+[
+  {
+    "id": "6eUKZXaKkcviH0Ku9w2n3V",
+    "name": "Ed Sheeran",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8eb08ed1a791d6e9fb041d61",
+    "followers": 121632336,
+    "spotifyId": "6eUKZXaKkcviH0Ku9w2n3V",
+    "spotifyPopularity": 93,
+    "genres": [
+      "soft pop"
+    ],
+    "primaryGenre": "soft pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "121.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "5y2Xq6xcjJb2jVM54GHK3t",
+    "name": "John Legend",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb01784e44ffd1a339350f4417",
+    "followers": 7891652,
+    "spotifyId": "5y2Xq6xcjJb2jVM54GHK3t",
+    "spotifyPopularity": 78,
+    "genres": [
+      "soft pop",
+      "neo soul"
+    ],
+    "primaryGenre": "soft pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4phGZZrJZRo4ElhRtViYdl",
+    "name": "Jason Mraz",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc3b370fc26c83312db52af14",
+    "followers": 7308824,
+    "spotifyId": "4phGZZrJZRo4ElhRtViYdl",
+    "spotifyPopularity": 75,
+    "genres": [
+      "soft pop",
+      "acoustic pop"
+    ],
+    "primaryGenre": "soft pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "7.3M",
+    "tier": "Popular"
+  }
+]

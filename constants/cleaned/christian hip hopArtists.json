@@ -1,0 +1,22 @@
+[
+  {
+    "id": "3GdRdoJomMK2f8xGjEZbHH",
+    "name": "Rare of Breed",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbf4fbdb800bb53fd1598621f",
+    "followers": 124345,
+    "spotifyId": "3GdRdoJomMK2f8xGjEZbHH",
+    "spotifyPopularity": 52,
+    "genres": [
+      "christian hip hop",
+      "country hip hop",
+      "christian country",
+      "christian"
+    ],
+    "primaryGenre": "christian hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "124.3K",
+    "tier": "Rising"
+  }
+]

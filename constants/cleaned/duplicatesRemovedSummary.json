@@ -1,0 +1,131 @@
+{
+  "totalUniqueArtists": 806,
+  "totalDuplicatesRemoved": 1653,
+  "genreBreakdown": {
+    "acid jazz": 1,
+    "allArtistsDeduplicated.json": 805
+  },
+  "duplicates": [
+    {
+      "name": "Jamiroquai",
+      "id": "6J7biCazzYhU3gM9j1wfid",
+      "removedFrom": "allArtistsDeduplicated.json",
+      "keptIn": "acid jazz"
+    },
+    {
+      "name": "Taylor Swift",
+      "id": "06HL4z0CvFAxyc27GXpf02",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "The Weeknd",
+      "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Justin Bieber",
+      "id": "1uNFoZAHBGtllmzznpCI3s",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Billie Eilish",
+      "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Bruno Mars",
+      "id": "0du5cEVh5yTK9QJze8zA0C",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Rihanna",
+      "id": "5pKCCKE2ajJHZ9KAiaK11H",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Coldplay",
+      "id": "4gzpq5DPGxSnKTe4SA8HAU",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Lana Del Rey",
+      "id": "00FQb4jTyendYWaN8pK0wa",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Post Malone",
+      "id": "246dkjvS1zLTtiykXe5h60",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Imagine Dragons",
+      "id": "53XhwfbYqKCa1cC15pYq2q",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Beyoncé",
+      "id": "6vWDO969PvNqNYHIOW5v0m",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Michael Jackson",
+      "id": "3fMbdgg4jU18AjLCKBhRSm",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "One Direction",
+      "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Harry Styles",
+      "id": "6KImCVD70vtIoJWnq6nGn3",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Madonna",
+      "id": "6tbjWDEIzxoDsBA1FuhfPW",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Backstreet Boys",
+      "id": "5rSXSAkZ67PYJSvpUpkOr7",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Jack Harlow",
+      "id": "2LIk90788K0zvyj2JJVwkJ",
+      "removedFrom": "allGenre",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Evanescence",
+      "id": "5nGIFgo0shDenQYSE0Sn7c",
+      "removedFrom": "alternative metal",
+      "keptIn": "allArtistsDeduplicated.json"
+    },
+    {
+      "name": "Ravyn Lenae",
+      "id": "5RTLRtXjbXI2lSXc6jxlAz",
+      "removedFrom": "alternative r&b",
+      "keptIn": "allArtistsDeduplicated.json"
+    }
+  ],
+  "timestamp": "2025-08-15T20:34:02.933Z"
+}

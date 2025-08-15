@@ -127,7 +127,7 @@ export default function RootLayout() {
     <ErrorBoundary>
       <AuthProvider>
         <PlayerProvider>
-          <StatusBar style="light" />
+          <StatusBar style="light" hidden={true} />
           <AppLayout />
         </PlayerProvider>
       </AuthProvider>

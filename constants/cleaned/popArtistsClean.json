@@ -1,0 +1,1830 @@
+[
+  {
+    "id": "4YRxDV8wJFPHPTeXepOstw",
+    "name": "Arijit Singh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7",
+    "followers": 155504190,
+    "spotifyId": "4YRxDV8wJFPHPTeXepOstw",
+    "spotifyPopularity": 93,
+    "genres": [
+      "hindi pop",
+      "bollywood",
+      "desi",
+      "bangla pop"
+    ],
+    "primaryGenre": "hindi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "155.5M",
+    "tier": "Top"
+  },
+  {
+    "id": "6eUKZXaKkcviH0Ku9w2n3V",
+    "name": "Ed Sheeran",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8eb08ed1a791d6e9fb041d61",
+    "followers": 121632336,
+    "spotifyId": "6eUKZXaKkcviH0Ku9w2n3V",
+    "spotifyPopularity": 93,
+    "genres": [
+      "soft pop"
+    ],
+    "primaryGenre": "soft pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "121.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+    "name": "Ariana Grande",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6725802588d7dc1aba076ca5",
+    "followers": 106289375,
+    "spotifyId": "66CXWjxzNUsdJxJ2JdwvnR",
+    "spotifyPopularity": 93,
+    "genres": [
+      "pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "106.3M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "7a0XAaPaK2aDSqa8p3QnC7",
+    "name": "Beéle",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8e10d05db45e77a86256fc5d",
+    "followers": 2466120,
+    "spotifyId": "7a0XAaPaK2aDSqa8p3QnC7",
+    "spotifyPopularity": 92,
+    "genres": [
+      "latin afrobeats",
+      "reggaeton",
+      "pop urbano"
+    ],
+    "primaryGenre": "latin afrobeats",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "2.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1HY2Jd0NmPuamShAr6KMms",
+    "name": "Lady Gaga",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaadc18cac8d48124357c38e6",
+    "followers": 40385766,
+    "spotifyId": "1HY2Jd0NmPuamShAr6KMms",
+    "spotifyPopularity": 92,
+    "genres": [
+      "art pop",
+      "pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "40.4M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "1wRPtKGflJrBx9BmLsSwlU",
+    "name": "Pritam",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca",
+    "followers": 55645139,
+    "spotifyId": "1wRPtKGflJrBx9BmLsSwlU",
+    "spotifyPopularity": 91,
+    "genres": [
+      "bollywood",
+      "hindi pop",
+      "desi"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "55.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "3Nrfpe0tUJi4K4DXYWgMUX",
+    "name": "BTS",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd642648235ebf3460d2d1f6a",
+    "followers": 80267186,
+    "spotifyId": "3Nrfpe0tUJi4K4DXYWgMUX",
+    "spotifyPopularity": 90,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "80.3M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "0EmeFodog0BfCgMzAIvKQp",
+    "name": "Shakira",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2528c726e5ddb90a7197e527",
+    "followers": 38937671,
+    "spotifyId": "0EmeFodog0BfCgMzAIvKQp",
+    "spotifyPopularity": 89,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "38.9M",
+    "tier": "Top"
+  },
+  {
+    "id": "6M2wZ9GZgrQXHCFfjv46we",
+    "name": "Dua Lipa",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
+    "followers": 46448686,
+    "spotifyId": "6M2wZ9GZgrQXHCFfjv46we",
+    "spotifyPopularity": 89,
+    "genres": [
+      "pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "popularity_search",
+    "genre": "",
+    "likes": "46.4M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "04gDigrS5kc9YWfZHwBETP",
+    "name": "Maroon 5",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8349dfb619a7f842242de77",
+    "followers": 45314686,
+    "spotifyId": "04gDigrS5kc9YWfZHwBETP",
+    "spotifyPopularity": 89,
+    "genres": [
+      "pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "45.3M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "0oOet2f43PA68X5RxKobEy",
+    "name": "Shreya Ghoshal",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb59303d54ce789210e745e1a9",
+    "followers": 31566490,
+    "spotifyId": "0oOet2f43PA68X5RxKobEy",
+    "spotifyPopularity": 88,
+    "genres": [
+      "bollywood",
+      "hindi pop",
+      "desi",
+      "kannada pop",
+      "marathi pop"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "31.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "4zCH9qm4R2DADamUHMCa6O",
+    "name": "Anirudh Ravichander",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0f0be2054fe9594026a6b843",
+    "followers": 41408261,
+    "spotifyId": "4zCH9qm4R2DADamUHMCa6O",
+    "spotifyPopularity": 87,
+    "genres": [
+      "tamil pop",
+      "kollywood",
+      "tamil dance",
+      "tamil hip hop",
+      "tollywood",
+      "telugu pop"
+    ],
+    "primaryGenre": "tamil pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "41.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "1QAJqy2dA3ihHBFIHRphZj",
+    "name": "Cigarettes After Sex",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e871e0389b9722cc12a4118",
+    "followers": 16660261,
+    "spotifyId": "1QAJqy2dA3ihHBFIHRphZj",
+    "spotifyPopularity": 87,
+    "genres": [
+      "dream pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "16.7M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "41MozSoPIsD1dJM0CLPjZF",
+    "name": "BLACKPINK",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9b57f5eccf180a0049be84b3",
+    "followers": 54993648,
+    "spotifyId": "41MozSoPIsD1dJM0CLPjZF",
+    "spotifyPopularity": 87,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "55.0M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "7n2Ycct7Beij7Dj7meI4X0",
+    "name": "TWICE",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfcef64d7657da13955bbdb7f",
+    "followers": 22543574,
+    "spotifyId": "7n2Ycct7Beij7Dj7meI4X0",
+    "spotifyPopularity": 87,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "22.5M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "2dIgFjalVxs4ThymZ67YCE",
+    "name": "Stray Kids",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1dbfb8f95157d71faa489c2c",
+    "followers": 20014275,
+    "spotifyId": "2dIgFjalVxs4ThymZ67YCE",
+    "spotifyPopularity": 87,
+    "genres": [
+      "k-pop",
+      "noise music"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "20.0M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "0tmwSHipWxN12fsoLcFU3B",
+    "name": "Manuel Turizo",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfb87d42d66722931e826d630",
+    "followers": 15372347,
+    "spotifyId": "0tmwSHipWxN12fsoLcFU3B",
+    "spotifyPopularity": 85,
+    "genres": [
+      "reggaeton",
+      "pop urbano",
+      "latin",
+      "colombian pop"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "15.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "2nszmSgqreHSdJA3zWPyrW",
+    "name": "Luis Miguel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6481401e529e475116702a29",
+    "followers": 19893575,
+    "spotifyId": "2nszmSgqreHSdJA3zWPyrW",
+    "spotifyPopularity": 85,
+    "genres": [
+      "mariachi",
+      "bolero",
+      "latin pop",
+      "villancicos"
+    ],
+    "primaryGenre": "mariachi",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "19.9M",
+    "tier": "Top"
+  },
+  {
+    "id": "3gBKY0y3dFFVRqicLnVZYz",
+    "name": "Alka Yagnik",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb935b2dd507212bd72a71d7f9",
+    "followers": 19529573,
+    "spotifyId": "3gBKY0y3dFFVRqicLnVZYz",
+    "spotifyPopularity": 84,
+    "genres": [
+      "bollywood",
+      "hindi pop",
+      "desi"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "19.5M",
+    "tier": "Top"
+  },
+  {
+    "id": "1mYsTxnqsietFxj1OgoGbG",
+    "name": "A.R. Rahman",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c",
+    "followers": 67433830,
+    "spotifyId": "1mYsTxnqsietFxj1OgoGbG",
+    "spotifyPopularity": 84,
+    "genres": [
+      "tamil pop",
+      "kollywood",
+      "sufi",
+      "bollywood",
+      "hindi pop",
+      "desi"
+    ],
+    "primaryGenre": "tamil pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "67.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "3GdSQUH1BRtl9UrrtuwJlP",
+    "name": "Irshad Kamil",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb47b943824370b9eb2fb9607f",
+    "followers": 146959,
+    "spotifyId": "3GdSQUH1BRtl9UrrtuwJlP",
+    "spotifyPopularity": 84,
+    "genres": [
+      "bollywood",
+      "hindi pop",
+      "desi",
+      "sufi"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "147.0K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1mBydYMVBECdDmMfE2sEUO",
+    "name": "Sachin-Jigar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbb4064bef3a825344d5eb79e",
+    "followers": 6830870,
+    "spotifyId": "1mBydYMVBECdDmMfE2sEUO",
+    "spotifyPopularity": 84,
+    "genres": [
+      "gujarati pop",
+      "bollywood",
+      "hindi pop",
+      "desi",
+      "gujarati garba"
+    ],
+    "primaryGenre": "gujarati pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "6.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5C4PDR4LnhZTbVnKWXuDKD",
+    "name": "Morat",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5edd5edd2ec02722f873e0ef",
+    "followers": 13620573,
+    "spotifyId": "5C4PDR4LnhZTbVnKWXuDKD",
+    "spotifyPopularity": 84,
+    "genres": [
+      "colombian pop",
+      "latin pop"
+    ],
+    "primaryGenre": "colombian pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "13.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "7oPftvlwr6VrsViSDV7fJY",
+    "name": "Green Day",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6ff0cd5ef2ecf733804984bb",
+    "followers": 16987383,
+    "spotifyId": "7oPftvlwr6VrsViSDV7fJY",
+    "spotifyPopularity": 84,
+    "genres": [
+      "punk",
+      "pop punk"
+    ],
+    "primaryGenre": "punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "17.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "2fMqTqiTxUDlmcOEPaQSsx",
+    "name": "Amitabh Bhattacharya",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb06f04f40ecb8ca92cb714908",
+    "followers": 3766210,
+    "spotifyId": "2fMqTqiTxUDlmcOEPaQSsx",
+    "spotifyPopularity": 83,
+    "genres": [
+      "bollywood",
+      "hindi pop",
+      "desi"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "3.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2ae6PxICSOZHvjqiCcgon8",
+    "name": "S. P. Balasubrahmanyam",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebea2b56271cf92bcff45c0ae9",
+    "followers": 20538357,
+    "spotifyId": "2ae6PxICSOZHvjqiCcgon8",
+    "spotifyPopularity": 83,
+    "genres": [
+      "telugu pop",
+      "kannada pop",
+      "tamil pop",
+      "devotional",
+      "tollywood",
+      "sandalwood",
+      "kollywood"
+    ],
+    "primaryGenre": "telugu pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "20.5M",
+    "tier": "Top"
+  },
+  {
+    "id": "4f7KfxeHq9BiylGmyXepGt",
+    "name": "Tanishk Bagchi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb96f049daefd1875282baab0a",
+    "followers": 5399213,
+    "spotifyId": "4f7KfxeHq9BiylGmyXepGt",
+    "spotifyPopularity": 83,
+    "genres": [
+      "bollywood",
+      "hindi pop",
+      "desi",
+      "desi pop",
+      "gujarati garba"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "5.4M",
+    "tier": "Popular"
+  },
+  {
+    "id": "36iDrP3UnCxsSH9LuSdkDj",
+    "name": "Masoom Sharma",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2cf6d06726cbbf929c6d37d8",
+    "followers": 4471991,
+    "spotifyId": "36iDrP3UnCxsSH9LuSdkDj",
+    "spotifyPopularity": 83,
+    "genres": [
+      "haryanvi pop"
+    ],
+    "primaryGenre": "haryanvi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "4.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7FBcuc1gsnv6Y1nwFtNRCb",
+    "name": "My Chemical Romance",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9c00ad0308287b38b8fdabc2",
+    "followers": 10043682,
+    "spotifyId": "7FBcuc1gsnv6Y1nwFtNRCb",
+    "spotifyPopularity": 83,
+    "genres": [
+      "emo",
+      "pop punk"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "10.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "74XFHRwlV6OrjEM0A2NCMF",
+    "name": "Paramore",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb10c34546a4ca2d7faeb8865",
+    "followers": 9610614,
+    "spotifyId": "74XFHRwlV6OrjEM0A2NCMF",
+    "spotifyPopularity": 83,
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "9.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2oSONSC9zQ4UonDKnLqksx",
+    "name": "Atif Aslam",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84",
+    "followers": 38104018,
+    "spotifyId": "2oSONSC9zQ4UonDKnLqksx",
+    "spotifyPopularity": 82,
+    "genres": [
+      "bollywood",
+      "hindi pop",
+      "desi",
+      "sufi",
+      "qawwali"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "38.1M",
+    "tier": "Top"
+  },
+  {
+    "id": "6Mv8GjQa7LKUGCAqa9qqdb",
+    "name": "Vishal-Shekhar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb90b6c3d093f9b02aad628eaf",
+    "followers": 14558947,
+    "spotifyId": "6Mv8GjQa7LKUGCAqa9qqdb",
+    "spotifyPopularity": 82,
+    "genres": [
+      "bollywood",
+      "desi",
+      "hindi pop"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "14.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "6DARBhWbfcS9E4yJzcliqQ",
+    "name": "Karan Aujla",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2a354a64d9c5c602db0be2a4",
+    "followers": 20365903,
+    "spotifyId": "6DARBhWbfcS9E4yJzcliqQ",
+    "spotifyPopularity": 82,
+    "genres": [
+      "punjabi pop",
+      "punjabi hip hop",
+      "bhangra",
+      "desi hip hop",
+      "desi"
+    ],
+    "primaryGenre": "punjabi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "20.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "7qG3b048QCHVRO5Pv1T5lw",
+    "name": "Enrique Iglesias",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4fa1405802a42c665b0f2dd1",
+    "followers": 11800027,
+    "spotifyId": "7qG3b048QCHVRO5Pv1T5lw",
+    "spotifyPopularity": 82,
+    "genres": [
+      "latin pop",
+      "latin"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "11.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "5sUrlPAHlS9NEirDB8SEbF",
+    "name": "Alejandro Sanz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba6b5085fa84ce968ca556162",
+    "followers": 8209045,
+    "spotifyId": "5sUrlPAHlS9NEirDB8SEbF",
+    "spotifyPopularity": 82,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "8.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "07YUOmWljBTXwIseAUd9TW",
+    "name": "Sebastian Yatra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbf209ec097ccb579f38edc65",
+    "followers": 24145696,
+    "spotifyId": "07YUOmWljBTXwIseAUd9TW",
+    "spotifyPopularity": 82,
+    "genres": [
+      "colombian pop",
+      "reggaeton"
+    ],
+    "primaryGenre": "colombian pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "24.1M",
+    "tier": "Top"
+  },
+  {
+    "id": "7nqOGRxlXj7N2JYbgNEjYH",
+    "name": "SEVENTEEN",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8da3a229445fd3cd896cdd5c",
+    "followers": 13489366,
+    "spotifyId": "7nqOGRxlXj7N2JYbgNEjYH",
+    "spotifyPopularity": 82,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "13.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "4fEkbug6kZzzJ8eYX6Kbbp",
+    "name": "KK",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb09a31f853166e721d4d46b2",
+    "followers": 21299281,
+    "spotifyId": "4fEkbug6kZzzJ8eYX6Kbbp",
+    "spotifyPopularity": 81,
+    "genres": [
+      "bollywood",
+      "hindi pop",
+      "desi"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "21.3M",
+    "tier": "Top"
+  },
+  {
+    "id": "4UXqAaa6dQYAk18Lv7PEgX",
+    "name": "Fall Out Boy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb362011ebe6064c38e97e9aac",
+    "followers": 11346134,
+    "spotifyId": "4UXqAaa6dQYAk18Lv7PEgX",
+    "spotifyPopularity": 81,
+    "genres": [
+      "emo",
+      "pop punk"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "11.3M",
+    "tier": "Top"
+  },
+  {
+    "id": "2IUtwMti1OiT3lkW6RubgH",
+    "name": "K. S. Chithra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb27852ef557c522e357664824",
+    "followers": 9810014,
+    "spotifyId": "2IUtwMti1OiT3lkW6RubgH",
+    "spotifyPopularity": 80,
+    "genres": [
+      "malayalam pop",
+      "telugu pop",
+      "kannada pop",
+      "mollywood",
+      "tamil pop",
+      "tollywood",
+      "devotional",
+      "sandalwood"
+    ],
+    "primaryGenre": "malayalam pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "9.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1dVygo6tRFXC8CSWURQJq2",
+    "name": "Sonu Nigam",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbc959d7569618ec2af2210f5",
+    "followers": 21995322,
+    "spotifyId": "1dVygo6tRFXC8CSWURQJq2",
+    "spotifyPopularity": 80,
+    "genres": [
+      "kannada pop",
+      "bollywood",
+      "sandalwood",
+      "hindi pop",
+      "desi",
+      "marathi pop"
+    ],
+    "primaryGenre": "kannada pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "22.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "09UmIX92EUH9hAK4bxvHx6",
+    "name": "Mithoon",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9bd641ceb72d35b63fbb314a",
+    "followers": 10779869,
+    "spotifyId": "09UmIX92EUH9hAK4bxvHx6",
+    "spotifyPopularity": 80,
+    "genres": [
+      "bollywood",
+      "hindi pop",
+      "desi"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "10.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "5LeiVcEnsZcwc133TUhJNW",
+    "name": "Belinda",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf7d2089c22a0c253fffa1574",
+    "followers": 2518592,
+    "spotifyId": "5LeiVcEnsZcwc133TUhJNW",
+    "spotifyPopularity": 80,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "2.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7vXDAI8JwjW531ouMGbfcp",
+    "name": "TINI",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43f8f52ac55da2d54fc8fdca",
+    "followers": 9083297,
+    "spotifyId": "7vXDAI8JwjW531ouMGbfcp",
+    "spotifyPopularity": 80,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "9.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "16oZKvXb6WkQlVAjwo2Wbg",
+    "name": "The Lumineers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0f882273183345499155d6ed",
+    "followers": 5835596,
+    "spotifyId": "16oZKvXb6WkQlVAjwo2Wbg",
+    "spotifyPopularity": 80,
+    "genres": [
+      "folk pop",
+      "indie folk"
+    ],
+    "primaryGenre": "folk pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "5.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "00x1fYSGhdqScXBRpSj3DW",
+    "name": "Olivia Dean",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e938c6cd78d705571ba9e7e",
+    "followers": 809221,
+    "spotifyId": "00x1fYSGhdqScXBRpSj3DW",
+    "spotifyPopularity": 80,
+    "genres": [
+      "pop soul"
+    ],
+    "primaryGenre": "pop soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "809.2K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5wJ1H6ud777odtZl5gG507",
+    "name": "Vishal Mishra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfb13d10be20fdcb5a670f551",
+    "followers": 9015489,
+    "spotifyId": "5wJ1H6ud777odtZl5gG507",
+    "spotifyPopularity": 79,
+    "genres": [
+      "bollywood",
+      "hindi pop"
+    ],
+    "primaryGenre": "bollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "9.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7qjJw7ZM2ekDSahLXPjIlN",
+    "name": "Sid Sriram",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebef6a8800763bf428e85940a6",
+    "followers": 19269338,
+    "spotifyId": "7qjJw7ZM2ekDSahLXPjIlN",
+    "spotifyPopularity": 79,
+    "genres": [
+      "tollywood",
+      "telugu pop",
+      "tamil pop",
+      "kollywood"
+    ],
+    "primaryGenre": "tollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "19.3M",
+    "tier": "Top"
+  },
+  {
+    "id": "1SJOL9HJ08YOn92lFcYf8a",
+    "name": "Shankar Mahadevan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3f27a828c24d73cf0427e2e7",
+    "followers": 12628145,
+    "spotifyId": "1SJOL9HJ08YOn92lFcYf8a",
+    "spotifyPopularity": 79,
+    "genres": [
+      "marathi pop",
+      "bollywood",
+      "devotional",
+      "bhajan",
+      "desi",
+      "tamil dance",
+      "hindi pop",
+      "tamil pop"
+    ],
+    "primaryGenre": "marathi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "12.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "1tqysapcCh1lWEAc9dIFpa",
+    "name": "Jubin Nautiyal",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb716a9e718655bd0374073ef7",
+    "followers": 20952817,
+    "spotifyId": "1tqysapcCh1lWEAc9dIFpa",
+    "spotifyPopularity": 79,
+    "genres": [
+      "bhajan",
+      "hindi pop",
+      "bollywood",
+      "devotional",
+      "desi"
+    ],
+    "primaryGenre": "bhajan",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "21.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "5r3wPya2PpeTTsXsGhQU8O",
+    "name": "Shubh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4490e20daec093c04ede38c6",
+    "followers": 8940825,
+    "spotifyId": "5r3wPya2PpeTTsXsGhQU8O",
+    "spotifyPopularity": 79,
+    "genres": [
+      "punjabi hip hop",
+      "punjabi pop",
+      "desi hip hop",
+      "desi",
+      "hindi hip hop"
+    ],
+    "primaryGenre": "punjabi hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "8.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5VVN3xZw1i2qihfITZlvCZ",
+    "name": "G. V. Prakash",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0a5c692089af5c0f9cf839f3",
+    "followers": 15810207,
+    "spotifyId": "5VVN3xZw1i2qihfITZlvCZ",
+    "spotifyPopularity": 79,
+    "genres": [
+      "tamil pop",
+      "kollywood",
+      "tamil dance",
+      "tamil hip hop",
+      "tollywood"
+    ],
+    "primaryGenre": "tamil pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "15.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "4PULA4EFzYTrxYvOVlwpiQ",
+    "name": "Sidhu Moose Wala",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9973157bdaedef3f77ef8e13",
+    "followers": 43866628,
+    "spotifyId": "4PULA4EFzYTrxYvOVlwpiQ",
+    "spotifyPopularity": 79,
+    "genres": [
+      "punjabi hip hop",
+      "punjabi pop",
+      "bhangra",
+      "desi hip hop"
+    ],
+    "primaryGenre": "punjabi hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "43.9M",
+    "tier": "Top"
+  },
+  {
+    "id": "6x2LnllRG5uGarZMsD4iO8",
+    "name": "Thomas Rhett",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7538436ea7437322f6f389ca",
+    "followers": 4936340,
+    "spotifyId": "6x2LnllRG5uGarZMsD4iO8",
+    "spotifyPopularity": 79,
+    "genres": [
+      "country",
+      "acoustic country",
+      "pop country"
+    ],
+    "primaryGenre": "country",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "4.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6sq1yF0OZEWA4xoXVKW1L9",
+    "name": "Alejandro Fernández",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb452691cfa37fdd5b3417ed0d",
+    "followers": 8516296,
+    "spotifyId": "6sq1yF0OZEWA4xoXVKW1L9",
+    "spotifyPopularity": 79,
+    "genres": [
+      "mariachi",
+      "ranchera",
+      "latin pop",
+      "bolero"
+    ],
+    "primaryGenre": "mariachi",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "8.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0vR2qb8m9WHeZ5ByCbimq2",
+    "name": "Reik",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7b201ade1f4494891f686e33",
+    "followers": 9615522,
+    "spotifyId": "0vR2qb8m9WHeZ5ByCbimq2",
+    "spotifyPopularity": 79,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "9.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2eEmsgWmUFMbtU7agJpnjY",
+    "name": "Miranda!",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdd199f4ee438b4a8fd85ba97",
+    "followers": 2225182,
+    "spotifyId": "2eEmsgWmUFMbtU7agJpnjY",
+    "spotifyPopularity": 79,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "2.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0h1zs4CTlU9D2QtgPxptUD",
+    "name": "Ricardo Arjona",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc39af2ce1337734a4cadadaf",
+    "followers": 14322578,
+    "spotifyId": "0h1zs4CTlU9D2QtgPxptUD",
+    "spotifyPopularity": 79,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "14.3M",
+    "tier": "Top"
+  },
+  {
+    "id": "68KmkJeZGfwe1OUaivBa2L",
+    "name": "ATEEZ",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd8352340766cfc5adc8f63a8",
+    "followers": 5109636,
+    "spotifyId": "68KmkJeZGfwe1OUaivBa2L",
+    "spotifyPopularity": 79,
+    "genres": [
+      "k-pop",
+      "noise music"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "5.1M",
+    "tier": "Rising"
+  },
+  {
+    "id": "3ozYqVCLohfpXIhalkhM8D",
+    "name": "Aditya Rikhari",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb482c8b15eab378fdebc5e05e",
+    "followers": 1059729,
+    "spotifyId": "3ozYqVCLohfpXIhalkhM8D",
+    "spotifyPopularity": 78,
+    "genres": [
+      "hindi indie",
+      "indian indie",
+      "desi pop",
+      "hindi pop"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "1.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5UJ2sHO2ELrgW6aXeRLTQQ",
+    "name": "Chinmayi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8b1862a929651ee5ff4ce67c",
+    "followers": 4579216,
+    "spotifyId": "5UJ2sHO2ELrgW6aXeRLTQQ",
+    "spotifyPopularity": 78,
+    "genres": [
+      "tamil pop",
+      "tollywood",
+      "telugu pop",
+      "kollywood",
+      "marathi pop",
+      "bollywood",
+      "hindi pop"
+    ],
+    "primaryGenre": "tamil pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "4.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6WOdPJmexxFINcKMkP2jMG",
+    "name": "Sachet Tandon",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe34fad78221a2cb31da57946",
+    "followers": 7023200,
+    "spotifyId": "6WOdPJmexxFINcKMkP2jMG",
+    "spotifyPopularity": 78,
+    "genres": [
+      "bhajan",
+      "hindi pop",
+      "devotional",
+      "bollywood",
+      "desi pop"
+    ],
+    "primaryGenre": "bhajan",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "7.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "10exVja0key0uqUkk6LJRT",
+    "name": "Vance Joy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f074ec8c25406680bf26422",
+    "followers": 3435624,
+    "spotifyId": "10exVja0key0uqUkk6LJRT",
+    "spotifyPopularity": 78,
+    "genres": [
+      "folk pop"
+    ],
+    "primaryGenre": "folk pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "3.4M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5y2Xq6xcjJb2jVM54GHK3t",
+    "name": "John Legend",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb01784e44ffd1a339350f4417",
+    "followers": 7891652,
+    "spotifyId": "5y2Xq6xcjJb2jVM54GHK3t",
+    "spotifyPopularity": 78,
+    "genres": [
+      "soft pop",
+      "neo soul"
+    ],
+    "primaryGenre": "soft pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1gBUSTR3TyDdTVFIaQnc02",
+    "name": "NCT DREAM",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1adec53158528b5d5d86d7dc",
+    "followers": 8216412,
+    "spotifyId": "1gBUSTR3TyDdTVFIaQnc02",
+    "spotifyPopularity": 78,
+    "genres": [
+      "k-pop",
+      "noise music"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "8.2M",
+    "tier": "Rising"
+  },
+  {
+    "id": "4phGZZrJZRo4ElhRtViYdl",
+    "name": "Jason Mraz",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc3b370fc26c83312db52af14",
+    "followers": 7308824,
+    "spotifyId": "4phGZZrJZRo4ElhRtViYdl",
+    "spotifyPopularity": 75,
+    "genres": [
+      "soft pop",
+      "acoustic pop"
+    ],
+    "primaryGenre": "soft pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "7.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7yAymwuYh9RcpX84GSNIq2",
+    "name": "Josiah Queen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb643bfda11e7a4f7796454bea",
+    "followers": 557411,
+    "spotifyId": "7yAymwuYh9RcpX84GSNIq2",
+    "spotifyPopularity": 75,
+    "genres": [
+      "christian folk",
+      "christian",
+      "worship",
+      "christian pop"
+    ],
+    "primaryGenre": "christian folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "557.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4gdMJYnopf2nEUcanAwstx",
+    "name": "Anuv Jain",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba837a6cb82dd949d5e1f9b53",
+    "followers": 7013209,
+    "spotifyId": "4gdMJYnopf2nEUcanAwstx",
+    "spotifyPopularity": 75,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "hindi pop"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "7.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0qT79UgT5tY4yudH9VfsdT",
+    "name": "Sum 41",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb625af80b68ae4eb559c6c417",
+    "followers": 4266038,
+    "spotifyId": "0qT79UgT5tY4yudH9VfsdT",
+    "spotifyPopularity": 74,
+    "genres": [
+      "pop punk",
+      "punk",
+      "skate punk"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "4.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6QoCrBHsojKnOrsGNfRcTN",
+    "name": "Talwiinder",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1b41d98a6831d076c45e1d88",
+    "followers": 1104207,
+    "spotifyId": "6QoCrBHsojKnOrsGNfRcTN",
+    "spotifyPopularity": 74,
+    "genres": [
+      "punjabi hip hop",
+      "indian indie",
+      "punjabi pop",
+      "desi hip hop",
+      "desi",
+      "hindi indie",
+      "hindi hip hop"
+    ],
+    "primaryGenre": "punjabi hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "1.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5sXaGoRLSpd7VeyZrLkKwt",
+    "name": "Gregory Alan Isakov",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4528d0f9bb51b241561a16f3",
+    "followers": 1110135,
+    "spotifyId": "5sXaGoRLSpd7VeyZrLkKwt",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie folk",
+      "folk",
+      "folk pop"
+    ],
+    "primaryGenre": "indie folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "1.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "46gyXjRIvN1NL1eCB8GBxo",
+    "name": "All Time Low",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8625dac822c90c5f8c605170",
+    "followers": 3146777,
+    "spotifyId": "46gyXjRIvN1NL1eCB8GBxo",
+    "spotifyPopularity": 73,
+    "genres": [
+      "pop punk",
+      "emo",
+      "punk"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "3.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2p4FqHnazRucYQHyDCdBrJ",
+    "name": "Simple Plan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8a6c76b696c37d752a6797e",
+    "followers": 3865995,
+    "spotifyId": "2p4FqHnazRucYQHyDCdBrJ",
+    "spotifyPopularity": 73,
+    "genres": [
+      "pop punk",
+      "punk",
+      "emo"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "3.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4oVMLzAqW6qhRpZWt8fNw4",
+    "name": "Kailash Kher",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc6d179e514b5cfe685f19a2e",
+    "followers": 9455473,
+    "spotifyId": "4oVMLzAqW6qhRpZWt8fNw4",
+    "spotifyPopularity": 73,
+    "genres": [
+      "sufi",
+      "bhajan",
+      "bollywood",
+      "qawwali",
+      "hindi pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "9.5M",
+    "tier": "Rising"
+  },
+  {
+    "id": "0gadJ2b9A4SKsB1RFkBb66",
+    "name": "Passenger",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebedb0b7080024080e6efb9965",
+    "followers": 3719726,
+    "spotifyId": "0gadJ2b9A4SKsB1RFkBb66",
+    "spotifyPopularity": 72,
+    "genres": [
+      "folk pop"
+    ],
+    "primaryGenre": "folk pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "3.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7rVV9d6vc4FLT752uRuk71",
+    "name": "Arivu",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebadbe63a828e9f7add3094c19",
+    "followers": 879911,
+    "spotifyId": "7rVV9d6vc4FLT752uRuk71",
+    "spotifyPopularity": 72,
+    "genres": [
+      "tamil hip hop",
+      "tamil pop",
+      "tamil indie",
+      "tamil dance",
+      "kollywood",
+      "malayalam hip hop"
+    ],
+    "primaryGenre": "tamil hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "879.9K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3Ayl7mCk0nScecqOzvNp6s",
+    "name": "Jimmy Eat World",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0dc33cfd207772f8e2f6b46f",
+    "followers": 1763181,
+    "spotifyId": "3Ayl7mCk0nScecqOzvNp6s",
+    "spotifyPopularity": 71,
+    "genres": [
+      "emo",
+      "pop punk"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "1.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0RVfcqug2nB820dxIGycIW",
+    "name": "Hansika Pareek",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2edf28eb85c9758390ea20f5",
+    "followers": 52886,
+    "spotifyId": "0RVfcqug2nB820dxIGycIW",
+    "spotifyPopularity": 71,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "gujarati pop"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "52.9K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "0nh5cRtt03SU6LhzhVC5fv",
+    "name": "Sublahshini",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c5ae47fcd9019bcdd55a405",
+    "followers": 107523,
+    "spotifyId": "0nh5cRtt03SU6LhzhVC5fv",
+    "spotifyPopularity": 71,
+    "genres": [
+      "tamil indie",
+      "tamil dance",
+      "tamil pop",
+      "tollywood",
+      "kollywood"
+    ],
+    "primaryGenre": "tamil indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "107.5K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1z4g3DjTBBZKhvAroFlhOM",
+    "name": "Red Velvet",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb02a562ea6b1dc718394010ac",
+    "followers": 9582182,
+    "spotifyId": "1z4g3DjTBBZKhvAroFlhOM",
+    "spotifyPopularity": 71,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "9.6M",
+    "tier": "Rising"
+  },
+  {
+    "id": "3cjEqqelV9zb4BYE3qDQ4O",
+    "name": "EXO",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaf3c4b988a6fef40843cdc83",
+    "followers": 10147413,
+    "spotifyId": "3cjEqqelV9zb4BYE3qDQ4O",
+    "spotifyPopularity": 71,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "10.1M",
+    "tier": "Rising"
+  },
+  {
+    "id": "3HqSLMAZ3g3d5poNaI7GOU",
+    "name": "IU",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb789f38042e5ef8911fc3826b",
+    "followers": 9333415,
+    "spotifyId": "3HqSLMAZ3g3d5poNaI7GOU",
+    "spotifyPopularity": 71,
+    "genres": [
+      "k-pop",
+      "k-ballad"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "9.3M",
+    "tier": "Rising"
+  },
+  {
+    "id": "4b1WCDqAVVgxK7KozLkOqc",
+    "name": "Asal Kolaar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb255888bcb4a6feab6e2bb97",
+    "followers": 687108,
+    "spotifyId": "4b1WCDqAVVgxK7KozLkOqc",
+    "spotifyPopularity": 70,
+    "genres": [
+      "tamil hip hop",
+      "tamil indie",
+      "malayalam hip hop",
+      "tamil dance",
+      "tamil pop",
+      "kollywood"
+    ],
+    "primaryGenre": "tamil hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "687.1K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2IKfr1JgPRXmXKAWwrABc6",
+    "name": "Kushagra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb36727564ac48444dd9dfcb3b",
+    "followers": 195703,
+    "spotifyId": "2IKfr1JgPRXmXKAWwrABc6",
+    "spotifyPopularity": 69,
+    "genres": [
+      "hindi indie",
+      "indian indie",
+      "desi pop",
+      "hindi pop"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "195.7K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3qpyErDI4i90q5EGgSRmNK",
+    "name": "Raghav Chaitanya",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf16aafe18e9e1761a79eb406",
+    "followers": 285922,
+    "spotifyId": "3qpyErDI4i90q5EGgSRmNK",
+    "spotifyPopularity": 68,
+    "genres": [
+      "hindi indie",
+      "hindi pop",
+      "indian indie",
+      "bollywood"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "285.9K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1SQRv42e4PjEYfPhS0Tk9E",
+    "name": "The Kinks",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb81f4e878e8b959fa68f15322",
+    "followers": 2782289,
+    "spotifyId": "1SQRv42e4PjEYfPhS0Tk9E",
+    "spotifyPopularity": 67,
+    "genres": [
+      "proto-punk",
+      "baroque pop"
+    ],
+    "primaryGenre": "proto-punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "2.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5jJrJU7VVmxQQLcLAmmxXc",
+    "name": "Sai Abhyankkar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0a27dbc5eb270fd2e78b9cbb",
+    "followers": 276198,
+    "spotifyId": "5jJrJU7VVmxQQLcLAmmxXc",
+    "spotifyPopularity": 67,
+    "genres": [
+      "tamil indie",
+      "tamil pop",
+      "kollywood"
+    ],
+    "primaryGenre": "tamil indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "276.2K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3iGhlvzpXc0UHBQ7klAItX",
+    "name": "Mitraz",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe96a339b04840c8fb801ccb4",
+    "followers": 757366,
+    "spotifyId": "3iGhlvzpXc0UHBQ7klAItX",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi pop",
+      "desi",
+      "hindi pop"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "757.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6g10GEtmIVqIQBhPZh4ScQ",
+    "name": "Zach Williams",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8eec84ae9eba401dfdc2273",
+    "followers": 532186,
+    "spotifyId": "6g10GEtmIVqIQBhPZh4ScQ",
+    "spotifyPopularity": 65,
+    "genres": [
+      "christian",
+      "christian country",
+      "worship",
+      "ccm",
+      "christian pop"
+    ],
+    "primaryGenre": "christian",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "532.2K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0NbgKDsEHiPzZBZkqZGkXm",
+    "name": "Mismatched - Cast",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf11a645715e7aa51644020c4",
+    "followers": 246828,
+    "spotifyId": "0NbgKDsEHiPzZBZkqZGkXm",
+    "spotifyPopularity": 65,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "ghazal",
+      "hindi pop"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "246.8K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0LqkiA6OhstUwy7qDhRreD",
+    "name": "Pinna Music",
+    "image": "https://i.scdn.co/image/ab67616d0000b273adc1b870f8b5448990910d67",
+    "followers": 161302,
+    "spotifyId": "0LqkiA6OhstUwy7qDhRreD",
+    "spotifyPopularity": 62,
+    "genres": [
+      "haryanvi pop"
+    ],
+    "primaryGenre": "haryanvi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "161.3K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1NU9Em6e8dDo36Js6nEo3t",
+    "name": "A Rocket To The Moon",
+    "image": "https://i.scdn.co/image/8ce4861c7dfa1853e0db638cdad9f4fbf422fc03",
+    "followers": 444527,
+    "spotifyId": "1NU9Em6e8dDo36Js6nEo3t",
+    "spotifyPopularity": 52,
+    "genres": [
+      "pop punk"
+    ],
+    "primaryGenre": "pop punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "444.5K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1neweBRDB8wCNzQjUYmJwx",
+    "name": "Malu Nipanal Singer",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3d7b8069961d864c75b7b43a",
+    "followers": 67203,
+    "spotifyId": "1neweBRDB8wCNzQjUYmJwx",
+    "spotifyPopularity": 44,
+    "genres": [
+      "kannada pop",
+      "folk"
+    ],
+    "primaryGenre": "kannada pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "67.2K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "0ka7DD1vGnXu92ZrhiKXUF",
+    "name": "Balu Belagundi",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fc413d8dc783523693849685",
+    "followers": 35326,
+    "spotifyId": "0ka7DD1vGnXu92ZrhiKXUF",
+    "spotifyPopularity": 42,
+    "genres": [
+      "kannada pop",
+      "folk"
+    ],
+    "primaryGenre": "kannada pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "35.3K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "18ssEKS9fXX1nbMg7mAzaU",
+    "name": "Rocket Mike",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd85736c090fd607df92aaff5",
+    "followers": 764,
+    "spotifyId": "18ssEKS9fXX1nbMg7mAzaU",
+    "spotifyPopularity": 41,
+    "genres": [
+      "french indie pop"
+    ],
+    "primaryGenre": "french indie pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "764",
+    "tier": "Emerging"
+  },
+  {
+    "id": "2ut7XsWrzxgQh97rSX7LsJ",
+    "name": "Music Mailari",
+    "image": "https://i.scdn.co/image/ab67616d0000b27347340145326418081c9fe53d",
+    "followers": 2143,
+    "spotifyId": "2ut7XsWrzxgQh97rSX7LsJ",
+    "spotifyPopularity": 29,
+    "genres": [
+      "kannada pop",
+      "folk"
+    ],
+    "primaryGenre": "kannada pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "2.1K",
+    "tier": "Emerging"
+  }
+]

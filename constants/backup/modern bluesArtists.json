@@ -1,0 +1,41 @@
+[
+  {
+    "id": "0FeWKiZSwBRdGzqeCdlH1a",
+    "name": "Marcus King",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb61b1755ae106870fd27b03e0",
+    "followers": 349564,
+    "spotifyId": "0FeWKiZSwBRdGzqeCdlH1a",
+    "spotifyPopularity": 64,
+    "genres": [
+      "modern blues",
+      "blues rock"
+    ],
+    "primaryGenre": "modern blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "349.6K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0tgaHqkU1p7QhBUIzKXVU9",
+    "name": "The Marcus King Band",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1c2545a8095e2a0e486a6980",
+    "followers": 246471,
+    "spotifyId": "0tgaHqkU1p7QhBUIzKXVU9",
+    "spotifyPopularity": 59,
+    "genres": [
+      "modern blues",
+      "southern rock",
+      "blues rock",
+      "blues",
+      "retro soul"
+    ],
+    "primaryGenre": "modern blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "246.5K",
+    "tier": "Rising"
+  }
+]

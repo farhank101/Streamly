@@ -1,0 +1,20 @@
+[
+  {
+    "id": "2n2RSaZqBuUUukhbLlpnE6",
+    "name": "Sleep Token",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd00c2ff422829437e6b5f1e0",
+    "followers": 2617337,
+    "spotifyId": "2n2RSaZqBuUUukhbLlpnE6",
+    "spotifyPopularity": 83,
+    "genres": [
+      "progressive metal",
+      "metalcore"
+    ],
+    "primaryGenre": "progressive metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "2.6M",
+    "tier": "Popular"
+  }
+]

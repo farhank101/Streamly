@@ -1,0 +1,46 @@
+[
+  {
+    "id": "7G1GBhoKtEPnP86X2PvEYO",
+    "name": "Nina Simone",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
+    "followers": 3181188,
+    "spotifyId": "7G1GBhoKtEPnP86X2PvEYO",
+    "spotifyPopularity": 71,
+    "genres": [
+      "vocal jazz",
+      "jazz blues",
+      "soul",
+      "soul jazz",
+      "jazz",
+      "blues"
+    ],
+    "primaryGenre": "vocal jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "3.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5V0MlUE1Bft0mbLlND7FJz",
+    "name": "Ella Fitzgerald",
+    "image": "https://i.scdn.co/image/3c1d23141059785c8a863137d176319329dc17ef",
+    "followers": 2694850,
+    "spotifyId": "5V0MlUE1Bft0mbLlND7FJz",
+    "spotifyPopularity": 69,
+    "genres": [
+      "vocal jazz",
+      "jazz",
+      "swing music",
+      "jazz blues",
+      "big band",
+      "christmas"
+    ],
+    "primaryGenre": "vocal jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.7M",
+    "tier": "Popular"
+  }
+]

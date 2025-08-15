@@ -1,0 +1,189 @@
+[
+  {
+    "id": "08GQAI4eElDnROBrJRGE0X",
+    "name": "Fleetwood Mac",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc8752dd511cda8c31e9daee8",
+    "followers": 13578506,
+    "spotifyId": "08GQAI4eElDnROBrJRGE0X",
+    "spotifyPopularity": 87,
+    "genres": [
+      "classic rock",
+      "yacht rock",
+      "soft rock"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "13.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "3WrFJ7ztbogyGnTHbHJFl2",
+    "name": "The Beatles",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+    "followers": 30335311,
+    "spotifyId": "3WrFJ7ztbogyGnTHbHJFl2",
+    "spotifyPopularity": 86,
+    "genres": [
+      "classic rock",
+      "psychedelic rock"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "30.3M",
+    "tier": "Top"
+  },
+  {
+    "id": "1dfeR4HaWDbWqFHLkxsg1d",
+    "name": "Queen",
+    "image": "https://i.scdn.co/image/b040846ceba13c3e9c125d68389491094e7f2982",
+    "followers": 54565518,
+    "spotifyId": "1dfeR4HaWDbWqFHLkxsg1d",
+    "spotifyPopularity": 86,
+    "genres": [
+      "classic rock",
+      "rock",
+      "glam rock"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "54.6M",
+    "tier": "Top"
+  },
+  {
+    "id": "22bE4uQ6baNwSHPVcDxLCe",
+    "name": "The Rolling Stones",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe4cea917b68726aadb4854b8",
+    "followers": 15502704,
+    "spotifyId": "22bE4uQ6baNwSHPVcDxLCe",
+    "spotifyPopularity": 82,
+    "genres": [
+      "classic rock",
+      "rock"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "15.5M",
+    "tier": "Top"
+  },
+  {
+    "id": "3IYUhFvPQItj6xySrBmZkd",
+    "name": "Creedence Clearwater Revival",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd2e2b04b7ba5d60b72f54506",
+    "followers": 7779596,
+    "spotifyId": "3IYUhFvPQItj6xySrBmZkd",
+    "spotifyPopularity": 81,
+    "genres": [
+      "classic rock",
+      "southern rock",
+      "country rock"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "7.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0WwSkZ7LtFUFjGjMZBMt6T",
+    "name": "Dire Straits",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4bdaa8c5e65b64f50549c393",
+    "followers": 8652279,
+    "spotifyId": "0WwSkZ7LtFUFjGjMZBMt6T",
+    "spotifyPopularity": 81,
+    "genres": [
+      "classic rock"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "8.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "36QJpDe2go2KgaRleHCDTp",
+    "name": "Led Zeppelin",
+    "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+    "followers": 15746748,
+    "spotifyId": "36QJpDe2go2KgaRleHCDTp",
+    "spotifyPopularity": 80,
+    "genres": [
+      "classic rock",
+      "rock",
+      "hard rock",
+      "rock and roll"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "15.7M",
+    "tier": "Top"
+  },
+  {
+    "id": "6v8FB84lnmJs434UJf2Mrm",
+    "name": "Neil Young",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbae8276dffd864ebac759b76",
+    "followers": 3279559,
+    "spotifyId": "6v8FB84lnmJs434UJf2Mrm",
+    "spotifyPopularity": 74,
+    "genres": [
+      "classic rock",
+      "folk rock",
+      "singer-songwriter",
+      "roots rock"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "3.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4n31svBA9GGIYxGxgrQaRK",
+    "name": "George Thorogood & The Destroyers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb757998cdb9826e05ca888216",
+    "followers": 1006398,
+    "spotifyId": "4n31svBA9GGIYxGxgrQaRK",
+    "spotifyPopularity": 61,
+    "genres": [
+      "classic rock",
+      "blues rock",
+      "southern rock"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "1.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2e53aHBQdCMKWqHDuyJsjC",
+    "name": "Free",
+    "image": "https://i.scdn.co/image/b0710c8d0247d0710cfb5a2cd153908dc42ca08f",
+    "followers": 576026,
+    "spotifyId": "2e53aHBQdCMKWqHDuyJsjC",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classic rock",
+      "blues rock"
+    ],
+    "primaryGenre": "classic rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "576.0K",
+    "tier": "Rising"
+  }
+]

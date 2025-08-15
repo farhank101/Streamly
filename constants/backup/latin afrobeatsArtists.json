@@ -1,0 +1,21 @@
+[
+  {
+    "id": "7a0XAaPaK2aDSqa8p3QnC7",
+    "name": "Beéle",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8e10d05db45e77a86256fc5d",
+    "followers": 2466120,
+    "spotifyId": "7a0XAaPaK2aDSqa8p3QnC7",
+    "spotifyPopularity": 92,
+    "genres": [
+      "latin afrobeats",
+      "reggaeton",
+      "pop urbano"
+    ],
+    "primaryGenre": "latin afrobeats",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "2.5M",
+    "tier": "Popular"
+  }
+]

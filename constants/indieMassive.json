@@ -1,0 +1,3561 @@
+[
+  {
+    "id": "3ozYqVCLohfpXIhalkhM8D",
+    "name": "Aditya Rikhari",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb482c8b15eab378fdebc5e05e",
+    "followers": 1059729,
+    "spotifyId": "3ozYqVCLohfpXIhalkhM8D",
+    "spotifyPopularity": 78,
+    "genres": [
+      "hindi indie",
+      "indian indie",
+      "desi pop",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Indie",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "4gdMJYnopf2nEUcanAwstx",
+    "name": "Anuv Jain",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba837a6cb82dd949d5e1f9b53",
+    "followers": 7013209,
+    "spotifyId": "4gdMJYnopf2nEUcanAwstx",
+    "spotifyPopularity": 75,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Indie",
+    "likes": "7.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "0RVfcqug2nB820dxIGycIW",
+    "name": "Hansika Pareek",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2edf28eb85c9758390ea20f5",
+    "followers": 52886,
+    "spotifyId": "0RVfcqug2nB820dxIGycIW",
+    "spotifyPopularity": 71,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "gujarati pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Indie",
+    "likes": "52K",
+    "tier": "Established"
+  },
+  {
+    "id": "0nh5cRtt03SU6LhzhVC5fv",
+    "name": "Sublahshini",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c5ae47fcd9019bcdd55a405",
+    "followers": 107523,
+    "spotifyId": "0nh5cRtt03SU6LhzhVC5fv",
+    "spotifyPopularity": 71,
+    "genres": [
+      "tamil indie",
+      "tamil dance",
+      "tamil pop",
+      "tollywood",
+      "kollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Indie",
+    "likes": "107K",
+    "tier": "Established"
+  },
+  {
+    "id": "2IKfr1JgPRXmXKAWwrABc6",
+    "name": "Kushagra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb36727564ac48444dd9dfcb3b",
+    "followers": 195703,
+    "spotifyId": "2IKfr1JgPRXmXKAWwrABc6",
+    "spotifyPopularity": 69,
+    "genres": [
+      "hindi indie",
+      "indian indie",
+      "desi pop",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Indie",
+    "likes": "195K",
+    "tier": "Established"
+  },
+  {
+    "id": "3qpyErDI4i90q5EGgSRmNK",
+    "name": "Raghav Chaitanya",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf16aafe18e9e1761a79eb406",
+    "followers": 285922,
+    "spotifyId": "3qpyErDI4i90q5EGgSRmNK",
+    "spotifyPopularity": 68,
+    "genres": [
+      "hindi indie",
+      "hindi pop",
+      "indian indie",
+      "bollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Indie",
+    "likes": "285K",
+    "tier": "Established"
+  },
+  {
+    "id": "1zD9gVg8wPOmVfYxTjMHaT",
+    "name": "Bharath",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0f227a1cae8b098eabb2315b",
+    "followers": 46091,
+    "spotifyId": "1zD9gVg8wPOmVfYxTjMHaT",
+    "spotifyPopularity": 68,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Indie",
+    "likes": "46K",
+    "tier": "Established"
+  },
+  {
+    "id": "29S4JzoFUP1MCyMgKd83zM",
+    "name": "Saaheal",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3567c18bcfc0e8ce0db63055",
+    "followers": 40229,
+    "spotifyId": "29S4JzoFUP1MCyMgKd83zM",
+    "spotifyPopularity": 68,
+    "genres": [
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Indie",
+    "likes": "40K",
+    "tier": "Established"
+  },
+  {
+    "id": "7Ln80lUS6He07XvHI8qqHH",
+    "name": "Arctic Monkeys",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f",
+    "followers": 31241519,
+    "spotifyId": "7Ln80lUS6He07XvHI8qqHH",
+    "spotifyPopularity": 88,
+    "genres": [
+      "indie",
+      "garage rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Indie",
+    "likes": "31.2M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "7Gy1PxqrgsiqWF6JNYPHeB",
+    "name": ".Feast",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb16f030ca05d4d917cdc2eb5e",
+    "followers": 3175054,
+    "spotifyId": "7Gy1PxqrgsiqWF6JNYPHeB",
+    "spotifyPopularity": 79,
+    "genres": [
+      "indonesian indie",
+      "indorock",
+      "indonesian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Indie",
+    "likes": "3.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "5b5bt4mZQpJMoCRbiQ7diH",
+    "name": "Royel Otis",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2655d6cf0422936731db9bf1",
+    "followers": 499118,
+    "spotifyId": "5b5bt4mZQpJMoCRbiQ7diH",
+    "spotifyPopularity": 75,
+    "genres": [
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Indie",
+    "likes": "499K",
+    "tier": "Established"
+  },
+  {
+    "id": "1gl0S9pS0Zw0qfa14rDD3D",
+    "name": "Surf Curse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcff4fe07270f07039355",
+    "followers": 1680986,
+    "spotifyId": "1gl0S9pS0Zw0qfa14rDD3D",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Indie",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "1ZdhAl62G6ZlEKqIwUAfZR",
+    "name": "Enjambre",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb41b3fd8e2fcd39e259146ff9",
+    "followers": 1886655,
+    "spotifyId": "1ZdhAl62G6ZlEKqIwUAfZR",
+    "spotifyPopularity": 74,
+    "genres": [
+      "mexican indie",
+      "rock en español",
+      "mexican rock",
+      "latin indie",
+      "latin rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Indie",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "0NIPkIjTV8mB795yEIiPYL",
+    "name": "Wallows",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfde4e7d59f6d8868e2ffdaf5",
+    "followers": 2982766,
+    "spotifyId": "0NIPkIjTV8mB795yEIiPYL",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Indie",
+    "likes": "3.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "3XHO7cRUPCLOr6jwp8vsx5",
+    "name": "alt-J",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3fb5214e667e278a20878a6b",
+    "followers": 3415247,
+    "spotifyId": "3XHO7cRUPCLOr6jwp8vsx5",
+    "spotifyPopularity": 71,
+    "genres": [
+      "indie",
+      "indie rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Indie",
+    "likes": "3.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "1nCZUpBIcyOxufOx0lPeIW",
+    "name": "Annural Khalid",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdba8860040893b718798ab86",
+    "followers": 228827,
+    "spotifyId": "1nCZUpBIcyOxufOx0lPeIW",
+    "spotifyPopularity": 66,
+    "genres": [
+      "indian indie",
+      "desi",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Indie",
+    "likes": "228K",
+    "tier": "Established"
+  },
+  {
+    "id": "3PbkSdpJnYRF18jau74b7R",
+    "name": "Abdullah Siddiqui",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6a2b7beffdd3e4f24fb4f73d",
+    "followers": 116511,
+    "spotifyId": "3PbkSdpJnYRF18jau74b7R",
+    "spotifyPopularity": 62,
+    "genres": [
+      "indian indie",
+      "desi",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Indie",
+    "likes": "116K",
+    "tier": "Established"
+  },
+  {
+    "id": "2cjQTf2J5yCaNY8qHpW855",
+    "name": "AUR",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb247be1061acfd9eca62fed3c",
+    "followers": 1639905,
+    "spotifyId": "2cjQTf2J5yCaNY8qHpW855",
+    "spotifyPopularity": 61,
+    "genres": [
+      "hindi indie",
+      "indian indie",
+      "hindi hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Indie",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "2kS9NyuATpYwjeB93h24H5",
+    "name": "Nina Chuba",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0a3c84e95542a58fd61ab47c",
+    "followers": 1019022,
+    "spotifyId": "2kS9NyuATpYwjeB93h24H5",
+    "spotifyPopularity": 74,
+    "genres": [
+      "german indie",
+      "german pop",
+      "german hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Indie",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "4RCALXqxv2udxtuLatKPSi",
+    "name": "Lost Stories",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb93a36c0c3d04bd51da228696",
+    "followers": 120116,
+    "spotifyId": "4RCALXqxv2udxtuLatKPSi",
+    "spotifyPopularity": 53,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "120K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6T9VTdP8GxXoedKTls26pP",
+    "name": "JAI DHIR",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb02cb6ba8c83109089750f88b",
+    "followers": 16032,
+    "spotifyId": "6T9VTdP8GxXoedKTls26pP",
+    "spotifyPopularity": 51,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "16K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2k66ibJfgMigF5QWqUgLyR",
+    "name": "OAFF",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9bc22d7a3aa8fcc02f4d0fcd",
+    "followers": 56469,
+    "spotifyId": "2k66ibJfgMigF5QWqUgLyR",
+    "spotifyPopularity": 52,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "bollywood",
+      "desi",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "56K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3mzZ5nf3QScPqc7y9EzJ6X",
+    "name": "Tech Panda",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb753aaeadfe8c5efd93daa327",
+    "followers": 41253,
+    "spotifyId": "3mzZ5nf3QScPqc7y9EzJ6X",
+    "spotifyPopularity": 42,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "41K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4p4ILwTCyu0exslJsiQzZP",
+    "name": "KASYAP",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2f2b29ec4e9838448c132361",
+    "followers": 25441,
+    "spotifyId": "4p4ILwTCyu0exslJsiQzZP",
+    "spotifyPopularity": 47,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "25K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7GmnD2XZleQw8PPzRJV7FY",
+    "name": "Midival Punditz",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebac3c00978f658d6c82ec06b6",
+    "followers": 138336,
+    "spotifyId": "7GmnD2XZleQw8PPzRJV7FY",
+    "spotifyPopularity": 36,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "138K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6h4u0DWy8GXHeehzB0kaiM",
+    "name": "Kenzani",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2b7e19df3d1849b2bcee0032",
+    "followers": 19784,
+    "spotifyId": "6h4u0DWy8GXHeehzB0kaiM",
+    "spotifyPopularity": 42,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "19K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7x7rCZwlkVvRGOQVeDqND8",
+    "name": "MALFNKTION",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebde07dd35571012d3ecf67237",
+    "followers": 64115,
+    "spotifyId": "7x7rCZwlkVvRGOQVeDqND8",
+    "spotifyPopularity": 27,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "64K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4SroVVRKitVKrlYdV5Ulf8",
+    "name": "Bawari Basanti",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1b57fd5415c3ddb6ecf73ab5",
+    "followers": 20166,
+    "spotifyId": "4SroVVRKitVKrlYdV5Ulf8",
+    "spotifyPopularity": 30,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5V4PIa2khOUA4o5HUd5fhZ",
+    "name": "Anhad + Tanner",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e0680b08a1e9ec04dea638b",
+    "followers": 12904,
+    "spotifyId": "5V4PIa2khOUA4o5HUd5fhZ",
+    "spotifyPopularity": 33,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3lfolnS8yn0VWK2FKM0hWs",
+    "name": "Kayan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3915bd9db4a4e48cc245ab0d",
+    "followers": 20748,
+    "spotifyId": "3lfolnS8yn0VWK2FKM0hWs",
+    "spotifyPopularity": 27,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Indie",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2CkrXQPoBz8jTQ3u0ZeLPh",
+    "name": "Nucleya",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb189e052ae23f2278af3fef6",
+    "followers": 1764369,
+    "spotifyId": "2CkrXQPoBz8jTQ3u0ZeLPh",
+    "spotifyPopularity": 52,
+    "genres": [
+      "indian indie",
+      "hindi hip hop",
+      "hindi indie",
+      "desi hip hop",
+      "desi",
+      "bollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Indie",
+    "likes": "1.8M",
+    "tier": "Rising"
+  },
+  {
+    "id": "3Sz7ZnJQBIHsXLUSo0OQtM",
+    "name": "Mac DeMarco",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9aca5b6d4c528caf75e8a1d",
+    "followers": 7734234,
+    "spotifyId": "3Sz7ZnJQBIHsXLUSo0OQtM",
+    "spotifyPopularity": 83,
+    "genres": [
+      "indie",
+      "lo-fi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Indie",
+    "likes": "7.7M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "2HrvJh5lOdSH1DLlWCAtJI",
+    "name": "Rusha & Blizza",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a16ed77e4c16651e7670936",
+    "followers": 41851,
+    "spotifyId": "2HrvJh5lOdSH1DLlWCAtJI",
+    "spotifyPopularity": 56,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Indie",
+    "likes": "41K",
+    "tier": "Rising"
+  },
+  {
+    "id": "72beYOeW2sb2yfcS4JsRvb",
+    "name": "Ritviz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3bc0e5f9b29553ed9d2bce18",
+    "followers": 1335079,
+    "spotifyId": "72beYOeW2sb2yfcS4JsRvb",
+    "spotifyPopularity": 56,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "hindi pop",
+      "desi"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Indie",
+    "likes": "1.3M",
+    "tier": "Rising"
+  },
+  {
+    "id": "48yQuRfvklyupKmridU1du",
+    "name": "Charita Utami",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2e2148af0e5cf76f1588fc2c",
+    "followers": 13298,
+    "spotifyId": "48yQuRfvklyupKmridU1du",
+    "spotifyPopularity": 71,
+    "genres": [
+      "indonesian indie",
+      "funkot"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Indie",
+    "likes": "13K",
+    "tier": "Established"
+  },
+  {
+    "id": "1cZXy31snJUWXKwhWRyDgs",
+    "name": "Ravator",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7ef4e6e83bcbff61a2d6a6b7",
+    "followers": 44901,
+    "spotifyId": "1cZXy31snJUWXKwhWRyDgs",
+    "spotifyPopularity": 53,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi hip hop",
+      "hindi hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Indie",
+    "likes": "44K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4a5cFa2gISG9QtjELLgYcZ",
+    "name": "Sickflip",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebea124783a8bb0515d1dbf923",
+    "followers": 21154,
+    "spotifyId": "4a5cFa2gISG9QtjELLgYcZ",
+    "spotifyPopularity": 46,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi hip hop",
+      "hindi hip hop",
+      "tamil hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Indie",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6i50rQJbETLRREwFn3plcw",
+    "name": "Lifafa",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf01c139ad7adcf53b5992e0f",
+    "followers": 108377,
+    "spotifyId": "6i50rQJbETLRREwFn3plcw",
+    "spotifyPopularity": 43,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Indie",
+    "likes": "108K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1pSV6wx1cZQB3l7c2wY3mE",
+    "name": "Pina Colada Blues",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb64257e7fee531e9166e51373",
+    "followers": 12480,
+    "spotifyId": "1pSV6wx1cZQB3l7c2wY3mE",
+    "spotifyPopularity": 35,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "malayalam pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Indie",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0NbgKDsEHiPzZBZkqZGkXm",
+    "name": "Mismatched - Cast",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf11a645715e7aa51644020c4",
+    "followers": 246828,
+    "spotifyId": "0NbgKDsEHiPzZBZkqZGkXm",
+    "spotifyPopularity": 65,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "ghazal",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "246K",
+    "tier": "Established"
+  },
+  {
+    "id": "51kyrUsAVqUBcoDEMFkX12",
+    "name": "Hindia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8022c4a018990cd93a9ddfe0",
+    "followers": 9118588,
+    "spotifyId": "51kyrUsAVqUBcoDEMFkX12",
+    "spotifyPopularity": 82,
+    "genres": [
+      "indonesian indie",
+      "indonesian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "9.1M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0tC995Rfn9k2l7nqgCZsV7",
+    "name": "Prateek Kuhad",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb284fbc05b35f3a52501ba30a",
+    "followers": 1110648,
+    "spotifyId": "0tC995Rfn9k2l7nqgCZsV7",
+    "spotifyPopularity": 63,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "4LEiUm1SRbFMgfqnQTwUbQ",
+    "name": "Bon Iver",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1a0c1f04c95539fd55ef0ebb",
+    "followers": 3906463,
+    "spotifyId": "4LEiUm1SRbFMgfqnQTwUbQ",
+    "spotifyPopularity": 78,
+    "genres": [
+      "indie folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "3.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "20zafXaLhm5IcXnSU93rNn",
+    "name": "Nadin Amizah",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb226dcfeea35e2dd268051744",
+    "followers": 10128236,
+    "spotifyId": "20zafXaLhm5IcXnSU93rNn",
+    "spotifyPopularity": 77,
+    "genres": [
+      "indonesian indie",
+      "indonesian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "10.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "5sXaGoRLSpd7VeyZrLkKwt",
+    "name": "Gregory Alan Isakov",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4528d0f9bb51b241561a16f3",
+    "followers": 1110135,
+    "spotifyId": "5sXaGoRLSpd7VeyZrLkKwt",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie folk",
+      "folk",
+      "folk pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "0wyMPXGfOuQzNR54ujR9Ix",
+    "name": "Caamp",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe0098f9c6d8275ee0a2d2eca",
+    "followers": 721208,
+    "spotifyId": "0wyMPXGfOuQzNR54ujR9Ix",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie folk",
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "721K",
+    "tier": "Established"
+  },
+  {
+    "id": "3JSSjGYcIkgsrz7892CelT",
+    "name": "Ed Maverick",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5afdda54261b90d2959c5f2a",
+    "followers": 3739680,
+    "spotifyId": "3JSSjGYcIkgsrz7892CelT",
+    "spotifyPopularity": 73,
+    "genres": [
+      "mexican indie",
+      "latin folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "3.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "1LMyTeRhjaitILs98h3MaF",
+    "name": "Jósean Log",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb73dd5c3798474b529c4a4b4f",
+    "followers": 1245791,
+    "spotifyId": "1LMyTeRhjaitILs98h3MaF",
+    "spotifyPopularity": 72,
+    "genres": [
+      "mexican indie",
+      "latin indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "4hGFNXuWut4b2sfJCJJNEo",
+    "name": "Kanishk Seth",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3138b4aeddf7d954df0c341b",
+    "followers": 42951,
+    "spotifyId": "4hGFNXuWut4b2sfJCJJNEo",
+    "spotifyPopularity": 54,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "bollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "42K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1NjxFrpEGZTV2Ny0OJxeWu",
+    "name": "Sal Priadi",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebee44c322de1daaa43c1fba40",
+    "followers": 1495402,
+    "spotifyId": "1NjxFrpEGZTV2Ny0OJxeWu",
+    "spotifyPopularity": 71,
+    "genres": [
+      "indonesian indie",
+      "indonesian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "1.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "2f7f3AmL16mmiAmYnxmmfx",
+    "name": "Provinz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb95f5676381c5df9ec9135645",
+    "followers": 332179,
+    "spotifyId": "2f7f3AmL16mmiAmYnxmmfx",
+    "spotifyPopularity": 71,
+    "genres": [
+      "german indie",
+      "german pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Indie",
+    "likes": "332K",
+    "tier": "Established"
+  },
+  {
+    "id": "22UtphG4LcwxlhhV0aP4js",
+    "name": "Rauhan Malik",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2dda02f35e185dbfdd97f331",
+    "followers": 132370,
+    "spotifyId": "22UtphG4LcwxlhhV0aP4js",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Indie",
+    "likes": "132K",
+    "tier": "Established"
+  },
+  {
+    "id": "63QHbwCDdJ50C72D4ojeo1",
+    "name": "Rito Riba",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb11a99525e7bc600b005d4427",
+    "followers": 215413,
+    "spotifyId": "63QHbwCDdJ50C72D4ojeo1",
+    "spotifyPopularity": 61,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Indie",
+    "likes": "215K",
+    "tier": "Established"
+  },
+  {
+    "id": "0AS5y6FY1c4JRl0oWAYu2y",
+    "name": "Rana Sotal",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7c530dcbd4c24c7643e472c3",
+    "followers": 74530,
+    "spotifyId": "0AS5y6FY1c4JRl0oWAYu2y",
+    "spotifyPopularity": 61,
+    "genres": [
+      "indian indie",
+      "hindi pop",
+      "desi pop",
+      "bollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Indie",
+    "likes": "74K",
+    "tier": "Established"
+  },
+  {
+    "id": "1CGbcdGB3aFFUCjaJimwER",
+    "name": "Rahgir",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebffb424746d46fefa93901057",
+    "followers": 114700,
+    "spotifyId": "1CGbcdGB3aFFUCjaJimwER",
+    "spotifyPopularity": 46,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Indie",
+    "likes": "114K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2Ooa3TrmlskyBftzenv6xQ",
+    "name": "Payung Teduh",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfc58f42abb126bbe177239cf",
+    "followers": 3990195,
+    "spotifyId": "2Ooa3TrmlskyBftzenv6xQ",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indonesian indie",
+      "indonesian pop",
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Indie",
+    "likes": "4.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "1DjZI46mVZZZYmmmygRnTw",
+    "name": "Reality Club",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8672de1e258252e6973ed9cd",
+    "followers": 610296,
+    "spotifyId": "1DjZI46mVZZZYmmmygRnTw",
+    "spotifyPopularity": 66,
+    "genres": [
+      "indonesian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Indie",
+    "likes": "610K",
+    "tier": "Established"
+  },
+  {
+    "id": "6lk92CG7lTvGapYCz7AV9x",
+    "name": "Kumaresh",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735c46431fd025de39e672ae2a",
+    "followers": 31627,
+    "spotifyId": "6lk92CG7lTvGapYCz7AV9x",
+    "spotifyPopularity": 48,
+    "genres": [
+      "tamil indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Indie",
+    "likes": "31K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3Q215HSlFN5mIwiwgAiLu8",
+    "name": "Sanjay Subrahmanyan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc32ed13900c34d04dd891a3f",
+    "followers": 71693,
+    "spotifyId": "3Q215HSlFN5mIwiwgAiLu8",
+    "spotifyPopularity": 30,
+    "genres": [
+      "tamil indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Indie",
+    "likes": "71K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3bD7WaIwFeJMNv8smNGODB",
+    "name": "The Anirudh Varma Collective",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9ec2f80130ff2a779cb672e4",
+    "followers": 19531,
+    "spotifyId": "3bD7WaIwFeJMNv8smNGODB",
+    "spotifyPopularity": 34,
+    "genres": [
+      "indian indie",
+      "ghazal",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Indie",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0VLoKkBLyu8CsffbUHZn45",
+    "name": "Sandeep Narayan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb85652bde415c18c0ead72c54",
+    "followers": 10434,
+    "spotifyId": "0VLoKkBLyu8CsffbUHZn45",
+    "spotifyPopularity": 33,
+    "genres": [
+      "tamil indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Indie",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0VocNHCBQ7Mzn9jNOmuSmz",
+    "name": "Sivaangi Krishnakumar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd6acdeadbefc20f7ff17fee2",
+    "followers": 155500,
+    "spotifyId": "0VocNHCBQ7Mzn9jNOmuSmz",
+    "spotifyPopularity": 57,
+    "genres": [
+      "tamil indie",
+      "tamil pop",
+      "tamil dance",
+      "kollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "k-pop",
+    "primaryGenre": "Indie",
+    "likes": "155K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0FpO7hbnI5X094KWa9uvR8",
+    "name": "Kazinama",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb51c3035c7f96b2aa459b54ec",
+    "followers": 29863,
+    "spotifyId": "0FpO7hbnI5X094KWa9uvR8",
+    "spotifyPopularity": 55,
+    "genres": [
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "k-pop",
+    "primaryGenre": "Indie",
+    "likes": "29K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1GLtl8uqKmnyCWxHmw9tL4",
+    "name": "The Kooks",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdb445115fc89f2ede86dab8a",
+    "followers": 2640624,
+    "spotifyId": "1GLtl8uqKmnyCWxHmw9tL4",
+    "spotifyPopularity": 71,
+    "genres": [
+      "indie",
+      "indie rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "k-pop",
+    "primaryGenre": "Indie",
+    "likes": "2.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "6RzPQpJ5z2JkOJlmsCVxJq",
+    "name": "Ujjwal Kashyap",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3af685bbb9af595819eaf0e9",
+    "followers": 53445,
+    "spotifyId": "6RzPQpJ5z2JkOJlmsCVxJq",
+    "spotifyPopularity": 63,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "k-pop",
+    "primaryGenre": "Indie",
+    "likes": "53K",
+    "tier": "Established"
+  },
+  {
+    "id": "6MPuzz9hPrs4TwxeHh4cEj",
+    "name": "Amir Ameer",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e1f7b2534c5c1fd5d9f81213",
+    "followers": 119317,
+    "spotifyId": "6MPuzz9hPrs4TwxeHh4cEj",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "119K",
+    "tier": "Established"
+  },
+  {
+    "id": "5jJrJU7VVmxQQLcLAmmxXc",
+    "name": "Sai Abhyankkar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0a27dbc5eb270fd2e78b9cbb",
+    "followers": 276198,
+    "spotifyId": "5jJrJU7VVmxQQLcLAmmxXc",
+    "spotifyPopularity": 67,
+    "genres": [
+      "tamil indie",
+      "tamil pop",
+      "kollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "276K",
+    "tier": "Established"
+  },
+  {
+    "id": "3iGhlvzpXc0UHBQ7klAItX",
+    "name": "Mitraz",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe96a339b04840c8fb801ccb4",
+    "followers": 757366,
+    "spotifyId": "3iGhlvzpXc0UHBQ7klAItX",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi pop",
+      "desi",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "757K",
+    "tier": "Established"
+  },
+  {
+    "id": "3gKTtA1BK4pq1IIHXAyvgO",
+    "name": "UNPLG'd",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf7ed241b5a220864cd14686d",
+    "followers": 61325,
+    "spotifyId": "3gKTtA1BK4pq1IIHXAyvgO",
+    "spotifyPopularity": 66,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "61K",
+    "tier": "Established"
+  },
+  {
+    "id": "3scNK8e4mqnP6Rb8a3lwZY",
+    "name": "Maanu",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba5126faf795f6348a9e6a430",
+    "followers": 306611,
+    "spotifyId": "3scNK8e4mqnP6Rb8a3lwZY",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie",
+      "desi",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "306K",
+    "tier": "Established"
+  },
+  {
+    "id": "7b6Ui7JVaBDEfZB9k6nHL0",
+    "name": "The Local Train",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7aa6748dcf92d2eff597f154",
+    "followers": 1781893,
+    "spotifyId": "7b6Ui7JVaBDEfZB9k6nHL0",
+    "spotifyPopularity": 62,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "5gVozagAcRKYCeAVnlC3Nk",
+    "name": "Vilen",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc02a4d641eba9b253e106733",
+    "followers": 1013251,
+    "spotifyId": "5gVozagAcRKYCeAVnlC3Nk",
+    "spotifyPopularity": 62,
+    "genres": [
+      "hindi indie",
+      "desi pop",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "1nmKYy6efdYl8sIcT0gCLJ",
+    "name": "Anumita Nadesan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb25553a92291700b714dbd11",
+    "followers": 86523,
+    "spotifyId": "1nmKYy6efdYl8sIcT0gCLJ",
+    "spotifyPopularity": 61,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "86K",
+    "tier": "Established"
+  },
+  {
+    "id": "139FRgoVcJ82jogPttiWcc",
+    "name": "Sai Smriti",
+    "image": "https://i.scdn.co/image/ab67616d0000b27374a555ea03b0844b1e1d4513",
+    "followers": 31834,
+    "spotifyId": "139FRgoVcJ82jogPttiWcc",
+    "spotifyPopularity": 62,
+    "genres": [
+      "tamil indie",
+      "tamil pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "31K",
+    "tier": "Established"
+  },
+  {
+    "id": "2AQwMDyDvgpZcHLITOpgpm",
+    "name": "Adithya RK",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ca35b3d5afdf08491fdf732",
+    "followers": 75507,
+    "spotifyId": "2AQwMDyDvgpZcHLITOpgpm",
+    "spotifyPopularity": 61,
+    "genres": [
+      "tamil indie",
+      "kollywood",
+      "tamil pop",
+      "telugu pop",
+      "tollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "75K",
+    "tier": "Established"
+  },
+  {
+    "id": "0SwO7SWeDHJijQ3XNS7xEE",
+    "name": "MGMT",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9dccdc8f4087cbe2bdedc9d3",
+    "followers": 3516164,
+    "spotifyId": "0SwO7SWeDHJijQ3XNS7xEE",
+    "spotifyPopularity": 77,
+    "genres": [
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "3.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "465OXuCU8YZNmVG1leLwQ9",
+    "name": "Shashwat Sachdev",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb54f120e72388f1c5c3aa3edd",
+    "followers": 42262,
+    "spotifyId": "465OXuCU8YZNmVG1leLwQ9",
+    "spotifyPopularity": 59,
+    "genres": [
+      "indian indie",
+      "bollywood",
+      "sufi",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "42K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4fbPpuZDZjzbTdGIwhD45a",
+    "name": "Srinisha Jayaseelan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5dd0ccc5d265e61627bf1938",
+    "followers": 314629,
+    "spotifyId": "4fbPpuZDZjzbTdGIwhD45a",
+    "spotifyPopularity": 59,
+    "genres": [
+      "tamil indie",
+      "tamil pop",
+      "kollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "314K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4ONKKiZXVVuz5nAWCUnnjG",
+    "name": "Stephen Zechariah",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcb227b29758b87233f69e28a",
+    "followers": 2839335,
+    "spotifyId": "4ONKKiZXVVuz5nAWCUnnjG",
+    "spotifyPopularity": 60,
+    "genres": [
+      "tamil indie",
+      "tamil pop",
+      "tamil hip hop",
+      "kollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "2.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "4wwYGgSpeBtvk5WX6HBqzw",
+    "name": "Aditya A",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb248427cd12fd11d717777e3b",
+    "followers": 239822,
+    "spotifyId": "4wwYGgSpeBtvk5WX6HBqzw",
+    "spotifyPopularity": 58,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "239K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5tVEtYVMATyQ6OVOetuZlk",
+    "name": "Iqlipse Nova",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8ea19d48dcf06d7dbd6b4080",
+    "followers": 316820,
+    "spotifyId": "5tVEtYVMATyQ6OVOetuZlk",
+    "spotifyPopularity": 58,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "316K",
+    "tier": "Rising"
+  },
+  {
+    "id": "46cVq2dwPgzPE3X1VR9TMj",
+    "name": "Fourtwnty",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd56a4e114e63de49e1458707",
+    "followers": 3335054,
+    "spotifyId": "46cVq2dwPgzPE3X1VR9TMj",
+    "spotifyPopularity": 75,
+    "genres": [
+      "indonesian indie",
+      "indonesian pop",
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "3.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "4FJhE5ToBQGzOGf0D5Xd1C",
+    "name": "Abhijeet Srivastava",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb53f384f73f643cda37ed977f",
+    "followers": 178567,
+    "spotifyId": "4FJhE5ToBQGzOGf0D5Xd1C",
+    "spotifyPopularity": 57,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi pop",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "178K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7d86ERlvO5UG44j7Va0Y0C",
+    "name": "Pamungkas",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba86c5c1e476abb50126c268d",
+    "followers": 6587119,
+    "spotifyId": "7d86ERlvO5UG44j7Va0Y0C",
+    "spotifyPopularity": 74,
+    "genres": [
+      "indonesian indie",
+      "indonesian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "6.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "0kTAB5SUakX286t6K7J3QR",
+    "name": "Dikshant",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb678f2df395a5b6f1e04e43dd",
+    "followers": 162207,
+    "spotifyId": "0kTAB5SUakX286t6K7J3QR",
+    "spotifyPopularity": 56,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "162K",
+    "tier": "Rising"
+  },
+  {
+    "id": "35XjIi7RK4ckjgBrE6CcQo",
+    "name": "Akshath",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb76e7257eb60fd8c6a8ea0a12",
+    "followers": 215840,
+    "spotifyId": "35XjIi7RK4ckjgBrE6CcQo",
+    "spotifyPopularity": 56,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "hindi pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "215K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0DHOOKfXu4aU7LsWjTdrIN",
+    "name": "Paresh Pahuja",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6098f840d915bf830197cc6f",
+    "followers": 38021,
+    "spotifyId": "0DHOOKfXu4aU7LsWjTdrIN",
+    "spotifyPopularity": 55,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "Indie",
+    "likes": "38K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6Tt4bucXZfk6Vasj3fSaCT",
+    "name": "Prateeksha Srivastava",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6d6af62a1bb563c19a820820",
+    "followers": 20569,
+    "spotifyId": "6Tt4bucXZfk6Vasj3fSaCT",
+    "spotifyPopularity": 54,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "bhajan",
+      "devotional"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6xlrAAgxcRlgCXnbg2hcFc",
+    "name": "The Yellow Diary",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6d9b0c7a3b1a30c509baa49c",
+    "followers": 285370,
+    "spotifyId": "6xlrAAgxcRlgCXnbg2hcFc",
+    "spotifyPopularity": 47,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "285K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6BWd8VpOoODhMOPks4sI6R",
+    "name": "NAALAYAK",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4cf605c982996fbc8749200a",
+    "followers": 141996,
+    "spotifyId": "6BWd8VpOoODhMOPks4sI6R",
+    "spotifyPopularity": 45,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "141K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0cPN6x5LmDIZjp6gFmAkqw",
+    "name": "Twin Strings",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebad168b4511e66023c695c649",
+    "followers": 147916,
+    "spotifyId": "0cPN6x5LmDIZjp6gFmAkqw",
+    "spotifyPopularity": 48,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "147K",
+    "tier": "Rising"
+  },
+  {
+    "id": "20tfEk8GA9lO1i0cZsslKS",
+    "name": "KhoslaRaghu",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9fb340ddaec654c5decfecd5",
+    "followers": 26776,
+    "spotifyId": "20tfEk8GA9lO1i0cZsslKS",
+    "spotifyPopularity": 45,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "26K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6pPhJfUm9223ZTDFuz3ISJ",
+    "name": "Keethan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc4c3750e5f9d9f7610135a03",
+    "followers": 50832,
+    "spotifyId": "6pPhJfUm9223ZTDFuz3ISJ",
+    "spotifyPopularity": 45,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "tamil indie",
+      "mollywood",
+      "malayalam pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "50K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2sjFmfxifbUo2A25xuQOp0",
+    "name": "gini",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2567e4002ed6da6a68155755",
+    "followers": 64083,
+    "spotifyId": "2sjFmfxifbUo2A25xuQOp0",
+    "spotifyPopularity": 42,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "64K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6JUEjbhKiAZFmMRrudNHgL",
+    "name": "Faridkot",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb08afe69d97ef862055e4b6a7",
+    "followers": 87569,
+    "spotifyId": "6JUEjbhKiAZFmMRrudNHgL",
+    "spotifyPopularity": 44,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "87K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0Xbdgzdm7k9BJ5gUgmAkpy",
+    "name": "Indian Ocean",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2335b293a56ed05c92bea329",
+    "followers": 1186262,
+    "spotifyId": "0Xbdgzdm7k9BJ5gUgmAkpy",
+    "spotifyPopularity": 33,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi pop",
+      "sufi"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "1.2M",
+    "tier": "Underground"
+  },
+  {
+    "id": "45m11y8OUyx5EgHiKvEC3c",
+    "name": "Anand Bhaskar Collective",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfbcae900c92e77c860f4be81",
+    "followers": 68323,
+    "spotifyId": "45m11y8OUyx5EgHiKvEC3c",
+    "spotifyPopularity": 34,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "68K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2oICeSjaxu1Y5TF3RdQuEA",
+    "name": "Darzi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ec13b8809eea4da95d0674a",
+    "followers": 25499,
+    "spotifyId": "2oICeSjaxu1Y5TF3RdQuEA",
+    "spotifyPopularity": 36,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "25K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0frlLIs2UWXeTwqwH92Apo",
+    "name": "Shivoryx",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd006a646b4efb986f682671",
+    "followers": 23608,
+    "spotifyId": "0frlLIs2UWXeTwqwH92Apo",
+    "spotifyPopularity": 37,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "23K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3F5SVEzUMD5JVZ0K9Q4XZW",
+    "name": "Rishi Kumar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5ea915ff443ffae1ba48d53b",
+    "followers": 11764,
+    "spotifyId": "3F5SVEzUMD5JVZ0K9Q4XZW",
+    "spotifyPopularity": 36,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6w9HvCLYiBHxp7YcN7zCvF",
+    "name": "Begum",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebccc30b5d3dc70a4e5e28719a",
+    "followers": 28375,
+    "spotifyId": "6w9HvCLYiBHxp7YcN7zCvF",
+    "spotifyPopularity": 29,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "shoegaze"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "28K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2ckYmy0ueLXjmwWcPs1spQ",
+    "name": "Donn Bhat",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ab8929c30be827f8da11daa",
+    "followers": 41787,
+    "spotifyId": "2ckYmy0ueLXjmwWcPs1spQ",
+    "spotifyPopularity": 34,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "41K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7lTlD9L3QhfOH13Z0n1ibN",
+    "name": "Raghav Meattle",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5134eb6ae972d92fc4dfd805",
+    "followers": 47115,
+    "spotifyId": "7lTlD9L3QhfOH13Z0n1ibN",
+    "spotifyPopularity": 36,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "47K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7GY6RgfJdJDs2euNW5Scv4",
+    "name": "Abdon Mech",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb56a8016b60bf0a5ef95a5fa5",
+    "followers": 10121,
+    "spotifyId": "7GY6RgfJdJDs2euNW5Scv4",
+    "spotifyPopularity": 27,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "740SYcL7Hl2TatDM2wYV8V",
+    "name": "Swastik The Band",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4c7a622c2de8e2742279ddf6",
+    "followers": 40390,
+    "spotifyId": "740SYcL7Hl2TatDM2wYV8V",
+    "spotifyPopularity": 31,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "40K",
+    "tier": "Underground"
+  },
+  {
+    "id": "57GVEttnzshGnLYIJCFeKo",
+    "name": "Zephyrtone",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c59f7757398dccdc7635f99",
+    "followers": 14072,
+    "spotifyId": "57GVEttnzshGnLYIJCFeKo",
+    "spotifyPopularity": 31,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1QH7G1DjLYaY5EvqO1PA6w",
+    "name": "Prateek Gandhi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb74abd0132ecf0547a09eebd8",
+    "followers": 10372,
+    "spotifyId": "1QH7G1DjLYaY5EvqO1PA6w",
+    "spotifyPopularity": 33,
+    "genres": [
+      "hindi indie",
+      "tamil indie",
+      "desi pop",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2fbOTJal9uKzOkYEWxaiCK",
+    "name": "AMAN",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8e882b3c05e278ff82190690",
+    "followers": 22470,
+    "spotifyId": "2fbOTJal9uKzOkYEWxaiCK",
+    "spotifyPopularity": 34,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "22K",
+    "tier": "Underground"
+  },
+  {
+    "id": "40CEytkVli5Le5CFOYnONw",
+    "name": "HYDR",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7066d031d9c1ad82e89089a0",
+    "followers": 20480,
+    "spotifyId": "40CEytkVli5Le5CFOYnONw",
+    "spotifyPopularity": 41,
+    "genres": [
+      "indian indie",
+      "desi",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2qV4ArHDzLVSdX6GWy5R1z",
+    "name": "Vaibhav Bundhoo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba44b50fdab2597c5f2e1162e",
+    "followers": 20066,
+    "spotifyId": "2qV4ArHDzLVSdX6GWy5R1z",
+    "spotifyPopularity": 30,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3VkYRrfqoEIhBfcHTvdYGs",
+    "name": "Bombay Bandook",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6a83a58736481b53e1404e12",
+    "followers": 26284,
+    "spotifyId": "3VkYRrfqoEIhBfcHTvdYGs",
+    "spotifyPopularity": 25,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "26K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0GCJCJGSrE0iyB83DYTNqf",
+    "name": "Kaash",
+    "image": "https://i.scdn.co/image/ab67616d0000b273aaf080482102a846efe36193",
+    "followers": 26294,
+    "spotifyId": "0GCJCJGSrE0iyB83DYTNqf",
+    "spotifyPopularity": 21,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "26K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3HUf0l1HSBzHw0F5UhBOpA",
+    "name": "Piyush Bhisekar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdbde03da03c8a6c333dd6563",
+    "followers": 53836,
+    "spotifyId": "3HUf0l1HSBzHw0F5UhBOpA",
+    "spotifyPopularity": 26,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "53K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0xhbB0DrR0MnaU1ynq4itU",
+    "name": "Fiddlecraft",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc52a7e5b368f94211cd9ae79",
+    "followers": 35166,
+    "spotifyId": "0xhbB0DrR0MnaU1ynq4itU",
+    "spotifyPopularity": 27,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "35K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5PVlXEAvlt6SfYpWBYTM4C",
+    "name": "The F16s",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcb0f64879d07b92658c97e1c",
+    "followers": 49600,
+    "spotifyId": "5PVlXEAvlt6SfYpWBYTM4C",
+    "spotifyPopularity": 30,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "49K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1HMOlfBc4CK1WXcIeNnLPq",
+    "name": "Kamakshi Khanna",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebee887d03766b702b4a9f6c2e",
+    "followers": 10102,
+    "spotifyId": "1HMOlfBc4CK1WXcIeNnLPq",
+    "spotifyPopularity": 29,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1T5V8R7QKMhQImEdKNDyFU",
+    "name": "ZOH",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb591c0f9d663dd3d32222c096",
+    "followers": 11249,
+    "spotifyId": "1T5V8R7QKMhQImEdKNDyFU",
+    "spotifyPopularity": 30,
+    "genres": [
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4FMduZvsMYM69TKN3i0YRp",
+    "name": "Advaita",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe0845647a0aa3749b7638eee",
+    "followers": 90619,
+    "spotifyId": "4FMduZvsMYM69TKN3i0YRp",
+    "spotifyPopularity": 27,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "90K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7qzkGpR5qvkIVPXN5UwvVZ",
+    "name": "Till Apes",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e9bd587f3e037f9698e8276",
+    "followers": 10099,
+    "spotifyId": "7qzkGpR5qvkIVPXN5UwvVZ",
+    "spotifyPopularity": 27,
+    "genres": [
+      "indian indie",
+      "desi hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "Indie",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2yC22iFmcNBOfauIctRvPT",
+    "name": "Gaurav Chatterji",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd0ec1839381846f6eb5f7cb2",
+    "followers": 20677,
+    "spotifyId": "2yC22iFmcNBOfauIctRvPT",
+    "spotifyPopularity": 51,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Indie",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2vylKAxeoJ2dAwIi9ck762",
+    "name": "Charlie Rodd",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdf81eab10eebc7d02c55d34d",
+    "followers": 116919,
+    "spotifyId": "2vylKAxeoJ2dAwIi9ck762",
+    "spotifyPopularity": 46,
+    "genres": [
+      "mexican indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Indie",
+    "likes": "116K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2QKf9jr434G3Mo8Hr9npPb",
+    "name": "THE CHARM PARK",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcdd33c55be423637ce976e81",
+    "followers": 66534,
+    "spotifyId": "2QKf9jr434G3Mo8Hr9npPb",
+    "spotifyPopularity": 41,
+    "genres": [
+      "japanese indie",
+      "anime",
+      "j-r&b",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Indie",
+    "likes": "66K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1tho5dJnzdYD57EQkM3SmK",
+    "name": "Chastity Belt",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba63e883b18b6400ed33a2e94",
+    "followers": 110940,
+    "spotifyId": "1tho5dJnzdYD57EQkM3SmK",
+    "spotifyPopularity": 41,
+    "genres": [
+      "indie punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Indie",
+    "likes": "110K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6S8w5rLsEwjN21jQeRES0n",
+    "name": "Hitsujibungaku",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb806f60f7470716001f6f3476",
+    "followers": 398846,
+    "spotifyId": "6S8w5rLsEwjN21jQeRES0n",
+    "spotifyPopularity": 62,
+    "genres": [
+      "japanese indie",
+      "j-pop",
+      "anime",
+      "shoegaze",
+      "j-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Indie",
+    "likes": "398K",
+    "tier": "Established"
+  },
+  {
+    "id": "3PKV6Xh7jBI15NF76VX0hp",
+    "name": "ひとひら",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe35cff42d3cc44a538bf4510",
+    "followers": 10251,
+    "spotifyId": "3PKV6Xh7jBI15NF76VX0hp",
+    "spotifyPopularity": 31,
+    "genres": [
+      "japanese indie",
+      "math rock",
+      "shoegaze",
+      "j-rock",
+      "midwest emo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Indie",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0syIRg9MPSpJIC0QCPUaHB",
+    "name": "Beta Radio",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55d67850e9dfa4e8be866afe",
+    "followers": 80366,
+    "spotifyId": "0syIRg9MPSpJIC0QCPUaHB",
+    "spotifyPopularity": 51,
+    "genres": [
+      "indie folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Indie",
+    "likes": "80K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5EM6xJN2QNk0cL7EEm9HR9",
+    "name": "Radical Face",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb525cf67298ee623539c1b8bf",
+    "followers": 408554,
+    "spotifyId": "5EM6xJN2QNk0cL7EEm9HR9",
+    "spotifyPopularity": 61,
+    "genres": [
+      "indie folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Indie",
+    "likes": "408K",
+    "tier": "Established"
+  },
+  {
+    "id": "4vAQ4M7vgItwBtmBTgRu48",
+    "name": "Porridge Radio",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8b2fbb0bbfa21e6b96bb5fdd",
+    "followers": 84436,
+    "spotifyId": "4vAQ4M7vgItwBtmBTgRu48",
+    "spotifyPopularity": 40,
+    "genres": [
+      "lo-fi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Indie",
+    "likes": "84K",
+    "tier": "Rising"
+  },
+  {
+    "id": "51Ssgb0bFNfHyAXc3Fpmuv",
+    "name": "Vira Talisa",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb071c6df61d149afe00a1c840",
+    "followers": 130227,
+    "spotifyId": "51Ssgb0bFNfHyAXc3Fpmuv",
+    "spotifyPopularity": 48,
+    "genres": [
+      "indonesian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "viral",
+    "primaryGenre": "Indie",
+    "likes": "130K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4qzPzxh5OORai1gdxT3D69",
+    "name": "Gana Mani",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb52a6fbedd6d37ad51b22d390",
+    "followers": 48593,
+    "spotifyId": "4qzPzxh5OORai1gdxT3D69",
+    "spotifyPopularity": 44,
+    "genres": [
+      "tamil indie",
+      "tamil hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "trending",
+    "primaryGenre": "Indie",
+    "likes": "48K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5OF6qcEdyCFgyKPHkna1kb",
+    "name": "Nixen",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe6adba9117029c34649eee73",
+    "followers": 31676,
+    "spotifyId": "5OF6qcEdyCFgyKPHkna1kb",
+    "spotifyPopularity": 43,
+    "genres": [
+      "tamil indie",
+      "tamil pop",
+      "kollywood",
+      "tamil hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "trending",
+    "primaryGenre": "Indie",
+    "likes": "31K",
+    "tier": "Rising"
+  },
+  {
+    "id": "59cXfBldx8F2Fpq86R4MVV",
+    "name": "maahi",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd49f272ad531591135ef2498",
+    "followers": 14037,
+    "spotifyId": "59cXfBldx8F2Fpq86R4MVV",
+    "spotifyPopularity": 40,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "trending",
+    "primaryGenre": "Indie",
+    "likes": "14K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2Qa5HYyDrPrArARMDJfDbJ",
+    "name": "Bombay the Artist",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb065ddbae8dde9a0dddd32ccd",
+    "followers": 10770,
+    "spotifyId": "2Qa5HYyDrPrArARMDJfDbJ",
+    "spotifyPopularity": 43,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "superstar",
+    "primaryGenre": "Indie",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4amcdwiQHHj0QWiWt7DzDt",
+    "name": "Supaveen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba5327cb9e92afa5885bcf50a",
+    "followers": 11084,
+    "spotifyId": "4amcdwiQHHj0QWiWt7DzDt",
+    "spotifyPopularity": 43,
+    "genres": [
+      "tamil indie",
+      "tamil hip hop",
+      "tamil dance",
+      "tamil pop",
+      "kollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "superstar",
+    "primaryGenre": "Indie",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3dtVOi7B41MT6TKllYhfuT",
+    "name": "レトロマイガール!!",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb151c3ede1cff44a923165362",
+    "followers": 15514,
+    "spotifyId": "3dtVOi7B41MT6TKllYhfuT",
+    "spotifyPopularity": 32,
+    "genres": [
+      "japanese indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "Indie",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5UBfs4W6ckxE7jCcqapRPn",
+    "name": "Pritt",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebce1a60f2251a85fb38306dcb",
+    "followers": 26956,
+    "spotifyId": "5UBfs4W6ckxE7jCcqapRPn",
+    "spotifyPopularity": 55,
+    "genres": [
+      "tamil indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Indie",
+    "likes": "26K",
+    "tier": "Rising"
+  },
+  {
+    "id": "61ARIGyeQjBmULCy2ckSTp",
+    "name": "vaisagh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1a1e92ad442a3ccc0d667268",
+    "followers": 70466,
+    "spotifyId": "61ARIGyeQjBmULCy2ckSTp",
+    "spotifyPopularity": 47,
+    "genres": [
+      "tamil indie",
+      "tamil hip hop",
+      "tamil dance",
+      "tamil pop",
+      "kollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Indie",
+    "likes": "70K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0FHOJryrpHtkKAZMKULXXn",
+    "name": "Ronit Vinta",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb12bbdb7757ff379c20db2d4e",
+    "followers": 56683,
+    "spotifyId": "0FHOJryrpHtkKAZMKULXXn",
+    "spotifyPopularity": 45,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Indie",
+    "likes": "56K",
+    "tier": "Rising"
+  },
+  {
+    "id": "48apiuEaHdddhdRvfFjPB7",
+    "name": "Chilli Beans.",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb37199181f187d6b9014014bf",
+    "followers": 130396,
+    "spotifyId": "48apiuEaHdddhdRvfFjPB7",
+    "spotifyPopularity": 51,
+    "genres": [
+      "japanese indie",
+      "j-pop",
+      "j-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "Indie",
+    "likes": "130K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4uJKSLGvdvinobijrcfKw4",
+    "name": "chilldspot",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfffcd64678af9f7b7bab7832",
+    "followers": 99644,
+    "spotifyId": "4uJKSLGvdvinobijrcfKw4",
+    "spotifyPopularity": 46,
+    "genres": [
+      "japanese indie",
+      "j-r&b",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "Indie",
+    "likes": "99K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2KGwmllYQr2BgxTkdOH5wt",
+    "name": "Bala",
+    "image": "https://i.scdn.co/image/ab67616d0000b27367f717a05f199112064347cc",
+    "followers": 87085,
+    "spotifyId": "2KGwmllYQr2BgxTkdOH5wt",
+    "spotifyPopularity": 31,
+    "genres": [
+      "tamil indie",
+      "tamil pop",
+      "kollywood"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "energetic",
+    "primaryGenre": "Indie",
+    "likes": "87K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3VDwfryUiGGszWpyzpwDGJ",
+    "name": "Romantic Echoes",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0dd23143ce1ba0fb41ac54d0",
+    "followers": 37971,
+    "spotifyId": "3VDwfryUiGGszWpyzpwDGJ",
+    "spotifyPopularity": 46,
+    "genres": [
+      "indonesian indie",
+      "malay"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "romantic",
+    "primaryGenre": "Indie",
+    "likes": "37K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6gxRXj2KUJ02vfIgkNUq5b",
+    "name": "Justh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb025bd33104bd3dca746e2653",
+    "followers": 42272,
+    "spotifyId": "6gxRXj2KUJ02vfIgkNUq5b",
+    "spotifyPopularity": 51,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "romantic",
+    "primaryGenre": "Indie",
+    "likes": "42K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2h0iLKaNExZIpQsp4jpf8x",
+    "name": "Asagaya Romantics",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcaebbb3c7bfdbf829b99d0ec",
+    "followers": 19259,
+    "spotifyId": "2h0iLKaNExZIpQsp4jpf8x",
+    "spotifyPopularity": 39,
+    "genres": [
+      "japanese indie",
+      "shibuya-kei",
+      "city pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "romantic",
+    "primaryGenre": "Indie",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4SCDbi4KztQTP0HoOuCNjK",
+    "name": "Arijit Anand",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe07379f14dba9e53a1301626",
+    "followers": 33404,
+    "spotifyId": "4SCDbi4KztQTP0HoOuCNjK",
+    "spotifyPopularity": 40,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "romantic",
+    "primaryGenre": "Indie",
+    "likes": "33K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4sjw8DSxhdPiJkGbtAobEg",
+    "name": "Mitika Kanwar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6ff369ceee8d750647e852a9",
+    "followers": 17090,
+    "spotifyId": "4sjw8DSxhdPiJkGbtAobEg",
+    "spotifyPopularity": 46,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "romantic",
+    "primaryGenre": "Indie",
+    "likes": "17K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0uwbmn6SWX4kujbrDTnjaj",
+    "name": "JUNO",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb238907e567225516deb5770a",
+    "followers": 11446,
+    "spotifyId": "0uwbmn6SWX4kujbrDTnjaj",
+    "spotifyPopularity": 48,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "melancholic",
+    "primaryGenre": "Indie",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "42HHTJt9IDWgxElbHzZStO",
+    "name": "Sarah Black",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb31043ea5ac6e77145dcb5bf0",
+    "followers": 10694,
+    "spotifyId": "42HHTJt9IDWgxElbHzZStO",
+    "spotifyPopularity": 35,
+    "genres": [
+      "tamil indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "melancholic",
+    "primaryGenre": "Indie",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "41Sw7HsskHGbJOJXhLUTEK",
+    "name": "Osho Jain",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6c657b43c36034af71765378",
+    "followers": 186787,
+    "spotifyId": "41Sw7HsskHGbJOJXhLUTEK",
+    "spotifyPopularity": 51,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "uplifting",
+    "primaryGenre": "Indie",
+    "likes": "186K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3xZ9z6k4Suc2O8cAiwMt7h",
+    "name": "Suzonn",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e37bebbad03ec4737acfac5",
+    "followers": 193025,
+    "spotifyId": "3xZ9z6k4Suc2O8cAiwMt7h",
+    "spotifyPopularity": 49,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "uplifting",
+    "primaryGenre": "Indie",
+    "likes": "193K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1ciT67XXpG2HOVsLQjKdv6",
+    "name": "Ankur Tewari",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a0f4fe4c6c59f1ba6e75268",
+    "followers": 268056,
+    "spotifyId": "1ciT67XXpG2HOVsLQjKdv6",
+    "spotifyPopularity": 46,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "hindi hip hop",
+      "desi hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "uplifting",
+    "primaryGenre": "Indie",
+    "likes": "268K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3E9wPDeQ4FoB8okbcGF0Q7",
+    "name": "Arooh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4d201a0657c2317e5eea717c",
+    "followers": 12645,
+    "spotifyId": "3E9wPDeQ4FoB8okbcGF0Q7",
+    "spotifyPopularity": 41,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "uplifting",
+    "primaryGenre": "Indie",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "51pcy004juIDA1mruOZJCX",
+    "name": "Utsavi Jha",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7c8bb1c1e0992ea6f89e7c59",
+    "followers": 18398,
+    "spotifyId": "51pcy004juIDA1mruOZJCX",
+    "spotifyPopularity": 35,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "uplifting",
+    "primaryGenre": "Indie",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0uYkdsYTX52nJ3iiER4rg9",
+    "name": "Ishpreet Singh",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcf486e33a0b2a3dcd19c8810",
+    "followers": 32345,
+    "spotifyId": "0uYkdsYTX52nJ3iiER4rg9",
+    "spotifyPopularity": 33,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "uplifting",
+    "primaryGenre": "Indie",
+    "likes": "32K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5FndSs7pNHPzomD3mxiBR5",
+    "name": "Advait",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8e0596ff4bc22e7247623ca8",
+    "followers": 32682,
+    "spotifyId": "5FndSs7pNHPzomD3mxiBR5",
+    "spotifyPopularity": 33,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "uplifting",
+    "primaryGenre": "Indie",
+    "likes": "32K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4nddgNqdf0SFeeqhbDN6rN",
+    "name": "Happyness",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb61958bf3191b54cab31991e3",
+    "followers": 29420,
+    "spotifyId": "4nddgNqdf0SFeeqhbDN6rN",
+    "spotifyPopularity": 30,
+    "genres": [
+      "lo-fi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "happy",
+    "primaryGenre": "Indie",
+    "likes": "29K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5npIe0yBbHoAwQ5XYVVEwn",
+    "name": "Dhruv Visvanath",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebce02a767d1a997a67e3d4eee",
+    "followers": 47251,
+    "spotifyId": "5npIe0yBbHoAwQ5XYVVEwn",
+    "spotifyPopularity": 25,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "relaxing",
+    "primaryGenre": "Indie",
+    "likes": "47K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3CVXA5TAWpmfGPqyMqXpPb",
+    "name": "Savera",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb80ab8b05c210da4eed1c555c",
+    "followers": 15204,
+    "spotifyId": "3CVXA5TAWpmfGPqyMqXpPb",
+    "spotifyPopularity": 52,
+    "genres": [
+      "hindi indie",
+      "desi pop",
+      "indian indie",
+      "bollywood",
+      "hindi pop",
+      "desi"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Indie",
+    "likes": "15K",
+    "tier": "Rising"
+  },
+  {
+    "id": "29ggvWc5EMcSk5RLQ5aXHr",
+    "name": "Pratsofficial",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb01fcb0f101935a01e1474f12",
+    "followers": 108860,
+    "spotifyId": "29ggvWc5EMcSk5RLQ5aXHr",
+    "spotifyPopularity": 47,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Indie",
+    "likes": "108K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2NSBUoP14iO3vxm14Slc5H",
+    "name": "Raghav Kaushik",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb6cf6126d782180310463ec3",
+    "followers": 21983,
+    "spotifyId": "2NSBUoP14iO3vxm14Slc5H",
+    "spotifyPopularity": 38,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "gujarati pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Indie",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7IAFAOtc9kTYNTizhLSWM6",
+    "name": "Hollow Coves",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ee1cdaa581cc2784ed10f08",
+    "followers": 788651,
+    "spotifyId": "7IAFAOtc9kTYNTizhLSWM6",
+    "spotifyPopularity": 68,
+    "genres": [
+      "indie folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Indie",
+    "likes": "788K",
+    "tier": "Established"
+  },
+  {
+    "id": "3FE0TWXNCntv6rKQY68Z6Z",
+    "name": "Ajit Kale",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5dd83ffa971dfcfad6c2111b",
+    "followers": 10965,
+    "spotifyId": "3FE0TWXNCntv6rKQY68Z6Z",
+    "spotifyPopularity": 30,
+    "genres": [
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Indie",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "60Pg5sPykBui7UZsqaoHu8",
+    "name": "Raman",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb82e3b482cdb5aac8ec570a66",
+    "followers": 20723,
+    "spotifyId": "60Pg5sPykBui7UZsqaoHu8",
+    "spotifyPopularity": 24,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Indie",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4gAmleqQJI116NpfqkMxha",
+    "name": "Aryan Katoch",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebac5b89011d0144bf64d4be3d",
+    "followers": 66874,
+    "spotifyId": "4gAmleqQJI116NpfqkMxha",
+    "spotifyPopularity": 34,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "guitar",
+    "primaryGenre": "Indie",
+    "likes": "66K",
+    "tier": "Underground"
+  },
+  {
+    "id": "04czw5AgY218VUkgCtwRv9",
+    "name": "Indosoul by Karthick Iyer",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdce1a307f6d1891af803ed65",
+    "followers": 16556,
+    "spotifyId": "04czw5AgY218VUkgCtwRv9",
+    "spotifyPopularity": 23,
+    "genres": [
+      "tamil indie",
+      "indian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "guitar",
+    "primaryGenre": "Indie",
+    "likes": "16K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0p5axeJsbtTCXBrRVoKjwu",
+    "name": "The Drums",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5aa228084150aad9199d2575",
+    "followers": 1046362,
+    "spotifyId": "0p5axeJsbtTCXBrRVoKjwu",
+    "spotifyPopularity": 64,
+    "genres": [
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "drums",
+    "primaryGenre": "Indie",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "6gAtOqhriLzOzb3Qqmg5kO",
+    "name": "Volcano Choir",
+    "image": "https://i.scdn.co/image/cc8b1511db745afca2bddc48cc775224244290ef",
+    "followers": 145821,
+    "spotifyId": "6gAtOqhriLzOzb3Qqmg5kO",
+    "spotifyPopularity": 40,
+    "genres": [
+      "indie folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "choir",
+    "primaryGenre": "Indie",
+    "likes": "145K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3sAbVxYjczgrSmGrxcu7bM",
+    "name": "Goldroger",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebba49b4e157ab55bd2817322d",
+    "followers": 51114,
+    "spotifyId": "3sAbVxYjczgrSmGrxcu7bM",
+    "spotifyPopularity": 38,
+    "genres": [
+      "german indie",
+      "german hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Indie",
+    "likes": "51K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4T3jyyAF02vNapy2bdzMjn",
+    "name": "Golden Daze",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf37f94f727e8d3d820050135",
+    "followers": 12025,
+    "spotifyId": "4T3jyyAF02vNapy2bdzMjn",
+    "spotifyPopularity": 28,
+    "genres": [
+      "lo-fi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Indie",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1hxuMlq1xCyjGyhoPsiIM0",
+    "name": "Krameri",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8b190ff7c260b0e197317600",
+    "followers": 13549,
+    "spotifyId": "1hxuMlq1xCyjGyhoPsiIM0",
+    "spotifyPopularity": 39,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "grammy",
+    "primaryGenre": "Indie",
+    "likes": "13K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7EzXvSTOIXrtaL87k7aoBG",
+    "name": "lekhak",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4944078ce90f09fdf1787df",
+    "followers": 23417,
+    "spotifyId": "7EzXvSTOIXrtaL87k7aoBG",
+    "spotifyPopularity": 39,
+    "genres": [
+      "hindi indie",
+      "hindi hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "award winning",
+    "primaryGenre": "Indie",
+    "likes": "23K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6IDIJSFrTti8ivcLvkY94E",
+    "name": "B-Leaf",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0b4ae245473878d2db7bd417",
+    "followers": 11214,
+    "spotifyId": "6IDIJSFrTti8ivcLvkY94E",
+    "spotifyPopularity": 23,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "award winning",
+    "primaryGenre": "Indie",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0HkMgxowXkwqDN3Z0s7kAB",
+    "name": "Meme del Real",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9f35c1aba12a1e2f944ba1fd",
+    "followers": 26915,
+    "spotifyId": "0HkMgxowXkwqDN3Z0s7kAB",
+    "spotifyPopularity": 41,
+    "genres": [
+      "mexican indie",
+      "latin indie",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "meme",
+    "primaryGenre": "Indie",
+    "likes": "26K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0pVHBkObr9UNIWpms1e4I0",
+    "name": "Zartmann",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe36387eea6735b920459e21c",
+    "followers": 269151,
+    "spotifyId": "0pVHBkObr9UNIWpms1e4I0",
+    "spotifyPopularity": 71,
+    "genres": [
+      "german indie",
+      "german pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "underground",
+    "primaryGenre": "Indie",
+    "likes": "269K",
+    "tier": "Established"
+  },
+  {
+    "id": "2WmxTCUVOyGsqn4GA7VxuC",
+    "name": "Gustav",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6687c96f98b07218b00e3ada",
+    "followers": 67764,
+    "spotifyId": "2WmxTCUVOyGsqn4GA7VxuC",
+    "spotifyPopularity": 68,
+    "genres": [
+      "german indie",
+      "german hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "underground",
+    "primaryGenre": "Indie",
+    "likes": "67K",
+    "tier": "Established"
+  },
+  {
+    "id": "6CP5wWvO8oIxedESJNCN4H",
+    "name": "Ski Aggu",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb00deb643f8a90b1f9194ae7a",
+    "followers": 563182,
+    "spotifyId": "6CP5wWvO8oIxedESJNCN4H",
+    "spotifyPopularity": 71,
+    "genres": [
+      "german indie",
+      "german hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "underground",
+    "primaryGenre": "Indie",
+    "likes": "563K",
+    "tier": "Established"
+  },
+  {
+    "id": "6ARKr2ZoLf9TDoQiZarJMt",
+    "name": "makko",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba3e7233b6b2cdca73ec4a00c",
+    "followers": 379258,
+    "spotifyId": "6ARKr2ZoLf9TDoQiZarJMt",
+    "spotifyPopularity": 71,
+    "genres": [
+      "german indie",
+      "german hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "underground",
+    "primaryGenre": "Indie",
+    "likes": "379K",
+    "tier": "Established"
+  },
+  {
+    "id": "3Z3aTg9PwJ37e8xeO0aUC9",
+    "name": "01099",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf1eb12d8bc5be9ea14c1ba12",
+    "followers": 412627,
+    "spotifyId": "3Z3aTg9PwJ37e8xeO0aUC9",
+    "spotifyPopularity": 70,
+    "genres": [
+      "german indie",
+      "german hip hop",
+      "german pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "underground",
+    "primaryGenre": "Indie",
+    "likes": "412K",
+    "tier": "Established"
+  },
+  {
+    "id": "6sNcyjEVdNlZ0dpgr7EcT9",
+    "name": "lots of hands",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2d5a182767e0433a00ab3b6d",
+    "followers": 23886,
+    "spotifyId": "6sNcyjEVdNlZ0dpgr7EcT9",
+    "spotifyPopularity": 53,
+    "genres": [
+      "lo-fi indie",
+      "slowcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Indie",
+    "likes": "23K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5TSbFJ8iUw0NTXGU9cmasG",
+    "name": "First Love is Never Returned",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe4b51e634fec1d9acfa2bb33",
+    "followers": 21830,
+    "spotifyId": "5TSbFJ8iUw0NTXGU9cmasG",
+    "spotifyPopularity": 45,
+    "genres": [
+      "japanese indie",
+      "city pop",
+      "j-r&b",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Indie",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0m5FakHKCQdA7UN0PIzMcL",
+    "name": "Current Joys",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a0ff79c4f265a74b3037b22",
+    "followers": 1708847,
+    "spotifyId": "0m5FakHKCQdA7UN0PIzMcL",
+    "spotifyPopularity": 73,
+    "genres": [
+      "lo-fi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Indie",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "1yI0RRPnOA9BFJmiZ6cEzw",
+    "name": "Lowertown",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdae4bd9735c1efac758d5f43",
+    "followers": 82951,
+    "spotifyId": "1yI0RRPnOA9BFJmiZ6cEzw",
+    "spotifyPopularity": 43,
+    "genres": [
+      "lo-fi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Indie",
+    "likes": "82K",
+    "tier": "Rising"
+  },
+  {
+    "id": "77mJc3M7ZT5oOVM7gNdXim",
+    "name": "Her's",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e339cf31f00e472b1ddd1c5",
+    "followers": 1147256,
+    "spotifyId": "77mJc3M7ZT5oOVM7gNdXim",
+    "spotifyPopularity": 66,
+    "genres": [
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Indie",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "2UMeX51X1prCFgi51RHo9P",
+    "name": "BUBBLE TEA AND CIGARETTES",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb57cfd866a5e908c4364723b2",
+    "followers": 62292,
+    "spotifyId": "2UMeX51X1prCFgi51RHo9P",
+    "spotifyPopularity": 50,
+    "genres": [
+      "lo-fi indie",
+      "dream pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Indie",
+    "likes": "62K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4z1P9QhvHGEJzPhQAjXYPE",
+    "name": "Shelly",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb93643d9743b7f45fc6eabe05",
+    "followers": 205249,
+    "spotifyId": "4z1P9QhvHGEJzPhQAjXYPE",
+    "spotifyPopularity": 65,
+    "genres": [
+      "lo-fi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Indie",
+    "likes": "205K",
+    "tier": "Established"
+  },
+  {
+    "id": "5APEQlUaQ5K70LgPqAdTuU",
+    "name": "Night Tapes",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb32571710adedb8524a42ac48",
+    "followers": 79464,
+    "spotifyId": "5APEQlUaQ5K70LgPqAdTuU",
+    "spotifyPopularity": 59,
+    "genres": [
+      "lo-fi indie",
+      "dream pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Indie",
+    "likes": "79K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7BqRcZsHYYQeqMAOp7e532",
+    "name": "落日飛車 Sunset Rollercoaster",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb17dd503b5c1841cd238c9aa7",
+    "followers": 524146,
+    "spotifyId": "7BqRcZsHYYQeqMAOp7e532",
+    "spotifyPopularity": 61,
+    "genres": [
+      "taiwanese indie",
+      "chinese indie",
+      "bedroom pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Indie",
+    "likes": "524K",
+    "tier": "Established"
+  },
+  {
+    "id": "0aMrhUHnOzfiPcMc2PGiaT",
+    "name": "Galdive",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebab754abb098d855cbeab3e60",
+    "followers": 128480,
+    "spotifyId": "0aMrhUHnOzfiPcMc2PGiaT",
+    "spotifyPopularity": 57,
+    "genres": [
+      "indonesian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Indie",
+    "likes": "128K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0EzsHuJxUDcfqSqvoPhKG4",
+    "name": "Far Caspian",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba3d58881696f80679ac3eca3",
+    "followers": 166115,
+    "spotifyId": "0EzsHuJxUDcfqSqvoPhKG4",
+    "spotifyPopularity": 54,
+    "genres": [
+      "lo-fi indie",
+      "dream pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Indie",
+    "likes": "166K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5wk7sY8GIg5ihSI09EbWeS",
+    "name": "Freak Slug",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc8fdb15ec3cd04a4c6093a2e",
+    "followers": 58769,
+    "spotifyId": "5wk7sY8GIg5ihSI09EbWeS",
+    "spotifyPopularity": 51,
+    "genres": [
+      "lo-fi indie",
+      "dream pop",
+      "bedroom pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Indie",
+    "likes": "58K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4WreACyfQITcXGx86xxYkG",
+    "name": "april june",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1b719e6f690e016dfa655f2f",
+    "followers": 19700,
+    "spotifyId": "4WreACyfQITcXGx86xxYkG",
+    "spotifyPopularity": 38,
+    "genres": [
+      "lo-fi indie",
+      "dream pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Indie",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4o0mCeiUIVdknPUMhpO0bd",
+    "name": "Dream Note",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6a22f55c82204edf02dfe58b",
+    "followers": 191790,
+    "spotifyId": "4o0mCeiUIVdknPUMhpO0bd",
+    "spotifyPopularity": 49,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Indie",
+    "likes": "191K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3skOUqG4qsEoYiJuyZJFdW",
+    "name": "stargaze shelter",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb67b40d503f3613b16440517a",
+    "followers": 27459,
+    "spotifyId": "3skOUqG4qsEoYiJuyZJFdW",
+    "spotifyPopularity": 36,
+    "genres": [
+      "japanese indie",
+      "shoegaze"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Indie",
+    "likes": "27K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0K7RoGabPQO08yJDhsvvL5",
+    "name": "sundots",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfc1ce1795cdff81baf74649e",
+    "followers": 47325,
+    "spotifyId": "0K7RoGabPQO08yJDhsvvL5",
+    "spotifyPopularity": 61,
+    "genres": [
+      "lo-fi indie",
+      "slowcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Indie",
+    "likes": "47K",
+    "tier": "Established"
+  },
+  {
+    "id": "0aC8jUaiAk7DaZcybGN8HH",
+    "name": "yourboyfriendsucks!",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c6e3602d3286dd483d90f748",
+    "followers": 18298,
+    "spotifyId": "0aC8jUaiAk7DaZcybGN8HH",
+    "spotifyPopularity": 34,
+    "genres": [
+      "chinese indie",
+      "shoegaze",
+      "chinese rock",
+      "taiwanese indie",
+      "dream pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Indie",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "61H9d7hbIfFNxJJQmIL9AJ",
+    "name": "Kinokoteikoku",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5affe21a8dff00db89e8c62e",
+    "followers": 301269,
+    "spotifyId": "61H9d7hbIfFNxJJQmIL9AJ",
+    "spotifyPopularity": 52,
+    "genres": [
+      "japanese indie",
+      "shoegaze",
+      "j-rock",
+      "math rock",
+      "dream pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Indie",
+    "likes": "301K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7v7AOgHT3xwF4Z86hcCbsh",
+    "name": "Oisicle Melonpan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb06a6d09c3d5f645fdc8f68d7",
+    "followers": 131637,
+    "spotifyId": "7v7AOgHT3xwF4Z86hcCbsh",
+    "spotifyPopularity": 50,
+    "genres": [
+      "japanese indie",
+      "j-rock",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Indie",
+    "likes": "131K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5qJEtz7aC2nwA9LsjfkGVM",
+    "name": "Haku.",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6c8570f08845cd3b961a40e8",
+    "followers": 154947,
+    "spotifyId": "5qJEtz7aC2nwA9LsjfkGVM",
+    "spotifyPopularity": 48,
+    "genres": [
+      "japanese indie",
+      "j-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Indie",
+    "likes": "154K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3x11XrMEnyP18hv73pmKRL",
+    "name": "Chanel Beads",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb694aabd74b402534213c8503",
+    "followers": 43038,
+    "spotifyId": "3x11XrMEnyP18hv73pmKRL",
+    "spotifyPopularity": 48,
+    "genres": [
+      "lo-fi indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Indie",
+    "likes": "43K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5wbF4yfjaOjTSkrnucKA77",
+    "name": "deca joins",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc275d237803cd90b575a7aff",
+    "followers": 227725,
+    "spotifyId": "5wbF4yfjaOjTSkrnucKA77",
+    "spotifyPopularity": 48,
+    "genres": [
+      "taiwanese indie",
+      "chinese indie",
+      "chinese rock",
+      "taiwanese pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Indie",
+    "likes": "227K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1u3B7ghkXe7pvfxZTmBJlV",
+    "name": "downt",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb0b2376f5965f3688c8507a3",
+    "followers": 16447,
+    "spotifyId": "1u3B7ghkXe7pvfxZTmBJlV",
+    "spotifyPopularity": 30,
+    "genres": [
+      "japanese indie",
+      "math rock",
+      "shoegaze",
+      "midwest emo",
+      "j-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Indie",
+    "likes": "16K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5JUGL6ec4eULQ5eVEbOC7e",
+    "name": "Pretty Sick",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9379cc88bfaf6dbd6c4ebe5a",
+    "followers": 122993,
+    "spotifyId": "5JUGL6ec4eULQ5eVEbOC7e",
+    "spotifyPopularity": 46,
+    "genres": [
+      "lo-fi indie",
+      "shoegaze"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Indie",
+    "likes": "122K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7wDKzQPAyGqjGdL3PSSHLI",
+    "name": "Postino",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc3eba285296c5092a838c224",
+    "followers": 35528,
+    "spotifyId": "7wDKzQPAyGqjGdL3PSSHLI",
+    "spotifyPopularity": 34,
+    "genres": [
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Indie",
+    "likes": "35K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1r93D0anfnfL4M7tYTce0J",
+    "name": "Edwin Rosen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5f9adb82fbbbe7c13e2d0e9e",
+    "followers": 251964,
+    "spotifyId": "1r93D0anfnfL4M7tYTce0J",
+    "spotifyPopularity": 61,
+    "genres": [
+      "german indie",
+      "neue deutsche welle"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Indie",
+    "likes": "251K",
+    "tier": "Established"
+  }
+]

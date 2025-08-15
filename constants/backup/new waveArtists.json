@@ -1,0 +1,40 @@
+[
+  {
+    "id": "7bu3H8JO7d0UbMoVzbo70s",
+    "name": "The Cure",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdd427c765c409ec02dc3a868",
+    "followers": 6505885,
+    "spotifyId": "7bu3H8JO7d0UbMoVzbo70s",
+    "spotifyPopularity": 78,
+    "genres": [
+      "new wave",
+      "post-punk",
+      "gothic rock",
+      "darkwave"
+    ],
+    "primaryGenre": "new wave",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "6.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2x9SpqnPi8rlE9pjHBwmSC",
+    "name": "Talking Heads",
+    "image": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+    "followers": 2795438,
+    "spotifyId": "2x9SpqnPi8rlE9pjHBwmSC",
+    "spotifyPopularity": 71,
+    "genres": [
+      "new wave",
+      "post-punk"
+    ],
+    "primaryGenre": "new wave",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "2.8M",
+    "tier": "Popular"
+  }
+]

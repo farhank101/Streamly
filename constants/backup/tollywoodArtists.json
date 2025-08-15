@@ -1,0 +1,22 @@
+[
+  {
+    "id": "7qjJw7ZM2ekDSahLXPjIlN",
+    "name": "Sid Sriram",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebef6a8800763bf428e85940a6",
+    "followers": 19269338,
+    "spotifyId": "7qjJw7ZM2ekDSahLXPjIlN",
+    "spotifyPopularity": 79,
+    "genres": [
+      "tollywood",
+      "telugu pop",
+      "tamil pop",
+      "kollywood"
+    ],
+    "primaryGenre": "tollywood",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "19.3M",
+    "tier": "Top"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "4tZwfgrHOc3mvqYlEYSvVi",
+    "name": "Daft Punk",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd3aa7cc0e419b6c459b08e8e",
+    "followers": 10685056,
+    "spotifyId": "4tZwfgrHOc3mvqYlEYSvVi",
+    "spotifyPopularity": 83,
+    "genres": [
+      "french house",
+      "electronic",
+      "electro"
+    ],
+    "primaryGenre": "french house",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "",
+    "likes": "10.7M",
+    "tier": "Top"
+  }
+]

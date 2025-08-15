@@ -1,0 +1,262 @@
+[
+  {
+    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+    "name": "Ariana Grande",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6725802588d7dc1aba076ca5",
+    "followers": 106289375,
+    "spotifyId": "66CXWjxzNUsdJxJ2JdwvnR",
+    "spotifyPopularity": 93,
+    "genres": [
+      "pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "106.3M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "1HY2Jd0NmPuamShAr6KMms",
+    "name": "Lady Gaga",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaadc18cac8d48124357c38e6",
+    "followers": 40385766,
+    "spotifyId": "1HY2Jd0NmPuamShAr6KMms",
+    "spotifyPopularity": 92,
+    "genres": [
+      "art pop",
+      "pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "40.4M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "3Nrfpe0tUJi4K4DXYWgMUX",
+    "name": "BTS",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd642648235ebf3460d2d1f6a",
+    "followers": 80267186,
+    "spotifyId": "3Nrfpe0tUJi4K4DXYWgMUX",
+    "spotifyPopularity": 90,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "80.3M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "6M2wZ9GZgrQXHCFfjv46we",
+    "name": "Dua Lipa",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
+    "followers": 46448686,
+    "spotifyId": "6M2wZ9GZgrQXHCFfjv46we",
+    "spotifyPopularity": 89,
+    "genres": [
+      "pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "popularity_search",
+    "genre": "",
+    "likes": "46.4M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "04gDigrS5kc9YWfZHwBETP",
+    "name": "Maroon 5",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8349dfb619a7f842242de77",
+    "followers": 45314686,
+    "spotifyId": "04gDigrS5kc9YWfZHwBETP",
+    "spotifyPopularity": 89,
+    "genres": [
+      "pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "45.3M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "1QAJqy2dA3ihHBFIHRphZj",
+    "name": "Cigarettes After Sex",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e871e0389b9722cc12a4118",
+    "followers": 16660261,
+    "spotifyId": "1QAJqy2dA3ihHBFIHRphZj",
+    "spotifyPopularity": 87,
+    "genres": [
+      "dream pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "16.7M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "41MozSoPIsD1dJM0CLPjZF",
+    "name": "BLACKPINK",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9b57f5eccf180a0049be84b3",
+    "followers": 54993648,
+    "spotifyId": "41MozSoPIsD1dJM0CLPjZF",
+    "spotifyPopularity": 87,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "55.0M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "7n2Ycct7Beij7Dj7meI4X0",
+    "name": "TWICE",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfcef64d7657da13955bbdb7f",
+    "followers": 22543574,
+    "spotifyId": "7n2Ycct7Beij7Dj7meI4X0",
+    "spotifyPopularity": 87,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "22.5M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "2dIgFjalVxs4ThymZ67YCE",
+    "name": "Stray Kids",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1dbfb8f95157d71faa489c2c",
+    "followers": 20014275,
+    "spotifyId": "2dIgFjalVxs4ThymZ67YCE",
+    "spotifyPopularity": 87,
+    "genres": [
+      "k-pop",
+      "noise music"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "20.0M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "7nqOGRxlXj7N2JYbgNEjYH",
+    "name": "SEVENTEEN",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8da3a229445fd3cd896cdd5c",
+    "followers": 13489366,
+    "spotifyId": "7nqOGRxlXj7N2JYbgNEjYH",
+    "spotifyPopularity": 82,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "13.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "68KmkJeZGfwe1OUaivBa2L",
+    "name": "ATEEZ",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd8352340766cfc5adc8f63a8",
+    "followers": 5109636,
+    "spotifyId": "68KmkJeZGfwe1OUaivBa2L",
+    "spotifyPopularity": 79,
+    "genres": [
+      "k-pop",
+      "noise music"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "5.1M",
+    "tier": "Rising"
+  },
+  {
+    "id": "1gBUSTR3TyDdTVFIaQnc02",
+    "name": "NCT DREAM",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1adec53158528b5d5d86d7dc",
+    "followers": 8216412,
+    "spotifyId": "1gBUSTR3TyDdTVFIaQnc02",
+    "spotifyPopularity": 78,
+    "genres": [
+      "k-pop",
+      "noise music"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "8.2M",
+    "tier": "Rising"
+  },
+  {
+    "id": "1z4g3DjTBBZKhvAroFlhOM",
+    "name": "Red Velvet",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb02a562ea6b1dc718394010ac",
+    "followers": 9582182,
+    "spotifyId": "1z4g3DjTBBZKhvAroFlhOM",
+    "spotifyPopularity": 71,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "9.6M",
+    "tier": "Rising"
+  },
+  {
+    "id": "3cjEqqelV9zb4BYE3qDQ4O",
+    "name": "EXO",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaf3c4b988a6fef40843cdc83",
+    "followers": 10147413,
+    "spotifyId": "3cjEqqelV9zb4BYE3qDQ4O",
+    "spotifyPopularity": 71,
+    "genres": [
+      "k-pop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "10.1M",
+    "tier": "Rising"
+  },
+  {
+    "id": "3HqSLMAZ3g3d5poNaI7GOU",
+    "name": "IU",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb789f38042e5ef8911fc3826b",
+    "followers": 9333415,
+    "spotifyId": "3HqSLMAZ3g3d5poNaI7GOU",
+    "spotifyPopularity": 71,
+    "genres": [
+      "k-pop",
+      "k-ballad"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "9.3M",
+    "tier": "Rising"
+  }
+]

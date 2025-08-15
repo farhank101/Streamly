@@ -1,0 +1,61 @@
+[
+  {
+    "id": "19eLuQmk9aCobbVDHc6eek",
+    "name": "Louis Armstrong",
+    "image": "https://i.scdn.co/image/ab6772690000c46c53b6519baafe8f4d6135453e",
+    "followers": 3188889,
+    "spotifyId": "19eLuQmk9aCobbVDHc6eek",
+    "spotifyPopularity": 71,
+    "genres": [
+      "jazz",
+      "swing music",
+      "big band",
+      "vocal jazz",
+      "jazz blues"
+    ],
+    "primaryGenre": "jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "3.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3yKoHgjtyenCOIRaD2Gghu",
+    "name": "Cafe Music BGM channel",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9d9f79c6a9a14c98ef467f4",
+    "followers": 277163,
+    "spotifyId": "3yKoHgjtyenCOIRaD2Gghu",
+    "spotifyPopularity": 70,
+    "genres": [
+      "jazz",
+      "bossa nova"
+    ],
+    "primaryGenre": "jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "277.2K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1YzCsTRb22dQkh9lghPIrp",
+    "name": "Billie Holiday",
+    "image": "https://i.scdn.co/image/4efa6b6871a0f672b78b3d16fd5a03c6cd212d58",
+    "followers": 2049219,
+    "spotifyId": "1YzCsTRb22dQkh9lghPIrp",
+    "spotifyPopularity": 66,
+    "genres": [
+      "jazz",
+      "vocal jazz",
+      "jazz blues",
+      "big band"
+    ],
+    "primaryGenre": "jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "2.0M",
+    "tier": "Popular"
+  }
+]

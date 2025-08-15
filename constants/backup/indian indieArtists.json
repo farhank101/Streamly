@@ -1,0 +1,134 @@
+[
+  {
+    "id": "4gdMJYnopf2nEUcanAwstx",
+    "name": "Anuv Jain",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba837a6cb82dd949d5e1f9b53",
+    "followers": 7013209,
+    "spotifyId": "4gdMJYnopf2nEUcanAwstx",
+    "spotifyPopularity": 75,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "hindi pop"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "7.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0RVfcqug2nB820dxIGycIW",
+    "name": "Hansika Pareek",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2edf28eb85c9758390ea20f5",
+    "followers": 52886,
+    "spotifyId": "0RVfcqug2nB820dxIGycIW",
+    "spotifyPopularity": 71,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "gujarati pop"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "52.9K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "1zD9gVg8wPOmVfYxTjMHaT",
+    "name": "Bharath",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0f227a1cae8b098eabb2315b",
+    "followers": 46091,
+    "spotifyId": "1zD9gVg8wPOmVfYxTjMHaT",
+    "spotifyPopularity": 68,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "46.1K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "6MPuzz9hPrs4TwxeHh4cEj",
+    "name": "Amir Ameer",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e1f7b2534c5c1fd5d9f81213",
+    "followers": 119317,
+    "spotifyId": "6MPuzz9hPrs4TwxeHh4cEj",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "119.3K",
+    "tier": "Rising"
+  },
+  {
+    "id": "22UtphG4LcwxlhhV0aP4js",
+    "name": "Rauhan Malik",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2dda02f35e185dbfdd97f331",
+    "followers": 132370,
+    "spotifyId": "22UtphG4LcwxlhhV0aP4js",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "132.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3iGhlvzpXc0UHBQ7klAItX",
+    "name": "Mitraz",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe96a339b04840c8fb801ccb4",
+    "followers": 757366,
+    "spotifyId": "3iGhlvzpXc0UHBQ7klAItX",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "desi pop",
+      "desi",
+      "hindi pop"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "757.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0NbgKDsEHiPzZBZkqZGkXm",
+    "name": "Mismatched - Cast",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf11a645715e7aa51644020c4",
+    "followers": 246828,
+    "spotifyId": "0NbgKDsEHiPzZBZkqZGkXm",
+    "spotifyPopularity": 65,
+    "genres": [
+      "indian indie",
+      "hindi indie",
+      "ghazal",
+      "hindi pop"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "246.8K",
+    "tier": "Rising"
+  }
+]

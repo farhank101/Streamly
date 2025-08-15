@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1mBydYMVBECdDmMfE2sEUO",
+    "name": "Sachin-Jigar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbb4064bef3a825344d5eb79e",
+    "followers": 6830870,
+    "spotifyId": "1mBydYMVBECdDmMfE2sEUO",
+    "spotifyPopularity": 84,
+    "genres": [
+      "gujarati pop",
+      "bollywood",
+      "hindi pop",
+      "desi",
+      "gujarati garba"
+    ],
+    "primaryGenre": "gujarati pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "6.8M",
+    "tier": "Popular"
+  }
+]

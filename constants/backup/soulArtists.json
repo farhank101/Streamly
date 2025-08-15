@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1ThoqLcyIYvZn7iWbj8fsj",
+    "name": "Bill Withers",
+    "image": "https://i.scdn.co/image/96b85aec6907206572527e1eeec6569d5e977a38",
+    "followers": 1957379,
+    "spotifyId": "1ThoqLcyIYvZn7iWbj8fsj",
+    "spotifyPopularity": 75,
+    "genres": [
+      "soul",
+      "classic soul",
+      "motown"
+    ],
+    "primaryGenre": "soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "2.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0iOVhN3tnSvgDbcg25JoJb",
+    "name": "Etta James",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb058531dfd9746a96ad85265f",
+    "followers": 1951516,
+    "spotifyId": "0iOVhN3tnSvgDbcg25JoJb",
+    "spotifyPopularity": 70,
+    "genres": [
+      "soul",
+      "jazz blues",
+      "soul blues",
+      "blues",
+      "vocal jazz"
+    ],
+    "primaryGenre": "soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.0M",
+    "tier": "Popular"
+  }
+]

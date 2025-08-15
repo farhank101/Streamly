@@ -1,0 +1,20 @@
+[
+  {
+    "id": "6vZKj9U4vIetFGznCpxVN5",
+    "name": "Karl Wine",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb90f0eabf56c7699b26b23f2c",
+    "followers": 14996,
+    "spotifyId": "6vZKj9U4vIetFGznCpxVN5",
+    "spotifyPopularity": 57,
+    "genres": [
+      "moombahton",
+      "dancehall"
+    ],
+    "primaryGenre": "moombahton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "15.0K",
+    "tier": "Emerging"
+  }
+]

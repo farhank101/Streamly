@@ -1,0 +1,42 @@
+[
+  {
+    "id": "7guDJrEfX3qb6FEbdPA5qi",
+    "name": "Stevie Wonder",
+    "image": "https://i.scdn.co/image/c59faacbed7aa770266bad048660810eca204108",
+    "followers": 7037442,
+    "spotifyId": "7guDJrEfX3qb6FEbdPA5qi",
+    "spotifyPopularity": 78,
+    "genres": [
+      "motown",
+      "classic soul",
+      "soul"
+    ],
+    "primaryGenre": "motown",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3koiLjNrgRTNbOwViDipeA",
+    "name": "Marvin Gaye",
+    "image": "https://i.scdn.co/image/cf79bd3e5c787e2ec152eeb1ea5538b0d4cf1434",
+    "followers": 5878731,
+    "spotifyId": "3koiLjNrgRTNbOwViDipeA",
+    "spotifyPopularity": 76,
+    "genres": [
+      "motown",
+      "classic soul",
+      "soul",
+      "northern soul",
+      "quiet storm"
+    ],
+    "primaryGenre": "motown",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "5.9M",
+    "tier": "Popular"
+  }
+]

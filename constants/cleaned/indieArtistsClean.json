@@ -1,0 +1,177 @@
+[
+  {
+    "id": "5INjqkS1o8h1imAzPqGZBb",
+    "name": "Tame Impala",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+    "followers": 9107594,
+    "spotifyId": "5INjqkS1o8h1imAzPqGZBb",
+    "spotifyPopularity": 84,
+    "genres": [
+      "neo-psychedelic",
+      "indie"
+    ],
+    "primaryGenre": "neo-psychedelic",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "9.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3Sz7ZnJQBIHsXLUSo0OQtM",
+    "name": "Mac DeMarco",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9aca5b6d4c528caf75e8a1d",
+    "followers": 7734234,
+    "spotifyId": "3Sz7ZnJQBIHsXLUSo0OQtM",
+    "spotifyPopularity": 83,
+    "genres": [
+      "indie",
+      "lo-fi indie"
+    ],
+    "primaryGenre": "indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "7.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5b5bt4mZQpJMoCRbiQ7diH",
+    "name": "Royel Otis",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2655d6cf0422936731db9bf1",
+    "followers": 499118,
+    "spotifyId": "5b5bt4mZQpJMoCRbiQ7diH",
+    "spotifyPopularity": 75,
+    "genres": [
+      "indie"
+    ],
+    "primaryGenre": "indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "499.1K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1gl0S9pS0Zw0qfa14rDD3D",
+    "name": "Surf Curse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcff4fe07270f07039355",
+    "followers": 1680986,
+    "spotifyId": "1gl0S9pS0Zw0qfa14rDD3D",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie"
+    ],
+    "primaryGenre": "indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "1.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0NIPkIjTV8mB795yEIiPYL",
+    "name": "Wallows",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfde4e7d59f6d8868e2ffdaf5",
+    "followers": 2982766,
+    "spotifyId": "0NIPkIjTV8mB795yEIiPYL",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie"
+    ],
+    "primaryGenre": "indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "3.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1zD9gVg8wPOmVfYxTjMHaT",
+    "name": "Bharath",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0f227a1cae8b098eabb2315b",
+    "followers": 46091,
+    "spotifyId": "1zD9gVg8wPOmVfYxTjMHaT",
+    "spotifyPopularity": 68,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "46.1K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "29S4JzoFUP1MCyMgKd83zM",
+    "name": "Saaheal",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3567c18bcfc0e8ce0db63055",
+    "followers": 40229,
+    "spotifyId": "29S4JzoFUP1MCyMgKd83zM",
+    "spotifyPopularity": 68,
+    "genres": [
+      "hindi indie"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "40.2K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "6MPuzz9hPrs4TwxeHh4cEj",
+    "name": "Amir Ameer",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e1f7b2534c5c1fd5d9f81213",
+    "followers": 119317,
+    "spotifyId": "6MPuzz9hPrs4TwxeHh4cEj",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "119.3K",
+    "tier": "Rising"
+  },
+  {
+    "id": "22UtphG4LcwxlhhV0aP4js",
+    "name": "Rauhan Malik",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2dda02f35e185dbfdd97f331",
+    "followers": 132370,
+    "spotifyId": "22UtphG4LcwxlhhV0aP4js",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indian indie",
+      "hindi indie"
+    ],
+    "primaryGenre": "indian indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "132.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3gKTtA1BK4pq1IIHXAyvgO",
+    "name": "UNPLG'd",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf7ed241b5a220864cd14686d",
+    "followers": 61325,
+    "spotifyId": "3gKTtA1BK4pq1IIHXAyvgO",
+    "spotifyPopularity": 66,
+    "genres": [
+      "hindi indie",
+      "indian indie"
+    ],
+    "primaryGenre": "hindi indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "61.3K",
+    "tier": "Emerging"
+  }
+]

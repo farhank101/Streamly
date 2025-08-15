@@ -1,0 +1,89 @@
+[
+  {
+    "id": "7Ln80lUS6He07XvHI8qqHH",
+    "name": "Arctic Monkeys",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f",
+    "followers": 31241519,
+    "spotifyId": "7Ln80lUS6He07XvHI8qqHH",
+    "spotifyPopularity": 88,
+    "genres": [
+      "indie",
+      "garage rock"
+    ],
+    "primaryGenre": "indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "31.2M",
+    "tier": "Top"
+  },
+  {
+    "id": "3Sz7ZnJQBIHsXLUSo0OQtM",
+    "name": "Mac DeMarco",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9aca5b6d4c528caf75e8a1d",
+    "followers": 7734234,
+    "spotifyId": "3Sz7ZnJQBIHsXLUSo0OQtM",
+    "spotifyPopularity": 83,
+    "genres": [
+      "indie",
+      "lo-fi indie"
+    ],
+    "primaryGenre": "indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "7.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5b5bt4mZQpJMoCRbiQ7diH",
+    "name": "Royel Otis",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2655d6cf0422936731db9bf1",
+    "followers": 499118,
+    "spotifyId": "5b5bt4mZQpJMoCRbiQ7diH",
+    "spotifyPopularity": 75,
+    "genres": [
+      "indie"
+    ],
+    "primaryGenre": "indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "499.1K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1gl0S9pS0Zw0qfa14rDD3D",
+    "name": "Surf Curse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fabcff4fe07270f07039355",
+    "followers": 1680986,
+    "spotifyId": "1gl0S9pS0Zw0qfa14rDD3D",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie"
+    ],
+    "primaryGenre": "indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "1.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0NIPkIjTV8mB795yEIiPYL",
+    "name": "Wallows",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfde4e7d59f6d8868e2ffdaf5",
+    "followers": 2982766,
+    "spotifyId": "0NIPkIjTV8mB795yEIiPYL",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie"
+    ],
+    "primaryGenre": "indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "3.0M",
+    "tier": "Popular"
+  }
+]

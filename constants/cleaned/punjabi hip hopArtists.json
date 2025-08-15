@@ -1,0 +1,66 @@
+[
+  {
+    "id": "5r3wPya2PpeTTsXsGhQU8O",
+    "name": "Shubh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4490e20daec093c04ede38c6",
+    "followers": 8940825,
+    "spotifyId": "5r3wPya2PpeTTsXsGhQU8O",
+    "spotifyPopularity": 79,
+    "genres": [
+      "punjabi hip hop",
+      "punjabi pop",
+      "desi hip hop",
+      "desi",
+      "hindi hip hop"
+    ],
+    "primaryGenre": "punjabi hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "8.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4PULA4EFzYTrxYvOVlwpiQ",
+    "name": "Sidhu Moose Wala",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9973157bdaedef3f77ef8e13",
+    "followers": 43866628,
+    "spotifyId": "4PULA4EFzYTrxYvOVlwpiQ",
+    "spotifyPopularity": 79,
+    "genres": [
+      "punjabi hip hop",
+      "punjabi pop",
+      "bhangra",
+      "desi hip hop"
+    ],
+    "primaryGenre": "punjabi hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "43.9M",
+    "tier": "Top"
+  },
+  {
+    "id": "6QoCrBHsojKnOrsGNfRcTN",
+    "name": "Talwiinder",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1b41d98a6831d076c45e1d88",
+    "followers": 1104207,
+    "spotifyId": "6QoCrBHsojKnOrsGNfRcTN",
+    "spotifyPopularity": 74,
+    "genres": [
+      "punjabi hip hop",
+      "indian indie",
+      "punjabi pop",
+      "desi hip hop",
+      "desi",
+      "hindi indie",
+      "hindi hip hop"
+    ],
+    "primaryGenre": "punjabi hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "1.1M",
+    "tier": "Popular"
+  }
+]

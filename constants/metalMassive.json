@@ -1,0 +1,3072 @@
+[
+  {
+    "id": "6XyY86QOPPrYVGvF9ch6wz",
+    "name": "Linkin Park",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb527d95dabbe8b8b527e8136f",
+    "followers": 30923944,
+    "spotifyId": "6XyY86QOPPrYVGvF9ch6wz",
+    "spotifyPopularity": 92,
+    "genres": [
+      "nu metal",
+      "rap metal",
+      "rock",
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "30.9M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "2ye2Wgw4gimLv2eAKyk1NB",
+    "name": "Metallica",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44",
+    "followers": 31470213,
+    "spotifyId": "2ye2Wgw4gimLv2eAKyk1NB",
+    "spotifyPopularity": 86,
+    "genres": [
+      "metal",
+      "thrash metal",
+      "rock",
+      "heavy metal",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "31.5M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "6Ghvu1VvMGScGpOUJBAHNH",
+    "name": "Deftones",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe3ac5eb948e78d9285d1dbdb",
+    "followers": 7324476,
+    "spotifyId": "6Ghvu1VvMGScGpOUJBAHNH",
+    "spotifyPopularity": 84,
+    "genres": [
+      "nu metal",
+      "alternative metal",
+      "rap metal",
+      "shoegaze",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "7.3M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "name": "Black Sabbath",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4870cd833ebe1092601820c3",
+    "followers": 9485362,
+    "spotifyId": "5M52tdBnJaKSvOpJGz8mfZ",
+    "spotifyPopularity": 84,
+    "genres": [
+      "metal",
+      "heavy metal",
+      "rock",
+      "stoner rock",
+      "doom metal",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "9.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "5eAWCfyUhZtHHtBdNk56l1",
+    "name": "System Of A Down",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb60063d3451ade8f9fab397c2",
+    "followers": 13458814,
+    "spotifyId": "5eAWCfyUhZtHHtBdNk56l1",
+    "spotifyPopularity": 84,
+    "genres": [
+      "nu metal",
+      "metal",
+      "alternative metal",
+      "rap metal",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "13.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "58lV9VcRSjABbAbfWS6skp",
+    "name": "Bon Jovi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb52aade0d2ea19706074da4b9",
+    "followers": 15453579,
+    "spotifyId": "58lV9VcRSjABbAbfWS6skp",
+    "spotifyPopularity": 82,
+    "genres": [
+      "glam metal",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "15.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0nmQIMXWTXfhgOBdNzhGOs",
+    "name": "Avenged Sevenfold",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb097658d63473ecb243ed4b1f",
+    "followers": 11420851,
+    "spotifyId": "0nmQIMXWTXfhgOBdNzhGOs",
+    "spotifyPopularity": 79,
+    "genres": [
+      "metal",
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "11.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "1Qp56T7n950O3EGMsSl81D",
+    "name": "Ghost",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2d972470f1f8110be7c07017",
+    "followers": 3683571,
+    "spotifyId": "1Qp56T7n950O3EGMsSl81D",
+    "spotifyPopularity": 78,
+    "genres": [
+      "metal",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "3.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "6mdiAmATAx73kdxrNrnlao",
+    "name": "Iron Maiden",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf9978ad4808f6f2723124d19",
+    "followers": 10206306,
+    "spotifyId": "6mdiAmATAx73kdxrNrnlao",
+    "spotifyPopularity": 76,
+    "genres": [
+      "heavy metal",
+      "metal",
+      "hard rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "10.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "4RddZ3iHvSpGV4dvATac9X",
+    "name": "Papa Roach",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb170958adc93250084c317cfc",
+    "followers": 5947809,
+    "spotifyId": "4RddZ3iHvSpGV4dvATac9X",
+    "spotifyPopularity": 76,
+    "genres": [
+      "nu metal",
+      "rap metal",
+      "alternative metal",
+      "rap rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "5.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "0cc6vw3VN8YlIcvr1v7tBL",
+    "name": "Mötley Crüe",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebab0922f900e6c22b8ef4c01c",
+    "followers": 5856934,
+    "spotifyId": "0cc6vw3VN8YlIcvr1v7tBL",
+    "spotifyPopularity": 76,
+    "genres": [
+      "glam metal",
+      "hard rock",
+      "glam rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "5.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "5t28BP42x2axFnqOOMg3CM",
+    "name": "Five Finger Death Punch",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1e7f796a17c2dc3c28bdeeb9",
+    "followers": 6848257,
+    "spotifyId": "5t28BP42x2axFnqOOMg3CM",
+    "spotifyPopularity": 76,
+    "genres": [
+      "metal",
+      "groove metal",
+      "heavy metal",
+      "hard rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "6.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "2cnMpRsOVqtPMfq7YiFE6K",
+    "name": "Van Halen",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd8475001d2700686e1008dfb",
+    "followers": 6738623,
+    "spotifyId": "2cnMpRsOVqtPMfq7YiFE6K",
+    "spotifyPopularity": 75,
+    "genres": [
+      "glam metal",
+      "classic rock",
+      "rock",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "6.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "07XSN3sPlIlB2L2XNcTwJw",
+    "name": "KISS",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd8205a492a79bfe4b34c567a",
+    "followers": 10749524,
+    "spotifyId": "07XSN3sPlIlB2L2XNcTwJw",
+    "spotifyPopularity": 75,
+    "genres": [
+      "glam metal",
+      "glam rock",
+      "hard rock",
+      "rock",
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "10.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "2VYQTNDsvvKN9wmU5W7xpj",
+    "name": "Marilyn Manson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9420fc7bac8669f61a9f45c3",
+    "followers": 4889394,
+    "spotifyId": "2VYQTNDsvvKN9wmU5W7xpj",
+    "spotifyPopularity": 75,
+    "genres": [
+      "industrial metal",
+      "industrial rock",
+      "industrial",
+      "metal",
+      "nu metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "4.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "5BtHciL0e0zOP7prIHn3pP",
+    "name": "Breaking Benjamin",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebff528d242b11fdc4261d05da",
+    "followers": 5074788,
+    "spotifyId": "5BtHciL0e0zOP7prIHn3pP",
+    "spotifyPopularity": 75,
+    "genres": [
+      "alternative metal",
+      "post-grunge",
+      "rock",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "5.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "2yEwvVSSSUkcLeSTNyHKh8",
+    "name": "TOOL",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb13f5472b709101616c87cba3",
+    "followers": 4390790,
+    "spotifyId": "2yEwvVSSSUkcLeSTNyHKh8",
+    "spotifyPopularity": 74,
+    "genres": [
+      "progressive metal",
+      "alternative metal",
+      "progressive rock",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "4.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "6H1RjVyNruCmrBEWRbD0VZ",
+    "name": "Def Leppard",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb695e45d9945ce1f8e5fa5c54",
+    "followers": 5565997,
+    "spotifyId": "6H1RjVyNruCmrBEWRbD0VZ",
+    "spotifyPopularity": 74,
+    "genres": [
+      "glam metal",
+      "glam rock",
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "5.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "3YcBF2ttyueytpXtEzn1Za",
+    "name": "Incubus",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb83512923cb6ea021f8bb1b3b",
+    "followers": 3588989,
+    "spotifyId": "3YcBF2ttyueytpXtEzn1Za",
+    "spotifyPopularity": 72,
+    "genres": [
+      "nu metal",
+      "funk rock",
+      "alternative metal",
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "3.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "6ZLTlhejhndI4Rh53vYhrY",
+    "name": "Ozzy Osbourne",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb5b52f7e13f720c7a4856306",
+    "followers": 7218880,
+    "spotifyId": "6ZLTlhejhndI4Rh53vYhrY",
+    "spotifyPopularity": 85,
+    "genres": [
+      "metal",
+      "glam metal",
+      "heavy metal",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "7.2M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "56dO9zeHKuU5Gvfc2kxHNw",
+    "name": "Chevelle",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6411cad01afe7d60b448dabc",
+    "followers": 2086221,
+    "spotifyId": "56dO9zeHKuU5Gvfc2kxHNw",
+    "spotifyPopularity": 72,
+    "genres": [
+      "alternative metal",
+      "nu metal",
+      "post-grunge"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Metal",
+    "likes": "2.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "05fG473iIaoy82BF1aGhL8",
+    "name": "Slipknot",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd0cdb283a7384a0edb665182",
+    "followers": 13681973,
+    "spotifyId": "05fG473iIaoy82BF1aGhL8",
+    "spotifyPopularity": 82,
+    "genres": [
+      "nu metal",
+      "metal",
+      "alternative metal",
+      "rap metal",
+      "heavy metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Metal",
+    "likes": "13.7M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "165ZgPlLkK7bf5bDoFc6Sb",
+    "name": "Limp Bizkit",
+    "image": "https://i.scdn.co/image/4654955890cb62a6abe9daadfd2b3ecdee8036e4",
+    "followers": 7749108,
+    "spotifyId": "165ZgPlLkK7bf5bDoFc6Sb",
+    "spotifyPopularity": 81,
+    "genres": [
+      "nu metal",
+      "rap metal",
+      "alternative metal",
+      "rap rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Metal",
+    "likes": "7.7M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "3RNrq3jvMZxD9ZyoOZbQOD",
+    "name": "Korn",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb29af2ffb6f4ddd6324f878bc",
+    "followers": 9367604,
+    "spotifyId": "3RNrq3jvMZxD9ZyoOZbQOD",
+    "spotifyPopularity": 79,
+    "genres": [
+      "nu metal",
+      "metal",
+      "rap metal",
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Metal",
+    "likes": "9.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "3TOqt5oJwL9BE2NG9MEwDa",
+    "name": "Disturbed",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6823b6df396ecf49931e34a1",
+    "followers": 7529921,
+    "spotifyId": "3TOqt5oJwL9BE2NG9MEwDa",
+    "spotifyPopularity": 78,
+    "genres": [
+      "metal",
+      "nu metal",
+      "alternative metal",
+      "rap metal",
+      "hard rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Metal",
+    "likes": "7.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "0zQfrabOFYf36Ikb6PXcCY",
+    "name": "Rhapsody",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb902fae03243cae6e08caf99a",
+    "followers": 518195,
+    "spotifyId": "0zQfrabOFYf36Ikb6PXcCY",
+    "spotifyPopularity": 52,
+    "genres": [
+      "power metal",
+      "symphonic metal",
+      "speed metal",
+      "folk metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Metal",
+    "likes": "518K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6159IBm5gLPwG4BcJXseXc",
+    "name": "Soulfly",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb092c0cdb00c5666c6f6a1a80",
+    "followers": 787862,
+    "spotifyId": "6159IBm5gLPwG4BcJXseXc",
+    "spotifyPopularity": 53,
+    "genres": [
+      "groove metal",
+      "nu metal",
+      "metal",
+      "rap metal",
+      "alternative metal",
+      "thrash metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Metal",
+    "likes": "787K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7u12AuhJ5AaJIgZAZe0US8",
+    "name": "Metalocalypse: Dethklok",
+    "image": "https://i.scdn.co/image/ab67616d0000b273533644c194069d80a08109cf",
+    "followers": 458088,
+    "spotifyId": "7u12AuhJ5AaJIgZAZe0US8",
+    "spotifyPopularity": 56,
+    "genres": [
+      "melodic death metal",
+      "metal",
+      "death metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "458K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1Yox196W7bzVNZI7RBaPnf",
+    "name": "Megadeth",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd5233fdc8cad84de5b366f1b",
+    "followers": 6024958,
+    "spotifyId": "1Yox196W7bzVNZI7RBaPnf",
+    "spotifyPopularity": 72,
+    "genres": [
+      "thrash metal",
+      "metal",
+      "heavy metal",
+      "speed metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "6.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "2n2RSaZqBuUUukhbLlpnE6",
+    "name": "Sleep Token",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd00c2ff422829437e6b5f1e0",
+    "followers": 2617337,
+    "spotifyId": "2n2RSaZqBuUUukhbLlpnE6",
+    "spotifyPopularity": 83,
+    "genres": [
+      "progressive metal",
+      "metalcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.6M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "14pVkFUHDL207LzLHtSA18",
+    "name": "Pantera",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe21999c0102c240bdf094d9b",
+    "followers": 6069858,
+    "spotifyId": "14pVkFUHDL207LzLHtSA18",
+    "spotifyPopularity": 75,
+    "genres": [
+      "groove metal",
+      "metal",
+      "thrash metal",
+      "heavy metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "6.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "6wWVKhxIU2cEi0K81v7HvP",
+    "name": "Rammstein",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb32845b1556f9dbdfe8ee6575",
+    "followers": 11564682,
+    "spotifyId": "6wWVKhxIU2cEi0K81v7HvP",
+    "spotifyPopularity": 81,
+    "genres": [
+      "industrial metal",
+      "metal",
+      "industrial rock",
+      "industrial"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "11.6M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "name": "Bring Me The Horizon",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe7c9399d0b5d813c20cbec65",
+    "followers": 6523395,
+    "spotifyId": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "spotifyPopularity": 81,
+    "genres": [
+      "metalcore",
+      "emo",
+      "screamo",
+      "rock",
+      "post-hardcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "6.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0exvkfkATkqWOJgugTjJhP",
+    "name": "Metal Church",
+    "image": "https://i.scdn.co/image/ab6772690000c46c3ca4ece56e5fd4324ff7bd36",
+    "followers": 237010,
+    "spotifyId": "0exvkfkATkqWOJgugTjJhP",
+    "spotifyPopularity": 45,
+    "genres": [
+      "thrash metal",
+      "speed metal",
+      "heavy metal",
+      "metal",
+      "power metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "237K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1IQ2e1buppatiN1bxUVkrk",
+    "name": "Slayer",
+    "image": "https://i.scdn.co/image/8c81130db7b5f933412c4906c30327817f1e1b43",
+    "followers": 4391139,
+    "spotifyId": "1IQ2e1buppatiN1bxUVkrk",
+    "spotifyPopularity": 68,
+    "genres": [
+      "thrash metal",
+      "metal",
+      "speed metal",
+      "heavy metal",
+      "groove metal",
+      "death metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "4.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "5nGIFgo0shDenQYSE0Sn7c",
+    "name": "Evanescence",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7ecf213c7dd78e0049379c5b",
+    "followers": 5850538,
+    "spotifyId": "5nGIFgo0shDenQYSE0Sn7c",
+    "spotifyPopularity": 79,
+    "genres": [
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "5.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "3JFsVIxOn7STeilPICkkB2",
+    "name": "Lamb of God",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb943a08242864dc3364a9478",
+    "followers": 2272136,
+    "spotifyId": "3JFsVIxOn7STeilPICkkB2",
+    "spotifyPopularity": 66,
+    "genres": [
+      "groove metal",
+      "metal",
+      "heavy metal",
+      "nu metal",
+      "death metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "2aaLAng2L2aWD2FClzwiep",
+    "name": "Dream Theater",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6c2390469c190a49f3926865",
+    "followers": 1750354,
+    "spotifyId": "2aaLAng2L2aWD2FClzwiep",
+    "spotifyPopularity": 64,
+    "genres": [
+      "progressive metal",
+      "progressive rock",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "2tRsMl4eGxwoNabM08Dm4I",
+    "name": "Judas Priest",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4b3cfc24737acb15e73e8bd6",
+    "followers": 4458806,
+    "spotifyId": "2tRsMl4eGxwoNabM08Dm4I",
+    "spotifyPopularity": 69,
+    "genres": [
+      "heavy metal",
+      "metal",
+      "hard rock",
+      "glam metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "4.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "3Ri4H12KFyu98LMjSoij5V",
+    "name": "Bad Omens",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3dc0577ed61ec73b498a56ee",
+    "followers": 1833750,
+    "spotifyId": "3Ri4H12KFyu98LMjSoij5V",
+    "spotifyPopularity": 76,
+    "genres": [
+      "metalcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "0ybFZ2Ab08V8hueghSXm6E",
+    "name": "Opeth",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb45e1bb6e5285297f9e55e550",
+    "followers": 1096141,
+    "spotifyId": "0ybFZ2Ab08V8hueghSXm6E",
+    "spotifyPopularity": 60,
+    "genres": [
+      "progressive metal",
+      "progressive rock",
+      "metal",
+      "death metal",
+      "melodic death metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "0WPCPYm5IDNtQjuJOGNPcy",
+    "name": "Brothers of Metal",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd218b64759372aa3875cab52",
+    "followers": 292034,
+    "spotifyId": "0WPCPYm5IDNtQjuJOGNPcy",
+    "spotifyPopularity": 59,
+    "genres": [
+      "power metal",
+      "folk metal",
+      "medieval metal",
+      "metal",
+      "symphonic metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "292K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3o2dn2O0FCVsWDFSh8qxgG",
+    "name": "Sabaton",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfc0524cca1171fac8678f4bf",
+    "followers": 2392733,
+    "spotifyId": "3o2dn2O0FCVsWDFSh8qxgG",
+    "spotifyPopularity": 74,
+    "genres": [
+      "power metal",
+      "metal",
+      "heavy metal",
+      "symphonic metal",
+      "folk metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "18RXUrxy1BYOOvrW0XuFBg",
+    "name": "Metalite",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2057e12cb633daefe8a10660",
+    "followers": 55750,
+    "spotifyId": "18RXUrxy1BYOOvrW0XuFBg",
+    "spotifyPopularity": 39,
+    "genres": [
+      "power metal",
+      "symphonic metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "55K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4NiJW4q9ichVqL1aUsgGAN",
+    "name": "A Day To Remember",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6164f861e5e683c9067f4395",
+    "followers": 2501473,
+    "spotifyId": "4NiJW4q9ichVqL1aUsgGAN",
+    "spotifyPopularity": 72,
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "pop punk",
+      "screamo",
+      "emo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "3Uobr6LgQpBbk6k4QGAb3V",
+    "name": "I Prevail",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba26ab7baa4a50f469edbfd76",
+    "followers": 1797576,
+    "spotifyId": "3Uobr6LgQpBbk6k4QGAb3V",
+    "spotifyPopularity": 72,
+    "genres": [
+      "metalcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "6MwPCCR936cYfM1dLsGVnl",
+    "name": "Motionless In White",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb58f2b24b02877506d74b612b",
+    "followers": 1947102,
+    "spotifyId": "6MwPCCR936cYfM1dLsGVnl",
+    "spotifyPopularity": 71,
+    "genres": [
+      "metalcore",
+      "metal",
+      "screamo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "3HVdAiMNjYrQIKlOGxoGh5",
+    "name": "Rob Zombie",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb40a6cfc37fa94d54d28aca22",
+    "followers": 3557166,
+    "spotifyId": "3HVdAiMNjYrQIKlOGxoGh5",
+    "spotifyPopularity": 71,
+    "genres": [
+      "industrial metal",
+      "industrial rock",
+      "alternative metal",
+      "nu metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "3.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "3ZztVuWxHzNpl0THurTFCv",
+    "name": "Architects",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd8691d3ca44cd95c89a40da4",
+    "followers": 1206056,
+    "spotifyId": "3ZztVuWxHzNpl0THurTFCv",
+    "spotifyPopularity": 70,
+    "genres": [
+      "metalcore",
+      "djent",
+      "mathcore",
+      "metal",
+      "post-hardcore",
+      "deathcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "2MqhkhX4npxDZ62ObR5ELO",
+    "name": "Hoobastank",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb6f14120a7c97c531c2ebdcc",
+    "followers": 2698107,
+    "spotifyId": "2MqhkhX4npxDZ62ObR5ELO",
+    "spotifyPopularity": 70,
+    "genres": [
+      "nu metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "7iWiAD5LLKyiox2grgfmUT",
+    "name": "Bullet For My Valentine",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb18219fa877c67b4eda00550c",
+    "followers": 3447076,
+    "spotifyId": "7iWiAD5LLKyiox2grgfmUT",
+    "spotifyPopularity": 70,
+    "genres": [
+      "metalcore",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "3.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "6gZq1Q6bdOxsUPUG1TaFbF",
+    "name": "Godsmack",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe024531c06e7de54f84ea6fd",
+    "followers": 3620768,
+    "spotifyId": "6gZq1Q6bdOxsUPUG1TaFbF",
+    "spotifyPopularity": 70,
+    "genres": [
+      "nu metal",
+      "alternative metal",
+      "hard rock",
+      "rap metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "3.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "1WNoKxsp715jez1Td4vthc",
+    "name": "Electric Callboy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4ee8ef4f7f78db11c95017c7",
+    "followers": 1051682,
+    "spotifyId": "1WNoKxsp715jez1Td4vthc",
+    "spotifyPopularity": 70,
+    "genres": [
+      "metalcore",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "4MzJMcHQBl9SIYSjwWn8QW",
+    "name": "Spiritbox",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb501369c8b24b71bb2dcca603",
+    "followers": 950983,
+    "spotifyId": "4MzJMcHQBl9SIYSjwWn8QW",
+    "spotifyPopularity": 69,
+    "genres": [
+      "metalcore",
+      "djent",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "950K",
+    "tier": "Established"
+  },
+  {
+    "id": "1DFr97A9HnbV3SKTJFu62M",
+    "name": "Motörhead",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4967dcee9eefbf51e666ef31",
+    "followers": 4418540,
+    "spotifyId": "1DFr97A9HnbV3SKTJFu62M",
+    "spotifyPopularity": 69,
+    "genres": [
+      "heavy metal",
+      "metal",
+      "speed metal",
+      "hard rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "4.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "7Js6Lde8thlIHXggv2SCBz",
+    "name": "Europe",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe99fd2e4f7019aa6cb8a26e9",
+    "followers": 1917660,
+    "spotifyId": "7Js6Lde8thlIHXggv2SCBz",
+    "spotifyPopularity": 68,
+    "genres": [
+      "glam metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "3UbyYnvNIT5DFXU4WgiGpP",
+    "name": "Whitesnake",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1cc545458190efc44f48035f",
+    "followers": 3272450,
+    "spotifyId": "3UbyYnvNIT5DFXU4WgiGpP",
+    "spotifyPopularity": 68,
+    "genres": [
+      "glam metal",
+      "hard rock",
+      "glam rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "3.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "52qKfVcIV4GS8A8Vay2xtt",
+    "name": "Ice Nine Kills",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb40fa008d6392cc85377a8bc8",
+    "followers": 1140335,
+    "spotifyId": "52qKfVcIV4GS8A8Vay2xtt",
+    "spotifyPopularity": 68,
+    "genres": [
+      "metalcore",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "2NPduAUeLVsfIauhRwuft1",
+    "name": "Nightwish",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf3284e60d4e43c9a7b52c08d",
+    "followers": 2396205,
+    "spotifyId": "2NPduAUeLVsfIauhRwuft1",
+    "spotifyPopularity": 68,
+    "genres": [
+      "symphonic metal",
+      "gothic metal",
+      "power metal",
+      "metal",
+      "folk metal",
+      "gothic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "0GDGKpJFhVpcjIGF8N6Ewt",
+    "name": "Gojira",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb96c4949ee078fbef5d5adb68",
+    "followers": 1741095,
+    "spotifyId": "0GDGKpJFhVpcjIGF8N6Ewt",
+    "spotifyPopularity": 68,
+    "genres": [
+      "groove metal",
+      "progressive metal",
+      "metal",
+      "death metal",
+      "djent"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "37394IP6uhnjIpsawpMu4l",
+    "name": "Killswitch Engage",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb49670e56bfa7556b4a255286",
+    "followers": 2132875,
+    "spotifyId": "37394IP6uhnjIpsawpMu4l",
+    "spotifyPopularity": 68,
+    "genres": [
+      "metalcore",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "1cJ5tVoeAEFcZBAwSZ0CtF",
+    "name": "The Plot In You",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe37f236d6cb6e194c88660ab",
+    "followers": 567289,
+    "spotifyId": "1cJ5tVoeAEFcZBAwSZ0CtF",
+    "spotifyPopularity": 67,
+    "genres": [
+      "metalcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "567K",
+    "tier": "Established"
+  },
+  {
+    "id": "0blJzvevdXrp21YeI2vbco",
+    "name": "Type O Negative",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb843df562d1bad7f5163fd164",
+    "followers": 1629539,
+    "spotifyId": "0blJzvevdXrp21YeI2vbco",
+    "spotifyPopularity": 67,
+    "genres": [
+      "gothic metal",
+      "gothic rock",
+      "doom metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "5FjQVp1Lb0kltmwIuu5kfj",
+    "name": "Dayseeker",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaf20d15e4327302d86a7f1ec",
+    "followers": 442612,
+    "spotifyId": "5FjQVp1Lb0kltmwIuu5kfj",
+    "spotifyPopularity": 68,
+    "genres": [
+      "metalcore",
+      "post-hardcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "442K",
+    "tier": "Established"
+  },
+  {
+    "id": "1caBfBEapzw8z2Qz9q0OaQ",
+    "name": "Asking Alexandria",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd07f0b3d8b5c9576f15f1fb1",
+    "followers": 2400569,
+    "spotifyId": "1caBfBEapzw8z2Qz9q0OaQ",
+    "spotifyPopularity": 67,
+    "genres": [
+      "metalcore",
+      "screamo",
+      "post-hardcore",
+      "metal",
+      "emo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "4opTS86dN9uO313J9CE8xg",
+    "name": "Skid Row",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb59fe65d4b1e00e486f285167",
+    "followers": 3065538,
+    "spotifyId": "4opTS86dN9uO313J9CE8xg",
+    "spotifyPopularity": 67,
+    "genres": [
+      "glam metal",
+      "glam rock",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "3.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "0eI3X5rAzHRZVe5FPk4MN1",
+    "name": "Bad Wolves",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb620e9911e10064bcbf2d7481",
+    "followers": 865194,
+    "spotifyId": "0eI3X5rAzHRZVe5FPk4MN1",
+    "spotifyPopularity": 67,
+    "genres": [
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "865K",
+    "tier": "Established"
+  },
+  {
+    "id": "1E4r4z7ivGUcSAnCbINJ9v",
+    "name": "Drowning Pool",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4501ba57fdddf77368c589ff",
+    "followers": 2384800,
+    "spotifyId": "1E4r4z7ivGUcSAnCbINJ9v",
+    "spotifyPopularity": 67,
+    "genres": [
+      "nu metal",
+      "alternative metal",
+      "rap metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "159qqlGwzE04xyqpfAwRLo",
+    "name": "Parkway Drive",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd509fc845244baef598a67df",
+    "followers": 1249893,
+    "spotifyId": "159qqlGwzE04xyqpfAwRLo",
+    "spotifyPopularity": 66,
+    "genres": [
+      "metalcore",
+      "metal",
+      "deathcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "0zfT626RwO6zN3RDYeRit5",
+    "name": "Black Label Society",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebca9e1ddb61172c1b9672567a",
+    "followers": 1781935,
+    "spotifyId": "0zfT626RwO6zN3RDYeRit5",
+    "spotifyPopularity": 66,
+    "genres": [
+      "groove metal",
+      "metal",
+      "heavy metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "74aLweE8FHHf4yN5TWv1GM",
+    "name": "HIM",
+    "image": "https://i.scdn.co/image/bceb7fc52d4b64709d487f716befe43ef8273b1a",
+    "followers": 977822,
+    "spotifyId": "74aLweE8FHHf4yN5TWv1GM",
+    "spotifyPopularity": 66,
+    "genres": [
+      "gothic metal",
+      "gothic rock",
+      "finnish rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "977K",
+    "tier": "Established"
+  },
+  {
+    "id": "1fBCIkoPOPCDLUxGuWNvyo",
+    "name": "Poison",
+    "image": "https://i.scdn.co/image/70ed0b201cafa20fc3e3cb30a916f91adbb604ed",
+    "followers": 3525945,
+    "spotifyId": "1fBCIkoPOPCDLUxGuWNvyo",
+    "spotifyPopularity": 66,
+    "genres": [
+      "glam metal",
+      "glam rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "3.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "4DFhHyjvGYa9wxdHUjtDkc",
+    "name": "A Perfect Circle",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb41472573351dfea479a4ffba",
+    "followers": 2039045,
+    "spotifyId": "4DFhHyjvGYa9wxdHUjtDkc",
+    "spotifyPopularity": 66,
+    "genres": [
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "6qO6LhD6FuXK5e2PtfAIMz",
+    "name": "We Came As Romans",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd9d16a3e1545972991ea514c",
+    "followers": 930052,
+    "spotifyId": "6qO6LhD6FuXK5e2PtfAIMz",
+    "spotifyPopularity": 66,
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "screamo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "930K",
+    "tier": "Established"
+  },
+  {
+    "id": "3hE8S8ohRErocpkY7uJW4a",
+    "name": "Within Temptation",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd7fd83f3a54ab822936034b6",
+    "followers": 1398158,
+    "spotifyId": "3hE8S8ohRErocpkY7uJW4a",
+    "spotifyPopularity": 65,
+    "genres": [
+      "symphonic metal",
+      "gothic metal",
+      "gothic rock",
+      "power metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "5S6hjAxgxjsLylsTtMIimO",
+    "name": "Saliva",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9b0f80a20812daae4481dd54",
+    "followers": 1122879,
+    "spotifyId": "5S6hjAxgxjsLylsTtMIimO",
+    "spotifyPopularity": 66,
+    "genres": [
+      "nu metal",
+      "rap metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "57ylwQTnFnIhJh4nu4rxCs",
+    "name": "In Flames",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5c3bd919d1344a738af14136",
+    "followers": 1281070,
+    "spotifyId": "57ylwQTnFnIhJh4nu4rxCs",
+    "spotifyPopularity": 65,
+    "genres": [
+      "melodic death metal",
+      "metal",
+      "death metal",
+      "metalcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "6KO6G41BBLTDNYOLefWTMU",
+    "name": "P.O.D.",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4e1c6d4308fcb23eec68da97",
+    "followers": 2068765,
+    "spotifyId": "6KO6G41BBLTDNYOLefWTMU",
+    "spotifyPopularity": 65,
+    "genres": [
+      "nu metal",
+      "christian rock",
+      "rap metal",
+      "rap rock",
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "4Lm0pUvmisUHMdoky5ch2I",
+    "name": "Apocalyptica",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd5b5240aa1e0454e3ea2eb72",
+    "followers": 1143018,
+    "spotifyId": "4Lm0pUvmisUHMdoky5ch2I",
+    "spotifyPopularity": 65,
+    "genres": [
+      "symphonic metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "6w7j5wQ5AI5OQYlcM15s2L",
+    "name": "Extreme",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba2816ccc399c2c820c3d0bb6",
+    "followers": 689454,
+    "spotifyId": "6w7j5wQ5AI5OQYlcM15s2L",
+    "spotifyPopularity": 65,
+    "genres": [
+      "glam metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "689K",
+    "tier": "Established"
+  },
+  {
+    "id": "4CYeVo5iZbtYGBN4Isc3n6",
+    "name": "Dio",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb555c8199ba80168cfeafdfbc",
+    "followers": 2929295,
+    "spotifyId": "4CYeVo5iZbtYGBN4Isc3n6",
+    "spotifyPopularity": 65,
+    "genres": [
+      "heavy metal",
+      "metal",
+      "hard rock",
+      "glam metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "278ZYwGhdK6QTzE3MFePnP",
+    "name": "Trivium",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe3d54be763612bdcf50e56eb",
+    "followers": 1687323,
+    "spotifyId": "278ZYwGhdK6QTzE3MFePnP",
+    "spotifyPopularity": 65,
+    "genres": [
+      "metalcore",
+      "metal",
+      "heavy metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "0OgdRTPItr9dw4XYp4JJUx",
+    "name": "Fit For A King",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0ee10b3cf7729ac998e7855d",
+    "followers": 473244,
+    "spotifyId": "0OgdRTPItr9dw4XYp4JJUx",
+    "spotifyPopularity": 65,
+    "genres": [
+      "metalcore",
+      "christian rock",
+      "deathcore",
+      "metal",
+      "djent",
+      "post-hardcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "473K",
+    "tier": "Established"
+  },
+  {
+    "id": "5HFkc3t0HYETL4JeEbDB1v",
+    "name": "Powerwolf",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfa98bd6af388ecfe167efbd8",
+    "followers": 1036815,
+    "spotifyId": "5HFkc3t0HYETL4JeEbDB1v",
+    "spotifyPopularity": 65,
+    "genres": [
+      "power metal",
+      "metal",
+      "symphonic metal",
+      "folk metal",
+      "medieval metal",
+      "heavy metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "2fqPOGxG12nEERj8YG7p22",
+    "name": "Catch Your Breath",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8aa2754db11019a2d19f6272",
+    "followers": 227857,
+    "spotifyId": "2fqPOGxG12nEERj8YG7p22",
+    "spotifyPopularity": 64,
+    "genres": [
+      "metalcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "227K",
+    "tier": "Established"
+  },
+  {
+    "id": "40Gp3ijkxpCi94Bu1Bft4f",
+    "name": "Metalium",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb750f1c25bd50bfaa4e50751f",
+    "followers": 34148,
+    "spotifyId": "40Gp3ijkxpCi94Bu1Bft4f",
+    "spotifyPopularity": 31,
+    "genres": [
+      "power metal",
+      "speed metal",
+      "heavy metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "34K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7b85ve82Sh36a3UAx74wut",
+    "name": "Twisted Sister",
+    "image": "https://i.scdn.co/image/758604f17b98e5db650adeebf9cf8cb55feda0f0",
+    "followers": 3006709,
+    "spotifyId": "7b85ve82Sh36a3UAx74wut",
+    "spotifyPopularity": 64,
+    "genres": [
+      "glam metal",
+      "glam rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "3.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "2K2bsaNeuQAFkuVwrrlJe0",
+    "name": "Wind Walkers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb60375122d3b8af592e6b9381",
+    "followers": 105370,
+    "spotifyId": "2K2bsaNeuQAFkuVwrrlJe0",
+    "spotifyPopularity": 64,
+    "genres": [
+      "metalcore",
+      "post-hardcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "105K",
+    "tier": "Established"
+  },
+  {
+    "id": "6tbLPxj1uQ6vsRQZI2YFCT",
+    "name": "In This Moment",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb285ee23e367e081e90606ea1",
+    "followers": 1423868,
+    "spotifyId": "6tbLPxj1uQ6vsRQZI2YFCT",
+    "spotifyPopularity": 64,
+    "genres": [
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "6JW8wliOEwaDZ231ZY7cf4",
+    "name": "Sepultura",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb716f574b796045f28ce4f4f3",
+    "followers": 2283662,
+    "spotifyId": "6JW8wliOEwaDZ231ZY7cf4",
+    "spotifyPopularity": 63,
+    "genres": [
+      "thrash metal",
+      "groove metal",
+      "metal",
+      "death metal",
+      "nu metal",
+      "speed metal",
+      "heavy metal",
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "6vwjIs0tbIiseJMR3pqwiL",
+    "name": "Beartooth",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd2219c00e2fa1f2aaddcbf24",
+    "followers": 869297,
+    "spotifyId": "6vwjIs0tbIiseJMR3pqwiL",
+    "spotifyPopularity": 64,
+    "genres": [
+      "metalcore",
+      "post-hardcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "869K",
+    "tier": "Established"
+  },
+  {
+    "id": "2Pfv2w8a20xzC7Dr7QXRqM",
+    "name": "Mudvayne",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9013e926945e76dbc9ad6c97",
+    "followers": 2081558,
+    "spotifyId": "2Pfv2w8a20xzC7Dr7QXRqM",
+    "spotifyPopularity": 63,
+    "genres": [
+      "nu metal",
+      "alternative metal",
+      "rap metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "6G43CiunIxMwb2tQ12vNP6",
+    "name": "LANDMVRKS",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb288a81dd1d1387c0544c56e0",
+    "followers": 310603,
+    "spotifyId": "6G43CiunIxMwb2tQ12vNP6",
+    "spotifyPopularity": 63,
+    "genres": [
+      "metalcore",
+      "deathcore",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "310K",
+    "tier": "Established"
+  },
+  {
+    "id": "5pqvAI85RMxL9K0xHvSwGu",
+    "name": "Currents",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb628a3928ad94643d5c389b68",
+    "followers": 312674,
+    "spotifyId": "5pqvAI85RMxL9K0xHvSwGu",
+    "spotifyPopularity": 63,
+    "genres": [
+      "metalcore",
+      "djent",
+      "deathcore",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "312K",
+    "tier": "Established"
+  },
+  {
+    "id": "6TZdvF1kFzwnQLgHQynzsO",
+    "name": "Alien Ant Farm",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcfb89fdb4667f2816314ff1b",
+    "followers": 1008099,
+    "spotifyId": "6TZdvF1kFzwnQLgHQynzsO",
+    "spotifyPopularity": 63,
+    "genres": [
+      "nu metal",
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "0rEuaTPLMhlViNCJrg3NEH",
+    "name": "Beast In Black",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc3eeafedc823cf781661e4bb",
+    "followers": 369922,
+    "spotifyId": "0rEuaTPLMhlViNCJrg3NEH",
+    "spotifyPopularity": 62,
+    "genres": [
+      "power metal",
+      "symphonic metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "369K",
+    "tier": "Established"
+  },
+  {
+    "id": "7cNNNhdJDrt3vgQjwSavNf",
+    "name": "Memphis May Fire",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb97b338006d09399d93512ad3",
+    "followers": 931325,
+    "spotifyId": "7cNNNhdJDrt3vgQjwSavNf",
+    "spotifyPopularity": 62,
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "screamo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "931K",
+    "tier": "Established"
+  },
+  {
+    "id": "7JDSHlDdVTo7aZKdQZ53Vf",
+    "name": "Static-X",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7f4a72d9541571d430c157c7",
+    "followers": 1594205,
+    "spotifyId": "7JDSHlDdVTo7aZKdQZ53Vf",
+    "spotifyPopularity": 62,
+    "genres": [
+      "industrial metal",
+      "nu metal",
+      "industrial rock",
+      "industrial",
+      "rap metal",
+      "metal",
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "6kNKUYGn6VNGsRoXmyoDPK",
+    "name": "The Amity Affliction",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbedc00e58cff5e289d8e9a24",
+    "followers": 787818,
+    "spotifyId": "6kNKUYGn6VNGsRoXmyoDPK",
+    "spotifyPopularity": 62,
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "screamo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "787K",
+    "tier": "Established"
+  },
+  {
+    "id": "6bu7CtcOMWcS0BMq7snHW6",
+    "name": "Wage War",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcdb5a08eb788524df83e8c3e",
+    "followers": 602112,
+    "spotifyId": "6bu7CtcOMWcS0BMq7snHW6",
+    "spotifyPopularity": 62,
+    "genres": [
+      "metalcore",
+      "metal",
+      "deathcore",
+      "djent"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "602K",
+    "tier": "Established"
+  },
+  {
+    "id": "5OfhOoKunSnuubxxRML8J3",
+    "name": "Mr. Big",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebce1118adf3961b22e63179d1",
+    "followers": 694300,
+    "spotifyId": "5OfhOoKunSnuubxxRML8J3",
+    "spotifyPopularity": 61,
+    "genres": [
+      "glam metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "694K",
+    "tier": "Established"
+  },
+  {
+    "id": "3pulcT2wt7FEG10lQlqDJL",
+    "name": "Amon Amarth",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe0ed6357e133abef229c44a3",
+    "followers": 1227114,
+    "spotifyId": "3pulcT2wt7FEG10lQlqDJL",
+    "spotifyPopularity": 62,
+    "genres": [
+      "melodic death metal",
+      "folk metal",
+      "metal",
+      "death metal",
+      "heavy metal",
+      "power metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "1CF8aEN939swnuIZGFI7Hk",
+    "name": "The Word Alive",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf02d88ab6e3a61f1dad8915f",
+    "followers": 352933,
+    "spotifyId": "1CF8aEN939swnuIZGFI7Hk",
+    "spotifyPopularity": 60,
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "screamo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "352K",
+    "tier": "Established"
+  },
+  {
+    "id": "4pQN0GB0fNEEOfQCaWotsY",
+    "name": "Helloween",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc45194d4872f6177bb962f7e",
+    "followers": 1363348,
+    "spotifyId": "4pQN0GB0fNEEOfQCaWotsY",
+    "spotifyPopularity": 62,
+    "genres": [
+      "power metal",
+      "speed metal",
+      "heavy metal",
+      "metal",
+      "symphonic metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "4tususHNaR68xdgLstlGBA",
+    "name": "Of Mice & Men",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdb9bbab9b7527362c934234c",
+    "followers": 1355229,
+    "spotifyId": "4tususHNaR68xdgLstlGBA",
+    "spotifyPopularity": 62,
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "screamo",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "2XIbOWDT5vZPW7jNyzdfcK",
+    "name": "Caskets",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7094e150185be7496961ec17",
+    "followers": 216528,
+    "spotifyId": "2XIbOWDT5vZPW7jNyzdfcK",
+    "spotifyPopularity": 61,
+    "genres": [
+      "metalcore",
+      "post-hardcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "216K",
+    "tier": "Established"
+  },
+  {
+    "id": "28pS8WVbFstY0o1SrqCf8I",
+    "name": "Firehouse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb42340b0bd8a8ad9fae79d443",
+    "followers": 953882,
+    "spotifyId": "28pS8WVbFstY0o1SrqCf8I",
+    "spotifyPopularity": 60,
+    "genres": [
+      "glam metal",
+      "glam rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "953K",
+    "tier": "Established"
+  },
+  {
+    "id": "3LkSiHbjqOHCKCqBfEZOTv",
+    "name": "Atreyu",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb26886e00c56279420a8ceaa7",
+    "followers": 1023260,
+    "spotifyId": "3LkSiHbjqOHCKCqBfEZOTv",
+    "spotifyPopularity": 61,
+    "genres": [
+      "metalcore",
+      "screamo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "2pH3wEn4eYlMMIIQyKPbVR",
+    "name": "DragonForce",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2c0d92dae9b4af4c8a565c3b",
+    "followers": 1227113,
+    "spotifyId": "2pH3wEn4eYlMMIIQyKPbVR",
+    "spotifyPopularity": 61,
+    "genres": [
+      "power metal",
+      "speed metal",
+      "metal",
+      "symphonic metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "6E9zde1CFsBtKI66OEHkk3",
+    "name": "Santiano",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba1fceda3d7d44a8a388f4447",
+    "followers": 628007,
+    "spotifyId": "6E9zde1CFsBtKI66OEHkk3",
+    "spotifyPopularity": 61,
+    "genres": [
+      "medieval metal",
+      "medieval",
+      "schlager",
+      "folk rock",
+      "celtic"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "628K",
+    "tier": "Established"
+  },
+  {
+    "id": "0v2e0oznnTaIXKLGKHphfX",
+    "name": "Polaris",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8cc500e7483d02c27f89a12e",
+    "followers": 385600,
+    "spotifyId": "0v2e0oznnTaIXKLGKHphfX",
+    "spotifyPopularity": 61,
+    "genres": [
+      "metalcore",
+      "djent",
+      "metal",
+      "deathcore",
+      "post-hardcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "385K",
+    "tier": "Established"
+  },
+  {
+    "id": "2KaW48xlLnXC2v8tvyhWsa",
+    "name": "Amaranthe",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb293f7f4aebb31292f607bf3b",
+    "followers": 614889,
+    "spotifyId": "2KaW48xlLnXC2v8tvyhWsa",
+    "spotifyPopularity": 61,
+    "genres": [
+      "symphonic metal",
+      "power metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "614K",
+    "tier": "Established"
+  },
+  {
+    "id": "0lVlNsuGaOr9vMHCZIAKMt",
+    "name": "Machine Head",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd823e6b1cf48849e8413554e",
+    "followers": 1406303,
+    "spotifyId": "0lVlNsuGaOr9vMHCZIAKMt",
+    "spotifyPopularity": 61,
+    "genres": [
+      "groove metal",
+      "metal",
+      "nu metal",
+      "thrash metal",
+      "hard rock",
+      "heavy metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "7rqJQQxuUOCk052MK5kLsH",
+    "name": "Imminence",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcb31d429bcdf325ba1958462",
+    "followers": 368218,
+    "spotifyId": "7rqJQQxuUOCk052MK5kLsH",
+    "spotifyPopularity": 60,
+    "genres": [
+      "metalcore",
+      "metal",
+      "deathcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "368K",
+    "tier": "Established"
+  },
+  {
+    "id": "1Dvfqq39HxvCJ3GvfeIFuT",
+    "name": "Mastodon",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5490f4a4c327475719679a5f",
+    "followers": 1016654,
+    "spotifyId": "1Dvfqq39HxvCJ3GvfeIFuT",
+    "spotifyPopularity": 60,
+    "genres": [
+      "progressive metal",
+      "sludge metal",
+      "stoner metal",
+      "metal",
+      "groove metal",
+      "stoner rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "3tufWJzpCiAGleBt5TkmTn",
+    "name": "Ratt",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd3297e8dc2b2a85e1071e637",
+    "followers": 1262788,
+    "spotifyId": "3tufWJzpCiAGleBt5TkmTn",
+    "spotifyPopularity": 61,
+    "genres": [
+      "glam metal",
+      "glam rock",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "7HL4id2U7FSDJtfKQHMgQx",
+    "name": "Cinderella",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaa397a18bdfd4c1dd44557c9",
+    "followers": 1866831,
+    "spotifyId": "7HL4id2U7FSDJtfKQHMgQx",
+    "spotifyPopularity": 60,
+    "genres": [
+      "glam metal",
+      "glam rock",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "1dLWg6m8RRhizsdqJbhyj3",
+    "name": "Quiet Riot",
+    "image": "https://i.scdn.co/image/2639448c11dfe54f33fd747f44093bb4aea936e0",
+    "followers": 2011783,
+    "spotifyId": "1dLWg6m8RRhizsdqJbhyj3",
+    "spotifyPopularity": 60,
+    "genres": [
+      "glam metal",
+      "hard rock",
+      "glam rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "2.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "5r1bdqzhgRoHC3YcCV6N5a",
+    "name": "The Darkness",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb23ad3dc93f4e2cad03f726be",
+    "followers": 473258,
+    "spotifyId": "5r1bdqzhgRoHC3YcCV6N5a",
+    "spotifyPopularity": 60,
+    "genres": [
+      "glam metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "473K",
+    "tier": "Established"
+  },
+  {
+    "id": "2a5G7JLmVJNjfFNg8rwLcP",
+    "name": "Till Lindemann",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf23d27607a0ccff5ea929c98",
+    "followers": 358112,
+    "spotifyId": "2a5G7JLmVJNjfFNg8rwLcP",
+    "spotifyPopularity": 60,
+    "genres": [
+      "industrial metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "358K",
+    "tier": "Established"
+  },
+  {
+    "id": "4f5V3PQ66nIrBCqugJtaGn",
+    "name": "Death",
+    "image": "https://i.scdn.co/image/b1ad9718b69b4c75164d418bde0cf3aa1566ac92",
+    "followers": 1054642,
+    "spotifyId": "4f5V3PQ66nIrBCqugJtaGn",
+    "spotifyPopularity": 60,
+    "genres": [
+      "death metal",
+      "metal",
+      "thrash metal",
+      "grindcore",
+      "melodic death metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "0b2B3PwcYzQAhuJacmcYgc",
+    "name": "The HU",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2ccdc24acf91ba14b1b2273a",
+    "followers": 995129,
+    "spotifyId": "0b2B3PwcYzQAhuJacmcYgc",
+    "spotifyPopularity": 60,
+    "genres": [
+      "folk metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "995K",
+    "tier": "Established"
+  },
+  {
+    "id": "0NbQe5CNgh4YApOCDuHSjb",
+    "name": "The Devil Wears Prada",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe3bb40229a22b1fab43e312b",
+    "followers": 712178,
+    "spotifyId": "0NbQe5CNgh4YApOCDuHSjb",
+    "spotifyPopularity": 60,
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "screamo",
+      "deathcore",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "712K",
+    "tier": "Established"
+  },
+  {
+    "id": "0uTkKGuqdf7CtKlZLt9N0Y",
+    "name": "Nevertel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb632f10f0b6dca605d68e2a8f",
+    "followers": 141707,
+    "spotifyId": "0uTkKGuqdf7CtKlZLt9N0Y",
+    "spotifyPopularity": 60,
+    "genres": [
+      "metalcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "141K",
+    "tier": "Established"
+  },
+  {
+    "id": "2zgG1GPDvjaBgxeQaVXI14",
+    "name": "All That Remains",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5fcd8bb445abede001fa0222",
+    "followers": 1439480,
+    "spotifyId": "2zgG1GPDvjaBgxeQaVXI14",
+    "spotifyPopularity": 60,
+    "genres": [
+      "metalcore",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "09Z51O0q4AwHl7FjUUlFKw",
+    "name": "Saltatio Mortis",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdb78c4f1860e6cf4d7277900",
+    "followers": 281072,
+    "spotifyId": "09Z51O0q4AwHl7FjUUlFKw",
+    "spotifyPopularity": 60,
+    "genres": [
+      "medieval metal",
+      "medieval",
+      "folk metal",
+      "folk rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "281K",
+    "tier": "Established"
+  },
+  {
+    "id": "4jpaXieuls7LVzG1uma5Rs",
+    "name": "Avatar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebee43b5da65aee53bdcf677e0",
+    "followers": 475807,
+    "spotifyId": "4jpaXieuls7LVzG1uma5Rs",
+    "spotifyPopularity": 60,
+    "genres": [
+      "metal",
+      "melodic death metal",
+      "groove metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "475K",
+    "tier": "Established"
+  },
+  {
+    "id": "4HFpzehKjow2WqU4EJ6Wy9",
+    "name": "Bloodywood",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb390d928281a53dbfd9c81d8d",
+    "followers": 372423,
+    "spotifyId": "4HFpzehKjow2WqU4EJ6Wy9",
+    "spotifyPopularity": 58,
+    "genres": [
+      "folk metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Metal",
+    "likes": "372K",
+    "tier": "Rising"
+  },
+  {
+    "id": "78LVpk0xhPtf6ptfZjaw5h",
+    "name": "Hitten",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7f48b37e97817f9965ad2cfd",
+    "followers": 13409,
+    "spotifyId": "78LVpk0xhPtf6ptfZjaw5h",
+    "spotifyPopularity": 26,
+    "genres": [
+      "speed metal",
+      "heavy metal",
+      "glam metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Metal",
+    "likes": "13K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4M94dDJ9YViPmY7lcZmMcR",
+    "name": "Boy Hits Car",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb353651d4fce4283d12581f7e",
+    "followers": 21478,
+    "spotifyId": "4M94dDJ9YViPmY7lcZmMcR",
+    "spotifyPopularity": 32,
+    "genres": [
+      "nu metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Metal",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3rxPTMtxVQKNAbBBl6cQrw",
+    "name": "Famous Last Words",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba34d838d164df0aa98f9d6a2",
+    "followers": 126995,
+    "spotifyId": "3rxPTMtxVQKNAbBBl6cQrw",
+    "spotifyPopularity": 42,
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "screamo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "famous",
+    "primaryGenre": "Metal",
+    "likes": "126K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3B2zav2zeToujHfMTa7ZB0",
+    "name": "Make Me Famous",
+    "image": "https://i.scdn.co/image/e0f4e8cd14f992e6e9ddf961ac273eece8c2b5fb",
+    "followers": 42824,
+    "spotifyId": "3B2zav2zeToujHfMTa7ZB0",
+    "spotifyPopularity": 28,
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "screamo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "famous",
+    "primaryGenre": "Metal",
+    "likes": "42K",
+    "tier": "Underground"
+  },
+  {
+    "id": "57b3sKD9pGilMb2QlMqArq",
+    "name": "Hardcore Superstar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcacfc658bb464d9a32fbf0a8",
+    "followers": 111590,
+    "spotifyId": "57b3sKD9pGilMb2QlMqArq",
+    "spotifyPopularity": 44,
+    "genres": [
+      "glam metal",
+      "glam rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "superstar",
+    "primaryGenre": "Metal",
+    "likes": "111K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4oawINl9WYHGjlW5a0oK4c",
+    "name": "ICON",
+    "image": "https://i.scdn.co/image/ab67616d0000b273229bca24f46bd30840b38eeb",
+    "followers": 18431,
+    "spotifyId": "4oawINl9WYHGjlW5a0oK4c",
+    "spotifyPopularity": 37,
+    "genres": [
+      "glam metal",
+      "aor",
+      "arena rock",
+      "glam rock",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "icon",
+    "primaryGenre": "Metal",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4t1xUIySrHGdN5Gil3BYrv",
+    "name": "Skycamefalling",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe3071bded43ecb13d2c9269e",
+    "followers": 10504,
+    "spotifyId": "4t1xUIySrHGdN5Gil3BYrv",
+    "spotifyPopularity": 28,
+    "genres": [
+      "metalcore",
+      "mathcore",
+      "screamo",
+      "post-hardcore",
+      "hardcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Metal",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6DH6xC3RoN7L7sGlJ60LKv",
+    "name": "200 Stab Wounds",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb19ed794f9c508405b9a4bdfd",
+    "followers": 83043,
+    "spotifyId": "6DH6xC3RoN7L7sGlJ60LKv",
+    "spotifyPopularity": 44,
+    "genres": [
+      "death metal",
+      "grindcore",
+      "deathcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "2000s",
+    "primaryGenre": "Metal",
+    "likes": "83K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0q32a3GRCjDxS4EIrC7YVY",
+    "name": "The Sword",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7294148e4f4637e31ecc88ca",
+    "followers": 245302,
+    "spotifyId": "0q32a3GRCjDxS4EIrC7YVY",
+    "spotifyPopularity": 50,
+    "genres": [
+      "stoner metal",
+      "stoner rock",
+      "sludge metal",
+      "doom metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "Metal",
+    "likes": "245K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5wb6P2LKu8rlgNg6vCDLyF",
+    "name": "Beyond Melancholy",
+    "image": "https://i.scdn.co/image/ab67616d0000b273df94811962784af6db0622cb",
+    "followers": 21533,
+    "spotifyId": "5wb6P2LKu8rlgNg6vCDLyF",
+    "spotifyPopularity": 26,
+    "genres": [
+      "black metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "melancholic",
+    "primaryGenre": "Metal",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7kWnE981vITXDnAD2cZmCV",
+    "name": "Darkthrone",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb79320f5cf422d8a8e98836c4",
+    "followers": 486064,
+    "spotifyId": "7kWnE981vITXDnAD2cZmCV",
+    "spotifyPopularity": 46,
+    "genres": [
+      "black metal",
+      "metal",
+      "death metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "486K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5EHvXKnNz78jkAVgTQLQ5O",
+    "name": "Dark Tranquillity",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb473898d318f6958efb692c2f",
+    "followers": 402883,
+    "spotifyId": "5EHvXKnNz78jkAVgTQLQ5O",
+    "spotifyPopularity": 52,
+    "genres": [
+      "melodic death metal",
+      "death metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "402K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3CMyREgx8ZErRUydXlmCDX",
+    "name": "Dark Divine",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3259266f33176588ebd18cb9",
+    "followers": 62296,
+    "spotifyId": "3CMyREgx8ZErRUydXlmCDX",
+    "spotifyPopularity": 51,
+    "genres": [
+      "metalcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "62K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4dso1lISV1Atdo3O6qbhqq",
+    "name": "Darkest Hour",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd977966f2d1f7aeb1004653f",
+    "followers": 184197,
+    "spotifyId": "4dso1lISV1Atdo3O6qbhqq",
+    "spotifyPopularity": 43,
+    "genres": [
+      "metalcore",
+      "melodic death metal",
+      "deathcore",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "184K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2GIKcsT0xfsxpYUZ5yX2tL",
+    "name": "The Dark Tenor",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe1df889ae137863f3af5734b",
+    "followers": 40815,
+    "spotifyId": "2GIKcsT0xfsxpYUZ5yX2tL",
+    "spotifyPopularity": 42,
+    "genres": [
+      "medieval metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "40K",
+    "tier": "Rising"
+  },
+  {
+    "id": "21ojeH5LNADIGzJKc3hIlE",
+    "name": "Dark Funeral",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb34de1920bce942f680acf2ba",
+    "followers": 283343,
+    "spotifyId": "21ojeH5LNADIGzJKc3hIlE",
+    "spotifyPopularity": 40,
+    "genres": [
+      "black metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "283K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0YWKRTzA4kBceGwjywtMkh",
+    "name": "Dark Moor",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0d587ff9795f18455fc0016f",
+    "followers": 91429,
+    "spotifyId": "0YWKRTzA4kBceGwjywtMkh",
+    "spotifyPopularity": 37,
+    "genres": [
+      "power metal",
+      "symphonic metal",
+      "speed metal",
+      "gothic metal",
+      "folk metal",
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "91K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0RFQyVQGVcECxnuSLvEKxV",
+    "name": "Dark Angel",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732ef05b39eaf74efbcf39a6e0",
+    "followers": 172744,
+    "spotifyId": "0RFQyVQGVcECxnuSLvEKxV",
+    "spotifyPopularity": 36,
+    "genres": [
+      "thrash metal",
+      "speed metal",
+      "groove metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "172K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4yWabEiTzKShbBiy14Xx7f",
+    "name": "The Dark Element",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3ca2ae98538ae78e8f3f8baa",
+    "followers": 49570,
+    "spotifyId": "4yWabEiTzKShbBiy14Xx7f",
+    "spotifyPopularity": 36,
+    "genres": [
+      "symphonic metal",
+      "power metal",
+      "gothic metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "49K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7mkJGPq0wt04Wz4xyWsGEm",
+    "name": "The Dark Side of the Moon",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8c6c29d595bde1a8b586d0d3",
+    "followers": 25420,
+    "spotifyId": "7mkJGPq0wt04Wz4xyWsGEm",
+    "spotifyPopularity": 36,
+    "genres": [
+      "symphonic metal",
+      "medieval metal",
+      "power metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "25K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6TvwiAPxsB2Zj2o8bNlogk",
+    "name": "Dark Sarah",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0ed1c93a83ab1dac9e57c837",
+    "followers": 41639,
+    "spotifyId": "6TvwiAPxsB2Zj2o8bNlogk",
+    "spotifyPopularity": 33,
+    "genres": [
+      "symphonic metal",
+      "gothic metal",
+      "power metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Metal",
+    "likes": "41K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0Csv0ChHA3vtRvuVc1a671",
+    "name": "Happy Days",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737468a9842c275c09fe58c000",
+    "followers": 79477,
+    "spotifyId": "0Csv0ChHA3vtRvuVc1a671",
+    "spotifyPopularity": 32,
+    "genres": [
+      "black metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "happy",
+    "primaryGenre": "Metal",
+    "likes": "79K",
+    "tier": "Underground"
+  },
+  {
+    "id": "04tDiz6koPFuo5JBZyLgFg",
+    "name": "Sadness",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b43e87fb91979aabf1864c0c",
+    "followers": 56076,
+    "spotifyId": "04tDiz6koPFuo5JBZyLgFg",
+    "spotifyPopularity": 39,
+    "genres": [
+      "black metal",
+      "shoegaze",
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "sad",
+    "primaryGenre": "Metal",
+    "likes": "56K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7IAXZaLTb6nkJr8RmVPn5y",
+    "name": "ANGRA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb66ed9eef4c4f85369167a555",
+    "followers": 500169,
+    "spotifyId": "7IAXZaLTb6nkJr8RmVPn5y",
+    "spotifyPopularity": 55,
+    "genres": [
+      "power metal",
+      "symphonic metal",
+      "progressive metal",
+      "speed metal",
+      "metal",
+      "heavy metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "angry",
+    "primaryGenre": "Metal",
+    "likes": "500K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7cTq0bYGTIlPoXo9lFXJlL",
+    "name": "Van Canto",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc810d26bd80a80f0ac27031a",
+    "followers": 147769,
+    "spotifyId": "7cTq0bYGTIlPoXo9lFXJlL",
+    "spotifyPopularity": 39,
+    "genres": [
+      "power metal",
+      "symphonic metal",
+      "medieval metal",
+      "folk metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Metal",
+    "likes": "147K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6ggf9cwxdhYNLFPhf4CazJ",
+    "name": "GGGOLDDD",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8a514c1c852bff8376b3d8f",
+    "followers": 24238,
+    "spotifyId": "6ggf9cwxdhYNLFPhf4CazJ",
+    "spotifyPopularity": 28,
+    "genres": [
+      "doom metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Metal",
+    "likes": "24K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3z3KnhKZObj216IgfHYGVf",
+    "name": "Diamond Head",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb53b9a456d23ad58433cab243",
+    "followers": 194947,
+    "spotifyId": "3z3KnhKZObj216IgfHYGVf",
+    "spotifyPopularity": 39,
+    "genres": [
+      "heavy metal",
+      "speed metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "diamond",
+    "primaryGenre": "Metal",
+    "likes": "194K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5i0ph60TnwTlIGrOZAmcZa",
+    "name": "King Diamond",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb88335c2a97302c880d42a134",
+    "followers": 521741,
+    "spotifyId": "5i0ph60TnwTlIGrOZAmcZa",
+    "spotifyPopularity": 48,
+    "genres": [
+      "heavy metal",
+      "metal",
+      "speed metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "diamond",
+    "primaryGenre": "Metal",
+    "likes": "521K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5iO99RO9AmhAr4rLgjZ1nn",
+    "name": "Memorist",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb97a6253303fda570628a6f35",
+    "followers": 29969,
+    "spotifyId": "5iO99RO9AmhAr4rLgjZ1nn",
+    "spotifyPopularity": 44,
+    "genres": [
+      "metalcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "meme",
+    "primaryGenre": "Metal",
+    "likes": "29K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5gd8Tk70HlpZnwjNzJVA7D",
+    "name": "Internal Bleeding",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf19d66be790abede089662fb",
+    "followers": 27706,
+    "spotifyId": "5gd8Tk70HlpZnwjNzJVA7D",
+    "spotifyPopularity": 31,
+    "genres": [
+      "death metal",
+      "grindcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "internet",
+    "primaryGenre": "Metal",
+    "likes": "27K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0glc9Rxc58M5zTJP0mBCGM",
+    "name": "Digital Summer",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebae9fcc64455225fee638674e",
+    "followers": 27685,
+    "spotifyId": "0glc9Rxc58M5zTJP0mBCGM",
+    "spotifyPopularity": 27,
+    "genres": [
+      "alternative metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "digital",
+    "primaryGenre": "Metal",
+    "likes": "27K",
+    "tier": "Underground"
+  },
+  {
+    "id": "54akiBa0DkNM3qkhnGRflb",
+    "name": "The Union Underground",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe307928590fc00b88d4583d4",
+    "followers": 135090,
+    "spotifyId": "54akiBa0DkNM3qkhnGRflb",
+    "spotifyPopularity": 46,
+    "genres": [
+      "nu metal",
+      "industrial metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "underground",
+    "primaryGenre": "Metal",
+    "likes": "135K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6yCjbLFZ9qAnWfsy9ujm5Y",
+    "name": "Zeal & Ardor",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfd911c82faa64720eb283521",
+    "followers": 250292,
+    "spotifyId": "6yCjbLFZ9qAnWfsy9ujm5Y",
+    "spotifyPopularity": 51,
+    "genres": [
+      "black metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Metal",
+    "likes": "250K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6uejjWIOshliv2Ho0OJAQN",
+    "name": "Devin Townsend",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6b5a162e53e69b33603b5921",
+    "followers": 250470,
+    "spotifyId": "6uejjWIOshliv2Ho0OJAQN",
+    "spotifyPopularity": 46,
+    "genres": [
+      "progressive metal",
+      "progressive rock",
+      "djent"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Metal",
+    "likes": "250K",
+    "tier": "Rising"
+  },
+  {
+    "id": "54Xuca1P5nDqfKYZGDfHxl",
+    "name": "Devin Townsend Project",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2fe0fdea4581ab8a08174628",
+    "followers": 249980,
+    "spotifyId": "54Xuca1P5nDqfKYZGDfHxl",
+    "spotifyPopularity": 45,
+    "genres": [
+      "progressive metal",
+      "progressive rock",
+      "djent",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Metal",
+    "likes": "249K",
+    "tier": "Rising"
+  },
+  {
+    "id": "14SgKNlOCKAI0PfRD1HnWh",
+    "name": "Lordi",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebccf15374ddb07f19a38ef26f",
+    "followers": 280162,
+    "spotifyId": "14SgKNlOCKAI0PfRD1HnWh",
+    "spotifyPopularity": 51,
+    "genres": [
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Metal",
+    "likes": "280K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5Vy1NbrZXTMTAGFa4Im6hN",
+    "name": "Lost Society",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9164267b5ceac55b7271ecb2",
+    "followers": 98755,
+    "spotifyId": "5Vy1NbrZXTMTAGFa4Im6hN",
+    "spotifyPopularity": 44,
+    "genres": [
+      "thrash metal",
+      "groove metal",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Metal",
+    "likes": "98K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1binm59tmJzoZLvLETVYBP",
+    "name": "Jesu",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6b61fa80b8f04fc51e7f6bfa",
+    "followers": 66144,
+    "spotifyId": "1binm59tmJzoZLvLETVYBP",
+    "spotifyPopularity": 30,
+    "genres": [
+      "drone metal",
+      "shoegaze",
+      "post-rock",
+      "drone",
+      "sludge metal",
+      "slowcore",
+      "stoner metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Metal",
+    "likes": "66K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2vsXeWGC8rILp3rpSN2Fyk",
+    "name": "ISIS",
+    "image": "https://i.scdn.co/image/10cab18501e3b00598e5464803d0de3654191ca4",
+    "followers": 153682,
+    "spotifyId": "2vsXeWGC8rILp3rpSN2Fyk",
+    "spotifyPopularity": 38,
+    "genres": [
+      "sludge metal",
+      "post-rock",
+      "drone metal",
+      "stoner metal",
+      "progressive metal",
+      "doom metal",
+      "drone"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Metal",
+    "likes": "153K",
+    "tier": "Underground"
+  }
+]

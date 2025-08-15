@@ -1,0 +1,21 @@
+[
+  {
+    "id": "3gd8FJtBJtkRxdfbTu19U2",
+    "name": "Mumford & Sons",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb22f0413399a2275174f909b4",
+    "followers": 6588431,
+    "spotifyId": "3gd8FJtBJtkRxdfbTu19U2",
+    "spotifyPopularity": 77,
+    "genres": [
+      "folk",
+      "indie folk",
+      "folk rock"
+    ],
+    "primaryGenre": "folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "6.6M",
+    "tier": "Popular"
+  }
+]

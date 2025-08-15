@@ -1,0 +1,36 @@
+[
+  {
+    "id": "6zFYqv1mOsgBRQbae3JJ9e",
+    "name": "Billy Joel",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb34057d59275011032ef8bc8",
+    "followers": 7185538,
+    "spotifyId": "6zFYqv1mOsgBRQbae3JJ9e",
+    "spotifyPopularity": 83,
+    "genres": [
+      "soft rock"
+    ],
+    "primaryGenre": "soft rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "7.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4lxfqrEsLX6N1N4OCSkILp",
+    "name": "Phil Collins",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4e38c4e3e5c82774740e28d",
+    "followers": 7108681,
+    "spotifyId": "4lxfqrEsLX6N1N4OCSkILp",
+    "spotifyPopularity": 80,
+    "genres": [
+      "soft rock"
+    ],
+    "primaryGenre": "soft rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "7.1M",
+    "tier": "Popular"
+  }
+]

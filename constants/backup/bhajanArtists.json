@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1tqysapcCh1lWEAc9dIFpa",
+    "name": "Jubin Nautiyal",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb716a9e718655bd0374073ef7",
+    "followers": 20952817,
+    "spotifyId": "1tqysapcCh1lWEAc9dIFpa",
+    "spotifyPopularity": 79,
+    "genres": [
+      "bhajan",
+      "hindi pop",
+      "bollywood",
+      "devotional",
+      "desi"
+    ],
+    "primaryGenre": "bhajan",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "21.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "6WOdPJmexxFINcKMkP2jMG",
+    "name": "Sachet Tandon",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe34fad78221a2cb31da57946",
+    "followers": 7023200,
+    "spotifyId": "6WOdPJmexxFINcKMkP2jMG",
+    "spotifyPopularity": 78,
+    "genres": [
+      "bhajan",
+      "hindi pop",
+      "devotional",
+      "bollywood",
+      "desi pop"
+    ],
+    "primaryGenre": "bhajan",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "7.0M",
+    "tier": "Popular"
+  }
+]

@@ -425,6 +425,25 @@ export const genreData: Record<string, GenreData> = {
         image: "https://via.placeholder.com/200x200/5F27CD/FFFFFF?text=ELECTRO",
         likes: "310,442",
       },
+      {
+        id: "4",
+        title: "Techno Underground",
+        image: "https://via.placeholder.com/200x200/48DBFB/FFFFFF?text=TECHNO",
+        likes: "198,567",
+      },
+      {
+        id: "5",
+        title: "Trance Classics",
+        image: "https://via.placeholder.com/200x200/54A0FF/FFFFFF?text=TRANCE",
+        likes: "267,890",
+      },
+      {
+        id: "6",
+        title: "Future Bass",
+        image:
+          "https://via.placeholder.com/200x200/222F3E/FFFFFF?text=FUTURE+BASS",
+        likes: "156,734",
+      },
     ],
     playlists: [
       {
@@ -445,6 +464,39 @@ export const genreData: Record<string, GenreData> = {
         title: "Techno Night",
         image: "https://via.placeholder.com/200x200/222F3E/FFFFFF?text=TECHNO",
         likes: "201,337",
+      },
+      {
+        id: "4",
+        title: "Trance Journey",
+        image:
+          "https://via.placeholder.com/200x200/4ECDC4/FFFFFF?text=TRANCE+JOURNEY",
+        likes: "298,456",
+      },
+      {
+        id: "5",
+        title: "Dubstep Warriors",
+        image: "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=DUBSTEP",
+        likes: "187,234",
+      },
+      {
+        id: "6",
+        title: "Chill Electronic",
+        image:
+          "https://via.placeholder.com/200x200/5F27CD/FFFFFF?text=CHILL+ELECTRONIC",
+        likes: "234,567",
+      },
+      {
+        id: "7",
+        title: "Progressive House",
+        image:
+          "https://via.placeholder.com/200x200/48DBFB/FFFFFF?text=PROGRESSIVE",
+        likes: "276,890",
+      },
+      {
+        id: "8",
+        title: "IDM Essentials",
+        image: "https://via.placeholder.com/200x200/54A0FF/FFFFFF?text=IDM",
+        likes: "145,678",
       },
     ],
     newReleases: [
@@ -469,26 +521,101 @@ export const genreData: Record<string, GenreData> = {
         image: "https://via.placeholder.com/200x200/5F27CD/FFFFFF?text=PULSE",
         releaseDate: "Album release: 18/01/25",
       },
+      {
+        id: "4",
+        title: "Neon Dreams",
+        artist: "Martin Garrix",
+        image:
+          "https://via.placeholder.com/200x200/48DBFB/FFFFFF?text=NEON+DREAMS",
+        releaseDate: "Single release: 15/02/25",
+      },
+      {
+        id: "5",
+        title: "Midnight Groove",
+        artist: "David Guetta",
+        image:
+          "https://via.placeholder.com/200x200/54A0FF/FFFFFF?text=MIDNIGHT+GROOVE",
+        releaseDate: "EP release: 22/02/25",
+      },
+      {
+        id: "6",
+        title: "Digital Rain",
+        artist: "Skrillex",
+        image:
+          "https://via.placeholder.com/200x200/222F3E/FFFFFF?text=DIGITAL+RAIN",
+        releaseDate: "Album release: 08/03/25",
+      },
     ],
     artists: [
       {
-        id: "1",
+        id: "dance_daft_punk",
         name: "Daft Punk",
         image:
-          "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=DAFT+PUNK",
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
         likes: "2.8M",
       },
       {
-        id: "2",
-        name: "Calvin Harris",
-        image: "https://via.placeholder.com/150x150/1DD1A1/FFFFFF?text=CALVIN",
-        likes: "2.1M",
+        id: "dance_avicii",
+        name: "Avicii",
+        image:
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+        likes: "3.0M",
       },
       {
-        id: "3",
-        name: "Avicii",
-        image: "https://via.placeholder.com/150x150/5F27CD/FFFFFF?text=AVICII",
-        likes: "3.0M",
+        id: "dance_martin_garrix",
+        name: "Martin Garrix",
+        image:
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+        likes: "1.9M",
+      },
+      {
+        id: "dance_david_guetta",
+        name: "David Guetta",
+        image:
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+        likes: "1.7M",
+      },
+      {
+        id: "dance_skrillex",
+        name: "Skrillex",
+        image:
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+        likes: "1.6M",
+      },
+      {
+        id: "dance_zedd",
+        name: "Zedd",
+        image:
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+        likes: "1.4M",
+      },
+      {
+        id: "dance_marshmello",
+        name: "Marshmello",
+        image:
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+        likes: "1.3M",
+      },
+      {
+        id: "dance_odesza",
+        name: "Odesza",
+        image:
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+        likes: "1.5M",
+      },
+      {
+        id: "dance_flume",
+        name: "Flume",
+        image:
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+        likes: "1.3M",
+      },
+      {
+        id: "dance_deadmau5",
+        name: "deadmau5",
+        image:
+          "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+        likes: "1.2M",
       },
     ],
   },
@@ -1971,6 +2098,104 @@ export const genreData: Record<string, GenreData> = {
         name: "Burning Spear",
         image: "https://via.placeholder.com/150x150/10AC84/FFFFFF?text=SPEAR",
         likes: "912K",
+      },
+    ],
+  },
+
+  folk: {
+    name: "FOLK",
+    color: "#2ECC71",
+    popular: [
+      {
+        id: "1",
+        title: "Acoustic Folk",
+        image:
+          "https://via.placeholder.com/200x200/2ECC71/FFFFFF?text=ACOUSTIC",
+        likes: "120,441",
+      },
+      {
+        id: "2",
+        title: "Indie Folk",
+        image:
+          "https://via.placeholder.com/200x200/27AE60/FFFFFF?text=INDIE+FOLK",
+        likes: "98,210",
+      },
+      {
+        id: "3",
+        title: "Folk Essentials",
+        image:
+          "https://via.placeholder.com/200x200/1ABC9C/FFFFFF?text=ESSENTIALS",
+        likes: "141,007",
+      },
+    ],
+    playlists: [
+      {
+        id: "1",
+        title: "Modern Folk",
+        image:
+          "https://via.placeholder.com/200x200/2ECC71/FFFFFF?text=MODERN+FOLK",
+        likes: "210,334",
+      },
+      {
+        id: "2",
+        title: "Classic Folk",
+        image:
+          "https://via.placeholder.com/200x200/27AE60/FFFFFF?text=CLASSIC+FOLK",
+        likes: "155,228",
+      },
+      {
+        id: "3",
+        title: "Campfire",
+        image:
+          "https://via.placeholder.com/200x200/1ABC9C/FFFFFF?text=CAMPFIRE",
+        likes: "120,778",
+      },
+    ],
+    newReleases: [
+      {
+        id: "1",
+        title: "Meadow",
+        artist: "Willow Creek",
+        image: "https://via.placeholder.com/200x200/2ECC71/FFFFFF?text=MEADOW",
+        releaseDate: "Album release: 08/02/25",
+      },
+      {
+        id: "2",
+        title: "Lanterns",
+        artist: "Evergreen",
+        image:
+          "https://via.placeholder.com/200x200/27AE60/FFFFFF?text=LANTERNS",
+        releaseDate: "Album release: 22/01/25",
+      },
+      {
+        id: "3",
+        title: "Northwind",
+        artist: "Harbor & Pine",
+        image:
+          "https://via.placeholder.com/200x200/1ABC9C/FFFFFF?text=NORTHWIND",
+        releaseDate: "Album release: 04/01/25",
+      },
+    ],
+    artists: [
+      {
+        id: "1",
+        name: "Bon Iver",
+        image:
+          "https://via.placeholder.com/150x150/2ECC71/FFFFFF?text=BON+IVER",
+        likes: "1.8M",
+      },
+      {
+        id: "2",
+        name: "Mumford & Sons",
+        image: "https://via.placeholder.com/150x150/27AE60/FFFFFF?text=MUMFORD",
+        likes: "2.5M",
+      },
+      {
+        id: "3",
+        name: "The Lumineers",
+        image:
+          "https://via.placeholder.com/150x150/1ABC9C/FFFFFF?text=LUMINEERS",
+        likes: "2.2M",
       },
     ],
   },

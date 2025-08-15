@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2n2RSaZqBuUUukhbLlpnE6",
+    "name": "Sleep Token",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd00c2ff422829437e6b5f1e0",
+    "followers": 2617337,
+    "spotifyId": "2n2RSaZqBuUUukhbLlpnE6",
+    "spotifyPopularity": 83,
+    "genres": [
+      "progressive metal",
+      "metalcore"
+    ],
+    "primaryGenre": "progressive metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "2.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0nmQIMXWTXfhgOBdNzhGOs",
+    "name": "Avenged Sevenfold",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb097658d63473ecb243ed4b1f",
+    "followers": 11420851,
+    "spotifyId": "0nmQIMXWTXfhgOBdNzhGOs",
+    "spotifyPopularity": 79,
+    "genres": [
+      "metal",
+      "alternative metal"
+    ],
+    "primaryGenre": "metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "11.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "5nGIFgo0shDenQYSE0Sn7c",
+    "name": "Evanescence",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7ecf213c7dd78e0049379c5b",
+    "followers": 5850538,
+    "spotifyId": "5nGIFgo0shDenQYSE0Sn7c",
+    "spotifyPopularity": 79,
+    "genres": [
+      "alternative metal"
+    ],
+    "primaryGenre": "alternative metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "5.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2ziB7fzrXBoh1HUPS6sVFn",
+    "name": "Audioslave",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5a865295befda9e060a72cb0",
+    "followers": 5038942,
+    "spotifyId": "2ziB7fzrXBoh1HUPS6sVFn",
+    "spotifyPopularity": 74,
+    "genres": [
+      "grunge",
+      "post-grunge",
+      "alternative metal"
+    ],
+    "primaryGenre": "grunge",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "5.0M",
+    "tier": "Popular"
+  }
+]

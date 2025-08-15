@@ -1,0 +1,323 @@
+[
+  {
+    "id": "2HPaUgqeutzr3jx5a9WyDV",
+    "name": "PARTYNEXTDOOR",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb957320981e31e862bc2fb844",
+    "followers": 9602587,
+    "spotifyId": "2HPaUgqeutzr3jx5a9WyDV",
+    "spotifyPopularity": 87,
+    "genres": [
+      "dark r&b",
+      "r&b",
+      "trap soul"
+    ],
+    "primaryGenre": "dark r&b",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "7c0XG5cIJTrrAgEC3ULPiq",
+    "name": "Ty Dolla $ign",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdeccf223fe80d308aba91b64",
+    "followers": 6991917,
+    "spotifyId": "7c0XG5cIJTrrAgEC3ULPiq",
+    "spotifyPopularity": 85,
+    "genres": [
+      "trap soul"
+    ],
+    "primaryGenre": "trap soul",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "75i9GaW2MJUgt4BkdUnuUY",
+    "name": "MC Ryan SP",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5751de055799e71658c49655",
+    "followers": 7327304,
+    "spotifyId": "75i9GaW2MJUgt4BkdUnuUY",
+    "spotifyPopularity": 84,
+    "genres": [
+      "funk",
+      "funk consciente",
+      "trap funk",
+      "brazilian funk",
+      "brazilian trap"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "2EMAnMvWE2eb56ToJVfCWs",
+    "name": "Bryson Tiller",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb078fdd734b7f0aa782328428",
+    "followers": 10347102,
+    "spotifyId": "2EMAnMvWE2eb56ToJVfCWs",
+    "spotifyPopularity": 83,
+    "genres": [
+      "trap soul",
+      "r&b"
+    ],
+    "primaryGenre": "trap soul",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "2q9wk5fkeU2C9CgCKdh4AN",
+    "name": "Mc IG",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd9fee554b5ae9ad3427c0320",
+    "followers": 10217250,
+    "spotifyId": "2q9wk5fkeU2C9CgCKdh4AN",
+    "spotifyPopularity": 82,
+    "genres": [
+      "funk",
+      "trap funk",
+      "funk consciente",
+      "brazilian funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "5RTLRtXjbXI2lSXc6jxlAz",
+    "name": "Ravyn Lenae",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb138d70fe372dedacdca53b61",
+    "followers": 740094,
+    "spotifyId": "5RTLRtXjbXI2lSXc6jxlAz",
+    "spotifyPopularity": 81,
+    "genres": [
+      "alternative r&b",
+      "indie soul"
+    ],
+    "primaryGenre": "alternative r&b",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "00x1fYSGhdqScXBRpSj3DW",
+    "name": "Olivia Dean",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e938c6cd78d705571ba9e7e",
+    "followers": 809221,
+    "spotifyId": "00x1fYSGhdqScXBRpSj3DW",
+    "spotifyPopularity": 80,
+    "genres": [
+      "pop soul"
+    ],
+    "primaryGenre": "pop soul",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "54bV1pHNm5h5EcEgMis1RC",
+    "name": "Mc Rodrigo do CN",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4fd600a930dcee006e63813e",
+    "followers": 266504,
+    "spotifyId": "54bV1pHNm5h5EcEgMis1RC",
+    "spotifyPopularity": 80,
+    "genres": [
+      "funk",
+      "funk de bh",
+      "brazilian funk",
+      "funk carioca"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "6aoGgTKGqtsjj48ymcNs4Z",
+    "name": "MC Tuto",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb23079308d04f2ceb86177503",
+    "followers": 2304754,
+    "spotifyId": "6aoGgTKGqtsjj48ymcNs4Z",
+    "spotifyPopularity": 80,
+    "genres": [
+      "funk",
+      "funk consciente",
+      "trap funk",
+      "brazilian funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "4LHTgACY32k94VDjenF0nP",
+    "name": "Mc Negão Original",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdc79d05af567c374da4b9c4d",
+    "followers": 1015494,
+    "spotifyId": "4LHTgACY32k94VDjenF0nP",
+    "spotifyPopularity": 80,
+    "genres": [
+      "funk",
+      "trap funk",
+      "brazilian funk",
+      "funk consciente"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "5y2Xq6xcjJb2jVM54GHK3t",
+    "name": "John Legend",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb01784e44ffd1a339350f4417",
+    "followers": 7891652,
+    "spotifyId": "5y2Xq6xcjJb2jVM54GHK3t",
+    "spotifyPopularity": 78,
+    "genres": [
+      "soft pop",
+      "neo soul"
+    ],
+    "primaryGenre": "soft pop",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "7guDJrEfX3qb6FEbdPA5qi",
+    "name": "Stevie Wonder",
+    "image": "https://i.scdn.co/image/c59faacbed7aa770266bad048660810eca204108",
+    "followers": 7037442,
+    "spotifyId": "7guDJrEfX3qb6FEbdPA5qi",
+    "spotifyPopularity": 78,
+    "genres": [
+      "motown",
+      "classic soul",
+      "soul"
+    ],
+    "primaryGenre": "motown",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "3qnGvpP8Yth1AqSBMqON5x",
+    "name": "Leon Bridges",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd5112a5b16a01e971ebb049c",
+    "followers": 1889583,
+    "spotifyId": "3qnGvpP8Yth1AqSBMqON5x",
+    "spotifyPopularity": 77,
+    "genres": [
+      "retro soul"
+    ],
+    "primaryGenre": "retro soul",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "1CbQrKvCpEnekM3QMGJtXK",
+    "name": "MC Meno K",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbb83e0b2decc9e04a0c78c8c",
+    "followers": 229640,
+    "spotifyId": "1CbQrKvCpEnekM3QMGJtXK",
+    "spotifyPopularity": 77,
+    "genres": [
+      "funk",
+      "brazilian funk",
+      "funk carioca",
+      "brega funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "34giN3qeTOdgDSJIdtIMdm",
+    "name": "Mc Jhey",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaba5334e1aa59f6998a7a090",
+    "followers": 498795,
+    "spotifyId": "34giN3qeTOdgDSJIdtIMdm",
+    "spotifyPopularity": 76,
+    "genres": [
+      "phonk",
+      "funk",
+      "brazilian funk",
+      "brazilian phonk"
+    ],
+    "primaryGenre": "phonk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "7me0S5Z40qVWj3gzyK8aC3",
+    "name": "Mc Livinho",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c76b75c8206efcf0d9743da",
+    "followers": 7929178,
+    "spotifyId": "7me0S5Z40qVWj3gzyK8aC3",
+    "spotifyPopularity": 76,
+    "genres": [
+      "funk",
+      "brazilian funk",
+      "funk carioca"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "3koiLjNrgRTNbOwViDipeA",
+    "name": "Marvin Gaye",
+    "image": "https://i.scdn.co/image/cf79bd3e5c787e2ec152eeb1ea5538b0d4cf1434",
+    "followers": 5878731,
+    "spotifyId": "3koiLjNrgRTNbOwViDipeA",
+    "spotifyPopularity": 76,
+    "genres": [
+      "motown",
+      "classic soul",
+      "soul",
+      "northern soul",
+      "quiet storm"
+    ],
+    "primaryGenre": "motown",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "7Lmrb6KcIzfkmgbtokjsAL",
+    "name": "Mc Don Juan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebab559c0d48ef955cecd4555d",
+    "followers": 5271452,
+    "spotifyId": "7Lmrb6KcIzfkmgbtokjsAL",
+    "spotifyPopularity": 76,
+    "genres": [
+      "funk",
+      "brazilian funk",
+      "funk consciente",
+      "trap funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "1ThoqLcyIYvZn7iWbj8fsj",
+    "name": "Bill Withers",
+    "image": "https://i.scdn.co/image/96b85aec6907206572527e1eeec6569d5e977a38",
+    "followers": 1957379,
+    "spotifyId": "1ThoqLcyIYvZn7iWbj8fsj",
+    "spotifyPopularity": 75,
+    "genres": [
+      "soul",
+      "classic soul",
+      "motown"
+    ],
+    "primaryGenre": "soul",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  },
+  {
+    "id": "06e0gXtUpvgPUZFrR2ywsg",
+    "name": "DJ Dozabri",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe93178bccf892bcb0001c823",
+    "followers": 64416,
+    "spotifyId": "06e0gXtUpvgPUZFrR2ywsg",
+    "spotifyPopularity": 74,
+    "genres": [
+      "brazilian funk",
+      "funk"
+    ],
+    "primaryGenre": "brazilian funk",
+    "country": null,
+    "discoveryMethod": "genre_search"
+  }
+]

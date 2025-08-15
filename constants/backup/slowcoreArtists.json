@@ -1,0 +1,20 @@
+[
+  {
+    "id": "2l7DkzVuYJW700mR7r43un",
+    "name": "Palace Music",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb76cfea26565d94f93141de4",
+    "followers": 28445,
+    "spotifyId": "2l7DkzVuYJW700mR7r43un",
+    "spotifyPopularity": 33,
+    "genres": [
+      "slowcore",
+      "alt country"
+    ],
+    "primaryGenre": "slowcore",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "28.4K",
+    "tier": "Emerging"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "19k8AgwwTSxeaxkOuCQEJs",
+    "name": "Jelly Roll",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb27901c1c025fa90f5dc007ef",
+    "followers": 5820729,
+    "spotifyId": "19k8AgwwTSxeaxkOuCQEJs",
+    "spotifyPopularity": 84,
+    "genres": [
+      "country hip hop",
+      "country"
+    ],
+    "primaryGenre": "country hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "5.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2pSObt5Fk8izuX8ZfI3jRn",
+    "name": "Upchurch",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a80a1db113e1d076c61f620",
+    "followers": 1906183,
+    "spotifyId": "2pSObt5Fk8izuX8ZfI3jRn",
+    "spotifyPopularity": 67,
+    "genres": [
+      "country hip hop",
+      "country"
+    ],
+    "primaryGenre": "country hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "1.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "40lCYmGHHxBE5GUz9ZAifs",
+    "name": "Kentucky Music Mafia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb44d2bbb734d86a1015cdbe7a",
+    "followers": 15860,
+    "spotifyId": "40lCYmGHHxBE5GUz9ZAifs",
+    "spotifyPopularity": 36,
+    "genres": [
+      "country hip hop"
+    ],
+    "primaryGenre": "country hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "15.9K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "1lVG0olGHm4Ob8PIxws9SE",
+    "name": "386 Music",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb864ae3e8de355d99a580bf6",
+    "followers": 1806,
+    "spotifyId": "1lVG0olGHm4Ob8PIxws9SE",
+    "spotifyPopularity": 31,
+    "genres": [
+      "country hip hop"
+    ],
+    "primaryGenre": "country hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "1.8K",
+    "tier": "Emerging"
+  }
+]

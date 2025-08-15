@@ -1,0 +1,36 @@
+[
+  {
+    "id": "36iDrP3UnCxsSH9LuSdkDj",
+    "name": "Masoom Sharma",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2cf6d06726cbbf929c6d37d8",
+    "followers": 4471991,
+    "spotifyId": "36iDrP3UnCxsSH9LuSdkDj",
+    "spotifyPopularity": 83,
+    "genres": [
+      "haryanvi pop"
+    ],
+    "primaryGenre": "haryanvi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "4.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0LqkiA6OhstUwy7qDhRreD",
+    "name": "Pinna Music",
+    "image": "https://i.scdn.co/image/ab67616d0000b273adc1b870f8b5448990910d67",
+    "followers": 161302,
+    "spotifyId": "0LqkiA6OhstUwy7qDhRreD",
+    "spotifyPopularity": 62,
+    "genres": [
+      "haryanvi pop"
+    ],
+    "primaryGenre": "haryanvi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "161.3K",
+    "tier": "Rising"
+  }
+]

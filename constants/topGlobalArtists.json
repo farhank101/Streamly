@@ -1,0 +1,47 @@
+[
+  {
+    "id": "6eUKZXaKkcviH0Ku9w2n3V",
+    "name": "Ed Sheeran",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8eb08ed1a791d6e9fb041d61",
+    "followers": 121632336,
+    "spotifyId": "6eUKZXaKkcviH0Ku9w2n3V",
+    "spotifyPopularity": 93,
+    "genres": [
+      "soft pop"
+    ],
+    "discoveryMethod": "specific_search",
+    "likes": "121.6M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "3WrFJ7ztbogyGnTHbHJFl2",
+    "name": "The Beatles",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+    "followers": 30335311,
+    "spotifyId": "3WrFJ7ztbogyGnTHbHJFl2",
+    "spotifyPopularity": 86,
+    "genres": [
+      "classic rock",
+      "psychedelic rock"
+    ],
+    "discoveryMethod": "specific_search",
+    "likes": "30.3M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "1dfeR4HaWDbWqFHLkxsg1d",
+    "name": "Queen",
+    "image": "https://i.scdn.co/image/b040846ceba13c3e9c125d68389491094e7f2982",
+    "followers": 54565518,
+    "spotifyId": "1dfeR4HaWDbWqFHLkxsg1d",
+    "spotifyPopularity": 86,
+    "genres": [
+      "classic rock",
+      "rock",
+      "glam rock"
+    ],
+    "discoveryMethod": "specific_search",
+    "likes": "54.6M",
+    "tier": "Major Star"
+  }
+]

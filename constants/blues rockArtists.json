@@ -1,0 +1,58 @@
+[
+  {
+    "id": "7mnBLXK823vNxN3UWB7Gfz",
+    "name": "The Black Keys",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2383f032c2aebc76cf3780ed",
+    "followers": 4131954,
+    "spotifyId": "7mnBLXK823vNxN3UWB7Gfz",
+    "spotifyPopularity": 75,
+    "genres": [
+      "blues rock",
+      "garage rock",
+      "modern blues",
+      "rock"
+    ],
+    "primaryGenre": "blues rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "4.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2rc78XDH9zuJP6bm78lU8Z",
+    "name": "Derek & The Dominos",
+    "image": "https://i.scdn.co/image/cfec75171b6394ae543eb906e86e4d50cbafd9dc",
+    "followers": 803362,
+    "spotifyId": "2rc78XDH9zuJP6bm78lU8Z",
+    "spotifyPopularity": 61,
+    "genres": [
+      "blues rock",
+      "classic rock"
+    ],
+    "primaryGenre": "blues rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "803.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7nkLRaWHImCvWGHdNGnhVE",
+    "name": "Ten Years After",
+    "image": "https://i.scdn.co/image/2c825769bc2470bf5aaf04a5991db4612298c5dd",
+    "followers": 617199,
+    "spotifyId": "7nkLRaWHImCvWGHdNGnhVE",
+    "spotifyPopularity": 61,
+    "genres": [
+      "blues rock",
+      "psychedelic rock"
+    ],
+    "primaryGenre": "blues rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "617.2K",
+    "tier": "Rising"
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "0EmeFodog0BfCgMzAIvKQp",
+    "name": "Shakira",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2528c726e5ddb90a7197e527",
+    "followers": 38937671,
+    "spotifyId": "0EmeFodog0BfCgMzAIvKQp",
+    "spotifyPopularity": 89,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "38.9M",
+    "tier": "Top"
+  },
+  {
+    "id": "7qG3b048QCHVRO5Pv1T5lw",
+    "name": "Enrique Iglesias",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4fa1405802a42c665b0f2dd1",
+    "followers": 11800027,
+    "spotifyId": "7qG3b048QCHVRO5Pv1T5lw",
+    "spotifyPopularity": 82,
+    "genres": [
+      "latin pop",
+      "latin"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "11.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "5sUrlPAHlS9NEirDB8SEbF",
+    "name": "Alejandro Sanz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba6b5085fa84ce968ca556162",
+    "followers": 8209045,
+    "spotifyId": "5sUrlPAHlS9NEirDB8SEbF",
+    "spotifyPopularity": 82,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "8.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5LeiVcEnsZcwc133TUhJNW",
+    "name": "Belinda",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf7d2089c22a0c253fffa1574",
+    "followers": 2518592,
+    "spotifyId": "5LeiVcEnsZcwc133TUhJNW",
+    "spotifyPopularity": 80,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "2.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7vXDAI8JwjW531ouMGbfcp",
+    "name": "TINI",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43f8f52ac55da2d54fc8fdca",
+    "followers": 9083297,
+    "spotifyId": "7vXDAI8JwjW531ouMGbfcp",
+    "spotifyPopularity": 80,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "9.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0vR2qb8m9WHeZ5ByCbimq2",
+    "name": "Reik",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7b201ade1f4494891f686e33",
+    "followers": 9615522,
+    "spotifyId": "0vR2qb8m9WHeZ5ByCbimq2",
+    "spotifyPopularity": 79,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "9.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2eEmsgWmUFMbtU7agJpnjY",
+    "name": "Miranda!",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdd199f4ee438b4a8fd85ba97",
+    "followers": 2225182,
+    "spotifyId": "2eEmsgWmUFMbtU7agJpnjY",
+    "spotifyPopularity": 79,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "2.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0h1zs4CTlU9D2QtgPxptUD",
+    "name": "Ricardo Arjona",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc39af2ce1337734a4cadadaf",
+    "followers": 14322578,
+    "spotifyId": "0h1zs4CTlU9D2QtgPxptUD",
+    "spotifyPopularity": 79,
+    "genres": [
+      "latin pop"
+    ],
+    "primaryGenre": "latin pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "14.3M",
+    "tier": "Top"
+  }
+]

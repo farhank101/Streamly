@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0MvSBMGRQJY3mRwIbJsqF1",
+    "name": "Royal Philharmonic Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf9cd4a9062ded7cb2b8a351b",
+    "followers": 189360,
+    "spotifyId": "0MvSBMGRQJY3mRwIbJsqF1",
+    "spotifyPopularity": 71,
+    "genres": [
+      "orchestra",
+      "classical"
+    ],
+    "primaryGenre": "orchestra",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "189.4K",
+    "tier": "Rising"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2CnhqfjUG0qzsru0SMuhrk",
+    "name": "Title Fight",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebddf610c5554917515472fc89",
+    "followers": 593807,
+    "spotifyId": "2CnhqfjUG0qzsru0SMuhrk",
+    "spotifyPopularity": 67,
+    "genres": [
+      "midwest emo",
+      "shoegaze",
+      "post-hardcore",
+      "melodic hardcore",
+      "emo",
+      "math rock"
+    ],
+    "primaryGenre": "midwest emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "593.8K",
+    "tier": "Rising"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "75i9GaW2MJUgt4BkdUnuUY",
+    "name": "MC Ryan SP",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5751de055799e71658c49655",
+    "followers": 7327304,
+    "spotifyId": "75i9GaW2MJUgt4BkdUnuUY",
+    "spotifyPopularity": 84,
+    "genres": [
+      "funk",
+      "funk consciente",
+      "trap funk",
+      "brazilian funk",
+      "brazilian trap"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2q9wk5fkeU2C9CgCKdh4AN",
+    "name": "Mc IG",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd9fee554b5ae9ad3427c0320",
+    "followers": 10217250,
+    "spotifyId": "2q9wk5fkeU2C9CgCKdh4AN",
+    "spotifyPopularity": 82,
+    "genres": [
+      "funk",
+      "trap funk",
+      "funk consciente",
+      "brazilian funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "10.2M",
+    "tier": "Top"
+  },
+  {
+    "id": "54bV1pHNm5h5EcEgMis1RC",
+    "name": "Mc Rodrigo do CN",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4fd600a930dcee006e63813e",
+    "followers": 266504,
+    "spotifyId": "54bV1pHNm5h5EcEgMis1RC",
+    "spotifyPopularity": 80,
+    "genres": [
+      "funk",
+      "funk de bh",
+      "brazilian funk",
+      "funk carioca"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "266.5K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6aoGgTKGqtsjj48ymcNs4Z",
+    "name": "MC Tuto",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb23079308d04f2ceb86177503",
+    "followers": 2304754,
+    "spotifyId": "6aoGgTKGqtsjj48ymcNs4Z",
+    "spotifyPopularity": 80,
+    "genres": [
+      "funk",
+      "funk consciente",
+      "trap funk",
+      "brazilian funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "2.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4LHTgACY32k94VDjenF0nP",
+    "name": "Mc Negão Original",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdc79d05af567c374da4b9c4d",
+    "followers": 1015494,
+    "spotifyId": "4LHTgACY32k94VDjenF0nP",
+    "spotifyPopularity": 80,
+    "genres": [
+      "funk",
+      "trap funk",
+      "brazilian funk",
+      "funk consciente"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "1.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1CbQrKvCpEnekM3QMGJtXK",
+    "name": "MC Meno K",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbb83e0b2decc9e04a0c78c8c",
+    "followers": 229640,
+    "spotifyId": "1CbQrKvCpEnekM3QMGJtXK",
+    "spotifyPopularity": 77,
+    "genres": [
+      "funk",
+      "brazilian funk",
+      "funk carioca",
+      "brega funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "229.6K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7me0S5Z40qVWj3gzyK8aC3",
+    "name": "Mc Livinho",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c76b75c8206efcf0d9743da",
+    "followers": 7929178,
+    "spotifyId": "7me0S5Z40qVWj3gzyK8aC3",
+    "spotifyPopularity": 76,
+    "genres": [
+      "funk",
+      "brazilian funk",
+      "funk carioca"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7Lmrb6KcIzfkmgbtokjsAL",
+    "name": "Mc Don Juan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebab559c0d48ef955cecd4555d",
+    "followers": 5271452,
+    "spotifyId": "7Lmrb6KcIzfkmgbtokjsAL",
+    "spotifyPopularity": 76,
+    "genres": [
+      "funk",
+      "brazilian funk",
+      "funk consciente",
+      "trap funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "5.3M",
+    "tier": "Popular"
+  }
+]

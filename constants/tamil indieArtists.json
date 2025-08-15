@@ -1,0 +1,42 @@
+[
+  {
+    "id": "0nh5cRtt03SU6LhzhVC5fv",
+    "name": "Sublahshini",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c5ae47fcd9019bcdd55a405",
+    "followers": 107523,
+    "spotifyId": "0nh5cRtt03SU6LhzhVC5fv",
+    "spotifyPopularity": 71,
+    "genres": [
+      "tamil indie",
+      "tamil dance",
+      "tamil pop",
+      "tollywood",
+      "kollywood"
+    ],
+    "primaryGenre": "tamil indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "107.5K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5jJrJU7VVmxQQLcLAmmxXc",
+    "name": "Sai Abhyankkar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0a27dbc5eb270fd2e78b9cbb",
+    "followers": 276198,
+    "spotifyId": "5jJrJU7VVmxQQLcLAmmxXc",
+    "spotifyPopularity": 67,
+    "genres": [
+      "tamil indie",
+      "tamil pop",
+      "kollywood"
+    ],
+    "primaryGenre": "tamil indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "276.2K",
+    "tier": "Rising"
+  }
+]

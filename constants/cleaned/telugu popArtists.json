@@ -1,0 +1,25 @@
+[
+  {
+    "id": "2ae6PxICSOZHvjqiCcgon8",
+    "name": "S. P. Balasubrahmanyam",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebea2b56271cf92bcff45c0ae9",
+    "followers": 20538357,
+    "spotifyId": "2ae6PxICSOZHvjqiCcgon8",
+    "spotifyPopularity": 83,
+    "genres": [
+      "telugu pop",
+      "kannada pop",
+      "tamil pop",
+      "devotional",
+      "tollywood",
+      "sandalwood",
+      "kollywood"
+    ],
+    "primaryGenre": "telugu pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "20.5M",
+    "tier": "Top"
+  }
+]

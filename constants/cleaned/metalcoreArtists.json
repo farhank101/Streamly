@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "name": "Bring Me The Horizon",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe7c9399d0b5d813c20cbec65",
+    "followers": 6523395,
+    "spotifyId": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "spotifyPopularity": 81,
+    "genres": [
+      "metalcore",
+      "emo",
+      "screamo",
+      "rock",
+      "post-hardcore"
+    ],
+    "primaryGenre": "metalcore",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "6.5M",
+    "tier": "Popular"
+  }
+]

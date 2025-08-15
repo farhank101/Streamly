@@ -1,0 +1,20 @@
+[
+  {
+    "id": "58lV9VcRSjABbAbfWS6skp",
+    "name": "Bon Jovi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb52aade0d2ea19706074da4b9",
+    "followers": 15453579,
+    "spotifyId": "58lV9VcRSjABbAbfWS6skp",
+    "spotifyPopularity": 82,
+    "genres": [
+      "glam metal",
+      "rock"
+    ],
+    "primaryGenre": "glam metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "15.5M",
+    "tier": "Top"
+  }
+]

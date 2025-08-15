@@ -1,0 +1,20 @@
+[
+  {
+    "id": "43ZHCT0cAZBISjO8DG9PnE",
+    "name": "Elvis Presley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9a93e273380982dff84c0d7c",
+    "followers": 10814777,
+    "spotifyId": "43ZHCT0cAZBISjO8DG9PnE",
+    "spotifyPopularity": 80,
+    "genres": [
+      "rockabilly",
+      "rock and roll"
+    ],
+    "primaryGenre": "rockabilly",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "10.8M",
+    "tier": "Top"
+  }
+]

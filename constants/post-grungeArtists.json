@@ -1,0 +1,38 @@
+[
+  {
+    "id": "6deZN1bslXzeGvOLaLMOIF",
+    "name": "Nickelback",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4ad382f899596d8c7b9e8e09",
+    "followers": 7715154,
+    "spotifyId": "6deZN1bslXzeGvOLaLMOIF",
+    "spotifyPopularity": 82,
+    "genres": [
+      "post-grunge",
+      "rock"
+    ],
+    "primaryGenre": "post-grunge",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "7.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2xiIXseIJcq3nG7C8fHeBj",
+    "name": "Three Days Grace",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2e619cf7c1577485d14c2043",
+    "followers": 7094126,
+    "spotifyId": "2xiIXseIJcq3nG7C8fHeBj",
+    "spotifyPopularity": 81,
+    "genres": [
+      "post-grunge",
+      "rock"
+    ],
+    "primaryGenre": "post-grunge",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "7.1M",
+    "tier": "Popular"
+  }
+]

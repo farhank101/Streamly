@@ -1,0 +1,37 @@
+[
+  {
+    "id": "7c0XG5cIJTrrAgEC3ULPiq",
+    "name": "Ty Dolla $ign",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdeccf223fe80d308aba91b64",
+    "followers": 6991917,
+    "spotifyId": "7c0XG5cIJTrrAgEC3ULPiq",
+    "spotifyPopularity": 85,
+    "genres": [
+      "trap soul"
+    ],
+    "primaryGenre": "trap soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2EMAnMvWE2eb56ToJVfCWs",
+    "name": "Bryson Tiller",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb078fdd734b7f0aa782328428",
+    "followers": 10347102,
+    "spotifyId": "2EMAnMvWE2eb56ToJVfCWs",
+    "spotifyPopularity": 83,
+    "genres": [
+      "trap soul",
+      "r&b"
+    ],
+    "primaryGenre": "trap soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "10.3M",
+    "tier": "Top"
+  }
+]

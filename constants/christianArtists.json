@@ -1,0 +1,23 @@
+[
+  {
+    "id": "6g10GEtmIVqIQBhPZh4ScQ",
+    "name": "Zach Williams",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8eec84ae9eba401dfdc2273",
+    "followers": 532186,
+    "spotifyId": "6g10GEtmIVqIQBhPZh4ScQ",
+    "spotifyPopularity": 65,
+    "genres": [
+      "christian",
+      "christian country",
+      "worship",
+      "ccm",
+      "christian pop"
+    ],
+    "primaryGenre": "christian",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "532.2K",
+    "tier": "Rising"
+  }
+]

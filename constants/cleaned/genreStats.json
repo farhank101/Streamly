@@ -1,0 +1,97 @@
+{
+  "allGenre": {
+    "total": 328,
+    "duplicates": 13,
+    "unique": 315
+  },
+  "blues": {
+    "total": 21,
+    "duplicates": 21,
+    "unique": 0
+  },
+  "bollywood": {
+    "total": 140,
+    "duplicates": 0,
+    "unique": 140
+  },
+  "classical": {
+    "total": 15,
+    "duplicates": 15,
+    "unique": 0
+  },
+  "country": {
+    "total": 39,
+    "duplicates": 39,
+    "unique": 0
+  },
+  "discoveredEDM": {
+    "total": 13,
+    "duplicates": 0,
+    "unique": 13
+  },
+  "folk": {
+    "total": 18,
+    "duplicates": 18,
+    "unique": 0
+  },
+  "hiphop": {
+    "total": 300,
+    "duplicates": 0,
+    "unique": 300
+  },
+  "indie": {
+    "total": 32,
+    "duplicates": 32,
+    "unique": 0
+  },
+  "jazz": {
+    "total": 15,
+    "duplicates": 15,
+    "unique": 0
+  },
+  "k_pop": {
+    "total": 0,
+    "duplicates": 0,
+    "unique": 0
+  },
+  "latin": {
+    "total": 34,
+    "duplicates": 34,
+    "unique": 0
+  },
+  "metal": {
+    "total": 20,
+    "duplicates": 20,
+    "unique": 0
+  },
+  "pop": {
+    "total": 31,
+    "duplicates": 31,
+    "unique": 0
+  },
+  "punk": {
+    "total": 23,
+    "duplicates": 23,
+    "unique": 0
+  },
+  "reggae": {
+    "total": 15,
+    "duplicates": 15,
+    "unique": 0
+  },
+  "rock": {
+    "total": 36,
+    "duplicates": 36,
+    "unique": 0
+  },
+  "soul_funk": {
+    "total": 29,
+    "duplicates": 29,
+    "unique": 0
+  },
+  "topGlobal": {
+    "total": 41,
+    "duplicates": 3,
+    "unique": 38
+  }
+}

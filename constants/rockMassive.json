@@ -1,0 +1,5014 @@
+[
+  {
+    "id": "08GQAI4eElDnROBrJRGE0X",
+    "name": "Fleetwood Mac",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc8752dd511cda8c31e9daee8",
+    "followers": 13578506,
+    "spotifyId": "08GQAI4eElDnROBrJRGE0X",
+    "spotifyPopularity": 87,
+    "genres": [
+      "classic rock",
+      "yacht rock",
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Rock",
+    "likes": "13.6M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "7k73EtZwoPs516ZxE72KsO",
+    "name": "ONE OK ROCK",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfe5a99c098f41a6b93f0174b",
+    "followers": 5824851,
+    "spotifyId": "7k73EtZwoPs516ZxE72KsO",
+    "spotifyPopularity": 74,
+    "genres": [
+      "j-rock",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "4Z8W4fKeB5YxbusRsdQVPb",
+    "name": "Radiohead",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc8824aec0936958401589b65",
+    "followers": 13043866,
+    "spotifyId": "4Z8W4fKeB5YxbusRsdQVPb",
+    "spotifyPopularity": 89,
+    "genres": [
+      "art rock",
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "13.0M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "3WrFJ7ztbogyGnTHbHJFl2",
+    "name": "The Beatles",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+    "followers": 30335311,
+    "spotifyId": "3WrFJ7ztbogyGnTHbHJFl2",
+    "spotifyPopularity": 86,
+    "genres": [
+      "classic rock",
+      "psychedelic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "30.3M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "1dfeR4HaWDbWqFHLkxsg1d",
+    "name": "Queen",
+    "image": "https://i.scdn.co/image/b040846ceba13c3e9c125d68389491094e7f2982",
+    "followers": 54565518,
+    "spotifyId": "1dfeR4HaWDbWqFHLkxsg1d",
+    "spotifyPopularity": 86,
+    "genres": [
+      "classic rock",
+      "rock",
+      "glam rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "54.6M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "0L8ExT028jH3ddEcZwqJJ5",
+    "name": "Red Hot Chili Peppers",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+    "followers": 22869527,
+    "spotifyId": "0L8ExT028jH3ddEcZwqJJ5",
+    "spotifyPopularity": 87,
+    "genres": [
+      "funk rock",
+      "alternative rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "22.9M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "711MCceyCBcFnzjGY4Q7Un",
+    "name": "AC/DC",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37",
+    "followers": 31774662,
+    "spotifyId": "711MCceyCBcFnzjGY4Q7Un",
+    "spotifyPopularity": 85,
+    "genres": [
+      "rock",
+      "hard rock",
+      "classic rock",
+      "rock and roll"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "31.8M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "3qm84nBOXUEQ2vnTfUTTFC",
+    "name": "Guns N' Roses",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
+    "followers": 34524294,
+    "spotifyId": "3qm84nBOXUEQ2vnTfUTTFC",
+    "spotifyPopularity": 84,
+    "genres": [
+      "rock",
+      "glam metal",
+      "hard rock",
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "34.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0k17h0D3J5VfsdmQ1iZtE9",
+    "name": "Pink Floyd",
+    "image": "https://i.scdn.co/image/e69f71e2be4b67b82af90fb8e9d805715e0684fa",
+    "followers": 22379179,
+    "spotifyId": "0k17h0D3J5VfsdmQ1iZtE9",
+    "spotifyPopularity": 83,
+    "genres": [
+      "progressive rock",
+      "psychedelic rock",
+      "classic rock",
+      "art rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "22.4M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "6zFYqv1mOsgBRQbae3JJ9e",
+    "name": "Billy Joel",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb34057d59275011032ef8bc8",
+    "followers": 7185538,
+    "spotifyId": "6zFYqv1mOsgBRQbae3JJ9e",
+    "spotifyPopularity": 83,
+    "genres": [
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "7.2M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "22bE4uQ6baNwSHPVcDxLCe",
+    "name": "The Rolling Stones",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe4cea917b68726aadb4854b8",
+    "followers": 15502704,
+    "spotifyId": "22bE4uQ6baNwSHPVcDxLCe",
+    "spotifyPopularity": 82,
+    "genres": [
+      "classic rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "15.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "7okwEbXzyT2VffBmyQBWLz",
+    "name": "Maná",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb152dcec8175d19fb12eeb8e0",
+    "followers": 13214719,
+    "spotifyId": "7okwEbXzyT2VffBmyQBWLz",
+    "spotifyPopularity": 82,
+    "genres": [
+      "rock en español",
+      "latin rock",
+      "mexican rock",
+      "latin pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "13.2M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "3IYUhFvPQItj6xySrBmZkd",
+    "name": "Creedence Clearwater Revival",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd2e2b04b7ba5d60b72f54506",
+    "followers": 7779596,
+    "spotifyId": "3IYUhFvPQItj6xySrBmZkd",
+    "spotifyPopularity": 81,
+    "genres": [
+      "classic rock",
+      "southern rock",
+      "country rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "7.8M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0WwSkZ7LtFUFjGjMZBMt6T",
+    "name": "Dire Straits",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4bdaa8c5e65b64f50549c393",
+    "followers": 8652279,
+    "spotifyId": "0WwSkZ7LtFUFjGjMZBMt6T",
+    "spotifyPopularity": 81,
+    "genres": [
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "8.7M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "43ZHCT0cAZBISjO8DG9PnE",
+    "name": "Elvis Presley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9a93e273380982dff84c0d7c",
+    "followers": 10814777,
+    "spotifyId": "43ZHCT0cAZBISjO8DG9PnE",
+    "spotifyPopularity": 80,
+    "genres": [
+      "rockabilly",
+      "rock and roll"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "10.8M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "36QJpDe2go2KgaRleHCDTp",
+    "name": "Led Zeppelin",
+    "image": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+    "followers": 15746748,
+    "spotifyId": "36QJpDe2go2KgaRleHCDTp",
+    "spotifyPopularity": 80,
+    "genres": [
+      "classic rock",
+      "rock",
+      "hard rock",
+      "rock and roll"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "15.7M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "4lxfqrEsLX6N1N4OCSkILp",
+    "name": "Phil Collins",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4e38c4e3e5c82774740e28d",
+    "followers": 7108681,
+    "spotifyId": "4lxfqrEsLX6N1N4OCSkILp",
+    "spotifyPopularity": 80,
+    "genres": [
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "7.1M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0C0XlULifJtAgn6ZNCW2eu",
+    "name": "The Killers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb207b21f3ed0ee96adce3166a",
+    "followers": 7899885,
+    "spotifyId": "0C0XlULifJtAgn6ZNCW2eu",
+    "spotifyPopularity": 80,
+    "genres": [
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "7.9M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0oSGxfWSnnOXhD2fKuz2Gy",
+    "name": "David Bowie",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb78f77c5583ae99472dd4a49",
+    "followers": 11593036,
+    "spotifyId": "0oSGxfWSnnOXhD2fKuz2Gy",
+    "spotifyPopularity": 80,
+    "genres": [
+      "glam rock",
+      "art rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "11.6M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "51Blml2LZPmy7TTiAg47vQ",
+    "name": "U2",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe62be215d2ee31bcd97edaba",
+    "followers": 13439835,
+    "spotifyId": "51Blml2LZPmy7TTiAg47vQ",
+    "spotifyPopularity": 80,
+    "genres": [
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "13.4M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "12Chz98pHFMPJEknJQMWvI",
+    "name": "Muse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba16a11aa5842607c88a8d8a9",
+    "followers": 8379729,
+    "spotifyId": "12Chz98pHFMPJEknJQMWvI",
+    "spotifyPopularity": 80,
+    "genres": [
+      "alternative rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "8.4M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0ECwFtbIWEVNwjlrfc6xoL",
+    "name": "Eagles",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0767e116a2307495e37cd7fb",
+    "followers": 11950023,
+    "spotifyId": "0ECwFtbIWEVNwjlrfc6xoL",
+    "spotifyPopularity": 79,
+    "genres": [
+      "classic rock",
+      "yacht rock",
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "12.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "7Ey4PD4MYsKc5I2dolUwbH",
+    "name": "Aerosmith",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc5733401b4689b2064458e7d",
+    "followers": 15756675,
+    "spotifyId": "7Ey4PD4MYsKc5I2dolUwbH",
+    "spotifyPopularity": 79,
+    "genres": [
+      "classic rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "15.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "7jy3rLJdDQY21OgRLCZ9sD",
+    "name": "Foo Fighters",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb07be1890ac379235723258de",
+    "followers": 12779692,
+    "spotifyId": "7jy3rLJdDQY21OgRLCZ9sD",
+    "spotifyPopularity": 79,
+    "genres": [
+      "rock",
+      "post-grunge",
+      "alternative rock",
+      "grunge"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "12.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "0epOFNiUfyON9EYx7Tpr6V",
+    "name": "The Strokes",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc3b137793230f4043feb0089",
+    "followers": 6363228,
+    "spotifyId": "0epOFNiUfyON9EYx7Tpr6V",
+    "spotifyPopularity": 78,
+    "genres": [
+      "garage rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "6.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "0PFtn5NtBbbUNbU9EAmIWF",
+    "name": "TOTO",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba59a5bcab211f964fe9bfb06",
+    "followers": 3590929,
+    "spotifyId": "0PFtn5NtBbbUNbU9EAmIWF",
+    "spotifyPopularity": 78,
+    "genres": [
+      "yacht rock",
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "3GBPw9NK25X1Wt2OUvOwY3",
+    "name": "Jack Johnson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9555a0b3231117c8cde1fca7",
+    "followers": 4022314,
+    "spotifyId": "3GBPw9NK25X1Wt2OUvOwY3",
+    "spotifyPopularity": 78,
+    "genres": [
+      "surf rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "4.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "4MVyzYMgTwdP7Z49wAZHx0",
+    "name": "Lynyrd Skynyrd",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb451eb07ddc6e68d3e474c2bf",
+    "followers": 5767398,
+    "spotifyId": "4MVyzYMgTwdP7Z49wAZHx0",
+    "spotifyPopularity": 78,
+    "genres": [
+      "southern rock",
+      "classic rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "49bzE5vRBRIota4qeHtQM8",
+    "name": "Skillet",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8d1be46721e37bc398ec96e7",
+    "followers": 5734457,
+    "spotifyId": "49bzE5vRBRIota4qeHtQM8",
+    "spotifyPopularity": 77,
+    "genres": [
+      "christian rock",
+      "christian alternative rock",
+      "christian"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "77tT1kLj6mCWtFNqiOmP9H",
+    "name": "Daryl Hall & John Oates",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebae81417d966e209b735b1160",
+    "followers": 2783092,
+    "spotifyId": "77tT1kLj6mCWtFNqiOmP9H",
+    "spotifyPopularity": 77,
+    "genres": [
+      "yacht rock",
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "1on7ZQ2pvgeQF4vmIA09x5",
+    "name": "Charlie Brown Jr.",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb67bc48f32d1cc16497865361",
+    "followers": 8818436,
+    "spotifyId": "1on7ZQ2pvgeQF4vmIA09x5",
+    "spotifyPopularity": 78,
+    "genres": [
+      "brazilian rock",
+      "mpb",
+      "brazilian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "8.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "27T030eWyCQRmDyuvr1kxY",
+    "name": "Scorpions",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7440170c0628c2945da819c3",
+    "followers": 8395373,
+    "spotifyId": "27T030eWyCQRmDyuvr1kxY",
+    "spotifyPopularity": 77,
+    "genres": [
+      "hard rock",
+      "glam metal",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "8.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "7An4yvF7hDYDolN4m5zKBp",
+    "name": "Soda Stereo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb79b7db5f179c0a503d8a8158",
+    "followers": 9926730,
+    "spotifyId": "7An4yvF7hDYDolN4m5zKBp",
+    "spotifyPopularity": 77,
+    "genres": [
+      "rock en español",
+      "latin rock",
+      "argentine rock",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "9.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "2y8Jo9CKhJvtfeKOsYzRdT",
+    "name": "Rod Stewart",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb876f7ad601fe9a02247b9fb9",
+    "followers": 5452787,
+    "spotifyId": "2y8Jo9CKhJvtfeKOsYzRdT",
+    "spotifyPopularity": 77,
+    "genres": [
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "3jOstUTkEu2JkjvRdBA5Gu",
+    "name": "Weezer",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3cd35451daa1b690cfbbb2d4",
+    "followers": 4463023,
+    "spotifyId": "3jOstUTkEu2JkjvRdBA5Gu",
+    "spotifyPopularity": 77,
+    "genres": [
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "4.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "40Yq4vzPs9VNUrIBG5Jr2i",
+    "name": "The Smashing Pumpkins",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba7f80939b43d9efe1ca73a22",
+    "followers": 5935124,
+    "spotifyId": "40Yq4vzPs9VNUrIBG5Jr2i",
+    "spotifyPopularity": 76,
+    "genres": [
+      "alternative rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "6IdtcAwaNVAggwd6sCKgTI",
+    "name": "Zoé",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb7554bfcddafd5500ed89062",
+    "followers": 7242476,
+    "spotifyId": "6IdtcAwaNVAggwd6sCKgTI",
+    "spotifyPopularity": 77,
+    "genres": [
+      "rock en español",
+      "mexican rock",
+      "mexican indie",
+      "latin alternative",
+      "latin indie",
+      "latin rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "7.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "0EdvGhlC1FkGItLOWQzG4J",
+    "name": "Sublime",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+    "followers": 3319431,
+    "spotifyId": "0EdvGhlC1FkGItLOWQzG4J",
+    "spotifyPopularity": 77,
+    "genres": [
+      "reggae rock",
+      "ska punk",
+      "ska"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "1GImnM7WYVp95431ypofy9",
+    "name": "Caifanes",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3f58860477b33dfae15b16e0",
+    "followers": 4801697,
+    "spotifyId": "1GImnM7WYVp95431ypofy9",
+    "spotifyPopularity": 76,
+    "genres": [
+      "rock en español",
+      "mexican rock",
+      "latin rock",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "4.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "7jefIIksOi1EazgRTfW2Pk",
+    "name": "Electric Light Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6ee22df4403027ae525ced87",
+    "followers": 4392839,
+    "spotifyId": "7jefIIksOi1EazgRTfW2Pk",
+    "spotifyPopularity": 75,
+    "genres": [
+      "art rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "4.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "0Ty63ceoRnnJKVEYP0VQpk",
+    "name": "Sting",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9fdb4dab484a9f12e347c216",
+    "followers": 3781780,
+    "spotifyId": "0Ty63ceoRnnJKVEYP0VQpk",
+    "spotifyPopularity": 75,
+    "genres": [
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "22WZ7M8sxp5THdruNY3gXt",
+    "name": "The Doors",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb440959e022afc20e819050bd",
+    "followers": 8731134,
+    "spotifyId": "22WZ7M8sxp5THdruNY3gXt",
+    "spotifyPopularity": 75,
+    "genres": [
+      "psychedelic rock",
+      "classic rock",
+      "acid rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "8.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "4TK1gDgb7QKoPFlzRrBRgR",
+    "name": "Los Enanitos Verdes",
+    "image": "https://i.scdn.co/image/0a44319db623b112c3fddca7a1ef88b5756265cd",
+    "followers": 5070811,
+    "spotifyId": "4TK1gDgb7QKoPFlzRrBRgR",
+    "spotifyPopularity": 75,
+    "genres": [
+      "rock en español",
+      "latin rock",
+      "argentine rock",
+      "mexican rock",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "7mnBLXK823vNxN3UWB7Gfz",
+    "name": "The Black Keys",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2383f032c2aebc76cf3780ed",
+    "followers": 4131954,
+    "spotifyId": "7mnBLXK823vNxN3UWB7Gfz",
+    "spotifyPopularity": 75,
+    "genres": [
+      "blues rock",
+      "garage rock",
+      "modern blues",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "4.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "35U9lQaRWSQISxQAB94Meo",
+    "name": "America",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1918619d3b26c6cb16084997",
+    "followers": 2015504,
+    "spotifyId": "35U9lQaRWSQISxQAB94Meo",
+    "spotifyPopularity": 75,
+    "genres": [
+      "yacht rock",
+      "soft rock",
+      "folk rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "39T6qqI0jDtSWWioX8eGJz",
+    "name": "The Doobie Brothers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb28f5622994674caec36fd95c",
+    "followers": 2800652,
+    "spotifyId": "39T6qqI0jDtSWWioX8eGJz",
+    "spotifyPopularity": 75,
+    "genres": [
+      "yacht rock",
+      "classic rock",
+      "soft rock",
+      "southern rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "4xXCRXOfQKQ2gjWxNhNzYW",
+    "name": "Air Supply",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb79bedf7da0a906b84128f3af",
+    "followers": 5168420,
+    "spotifyId": "4xXCRXOfQKQ2gjWxNhNzYW",
+    "spotifyPopularity": 74,
+    "genres": [
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "6v8FB84lnmJs434UJf2Mrm",
+    "name": "Neil Young",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbae8276dffd864ebac759b76",
+    "followers": 3279559,
+    "spotifyId": "6v8FB84lnmJs434UJf2Mrm",
+    "spotifyPopularity": 74,
+    "genres": [
+      "classic rock",
+      "folk rock",
+      "singer-songwriter",
+      "roots rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "5a2EaR3hamoenG9rDuVn8j",
+    "name": "Prince",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeaca358712b3fe4ed9814640",
+    "followers": 7776161,
+    "spotifyId": "5a2EaR3hamoenG9rDuVn8j",
+    "spotifyPopularity": 74,
+    "genres": [
+      "funk rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "7.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "1wKDGglKV4FsFS85r2Dmpr",
+    "name": "Airbag",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7e7ce771bde5235afd45cb43",
+    "followers": 1368465,
+    "spotifyId": "1wKDGglKV4FsFS85r2Dmpr",
+    "spotifyPopularity": 74,
+    "genres": [
+      "argentine rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "4uqzzJg3ww5eH7IgGV7DMT",
+    "name": "Bunbury",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb166829861cc22a47886a402",
+    "followers": 2991578,
+    "spotifyId": "4uqzzJg3ww5eH7IgGV7DMT",
+    "spotifyPopularity": 74,
+    "genres": [
+      "rock en español",
+      "latin rock",
+      "mexican rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "4pejUc4iciQfgdX6OKulQn",
+    "name": "Queens of the Stone Age",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb73edfbd970917913cfc647c7",
+    "followers": 3790853,
+    "spotifyId": "4pejUc4iciQfgdX6OKulQn",
+    "spotifyPopularity": 73,
+    "genres": [
+      "stoner rock",
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "2AM4ilv6UzW0uMRuqKtDgN",
+    "name": "ZZ Top",
+    "image": "https://i.scdn.co/image/ab6772690000c46ca56aa897505a21aebecf7ea3",
+    "followers": 4860985,
+    "spotifyId": "2AM4ilv6UzW0uMRuqKtDgN",
+    "spotifyPopularity": 73,
+    "genres": [
+      "southern rock",
+      "classic rock",
+      "blues rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "4.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "1QOmebWGB6FdFtW7Bo3F0W",
+    "name": "Gustavo Cerati",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebee0456d8afc4c63dff458587",
+    "followers": 5427708,
+    "spotifyId": "1QOmebWGB6FdFtW7Bo3F0W",
+    "spotifyPopularity": 74,
+    "genres": [
+      "argentine rock",
+      "latin rock",
+      "rock en español",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "0L5fC7Ogm2YwgqVCRcF1bT",
+    "name": "Volbeat",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebed061555d0d15cf7b1e66731",
+    "followers": 2714489,
+    "spotifyId": "0L5fC7Ogm2YwgqVCRcF1bT",
+    "spotifyPopularity": 73,
+    "genres": [
+      "rock",
+      "metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "3iDD7bnsjL9J4fO298r0L0",
+    "name": "Chicago",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbab088e2157b02848dfcbc1e",
+    "followers": 4612143,
+    "spotifyId": "3iDD7bnsjL9J4fO298r0L0",
+    "spotifyPopularity": 73,
+    "genres": [
+      "yacht rock",
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "4.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "60uh2KYYSCqAgJNxcU4DA0",
+    "name": "Hombres G",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf00d7551907825539d1dc034",
+    "followers": 4977514,
+    "spotifyId": "60uh2KYYSCqAgJNxcU4DA0",
+    "spotifyPopularity": 73,
+    "genres": [
+      "rock en español",
+      "latin rock",
+      "mexican rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "70cRZdQywnSFp9pnc2WTCE",
+    "name": "Simon & Garfunkel",
+    "image": "https://i.scdn.co/image/afde2fdd14f8c8ca23393f257e3a369a234a24b6",
+    "followers": 5818489,
+    "spotifyId": "70cRZdQywnSFp9pnc2WTCE",
+    "spotifyPopularity": 73,
+    "genres": [
+      "folk rock",
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "5.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "2F9pvj94b52wGKs0OqiNi2",
+    "name": "Babasonicos",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb908b3e1f556b8718b7b7a25a",
+    "followers": 1718338,
+    "spotifyId": "2F9pvj94b52wGKs0OqiNi2",
+    "spotifyPopularity": 73,
+    "genres": [
+      "argentine rock",
+      "rock en español",
+      "latin rock",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "630wzNP2OL7fl4Xl0GnMWq",
+    "name": "BABYMETAL",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8bf2dcb4312416001228a30d",
+    "followers": 2625143,
+    "spotifyId": "630wzNP2OL7fl4Xl0GnMWq",
+    "spotifyPopularity": 73,
+    "genres": [
+      "j-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "4tX2TplrkIP4v05BNC903e",
+    "name": "Tom Petty and the Heartbreakers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb560685c65ae33b3ffbda7f19",
+    "followers": 3051275,
+    "spotifyId": "4tX2TplrkIP4v05BNC903e",
+    "spotifyPopularity": 73,
+    "genres": [
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "4F84IBURUo98rz4r61KF70",
+    "name": "The White Stripes",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb70cc06de8fc28226d4743cd9",
+    "followers": 3481401,
+    "spotifyId": "4F84IBURUo98rz4r61KF70",
+    "spotifyPopularity": 72,
+    "genres": [
+      "garage rock",
+      "blues rock",
+      "rock",
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "2UZMlIwnkgAEDBsw1Rejkn",
+    "name": "Tom Petty",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ef0346826481e5cf1979096",
+    "followers": 2911300,
+    "spotifyId": "2UZMlIwnkgAEDBsw1Rejkn",
+    "spotifyPopularity": 73,
+    "genres": [
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "6zvul52xwTWzilBZl6BUbT",
+    "name": "Pixies",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcc5ad1ceb002d7bf44218283",
+    "followers": 3462207,
+    "spotifyId": "6zvul52xwTWzilBZl6BUbT",
+    "spotifyPopularity": 72,
+    "genres": [
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "3JsMj0DEzyWc0VDlHuy9Bx",
+    "name": "Supertramp",
+    "image": "https://i.scdn.co/image/eebed895cad509b17c7c6faf47f21f1fc35e8829",
+    "followers": 3887504,
+    "spotifyId": "3JsMj0DEzyWc0VDlHuy9Bx",
+    "spotifyPopularity": 73,
+    "genres": [
+      "progressive rock",
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "3tAICgiSR5PfYY4B8qsoAU",
+    "name": "Andrés Calamaro",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb46de1ff7aab6d657f7776229",
+    "followers": 2778445,
+    "spotifyId": "3tAICgiSR5PfYY4B8qsoAU",
+    "spotifyPopularity": 73,
+    "genres": [
+      "argentine rock",
+      "rock en español",
+      "latin rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "0X380XXQSNBYuleKzav5UO",
+    "name": "Nine Inch Nails",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb752fca27c5b839ea47d5100d",
+    "followers": 2979618,
+    "spotifyId": "0X380XXQSNBYuleKzav5UO",
+    "spotifyPopularity": 72,
+    "genres": [
+      "industrial rock",
+      "industrial",
+      "industrial metal",
+      "alternative metal",
+      "nu metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "3.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "0XNa1vTidXlvJ2gHSsRi4A",
+    "name": "Franz Ferdinand",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69ecfa7557856564c968640d",
+    "followers": 2937510,
+    "spotifyId": "0XNa1vTidXlvJ2gHSsRi4A",
+    "spotifyPopularity": 72,
+    "genres": [
+      "indie rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "485uL27bPomh29R4JmQehQ",
+    "name": "Bob Seger",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd98e2abb8fbebc2e2340f178",
+    "followers": 2813930,
+    "spotifyId": "485uL27bPomh29R4JmQehQ",
+    "spotifyPopularity": 72,
+    "genres": [
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "6tw6EpC9RgmSRZiZg0n22t",
+    "name": "Legião Urbana",
+    "image": "https://i.scdn.co/image/cd410bc7c6e3591f65d9c9ee9516d2e96acfed42",
+    "followers": 7127039,
+    "spotifyId": "6tw6EpC9RgmSRZiZg0n22t",
+    "spotifyPopularity": 72,
+    "genres": [
+      "brazilian rock",
+      "mpb",
+      "brazilian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "7.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "6P7H3ai06vU1sGvdpBwDmE",
+    "name": "Steely Dan",
+    "image": "https://i.scdn.co/image/9d01e4e9aac39b891d684d3d1a5b3a451d7c72bd",
+    "followers": 2484077,
+    "spotifyId": "6P7H3ai06vU1sGvdpBwDmE",
+    "spotifyPopularity": 72,
+    "genres": [
+      "yacht rock",
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "5oYHL2SijkMY52gKIhYJNb",
+    "name": "Elefante",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba40f5812b577a0528b459e70",
+    "followers": 2503645,
+    "spotifyId": "5oYHL2SijkMY52gKIhYJNb",
+    "spotifyPopularity": 72,
+    "genres": [
+      "rock en español",
+      "latin rock",
+      "mexican rock",
+      "latin pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Rock",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "1A5QJAC1vdhbhPE25Q0x0f",
+    "name": "O Rappa",
+    "image": "https://i.scdn.co/image/e0524e5db75789613510320d7cf7d97d6d9e89c4",
+    "followers": 3792230,
+    "spotifyId": "1A5QJAC1vdhbhPE25Q0x0f",
+    "spotifyPopularity": 71,
+    "genres": [
+      "brazilian rock",
+      "mpb",
+      "brazilian pop",
+      "brazilian hip hop",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "Rock",
+    "likes": "3.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "65Gh3BfK84aTIugiRCgLBA",
+    "name": "Dave Edmunds",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc4c49dead65ad0ff32228aa4",
+    "followers": 70697,
+    "spotifyId": "65Gh3BfK84aTIugiRCgLBA",
+    "spotifyPopularity": 43,
+    "genres": [
+      "rockabilly",
+      "power pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Rock",
+    "likes": "70K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0a63dfrxBQKqh160P8iUNL",
+    "name": "Country Joe & The Fish",
+    "image": "https://i.scdn.co/image/b2e3a58983247c8afde732ec825f38ad1d492102",
+    "followers": 177357,
+    "spotifyId": "0a63dfrxBQKqh160P8iUNL",
+    "spotifyPopularity": 37,
+    "genres": [
+      "psychedelic rock",
+      "acid rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Rock",
+    "likes": "177K",
+    "tier": "Underground"
+  },
+  {
+    "id": "74ASZWbe4lXaubB36ztrGX",
+    "name": "Bob Dylan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb791742524609864273747ef5",
+    "followers": 7266719,
+    "spotifyId": "74ASZWbe4lXaubB36ztrGX",
+    "spotifyPopularity": 77,
+    "genres": [
+      "folk rock",
+      "folk",
+      "singer-songwriter",
+      "roots rock",
+      "country rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Rock",
+    "likes": "7.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "1R6Hx1tJ2VOUyodEpC12xM",
+    "name": "Jim Croce",
+    "image": "https://i.scdn.co/image/9f9b40704e3361c93ea8a8b7a86a5d9ee755466e",
+    "followers": 1615855,
+    "spotifyId": "1R6Hx1tJ2VOUyodEpC12xM",
+    "spotifyPopularity": 69,
+    "genres": [
+      "folk rock",
+      "singer-songwriter"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Rock",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "3PP6ghmOlDl2jaKaH0avUN",
+    "name": "Black Country, New Road",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb6ace408c5e1762b36061f23",
+    "followers": 410567,
+    "spotifyId": "3PP6ghmOlDl2jaKaH0avUN",
+    "spotifyPopularity": 59,
+    "genres": [
+      "art rock",
+      "post-rock",
+      "post-punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Rock",
+    "likes": "410K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5ujCegv1BRbEPTCwQqFk6t",
+    "name": "John Fogerty",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb36dbc620fca4c2c66e9133d7",
+    "followers": 912961,
+    "spotifyId": "5ujCegv1BRbEPTCwQqFk6t",
+    "spotifyPopularity": 63,
+    "genres": [
+      "country rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Rock",
+    "likes": "912K",
+    "tier": "Established"
+  },
+  {
+    "id": "59QxeZBL6k9L4oJBGSyukd",
+    "name": "The Marshall Tucker Band",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb146388d54bc86c0dc6f59f6d",
+    "followers": 1099621,
+    "spotifyId": "59QxeZBL6k9L4oJBGSyukd",
+    "spotifyPopularity": 68,
+    "genres": [
+      "southern rock",
+      "country rock",
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Rock",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "3eskO5m0H4yiF64vRySBjr",
+    "name": "Buffalo Springfield",
+    "image": "https://i.scdn.co/image/b701ba75981d0b9aeef036b9fab4e3c96609e364",
+    "followers": 917597,
+    "spotifyId": "3eskO5m0H4yiF64vRySBjr",
+    "spotifyPopularity": 66,
+    "genres": [
+      "folk rock",
+      "country rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Rock",
+    "likes": "917K",
+    "tier": "Established"
+  },
+  {
+    "id": "08F3Y3SctIlsOEmKd6dnH8",
+    "name": "Yusuf / Cat Stevens",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf11e1fa06726774b742528ee",
+    "followers": 2140062,
+    "spotifyId": "08F3Y3SctIlsOEmKd6dnH8",
+    "spotifyPopularity": 72,
+    "genres": [
+      "folk rock",
+      "folk",
+      "singer-songwriter"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Rock",
+    "likes": "2.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "5ZNxiPcbKgaNcBrERMpqeu",
+    "name": "Mägo de Oz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1bd9fe536b5ce55994bec649",
+    "followers": 4692189,
+    "spotifyId": "5ZNxiPcbKgaNcBrERMpqeu",
+    "spotifyPopularity": 70,
+    "genres": [
+      "rock en español",
+      "folk metal",
+      "celtic rock",
+      "mexican rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Rock",
+    "likes": "4.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "02da1vDJ2hWqfK7aJL6SJm",
+    "name": "Soul Asylum",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0a6ab0c900faf7160d02cbe7",
+    "followers": 694612,
+    "spotifyId": "02da1vDJ2hWqfK7aJL6SJm",
+    "spotifyPopularity": 58,
+    "genres": [
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Rock",
+    "likes": "694K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5TOosZsVbwb5O1BOFdcLmw",
+    "name": "Soul Coughing",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb11f93bbe2b85d0f35eed54e8",
+    "followers": 141739,
+    "spotifyId": "5TOosZsVbwb5O1BOFdcLmw",
+    "spotifyPopularity": 45,
+    "genres": [
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Rock",
+    "likes": "141K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2uiyPaAikxjcsewt2HGFgI",
+    "name": "Soul Majestic",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfaaa96bf74a6e6ef01e4af31",
+    "followers": 12704,
+    "spotifyId": "2uiyPaAikxjcsewt2HGFgI",
+    "spotifyPopularity": 37,
+    "genres": [
+      "reggae rock",
+      "reggae",
+      "roots reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Rock",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3aTuTR5Nf6pVW3837q2ZL7",
+    "name": "Maxi Priest",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb937e32099de65df5521d06e9",
+    "followers": 251798,
+    "spotifyId": "3aTuTR5Nf6pVW3837q2ZL7",
+    "spotifyPopularity": 55,
+    "genres": [
+      "lovers rock",
+      "reggae"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Rock",
+    "likes": "251K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6HCIRVlJ8tvmKPAtFnxyFg",
+    "name": "Romain Virgo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4ebccfea83a57cde8aec7226",
+    "followers": 256530,
+    "spotifyId": "6HCIRVlJ8tvmKPAtFnxyFg",
+    "spotifyPopularity": 50,
+    "genres": [
+      "lovers rock",
+      "reggae",
+      "roots reggae",
+      "dancehall",
+      "riddim",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Rock",
+    "likes": "256K",
+    "tier": "Rising"
+  },
+  {
+    "id": "74xBVPWYoSf5pvo5IkePRO",
+    "name": "Şebnem Ferah",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe3c728daf2ff8af8a518239b",
+    "followers": 2154765,
+    "spotifyId": "74xBVPWYoSf5pvo5IkePRO",
+    "spotifyPopularity": 71,
+    "genres": [
+      "anatolian rock",
+      "turkish pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "2.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "3qAPxVwIQRBuz5ImPUxpZT",
+    "name": "Heroes Del Silencio",
+    "image": "https://i.scdn.co/image/9ffe8fc45b8bad986946367201a3e547d9a6dc6a",
+    "followers": 2914929,
+    "spotifyId": "3qAPxVwIQRBuz5ImPUxpZT",
+    "spotifyPopularity": 70,
+    "genres": [
+      "rock en español",
+      "latin rock",
+      "mexican rock",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "2.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "0CEFCo8288kQU7mJi25s6E",
+    "name": "Hollywood Undead",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4159f85a5a40c655380821da",
+    "followers": 2486578,
+    "spotifyId": "0CEFCo8288kQU7mJi25s6E",
+    "spotifyPopularity": 70,
+    "genres": [
+      "rap rock",
+      "rap metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "6GfiCQDFYANz5wUkSmb3Dr",
+    "name": "Thousand Foot Krutch",
+    "image": "https://i.scdn.co/image/558f7ee322b89c8d5b846a7b38e0ad83bbaa1386",
+    "followers": 1472840,
+    "spotifyId": "6GfiCQDFYANz5wUkSmb3Dr",
+    "spotifyPopularity": 68,
+    "genres": [
+      "christian rock",
+      "christian alternative rock",
+      "rap metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "0cUjmO89DRPy2foNofDFVC",
+    "name": "Stone Metal Fire",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb61c50c86b1b95205c070c1a5",
+    "followers": 346001,
+    "spotifyId": "0cUjmO89DRPy2foNofDFVC",
+    "spotifyPopularity": 48,
+    "genres": [
+      "thai rock",
+      "phleng phuea chiwit",
+      "luk thung",
+      "southern thai music",
+      "thai pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "346K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2Hkut4rAAyrQxRdof7FVJq",
+    "name": "Rush",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb896c4b043fb3063178afd716",
+    "followers": 2515880,
+    "spotifyId": "2Hkut4rAAyrQxRdof7FVJq",
+    "spotifyPopularity": 68,
+    "genres": [
+      "progressive rock",
+      "classic rock",
+      "hard rock",
+      "rock",
+      "aor"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "4IliztYDlfMvzQzbx50o60",
+    "name": "Flyleaf",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf806c08eef7d367476b561d0",
+    "followers": 1445477,
+    "spotifyId": "4IliztYDlfMvzQzbx50o60",
+    "spotifyPopularity": 66,
+    "genres": [
+      "christian rock",
+      "christian alternative rock",
+      "emo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "30fEdZPXgWfC4sNttcyB3C",
+    "name": "La Renga",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb93e157c63e523335a4d6d21a",
+    "followers": 1828262,
+    "spotifyId": "30fEdZPXgWfC4sNttcyB3C",
+    "spotifyPopularity": 66,
+    "genres": [
+      "argentine rock",
+      "latin rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "7dWYWUbO68rXJOcyA7SpJk",
+    "name": "Fort Minor",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb53a76aaa221c3214f14c4c21",
+    "followers": 696576,
+    "spotifyId": "7dWYWUbO68rXJOcyA7SpJk",
+    "spotifyPopularity": 63,
+    "genres": [
+      "rap rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "696K",
+    "tier": "Established"
+  },
+  {
+    "id": "632M26jlmnCrL8CqD5i7Kd",
+    "name": "Rata Blanca",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfa3cc18cceab8df8d1e4c086",
+    "followers": 1472710,
+    "spotifyId": "632M26jlmnCrL8CqD5i7Kd",
+    "spotifyPopularity": 65,
+    "genres": [
+      "rock en español",
+      "argentine rock",
+      "latin rock",
+      "mexican rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "4iSKnRZAxkmqNok6tv10Se",
+    "name": "Crazy Town",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb62a327b7a4b1aa7c9ec7dfe2",
+    "followers": 584572,
+    "spotifyId": "4iSKnRZAxkmqNok6tv10Se",
+    "spotifyPopularity": 65,
+    "genres": [
+      "rap rock",
+      "nu metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "584K",
+    "tier": "Established"
+  },
+  {
+    "id": "02uYdhMhCgdB49hZlYRm9o",
+    "name": "Eagles Of Death Metal",
+    "image": "https://i.scdn.co/image/9084649cb287a4cd52b6955fe9f5dd647fc4e431",
+    "followers": 566525,
+    "spotifyId": "02uYdhMhCgdB49hZlYRm9o",
+    "spotifyPopularity": 55,
+    "genres": [
+      "stoner rock",
+      "garage rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "566K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2xjp1njSsecnNhjgKZ35Ok",
+    "name": "Silly Fools",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732e05fd2e7fa984c228bdd637",
+    "followers": 3881237,
+    "spotifyId": "2xjp1njSsecnNhjgKZ35Ok",
+    "spotifyPopularity": 64,
+    "genres": [
+      "thai rock",
+      "thai pop",
+      "phleng phuea chiwit",
+      "t-pop",
+      "southern thai music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "3.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "6d1Sy4QmIozBZrVjRfZ5Jz",
+    "name": "Metal Nobre",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb49355f62d26f8597bfb5db2e",
+    "followers": 45199,
+    "spotifyId": "6d1Sy4QmIozBZrVjRfZ5Jz",
+    "spotifyPopularity": 31,
+    "genres": [
+      "christian rock",
+      "brazilian gospel",
+      "gospel"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "45K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6GbCJZrI318Ybm8mY36Of5",
+    "name": "Faith No More",
+    "image": "https://i.scdn.co/image/765ad08f23f828d1a850c47ac417d7be260af932",
+    "followers": 1928704,
+    "spotifyId": "6GbCJZrI318Ybm8mY36Of5",
+    "spotifyPopularity": 64,
+    "genres": [
+      "funk rock",
+      "alternative metal",
+      "rap metal",
+      "grunge"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "0GsileCtd1UjaVh4OpW7Qv",
+    "name": "Big Ass",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5280b964a9bc960525efa4c0",
+    "followers": 1608999,
+    "spotifyId": "0GsileCtd1UjaVh4OpW7Qv",
+    "spotifyPopularity": 64,
+    "genres": [
+      "thai rock",
+      "thai pop",
+      "phleng phuea chiwit",
+      "southern thai music",
+      "t-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "76ptJV8617638xrpeoUtzl",
+    "name": "The Rasmus",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb52612710e1a88ad35002aced",
+    "followers": 552758,
+    "spotifyId": "76ptJV8617638xrpeoUtzl",
+    "spotifyPopularity": 63,
+    "genres": [
+      "finnish rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "552K",
+    "tier": "Established"
+  },
+  {
+    "id": "6cutt8thPFUICMfxaYerWd",
+    "name": "MY FIRST STORY",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb04df1f5b551614aff7882b2f",
+    "followers": 692841,
+    "spotifyId": "6cutt8thPFUICMfxaYerWd",
+    "spotifyPopularity": 63,
+    "genres": [
+      "j-rock",
+      "j-pop",
+      "anime"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "692K",
+    "tier": "Established"
+  },
+  {
+    "id": "4wVcCedmr7FHtUlFnIeJIG",
+    "name": "Youjeen",
+    "image": "https://i.scdn.co/image/ab67616d0000b273006a347ff2700caa3e757c0a",
+    "followers": 17048,
+    "spotifyId": "4wVcCedmr7FHtUlFnIeJIG",
+    "spotifyPopularity": 58,
+    "genres": [
+      "k-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "17K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4vGrte8FDu062Ntj0RsPiZ",
+    "name": "Polyphia",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd0d5560f6b2ebe39a6d20704",
+    "followers": 1315506,
+    "spotifyId": "4vGrte8FDu062Ntj0RsPiZ",
+    "spotifyPopularity": 62,
+    "genres": [
+      "math rock",
+      "djent",
+      "progressive metal",
+      "progressive rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "71YuTfeIt3p0jHnd9xfKh6",
+    "name": "Power Metal",
+    "image": "https://i.scdn.co/image/ab67616d0000b27361e1a8f2d641a428f1a70f90",
+    "followers": 104071,
+    "spotifyId": "71YuTfeIt3p0jHnd9xfKh6",
+    "spotifyPopularity": 42,
+    "genres": [
+      "indorock",
+      "indonesian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "104K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6SLAMfhOi7UJI0fMztaK0m",
+    "name": "Rainbow",
+    "image": "https://i.scdn.co/image/e0ad73e5231086142031094d86e8bef61576268c",
+    "followers": 1632261,
+    "spotifyId": "6SLAMfhOi7UJI0fMztaK0m",
+    "spotifyPopularity": 62,
+    "genres": [
+      "hard rock",
+      "aor",
+      "metal",
+      "heavy metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "3Fz2GbraVXhcpXnoi2Oe1r",
+    "name": "Billy Squier",
+    "image": "https://i.scdn.co/image/6935410b9596e72ad3249d58339f49f220020432",
+    "followers": 878140,
+    "spotifyId": "3Fz2GbraVXhcpXnoi2Oe1r",
+    "spotifyPopularity": 62,
+    "genres": [
+      "classic rock",
+      "aor"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "878K",
+    "tier": "Established"
+  },
+  {
+    "id": "64mPnRMMeudAet0E62ypkx",
+    "name": "Primus",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb54ed648a0c70ed8910840f4a",
+    "followers": 1307495,
+    "spotifyId": "64mPnRMMeudAet0E62ypkx",
+    "spotifyPopularity": 62,
+    "genres": [
+      "funk rock",
+      "alternative metal",
+      "alternative rock",
+      "nu metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "49DW3KvkyjHO35mK1JnSyS",
+    "name": "The Cult",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb84dd49fca89ff6df6f2124e5",
+    "followers": 799744,
+    "spotifyId": "49DW3KvkyjHO35mK1JnSyS",
+    "spotifyPopularity": 62,
+    "genres": [
+      "hard rock",
+      "glam metal",
+      "gothic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "799K",
+    "tier": "Established"
+  },
+  {
+    "id": "76VTagPgPgPlFE7hfjT0Zt",
+    "name": "Bodyslam",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc3a790b0fe3cfddba12ba541",
+    "followers": 1426541,
+    "spotifyId": "76VTagPgPgPlFE7hfjT0Zt",
+    "spotifyPopularity": 62,
+    "genres": [
+      "thai rock",
+      "thai pop",
+      "phleng phuea chiwit",
+      "t-pop",
+      "luk thung"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "7rEIUw67hRTgievwuKQGSj",
+    "name": "maNga",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe07649469b520b42e2c5c047",
+    "followers": 2695955,
+    "spotifyId": "7rEIUw67hRTgievwuKQGSj",
+    "spotifyPopularity": 62,
+    "genres": [
+      "anatolian rock",
+      "turkish pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "4HrkLxQHZ5mgCtIVpiH5QX",
+    "name": "From Ashes to New",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb71558ab9c02fb1a2f664ab6e",
+    "followers": 598795,
+    "spotifyId": "4HrkLxQHZ5mgCtIVpiH5QX",
+    "spotifyPopularity": 61,
+    "genres": [
+      "rap rock",
+      "rap metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "598K",
+    "tier": "Established"
+  },
+  {
+    "id": "3hzijSzD6IwOV4SY2SiWQp",
+    "name": "Hayko Cepkin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb231f96eae7457aaa7cf20fc4",
+    "followers": 846604,
+    "spotifyId": "3hzijSzD6IwOV4SY2SiWQp",
+    "spotifyPopularity": 61,
+    "genres": [
+      "anatolian rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "metal",
+    "primaryGenre": "Rock",
+    "likes": "846K",
+    "tier": "Established"
+  },
+  {
+    "id": "1ItbHlpwroC3poTOv3p76M",
+    "name": "Fasıl-ı Jazz",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebddde0965b37bb8707b44844f",
+    "followers": 47051,
+    "spotifyId": "1ItbHlpwroC3poTOv3p76M",
+    "spotifyPopularity": 48,
+    "genres": [
+      "anatolian rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Rock",
+    "likes": "47K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3Y3xIwWyq5wnNHPp5gPjOW",
+    "name": "Kenny Loggins",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe5ade0d346536449c7a75b48",
+    "followers": 1234622,
+    "spotifyId": "3Y3xIwWyq5wnNHPp5gPjOW",
+    "spotifyPopularity": 70,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "k-pop",
+    "primaryGenre": "Rock",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "695W5F2Ih8dYahLdjVOIoH",
+    "name": "Christopher Cross",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba2e75d072e19a6150744f924",
+    "followers": 1167217,
+    "spotifyId": "695W5F2Ih8dYahLdjVOIoH",
+    "spotifyPopularity": 70,
+    "genres": [
+      "yacht rock",
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "k-pop",
+    "primaryGenre": "Rock",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "3jO7X5KupvwmWTHGtHgcgo",
+    "name": "Charly García",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbac539513cf3c43fd5f2293d",
+    "followers": 2102210,
+    "spotifyId": "3jO7X5KupvwmWTHGtHgcgo",
+    "spotifyPopularity": 67,
+    "genres": [
+      "argentine rock",
+      "latin rock",
+      "rock en español"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Rock",
+    "likes": "2.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "12d4iIvTOk7JkI6ecvc3ca",
+    "name": "The Charlie Daniels Band",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb84e8dcb90d1d55643d417744",
+    "followers": 908306,
+    "spotifyId": "12d4iIvTOk7JkI6ecvc3ca",
+    "spotifyPopularity": 62,
+    "genres": [
+      "southern rock",
+      "outlaw country",
+      "classic country",
+      "country rock",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Rock",
+    "likes": "908K",
+    "tier": "Established"
+  },
+  {
+    "id": "6UpFUXmXvDV7Qj1SPymamh",
+    "name": "Charlie Daniels",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb90920f104ff331e837c7f589",
+    "followers": 473695,
+    "spotifyId": "6UpFUXmXvDV7Qj1SPymamh",
+    "spotifyPopularity": 50,
+    "genres": [
+      "southern rock",
+      "christian country",
+      "outlaw country",
+      "country rock",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Rock",
+    "likes": "473K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4STEdt6oH8RopaxpfWrO5Z",
+    "name": "Cruzando El Charco",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba4fe7cbe13a62077a634efbc",
+    "followers": 201014,
+    "spotifyId": "4STEdt6oH8RopaxpfWrO5Z",
+    "spotifyPopularity": 62,
+    "genres": [
+      "argentine rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Rock",
+    "likes": "201K",
+    "tier": "Established"
+  },
+  {
+    "id": "0GtBUVp1cWdIUKwm2GHTHc",
+    "name": "Chatmonchy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5ae576fde46279ab0d3cfaa3",
+    "followers": 333150,
+    "spotifyId": "0GtBUVp1cWdIUKwm2GHTHc",
+    "spotifyPopularity": 46,
+    "genres": [
+      "j-rock",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Rock",
+    "likes": "333K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6hszx52doSbSMupWHUGdTv",
+    "name": "Charlie Monttana",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1027f923be1e91d08ef59da6",
+    "followers": 155140,
+    "spotifyId": "6hszx52doSbSMupWHUGdTv",
+    "spotifyPopularity": 45,
+    "genres": [
+      "mexican rock",
+      "rock en español"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Rock",
+    "likes": "155K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4yRSUmhuSJ3KcIMljdh4fH",
+    "name": "Chat Pile",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba351e3886f3d7d836ed69c23",
+    "followers": 93177,
+    "spotifyId": "4yRSUmhuSJ3KcIMljdh4fH",
+    "spotifyPopularity": 43,
+    "genres": [
+      "noise rock",
+      "sludge metal",
+      "drone metal",
+      "mathcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Rock",
+    "likes": "93K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0ouUO7PZ76vjBJytaT2Na0",
+    "name": "Hitorie",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfc68fe960ee6fea0473d52b5",
+    "followers": 118311,
+    "spotifyId": "0ouUO7PZ76vjBJytaT2Na0",
+    "spotifyPopularity": 47,
+    "genres": [
+      "j-rock",
+      "vocaloid",
+      "anime",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Rock",
+    "likes": "118K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5v6wlK6GCKVovWMbPqSHNy",
+    "name": "Fireflight",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9ebf806232d63b62007ae28",
+    "followers": 293433,
+    "spotifyId": "5v6wlK6GCKVovWMbPqSHNy",
+    "spotifyPopularity": 45,
+    "genres": [
+      "christian rock",
+      "christian alternative rock",
+      "chinese rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Rock",
+    "likes": "293K",
+    "tier": "Rising"
+  },
+  {
+    "id": "27a0GiCba9K9lnkKidroFU",
+    "name": "Canned Heat",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe205bb8e13cd75d79b9a6c44",
+    "followers": 662594,
+    "spotifyId": "27a0GiCba9K9lnkKidroFU",
+    "spotifyPopularity": 58,
+    "genres": [
+      "blues rock",
+      "blues",
+      "classic blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Rock",
+    "likes": "662K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4rd6QvHo3CdZNmZrPJs8yz",
+    "name": "Ningen Isu",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe14cf1edbf847db1e2e44248",
+    "followers": 105240,
+    "spotifyId": "4rd6QvHo3CdZNmZrPJs8yz",
+    "spotifyPopularity": 35,
+    "genres": [
+      "j-rock",
+      "folk metal",
+      "doom metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Rock",
+    "likes": "105K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3Cqn20hCMJisWINCRSOkZT",
+    "name": "Los Hitters",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730d6902283a1b0240ae47fac1",
+    "followers": 27693,
+    "spotifyId": "3Cqn20hCMJisWINCRSOkZT",
+    "spotifyPopularity": 37,
+    "genres": [
+      "rock and roll",
+      "mexican rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Rock",
+    "likes": "27K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4qKJA8Cf8R44cMThP6q8KM",
+    "name": "Radio Futura",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebad5b0c081f0d3953f47cfa5a",
+    "followers": 426333,
+    "spotifyId": "4qKJA8Cf8R44cMThP6q8KM",
+    "spotifyPopularity": 55,
+    "genres": [
+      "rock en español"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "426K",
+    "tier": "Rising"
+  },
+  {
+    "id": "692VvGTch5OLXj4zEE6H3y",
+    "name": "Radio Moscow",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c9bcc16988c3680ecfcefa7",
+    "followers": 167725,
+    "spotifyId": "692VvGTch5OLXj4zEE6H3y",
+    "spotifyPopularity": 44,
+    "genres": [
+      "stoner rock",
+      "blues rock",
+      "modern blues",
+      "psychedelic rock",
+      "stoner metal",
+      "space rock",
+      "neo-psychedelic"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "167K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2A9ZOE4ukWNyIjDhtUyp45",
+    "name": "Radio Taxi",
+    "image": "https://i.scdn.co/image/ab67616d0000b27356f4a2081e2cbac9935405a8",
+    "followers": 168246,
+    "spotifyId": "2A9ZOE4ukWNyIjDhtUyp45",
+    "spotifyPopularity": 43,
+    "genres": [
+      "brazilian rock",
+      "mpb",
+      "brazilian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "168K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3HJIB8sYPyxrFGuwvKXSLR",
+    "name": "TV On The Radio",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc5eb8f206eb9065389277634",
+    "followers": 680146,
+    "spotifyId": "3HJIB8sYPyxrFGuwvKXSLR",
+    "spotifyPopularity": 59,
+    "genres": [
+      "indie rock",
+      "indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "680K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1Zyxew73e5n9nYOPF0Nn7X",
+    "name": "Radio Viejo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9b79352cdb21c14e6db475df",
+    "followers": 26183,
+    "spotifyId": "1Zyxew73e5n9nYOPF0Nn7X",
+    "spotifyPopularity": 33,
+    "genres": [
+      "rock en español"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "26K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2kS6fJbWluJG8ay4WDRUIc",
+    "name": "Radio Kaos",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9a8a459543998aaa6e541110",
+    "followers": 67882,
+    "spotifyId": "2kS6fJbWluJG8ay4WDRUIc",
+    "spotifyPopularity": 33,
+    "genres": [
+      "rock en español",
+      "mexican rock",
+      "latin rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "67K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0EMtl4ebNVSYgoqmG3qNML",
+    "name": "Radio Werewolf",
+    "image": "https://i.scdn.co/image/ab67616d0000b27390751ee173d92ca551bd96e6",
+    "followers": 18938,
+    "spotifyId": "0EMtl4ebNVSYgoqmG3qNML",
+    "spotifyPopularity": 30,
+    "genres": [
+      "deathrock",
+      "gothic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0do3DwgbF0O2n01aZJ61th",
+    "name": "Radioactive Sago Project",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ea617d8486dbe2432c0ff929",
+    "followers": 68323,
+    "spotifyId": "0do3DwgbF0O2n01aZJ61th",
+    "spotifyPopularity": 30,
+    "genres": [
+      "pinoy rock",
+      "pinoy alternative",
+      "opm",
+      "pinoy indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "68K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6eaKsv68njcrz5OjeQor5L",
+    "name": "State Radio",
+    "image": "https://i.scdn.co/image/3a62b712c6991b3d6c0f557eeeb8ef83269ddd51",
+    "followers": 53236,
+    "spotifyId": "6eaKsv68njcrz5OjeQor5L",
+    "spotifyPopularity": 42,
+    "genres": [
+      "reggae rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "53K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2DDfSj2dukX0wA8Xe0pk1N",
+    "name": "Murphy Radio",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe7af2b888cf4bb95104a1ccd",
+    "followers": 21897,
+    "spotifyId": "2DDfSj2dukX0wA8Xe0pk1N",
+    "spotifyPopularity": 40,
+    "genres": [
+      "math rock",
+      "midwest emo",
+      "post-rock",
+      "indonesian indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6SLGDrRhiZkj8E10RIC6QK",
+    "name": "The Radioactive Sago Project",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735e05939a3afd2830b2c3579c",
+    "followers": 12345,
+    "spotifyId": "6SLGDrRhiZkj8E10RIC6QK",
+    "spotifyPopularity": 21,
+    "genres": [
+      "pinoy rock",
+      "pinoy alternative",
+      "opm"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Rock",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2dmQ0vMD3THLMcz7DsvfaT",
+    "name": "Pitty",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1183488d72f571f4b079c5d5",
+    "followers": 2522160,
+    "spotifyId": "2dmQ0vMD3THLMcz7DsvfaT",
+    "spotifyPopularity": 66,
+    "genres": [
+      "brazilian rock",
+      "mpb",
+      "brazilian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "famous",
+    "primaryGenre": "Rock",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "6stxx95xbLezwVYDIODmVR",
+    "name": "Dead Celebrity Status",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ee935e729ac21c05fb52227e",
+    "followers": 12305,
+    "spotifyId": "6stxx95xbLezwVYDIODmVR",
+    "spotifyPopularity": 22,
+    "genres": [
+      "rap rock",
+      "rap metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "celebrity",
+    "primaryGenre": "Rock",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4642raFccEF58fHRtJSsc5",
+    "name": "SPECIAL OTHERS",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdd5db0fd713942aa1c64fd56",
+    "followers": 66029,
+    "spotifyId": "4642raFccEF58fHRtJSsc5",
+    "spotifyPopularity": 38,
+    "genres": [
+      "math rock",
+      "jazz fusion"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "superstar",
+    "primaryGenre": "Rock",
+    "likes": "66K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1Jy0lTKAQDnTklKzF0g2o7",
+    "name": "Icon For Hire",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1f99ecdc1aeff1db5c418b04",
+    "followers": 356430,
+    "spotifyId": "1Jy0lTKAQDnTklKzF0g2o7",
+    "spotifyPopularity": 52,
+    "genres": [
+      "christian rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "icon",
+    "primaryGenre": "Rock",
+    "likes": "356K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5gxynDEKwNDgxGJmJjZyte",
+    "name": "Steve Winwood",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb00468f77cbf98e01cfd1be08",
+    "followers": 1117061,
+    "spotifyId": "5gxynDEKwNDgxGJmJjZyte",
+    "spotifyPopularity": 63,
+    "genres": [
+      "yacht rock",
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "5xQKoGD7Ql92fWd1uWwKkf",
+    "name": "Steve Perry",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2d520c49cb4edd996b4ad7d7",
+    "followers": 704370,
+    "spotifyId": "5xQKoGD7Ql92fWd1uWwKkf",
+    "spotifyPopularity": 58,
+    "genres": [
+      "yacht rock",
+      "aor"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "704K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6IFXsrXBpwbIqtOUOiAa3p",
+    "name": "Rick Springfield",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5cc5140fd4e3342f3a6d25ff",
+    "followers": 895612,
+    "spotifyId": "6IFXsrXBpwbIqtOUOiAa3p",
+    "spotifyPopularity": 65,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "895K",
+    "tier": "Established"
+  },
+  {
+    "id": "0grdhNhiRLFBaFVyybqsj6",
+    "name": "Richard Marx",
+    "image": "https://i.scdn.co/image/ab6772690000c46cfc12d2f1fba4838bb08e8073",
+    "followers": 1505869,
+    "spotifyId": "0grdhNhiRLFBaFVyybqsj6",
+    "spotifyPopularity": 70,
+    "genres": [
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "1.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "5dbuFbrHa1SJlQhQX9OUJ2",
+    "name": "Don Henley",
+    "image": "https://i.scdn.co/image/e3bb4b09ffbf0a8f420ae14837208056cf64451e",
+    "followers": 1709148,
+    "spotifyId": "5dbuFbrHa1SJlQhQX9OUJ2",
+    "spotifyPopularity": 68,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "5IDs1CK15HegSAhGEbSYXo",
+    "name": "Billy Ocean",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb32077f76ce695c7dfa2686aa",
+    "followers": 1284044,
+    "spotifyId": "5IDs1CK15HegSAhGEbSYXo",
+    "spotifyPopularity": 67,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "6dH5I8Q7HhXu74cBXkP0LD",
+    "name": "Patrick Swayze",
+    "image": "https://i.scdn.co/image/ab6742d3000053b70d1f0cb372dde355f2c322e4",
+    "followers": 143987,
+    "spotifyId": "6dH5I8Q7HhXu74cBXkP0LD",
+    "spotifyPopularity": 55,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "143K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7C4sUpWGlTy7IANjruj02I",
+    "name": "Peter Gabriel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb997116abcd93201746831544",
+    "followers": 1911360,
+    "spotifyId": "7C4sUpWGlTy7IANjruj02I",
+    "spotifyPopularity": 66,
+    "genres": [
+      "art rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "5xWPOujQqd4wXyB08slZ9Z",
+    "name": "Peter Cetera",
+    "image": "https://i.scdn.co/image/d25e8d5f1d06e238771595e9b2fda6063454e85f",
+    "followers": 1140881,
+    "spotifyId": "5xWPOujQqd4wXyB08slZ9Z",
+    "spotifyPopularity": 66,
+    "genres": [
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "2RpHsROrX075xfIwHn6B2U",
+    "name": "Chris de Burgh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6dc7b79aead8085199d75560",
+    "followers": 695955,
+    "spotifyId": "2RpHsROrX075xfIwHn6B2U",
+    "spotifyPopularity": 64,
+    "genres": [
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "695K",
+    "tier": "Established"
+  },
+  {
+    "id": "4Tw2N3wdvJPGEU7JqMxFfE",
+    "name": "Eddie Money",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb59808090fb17e636132b0d2a",
+    "followers": 970644,
+    "spotifyId": "4Tw2N3wdvJPGEU7JqMxFfE",
+    "spotifyPopularity": 61,
+    "genres": [
+      "classic rock",
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "970K",
+    "tier": "Established"
+  },
+  {
+    "id": "2yTUYhIf8fxptTIy3KLuJD",
+    "name": "Mike + The Mechanics",
+    "image": "https://i.scdn.co/image/df1206ce5a5ffab40863574f6921ca066c0f100e",
+    "followers": 743585,
+    "spotifyId": "2yTUYhIf8fxptTIy3KLuJD",
+    "spotifyPopularity": 61,
+    "genres": [
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "743K",
+    "tier": "Established"
+  },
+  {
+    "id": "6ZNeppgfBLPUyugks9Yn1u",
+    "name": "Philip Bailey",
+    "image": "https://i.scdn.co/image/2d47008e38e6a77b739ba84d36247851d62ba2a3",
+    "followers": 90598,
+    "spotifyId": "6ZNeppgfBLPUyugks9Yn1u",
+    "spotifyPopularity": 61,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "90K",
+    "tier": "Established"
+  },
+  {
+    "id": "530Sdm7eqqzWBdDmILMgnu",
+    "name": "Robert Palmer",
+    "image": "https://i.scdn.co/image/d0f9136003814386988d37964be13b1da0b1c6e1",
+    "followers": 1089566,
+    "spotifyId": "530Sdm7eqqzWBdDmILMgnu",
+    "spotifyPopularity": 61,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "2TPyCsRoh2tjeZLTQ2ojlj",
+    "name": "John Waite",
+    "image": "https://i.scdn.co/image/bc3a280c958c4509f73b0c3809b1ed7543a5ef49",
+    "followers": 302464,
+    "spotifyId": "2TPyCsRoh2tjeZLTQ2ojlj",
+    "spotifyPopularity": 58,
+    "genres": [
+      "arena rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "302K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3BucZwouCkpiGi2UxqfWn9",
+    "name": "Frank Stallone",
+    "image": "https://i.scdn.co/image/1031c120e8375e494592c863c62a4c8c105105ff",
+    "followers": 19352,
+    "spotifyId": "3BucZwouCkpiGi2UxqfWn9",
+    "spotifyPopularity": 44,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "19K",
+    "tier": "Rising"
+  },
+  {
+    "id": "69Mj3u4FTUrpyeGNSIaU6F",
+    "name": "The J. Geils Band",
+    "image": "https://i.scdn.co/image/314a7c90c1d6fc4b33adb2da62e05a48a1767a14",
+    "followers": 904944,
+    "spotifyId": "69Mj3u4FTUrpyeGNSIaU6F",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "904K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2ekjTXgjxbWwBX5lTAj4DU",
+    "name": "Eric Carmen",
+    "image": "https://i.scdn.co/image/a3df5b1eb9e7feb36230b8674626dd51d2bdc839",
+    "followers": 452256,
+    "spotifyId": "2ekjTXgjxbWwBX5lTAj4DU",
+    "spotifyPopularity": 64,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "452K",
+    "tier": "Established"
+  },
+  {
+    "id": "5388C04OP0Fc6xqbvct7kv",
+    "name": "Laureano Brizuela",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733f287a8b6ce076bd8a3e5d9e",
+    "followers": 341365,
+    "spotifyId": "5388C04OP0Fc6xqbvct7kv",
+    "spotifyPopularity": 54,
+    "genres": [
+      "rock en español"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "341K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3AHq6rutf72JF0ul8GB6G2",
+    "name": "The Jets",
+    "image": "https://i.scdn.co/image/088e8190270f14d67c666f9d4794038efcab4c24",
+    "followers": 337183,
+    "spotifyId": "3AHq6rutf72JF0ul8GB6G2",
+    "spotifyPopularity": 53,
+    "genres": [
+      "rocksteady"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Rock",
+    "likes": "337K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4NAod6SQ2f7tah0d6TZeel",
+    "name": "Gong 2000",
+    "image": "https://i.scdn.co/image/ab67616d0000b273460530a7db10e38042ecfd53",
+    "followers": 21958,
+    "spotifyId": "4NAod6SQ2f7tah0d6TZeel",
+    "spotifyPopularity": 32,
+    "genres": [
+      "indorock",
+      "indonesian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "2000s",
+    "primaryGenre": "Rock",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5WMTLWYhybOr4SExHQiu1q",
+    "name": "Retrospect",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdf7f27470bd2214342558c1f",
+    "followers": 147063,
+    "spotifyId": "5WMTLWYhybOr4SExHQiu1q",
+    "spotifyPopularity": 44,
+    "genres": [
+      "thai rock",
+      "thai pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "Rock",
+    "likes": "147K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2lYjnZ0AY9sLUbCP8Vv2Vx",
+    "name": "Retrobüs",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb11b3d3c6aef728c30a678a71",
+    "followers": 18235,
+    "spotifyId": "2lYjnZ0AY9sLUbCP8Vv2Vx",
+    "spotifyPopularity": 39,
+    "genres": [
+      "anatolian rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "Rock",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3qQloBz05T6e0rKubNCmjG",
+    "name": "Young Gun Silver Fox",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1a902722a7f04407c10cf972",
+    "followers": 65951,
+    "spotifyId": "3qQloBz05T6e0rKubNCmjG",
+    "spotifyPopularity": 50,
+    "genres": [
+      "yacht rock",
+      "aor"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "Rock",
+    "likes": "65K",
+    "tier": "Rising"
+  },
+  {
+    "id": "72Pauuctba5lMzC89R0Vk0",
+    "name": "Vintage Trouble",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba9aaa1e407e86a9e2109b81e",
+    "followers": 128745,
+    "spotifyId": "72Pauuctba5lMzC89R0Vk0",
+    "spotifyPopularity": 40,
+    "genres": [
+      "blues rock",
+      "retro soul",
+      "modern blues",
+      "retro pop",
+      "blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Rock",
+    "likes": "128K",
+    "tier": "Rising"
+  },
+  {
+    "id": "61MH29rMIyOfuK7KXQznzX",
+    "name": "The Vintage Caravan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd08dc4cf0e505cc615424f25",
+    "followers": 44096,
+    "spotifyId": "61MH29rMIyOfuK7KXQznzX",
+    "spotifyPopularity": 31,
+    "genres": [
+      "stoner rock",
+      "stoner metal",
+      "space rock",
+      "sludge metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Rock",
+    "likes": "44K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2ruMkdO4e1tJWDHsYSEtxr",
+    "name": "Beres Hammond",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb21bb86874a1336147cf99231",
+    "followers": 390053,
+    "spotifyId": "2ruMkdO4e1tJWDHsYSEtxr",
+    "spotifyPopularity": 57,
+    "genres": [
+      "lovers rock",
+      "reggae",
+      "roots reggae",
+      "dancehall",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Rock",
+    "likes": "390K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0UmBaQJflaHddKtf1lrA6F",
+    "name": "Dennis Brown",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8240d5b7cb894d3fbb8c31f0",
+    "followers": 332694,
+    "spotifyId": "0UmBaQJflaHddKtf1lrA6F",
+    "spotifyPopularity": 55,
+    "genres": [
+      "lovers rock",
+      "reggae",
+      "roots reggae",
+      "rocksteady",
+      "dub",
+      "ragga"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Rock",
+    "likes": "332K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1LmsXfZSt1nutb8OCvt00G",
+    "name": "Petra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd3f796bd7ea49ed7615a550",
+    "followers": 170516,
+    "spotifyId": "1LmsXfZSt1nutb8OCvt00G",
+    "spotifyPopularity": 49,
+    "genres": [
+      "christian rock",
+      "ccm",
+      "christian"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classic",
+    "primaryGenre": "Rock",
+    "likes": "170K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3TkWygOTDBZXAdFDh9HOkG",
+    "name": "Chilliwack",
+    "image": "https://i.scdn.co/image/ad9f651d4f0ce92b3a5b31374f08824c43a0354a",
+    "followers": 86112,
+    "spotifyId": "3TkWygOTDBZXAdFDh9HOkG",
+    "spotifyPopularity": 45,
+    "genres": [
+      "yacht rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "Rock",
+    "likes": "86K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4mJeYvJH1WW0jLjbUh6VxM",
+    "name": "DARK",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe5a00cc4cc95075a50a8303a",
+    "followers": 19703,
+    "spotifyId": "4mJeYvJH1WW0jLjbUh6VxM",
+    "spotifyPopularity": 26,
+    "genres": [
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Rock",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "10vdwasvbt93WOHGeeSD7M",
+    "name": "The Darkest Romance",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdbbd96f2697aefb93523bd18",
+    "followers": 20882,
+    "spotifyId": "10vdwasvbt93WOHGeeSD7M",
+    "spotifyPopularity": 39,
+    "genres": [
+      "thai rock",
+      "thai pop",
+      "thai indie rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Rock",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2zRksKctDvcqmX1nhaydyV",
+    "name": "The Happy Return",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5ea73b4a8f5893223feb353e",
+    "followers": 13419,
+    "spotifyId": "2zRksKctDvcqmX1nhaydyV",
+    "spotifyPopularity": 33,
+    "genres": [
+      "surf rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "happy",
+    "primaryGenre": "Rock",
+    "likes": "13K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6jkKuw4J4SWKrPQCcPGEYl",
+    "name": "Happy Heads NANIYORI",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb34ca9b43d437b779bcfba775",
+    "followers": 21662,
+    "spotifyId": "6jkKuw4J4SWKrPQCcPGEYl",
+    "spotifyPopularity": 25,
+    "genres": [
+      "j-rock",
+      "anime"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "happy",
+    "primaryGenre": "Rock",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6aJOdlEvn7AFJTHCLZTwJH",
+    "name": "Happy the Man",
+    "image": "https://i.scdn.co/image/ab67616d0000b273aa7d024fc954abef8a0211b2",
+    "followers": 11038,
+    "spotifyId": "6aJOdlEvn7AFJTHCLZTwJH",
+    "spotifyPopularity": 20,
+    "genres": [
+      "progressive rock",
+      "art rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "happy",
+    "primaryGenre": "Rock",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "78gqgxLFWiVkLEq60KfToZ",
+    "name": "Slapp Happy",
+    "image": "https://i.scdn.co/image/ab6772690000c46cbbeeaf6cd4735b8757243344",
+    "followers": 15294,
+    "spotifyId": "78gqgxLFWiVkLEq60KfToZ",
+    "spotifyPopularity": 27,
+    "genres": [
+      "krautrock",
+      "art pop",
+      "art rock",
+      "avant-garde",
+      "progressive rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "happy",
+    "primaryGenre": "Rock",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "39iRwJEhPG25CU7LYdNkQ2",
+    "name": "SadGirl",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7532cc68fe06650f3d2092ef",
+    "followers": 53882,
+    "spotifyId": "39iRwJEhPG25CU7LYdNkQ2",
+    "spotifyPopularity": 37,
+    "genres": [
+      "surf rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "sad",
+    "primaryGenre": "Rock",
+    "likes": "53K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7jHnNNWDLa2ztggSp5Dsxf",
+    "name": "Sad Park",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba5661844fe7c406581a69393",
+    "followers": 20627,
+    "spotifyId": "7jHnNNWDLa2ztggSp5Dsxf",
+    "spotifyPopularity": 33,
+    "genres": [
+      "garage rock",
+      "surf rock",
+      "midwest emo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "sad",
+    "primaryGenre": "Rock",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3MFp4cYuYtTZe3d3xkLLbr",
+    "name": "Bill Haley & His Comets",
+    "image": "https://i.scdn.co/image/12ca913483c5a1c7299b6686a85aecdf08427a3d",
+    "followers": 341666,
+    "spotifyId": "3MFp4cYuYtTZe3d3xkLLbr",
+    "spotifyPopularity": 56,
+    "genres": [
+      "rockabilly",
+      "rock and roll",
+      "doo-wop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "sad",
+    "primaryGenre": "Rock",
+    "likes": "341K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6sIZakv0uaA3qQmOOPTOQt",
+    "name": "Piano Magic",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb31f02fe09f64c5e144149433",
+    "followers": 17929,
+    "spotifyId": "6sIZakv0uaA3qQmOOPTOQt",
+    "spotifyPopularity": 31,
+    "genres": [
+      "post-rock",
+      "baroque pop",
+      "slowcore",
+      "dream pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Rock",
+    "likes": "17K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4iZpg2fbTmpRcjk4qv5nK1",
+    "name": "Guitar Wolf",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3df47451c3e68aa129bbd9b0",
+    "followers": 25385,
+    "spotifyId": "4iZpg2fbTmpRcjk4qv5nK1",
+    "spotifyPopularity": 31,
+    "genres": [
+      "j-rock",
+      "noise rock",
+      "garage rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "guitar",
+    "primaryGenre": "Rock",
+    "likes": "25K",
+    "tier": "Underground"
+  },
+  {
+    "id": "49fBZHMEYaw2OCJFo7saeV",
+    "name": "Pépé et sa guitare",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeca7fe5f666f7cad16c8bfa6",
+    "followers": 19624,
+    "spotifyId": "49fBZHMEYaw2OCJFo7saeV",
+    "spotifyPopularity": 35,
+    "genres": [
+      "rock quebecois",
+      "chanson québécoise",
+      "folk québécois",
+      "pop québécoise"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "guitar",
+    "primaryGenre": "Rock",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6g0mn3tzAds6aVeUYRsryU",
+    "name": "The War On Drugs",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb03ef469bbf290d048e6c521d",
+    "followers": 998245,
+    "spotifyId": "6g0mn3tzAds6aVeUYRsryU",
+    "spotifyPopularity": 62,
+    "genres": [
+      "indie rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "drums",
+    "primaryGenre": "Rock",
+    "likes": "998K",
+    "tier": "Established"
+  },
+  {
+    "id": "568ZhdwyaiCyOGJRtNYhWf",
+    "name": "Deep Purple",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3a475812e97ee788cfd5fd1a",
+    "followers": 5919350,
+    "spotifyId": "568ZhdwyaiCyOGJRtNYhWf",
+    "spotifyPopularity": 70,
+    "genres": [
+      "hard rock",
+      "classic rock",
+      "rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Rock",
+    "likes": "5.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "2zyz0VJqrDXeFDIyrfVXSo",
+    "name": "Jerry Lee Lewis",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb01ff3e4f94ff73cab6c4c0bb",
+    "followers": 990267,
+    "spotifyId": "2zyz0VJqrDXeFDIyrfVXSo",
+    "spotifyPopularity": 59,
+    "genres": [
+      "rockabilly",
+      "rock and roll",
+      "boogie-woogie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Rock",
+    "likes": "990K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4xls23Ye9WR9yy3yYMpAMm",
+    "name": "Little Richard",
+    "image": "https://i.scdn.co/image/8482a715712ad99032f35870bd2430b9b71b7283",
+    "followers": 1026486,
+    "spotifyId": "4xls23Ye9WR9yy3yYMpAMm",
+    "spotifyPopularity": 59,
+    "genres": [
+      "rockabilly",
+      "rock and roll",
+      "doo-wop",
+      "boogie-woogie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Rock",
+    "likes": "1.0M",
+    "tier": "Rising"
+  },
+  {
+    "id": "7pXu47GoqSYRajmBCjxdD6",
+    "name": "Vulfpeck",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fbdbcd01332c27ddedbd6f0",
+    "followers": 1032871,
+    "spotifyId": "7pXu47GoqSYRajmBCjxdD6",
+    "spotifyPopularity": 62,
+    "genres": [
+      "funk rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "instrumental",
+    "primaryGenre": "Rock",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "1j8QyWpOJKAe6Iw2KvEg2j",
+    "name": "Audiotree",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0415960ce63e37ee0fd46ec0",
+    "followers": 27852,
+    "spotifyId": "1j8QyWpOJKAe6Iw2KvEg2j",
+    "spotifyPopularity": 59,
+    "genres": [
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "instrumental",
+    "primaryGenre": "Rock",
+    "likes": "27K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2FcC4sDMXme2ziI7tGKMK8",
+    "name": "David Gilmour",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4ab2cbce7e4f8f2c9be48a71",
+    "followers": 1996646,
+    "spotifyId": "2FcC4sDMXme2ziI7tGKMK8",
+    "spotifyPopularity": 59,
+    "genres": [
+      "progressive rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "instrumental",
+    "primaryGenre": "Rock",
+    "likes": "2.0M",
+    "tier": "Rising"
+  },
+  {
+    "id": "66QeIFuFJDNCImNHlFzrY1",
+    "name": "Starland Vocal Band",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb64fd5b2ae200d7dcbfc29ff3",
+    "followers": 22969,
+    "spotifyId": "66QeIFuFJDNCImNHlFzrY1",
+    "spotifyPopularity": 48,
+    "genres": [
+      "yacht rock",
+      "soft rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Rock",
+    "likes": "22K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3YR92OLKlvkK5oKNekSqXe",
+    "name": "Al Jarreau",
+    "image": "https://i.scdn.co/image/ded65a0f20d78c52655b56688dccd4f5f7b2d331",
+    "followers": 433850,
+    "spotifyId": "3YR92OLKlvkK5oKNekSqXe",
+    "spotifyPopularity": 56,
+    "genres": [
+      "yacht rock",
+      "smooth jazz",
+      "vocal jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Rock",
+    "likes": "433K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0TMwOKDO80DsLhlYo4oLKN",
+    "name": "Gold Necklace",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf8c8b9e094a7c4cb6ad80607",
+    "followers": 21015,
+    "spotifyId": "0TMwOKDO80DsLhlYo4oLKN",
+    "spotifyPopularity": 39,
+    "genres": [
+      "math rock",
+      "post-hardcore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Rock",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "03r4iKL2g2442PT9n2UKsx",
+    "name": "Beastie Boys",
+    "image": "https://i.scdn.co/image/705bcd56dc5dbf9ebc578a3ba8094e6d622862c2",
+    "followers": 3117637,
+    "spotifyId": "03r4iKL2g2442PT9n2UKsx",
+    "spotifyPopularity": 71,
+    "genres": [
+      "rap rock",
+      "old school hip hop",
+      "east coast hip hop",
+      "hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Rock",
+    "likes": "3.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "2Q0v7CWY0hXuqRX8NZ6REp",
+    "name": "ダイヤモンドダスト",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba384390974d0e8d184e6f6a7",
+    "followers": 11729,
+    "spotifyId": "2Q0v7CWY0hXuqRX8NZ6REp",
+    "spotifyPopularity": 34,
+    "genres": [
+      "j-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "diamond",
+    "primaryGenre": "Rock",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2azMHmItHcka4wqNZmN6xM",
+    "name": "Diamond Rugs",
+    "image": "https://i.scdn.co/image/7067aa75ad37a2ea5c740816ad33c892b7292f42",
+    "followers": 10991,
+    "spotifyId": "2azMHmItHcka4wqNZmN6xM",
+    "spotifyPopularity": 23,
+    "genres": [
+      "garage rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "diamond",
+    "primaryGenre": "Rock",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3S9VOVAAECM8pdNr5p7c2J",
+    "name": "The Blue Diamonds",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55d00384b2bd0fcf1f10915f",
+    "followers": 11802,
+    "spotifyId": "3S9VOVAAECM8pdNr5p7c2J",
+    "spotifyPopularity": 35,
+    "genres": [
+      "indorock",
+      "nederpop",
+      "schlager"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "diamond",
+    "primaryGenre": "Rock",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "55j4xUfI5AATqETp8AnrRp",
+    "name": "Memphis La Blusera",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d572ddcf4287e0c8d5d028f8",
+    "followers": 404453,
+    "spotifyId": "55j4xUfI5AATqETp8AnrRp",
+    "spotifyPopularity": 50,
+    "genres": [
+      "argentine rock",
+      "latin rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "meme",
+    "primaryGenre": "Rock",
+    "likes": "404K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6i8kpDUSsrOOhPHfNYhMeF",
+    "name": "The International Submarine Band",
+    "image": "https://i.scdn.co/image/43ee6e0c376b58fd7ff1137af756091d64be648d",
+    "followers": 15377,
+    "spotifyId": "6i8kpDUSsrOOhPHfNYhMeF",
+    "spotifyPopularity": 31,
+    "genres": [
+      "country rock",
+      "alt country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "internet",
+    "primaryGenre": "Rock",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7yPjUMinEnnhqDl5BoJZpC",
+    "name": "DigitalBomb",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0877215b0f197779899ea364",
+    "followers": 22903,
+    "spotifyId": "7yPjUMinEnnhqDl5BoJZpC",
+    "spotifyPopularity": 34,
+    "genres": [
+      "christian rock",
+      "brazilian gospel"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "digital",
+    "primaryGenre": "Rock",
+    "likes": "22K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5jh7sgXW2njALiIh0aPXjB",
+    "name": "Show Me the Body",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc27da71b80ff6c1ceecb6fc7",
+    "followers": 131196,
+    "spotifyId": "5jh7sgXW2njALiIh0aPXjB",
+    "spotifyPopularity": 58,
+    "genres": [
+      "noise rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "digital",
+    "primaryGenre": "Rock",
+    "likes": "131K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3mFZCPFWmwWvAMdDLm8Y1G",
+    "name": "Rizal Underground",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734293319ecb2dfdb5534184a5",
+    "followers": 46949,
+    "spotifyId": "3mFZCPFWmwWvAMdDLm8Y1G",
+    "spotifyPopularity": 36,
+    "genres": [
+      "pinoy rock",
+      "pinoy alternative",
+      "opm",
+      "p-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "underground",
+    "primaryGenre": "Rock",
+    "likes": "46K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1khChLj7REGqjM043PlYyn",
+    "name": "Xdinary Heroes",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb84d3cf00cebb7775fe5297c4",
+    "followers": 1199922,
+    "spotifyId": "1khChLj7REGqjM043PlYyn",
+    "spotifyPopularity": 63,
+    "genres": [
+      "k-rock",
+      "k-pop",
+      "noise music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "experimental",
+    "primaryGenre": "Rock",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "6YK58h9BCYpFNv10fsMwoS",
+    "name": "pg.lost",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebad7ac3647aa60d09501cc12f",
+    "followers": 78046,
+    "spotifyId": "6YK58h9BCYpFNv10fsMwoS",
+    "spotifyPopularity": 30,
+    "genres": [
+      "post-rock",
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "experimental",
+    "primaryGenre": "Rock",
+    "likes": "78K",
+    "tier": "Underground"
+  },
+  {
+    "id": "562Od3CffWedyz2BbeYWVn",
+    "name": "Mike Oldfield",
+    "image": "https://i.scdn.co/image/b04f41784ba49ed0875cbd018e0e0e55c94344eb",
+    "followers": 670947,
+    "spotifyId": "562Od3CffWedyz2BbeYWVn",
+    "spotifyPopularity": 61,
+    "genres": [
+      "progressive rock",
+      "new age"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "experimental",
+    "primaryGenre": "Rock",
+    "likes": "670K",
+    "tier": "Established"
+  },
+  {
+    "id": "20vuBdFblWUo2FCOvUzusB",
+    "name": "David Byrne",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebda1661b56190449e92327438",
+    "followers": 425526,
+    "spotifyId": "20vuBdFblWUo2FCOvUzusB",
+    "spotifyPopularity": 57,
+    "genres": [
+      "art rock",
+      "art pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Rock",
+    "likes": "425K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3P2gYnypDVi90ZavnaAhfL",
+    "name": "The Mothers Of Invention",
+    "image": "https://i.scdn.co/image/186a44f7dd7ffa213762b5c930e6bd447f6c79d5",
+    "followers": 128194,
+    "spotifyId": "3P2gYnypDVi90ZavnaAhfL",
+    "spotifyPopularity": 46,
+    "genres": [
+      "progressive rock",
+      "psychedelic rock",
+      "art rock",
+      "avant-garde",
+      "acid rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Rock",
+    "likes": "128K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2jFXKAH9A9H8lVnJkkLxXl",
+    "name": "Omega",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732033cccb8e28d6410a5005a6",
+    "followers": 49179,
+    "spotifyId": "2jFXKAH9A9H8lVnJkkLxXl",
+    "spotifyPopularity": 42,
+    "genres": [
+      "progressive rock",
+      "space rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Rock",
+    "likes": "49K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7pUNFHEe0MlfvvDG1dXH3m",
+    "name": "Auktyon",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba15bb7aa6b9741cb9377df0b",
+    "followers": 47682,
+    "spotifyId": "7pUNFHEe0MlfvvDG1dXH3m",
+    "spotifyPopularity": 40,
+    "genres": [
+      "art rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Rock",
+    "likes": "47K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1ctreRQSlu47UoP3po9zd2",
+    "name": "Kwoon",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb84a6be054f6c3bc90a435e88",
+    "followers": 21720,
+    "spotifyId": "1ctreRQSlu47UoP3po9zd2",
+    "spotifyPopularity": 41,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Rock",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2StXQyMrlYk1wWVX72InuJ",
+    "name": "YHWH Nailgun",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc31f4668860ffda390fc008d",
+    "followers": 15378,
+    "spotifyId": "2StXQyMrlYk1wWVX72InuJ",
+    "spotifyPopularity": 37,
+    "genres": [
+      "noise rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Rock",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2k4duorvZ5lTq33ljpT0sc",
+    "name": "Antimatter",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4818b385aecf3b14744f6fc",
+    "followers": 91494,
+    "spotifyId": "2k4duorvZ5lTq33ljpT0sc",
+    "spotifyPopularity": 38,
+    "genres": [
+      "progressive rock",
+      "gothic metal",
+      "progressive metal",
+      "doom metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Rock",
+    "likes": "91K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0XlXiaKkULPvHTmTHB3JwK",
+    "name": "Female Species",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb63c30e240cf6eebc70005a57",
+    "followers": 11378,
+    "spotifyId": "0XlXiaKkULPvHTmTHB3JwK",
+    "spotifyPopularity": 38,
+    "genres": [
+      "psychedelic rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Rock",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "26MXGRtGUZF1lhlnGFwdxc",
+    "name": "AILIFDOPA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0cf2e698c98f1588b13a536e",
+    "followers": 12986,
+    "spotifyId": "26MXGRtGUZF1lhlnGFwdxc",
+    "spotifyPopularity": 35,
+    "genres": [
+      "j-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Rock",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5x3mrCTZmkoTXURN7pWdGN",
+    "name": "Los Amigos Invisibles",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5beff655f06fab7e6546ee3a",
+    "followers": 478785,
+    "spotifyId": "5x3mrCTZmkoTXURN7pWdGN",
+    "spotifyPopularity": 61,
+    "genres": [
+      "rock en español",
+      "latin alternative",
+      "latin rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Rock",
+    "likes": "478K",
+    "tier": "Established"
+  },
+  {
+    "id": "5NTMa7YJCseQqw70zgF7b5",
+    "name": "Bedroom Audio",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc8e8f7a76af0d33c832d6b49",
+    "followers": 495113,
+    "spotifyId": "5NTMa7YJCseQqw70zgF7b5",
+    "spotifyPopularity": 59,
+    "genres": [
+      "thai rock",
+      "thai pop",
+      "t-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Rock",
+    "likes": "495K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6eJa3zG1QZLRB3xgRuyxbm",
+    "name": "Dayglow",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb70bbb7950edf20fc5847de6c",
+    "followers": 1055919,
+    "spotifyId": "6eJa3zG1QZLRB3xgRuyxbm",
+    "spotifyPopularity": 66,
+    "genres": [
+      "indie rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Rock",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "0rpKM0MniNkXM1SLSglYUZ",
+    "name": "toe",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb98fbfdf3a15710fa2e4fa68d",
+    "followers": 344259,
+    "spotifyId": "0rpKM0MniNkXM1SLSglYUZ",
+    "spotifyPopularity": 51,
+    "genres": [
+      "math rock",
+      "post-rock",
+      "midwest emo",
+      "japanese indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Rock",
+    "likes": "344K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1bljHdc9g7V7ZLkYuf4yfy",
+    "name": "Roselia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6be675ed6fc9435165e120ca",
+    "followers": 239523,
+    "spotifyId": "1bljHdc9g7V7ZLkYuf4yfy",
+    "spotifyPopularity": 50,
+    "genres": [
+      "j-rock",
+      "j-pop",
+      "anime"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Rock",
+    "likes": "239K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6WeDO4GynFmK4OxwkBzMW8",
+    "name": "The Black Skirts",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8609536d21beed6769d09d7f",
+    "followers": 544232,
+    "spotifyId": "6WeDO4GynFmK4OxwkBzMW8",
+    "spotifyPopularity": 59,
+    "genres": [
+      "k-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Rock",
+    "likes": "544K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6UUrUCIZtQeOf8tC0WuzRy",
+    "name": "Sigur Rós",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e9247ebb1bd90c23fb776fc",
+    "followers": 1426356,
+    "spotifyId": "6UUrUCIZtQeOf8tC0WuzRy",
+    "spotifyPopularity": 59,
+    "genres": [
+      "post-rock",
+      "dream pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Rock",
+    "likes": "1.4M",
+    "tier": "Rising"
+  },
+  {
+    "id": "6BpaTDEjadTL9Plx4VUKvo",
+    "name": "Sleep Party People",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0bf58e864571358973416345",
+    "followers": 93572,
+    "spotifyId": "6BpaTDEjadTL9Plx4VUKvo",
+    "spotifyPopularity": 33,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Rock",
+    "likes": "93K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2oz9zN3Vtp4RnFZOlsGNCu",
+    "name": "HOA",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc5253ae786ce9d7760c308b7",
+    "followers": 15345,
+    "spotifyId": "2oz9zN3Vtp4RnFZOlsGNCu",
+    "spotifyPopularity": 30,
+    "genres": [
+      "k-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dream pop",
+    "primaryGenre": "Rock",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6Xktu0x9IXB4ghFSPw6Jqv",
+    "name": "百景",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebab18d60f0e85cc36355d498f",
+    "followers": 83563,
+    "spotifyId": "6Xktu0x9IXB4ghFSPw6Jqv",
+    "spotifyPopularity": 49,
+    "genres": [
+      "math rock",
+      "japanese indie",
+      "midwest emo",
+      "post-rock",
+      "shoegaze"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Rock",
+    "likes": "83K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5Wj0an60VgRckYV9zlDe1e",
+    "name": "Momma",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1079525c9132bc6a8bd1e833",
+    "followers": 96012,
+    "spotifyId": "5Wj0an60VgRckYV9zlDe1e",
+    "spotifyPopularity": 52,
+    "genres": [
+      "indie rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Rock",
+    "likes": "96K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3kbBWco9PZ5eSQsNScwG6U",
+    "name": "Built To Spill",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb975437d5a8604ae63aa4f310",
+    "followers": 334504,
+    "spotifyId": "3kbBWco9PZ5eSQsNScwG6U",
+    "spotifyPopularity": 52,
+    "genres": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Rock",
+    "likes": "334K",
+    "tier": "Rising"
+  },
+  {
+    "id": "14d5KCX9nprUcxnKIShrr1",
+    "name": "MASS OF THE FERMENTING DREGS",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb53a61972ed2f11fb3e690dfe",
+    "followers": 226436,
+    "spotifyId": "14d5KCX9nprUcxnKIShrr1",
+    "spotifyPopularity": 59,
+    "genres": [
+      "j-rock",
+      "japanese indie",
+      "shoegaze",
+      "math rock",
+      "shibuya-kei"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Rock",
+    "likes": "226K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0qOuNoGdyXOUZlgdqPbTz3",
+    "name": "betcover!!",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1626e79bd0a7cd2e69434d9a",
+    "followers": 74617,
+    "spotifyId": "0qOuNoGdyXOUZlgdqPbTz3",
+    "spotifyPopularity": 45,
+    "genres": [
+      "art rock",
+      "japanese indie",
+      "shibuya-kei",
+      "j-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Rock",
+    "likes": "74K",
+    "tier": "Rising"
+  },
+  {
+    "id": "079svMEXkbT5nGU2kfoqO2",
+    "name": "God Is An Astronaut",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb85c4a13f730e23ba5e726b40",
+    "followers": 287202,
+    "spotifyId": "079svMEXkbT5nGU2kfoqO2",
+    "spotifyPopularity": 45,
+    "genres": [
+      "post-rock",
+      "space rock",
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "287K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0MG4LXIw7n4x0wjDc6WYXk",
+    "name": "This Will Destroy You",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc6f9b3c9396f67fc1de0eec0",
+    "followers": 257898,
+    "spotifyId": "0MG4LXIw7n4x0wjDc6WYXk",
+    "spotifyPopularity": 45,
+    "genres": [
+      "post-rock",
+      "math rock",
+      "drone metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "257K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1U0FaHAc4fcwQcYEJFgkm9",
+    "name": "Balmorhea",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb79ae7fc26defca3ca2d11906",
+    "followers": 182329,
+    "spotifyId": "1U0FaHAc4fcwQcYEJFgkm9",
+    "spotifyPopularity": 50,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "182K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1uQWmt1OhuHGRKmZ2ZcL6p",
+    "name": "Explosions In The Sky",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd7b6e86a1d003f907c6f4b7d",
+    "followers": 664377,
+    "spotifyId": "1uQWmt1OhuHGRKmZ2ZcL6p",
+    "spotifyPopularity": 51,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "664K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3BRSFkEbxBXsZASWPOMOuP",
+    "name": "Post Sex Nachos",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69a15da3b173ea8eba0fc76d",
+    "followers": 21056,
+    "spotifyId": "3BRSFkEbxBXsZASWPOMOuP",
+    "spotifyPopularity": 44,
+    "genres": [
+      "funk rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4SXj7TVoA3bgfR8AVssACa",
+    "name": "Caspian",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb430da8342d113035178500e9",
+    "followers": 121811,
+    "spotifyId": "4SXj7TVoA3bgfR8AVssACa",
+    "spotifyPopularity": 37,
+    "genres": [
+      "post-rock",
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "121K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7GVByFFfFJYCzK4d8ZyL6s",
+    "name": "We Lost The Sea",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc1cbd3544928082ddb2514d4",
+    "followers": 78431,
+    "spotifyId": "7GVByFFfFJYCzK4d8ZyL6s",
+    "spotifyPopularity": 42,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "78K",
+    "tier": "Rising"
+  },
+  {
+    "id": "79S80ZWgVhIPMCHuvl6SkA",
+    "name": "Swans",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe25ae69c1d10de369149a7f2",
+    "followers": 338176,
+    "spotifyId": "79S80ZWgVhIPMCHuvl6SkA",
+    "spotifyPopularity": 49,
+    "genres": [
+      "noise rock",
+      "post-rock",
+      "industrial rock",
+      "experimental",
+      "industrial",
+      "post-punk",
+      "gothic rock",
+      "avant-garde",
+      "art rock",
+      "drone",
+      "drone metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "338K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0AZ3VR0YbFcS0Kgei7L2QF",
+    "name": "Russian Circles",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4135811d6dba8cd9d1a1725f",
+    "followers": 275686,
+    "spotifyId": "0AZ3VR0YbFcS0Kgei7L2QF",
+    "spotifyPopularity": 46,
+    "genres": [
+      "post-rock",
+      "sludge metal",
+      "math rock",
+      "stoner metal",
+      "progressive metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "275K",
+    "tier": "Rising"
+  },
+  {
+    "id": "739AuFSVMsDpObOcslwJRI",
+    "name": "April Rain",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba466b723aed2c6a8929e32c7",
+    "followers": 44545,
+    "spotifyId": "739AuFSVMsDpObOcslwJRI",
+    "spotifyPopularity": 34,
+    "genres": [
+      "post-rock",
+      "space rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "44K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2GVzsXcXyU95u2EahzwqN7",
+    "name": "If These Trees Could Talk",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebda9ff294479a67d99eef9186",
+    "followers": 151188,
+    "spotifyId": "2GVzsXcXyU95u2EahzwqN7",
+    "spotifyPopularity": 40,
+    "genres": [
+      "post-rock",
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "151K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2JFljHPanIjYy2QqfNYvC0",
+    "name": "Chon",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb77585e787d20e88c7e5fbc8c",
+    "followers": 331522,
+    "spotifyId": "2JFljHPanIjYy2QqfNYvC0",
+    "spotifyPopularity": 48,
+    "genres": [
+      "math rock",
+      "djent",
+      "progressive metal",
+      "progressive rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "331K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3WaJSfKnzc65VDgmj2zU8B",
+    "name": "Interpol",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc31f8e7aad462874455cf070",
+    "followers": 1807938,
+    "spotifyId": "3WaJSfKnzc65VDgmj2zU8B",
+    "spotifyPopularity": 65,
+    "genres": [
+      "indie rock",
+      "post-punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "6CDM8i1eI2OkPmruOwwQV6",
+    "name": "Distant Dream",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb35a6c3c334a6f0fc3ee68d5f",
+    "followers": 24383,
+    "spotifyId": "6CDM8i1eI2OkPmruOwwQV6",
+    "spotifyPopularity": 32,
+    "genres": [
+      "post-rock",
+      "djent",
+      "space rock",
+      "progressive metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "24K",
+    "tier": "Underground"
+  },
+  {
+    "id": "64Ql0eGtS5olwVo47Km3zt",
+    "name": "Black Hill",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb46a27a05c59872c55c098646",
+    "followers": 49268,
+    "spotifyId": "64Ql0eGtS5olwVo47Km3zt",
+    "spotifyPopularity": 44,
+    "genres": [
+      "post-rock",
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "49K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6inyUzK7dr7MUbugV1zAHI",
+    "name": "Silent Island",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0b9dbb3fd80cf0f02236782f",
+    "followers": 20362,
+    "spotifyId": "6inyUzK7dr7MUbugV1zAHI",
+    "spotifyPopularity": 42,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "46iJ1VD4HKFnqjISGqlZkV",
+    "name": "Covet",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb02c708adbe0af9459bc0bb63",
+    "followers": 203960,
+    "spotifyId": "46iJ1VD4HKFnqjISGqlZkV",
+    "spotifyPopularity": 41,
+    "genres": [
+      "math rock",
+      "midwest emo",
+      "post-rock",
+      "djent"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "203K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0H1edn1doFZiHiu2INB2CT",
+    "name": "Rhian Sheehan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8c574e00c641f951b5b9c61a",
+    "followers": 16699,
+    "spotifyId": "0H1edn1doFZiHiu2INB2CT",
+    "spotifyPopularity": 37,
+    "genres": [
+      "post-rock",
+      "ambient"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "16K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0EnDtiDrCgklr97QMJOSPv",
+    "name": "sleepmakeswaves",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0257ba195cfc7d2801abe233",
+    "followers": 58175,
+    "spotifyId": "0EnDtiDrCgklr97QMJOSPv",
+    "spotifyPopularity": 37,
+    "genres": [
+      "post-rock",
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "58K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2graYi1dMY9sdPLIZNV2bq",
+    "name": "Wang Wen",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ded52a15f7c97b86fe6e458d",
+    "followers": 42963,
+    "spotifyId": "2graYi1dMY9sdPLIZNV2bq",
+    "spotifyPopularity": 25,
+    "genres": [
+      "post-rock",
+      "chinese indie",
+      "chinese rock",
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "42K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4NRS2lkQBjAEWBihpcKUGK",
+    "name": "matryoshka",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb904afd731643371e758df14e",
+    "followers": 24132,
+    "spotifyId": "4NRS2lkQBjAEWBihpcKUGK",
+    "spotifyPopularity": 37,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "24K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1n65zfwYIj5kKEtNgxUlWb",
+    "name": "Siouxsie and the Banshees",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb924bb9e7396ad3bc32cfeab0",
+    "followers": 1313221,
+    "spotifyId": "1n65zfwYIj5kKEtNgxUlWb",
+    "spotifyPopularity": 61,
+    "genres": [
+      "gothic rock",
+      "post-punk",
+      "darkwave",
+      "new wave",
+      "deathrock",
+      "cold wave"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "3iWrgTzTfB3qLRMJPSzC8t",
+    "name": "Rockets",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebba782e0ba0ee788a42accf75",
+    "followers": 16157,
+    "spotifyId": "3iWrgTzTfB3qLRMJPSzC8t",
+    "spotifyPopularity": 33,
+    "genres": [
+      "space rock",
+      "post-disco"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "16K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5r4OqYJL7JrtZlffx7FJlb",
+    "name": "The American Dollar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3e1cf300bfbdc1739d8c5228",
+    "followers": 54998,
+    "spotifyId": "5r4OqYJL7JrtZlffx7FJlb",
+    "spotifyPopularity": 38,
+    "genres": [
+      "post-rock",
+      "ambient"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "54K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3mFTiX7WrhpcmoJLghp54A",
+    "name": "Break My Fucking Sky",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb26070b093771ee9dd2e44ca",
+    "followers": 11569,
+    "spotifyId": "3mFTiX7WrhpcmoJLghp54A",
+    "spotifyPopularity": 28,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1CzKORB9IN0EjPEyeKBIkf",
+    "name": "Tides From Nebula",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba88a23f8b3d11c24ecfa7eed",
+    "followers": 56709,
+    "spotifyId": "1CzKORB9IN0EjPEyeKBIkf",
+    "spotifyPopularity": 37,
+    "genres": [
+      "post-rock",
+      "djent",
+      "space rock",
+      "progressive metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "56K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5KyWqSOpfFRnPTWsq1oUAw",
+    "name": "The Evpatoria Report",
+    "image": "https://i.scdn.co/image/ab67616d0000b273901ad905fab27bba23f34809",
+    "followers": 33154,
+    "spotifyId": "5KyWqSOpfFRnPTWsq1oUAw",
+    "spotifyPopularity": 24,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "33K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2JrapUnu1gX16UFMDjmok2",
+    "name": "Nrthrn",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb531cc5f0e885db3cd1d07f10",
+    "followers": 13624,
+    "spotifyId": "2JrapUnu1gX16UFMDjmok2",
+    "spotifyPopularity": 30,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "13K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3mZrT1scKNjGo7Flenc4nf",
+    "name": "3nd",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d43fa1fd806f4ac3a5faf4c3",
+    "followers": 24485,
+    "spotifyId": "3mZrT1scKNjGo7Flenc4nf",
+    "spotifyPopularity": 27,
+    "genres": [
+      "math rock",
+      "post-rock",
+      "midwest emo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "24K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3khg8RDB6nMuw34w1IHS6Y",
+    "name": "Jónsi",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb918a33f006ee9d457b74ab7",
+    "followers": 188959,
+    "spotifyId": "3khg8RDB6nMuw34w1IHS6Y",
+    "spotifyPopularity": 55,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "188K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1Harx8w7e050c1YwYJMPcb",
+    "name": "Anoice",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2453943d361c1b832226404c",
+    "followers": 11642,
+    "spotifyId": "1Harx8w7e050c1YwYJMPcb",
+    "spotifyPopularity": 27,
+    "genres": [
+      "post-rock",
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "249C09TWxdBKs7Z5BN2MU6",
+    "name": "At The End Of Times, Nothing",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f13778547b8db16e0747d533",
+    "followers": 10761,
+    "spotifyId": "249C09TWxdBKs7Z5BN2MU6",
+    "spotifyPopularity": 32,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "01WjpKiWVNurV5hjIadB8C",
+    "name": "Filter",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba65ceef7fe995c88c6c6ada6",
+    "followers": 585613,
+    "spotifyId": "01WjpKiWVNurV5hjIadB8C",
+    "spotifyPopularity": 59,
+    "genres": [
+      "industrial rock",
+      "post-grunge",
+      "industrial metal",
+      "industrial"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "585K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7935eVYpj7jQM3mRJ3kGeX",
+    "name": "Exxasens",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb224b2cf980e58da6624f75fc",
+    "followers": 18363,
+    "spotifyId": "7935eVYpj7jQM3mRJ3kGeX",
+    "spotifyPopularity": 31,
+    "genres": [
+      "post-rock",
+      "space rock",
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5YIHh4jZTLeCFsqCcrUQQY",
+    "name": "Port Blue",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb82acdc7e8891c2cf61fb0208",
+    "followers": 17100,
+    "spotifyId": "5YIHh4jZTLeCFsqCcrUQQY",
+    "spotifyPopularity": 27,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "17K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4HxBVyHaUa60eCSsJWxwWR",
+    "name": "Sisters of Mercy",
+    "image": "https://i.scdn.co/image/ab6772690000c46c03b289e65e04e99ca9c1e6ed",
+    "followers": 673134,
+    "spotifyId": "4HxBVyHaUa60eCSsJWxwWR",
+    "spotifyPopularity": 58,
+    "genres": [
+      "gothic rock",
+      "darkwave",
+      "post-punk",
+      "deathrock",
+      "cold wave",
+      "new wave",
+      "gothic metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "673K",
+    "tier": "Rising"
+  },
+  {
+    "id": "21DtKSgtPS1mEUQsSl6y6Y",
+    "name": "Leech",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5cc49afeb02f1c5990ed6b8f",
+    "followers": 18163,
+    "spotifyId": "21DtKSgtPS1mEUQsSl6y6Y",
+    "spotifyPopularity": 25,
+    "genres": [
+      "post-rock",
+      "space rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "34UhPkLbtFKRq3nmfFgejG",
+    "name": "Mogwai",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5c58771372707e8b22c664ee",
+    "followers": 618164,
+    "spotifyId": "34UhPkLbtFKRq3nmfFgejG",
+    "spotifyPopularity": 52,
+    "genres": [
+      "post-rock",
+      "shoegaze",
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "618K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3SiCxhceGZgzusCLHd4Zz6",
+    "name": "Long Distance Calling",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb019bf0349f64814bc96b4b2",
+    "followers": 81578,
+    "spotifyId": "3SiCxhceGZgzusCLHd4Zz6",
+    "spotifyPopularity": 35,
+    "genres": [
+      "post-rock",
+      "progressive rock",
+      "progressive metal",
+      "space rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "81K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5N5tQ9Dx1h8Od7aRmGj7Fi",
+    "name": "Bauhaus",
+    "image": "https://i.scdn.co/image/9676688ae196b8abf4ed89ce6620a7ad04027095",
+    "followers": 1025751,
+    "spotifyId": "5N5tQ9Dx1h8Od7aRmGj7Fi",
+    "spotifyPopularity": 57,
+    "genres": [
+      "gothic rock",
+      "post-punk",
+      "deathrock",
+      "darkwave",
+      "cold wave",
+      "new wave"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "1.0M",
+    "tier": "Rising"
+  },
+  {
+    "id": "7e34W5SzZeFaLrlhvSsic0",
+    "name": "hubris.",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc1dc0c33a6afb1d0b3a7dc51",
+    "followers": 13763,
+    "spotifyId": "7e34W5SzZeFaLrlhvSsic0",
+    "spotifyPopularity": 34,
+    "genres": [
+      "post-rock",
+      "math rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "13K",
+    "tier": "Underground"
+  },
+  {
+    "id": "00re8vqAen462JN56U9MGN",
+    "name": "Nyu.",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe0b19f930c8c047fd295fcf7",
+    "followers": 19291,
+    "spotifyId": "00re8vqAen462JN56U9MGN",
+    "spotifyPopularity": 35,
+    "genres": [
+      "math rock",
+      "djent"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0VOR7Ie9xUSb45fzIIVJQ1",
+    "name": "Hammock",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbaede86bbfc2bd986d52a681",
+    "followers": 187122,
+    "spotifyId": "0VOR7Ie9xUSb45fzIIVJQ1",
+    "spotifyPopularity": 52,
+    "genres": [
+      "post-rock",
+      "ambient",
+      "space music",
+      "drone"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "187K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4MT9A89Dq8xRJ9hMvvPiJw",
+    "name": "Red Sparowes",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735df80b3c8cccb274d113faa4",
+    "followers": 62817,
+    "spotifyId": "4MT9A89Dq8xRJ9hMvvPiJw",
+    "spotifyPopularity": 30,
+    "genres": [
+      "post-rock",
+      "sludge metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "62K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6MmQrV24zUeieNf027zkh3",
+    "name": "Message To Bears",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5961682ccf353c1cc2fd94fe",
+    "followers": 106141,
+    "spotifyId": "6MmQrV24zUeieNf027zkh3",
+    "spotifyPopularity": 52,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "106K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6h1Z9DOWJlUEN07cR3j1C6",
+    "name": "Meniscus",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5149a8149b69f8b652aec301",
+    "followers": 19748,
+    "spotifyId": "6h1Z9DOWJlUEN07cR3j1C6",
+    "spotifyPopularity": 33,
+    "genres": [
+      "post-rock",
+      "math rock",
+      "space rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6WMo39FU3nrpSz3qMgRKug",
+    "name": "Black Stone Cherry",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaaa535d09163ad78e4e225ab",
+    "followers": 611426,
+    "spotifyId": "6WMo39FU3nrpSz3qMgRKug",
+    "spotifyPopularity": 56,
+    "genres": [
+      "southern rock",
+      "post-grunge",
+      "hard rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "611K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1AZ30JnvQU1pbX6sbRE0Yn",
+    "name": "Poets of the Fall",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb588384c8f17205bfa3d6624c",
+    "followers": 316119,
+    "spotifyId": "1AZ30JnvQU1pbX6sbRE0Yn",
+    "spotifyPopularity": 51,
+    "genres": [
+      "finnish rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "316K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7fh7bwX9qV60tLxxsp9bTe",
+    "name": "The Durutti Column",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba04f55960869d5312c879db6",
+    "followers": 121221,
+    "spotifyId": "7fh7bwX9qV60tLxxsp9bTe",
+    "spotifyPopularity": 55,
+    "genres": [
+      "art rock",
+      "post-punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "121K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6RuS4udHwx3C9ysk4KXtNw",
+    "name": "jizue",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb98232ee4ff9cb028342119c4",
+    "followers": 50652,
+    "spotifyId": "6RuS4udHwx3C9ysk4KXtNw",
+    "spotifyPopularity": 37,
+    "genres": [
+      "math rock",
+      "jazz fusion",
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "50K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0i3clfRb52Y1RoRfRKytAS",
+    "name": "Seas of Years",
+    "image": "https://i.scdn.co/image/ab67616d0000b27319155846715a4203da0da665",
+    "followers": 11866,
+    "spotifyId": "0i3clfRb52Y1RoRfRKytAS",
+    "spotifyPopularity": 23,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4VBq7oPj5Yi4Yfx4hopGY3",
+    "name": "Lost in Kiev",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6241a534ecbf2ed87e5c079a",
+    "followers": 20624,
+    "spotifyId": "4VBq7oPj5Yi4Yfx4hopGY3",
+    "spotifyPopularity": 25,
+    "genres": [
+      "post-rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Rock",
+    "likes": "20K",
+    "tier": "Underground"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "4N8BwYTEC6XqykGvXXlmfv",
+    "name": "George Benson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb487b00fa17362b8eab3b16c8",
+    "followers": 931949,
+    "spotifyId": "4N8BwYTEC6XqykGvXXlmfv",
+    "spotifyPopularity": 68,
+    "genres": [
+      "smooth jazz",
+      "yacht rock",
+      "jazz funk",
+      "soul jazz"
+    ],
+    "primaryGenre": "smooth jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "931.9K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6I3M904Y9IwgDjrQ9pANiB",
+    "name": "Kenny G",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfce79bf01d99f9434108b56e",
+    "followers": 1244442,
+    "spotifyId": "6I3M904Y9IwgDjrQ9pANiB",
+    "spotifyPopularity": 67,
+    "genres": [
+      "smooth jazz",
+      "christmas"
+    ],
+    "primaryGenre": "smooth jazz",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "1.2M",
+    "tier": "Popular"
+  }
+]

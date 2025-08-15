@@ -1,0 +1,588 @@
+[
+  {
+    "id": "4q3ewBCX7sLwd24euuV69X",
+    "name": "Bad Bunny",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb81f47f44084e0a09b5f0fa13",
+    "followers": 99107270,
+    "spotifyId": "4q3ewBCX7sLwd24euuV69X",
+    "spotifyPopularity": 100,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino",
+      "latin"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "99.1M",
+    "tier": "Top"
+  },
+  {
+    "id": "3TVXtAsR1Inumwj472S9r4",
+    "name": "Drake",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9",
+    "followers": 100725524,
+    "spotifyId": "3TVXtAsR1Inumwj472S9r4",
+    "spotifyPopularity": 99,
+    "genres": [
+      "rap"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "100.7M",
+    "tier": "Superstar"
+  },
+  {
+    "id": "0Y5tJX1MQlPlqiwlOH1tJY",
+    "name": "Travis Scott",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+    "followers": 40082153,
+    "spotifyId": "0Y5tJX1MQlPlqiwlOH1tJY",
+    "spotifyPopularity": 95,
+    "genres": [
+      "rap"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "40.1M",
+    "tier": "Superstar"
+  },
+  {
+    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+    "name": "Kendrick Lamar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918",
+    "followers": 43198695,
+    "spotifyId": "2YZyLoL8N0Wb9xBt1NhZWg",
+    "spotifyPopularity": 94,
+    "genres": [
+      "hip hop",
+      "west coast hip hop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "43.2M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "1mcTU81TzQhprhouKaTkpq",
+    "name": "Rauw Alejandro",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb0611e8811c6868ae1fde4de",
+    "followers": 29962171,
+    "spotifyId": "1mcTU81TzQhprhouKaTkpq",
+    "spotifyPopularity": 92,
+    "genres": [
+      "reggaeton",
+      "urbano latino",
+      "trap latino",
+      "latin"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "30.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "7dGJo4pcD2V6oG8kP0tJRR",
+    "name": "Eminem",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+    "followers": 102725001,
+    "spotifyId": "7dGJo4pcD2V6oG8kP0tJRR",
+    "spotifyPopularity": 92,
+    "genres": [
+      "rap",
+      "hip hop"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "102.7M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "7iK8PXO48WeuP03g8YR51W",
+    "name": "Myke Towers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8372345609bebaf1e948ef7f",
+    "followers": 21014665,
+    "spotifyId": "7iK8PXO48WeuP03g8YR51W",
+    "spotifyPopularity": 90,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "21.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "2R21vXR83lH98kGeO99Y66",
+    "name": "Anuel AA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba23ceb177745632b517cb7b2",
+    "followers": 43492745,
+    "spotifyId": "2R21vXR83lH98kGeO99Y66",
+    "spotifyPopularity": 90,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino",
+      "latin"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "43.5M",
+    "tier": "Top"
+  },
+  {
+    "id": "1i8SpTcr7yvPOmcqrbnVXY",
+    "name": "Ozuna",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb463e10d5f1a533ddd6eb9a04",
+    "followers": 38932771,
+    "spotifyId": "1i8SpTcr7yvPOmcqrbnVXY",
+    "spotifyPopularity": 89,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "latin",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "38.9M",
+    "tier": "Top"
+  },
+  {
+    "id": "4SsVbpTthjScTS7U2hmr1X",
+    "name": "Arcángel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb188fba614da521f737b24f9e",
+    "followers": 17436160,
+    "spotifyId": "4SsVbpTthjScTS7U2hmr1X",
+    "spotifyPopularity": 87,
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urbano latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "17.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "2HPaUgqeutzr3jx5a9WyDV",
+    "name": "PARTYNEXTDOOR",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb957320981e31e862bc2fb844",
+    "followers": 9602587,
+    "spotifyId": "2HPaUgqeutzr3jx5a9WyDV",
+    "spotifyPopularity": 87,
+    "genres": [
+      "dark r&b",
+      "r&b",
+      "trap soul"
+    ],
+    "primaryGenre": "dark r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "9.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "329e4yvIujISKGKz1BZZbO",
+    "name": "Farruko",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69c46f8a2fe8114da9170aca",
+    "followers": 16796300,
+    "spotifyId": "329e4yvIujISKGKz1BZZbO",
+    "spotifyPopularity": 86,
+    "genres": [
+      "reggaeton",
+      "trap latino"
+    ],
+    "primaryGenre": "reggaeton",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "16.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "1Yj5Xey7kTwvZla8sqdsdE",
+    "name": "Cris MJ",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb418720dd75ca0213bc39e3e5",
+    "followers": 6597915,
+    "spotifyId": "1Yj5Xey7kTwvZla8sqdsdE",
+    "spotifyPopularity": 86,
+    "genres": [
+      "reggaeton chileno",
+      "chilean trap",
+      "chilean mambo",
+      "reggaeton"
+    ],
+    "primaryGenre": "reggaeton chileno",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "6.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0Q8NcsJwoCbZOHHW63su5S",
+    "name": "Mora",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe6252cc367480d8fe43e711f",
+    "followers": 7679232,
+    "spotifyId": "0Q8NcsJwoCbZOHHW63su5S",
+    "spotifyPopularity": 86,
+    "genres": [
+      "urbano latino",
+      "trap latino",
+      "reggaeton"
+    ],
+    "primaryGenre": "urbano latino",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "7.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6l3HvQ5sa6mXTsMTB19rO5",
+    "name": "J. Cole",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4b053c29fd4b317ff825f0dc",
+    "followers": 26727442,
+    "spotifyId": "6l3HvQ5sa6mXTsMTB19rO5",
+    "spotifyPopularity": 86,
+    "genres": [
+      "rap"
+    ],
+    "primaryGenre": "",
+    "country": null,
+    "discoveryMethod": "specific_search",
+    "genre": "",
+    "likes": "26.7M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "7c0XG5cIJTrrAgEC3ULPiq",
+    "name": "Ty Dolla $ign",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdeccf223fe80d308aba91b64",
+    "followers": 6991917,
+    "spotifyId": "7c0XG5cIJTrrAgEC3ULPiq",
+    "spotifyPopularity": 85,
+    "genres": [
+      "trap soul"
+    ],
+    "primaryGenre": "trap soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "19k8AgwwTSxeaxkOuCQEJs",
+    "name": "Jelly Roll",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb27901c1c025fa90f5dc007ef",
+    "followers": 5820729,
+    "spotifyId": "19k8AgwwTSxeaxkOuCQEJs",
+    "spotifyPopularity": 84,
+    "genres": [
+      "country hip hop",
+      "country"
+    ],
+    "primaryGenre": "country hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "5.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "75i9GaW2MJUgt4BkdUnuUY",
+    "name": "MC Ryan SP",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5751de055799e71658c49655",
+    "followers": 7327304,
+    "spotifyId": "75i9GaW2MJUgt4BkdUnuUY",
+    "spotifyPopularity": 84,
+    "genres": [
+      "funk",
+      "funk consciente",
+      "trap funk",
+      "brazilian funk",
+      "brazilian trap"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2EMAnMvWE2eb56ToJVfCWs",
+    "name": "Bryson Tiller",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb078fdd734b7f0aa782328428",
+    "followers": 10347102,
+    "spotifyId": "2EMAnMvWE2eb56ToJVfCWs",
+    "spotifyPopularity": 83,
+    "genres": [
+      "trap soul",
+      "r&b"
+    ],
+    "primaryGenre": "trap soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "10.3M",
+    "tier": "Top"
+  },
+  {
+    "id": "05fG473iIaoy82BF1aGhL8",
+    "name": "Slipknot",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd0cdb283a7384a0edb665182",
+    "followers": 13681973,
+    "spotifyId": "05fG473iIaoy82BF1aGhL8",
+    "spotifyPopularity": 82,
+    "genres": [
+      "nu metal",
+      "metal",
+      "alternative metal",
+      "rap metal",
+      "heavy metal"
+    ],
+    "primaryGenre": "nu metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "13.7M",
+    "tier": "Top"
+  },
+  {
+    "id": "2q9wk5fkeU2C9CgCKdh4AN",
+    "name": "Mc IG",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd9fee554b5ae9ad3427c0320",
+    "followers": 10217250,
+    "spotifyId": "2q9wk5fkeU2C9CgCKdh4AN",
+    "spotifyPopularity": 82,
+    "genres": [
+      "funk",
+      "trap funk",
+      "funk consciente",
+      "brazilian funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "10.2M",
+    "tier": "Top"
+  },
+  {
+    "id": "6aoGgTKGqtsjj48ymcNs4Z",
+    "name": "MC Tuto",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb23079308d04f2ceb86177503",
+    "followers": 2304754,
+    "spotifyId": "6aoGgTKGqtsjj48ymcNs4Z",
+    "spotifyPopularity": 80,
+    "genres": [
+      "funk",
+      "funk consciente",
+      "trap funk",
+      "brazilian funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "2.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4LHTgACY32k94VDjenF0nP",
+    "name": "Mc Negão Original",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdc79d05af567c374da4b9c4d",
+    "followers": 1015494,
+    "spotifyId": "4LHTgACY32k94VDjenF0nP",
+    "spotifyPopularity": 80,
+    "genres": [
+      "funk",
+      "trap funk",
+      "brazilian funk",
+      "funk consciente"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "1.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3RNrq3jvMZxD9ZyoOZbQOD",
+    "name": "Korn",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb29af2ffb6f4ddd6324f878bc",
+    "followers": 9367604,
+    "spotifyId": "3RNrq3jvMZxD9ZyoOZbQOD",
+    "spotifyPopularity": 79,
+    "genres": [
+      "nu metal",
+      "metal",
+      "rap metal",
+      "alternative metal"
+    ],
+    "primaryGenre": "nu metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "9.4M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2CmaKO2zEGJ1NWpS1yfVGz",
+    "name": "Falling In Reverse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a733f510df96652c3bea05b",
+    "followers": 4115182,
+    "spotifyId": "2CmaKO2zEGJ1NWpS1yfVGz",
+    "spotifyPopularity": 78,
+    "genres": [
+      "emo",
+      "rap metal"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "4.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7Lmrb6KcIzfkmgbtokjsAL",
+    "name": "Mc Don Juan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebab559c0d48ef955cecd4555d",
+    "followers": 5271452,
+    "spotifyId": "7Lmrb6KcIzfkmgbtokjsAL",
+    "spotifyPopularity": 76,
+    "genres": [
+      "funk",
+      "brazilian funk",
+      "funk consciente",
+      "trap funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "5.3M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2pSObt5Fk8izuX8ZfI3jRn",
+    "name": "Upchurch",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7a80a1db113e1d076c61f620",
+    "followers": 1906183,
+    "spotifyId": "2pSObt5Fk8izuX8ZfI3jRn",
+    "spotifyPopularity": 67,
+    "genres": [
+      "country hip hop",
+      "country"
+    ],
+    "primaryGenre": "country hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "1.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "75JvBeqW4BJ4xgnbMAq6MN",
+    "name": "Anne Wilson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb010f87a994fa47d231429ca4",
+    "followers": 383342,
+    "spotifyId": "75JvBeqW4BJ4xgnbMAq6MN",
+    "spotifyPopularity": 65,
+    "genres": [
+      "christian country",
+      "christian",
+      "worship",
+      "ccm"
+    ],
+    "primaryGenre": "christian country",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "383.3K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3GdRdoJomMK2f8xGjEZbHH",
+    "name": "Rare of Breed",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbf4fbdb800bb53fd1598621f",
+    "followers": 124345,
+    "spotifyId": "3GdRdoJomMK2f8xGjEZbHH",
+    "spotifyPopularity": 52,
+    "genres": [
+      "christian hip hop",
+      "country hip hop",
+      "christian country",
+      "christian"
+    ],
+    "primaryGenre": "christian hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "124.3K",
+    "tier": "Rising"
+  },
+  {
+    "id": "40lCYmGHHxBE5GUz9ZAifs",
+    "name": "Kentucky Music Mafia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb44d2bbb734d86a1015cdbe7a",
+    "followers": 15860,
+    "spotifyId": "40lCYmGHHxBE5GUz9ZAifs",
+    "spotifyPopularity": 36,
+    "genres": [
+      "country hip hop"
+    ],
+    "primaryGenre": "country hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "15.9K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "1lVG0olGHm4Ob8PIxws9SE",
+    "name": "386 Music",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb864ae3e8de355d99a580bf6",
+    "followers": 1806,
+    "spotifyId": "1lVG0olGHm4Ob8PIxws9SE",
+    "spotifyPopularity": 31,
+    "genres": [
+      "country hip hop"
+    ],
+    "primaryGenre": "country hip hop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "1.8K",
+    "tier": "Emerging"
+  }
+]

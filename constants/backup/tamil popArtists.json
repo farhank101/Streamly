@@ -1,0 +1,90 @@
+[
+  {
+    "id": "4zCH9qm4R2DADamUHMCa6O",
+    "name": "Anirudh Ravichander",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0f0be2054fe9594026a6b843",
+    "followers": 41408261,
+    "spotifyId": "4zCH9qm4R2DADamUHMCa6O",
+    "spotifyPopularity": 87,
+    "genres": [
+      "tamil pop",
+      "kollywood",
+      "tamil dance",
+      "tamil hip hop",
+      "tollywood",
+      "telugu pop"
+    ],
+    "primaryGenre": "tamil pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "41.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "1mYsTxnqsietFxj1OgoGbG",
+    "name": "A.R. Rahman",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c",
+    "followers": 67433830,
+    "spotifyId": "1mYsTxnqsietFxj1OgoGbG",
+    "spotifyPopularity": 84,
+    "genres": [
+      "tamil pop",
+      "kollywood",
+      "sufi",
+      "bollywood",
+      "hindi pop",
+      "desi"
+    ],
+    "primaryGenre": "tamil pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "67.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "5VVN3xZw1i2qihfITZlvCZ",
+    "name": "G. V. Prakash",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0a5c692089af5c0f9cf839f3",
+    "followers": 15810207,
+    "spotifyId": "5VVN3xZw1i2qihfITZlvCZ",
+    "spotifyPopularity": 79,
+    "genres": [
+      "tamil pop",
+      "kollywood",
+      "tamil dance",
+      "tamil hip hop",
+      "tollywood"
+    ],
+    "primaryGenre": "tamil pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "15.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "5UJ2sHO2ELrgW6aXeRLTQQ",
+    "name": "Chinmayi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8b1862a929651ee5ff4ce67c",
+    "followers": 4579216,
+    "spotifyId": "5UJ2sHO2ELrgW6aXeRLTQQ",
+    "spotifyPopularity": 78,
+    "genres": [
+      "tamil pop",
+      "tollywood",
+      "telugu pop",
+      "kollywood",
+      "marathi pop",
+      "bollywood",
+      "hindi pop"
+    ],
+    "primaryGenre": "tamil pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "4.6M",
+    "tier": "Popular"
+  }
+]

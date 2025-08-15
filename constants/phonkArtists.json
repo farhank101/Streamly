@@ -1,0 +1,22 @@
+[
+  {
+    "id": "34giN3qeTOdgDSJIdtIMdm",
+    "name": "Mc Jhey",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaba5334e1aa59f6998a7a090",
+    "followers": 498795,
+    "spotifyId": "34giN3qeTOdgDSJIdtIMdm",
+    "spotifyPopularity": 76,
+    "genres": [
+      "phonk",
+      "funk",
+      "brazilian funk",
+      "brazilian phonk"
+    ],
+    "primaryGenre": "phonk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "498.8K",
+    "tier": "Rising"
+  }
+]

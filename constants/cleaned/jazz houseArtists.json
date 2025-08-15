@@ -1,0 +1,20 @@
+[
+  {
+    "id": "3k3RY7kR8f0vp8Cq27P141",
+    "name": "berlioz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3a9ab7733c4e6f95251a806b",
+    "followers": 807327,
+    "spotifyId": "3k3RY7kR8f0vp8Cq27P141",
+    "spotifyPopularity": 67,
+    "genres": [
+      "jazz house",
+      "jazz"
+    ],
+    "primaryGenre": "jazz house",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "807.3K",
+    "tier": "Rising"
+  }
+]

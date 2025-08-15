@@ -1,0 +1,1722 @@
+[
+  {
+    "name": "Linkin Park",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Metallica",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Black Sabbath",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Guns N' Roses",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bon Jovi",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Nina Simone",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ray Charles",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Etta James",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bring Me The Horizon",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sublime",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Aditya Rikhari",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Arctic Monkeys",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Lumineers",
+    "file": "allGenreArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Eric Clapton",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Black Keys",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "ZZ Top",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Nina Simone",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ray Charles",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Etta James",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Teskey Brothers",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Billie Holiday",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Stevie Ray Vaughan",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "B.B. King",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Marcus King",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "J.J. Cale",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Gary Moore",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Derek & The Dominos",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Status Quo",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "George Thorogood & The Destroyers",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ten Years After",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bonnie Raitt",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Joe Bonamassa",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Free",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Marcus King Band",
+    "file": "bluesArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ludovico Einaudi",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Johann Sebastian Bach",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Wolfgang Amadeus Mozart",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "London Symphony Orchestra",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Frédéric Chopin",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Berliner Philharmoniker",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Max Richter",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Joe Hisaishi",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Antonio Vivaldi",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Royal Philharmonic Orchestra",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Pyotr Ilyich Tchaikovsky",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Claude Debussy",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Herbert von Karajan",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Erik Satie",
+    "file": "classicalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Morgan Wallen",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Zach Bryan",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Luke Combs",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Chris Stapleton",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Jelly Roll",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Tyler Childers",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bailey Zimmerman",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Riley Green",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Luke Bryan",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Jason Aldean",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Treaty Oak Revival",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Megan Moroney",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Thomas Rhett",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sam Barber",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ella Langley",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Jon Pardi",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Lainey Wilson",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Cody Johnson",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Johnny Cash",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Zac Brown Band",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Oliver Anthony Music",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Scotty McCreery",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Zach Williams",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Eric Church",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Kenny Chesney",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Tucker Wetmore",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Willie Nelson",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Kentucky Music Mafia",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Keith Nieto",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Upchurch",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Palace Music",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Tyler Hubbard",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Rare of Breed",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Anne Wilson",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "386 Music",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Caballo Dorado",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Don Williams",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Niko Moon",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Alan Jackson",
+    "file": "countryArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Lumineers",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bon Iver",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Vance Joy",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bob Dylan",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Kevin Kaarl",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mumford & Sons",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Passenger",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Jason Mraz",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Natalia Lafourcade",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "America",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Josiah Queen",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Novo Amor",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Neil Young",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Gregory Alan Isakov",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Music Mailari",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Malu Nipanal Singer",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Balu Belagundi",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Music Tapes",
+    "file": "folkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Aditya Rikhari",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Anuv Jain",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Arctic Monkeys",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Talwiinder",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Arivu",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Hansika Pareek",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sublahshini",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Asal Kolaar",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Kushagra",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Raghav Chaitanya",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bharath",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Saaheal",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Tame Impala",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Amir Ameer",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sai Abhyankkar",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Rauhan Malik",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mitraz",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "UNPLG'd",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mac DeMarco",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mismatched - Cast",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Lumineers",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Killers",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Strokes",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": ".Feast",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "R.E.M.",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Royel Otis",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Vaundy",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Rocket Mike",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Surf Curse",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Enjambre",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Audioslave",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Wallows",
+    "file": "indieArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Frank Sinatra",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Jamiroquai",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Louis Armstrong",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Antônio Carlos Jobim",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Nina Simone",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ray Charles",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Cafe Music BGM channel",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Etta James",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Nat King Cole",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ella Fitzgerald",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "George Benson",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Stan Getz",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Buena Vista Social Club",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Kenny G",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "berlioz",
+    "file": "jazzArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bad Bunny",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "KAROL G",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Beéle",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Rauw Alejandro",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "J Balvin",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Myke Towers",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Feid",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Shakira",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Anuel AA",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Daddy Yankee",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ozuna",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Maluma",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Don Omar",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Farruko",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ovy On The Drums",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Cris MJ",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Arcángel",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mora",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Romeo Santos",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Manuel Turizo",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Luis Miguel",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Enrique Iglesias",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Morat",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Alejandro Sanz",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sebastian Yatra",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Tainy",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Belinda",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "TINI",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Luis Fonsi",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Alejandro Fernández",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mon Laferte",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Reik",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Miranda!",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ricardo Arjona",
+    "file": "latinArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Linkin Park",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Metallica",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ozzy Osbourne",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Deftones",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Black Sabbath",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Guns N' Roses",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "System Of A Down",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sleep Token",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Slipknot",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bon Jovi",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Limp Bizkit",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Rammstein",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bring Me The Horizon",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Avenged Sevenfold",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Korn",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Evanescence",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Disturbed",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Falling In Reverse",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ghost",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Scorpions",
+    "file": "metalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Arijit Singh",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Pritam",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Shreya Ghoshal",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Anirudh Ravichander",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Alka Yagnik",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "A.R. Rahman",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Irshad Kamil",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sachin-Jigar",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Amitabh Bhattacharya",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "S. P. Balasubrahmanyam",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Tanishk Bagchi",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Masoom Sharma",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Atif Aslam",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Vishal-Shekhar",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Karan Aujla",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "KK",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "K. S. Chithra",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sonu Nigam",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mithoon",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Vishal Mishra",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sid Sriram",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Shankar Mahadevan",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Jubin Nautiyal",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ed Sheeran",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Shubh",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "G. V. Prakash",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sidhu Moose Wala",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Aditya Rikhari",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Chinmayi",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sachet Tandon",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Pinna Music",
+    "file": "popArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Green Day",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "My Chemical Romance",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Paramore",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Fall Out Boy",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bring Me The Horizon",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "blink-182",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Offspring",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Pierce The Veil",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Cure",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sublime",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Fontaines D.C.",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sum 41",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Rise Against",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "All Time Low",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Simple Plan",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Rocket Rockers",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "A Rocket To The Moon",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Talking Heads",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Iggy Pop",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Jimmy Eat World",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ramones",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Kinks",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Title Fight",
+    "file": "punkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sean Paul",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bob Marley & The Wailers",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Shenseea",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Skillibeng",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Shaggy",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Sublime",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Dread Mar I",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Stick Figure",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "UB40",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Vybz Kartel",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Stefflon Don",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Karl Wine",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Damian Marley",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Rawayana",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Natiruts",
+    "file": "reggaeArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Linkin Park",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Arctic Monkeys",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Radiohead",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Fleetwood Mac",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Beatles",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Queen",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Red Hot Chili Peppers",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Metallica",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Nirvana",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "AC/DC",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Black Sabbath",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Guns N' Roses",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mrs. GREEN APPLE",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Pink Floyd",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Billy Joel",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Nickelback",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bon Jovi",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Rolling Stones",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Maná",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Creedence Clearwater Revival",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Dire Straits",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Three Days Grace",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Elvis Presley",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Led Zeppelin",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Phil Collins",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Santiano",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Versengold",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "In Extremo",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mr. Hurley & Die Pulveraffen",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Schandmaul",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Subway To Sally",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Blackmore's Night",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Saltatio Mortis",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Feuerschwanz",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Haggefugg",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "dArtagnan",
+    "file": "rockArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Chris Brown",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "PARTYNEXTDOOR",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ty Dolla $ign",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "GIVĒON",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bryson Tiller",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ravyn Lenae",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Alicia Keys",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Olivia Dean",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Summer Walker",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mc Rodrigo do CN",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mc Jhey",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "John Legend",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Stevie Wonder",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mc Livinho",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Leon Bridges",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "MC Meno K",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Marvin Gaye",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mc Don Juan",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Bill Withers",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "DJ Dozabri",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "SZA",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "USHER",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Brent Faiyaz",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "MC Ryan SP",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Miguel",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mc IG",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Jhené Aiko",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "MC Tuto",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Mc Negão Original",
+    "file": "soul_funkArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Ed Sheeran",
+    "file": "topGlobalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "The Beatles",
+    "file": "topGlobalArtists.json",
+    "existingFile": "unknown"
+  },
+  {
+    "name": "Queen",
+    "file": "topGlobalArtists.json",
+    "existingFile": "unknown"
+  }
+]

@@ -11,14 +11,21 @@ const DEFAULT_FALLBACK = {
 
 // Artist placeholder images
 const ARTIST_PLACEHOLDERS: Record<string, string> = {
-  "The Smiths": "https://via.placeholder.com/300x300/FF6B6B/FFFFFF?text=The+Smiths",
-  "The Clash": "https://via.placeholder.com/300x300/4ECDC4/FFFFFF?text=The+Clash",
-  "Joy Division": "https://via.placeholder.com/300x300/45B7D1/FFFFFF?text=Joy+Division",
-  "Queen": "https://via.placeholder.com/300x300/FDCB6E/FFFFFF?text=Queen",
-  "David Bowie": "https://via.placeholder.com/300x300/74B9FF/FFFFFF?text=David+Bowie",
-  "The Beatles": "https://via.placeholder.com/300x300/55A3FF/FFFFFF?text=The+Beatles",
-  "Pink Floyd": "https://via.placeholder.com/300x300/A29BFE/FFFFFF?text=Pink+Floyd",
-  "Led Zeppelin": "https://via.placeholder.com/300x300/FF7675/FFFFFF?text=Led+Zeppelin",
+  "The Smiths":
+    "https://via.placeholder.com/300x300/FF6B6B/FFFFFF?text=The+Smiths",
+  "The Clash":
+    "https://via.placeholder.com/300x300/4ECDC4/FFFFFF?text=The+Clash",
+  "Joy Division":
+    "https://via.placeholder.com/300x300/45B7D1/FFFFFF?text=Joy+Division",
+  Queen: "https://via.placeholder.com/300x300/FDCB6E/FFFFFF?text=Queen",
+  "David Bowie":
+    "https://via.placeholder.com/300x300/74B9FF/FFFFFF?text=David+Bowie",
+  "The Beatles":
+    "https://via.placeholder.com/300x300/55A3FF/FFFFFF?text=The+Beatles",
+  "Pink Floyd":
+    "https://via.placeholder.com/300x300/A29BFE/FFFFFF?text=Pink+Floyd",
+  "Led Zeppelin":
+    "https://via.placeholder.com/300x300/FF7675/FFFFFF?text=Led+Zeppelin",
 };
 
 /**
@@ -32,7 +39,10 @@ export const getArtistImage = (
   customImage?: string
 ): ImageSourcePropType => {
   // If a custom image is provided and it's a valid URL, use it
-  if (customImage && (customImage.startsWith('http') || customImage.startsWith('https'))) {
+  if (
+    customImage &&
+    (customImage.startsWith("http") || customImage.startsWith("https"))
+  ) {
     return { uri: customImage };
   }
 
@@ -46,7 +56,7 @@ export const getArtistImage = (
   const encodedName = encodeURIComponent(artistName);
   const color = getColorFromName(artistName);
   const genericPlaceholder = `https://via.placeholder.com/300x300/${color}/FFFFFF?text=${encodedName}`;
-  
+
   return { uri: genericPlaceholder };
 };
 
@@ -57,18 +67,30 @@ export const getArtistImage = (
  */
 const getColorFromName = (name: string): string => {
   const colors = [
-    'FF6B6B', '4ECDC4', '45B7D1', 'FDCB6E', '74B9FF', 
-    '55A3FF', 'A29BFE', 'FF7675', '6C5CE7', '00B894',
-    'FD79A8', 'FDCB6E', 'E17055', '00CEC9', 'A29BFE'
+    "FF6B6B",
+    "4ECDC4",
+    "45B7D1",
+    "FDCB6E",
+    "74B9FF",
+    "55A3FF",
+    "A29BFE",
+    "FF7675",
+    "6C5CE7",
+    "00B894",
+    "FD79A8",
+    "FDCB6E",
+    "E17055",
+    "00CEC9",
+    "A29BFE",
   ];
-  
+
   let hash = 0;
   for (let i = 0; i < name.length; i++) {
     const char = name.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
+    hash = (hash << 5) - hash + char;
     hash = hash & hash; // Convert to 32-bit integer
   }
-  
+
   const index = Math.abs(hash) % colors.length;
   return colors[index];
 };
@@ -131,7 +153,7 @@ export const getAvailableImages = (): string[] => {
  */
 export const validateImageUrl = async (url: string): Promise<boolean> => {
   try {
-    const response = await fetch(url, { method: 'HEAD' });
+    const response = await fetch(url, { method: "HEAD" });
     return response.ok;
   } catch (error) {
     console.warn(`Failed to validate image URL: ${url}`, error);

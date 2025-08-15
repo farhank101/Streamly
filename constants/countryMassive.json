@@ -1,0 +1,2514 @@
+[
+  {
+    "id": "4oUHIQIBe0LHzYfvXNW4QM",
+    "name": "Morgan Wallen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4245b1652fcc23f2b76ccd07",
+    "followers": 13374059,
+    "spotifyId": "4oUHIQIBe0LHzYfvXNW4QM",
+    "spotifyPopularity": 95,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Country",
+    "likes": "13.4M",
+    "tier": "Superstar"
+  },
+  {
+    "id": "718COspgdWOnwOFpJHRZHS",
+    "name": "Luke Combs",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5289a270b16a0423f1909bc3",
+    "followers": 13100205,
+    "spotifyId": "718COspgdWOnwOFpJHRZHS",
+    "spotifyPopularity": 87,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Country",
+    "likes": "13.1M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "6kACVPfCOnqzgfEF5ryl0x",
+    "name": "Johnny Cash",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb94a8326675bfcafb20f0a235",
+    "followers": 6832500,
+    "spotifyId": "6kACVPfCOnqzgfEF5ryl0x",
+    "spotifyPopularity": 77,
+    "genres": [
+      "classic country",
+      "outlaw country",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Country",
+    "likes": "6.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "5QNm7E7RU2m64l6Gliu8Oy",
+    "name": "HARDY",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3e7e5b8c09a44d49a95bd842",
+    "followers": 1416609,
+    "spotifyId": "5QNm7E7RU2m64l6Gliu8Oy",
+    "spotifyPopularity": 77,
+    "genres": [
+      "country",
+      "country rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Country",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "7kplJl06UmldxLKseURAYi",
+    "name": "Warren Zeiders",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6574e5f85334cd9520a279e8",
+    "followers": 1043360,
+    "spotifyId": "7kplJl06UmldxLKseURAYi",
+    "spotifyPopularity": 74,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Country",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "4YLtscXsxbVgi031ovDDdh",
+    "name": "Chris Stapleton",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba0c87c8f329b436eac8b9784",
+    "followers": 8758704,
+    "spotifyId": "4YLtscXsxbVgi031ovDDdh",
+    "spotifyPopularity": 86,
+    "genres": [
+      "country",
+      "outlaw country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Country",
+    "likes": "8.8M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "4Ti0EKl2PVEms2NRMVGqNe",
+    "name": "Don Williams",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb196b848b62af7dddaf2b24c2",
+    "followers": 948175,
+    "spotifyId": "4Ti0EKl2PVEms2NRMVGqNe",
+    "spotifyPopularity": 64,
+    "genres": [
+      "classic country",
+      "country",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "948K",
+    "tier": "Established"
+  },
+  {
+    "id": "4tw2Lmn9tTPUv7Gy7mVPI4",
+    "name": "Kenny Rogers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43eec847b2e3aaa5f4edbd23",
+    "followers": 3124976,
+    "spotifyId": "4tw2Lmn9tTPUv7Gy7mVPI4",
+    "spotifyPopularity": 73,
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "3.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "40ZNYROS4zLfyyBSs2PGe2",
+    "name": "Zach Bryan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4fd54df35bfcfa0fc9fc2da7",
+    "followers": 7012584,
+    "spotifyId": "40ZNYROS4zLfyyBSs2PGe2",
+    "spotifyPopularity": 90,
+    "genres": [
+      "country",
+      "red dirt"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "7.0M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "7vCtweS8UVAXTyau2j0rDT",
+    "name": "Josh Turner",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb94a3a9f82647f8bb112d9e01",
+    "followers": 2699477,
+    "spotifyId": "7vCtweS8UVAXTyau2j0rDT",
+    "spotifyPopularity": 68,
+    "genres": [
+      "country",
+      "christian country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "13YmWQJFwgZrd4bf5IjMY4",
+    "name": "Brad Paisley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb49b3eca30283993e5794c6ef",
+    "followers": 2887306,
+    "spotifyId": "13YmWQJFwgZrd4bf5IjMY4",
+    "spotifyPopularity": 69,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "4mxWe1mtYIYfP040G38yvS",
+    "name": "Alan Jackson",
+    "image": "https://i.scdn.co/image/ab6772690000c46c1dce50b93ca0b1e2f459d9e6",
+    "followers": 3277079,
+    "spotifyId": "4mxWe1mtYIYfP040G38yvS",
+    "spotifyPopularity": 77,
+    "genres": [
+      "country",
+      "christian country",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "3.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "5e4Dhzv426EvQe3aDb64jL",
+    "name": "Shania Twain",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb01022f4092cb96e0a91811a5",
+    "followers": 3334250,
+    "spotifyId": "5e4Dhzv426EvQe3aDb64jL",
+    "spotifyPopularity": 75,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "3.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "1UTPBmNbXNTittyMJrNkvw",
+    "name": "Blake Shelton",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaa03b29eb3a550f139fbb955",
+    "followers": 7476321,
+    "spotifyId": "1UTPBmNbXNTittyMJrNkvw",
+    "spotifyPopularity": 75,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "7.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "13ZEDW6vyBF12HYcZRr4EV",
+    "name": "Tyler Childers",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf4e08c9a3cea561e8f3332a5",
+    "followers": 3062974,
+    "spotifyId": "13ZEDW6vyBF12HYcZRr4EV",
+    "spotifyPopularity": 82,
+    "genres": [
+      "country",
+      "outlaw country",
+      "red dirt",
+      "alt country",
+      "texas country",
+      "bluegrass"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "3.1M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "5vngPClqofybhPERIqQMYd",
+    "name": "George Strait",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb77f28b2422efbabde324291c",
+    "followers": 5044017,
+    "spotifyId": "5vngPClqofybhPERIqQMYd",
+    "spotifyPopularity": 77,
+    "genres": [
+      "country",
+      "classic country",
+      "traditional country",
+      "honky tonk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "5.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "3win9vGIxFfBRag9S63wwf",
+    "name": "Bailey Zimmerman",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1c9f6b984cb667d1f4ef2f4b",
+    "followers": 1911141,
+    "spotifyId": "3win9vGIxFfBRag9S63wwf",
+    "spotifyPopularity": 81,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.9M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0u2FHSq3ln94y5Q57xazwf",
+    "name": "Keith Urban",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb054c067d4cfa3b8094f3400f",
+    "followers": 5259686,
+    "spotifyId": "0u2FHSq3ln94y5Q57xazwf",
+    "spotifyPopularity": 72,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "5.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "2QMsj4XJ7ne2hojxt6v5eb",
+    "name": "Riley Green",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5dc967d7e443e2ef4a7552b6",
+    "followers": 1256822,
+    "spotifyId": "2QMsj4XJ7ne2hojxt6v5eb",
+    "spotifyPopularity": 80,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.3M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "0BvkDsjIUla7X0k6CSWh1I",
+    "name": "Luke Bryan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9754cf0a7b838caafa4b8b55",
+    "followers": 9323515,
+    "spotifyId": "0BvkDsjIUla7X0k6CSWh1I",
+    "spotifyPopularity": 80,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "9.3M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "3FfvYsEGaIb52QPXhg4DcH",
+    "name": "Jason Aldean",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb70d22778295f215b94941a21",
+    "followers": 6964408,
+    "spotifyId": "3FfvYsEGaIb52QPXhg4DcH",
+    "spotifyPopularity": 79,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "7.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "3444S3C4U9Ts86BnCtSPRV",
+    "name": "Treaty Oak Revival",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4c287c045bf4bfca9d5ab70c",
+    "followers": 658664,
+    "spotifyId": "3444S3C4U9Ts86BnCtSPRV",
+    "spotifyPopularity": 79,
+    "genres": [
+      "country",
+      "texas country",
+      "red dirt",
+      "country rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "658K",
+    "tier": "Established"
+  },
+  {
+    "id": "5Ppie0uPnbnvGBYRwYmlt0",
+    "name": "Megan Moroney",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd0eb86d3ac3beaad7efb77d8",
+    "followers": 1050710,
+    "spotifyId": "5Ppie0uPnbnvGBYRwYmlt0",
+    "spotifyPopularity": 79,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "6x2LnllRG5uGarZMsD4iO8",
+    "name": "Thomas Rhett",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7538436ea7437322f6f389ca",
+    "followers": 4936340,
+    "spotifyId": "6x2LnllRG5uGarZMsD4iO8",
+    "spotifyPopularity": 79,
+    "genres": [
+      "country",
+      "acoustic country",
+      "pop country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "4.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "6roFdX1y5BYSbp60OTJWMd",
+    "name": "Tim McGraw",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbd6977f3970a7a4a8d4becbe",
+    "followers": 4976712,
+    "spotifyId": "6roFdX1y5BYSbp60OTJWMd",
+    "spotifyPopularity": 74,
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "5.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "08GfvCW09pv2QP4y9sle2a",
+    "name": "Sam Barber",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9f8eedb16b7eb99f2a04046",
+    "followers": 789804,
+    "spotifyId": "08GfvCW09pv2QP4y9sle2a",
+    "spotifyPopularity": 79,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "789K",
+    "tier": "Established"
+  },
+  {
+    "id": "6BRxQ8cD3eqnrVj6WKDok8",
+    "name": "Ella Langley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8e703296c4ade070eb8488cd",
+    "followers": 557909,
+    "spotifyId": "6BRxQ8cD3eqnrVj6WKDok8",
+    "spotifyPopularity": 79,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "557K",
+    "tier": "Established"
+  },
+  {
+    "id": "4MoAOfV4ROWofLG3a3hhBN",
+    "name": "Jon Pardi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5f47b9b3519a7f3bae080731",
+    "followers": 2289905,
+    "spotifyId": "4MoAOfV4ROWofLG3a3hhBN",
+    "spotifyPopularity": 78,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "6tPHARSq45lQ8BSALCfkFC",
+    "name": "Lainey Wilson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9011bef61397f537d561a70b",
+    "followers": 1428127,
+    "spotifyId": "6tPHARSq45lQ8BSALCfkFC",
+    "spotifyPopularity": 78,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "59hLmB5DrdihCYtNeFeW1U",
+    "name": "Glen Campbell",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb64f0f928da3d4ff7746a2df1",
+    "followers": 580105,
+    "spotifyId": "59hLmB5DrdihCYtNeFeW1U",
+    "spotifyPopularity": 66,
+    "genres": [
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "580K",
+    "tier": "Established"
+  },
+  {
+    "id": "6zLBxLdl60ekBLpawtT63I",
+    "name": "Cody Johnson",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb1fa84619efb4bdf4f5e9c4b",
+    "followers": 1850967,
+    "spotifyId": "6zLBxLdl60ekBLpawtT63I",
+    "spotifyPopularity": 78,
+    "genres": [
+      "texas country",
+      "country",
+      "red dirt"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "6yJCxee7QumYr820xdIsjo",
+    "name": "Zac Brown Band",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8b236b26cb2d93cfc9f1ada1",
+    "followers": 4110104,
+    "spotifyId": "6yJCxee7QumYr820xdIsjo",
+    "spotifyPopularity": 77,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "4.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "3oSJ7TBVCWMDMiYjXNiCKE",
+    "name": "Kane Brown",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6c17bec75f51429ff10766a9",
+    "followers": 5736029,
+    "spotifyId": "3oSJ7TBVCWMDMiYjXNiCKE",
+    "spotifyPopularity": 77,
+    "genres": [
+      "country",
+      "pop country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "5.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "2IvkS5MXK0vPGnwyJsrEyV",
+    "name": "Eric Church",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb31783fb959349f0c82e39bfe",
+    "followers": 4104357,
+    "spotifyId": "2IvkS5MXK0vPGnwyJsrEyV",
+    "spotifyPopularity": 77,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "4.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "77kULmXAQ6vWer7IIHdGzI",
+    "name": "Jordan Davis",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2a02b713cac51be638001b05",
+    "followers": 1570814,
+    "spotifyId": "77kULmXAQ6vWer7IIHdGzI",
+    "spotifyPopularity": 77,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "1pTuR132U5b4Rizal2Pr7m",
+    "name": "Randy Travis",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb275c8cd25c77691993106b5d",
+    "followers": 1995803,
+    "spotifyId": "1pTuR132U5b4Rizal2Pr7m",
+    "spotifyPopularity": 70,
+    "genres": [
+      "christian country",
+      "classic country",
+      "country",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "7dNsHhGeGU5MV01r06O8gK",
+    "name": "Patsy Cline",
+    "image": "https://i.scdn.co/image/c8eb3a2d38f77a5f9e752036dec6c21f307fbfe2",
+    "followers": 950725,
+    "spotifyId": "7dNsHhGeGU5MV01r06O8gK",
+    "spotifyPopularity": 61,
+    "genres": [
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "950K",
+    "tier": "Established"
+  },
+  {
+    "id": "2bA6fzP0lMAQ4kz6CF61w8",
+    "name": "Toby Keith",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1b6b9d83cfd806b328496207",
+    "followers": 2933661,
+    "spotifyId": "2bA6fzP0lMAQ4kz6CF61w8",
+    "spotifyPopularity": 76,
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "1n2pb9Tsfe4SwAjmUac6YT",
+    "name": "Jake Owen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5de7f8a6878bc929b5fc85f7",
+    "followers": 1988984,
+    "spotifyId": "1n2pb9Tsfe4SwAjmUac6YT",
+    "spotifyPopularity": 67,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "1FClsNYBUoNFtGgzeG74dW",
+    "name": "Hank Williams",
+    "image": "https://i.scdn.co/image/5fc12e434b15c08796c7156b2f630df84345b9cd",
+    "followers": 1056243,
+    "spotifyId": "1FClsNYBUoNFtGgzeG74dW",
+    "spotifyPopularity": 60,
+    "genres": [
+      "classic country",
+      "honky tonk",
+      "traditional country",
+      "outlaw country",
+      "country",
+      "christian country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "5jG6uRqinuI83luutMpW6y",
+    "name": "Gavin Adcock",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb49c98608a7e29b123d5eeaac",
+    "followers": 413552,
+    "spotifyId": "5jG6uRqinuI83luutMpW6y",
+    "spotifyPopularity": 75,
+    "genres": [
+      "country",
+      "red dirt"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "413K",
+    "tier": "Established"
+  },
+  {
+    "id": "4sCKpwwEsgReZxjtKFm2A0",
+    "name": "Tucker Wetmore",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdbf7547beca0a0ce3eef2f2b",
+    "followers": 480825,
+    "spotifyId": "4sCKpwwEsgReZxjtKFm2A0",
+    "spotifyPopularity": 75,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "480K",
+    "tier": "Established"
+  },
+  {
+    "id": "55yEsJBqyn27JPsw5hHzqi",
+    "name": "Dan Seals",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb042e72e99db117a9f4f2116f",
+    "followers": 215109,
+    "spotifyId": "55yEsJBqyn27JPsw5hHzqi",
+    "spotifyPopularity": 54,
+    "genres": [
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "215K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6IKlXZEFOvk9itrP1s0knJ",
+    "name": "The Red Clay Strays",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1f87bfc1e824789e91573493",
+    "followers": 1007339,
+    "spotifyId": "6IKlXZEFOvk9itrP1s0knJ",
+    "spotifyPopularity": 75,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "1E2AEtxaFaJtH0lO7kgNKw",
+    "name": "Russell Dickerson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb63ae1c76b9e1cc1a29d63fa9",
+    "followers": 567005,
+    "spotifyId": "1E2AEtxaFaJtH0lO7kgNKw",
+    "spotifyPopularity": 71,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "567K",
+    "tier": "Established"
+  },
+  {
+    "id": "7FY5V3XMwlNBPitEjXowHQ",
+    "name": "Darius Rucker",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb17f1bb8128fc6e637e4240d7",
+    "followers": 2734271,
+    "spotifyId": "7FY5V3XMwlNBPitEjXowHQ",
+    "spotifyPopularity": 71,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "0C4gtx1iHMfuaQ73GKWvtZ",
+    "name": "Hudson Westbrook",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1e82fea163526da7af561cfc",
+    "followers": 282303,
+    "spotifyId": "0C4gtx1iHMfuaQ73GKWvtZ",
+    "spotifyPopularity": 75,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "282K",
+    "tier": "Established"
+  },
+  {
+    "id": "25NQNriVT2YbSW80ILRWJa",
+    "name": "Faith Hill",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfcf4aca895932122a66211bf",
+    "followers": 1940171,
+    "spotifyId": "25NQNriVT2YbSW80ILRWJa",
+    "spotifyPopularity": 65,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "69Fk1s1lzINOKqoSWjjEiE",
+    "name": "Charley Pride",
+    "image": "https://i.scdn.co/image/ab6772690000c46cb7b876ff43d6ba492559e145",
+    "followers": 660530,
+    "spotifyId": "69Fk1s1lzINOKqoSWjjEiE",
+    "spotifyPopularity": 55,
+    "genres": [
+      "classic country",
+      "traditional country",
+      "christian country",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "660K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3xYXYzm9H3RzyQgBrYwIcx",
+    "name": "Colter Wall",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1223464273767d64760a0a88",
+    "followers": 1577524,
+    "spotifyId": "3xYXYzm9H3RzyQgBrYwIcx",
+    "spotifyPopularity": 71,
+    "genres": [
+      "outlaw country",
+      "southern gothic",
+      "country",
+      "red dirt",
+      "alt country",
+      "bluegrass",
+      "americana"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "6y8XlgIV8BLlIg1tT1R10i",
+    "name": "Old Dominion",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcf94739cd8366fe8b8db4ebe",
+    "followers": 1708130,
+    "spotifyId": "6y8XlgIV8BLlIg1tT1R10i",
+    "spotifyPopularity": 74,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "3qbnxnvUqR14MJ9g8QwZJK",
+    "name": "Lonestar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1bc8cec709c2452275e53050",
+    "followers": 1472228,
+    "spotifyId": "3qbnxnvUqR14MJ9g8QwZJK",
+    "spotifyPopularity": 62,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "4AwLiAGc1rRLrCepj5rdTI",
+    "name": "Collin Raye",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebacd11b0a04b5daa07aad6d43",
+    "followers": 498980,
+    "spotifyId": "4AwLiAGc1rRLrCepj5rdTI",
+    "spotifyPopularity": 53,
+    "genres": [
+      "classic country",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "498K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4GGfAshSkqoxpZdoaHm7ky",
+    "name": "ERNEST",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb34a15150fefea5ff90f5be2a",
+    "followers": 311328,
+    "spotifyId": "4GGfAshSkqoxpZdoaHm7ky",
+    "spotifyPopularity": 74,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "311K",
+    "tier": "Established"
+  },
+  {
+    "id": "7dmeVSH4lJqxXU7C87dKIB",
+    "name": "Tanya Tucker",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebacc786c55075e7d82a414e15",
+    "followers": 716039,
+    "spotifyId": "7dmeVSH4lJqxXU7C87dKIB",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classic country",
+      "country",
+      "outlaw country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "716K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6WY7D3jk8zTrHtmkqqo5GI",
+    "name": "Maren Morris",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb50d78514ff06d15be59fbbc3",
+    "followers": 876621,
+    "spotifyId": "6WY7D3jk8zTrHtmkqqo5GI",
+    "spotifyPopularity": 73,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "876K",
+    "tier": "Established"
+  },
+  {
+    "id": "7wCjDgV6nqBsHguQXPAaIM",
+    "name": "Waylon Jennings",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e388c7ce238ebd00367f9e6",
+    "followers": 1647304,
+    "spotifyId": "7wCjDgV6nqBsHguQXPAaIM",
+    "spotifyPopularity": 71,
+    "genres": [
+      "outlaw country",
+      "classic country",
+      "country",
+      "honky tonk",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "1FE0rls8gfQT3laAeRYNgl",
+    "name": "Loretta Lynn",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdb1598bb7e50cb69c7053354",
+    "followers": 829675,
+    "spotifyId": "1FE0rls8gfQT3laAeRYNgl",
+    "spotifyPopularity": 58,
+    "genres": [
+      "classic country",
+      "honky tonk",
+      "christian country",
+      "country",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "829K",
+    "tier": "Rising"
+  },
+  {
+    "id": "02rd0anEWfMtF7iMku9uor",
+    "name": "Reba McEntire",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb93f5991b555305b2314d0fcf",
+    "followers": 2198493,
+    "spotifyId": "02rd0anEWfMtF7iMku9uor",
+    "spotifyPopularity": 63,
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "1LFKKuzn302wp15dYH28id",
+    "name": "Tammy Wynette",
+    "image": "https://i.scdn.co/image/2c0e3299ce1b2644aee19974ad35d6b441aba6b7",
+    "followers": 642763,
+    "spotifyId": "1LFKKuzn302wp15dYH28id",
+    "spotifyPopularity": 56,
+    "genres": [
+      "classic country",
+      "traditional country",
+      "honky tonk",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "642K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1Gh0pCAxpjw0Iq3JMoVAwO",
+    "name": "Ty Myers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb557ca576b3672ae5a89ce299",
+    "followers": 282585,
+    "spotifyId": "1Gh0pCAxpjw0Iq3JMoVAwO",
+    "spotifyPopularity": 73,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "282K",
+    "tier": "Established"
+  },
+  {
+    "id": "6rJqqRce0Kvo2dJUXoHleC",
+    "name": "Alabama",
+    "image": "https://i.scdn.co/image/e62bc7c5b919ceb8145d0c73e8d04c7b8b066f73",
+    "followers": 1624895,
+    "spotifyId": "6rJqqRce0Kvo2dJUXoHleC",
+    "spotifyPopularity": 69,
+    "genres": [
+      "classic country",
+      "country",
+      "country rock",
+      "christian country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "78YqeIji3mgAS2K1Maca6x",
+    "name": "Dylan Scott",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb893f6ba58d8b1e42850621e1",
+    "followers": 1873283,
+    "spotifyId": "78YqeIji3mgAS2K1Maca6x",
+    "spotifyPopularity": 70,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "4NYMUsIcUUsBHbV9DICa5x",
+    "name": "Nate Smith",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1d43047a32706c03490957da",
+    "followers": 543116,
+    "spotifyId": "4NYMUsIcUUsBHbV9DICa5x",
+    "spotifyPopularity": 73,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "543K",
+    "tier": "Established"
+  },
+  {
+    "id": "7mPcfx7PhnBh6n4HMCd61A",
+    "name": "John Michael Montgomery",
+    "image": "https://i.scdn.co/image/7c95c04b391ea7eae48c29f095335803136203c1",
+    "followers": 1171604,
+    "spotifyId": "7mPcfx7PhnBh6n4HMCd61A",
+    "spotifyPopularity": 64,
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "7u6FSuqT3SWE2kO8rNVjfp",
+    "name": "Tennessee Ernie Ford",
+    "image": "https://i.scdn.co/image/4bd427bb9181914d0fa4482a3b01d3977638872a",
+    "followers": 97336,
+    "spotifyId": "7u6FSuqT3SWE2kO8rNVjfp",
+    "spotifyPopularity": 54,
+    "genres": [
+      "christian country",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "97K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3RqBeV12Tt7A8xH3zBDDUF",
+    "name": "Kelsea Ballerini",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb66b3897322ef6750b37afb4",
+    "followers": 1325138,
+    "spotifyId": "3RqBeV12Tt7A8xH3zBDDUF",
+    "spotifyPopularity": 72,
+    "genres": [
+      "country",
+      "pop country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "4BYxqVkZyFjtik7crYLg5Q",
+    "name": "Chris Young",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb87ae707a446eef2c870771a5",
+    "followers": 2892253,
+    "spotifyId": "4BYxqVkZyFjtik7crYLg5Q",
+    "spotifyPopularity": 70,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "0Z8XVUAOBPM4x12wKnFHEQ",
+    "name": "Parker McCollum",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebab74fc126101bf7425ee7cc3",
+    "followers": 670758,
+    "spotifyId": "0Z8XVUAOBPM4x12wKnFHEQ",
+    "spotifyPopularity": 72,
+    "genres": [
+      "texas country",
+      "red dirt",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "670K",
+    "tier": "Established"
+  },
+  {
+    "id": "66lH4jAE7pqPlOlzUKbwA0",
+    "name": "Miranda Lambert",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb88989ce8f824f1aa19d059c4",
+    "followers": 3699106,
+    "spotifyId": "66lH4jAE7pqPlOlzUKbwA0",
+    "spotifyPopularity": 72,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "3.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "2dyeCWctcFRt3Pha76ONgb",
+    "name": "Hank Williams, Jr.",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf2335981837c8ac955769cd0",
+    "followers": 1866481,
+    "spotifyId": "2dyeCWctcFRt3Pha76ONgb",
+    "spotifyPopularity": 71,
+    "genres": [
+      "outlaw country",
+      "classic country",
+      "country",
+      "honky tonk",
+      "country rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "7z5WFjZAIYejWy0NI5lv4T",
+    "name": "Dan + Shay",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd52ae4e62c64e82541b55d94",
+    "followers": 3200855,
+    "spotifyId": "7z5WFjZAIYejWy0NI5lv4T",
+    "spotifyPopularity": 70,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "3.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "5Zq7R5qmi58ByYyBQTlNuk",
+    "name": "Lee Brice",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdab269aed3f987f231cac0e7",
+    "followers": 2451394,
+    "spotifyId": "5Zq7R5qmi58ByYyBQTlNuk",
+    "spotifyPopularity": 71,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "0qSX3s5pJnAlSsgsCne8Cz",
+    "name": "Brett Eldredge",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb115b4058314c39d7bd8d0768",
+    "followers": 1489929,
+    "spotifyId": "0qSX3s5pJnAlSsgsCne8Cz",
+    "spotifyPopularity": 61,
+    "genres": [
+      "country",
+      "christmas"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "1DTZRmlVZBxx2wRQBtx6yi",
+    "name": "Midland",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0908c07185a7b8585d40fbb2",
+    "followers": 358569,
+    "spotifyId": "1DTZRmlVZBxx2wRQBtx6yi",
+    "spotifyPopularity": 69,
+    "genres": [
+      "country",
+      "honky tonk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "358K",
+    "tier": "Established"
+  },
+  {
+    "id": "4H4M0Y4cN39zIVDHvdW53x",
+    "name": "Dylan Gossett",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb14ec12233a0755f2dbd20002",
+    "followers": 428492,
+    "spotifyId": "4H4M0Y4cN39zIVDHvdW53x",
+    "spotifyPopularity": 71,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "428K",
+    "tier": "Established"
+  },
+  {
+    "id": "6OheJTrDFGiyZ67F1BBLhc",
+    "name": "Crystal Gayle",
+    "image": "https://i.scdn.co/image/15d9d51358ee4c1c0e4a9d52ca85b5eab75bbdd5",
+    "followers": 406483,
+    "spotifyId": "6OheJTrDFGiyZ67F1BBLhc",
+    "spotifyPopularity": 53,
+    "genres": [
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "406K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7x8nK0m0cP2ksQf0mjWdPS",
+    "name": "Dierks Bentley",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc3552e14b485998e7bbba38b",
+    "followers": 3285227,
+    "spotifyId": "7x8nK0m0cP2ksQf0mjWdPS",
+    "spotifyPopularity": 71,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "3.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "3BEV5FcxOtkQJ7lLRKMh3V",
+    "name": "Tyler Hubbard",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2f6f827fdf212575e1c4f646",
+    "followers": 294110,
+    "spotifyId": "3BEV5FcxOtkQJ7lLRKMh3V",
+    "spotifyPopularity": 66,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "294K",
+    "tier": "Established"
+  },
+  {
+    "id": "2OpqcUtj10HHvGG6h9VYC5",
+    "name": "George Jones",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5f79cb1d93cfa9684c1f6dc9",
+    "followers": 1336375,
+    "spotifyId": "2OpqcUtj10HHvGG6h9VYC5",
+    "spotifyPopularity": 64,
+    "genres": [
+      "classic country",
+      "outlaw country",
+      "honky tonk",
+      "traditional country",
+      "country",
+      "christian country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "2kucQ9jQwuD8jWdtR9Ef38",
+    "name": "Sam Hunt",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb800647d0d619aa4bbfc10a53",
+    "followers": 2450661,
+    "spotifyId": "2kucQ9jQwuD8jWdtR9Ef38",
+    "spotifyPopularity": 71,
+    "genres": [
+      "country",
+      "pop country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "2M4Yt7oKGoYd0wqU44k4i2",
+    "name": "Travis Tritt",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba8c570d026bf6b373b2fb307",
+    "followers": 1592222,
+    "spotifyId": "2M4Yt7oKGoYd0wqU44k4i2",
+    "spotifyPopularity": 68,
+    "genres": [
+      "classic country",
+      "country",
+      "outlaw country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "1By9QBFnjZAoI83BZppHlt",
+    "name": "Billy Currington",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebacc30a1cf0224922cdbcc405",
+    "followers": 2732260,
+    "spotifyId": "1By9QBFnjZAoI83BZppHlt",
+    "spotifyPopularity": 71,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "7H6dkUChT5EoOQtUVMg4cN",
+    "name": "Hunter Hayes",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdd55c87671ea9f9ff7dbf2e6",
+    "followers": 1225950,
+    "spotifyId": "7H6dkUChT5EoOQtUVMg4cN",
+    "spotifyPopularity": 58,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.2M",
+    "tier": "Rising"
+  },
+  {
+    "id": "2ptmyXoL7poH6Zq62h1QT9",
+    "name": "Merle Haggard",
+    "image": "https://i.scdn.co/image/3c40c48783d62db32dff0bd510250d7532b856ee",
+    "followers": 1486733,
+    "spotifyId": "2ptmyXoL7poH6Zq62h1QT9",
+    "spotifyPopularity": 64,
+    "genres": [
+      "classic country",
+      "outlaw country",
+      "country",
+      "traditional country",
+      "honky tonk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "3XnO697XIus1M0cMuxZjos",
+    "name": "The Oak Ridge Boys",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb129833182b529b8874004db8",
+    "followers": 610668,
+    "spotifyId": "3XnO697XIus1M0cMuxZjos",
+    "spotifyPopularity": 55,
+    "genres": [
+      "classic country",
+      "christian country",
+      "southern gospel"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "610K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0bc7dhY6YXL35m1G0jVwuW",
+    "name": "Keith Whitley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb006482ef0fbbbdc43ef3f874",
+    "followers": 584747,
+    "spotifyId": "0bc7dhY6YXL35m1G0jVwuW",
+    "spotifyPopularity": 62,
+    "genres": [
+      "classic country",
+      "country",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "584K",
+    "tier": "Established"
+  },
+  {
+    "id": "4TPT9nwjRvEV49q7f8p4fy",
+    "name": "Alana Springsteen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4acf3cdc8af0a1e06e24e9de",
+    "followers": 94773,
+    "spotifyId": "4TPT9nwjRvEV49q7f8p4fy",
+    "spotifyPopularity": 56,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "94K",
+    "tier": "Rising"
+  },
+  {
+    "id": "68abRTdO4meYReMWHvBYb0",
+    "name": "Chris Lane",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb95354723d1b75de7e82ba875",
+    "followers": 1038908,
+    "spotifyId": "68abRTdO4meYReMWHvBYb0",
+    "spotifyPopularity": 58,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.0M",
+    "tier": "Rising"
+  },
+  {
+    "id": "218kRJZ7FJs0hWIk8Ynzhz",
+    "name": "Charlie Rich",
+    "image": "https://i.scdn.co/image/eae6b35a8a4765d6f5c85e4bae299df1f3c8ceb5",
+    "followers": 242662,
+    "spotifyId": "218kRJZ7FJs0hWIk8Ynzhz",
+    "spotifyPopularity": 52,
+    "genres": [
+      "classic country",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "242K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0ChjBYedhZTQnWZWQYg15U",
+    "name": "Bryan Martin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0eb99fb0fbb4ab136d507c86",
+    "followers": 236306,
+    "spotifyId": "0ChjBYedhZTQnWZWQYg15U",
+    "spotifyPopularity": 70,
+    "genres": [
+      "country",
+      "country rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "236K",
+    "tier": "Established"
+  },
+  {
+    "id": "34bhyY8jfKez7uKakMfy4y",
+    "name": "Maddie & Tae",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb678402a867ac24600bb197de",
+    "followers": 1243017,
+    "spotifyId": "34bhyY8jfKez7uKakMfy4y",
+    "spotifyPopularity": 61,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "3XlIhgydjvC4EniPFZT20j",
+    "name": "Trisha Yearwood",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb687b61bfdbd7fb0030c348b6",
+    "followers": 1230095,
+    "spotifyId": "3XlIhgydjvC4EniPFZT20j",
+    "spotifyPopularity": 60,
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "1mfDfLsMxYcOOZkzBxvSVW",
+    "name": "Cole Swindell",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaafa9cea3900bfae3dae1a4a",
+    "followers": 2531094,
+    "spotifyId": "1mfDfLsMxYcOOZkzBxvSVW",
+    "spotifyPopularity": 69,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "1dID9zgn0OV0Y8ud7Mh2tS",
+    "name": "Dustin Lynch",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6d5b0184359c9809c02db86a",
+    "followers": 2527681,
+    "spotifyId": "1dID9zgn0OV0Y8ud7Mh2tS",
+    "spotifyPopularity": 69,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "45rAZqRt5nUUMatQzk8qJu",
+    "name": "Johnny Lee",
+    "image": "https://i.scdn.co/image/08ceffdee93480895eb22b90a629d508aa102eb2",
+    "followers": 176204,
+    "spotifyId": "45rAZqRt5nUUMatQzk8qJu",
+    "spotifyPopularity": 54,
+    "genres": [
+      "classic country",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "176K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4Y8LpEiP4uKTP02lSYEWJV",
+    "name": "HIXTAPE",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb06643977ba6cf1b8792c2ad",
+    "followers": 112953,
+    "spotifyId": "4Y8LpEiP4uKTP02lSYEWJV",
+    "spotifyPopularity": 62,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "112K",
+    "tier": "Established"
+  },
+  {
+    "id": "502FY8XQYRxClWgolQ3Hf2",
+    "name": "Lynn Anderson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1726923c7fc167749b3cb0ef",
+    "followers": 155467,
+    "spotifyId": "502FY8XQYRxClWgolQ3Hf2",
+    "spotifyPopularity": 49,
+    "genres": [
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "155K",
+    "tier": "Rising"
+  },
+  {
+    "id": "25IG9fa7cbdmCIy3OnuH57",
+    "name": "The Chicks",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43d9d87bba466538f5c40901",
+    "followers": 1526466,
+    "spotifyId": "25IG9fa7cbdmCIy3OnuH57",
+    "spotifyPopularity": 69,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "7MSTO40bsb3DOJQT6xLsIc",
+    "name": "The Judds",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe1b0441661329062ac0a03f6",
+    "followers": 855237,
+    "spotifyId": "7MSTO40bsb3DOJQT6xLsIc",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classic country",
+      "country",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "855K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5q8HGNo0BjLWaTAhRtbwxa",
+    "name": "Brantley Gilbert",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb28402571625bf9e42a443e20",
+    "followers": 3027606,
+    "spotifyId": "5q8HGNo0BjLWaTAhRtbwxa",
+    "spotifyPopularity": 69,
+    "genres": [
+      "country",
+      "country rock",
+      "country hip hop",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "3.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "63wjVVauFUQ4gBw6QXTT5N",
+    "name": "Tyler Braden",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf1744f11af15789fe74cbd47",
+    "followers": 229126,
+    "spotifyId": "63wjVVauFUQ4gBw6QXTT5N",
+    "spotifyPopularity": 68,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "229K",
+    "tier": "Established"
+  },
+  {
+    "id": "46lEQmDJLJeyltECJYJv1Y",
+    "name": "Wyatt Flores",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb552db62a30b0cc7451a40848",
+    "followers": 423991,
+    "spotifyId": "46lEQmDJLJeyltECJYJv1Y",
+    "spotifyPopularity": 68,
+    "genres": [
+      "country",
+      "red dirt"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "423K",
+    "tier": "Established"
+  },
+  {
+    "id": "6IkfE2JyVoKwBZXvuytKX3",
+    "name": "Oliver Anthony Music",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc98f2b2e51b8b42a525942e5",
+    "followers": 1013278,
+    "spotifyId": "6IkfE2JyVoKwBZXvuytKX3",
+    "spotifyPopularity": 68,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "3iXeAZ8862AyoZ5ZGg800O",
+    "name": "Ole 60",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2da560bd3dee8f0c23384ed9",
+    "followers": 341595,
+    "spotifyId": "3iXeAZ8862AyoZ5ZGg800O",
+    "spotifyPopularity": 68,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "341K",
+    "tier": "Established"
+  },
+  {
+    "id": "1ZGTSMjK1D2HrpPTOh916U",
+    "name": "Josh Ross",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb013e91fc815060881036be02",
+    "followers": 165020,
+    "spotifyId": "1ZGTSMjK1D2HrpPTOh916U",
+    "spotifyPopularity": 68,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "165K",
+    "tier": "Established"
+  },
+  {
+    "id": "7lDVEkjIURPMyUYwoQRrpw",
+    "name": "Ryan Hurd",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4d0de41b152a8225a989a557",
+    "followers": 264750,
+    "spotifyId": "7lDVEkjIURPMyUYwoQRrpw",
+    "spotifyPopularity": 55,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "264K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6Ff2omMMZOd8FWNqb980Ol",
+    "name": "Waylon Wyatt",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7731748498f58eea03d95a2d",
+    "followers": 290380,
+    "spotifyId": "6Ff2omMMZOd8FWNqb980Ol",
+    "spotifyPopularity": 68,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "290K",
+    "tier": "Established"
+  },
+  {
+    "id": "0AtQAehoytV7j1r4O16dRb",
+    "name": "Cooper Alan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9addf467e1d1535310ed7df3",
+    "followers": 663485,
+    "spotifyId": "0AtQAehoytV7j1r4O16dRb",
+    "spotifyPopularity": 67,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "663K",
+    "tier": "Established"
+  },
+  {
+    "id": "4SfGzWmeoNPKIOmiyc7Pav",
+    "name": "Flatland Cavalry",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd6ad0325839122b381a768b9",
+    "followers": 351005,
+    "spotifyId": "4SfGzWmeoNPKIOmiyc7Pav",
+    "spotifyPopularity": 67,
+    "genres": [
+      "texas country",
+      "red dirt",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "351K",
+    "tier": "Established"
+  },
+  {
+    "id": "0KlSW3j5fUEfej47FOrBMr",
+    "name": "Artists Of Then, Now & Forever",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb41ad0628e8ca64e3acd22c36",
+    "followers": 27531,
+    "spotifyId": "0KlSW3j5fUEfej47FOrBMr",
+    "spotifyPopularity": 41,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "27K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0EyZDKtc41e4A3a3v69MxD",
+    "name": "Muscadine Bloodline",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba4ac0ece14f727e09f6277f9",
+    "followers": 374265,
+    "spotifyId": "0EyZDKtc41e4A3a3v69MxD",
+    "spotifyPopularity": 67,
+    "genres": [
+      "country",
+      "red dirt",
+      "texas country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "374K",
+    "tier": "Established"
+  },
+  {
+    "id": "7HTLVyjNf0VRxfIgNcfRRH",
+    "name": "Chase Matthew",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb24d3b8b73d7948f73d3c6393",
+    "followers": 432641,
+    "spotifyId": "7HTLVyjNf0VRxfIgNcfRRH",
+    "spotifyPopularity": 67,
+    "genres": [
+      "country",
+      "country hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "432K",
+    "tier": "Established"
+  },
+  {
+    "id": "6ZV6lGY0prbqpTD0Md8i29",
+    "name": "Scotty McCreery",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb64d476b3bf569a20b4089f6d",
+    "followers": 1120093,
+    "spotifyId": "6ZV6lGY0prbqpTD0Md8i29",
+    "spotifyPopularity": 67,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "3ltFy7g6KKQPPttsdOMlq3",
+    "name": "Jo Dee Messina",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe1efcb9886153714d68d7a70",
+    "followers": 840567,
+    "spotifyId": "3ltFy7g6KKQPPttsdOMlq3",
+    "spotifyPopularity": 61,
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "840K",
+    "tier": "Established"
+  },
+  {
+    "id": "3vDpQbGnzRbRVirXlfQagB",
+    "name": "Sturgill Simpson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1791f31121a24318e91cbda3",
+    "followers": 1000835,
+    "spotifyId": "3vDpQbGnzRbRVirXlfQagB",
+    "spotifyPopularity": 67,
+    "genres": [
+      "outlaw country",
+      "alt country",
+      "bluegrass",
+      "americana",
+      "red dirt",
+      "country",
+      "newgrass"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "0dlwjJe4kg9TgOMN184bJF",
+    "name": "Mark Wills",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7ef56733cd4f1ec59ff1f003",
+    "followers": 344029,
+    "spotifyId": "0dlwjJe4kg9TgOMN184bJF",
+    "spotifyPopularity": 50,
+    "genres": [
+      "country",
+      "classic country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "344K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1v3tdpIdBSW14rHUfiEVOv",
+    "name": "Lauren Alaina",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc69310e26d6aad2b91557e65",
+    "followers": 721246,
+    "spotifyId": "1v3tdpIdBSW14rHUfiEVOv",
+    "spotifyPopularity": 66,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "721K",
+    "tier": "Established"
+  },
+  {
+    "id": "1fMdO9vLUd6wW4jbMeNiup",
+    "name": "Mel McDaniel",
+    "image": "https://i.scdn.co/image/5560b15f8135e1d52ea036c478940cbdbbd589fd",
+    "followers": 233740,
+    "spotifyId": "1fMdO9vLUd6wW4jbMeNiup",
+    "spotifyPopularity": 58,
+    "genres": [
+      "classic country",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "233K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3sUpZrkehiGBaMzs2h9Mmc",
+    "name": "Corey Kent",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdf557655038c816e3bbdb46b",
+    "followers": 257589,
+    "spotifyId": "3sUpZrkehiGBaMzs2h9Mmc",
+    "spotifyPopularity": 66,
+    "genres": [
+      "country",
+      "texas country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "257K",
+    "tier": "Established"
+  },
+  {
+    "id": "3tkZthBATD0S45hm1DmB2O",
+    "name": "Sammy Kershaw",
+    "image": "https://i.scdn.co/image/3d269be9b0dc99650e8a42a0ecd715086bb21e56",
+    "followers": 676755,
+    "spotifyId": "3tkZthBATD0S45hm1DmB2O",
+    "spotifyPopularity": 58,
+    "genres": [
+      "classic country",
+      "country",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "676K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2BQVRw9md4UKcGUrDXABCD",
+    "name": "Tracy Lawrence",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba90ba2a80781238c8dc268d8",
+    "followers": 1269226,
+    "spotifyId": "2BQVRw9md4UKcGUrDXABCD",
+    "spotifyPopularity": 65,
+    "genres": [
+      "country",
+      "classic country",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "4BclNkZtAUq1YrYNzye3N7",
+    "name": "Garth Brooks",
+    "image": "https://i.scdn.co/image/ab6772690000c46c0e2b77151ee54685fdf75ab5",
+    "followers": 1369972,
+    "spotifyId": "4BclNkZtAUq1YrYNzye3N7",
+    "spotifyPopularity": 54,
+    "genres": [
+      "classic country",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.4M",
+    "tier": "Rising"
+  },
+  {
+    "id": "2qgvmDsc4jrqbAbjq1HGM2",
+    "name": "Rodney Atkins",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9347f2fc194f40e5afaad3d",
+    "followers": 1997091,
+    "spotifyId": "2qgvmDsc4jrqbAbjq1HGM2",
+    "spotifyPopularity": 66,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "2.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "3bGXaFVQLASmDMdjjeJr8a",
+    "name": "Montgomery Gentry",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb29e385513acaec4c6bd8e97c",
+    "followers": 1515140,
+    "spotifyId": "3bGXaFVQLASmDMdjjeJr8a",
+    "spotifyPopularity": 60,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Country",
+    "likes": "1.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "0a1gHP0HAqALbEyxaD5Ngn",
+    "name": "Rascal Flatts",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6772748e5cd3c3de721f8c03",
+    "followers": 3660809,
+    "spotifyId": "0a1gHP0HAqALbEyxaD5Ngn",
+    "spotifyPopularity": 72,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Country",
+    "likes": "3.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "3grHWM9bx2E9vwJCdlRv9O",
+    "name": "Kenny Chesney",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5de44c9558a47909debca2cd",
+    "followers": 4825248,
+    "spotifyId": "3grHWM9bx2E9vwJCdlRv9O",
+    "spotifyPopularity": 76,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "k-pop",
+    "primaryGenre": "Country",
+    "likes": "4.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "4xFUf1FHVy696Q1JQZMTRj",
+    "name": "Carrie Underwood",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69084d0b776e725025329043",
+    "followers": 6119650,
+    "spotifyId": "4xFUf1FHVy696Q1JQZMTRj",
+    "spotifyPopularity": 73,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "k-pop",
+    "primaryGenre": "Country",
+    "likes": "6.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "1VGRi6hlsYcOhKut02Tqkt",
+    "name": "Charlie Robison",
+    "image": "https://i.scdn.co/image/5016a986979d181a24b3139f0b91ee7df109fb11",
+    "followers": 95916,
+    "spotifyId": "1VGRi6hlsYcOhKut02Tqkt",
+    "spotifyPopularity": 47,
+    "genres": [
+      "texas country",
+      "red dirt",
+      "alt country",
+      "outlaw country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Country",
+    "likes": "95K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2Hbxyk7qJ22i8wFEqgM3vC",
+    "name": "Charles Kelley",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9254bc6398cf846c3ed8ed3f",
+    "followers": 24700,
+    "spotifyId": "2Hbxyk7qJ22i8wFEqgM3vC",
+    "spotifyPopularity": 44,
+    "genres": [
+      "country",
+      "pop country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Country",
+    "likes": "24K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1nYvElumwIjMkOczb985bq",
+    "name": "Charlie Worsham",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb516a7cb78770831c5c9a8166",
+    "followers": 37226,
+    "spotifyId": "1nYvElumwIjMkOczb985bq",
+    "spotifyPopularity": 41,
+    "genres": [
+      "christian country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Country",
+    "likes": "37K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5DOQ7jQ2pnXaiJiIoiEQjz",
+    "name": "Charles Esten",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4d57ae65066eb549e2567c85",
+    "followers": 33540,
+    "spotifyId": "5DOQ7jQ2pnXaiJiIoiEQjz",
+    "spotifyPopularity": 40,
+    "genres": [
+      "christian country",
+      "pop country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Country",
+    "likes": "33K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4AgQTHagFdBq8VL791lSXz",
+    "name": "Keith Anderson",
+    "image": "https://i.scdn.co/image/47a16192ec41f2f0d05c0111ef49c21724d27bc6",
+    "followers": 387631,
+    "spotifyId": "4AgQTHagFdBq8VL791lSXz",
+    "spotifyPopularity": 46,
+    "genres": [
+      "country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hit",
+    "primaryGenre": "Country",
+    "likes": "387K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0Xi59sEw38vRvwleSAVqoo",
+    "name": "Marty Robbins",
+    "image": "https://i.scdn.co/image/55992126e2a79d6dad67c4e9508811ba19abc586",
+    "followers": 610184,
+    "spotifyId": "0Xi59sEw38vRvwleSAVqoo",
+    "spotifyPopularity": 64,
+    "genres": [
+      "classic country",
+      "outlaw country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Country",
+    "likes": "610K",
+    "tier": "Established"
+  },
+  {
+    "id": "6e7QpHYqEiyJGiM98IysLa",
+    "name": "The Highwaymen",
+    "image": "https://i.scdn.co/image/21910b77cbb542fcc60962aa4c6f33cdc86e62ac",
+    "followers": 791001,
+    "spotifyId": "6e7QpHYqEiyJGiM98IysLa",
+    "spotifyPopularity": 63,
+    "genres": [
+      "outlaw country",
+      "classic country",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Country",
+    "likes": "791K",
+    "tier": "Established"
+  },
+  {
+    "id": "2Ev0e8GUIX4u7d9etNLTXg",
+    "name": "Jim Reeves",
+    "image": "https://i.scdn.co/image/c39b7fb88bc85c058de0c1151184e6a7f8afe98b",
+    "followers": 485311,
+    "spotifyId": "2Ev0e8GUIX4u7d9etNLTXg",
+    "spotifyPopularity": 57,
+    "genres": [
+      "classic country",
+      "christian country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Country",
+    "likes": "485K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4K3DSWzghkGUcQOEZG9gpo",
+    "name": "Chris LeDoux",
+    "image": "https://i.scdn.co/image/7b98381749ce6e3bf5ffba4667fdecdc15ff9155",
+    "followers": 538879,
+    "spotifyId": "4K3DSWzghkGUcQOEZG9gpo",
+    "spotifyPopularity": 56,
+    "genres": [
+      "classic country",
+      "country",
+      "traditional country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Country",
+    "likes": "538K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1RP2UpEaRzkF0Id3JigqD8",
+    "name": "Roger Miller",
+    "image": "https://i.scdn.co/image/7ec2feb33ed02ee90b03f5926dbc788b8a4d6e03",
+    "followers": 292869,
+    "spotifyId": "1RP2UpEaRzkF0Id3JigqD8",
+    "spotifyPopularity": 55,
+    "genres": [
+      "classic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vintage",
+    "primaryGenre": "Country",
+    "likes": "292K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3x0LgZSPgNh91O6NBMtqTs",
+    "name": "The Sadies",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6796278afc69fcc26be714a2",
+    "followers": 28446,
+    "spotifyId": "3x0LgZSPgNh91O6NBMtqTs",
+    "spotifyPopularity": 37,
+    "genres": [
+      "alt country",
+      "americana"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "sad",
+    "primaryGenre": "Country",
+    "likes": "28K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0XKOBt59crntr7HQXXO8Yz",
+    "name": "Brooks & Dunn",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3ef457349ecbd1285b4a0d81",
+    "followers": 3269305,
+    "spotifyId": "0XKOBt59crntr7HQXXO8Yz",
+    "spotifyPopularity": 76,
+    "genres": [
+      "country",
+      "classic country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Country",
+    "likes": "3.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "3b8QkneNDz4JHKKKlLgYZg",
+    "name": "Florida Georgia Line",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaa2d9bd207a62adc3edf6631",
+    "followers": 5566419,
+    "spotifyId": "3b8QkneNDz4JHKKKlLgYZg",
+    "spotifyPopularity": 76,
+    "genres": [
+      "country",
+      "pop country",
+      "acoustic country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Country",
+    "likes": "5.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "32WkQRZEVKSzVAAYqukAEA",
+    "name": "Lady A",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb88ef2b30e7a0cb9d1af31d7a",
+    "followers": 3719635,
+    "spotifyId": "32WkQRZEVKSzVAAYqukAEA",
+    "spotifyPopularity": 70,
+    "genres": [
+      "country",
+      "pop country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Country",
+    "likes": "3.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "0fiWOxhsBsQQvFDtxUQWo0",
+    "name": "Brett Young",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf2cf0ea699959926278d73c5",
+    "followers": 1231358,
+    "spotifyId": "0fiWOxhsBsQQvFDtxUQWo0",
+    "spotifyPopularity": 68,
+    "genres": [
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Country",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "0BLh5cn4nqfqoVUREx3hLj",
+    "name": "Golden Smog",
+    "image": "https://i.scdn.co/image/7c1185063d4e35b1af30215ac40b887a05d0da87",
+    "followers": 28829,
+    "spotifyId": "0BLh5cn4nqfqoVUREx3hLj",
+    "spotifyPopularity": 33,
+    "genres": [
+      "alt country",
+      "americana",
+      "roots rock",
+      "power pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Country",
+    "likes": "28K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0svyIX7Xu3DVMkrOtB88i6",
+    "name": "Diamond Rio",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb721962cd279c349ed11c456a",
+    "followers": 1017147,
+    "spotifyId": "0svyIX7Xu3DVMkrOtB88i6",
+    "spotifyPopularity": 60,
+    "genres": [
+      "classic country",
+      "country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "diamond",
+    "primaryGenre": "Country",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "0Ht6v1kud5bXl4mp8eaDjj",
+    "name": "Louie TheSinger",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb03da3d1f33a654802813b7e0",
+    "followers": 83274,
+    "spotifyId": "0Ht6v1kud5bXl4mp8eaDjj",
+    "spotifyPopularity": 46,
+    "genres": [
+      "latin country",
+      "country hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Country",
+    "likes": "83K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4j7DrazfBZLLD0OrVoAtEe",
+    "name": "Wednesday",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcbf22720296d758d8b373a85",
+    "followers": 103656,
+    "spotifyId": "4j7DrazfBZLLD0OrVoAtEe",
+    "spotifyPopularity": 54,
+    "genres": [
+      "alt country"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "shoegaze",
+    "primaryGenre": "Country",
+    "likes": "103K",
+    "tier": "Rising"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "4LEiUm1SRbFMgfqnQTwUbQ",
+    "name": "Bon Iver",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1a0c1f04c95539fd55ef0ebb",
+    "followers": 3906463,
+    "spotifyId": "4LEiUm1SRbFMgfqnQTwUbQ",
+    "spotifyPopularity": 78,
+    "genres": [
+      "indie folk"
+    ],
+    "primaryGenre": "indie folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "3.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5sXaGoRLSpd7VeyZrLkKwt",
+    "name": "Gregory Alan Isakov",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4528d0f9bb51b241561a16f3",
+    "followers": 1110135,
+    "spotifyId": "5sXaGoRLSpd7VeyZrLkKwt",
+    "spotifyPopularity": 73,
+    "genres": [
+      "indie folk",
+      "folk",
+      "folk pop"
+    ],
+    "primaryGenre": "indie folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "1.1M",
+    "tier": "Popular"
+  }
+]

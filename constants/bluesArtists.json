@@ -1,0 +1,136 @@
+[
+  {
+    "id": "6PAt558ZEZl0DmdXlnjMgD",
+    "name": "Eric Clapton",
+    "image": "https://i.scdn.co/image/ab6772690000c46ca60e8f215103f6841d8a83f0",
+    "followers": 6476204,
+    "spotifyId": "6PAt558ZEZl0DmdXlnjMgD",
+    "spotifyPopularity": 75,
+    "genres": [
+      "blues",
+      "blues rock",
+      "classic rock"
+    ],
+    "primaryGenre": "blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "6.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5fsDcuclIe8ZiBD5P787K1",
+    "name": "Stevie Ray Vaughan",
+    "image": "https://i.scdn.co/image/1de60c936683320769a1bfb6fba7f75902859085",
+    "followers": 2593349,
+    "spotifyId": "5fsDcuclIe8ZiBD5P787K1",
+    "spotifyPopularity": 64,
+    "genres": [
+      "blues",
+      "blues rock",
+      "classic blues",
+      "southern rock",
+      "modern blues"
+    ],
+    "primaryGenre": "blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "2.6M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5xLSa7l4IV1gsQfhAMvl0U",
+    "name": "B.B. King",
+    "image": "https://i.scdn.co/image/ffb3ff26238fe635a230bb0feb59dd0a5b209b6f",
+    "followers": 2836819,
+    "spotifyId": "5xLSa7l4IV1gsQfhAMvl0U",
+    "spotifyPopularity": 64,
+    "genres": [
+      "blues",
+      "classic blues",
+      "jazz blues",
+      "soul blues",
+      "blues rock"
+    ],
+    "primaryGenre": "blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "2.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "06nsZ3qSOYZ2hPVIMcr1IN",
+    "name": "J.J. Cale",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbe1b2ad861e0148a1540b107",
+    "followers": 836657,
+    "spotifyId": "06nsZ3qSOYZ2hPVIMcr1IN",
+    "spotifyPopularity": 63,
+    "genres": [
+      "blues",
+      "blues rock",
+      "roots rock"
+    ],
+    "primaryGenre": "blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "836.7K",
+    "tier": "Rising"
+  },
+  {
+    "id": "23wr9RJZg0PmYvVFyNkQ4j",
+    "name": "Gary Moore",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb445df6e3ccdb1684b75ab7b6",
+    "followers": 791973,
+    "spotifyId": "23wr9RJZg0PmYvVFyNkQ4j",
+    "spotifyPopularity": 62,
+    "genres": [
+      "blues",
+      "blues rock"
+    ],
+    "primaryGenre": "blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "792.0K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4KDyYWR7IpxZ7xrdYbKrqY",
+    "name": "Bonnie Raitt",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe86f788af4e127154da1257f",
+    "followers": 796373,
+    "spotifyId": "4KDyYWR7IpxZ7xrdYbKrqY",
+    "spotifyPopularity": 61,
+    "genres": [
+      "blues"
+    ],
+    "primaryGenre": "blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "796.4K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2SNzxY1OsSCHBLVi77mpPQ",
+    "name": "Joe Bonamassa",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebef3c8d11a45e9cdf3bd5c202",
+    "followers": 983206,
+    "spotifyId": "2SNzxY1OsSCHBLVi77mpPQ",
+    "spotifyPopularity": 61,
+    "genres": [
+      "blues",
+      "blues rock",
+      "modern blues"
+    ],
+    "primaryGenre": "blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "983.2K",
+    "tier": "Rising"
+  }
+]

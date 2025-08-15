@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2nTjd2lNo1GVEfXM3bCnsh",
+    "name": "The Teskey Brothers",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbaf7e1f882e784750e6d7745",
+    "followers": 995050,
+    "spotifyId": "2nTjd2lNo1GVEfXM3bCnsh",
+    "spotifyPopularity": 68,
+    "genres": [
+      "retro soul",
+      "soul blues",
+      "blues"
+    ],
+    "primaryGenre": "retro soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "995.0K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4KDyYWR7IpxZ7xrdYbKrqY",
+    "name": "Bonnie Raitt",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe86f788af4e127154da1257f",
+    "followers": 796373,
+    "spotifyId": "4KDyYWR7IpxZ7xrdYbKrqY",
+    "spotifyPopularity": 61,
+    "genres": [
+      "blues"
+    ],
+    "primaryGenre": "blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "796.4K",
+    "tier": "Rising"
+  }
+]

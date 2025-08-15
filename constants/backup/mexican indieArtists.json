@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1ZdhAl62G6ZlEKqIwUAfZR",
+    "name": "Enjambre",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb41b3fd8e2fcd39e259146ff9",
+    "followers": 1886655,
+    "spotifyId": "1ZdhAl62G6ZlEKqIwUAfZR",
+    "spotifyPopularity": 74,
+    "genres": [
+      "mexican indie",
+      "rock en español",
+      "mexican rock",
+      "latin indie",
+      "latin rock"
+    ],
+    "primaryGenre": "mexican indie",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "1.9M",
+    "tier": "Popular"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "18ssEKS9fXX1nbMg7mAzaU",
+    "name": "Rocket Mike",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd85736c090fd607df92aaff5",
+    "followers": 764,
+    "spotifyId": "18ssEKS9fXX1nbMg7mAzaU",
+    "spotifyPopularity": 41,
+    "genres": [
+      "french indie pop"
+    ],
+    "primaryGenre": "french indie pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "764",
+    "tier": "Emerging"
+  }
+]

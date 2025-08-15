@@ -1,0 +1,21 @@
+[
+  {
+    "id": "60d24wfXkVzDSfLS6hyCjZ",
+    "name": "Martin Garrix",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf5b8ee60f1f4ee3453aba40b",
+    "followers": 15155774,
+    "spotifyId": "60d24wfXkVzDSfLS6hyCjZ",
+    "spotifyPopularity": 79,
+    "genres": [
+      "edm",
+      "electronica",
+      "progressive house"
+    ],
+    "primaryGenre": "progressive house",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "",
+    "likes": "15.2M",
+    "tier": "Top"
+  }
+]

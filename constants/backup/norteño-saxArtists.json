@@ -1,0 +1,22 @@
+[
+  {
+    "id": "2I7I7undHMppfowRViQQ1p",
+    "name": "Keith Nieto",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb66e1a2d9e580fc7e392fadec",
+    "followers": 33991,
+    "spotifyId": "2I7I7undHMppfowRViQQ1p",
+    "spotifyPopularity": 54,
+    "genres": [
+      "norteño-sax",
+      "latin country",
+      "norteño",
+      "cumbia norteña"
+    ],
+    "primaryGenre": "norteño-sax",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "34.0K",
+    "tier": "Emerging"
+  }
+]

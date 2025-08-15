@@ -1,0 +1,21 @@
+[
+  {
+    "id": "0EdvGhlC1FkGItLOWQzG4J",
+    "name": "Sublime",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe726280500259dbdb97a8be4",
+    "followers": 3319431,
+    "spotifyId": "0EdvGhlC1FkGItLOWQzG4J",
+    "spotifyPopularity": 77,
+    "genres": [
+      "reggae rock",
+      "ska punk",
+      "ska"
+    ],
+    "primaryGenre": "reggae rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "3.3M",
+    "tier": "Popular"
+  }
+]

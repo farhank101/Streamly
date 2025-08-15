@@ -1,0 +1,1942 @@
+[
+  {
+    "id": "6WxegST7d2jCYjq7SR8Bds",
+    "name": "Kat Edmonson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb60dd8bdc3ad27d3eae1c21d5",
+    "followers": 61952,
+    "spotifyId": "6WxegST7d2jCYjq7SR8Bds",
+    "spotifyPopularity": 49,
+    "genres": [
+      "vocal jazz",
+      "french jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Jazz",
+    "likes": "61K",
+    "tier": "Rising"
+  },
+  {
+    "id": "55KBAeJzZBcJ5AhPW5OOpy",
+    "name": "Soul Legend",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb91575e8bdba2c0746fd16e2d",
+    "followers": 12670,
+    "spotifyId": "55KBAeJzZBcJ5AhPW5OOpy",
+    "spotifyPopularity": 50,
+    "genres": [
+      "jazz house",
+      "lo-fi house",
+      "jazz beats"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Jazz",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1p8OhmCL3zTXnRRG9z97Fp",
+    "name": "Soul Wun",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb863f605d2ead20551f8d96bc",
+    "followers": 10313,
+    "spotifyId": "1p8OhmCL3zTXnRRG9z97Fp",
+    "spotifyPopularity": 49,
+    "genres": [
+      "jazz house",
+      "lo-fi house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Jazz",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "42gnrsSSKKNNmfAJ0o3oyN",
+    "name": "Soul Food Horns",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb23dde88a3268a1fe7f58f8a7",
+    "followers": 10919,
+    "spotifyId": "42gnrsSSKKNNmfAJ0o3oyN",
+    "spotifyPopularity": 49,
+    "genres": [
+      "jazz beats",
+      "lo-fi beats",
+      "lo-fi",
+      "lo-fi hip hop",
+      "jazz rap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Jazz",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5E2lFPYLaaJMppQA2qDkur",
+    "name": "Soulstance",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba6445d83d1c1b2f0c84db365",
+    "followers": 11765,
+    "spotifyId": "5E2lFPYLaaJMppQA2qDkur",
+    "spotifyPopularity": 43,
+    "genres": [
+      "nu jazz",
+      "acid jazz",
+      "jazz house",
+      "jazz blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Jazz",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2xcyMeQhPSRjXrSVZDkVGo",
+    "name": "The Bahama Soul Club",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb380485463f2adbc0e4d95535",
+    "followers": 57092,
+    "spotifyId": "2xcyMeQhPSRjXrSVZDkVGo",
+    "spotifyPopularity": 55,
+    "genres": [
+      "nu jazz",
+      "jazz house",
+      "acid jazz",
+      "latin jazz",
+      "jazz funk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Jazz",
+    "likes": "57K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7G1GBhoKtEPnP86X2PvEYO",
+    "name": "Nina Simone",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
+    "followers": 3181188,
+    "spotifyId": "7G1GBhoKtEPnP86X2PvEYO",
+    "spotifyPopularity": 71,
+    "genres": [
+      "vocal jazz",
+      "jazz blues",
+      "soul",
+      "soul jazz",
+      "jazz",
+      "blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Jazz",
+    "likes": "3.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "2dJTa3mUidZAO9sKcY72tK",
+    "name": "Ben L'Oncle Soul",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb19216d88b665a54069ecf690",
+    "followers": 305300,
+    "spotifyId": "2dJTa3mUidZAO9sKcY72tK",
+    "spotifyPopularity": 55,
+    "genres": [
+      "jazz blues",
+      "indie soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Jazz",
+    "likes": "305K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1eYhYunlNJlDoQhtYBvPsi",
+    "name": "Ray Charles",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6fc460f10177fa38af69b8bf",
+    "followers": 2570328,
+    "spotifyId": "1eYhYunlNJlDoQhtYBvPsi",
+    "spotifyPopularity": 71,
+    "genres": [
+      "jazz blues",
+      "soul",
+      "soul blues",
+      "blues",
+      "classic soul",
+      "vocal jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Jazz",
+    "likes": "2.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "6mWEaOFdcN3s30GuFWruGO",
+    "name": "Soulive",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaefe07a1264b26e627054dbc",
+    "followers": 66567,
+    "spotifyId": "6mWEaOFdcN3s30GuFWruGO",
+    "spotifyPopularity": 37,
+    "genres": [
+      "jazz funk",
+      "acid jazz",
+      "jam band",
+      "soul jazz",
+      "jazz fusion"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "Jazz",
+    "likes": "66K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2b9qemp1Y8NuEbY4RMYHY1",
+    "name": "Jazzy Coffee",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe2850af480173596cefd48c1",
+    "followers": 11889,
+    "spotifyId": "2b9qemp1Y8NuEbY4RMYHY1",
+    "spotifyPopularity": 65,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "11K",
+    "tier": "Established"
+  },
+  {
+    "id": "2hHUcumhJFUHQKg5h3jI1Y",
+    "name": "Jazz Lounge Bar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2e5c468838f22ed709f2f79c",
+    "followers": 160082,
+    "spotifyId": "2hHUcumhJFUHQKg5h3jI1Y",
+    "spotifyPopularity": 55,
+    "genres": [
+      "jazz",
+      "lounge",
+      "jazz blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "160K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3k3RY7kR8f0vp8Cq27P141",
+    "name": "berlioz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3a9ab7733c4e6f95251a806b",
+    "followers": 807327,
+    "spotifyId": "3k3RY7kR8f0vp8Cq27P141",
+    "spotifyPopularity": 67,
+    "genres": [
+      "jazz house",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "807K",
+    "tier": "Established"
+  },
+  {
+    "id": "0Ts3DgksvL8dbF6mUAPFNC",
+    "name": "Jazzwaves",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb58331a6cd77064c59f696e3f",
+    "followers": 19558,
+    "spotifyId": "0Ts3DgksvL8dbF6mUAPFNC",
+    "spotifyPopularity": 54,
+    "genres": [
+      "jazz house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "19K",
+    "tier": "Rising"
+  },
+  {
+    "id": "23Ht8xXhnKJozHsOBDehZw",
+    "name": "Jazz Fruits Music",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe15cee336d5d15a1e276826b",
+    "followers": 69209,
+    "spotifyId": "23Ht8xXhnKJozHsOBDehZw",
+    "spotifyPopularity": 51,
+    "genres": [
+      "jazz",
+      "jazz beats",
+      "lo-fi"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "69K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0nTErwSOllrcUWt3knOG2T",
+    "name": "Jazzanova",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb045a00f48234df4d404d14e2",
+    "followers": 111813,
+    "spotifyId": "0nTErwSOllrcUWt3knOG2T",
+    "spotifyPopularity": 46,
+    "genres": [
+      "nu jazz",
+      "acid jazz",
+      "trip hop",
+      "jazz funk",
+      "downtempo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "111K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0jq1z5MQSlFtvpbnLzeEul",
+    "name": "Jazzbois",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba7049bc9d9c087a415cb7fd3",
+    "followers": 40600,
+    "spotifyId": "0jq1z5MQSlFtvpbnLzeEul",
+    "spotifyPopularity": 46,
+    "genres": [
+      "jazz house",
+      "nu jazz",
+      "jazz beats",
+      "jazz rap",
+      "indie jazz",
+      "jazz fusion"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "40K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3Bhgbs9kIwl8SuU0eIqN6b",
+    "name": "The Crusaders",
+    "image": "https://i.scdn.co/image/a9da555a5a35053743972b8595aad7e242f73092",
+    "followers": 137424,
+    "spotifyId": "3Bhgbs9kIwl8SuU0eIqN6b",
+    "spotifyPopularity": 44,
+    "genres": [
+      "jazz funk",
+      "jazz fusion",
+      "smooth jazz",
+      "soul jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "137K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4pscokdOfijCHyRyVc9N4k",
+    "name": "Jazzamor",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb40584978456b881010dbf328",
+    "followers": 33224,
+    "spotifyId": "4pscokdOfijCHyRyVc9N4k",
+    "spotifyPopularity": 41,
+    "genres": [
+      "nu jazz",
+      "lounge",
+      "acid jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "33K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3avdUekEuUcWJDjYZimuED",
+    "name": "Jazz Funk Soul",
+    "image": "https://i.scdn.co/image/ab6772690000c46cb769c4cb8dda95af651219b1",
+    "followers": 19189,
+    "spotifyId": "3avdUekEuUcWJDjYZimuED",
+    "spotifyPopularity": 39,
+    "genres": [
+      "smooth jazz",
+      "jazz funk",
+      "jazz fusion",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6J7biCazzYhU3gM9j1wfid",
+    "name": "Jamiroquai",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7e6dca959714339b69e9718d",
+    "followers": 2690141,
+    "spotifyId": "6J7biCazzYhU3gM9j1wfid",
+    "spotifyPopularity": 72,
+    "genres": [
+      "acid jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "19eLuQmk9aCobbVDHc6eek",
+    "name": "Louis Armstrong",
+    "image": "https://i.scdn.co/image/ab6772690000c46c53b6519baafe8f4d6135453e",
+    "followers": 3188889,
+    "spotifyId": "19eLuQmk9aCobbVDHc6eek",
+    "spotifyPopularity": 71,
+    "genres": [
+      "jazz",
+      "swing music",
+      "big band",
+      "vocal jazz",
+      "jazz blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "3.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "5AZrLfKOBcYdmSCgAFq395",
+    "name": "Jazz Instrumental Chill",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb11211ff81b92f75ece77f751",
+    "followers": 15545,
+    "spotifyId": "5AZrLfKOBcYdmSCgAFq395",
+    "spotifyPopularity": 37,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3yKoHgjtyenCOIRaD2Gghu",
+    "name": "Cafe Music BGM channel",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9d9f79c6a9a14c98ef467f4",
+    "followers": 277163,
+    "spotifyId": "3yKoHgjtyenCOIRaD2Gghu",
+    "spotifyPopularity": 70,
+    "genres": [
+      "jazz",
+      "bossa nova"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "277K",
+    "tier": "Established"
+  },
+  {
+    "id": "3TMLgJUsDIxI4CShGh8vYM",
+    "name": "Jazztronik",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb877f56119fe8657b9e1dd69c",
+    "followers": 56649,
+    "spotifyId": "3TMLgJUsDIxI4CShGh8vYM",
+    "spotifyPopularity": 36,
+    "genres": [
+      "nu jazz",
+      "j-r&b",
+      "shibuya-kei",
+      "acid jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "56K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5V0MlUE1Bft0mbLlND7FJz",
+    "name": "Ella Fitzgerald",
+    "image": "https://i.scdn.co/image/3c1d23141059785c8a863137d176319329dc17ef",
+    "followers": 2694850,
+    "spotifyId": "5V0MlUE1Bft0mbLlND7FJz",
+    "spotifyPopularity": 69,
+    "genres": [
+      "vocal jazz",
+      "jazz",
+      "swing music",
+      "jazz blues",
+      "big band",
+      "christmas"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "4N8BwYTEC6XqykGvXXlmfv",
+    "name": "George Benson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb487b00fa17362b8eab3b16c8",
+    "followers": 931949,
+    "spotifyId": "4N8BwYTEC6XqykGvXXlmfv",
+    "spotifyPopularity": 68,
+    "genres": [
+      "smooth jazz",
+      "yacht rock",
+      "jazz funk",
+      "soul jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "931K",
+    "tier": "Established"
+  },
+  {
+    "id": "2ThUOWiiWP3YdZqs4WYNOi",
+    "name": "Smooth Jazz All Stars",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba0848546a6731ae72cbadc6a",
+    "followers": 57113,
+    "spotifyId": "2ThUOWiiWP3YdZqs4WYNOi",
+    "spotifyPopularity": 48,
+    "genres": [
+      "smooth jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "57K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0vTVU0KH0CVzijsoKGsTPl",
+    "name": "Barry Can't Swim",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcc2884462ff3f5ca05c2c181",
+    "followers": 265313,
+    "spotifyId": "0vTVU0KH0CVzijsoKGsTPl",
+    "spotifyPopularity": 68,
+    "genres": [
+      "jazz house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "265K",
+    "tier": "Established"
+  },
+  {
+    "id": "5pGF8DcI0mebqLeVLlannM",
+    "name": "Manhattan Jazz Quartett",
+    "image": "https://i.scdn.co/image/ab67616d0000b27345639500371df1dedee2dd0a",
+    "followers": 11688,
+    "spotifyId": "5pGF8DcI0mebqLeVLlannM",
+    "spotifyPopularity": 48,
+    "genres": [
+      "vocal jazz",
+      "bossa nova",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6I3M904Y9IwgDjrQ9pANiB",
+    "name": "Kenny G",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfce79bf01d99f9434108b56e",
+    "followers": 1244442,
+    "spotifyId": "6I3M904Y9IwgDjrQ9pANiB",
+    "spotifyPopularity": 67,
+    "genres": [
+      "smooth jazz",
+      "christmas"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "2hGh5VOeeqimQFxqXvfCUf",
+    "name": "John Coltrane",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb73c7f7505c1af82929ec41df",
+    "followers": 1800303,
+    "spotifyId": "2hGh5VOeeqimQFxqXvfCUf",
+    "spotifyPopularity": 67,
+    "genres": [
+      "jazz",
+      "hard bop",
+      "free jazz",
+      "bebop",
+      "cool jazz",
+      "jazz blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "2KlMFqKbIT56GASrI47IsY",
+    "name": "New York Jazz Lounge",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb344ae6176104a079ef8cffb5",
+    "followers": 59587,
+    "spotifyId": "2KlMFqKbIT56GASrI47IsY",
+    "spotifyPopularity": 51,
+    "genres": [
+      "jazz",
+      "jazz funk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "59K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7HQFACr4ySlnAI9hM9LIF9",
+    "name": "The Amalfi Suite",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6b8ccd6b60e62d90967c4229",
+    "followers": 17423,
+    "spotifyId": "7HQFACr4ySlnAI9hM9LIF9",
+    "spotifyPopularity": 34,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "17K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+    "name": "Chet Baker",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebabde819fe640d69f899e7844",
+    "followers": 1303823,
+    "spotifyId": "3rxeQlsv0Sc2nyYaZ5W71T",
+    "spotifyPopularity": 66,
+    "genres": [
+      "jazz",
+      "cool jazz",
+      "vocal jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "7KH5fBS44kdTebdgzspYtJ",
+    "name": "The Jazzual Suspects",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1ff6790232d90fdff475bdec",
+    "followers": 12390,
+    "spotifyId": "7KH5fBS44kdTebdgzspYtJ",
+    "spotifyPopularity": 33,
+    "genres": [
+      "nu jazz",
+      "jazz rap",
+      "trip hop",
+      "acid jazz",
+      "jazz beats",
+      "downtempo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1YzCsTRb22dQkh9lghPIrp",
+    "name": "Billie Holiday",
+    "image": "https://i.scdn.co/image/4efa6b6871a0f672b78b3d16fd5a03c6cd212d58",
+    "followers": 2049219,
+    "spotifyId": "1YzCsTRb22dQkh9lghPIrp",
+    "spotifyPopularity": 66,
+    "genres": [
+      "jazz",
+      "vocal jazz",
+      "jazz blues",
+      "big band"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "2.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "3sRX2AuJCF5rblkGm2wMSM",
+    "name": "Jazzmeia Horn",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0ad6d669a1bd9481232bea5d",
+    "followers": 41526,
+    "spotifyId": "3sRX2AuJCF5rblkGm2wMSM",
+    "spotifyPopularity": 33,
+    "genres": [
+      "vocal jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "41K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+    "name": "Miles Davis",
+    "image": "https://i.scdn.co/image/423e826b3c1b23930a255d7cbc2daf733f795507",
+    "followers": 2709610,
+    "spotifyId": "0kbYTNQb4Pb1rPbbaF0pT4",
+    "spotifyPopularity": 65,
+    "genres": [
+      "jazz",
+      "cool jazz",
+      "hard bop",
+      "bebop",
+      "jazz fusion",
+      "free jazz",
+      "jazz blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "32ogthv0BdaSMPml02X9YB",
+    "name": "The Cinematic Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9e2576943e27fcddc3bb3646",
+    "followers": 745418,
+    "spotifyId": "32ogthv0BdaSMPml02X9YB",
+    "spotifyPopularity": 64,
+    "genres": [
+      "nu jazz",
+      "downtempo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "745K",
+    "tier": "Established"
+  },
+  {
+    "id": "5z1VAFwT35EVvCp1XlZZuL",
+    "name": "Diana Krall",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd1bfc97e11bb4c1f90f287a6",
+    "followers": 1156111,
+    "spotifyId": "5z1VAFwT35EVvCp1XlZZuL",
+    "spotifyPopularity": 65,
+    "genres": [
+      "vocal jazz",
+      "jazz",
+      "smooth jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "0SLHeCwwiwjCElg072D2g7",
+    "name": "Gypsy Jazz Caravan",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ded615a18f07bcf2795967c6",
+    "followers": 27917,
+    "spotifyId": "0SLHeCwwiwjCElg072D2g7",
+    "spotifyPopularity": 44,
+    "genres": [
+      "french jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "27K",
+    "tier": "Rising"
+  },
+  {
+    "id": "65c5si0ePAwkOCn4M35Ho7",
+    "name": "Sérgio Mendes",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a4e4f875283deb63d57f4ce",
+    "followers": 254015,
+    "spotifyId": "65c5si0ePAwkOCn4M35Ho7",
+    "spotifyPopularity": 64,
+    "genres": [
+      "brazilian jazz",
+      "bossa nova",
+      "samba"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "254K",
+    "tier": "Established"
+  },
+  {
+    "id": "4jXfFzeP66Zy67HM2mvIIF",
+    "name": "Bill Evans",
+    "image": "https://i.scdn.co/image/427eff99088d2a1be072a012f04e2406ee7cc24b",
+    "followers": 762653,
+    "spotifyId": "4jXfFzeP66Zy67HM2mvIIF",
+    "spotifyPopularity": 64,
+    "genres": [
+      "jazz",
+      "cool jazz",
+      "bebop",
+      "hard bop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Jazz",
+    "likes": "762K",
+    "tier": "Established"
+  },
+  {
+    "id": "3h9jrx2NF7x7EkNDZAn2De",
+    "name": "Charlie Jeer",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc3758dc356464bfae0fa1403",
+    "followers": 35199,
+    "spotifyId": "3h9jrx2NF7x7EkNDZAn2De",
+    "spotifyPopularity": 59,
+    "genres": [
+      "jazz house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Jazz",
+    "likes": "35K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1Bkw1ZbvkudC1lY4jTQSpU",
+    "name": "Chantal Chamberland",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebff502687b2321dae46d5f5c4",
+    "followers": 36039,
+    "spotifyId": "1Bkw1ZbvkudC1lY4jTQSpU",
+    "spotifyPopularity": 50,
+    "genres": [
+      "french jazz",
+      "vocal jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Jazz",
+    "likes": "36K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1W8TbFzNS15VwsempfY12H",
+    "name": "Charles Mingus",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe43b629d257d42a86c71323d",
+    "followers": 505209,
+    "spotifyId": "1W8TbFzNS15VwsempfY12H",
+    "spotifyPopularity": 50,
+    "genres": [
+      "jazz",
+      "hard bop",
+      "bebop",
+      "free jazz",
+      "cool jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Jazz",
+    "likes": "505K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0si9BxvM2C33fAIkr1pgUc",
+    "name": "Charlie Hunter",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3b49e1f1e16740aa5404445b",
+    "followers": 65895,
+    "spotifyId": "0si9BxvM2C33fAIkr1pgUc",
+    "spotifyPopularity": 49,
+    "genres": [
+      "jazz funk",
+      "acid jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Jazz",
+    "likes": "65K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5Pqc0ZFA20Y9zGJZ3ojUin",
+    "name": "Charlie Haden",
+    "image": "https://i.scdn.co/image/230fa01e3654ec8057b944877084dbaf175916f9",
+    "followers": 82553,
+    "spotifyId": "5Pqc0ZFA20Y9zGJZ3ojUin",
+    "spotifyPopularity": 48,
+    "genres": [
+      "jazz",
+      "free jazz",
+      "cool jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Jazz",
+    "likes": "82K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0GC1oqEWpiAjfE7jm5LQO5",
+    "name": "Charles Lloyd",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb471fe7fc9fe5be8aa5a86e56",
+    "followers": 49683,
+    "spotifyId": "0GC1oqEWpiAjfE7jm5LQO5",
+    "spotifyPopularity": 39,
+    "genres": [
+      "jazz",
+      "free jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Jazz",
+    "likes": "49K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4F7Q5NV6h5TSwCainz8S5A",
+    "name": "Duke Ellington",
+    "image": "https://i.scdn.co/image/1e24691a352233bbe989a311d921f17e7892a87e",
+    "followers": 953101,
+    "spotifyId": "4F7Q5NV6h5TSwCainz8S5A",
+    "spotifyPopularity": 60,
+    "genres": [
+      "jazz",
+      "big band",
+      "swing music",
+      "cool jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "famous",
+    "primaryGenre": "Jazz",
+    "likes": "953K",
+    "tier": "Established"
+  },
+  {
+    "id": "2xiHxT5QkkxHVhljrRGbW9",
+    "name": "Four80East",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebddf0ab65d67471933c00f81b",
+    "followers": 24836,
+    "spotifyId": "2xiHxT5QkkxHVhljrRGbW9",
+    "spotifyPopularity": 44,
+    "genres": [
+      "smooth jazz",
+      "acid jazz",
+      "jazz funk",
+      "jazz fusion",
+      "nu jazz",
+      "cool jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "80s",
+    "primaryGenre": "Jazz",
+    "likes": "24K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1ga4lWS7NtKo4r9jNSWumc",
+    "name": "Alice Russell",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb4f52c012ebee16885472032",
+    "followers": 79103,
+    "spotifyId": "1ga4lWS7NtKo4r9jNSWumc",
+    "spotifyPopularity": 48,
+    "genres": [
+      "jazz blues",
+      "nu jazz",
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "Jazz",
+    "likes": "79K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5orR9ec1E60lLb1U76m3ul",
+    "name": "Chill Select",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebed20487c77ca9e91c609d54d",
+    "followers": 79252,
+    "spotifyId": "5orR9ec1E60lLb1U76m3ul",
+    "spotifyPopularity": 48,
+    "genres": [
+      "jazz beats",
+      "lo-fi",
+      "lo-fi beats"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "Jazz",
+    "likes": "79K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2GetD8JH1hPJVDBjr1HiuP",
+    "name": "Chill Jazz-Lounge",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb99e3b84db2e43839f2fe78b8",
+    "followers": 21464,
+    "spotifyId": "2GetD8JH1hPJVDBjr1HiuP",
+    "spotifyPopularity": 39,
+    "genres": [
+      "smooth jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "Jazz",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2hGDAhezELu9olOncSWZYI",
+    "name": "Sadao Watanabe",
+    "image": "https://i.scdn.co/image/a6803fb0769e41b2a2ef7e59d4c52949d236aad9",
+    "followers": 38636,
+    "spotifyId": "2hGDAhezELu9olOncSWZYI",
+    "spotifyPopularity": 37,
+    "genres": [
+      "jazz fusion",
+      "jazz",
+      "smooth jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "sad",
+    "primaryGenre": "Jazz",
+    "likes": "38K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3DKeXObcrLpWl4i7fdcrBy",
+    "name": "Relaxing Jazz Nights",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2dffd38aa3eb409adf70b8fa",
+    "followers": 10462,
+    "spotifyId": "3DKeXObcrLpWl4i7fdcrBy",
+    "spotifyPopularity": 35,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "relaxing",
+    "primaryGenre": "Jazz",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "29wYlrKAdlJOf9ayJIIPpJ",
+    "name": "Acoustic Alchemy",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebce213caa98f845bbfa9d7166",
+    "followers": 64101,
+    "spotifyId": "29wYlrKAdlJOf9ayJIIPpJ",
+    "spotifyPopularity": 46,
+    "genres": [
+      "smooth jazz",
+      "jazz fusion",
+      "jazz",
+      "new age",
+      "cool jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "acoustic",
+    "primaryGenre": "Jazz",
+    "likes": "64K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4Q98aVxf4hBVJ28hXSZxYt",
+    "name": "Saxophone Jazz",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734015ca135f2e2d8a3732eccf",
+    "followers": 12077,
+    "spotifyId": "4Q98aVxf4hBVJ28hXSZxYt",
+    "spotifyPopularity": 20,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "saxophone",
+    "primaryGenre": "Jazz",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1TW90GjShgkjySrxBxcwQe",
+    "name": "Tony Williams",
+    "image": "https://i.scdn.co/image/1c8f39b53aa15277702393db6befccd20c9b5ae4",
+    "followers": 52602,
+    "spotifyId": "1TW90GjShgkjySrxBxcwQe",
+    "spotifyPopularity": 34,
+    "genres": [
+      "jazz fusion",
+      "jazz",
+      "jazz funk",
+      "hard bop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "drums",
+    "primaryGenre": "Jazz",
+    "likes": "52K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4Rj2COYs5hQsw8rYIxSviz",
+    "name": "Hidden Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb18adc9b45f0c57bfae1d08cb",
+    "followers": 103700,
+    "spotifyId": "4Rj2COYs5hQsw8rYIxSviz",
+    "spotifyPopularity": 42,
+    "genres": [
+      "nu jazz",
+      "trip hop",
+      "downtempo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Jazz",
+    "likes": "103K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4xFNR9j9SG8qDtLOW6Fy61",
+    "name": "Instrumental Music Cafe",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734c6fe346b1c37de4f22e8c0f",
+    "followers": 46037,
+    "spotifyId": "4xFNR9j9SG8qDtLOW6Fy61",
+    "spotifyPopularity": 50,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "instrumental",
+    "primaryGenre": "Jazz",
+    "likes": "46K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0wMmGaXRfdHPhqSEAVQIr6",
+    "name": "Instrumental",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc5144344d37f034ca25b5101",
+    "followers": 56595,
+    "spotifyId": "0wMmGaXRfdHPhqSEAVQIr6",
+    "spotifyPopularity": 45,
+    "genres": [
+      "ethiopian jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "instrumental",
+    "primaryGenre": "Jazz",
+    "likes": "56K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1EJY1WcqU1y3P5GKl1VqzE",
+    "name": "Instrumental Jazz Music Ambient",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc9184bb47f5148173fbcb5cb",
+    "followers": 34225,
+    "spotifyId": "1EJY1WcqU1y3P5GKl1VqzE",
+    "spotifyPopularity": 39,
+    "genres": [
+      "french jazz",
+      "smooth jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "instrumental",
+    "primaryGenre": "Jazz",
+    "likes": "34K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0AD4odMWVQ2wUSlgxOB5Rl",
+    "name": "Jeff Beck",
+    "image": "https://i.scdn.co/image/c54d3e62fa857b691de4e391b3cca35234462761",
+    "followers": 826306,
+    "spotifyId": "0AD4odMWVQ2wUSlgxOB5Rl",
+    "spotifyPopularity": 59,
+    "genres": [
+      "jazz fusion",
+      "blues rock",
+      "blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "instrumental",
+    "primaryGenre": "Jazz",
+    "likes": "826K",
+    "tier": "Rising"
+  },
+  {
+    "id": "03EYBMnqSchCMp5D9qmFXi",
+    "name": "Stacey Kent",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7773162cc90fc8dfb720fdfe",
+    "followers": 300963,
+    "spotifyId": "03EYBMnqSchCMp5D9qmFXi",
+    "spotifyPopularity": 62,
+    "genres": [
+      "french jazz",
+      "vocal jazz",
+      "jazz",
+      "bossa nova",
+      "smooth jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "300K",
+    "tier": "Established"
+  },
+  {
+    "id": "2lolQgalUvZDfp5vvVtTYV",
+    "name": "Tony Bennett",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd9641c8b449440a77ee19cc",
+    "followers": 996152,
+    "spotifyId": "2lolQgalUvZDfp5vvVtTYV",
+    "spotifyPopularity": 62,
+    "genres": [
+      "vocal jazz",
+      "christmas",
+      "big band",
+      "adult standards",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "996K",
+    "tier": "Established"
+  },
+  {
+    "id": "7nXyULtoL8k7wP9l6kg8Ef",
+    "name": "Madeleine Peyroux",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf878fa1f2dfe15aa758364b3",
+    "followers": 468309,
+    "spotifyId": "7nXyULtoL8k7wP9l6kg8Ef",
+    "spotifyPopularity": 62,
+    "genres": [
+      "french jazz",
+      "vocal jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "468K",
+    "tier": "Established"
+  },
+  {
+    "id": "06nevPmNVfWUXyZkccahL8",
+    "name": "Gregory Porter",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb05a870004c9b9358e1499ba7",
+    "followers": 689792,
+    "spotifyId": "06nevPmNVfWUXyZkccahL8",
+    "spotifyPopularity": 60,
+    "genres": [
+      "vocal jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "689K",
+    "tier": "Established"
+  },
+  {
+    "id": "602DnpaSXJB4b9DZrvxbDc",
+    "name": "Peggy Lee",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4a26542545d9aad6c5b49be",
+    "followers": 498419,
+    "spotifyId": "602DnpaSXJB4b9DZrvxbDc",
+    "spotifyPopularity": 60,
+    "genres": [
+      "vocal jazz",
+      "swing music",
+      "big band",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "498K",
+    "tier": "Established"
+  },
+  {
+    "id": "3XxxEq6BREC57nCWXbQZ7o",
+    "name": "Jamie Cullum",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5ea05545f2d4f1d5135da9df",
+    "followers": 549893,
+    "spotifyId": "3XxxEq6BREC57nCWXbQZ7o",
+    "spotifyPopularity": 59,
+    "genres": [
+      "vocal jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "549K",
+    "tier": "Rising"
+  },
+  {
+    "id": "32LHRiof0sa4taYew9i3Fa",
+    "name": "Dinah Washington",
+    "image": "https://i.scdn.co/image/ec0ef3c2a40764d3e72356027788b7552ecb3a9e",
+    "followers": 507733,
+    "spotifyId": "32LHRiof0sa4taYew9i3Fa",
+    "spotifyPopularity": 57,
+    "genres": [
+      "vocal jazz",
+      "jazz",
+      "jazz blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "507K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5L3fIRSYQCR3EJwQICfyRq",
+    "name": "Jim Tomlinson",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4f4bd63451e5556c23e95691",
+    "followers": 11013,
+    "spotifyId": "5L3fIRSYQCR3EJwQICfyRq",
+    "spotifyPopularity": 57,
+    "genres": [
+      "french jazz",
+      "vocal jazz",
+      "bossa nova",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0Geq9Y20DjOlUjvmFZtzGx",
+    "name": "Jill Barber",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3b97a9b81cedeb7dc6c8f867",
+    "followers": 77573,
+    "spotifyId": "0Geq9Y20DjOlUjvmFZtzGx",
+    "spotifyPopularity": 57,
+    "genres": [
+      "french jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "77K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3qUMmh5biaB5hqpF4LqS3m",
+    "name": "Julie London",
+    "image": "https://i.scdn.co/image/66ce0fab7aceb0dd691fb04a9c77858fc489e43e",
+    "followers": 444583,
+    "spotifyId": "3qUMmh5biaB5hqpF4LqS3m",
+    "spotifyPopularity": 56,
+    "genres": [
+      "vocal jazz",
+      "jazz",
+      "adult standards"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "444K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1bgyxtWjZwA5PQlDsvs9b8",
+    "name": "Sarah Vaughan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1443b3d0c1d38e982e49ec85",
+    "followers": 700045,
+    "spotifyId": "1bgyxtWjZwA5PQlDsvs9b8",
+    "spotifyPopularity": 56,
+    "genres": [
+      "vocal jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "700K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4doI7TR51c6DTaveTwpIkg",
+    "name": "Emilie-Claire Barlow",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdd897df1b9d9b84c4beb78ef",
+    "followers": 94195,
+    "spotifyId": "4doI7TR51c6DTaveTwpIkg",
+    "spotifyPopularity": 56,
+    "genres": [
+      "french jazz",
+      "vocal jazz",
+      "jazz",
+      "bossa nova"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "94K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7qVvIFc9DktkAc0HKzRhNo",
+    "name": "Johnny Hartman",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf549e6f1e55e001ba3359ef7",
+    "followers": 88030,
+    "spotifyId": "7qVvIFc9DktkAc0HKzRhNo",
+    "spotifyPopularity": 54,
+    "genres": [
+      "jazz",
+      "vocal jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "88K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7j46Sze6UWb7p41IqcYFAp",
+    "name": "Catherine Russell",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3ccf6d9ffc084b4e593bed07",
+    "followers": 37579,
+    "spotifyId": "7j46Sze6UWb7p41IqcYFAp",
+    "spotifyPopularity": 54,
+    "genres": [
+      "vocal jazz",
+      "swing music",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "37K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5bWApG9Vdshhd1J50UnNf6",
+    "name": "Blossom Dearie",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2c8e35226977e0d8f6a2db8d",
+    "followers": 160405,
+    "spotifyId": "5bWApG9Vdshhd1J50UnNf6",
+    "spotifyPopularity": 53,
+    "genres": [
+      "vocal jazz",
+      "french jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "160K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2JfVCMa3FlvQRlLT5uH9zb",
+    "name": "Nancy Wilson",
+    "image": "https://i.scdn.co/image/a1c1198170a6ae2d9f66fb926b1fc300bf12a8b4",
+    "followers": 235573,
+    "spotifyId": "2JfVCMa3FlvQRlLT5uH9zb",
+    "spotifyPopularity": 53,
+    "genres": [
+      "vocal jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "235K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5ETqbIZYRoPMQbly4iVfuB",
+    "name": "Laura Fygi",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc6c380609a92591f9ec435e3",
+    "followers": 77897,
+    "spotifyId": "5ETqbIZYRoPMQbly4iVfuB",
+    "spotifyPopularity": 53,
+    "genres": [
+      "french jazz",
+      "vocal jazz",
+      "jazz",
+      "smooth jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "vocal",
+    "primaryGenre": "Jazz",
+    "likes": "77K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5MhL5v5b7XSLDIwNgLtwwQ",
+    "name": "Platina Jazz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2abe96a916a8a17c922b831e",
+    "followers": 35583,
+    "spotifyId": "5MhL5v5b7XSLDIwNgLtwwQ",
+    "spotifyPopularity": 35,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "platinum",
+    "primaryGenre": "Jazz",
+    "likes": "35K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7lbrnX0ng1Il12RdEU1Ohu",
+    "name": "Jeff Goldblum & The Mildred Snitzer Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1483176c7a9bb309b91f57ba",
+    "followers": 65421,
+    "spotifyId": "7lbrnX0ng1Il12RdEU1Ohu",
+    "spotifyPopularity": 42,
+    "genres": [
+      "vocal jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "Jazz",
+    "likes": "65K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7k7AFLI13ChqpIlQGI1lJo",
+    "name": "Underground Canopy",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd1a813218123b41b5ce0f2e8",
+    "followers": 23219,
+    "spotifyId": "7k7AFLI13ChqpIlQGI1lJo",
+    "spotifyPopularity": 44,
+    "genres": [
+      "nu jazz",
+      "jazz house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "underground",
+    "primaryGenre": "Jazz",
+    "likes": "23K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2EsmKkHsXK0WMNGOtIhbxr",
+    "name": "McCoy Tyner",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb188eff6ad321c36e1611ef78",
+    "followers": 150036,
+    "spotifyId": "2EsmKkHsXK0WMNGOtIhbxr",
+    "spotifyPopularity": 52,
+    "genres": [
+      "jazz",
+      "hard bop",
+      "cool jazz",
+      "bebop",
+      "free jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "150K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2TSuAchdgVzsAa9wDK1IeT",
+    "name": "Julian Lage",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb379c4c895012c0959e83d38d",
+    "followers": 143128,
+    "spotifyId": "2TSuAchdgVzsAa9wDK1IeT",
+    "spotifyPopularity": 48,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "143K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3JLUCojZaHrX2LaUkSj7Ud",
+    "name": "Pharoah Sanders",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba2104dcf543f5fd6ac5d205e",
+    "followers": 183655,
+    "spotifyId": "3JLUCojZaHrX2LaUkSj7Ud",
+    "spotifyPopularity": 47,
+    "genres": [
+      "free jazz",
+      "jazz",
+      "hard bop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "183K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4VIPZJwfn4EGbJxYVHJ0WX",
+    "name": "Paul Motian",
+    "image": "https://i.scdn.co/image/40afce62fad6a93b29726e5c05961c7333009ae5",
+    "followers": 21060,
+    "spotifyId": "4VIPZJwfn4EGbJxYVHJ0WX",
+    "spotifyPopularity": 46,
+    "genres": [
+      "jazz",
+      "cool jazz",
+      "free jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3SONlwqLIP2GtaMh9pLYe5",
+    "name": "Bill Frisell",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6d57c7c4956bea5e9b5746e8",
+    "followers": 117301,
+    "spotifyId": "3SONlwqLIP2GtaMh9pLYe5",
+    "spotifyPopularity": 47,
+    "genres": [
+      "jazz",
+      "jazz fusion",
+      "free jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "117K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0oKYiTD5CdNbrofRvM1dIr",
+    "name": "Alice Coltrane",
+    "image": "https://i.scdn.co/image/ab6772690000c46c90d0d182686f9edf27d1b2a5",
+    "followers": 221677,
+    "spotifyId": "0oKYiTD5CdNbrofRvM1dIr",
+    "spotifyPopularity": 47,
+    "genres": [
+      "free jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "221K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2k1Qcdf3sOJYCNZEPus58Y",
+    "name": "Gary Peacock",
+    "image": "https://i.scdn.co/image/a0d55db0f08e1e31364babca01ab19e9aeb097bc",
+    "followers": 21931,
+    "spotifyId": "2k1Qcdf3sOJYCNZEPus58Y",
+    "spotifyPopularity": 42,
+    "genres": [
+      "jazz",
+      "free jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1bqaQBqbqbEXPxLF0v6AAH",
+    "name": "Dave Holland",
+    "image": "https://i.scdn.co/image/ab6772690000c46ca0308f7b65e827b2a570b9ed",
+    "followers": 36543,
+    "spotifyId": "1bqaQBqbqbEXPxLF0v6AAH",
+    "spotifyPopularity": 44,
+    "genres": [
+      "free jazz",
+      "jazz",
+      "jazz fusion"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "36K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0tIODqvzGUoEaK26rK4pvX",
+    "name": "Sun Ra",
+    "image": "https://i.scdn.co/image/66bf46ec1bfc2c72b97986f84af1a69f07531329",
+    "followers": 219930,
+    "spotifyId": "0tIODqvzGUoEaK26rK4pvX",
+    "spotifyPopularity": 43,
+    "genres": [
+      "free jazz",
+      "jazz",
+      "avant-garde",
+      "hard bop",
+      "jazz fusion"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "219K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2Hg4SUNDuIn8xIidz9GxFw",
+    "name": "Medeski, Martin & Wood",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb56733eeb2deff65bac9690bf",
+    "followers": 134484,
+    "spotifyId": "2Hg4SUNDuIn8xIidz9GxFw",
+    "spotifyPopularity": 42,
+    "genres": [
+      "jazz funk",
+      "jam band",
+      "acid jazz",
+      "jazz fusion",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "134K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7jAeRfT8LYCxydM2Y1Egvn",
+    "name": "Marc Ribot",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe66a8fa42d05694424f0d486",
+    "followers": 48493,
+    "spotifyId": "7jAeRfT8LYCxydM2Y1Egvn",
+    "spotifyPopularity": 40,
+    "genres": [
+      "free jazz",
+      "avant-garde"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "48K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7nFb95Ufz3MkdXP4bnlSES",
+    "name": "Henri Texier",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebacb28fdb73a7faa01d67f535",
+    "followers": 42359,
+    "spotifyId": "7nFb95Ufz3MkdXP4bnlSES",
+    "spotifyPopularity": 39,
+    "genres": [
+      "french jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "42K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7De2eIqeHTw091YeAkkYXV",
+    "name": "Rahsaan Roland Kirk",
+    "image": "https://i.scdn.co/image/b007fa39384707bbac3b72ec405d716f2866a6a7",
+    "followers": 55380,
+    "spotifyId": "7De2eIqeHTw091YeAkkYXV",
+    "spotifyPopularity": 37,
+    "genres": [
+      "free jazz",
+      "hard bop",
+      "jazz",
+      "bebop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "55K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0ie9W9nN4iPymAkS9WW8nX",
+    "name": "Jeremy Pelt",
+    "image": "https://i.scdn.co/image/3a47d671a2d560b69fff9506d9b59ff5ab1f8484",
+    "followers": 12580,
+    "spotifyId": "0ie9W9nN4iPymAkS9WW8nX",
+    "spotifyPopularity": 39,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "12K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3AaY5O1qS0tcNPHwwMwplt",
+    "name": "Jeff Parker",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb040246e9785ab05417d5d524",
+    "followers": 51263,
+    "spotifyId": "3AaY5O1qS0tcNPHwwMwplt",
+    "spotifyPopularity": 39,
+    "genres": [
+      "free jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "51K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4hdVPbHhsWAn2XTXVRJoxB",
+    "name": "Chris Potter",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb08ef52033b6b7bdf8eb2d8d1",
+    "followers": 54466,
+    "spotifyId": "4hdVPbHhsWAn2XTXVRJoxB",
+    "spotifyPopularity": 39,
+    "genres": [
+      "jazz",
+      "jazz fusion",
+      "free jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "54K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4RncsrNJ1GDGsFBIxI76L6",
+    "name": "Jimmy Giuffre",
+    "image": "https://i.scdn.co/image/ab67616d0000b27348df0d27124bc2add3965176",
+    "followers": 11436,
+    "spotifyId": "4RncsrNJ1GDGsFBIxI76L6",
+    "spotifyPopularity": 39,
+    "genres": [
+      "cool jazz",
+      "free jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "440Vu15E7JrOSOTlYA819R",
+    "name": "Shun Ishiwaka",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2b3f5bdfb6ace0254afa24ed",
+    "followers": 14373,
+    "spotifyId": "440Vu15E7JrOSOTlYA819R",
+    "spotifyPopularity": 38,
+    "genres": [
+      "jazz fusion",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
+    "id": "36YE6h8aN09ZKG4EhneDSf",
+    "name": "Joe Lovano",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb375e46b73b1cfecb48bc35ae",
+    "followers": 35113,
+    "spotifyId": "36YE6h8aN09ZKG4EhneDSf",
+    "spotifyPopularity": 38,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "35K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5qOfTfMzTj2dvvpWKzIFk6",
+    "name": "The Bad Plus",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb662fd163df35404868d5ee47",
+    "followers": 103192,
+    "spotifyId": "5qOfTfMzTj2dvvpWKzIFk6",
+    "spotifyPopularity": 36,
+    "genres": [
+      "jazz",
+      "jazz fusion",
+      "nu jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "103K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2kQZjl1wnD42U6rKhAHmz5",
+    "name": "Sullivan Fortner",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb2e5545b2bf91ac7d71f34cf",
+    "followers": 11455,
+    "spotifyId": "2kQZjl1wnD42U6rKhAHmz5",
+    "spotifyPopularity": 35,
+    "genres": [
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0A9p7WNA1VwxVyrjx92Z9F",
+    "name": "Abbey Lincoln",
+    "image": "https://i.scdn.co/image/ab6772690000c46ce2fa0f9b30951e063586ea1b",
+    "followers": 41998,
+    "spotifyId": "0A9p7WNA1VwxVyrjx92Z9F",
+    "spotifyPopularity": 35,
+    "genres": [
+      "vocal jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "avant-garde",
+    "primaryGenre": "Jazz",
+    "likes": "41K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0oj4QK4zH3lghS2Oa418zZ",
+    "name": "Loure",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb31b82717058a1f33db4b6a58",
+    "followers": 20427,
+    "spotifyId": "0oj4QK4zH3lghS2Oa418zZ",
+    "spotifyPopularity": 44,
+    "genres": [
+      "jazz house",
+      "lo-fi house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Jazz",
+    "likes": "20K",
+    "tier": "Rising"
+  }
+]

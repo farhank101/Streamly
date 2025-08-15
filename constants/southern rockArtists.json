@@ -1,0 +1,22 @@
+[
+  {
+    "id": "2AM4ilv6UzW0uMRuqKtDgN",
+    "name": "ZZ Top",
+    "image": "https://i.scdn.co/image/ab6772690000c46ca56aa897505a21aebecf7ea3",
+    "followers": 4860985,
+    "spotifyId": "2AM4ilv6UzW0uMRuqKtDgN",
+    "spotifyPopularity": 73,
+    "genres": [
+      "southern rock",
+      "classic rock",
+      "blues rock",
+      "rock"
+    ],
+    "primaryGenre": "southern rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "4.9M",
+    "tier": "Popular"
+  }
+]

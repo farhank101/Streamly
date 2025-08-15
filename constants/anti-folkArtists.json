@@ -1,0 +1,19 @@
+[
+  {
+    "id": "0Xjtselvq13TzhtPlo7g0r",
+    "name": "The Music Tapes",
+    "image": "https://i.scdn.co/image/ab6772690000c46cfa8dab3685caeb24da55ab71",
+    "followers": 17539,
+    "spotifyId": "0Xjtselvq13TzhtPlo7g0r",
+    "spotifyPopularity": 27,
+    "genres": [
+      "anti-folk"
+    ],
+    "primaryGenre": "anti-folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "17.5K",
+    "tier": "Emerging"
+  }
+]

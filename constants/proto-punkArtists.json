@@ -1,0 +1,38 @@
+[
+  {
+    "id": "33EUXrFKGjpUSGacqEHhU4",
+    "name": "Iggy Pop",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb21e6d14c3d8aab9887380d00",
+    "followers": 1756203,
+    "spotifyId": "33EUXrFKGjpUSGacqEHhU4",
+    "spotifyPopularity": 70,
+    "genres": [
+      "proto-punk",
+      "glam rock"
+    ],
+    "primaryGenre": "proto-punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "1.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1SQRv42e4PjEYfPhS0Tk9E",
+    "name": "The Kinks",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb81f4e878e8b959fa68f15322",
+    "followers": 2782289,
+    "spotifyId": "1SQRv42e4PjEYfPhS0Tk9E",
+    "spotifyPopularity": 67,
+    "genres": [
+      "proto-punk",
+      "baroque pop"
+    ],
+    "primaryGenre": "proto-punk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "2.8M",
+    "tier": "Popular"
+  }
+]

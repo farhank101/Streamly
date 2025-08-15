@@ -1,0 +1,93 @@
+[
+  {
+    "id": "7FBcuc1gsnv6Y1nwFtNRCb",
+    "name": "My Chemical Romance",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9c00ad0308287b38b8fdabc2",
+    "followers": 10043682,
+    "spotifyId": "7FBcuc1gsnv6Y1nwFtNRCb",
+    "spotifyPopularity": 83,
+    "genres": [
+      "emo",
+      "pop punk"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "10.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "4UXqAaa6dQYAk18Lv7PEgX",
+    "name": "Fall Out Boy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb362011ebe6064c38e97e9aac",
+    "followers": 11346134,
+    "spotifyId": "4UXqAaa6dQYAk18Lv7PEgX",
+    "spotifyPopularity": 81,
+    "genres": [
+      "emo",
+      "pop punk"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "11.3M",
+    "tier": "Top"
+  },
+  {
+    "id": "4iJLPqClelZOBCBifm8Fzv",
+    "name": "Pierce The Veil",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6f8f8d13be17bf486219edc7",
+    "followers": 3719361,
+    "spotifyId": "4iJLPqClelZOBCBifm8Fzv",
+    "spotifyPopularity": 80,
+    "genres": [
+      "emo",
+      "screamo",
+      "post-hardcore"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "3.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2CmaKO2zEGJ1NWpS1yfVGz",
+    "name": "Falling In Reverse",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4a733f510df96652c3bea05b",
+    "followers": 4115182,
+    "spotifyId": "2CmaKO2zEGJ1NWpS1yfVGz",
+    "spotifyPopularity": 78,
+    "genres": [
+      "emo",
+      "rap metal"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "4.1M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3Ayl7mCk0nScecqOzvNp6s",
+    "name": "Jimmy Eat World",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0dc33cfd207772f8e2f6b46f",
+    "followers": 1763181,
+    "spotifyId": "3Ayl7mCk0nScecqOzvNp6s",
+    "spotifyPopularity": 71,
+    "genres": [
+      "emo",
+      "pop punk"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "1.8M",
+    "tier": "Popular"
+  }
+]

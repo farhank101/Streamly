@@ -67,6 +67,15 @@ const homeImages: Record<string, ImageSourcePropType> = {
   soul_funk: require("./genres/soul_funk.png"),
   reggae: require("./genres/reggae.png"),
   folk: require("./genres/folk.png"),
+  // Add missing genre_ prefixed keys
+  genre_classical: require("./genres/classical.png"),
+  genre_jazz: require("./genres/jazz.png"),
+  genre_instrumentals: require("./genres/instrumental.png"),
+  genre_punk: require("./genres/punk.png"),
+  genre_blues: require("./genres/blues.png"),
+  genre_soul_funk: require("./genres/soul_funk.png"),
+  genre_reggae: require("./genres/reggae.png"),
+  genre_folk: require("./genres/folk.png"),
   // Moods
   party: require("./moods/partymood.png"),
   chill: require("./moods/chillmood.png"),
@@ -80,6 +89,90 @@ const homeImages: Record<string, ImageSourcePropType> = {
   family: require("./moods/familymood.png"),
   dinner: require("./moods/dinnermood.png"),
   travel: require("./moods/travelmood.png"),
+
+  // Dance/Electronic Artists
+  artist_daft_punk: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_avicii: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_calvin_harris: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_martin_garrix: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_david_guetta: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_skrillex: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_zedd: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_marshmello: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_deadmau5: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_eric_prydz: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_tchami: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_adam_beyer: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_nina_kraviz: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_amelie_lens: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_armin_van_buuren: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_tiesto: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_paul_van_dyk: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_odesza: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_flume: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_illenium: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_pendulum: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_netsky: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_aphex_twin: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_boards_of_canada: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_meduza: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_acraze: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+  artist_john_summit: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+  },
+
   // Add more home screen specific images here as needed
 };
 

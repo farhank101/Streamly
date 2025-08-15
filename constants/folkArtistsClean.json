@@ -1,0 +1,92 @@
+[
+  {
+    "id": "4LEiUm1SRbFMgfqnQTwUbQ",
+    "name": "Bon Iver",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1a0c1f04c95539fd55ef0ebb",
+    "followers": 3906463,
+    "spotifyId": "4LEiUm1SRbFMgfqnQTwUbQ",
+    "spotifyPopularity": 78,
+    "genres": [
+      "indie folk"
+    ],
+    "primaryGenre": "indie folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "3.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "6OBGbSaBUvQtk9wpQfDbOE",
+    "name": "Kevin Kaarl",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0d2dc2b31af50e7578c32573",
+    "followers": 8691029,
+    "spotifyId": "6OBGbSaBUvQtk9wpQfDbOE",
+    "spotifyPopularity": 77,
+    "genres": [
+      "latin folk",
+      "mexican indie"
+    ],
+    "primaryGenre": "latin folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "8.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1hcdI2N1023RvSwLzTtdsp",
+    "name": "Natalia Lafourcade",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebefb8cc9d57eabb9f1e3f8d0b",
+    "followers": 5246058,
+    "spotifyId": "1hcdI2N1023RvSwLzTtdsp",
+    "spotifyPopularity": 75,
+    "genres": [
+      "latin folk",
+      "bolero",
+      "latin indie",
+      "latin alternative",
+      "latin folklore"
+    ],
+    "primaryGenre": "latin folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "5.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0rZp7G3gIH6WkyeXbrZnGi",
+    "name": "Novo Amor",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb18a1928eb2892201f56d39e0",
+    "followers": 1352432,
+    "spotifyId": "0rZp7G3gIH6WkyeXbrZnGi",
+    "spotifyPopularity": 73,
+    "genres": [
+      "ambient folk"
+    ],
+    "primaryGenre": "ambient folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "1.4M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0Xjtselvq13TzhtPlo7g0r",
+    "name": "The Music Tapes",
+    "image": "https://i.scdn.co/image/ab6772690000c46cfa8dab3685caeb24da55ab71",
+    "followers": 17539,
+    "spotifyId": "0Xjtselvq13TzhtPlo7g0r",
+    "spotifyPopularity": 27,
+    "genres": [
+      "anti-folk"
+    ],
+    "primaryGenre": "anti-folk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "17.5K",
+    "tier": "Emerging"
+  }
+]

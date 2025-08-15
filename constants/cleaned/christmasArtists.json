@@ -1,0 +1,43 @@
+[
+  {
+    "id": "1Mxqyy3pSjf8kZZL4QVxS0",
+    "name": "Frank Sinatra",
+    "image": "https://i.scdn.co/image/fc4e0f474fb4c4cb83617aa884dc9fd9822d4411",
+    "followers": 8217503,
+    "spotifyId": "1Mxqyy3pSjf8kZZL4QVxS0",
+    "spotifyPopularity": 79,
+    "genres": [
+      "christmas",
+      "big band",
+      "adult standards",
+      "swing music",
+      "jazz",
+      "vocal jazz"
+    ],
+    "primaryGenre": "christmas",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "8.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "7v4imS0moSyGdXyLgVTIV7",
+    "name": "Nat King Cole",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0ec0ea710ed8ce9e490d9c7b",
+    "followers": 2500169,
+    "spotifyId": "7v4imS0moSyGdXyLgVTIV7",
+    "spotifyPopularity": 70,
+    "genres": [
+      "christmas",
+      "adult standards",
+      "vocal jazz"
+    ],
+    "primaryGenre": "christmas",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.5M",
+    "tier": "Popular"
+  }
+]

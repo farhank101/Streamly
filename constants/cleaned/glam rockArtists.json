@@ -1,0 +1,20 @@
+[
+  {
+    "id": "4gIdjgLlvgEOz7MexDZzpM",
+    "name": "Status Quo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6724477b2d922b4b0c18c37d",
+    "followers": 838211,
+    "spotifyId": "4gIdjgLlvgEOz7MexDZzpM",
+    "spotifyPopularity": 61,
+    "genres": [
+      "glam rock",
+      "blues rock"
+    ],
+    "primaryGenre": "glam rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "838.2K",
+    "tier": "Rising"
+  }
+]

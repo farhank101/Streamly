@@ -1,0 +1,42 @@
+[
+  {
+    "id": "711MCceyCBcFnzjGY4Q7Un",
+    "name": "AC/DC",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37",
+    "followers": 31774662,
+    "spotifyId": "711MCceyCBcFnzjGY4Q7Un",
+    "spotifyPopularity": 85,
+    "genres": [
+      "rock",
+      "hard rock",
+      "classic rock",
+      "rock and roll"
+    ],
+    "primaryGenre": "rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "31.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "3qm84nBOXUEQ2vnTfUTTFC",
+    "name": "Guns N' Roses",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
+    "followers": 34524294,
+    "spotifyId": "3qm84nBOXUEQ2vnTfUTTFC",
+    "spotifyPopularity": 84,
+    "genres": [
+      "rock",
+      "glam metal",
+      "hard rock",
+      "classic rock"
+    ],
+    "primaryGenre": "rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "34.5M",
+    "tier": "Top"
+  }
+]

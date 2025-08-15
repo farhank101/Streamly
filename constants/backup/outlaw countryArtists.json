@@ -1,0 +1,23 @@
+[
+  {
+    "id": "5W5bDNCqJ1jbCgTxDD0Cb3",
+    "name": "Willie Nelson",
+    "image": "https://i.scdn.co/image/ab6772690000c46c82a531f8f5067e13517f5b15",
+    "followers": 2524919,
+    "spotifyId": "5W5bDNCqJ1jbCgTxDD0Cb3",
+    "spotifyPopularity": 74,
+    "genres": [
+      "outlaw country",
+      "classic country",
+      "country",
+      "honky tonk",
+      "traditional country"
+    ],
+    "primaryGenre": "outlaw country",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "2.5M",
+    "tier": "Popular"
+  }
+]

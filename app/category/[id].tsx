@@ -225,16 +225,8 @@ export default function CategoryScreen() {
         barStyle="light-content"
         backgroundColor="transparent"
         translucent
+        hidden={true}
       />
-
-      {/* Status Bar Area */}
-      <View style={styles.statusBar}>
-        <Text style={styles.statusTime}>14:35</Text>
-        <View style={styles.statusIcons}>
-          <Ionicons name="wifi" size={16} color={COLORS.textPrimary} />
-          <Ionicons name="battery-full" size={16} color={COLORS.textPrimary} />
-        </View>
-      </View>
 
       {/* Header with background image */}
       <View style={styles.header}>
@@ -277,8 +269,16 @@ export default function CategoryScreen() {
         </LinearGradient>
       </View>
 
+            {/* Spacer between header and nav tabs */}
+      <View style={styles.headerSpacer} />
+      
       {/* Navigation Tabs */}
-      <View style={styles.navTabs}>
+      <ScrollView 
+        horizontal 
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={styles.navTabsContainer}
+        style={styles.navTabs}
+      >
         <TouchableOpacity
           style={[styles.navTab, activeTab === "OVERVIEW" && styles.activeTab]}
           onPress={() => setActiveTab("OVERVIEW")}
@@ -334,12 +334,12 @@ export default function CategoryScreen() {
             ARTISTS
           </Text>
         </TouchableOpacity>
-      </View>
+      </ScrollView>
 
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
         {activeTab === "OVERVIEW" && (
           <>
-            {renderSection("Popular in these week", category.popular)}
+            {renderSection("Popular this week", category.popular)}
             {renderSection("Playlists", category.playlists, true)}
             {renderSection("New releases", category.newReleases, true)}
             {renderSection("Artists", category.artists, true, true)}
@@ -372,34 +372,14 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: COLORS.background,
   },
-  statusBar: {
-    height: 44,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    paddingHorizontal: SPACING.lg,
-    paddingTop: 10,
-    backgroundColor: "rgba(0,0,0,0.3)",
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    zIndex: 10,
-  },
-  statusTime: {
-    fontSize: 16,
-    fontFamily: FONTS.family.interMedium,
-    color: COLORS.textPrimary,
-    fontWeight: "600",
-  },
-  statusIcons: {
-    flexDirection: "row",
-    gap: SPACING.xs,
-  },
+
   header: {
     height: 220,
     position: "relative",
-    marginTop: 44, // Account for status bar
+    marginTop: 0, // No status bar to account for
+  },
+  headerSpacer: {
+    height: SPACING.md,
   },
   headerImage: {
     position: "absolute",
@@ -449,24 +429,35 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   navTabs: {
-    flexDirection: "row",
-    paddingHorizontal: SPACING.lg,
     marginBottom: SPACING.sm,
+    backgroundColor: 'rgba(0,0,0,0.1)',
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(255,255,255,0.1)',
+  },
+  navTabsContainer: {
+    paddingHorizontal: SPACING.lg,
+    paddingVertical: SPACING.md,
   },
   navTab: {
     marginRight: SPACING.xl,
-    paddingBottom: SPACING.sm,
+    paddingVertical: SPACING.sm,
+    paddingHorizontal: SPACING.md,
+    minWidth: 100,
+    alignItems: "center",
   },
-  activeTab: {},
+  activeTab: {
+    backgroundColor: 'rgba(255,255,255,0.1)',
+    borderRadius: 20,
+  },
   navTabText: {
     fontSize: 14,
     fontFamily: FONTS.family.interMedium,
     color: COLORS.textSecondary,
+    textAlign: 'center',
   },
   activeTabText: {
     color: COLORS.textPrimary,
     fontFamily: FONTS.family.interBold,
-    textDecorationLine: "underline",
   },
   content: {
     flex: 1,

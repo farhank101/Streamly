@@ -1,0 +1,39 @@
+[
+  {
+    "id": "6olE6TJLqED3rqDCT0FyPh",
+    "name": "Nirvana",
+    "image": "https://i.scdn.co/image/84282c28d851a700132356381fcfbadc67ff498b",
+    "followers": 22796480,
+    "spotifyId": "6olE6TJLqED3rqDCT0FyPh",
+    "spotifyPopularity": 85,
+    "genres": [
+      "grunge",
+      "rock"
+    ],
+    "primaryGenre": "grunge",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "22.8M",
+    "tier": "Top"
+  },
+  {
+    "id": "2ziB7fzrXBoh1HUPS6sVFn",
+    "name": "Audioslave",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5a865295befda9e060a72cb0",
+    "followers": 5038942,
+    "spotifyId": "2ziB7fzrXBoh1HUPS6sVFn",
+    "spotifyPopularity": 74,
+    "genres": [
+      "grunge",
+      "post-grunge",
+      "alternative metal"
+    ],
+    "primaryGenre": "grunge",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "5.0M",
+    "tier": "Popular"
+  }
+]

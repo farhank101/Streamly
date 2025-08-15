@@ -1,0 +1,21 @@
+[
+  {
+    "id": "6zLBxLdl60ekBLpawtT63I",
+    "name": "Cody Johnson",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb1fa84619efb4bdf4f5e9c4b",
+    "followers": 1850967,
+    "spotifyId": "6zLBxLdl60ekBLpawtT63I",
+    "spotifyPopularity": 78,
+    "genres": [
+      "texas country",
+      "country",
+      "red dirt"
+    ],
+    "primaryGenre": "texas country",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Country",
+    "likes": "1.9M",
+    "tier": "Popular"
+  }
+]

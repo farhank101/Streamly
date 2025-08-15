@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1dVygo6tRFXC8CSWURQJq2",
+    "name": "Sonu Nigam",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbc959d7569618ec2af2210f5",
+    "followers": 21995322,
+    "spotifyId": "1dVygo6tRFXC8CSWURQJq2",
+    "spotifyPopularity": 80,
+    "genres": [
+      "kannada pop",
+      "bollywood",
+      "sandalwood",
+      "hindi pop",
+      "desi",
+      "marathi pop"
+    ],
+    "primaryGenre": "kannada pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "22.0M",
+    "tier": "Top"
+  },
+  {
+    "id": "1neweBRDB8wCNzQjUYmJwx",
+    "name": "Malu Nipanal Singer",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3d7b8069961d864c75b7b43a",
+    "followers": 67203,
+    "spotifyId": "1neweBRDB8wCNzQjUYmJwx",
+    "spotifyPopularity": 44,
+    "genres": [
+      "kannada pop",
+      "folk"
+    ],
+    "primaryGenre": "kannada pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "67.2K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "0ka7DD1vGnXu92ZrhiKXUF",
+    "name": "Balu Belagundi",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fc413d8dc783523693849685",
+    "followers": 35326,
+    "spotifyId": "0ka7DD1vGnXu92ZrhiKXUF",
+    "spotifyPopularity": 42,
+    "genres": [
+      "kannada pop",
+      "folk"
+    ],
+    "primaryGenre": "kannada pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "35.3K",
+    "tier": "Emerging"
+  },
+  {
+    "id": "2ut7XsWrzxgQh97rSX7LsJ",
+    "name": "Music Mailari",
+    "image": "https://i.scdn.co/image/ab67616d0000b27347340145326418081c9fe53d",
+    "followers": 2143,
+    "spotifyId": "2ut7XsWrzxgQh97rSX7LsJ",
+    "spotifyPopularity": 29,
+    "genres": [
+      "kannada pop",
+      "folk"
+    ],
+    "primaryGenre": "kannada pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Folk",
+    "likes": "2.1K",
+    "tier": "Emerging"
+  }
+]

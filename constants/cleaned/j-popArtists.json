@@ -1,0 +1,40 @@
+[
+  {
+    "id": "4QvgGvpgzgyUOo8Yp8LDm9",
+    "name": "Mrs. GREEN APPLE",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3745f83871d6016e5e9ce5d8",
+    "followers": 5984049,
+    "spotifyId": "4QvgGvpgzgyUOo8Yp8LDm9",
+    "spotifyPopularity": 84,
+    "genres": [
+      "j-pop",
+      "anime",
+      "j-rock"
+    ],
+    "primaryGenre": "j-pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "6.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2IUl3m1H1EQ7QfNbNWvgru",
+    "name": "Vaundy",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf6be169899c276073de46a1b",
+    "followers": 3398368,
+    "spotifyId": "2IUl3m1H1EQ7QfNbNWvgru",
+    "spotifyPopularity": 75,
+    "genres": [
+      "j-pop",
+      "japanese indie",
+      "j-rock"
+    ],
+    "primaryGenre": "j-pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "3.4M",
+    "tier": "Popular"
+  }
+]

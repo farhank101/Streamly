@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3qnGvpP8Yth1AqSBMqON5x",
+    "name": "Leon Bridges",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd5112a5b16a01e971ebb049c",
+    "followers": 1889583,
+    "spotifyId": "3qnGvpP8Yth1AqSBMqON5x",
+    "spotifyPopularity": 77,
+    "genres": [
+      "retro soul"
+    ],
+    "primaryGenre": "retro soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "1.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2nTjd2lNo1GVEfXM3bCnsh",
+    "name": "The Teskey Brothers",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbaf7e1f882e784750e6d7745",
+    "followers": 995050,
+    "spotifyId": "2nTjd2lNo1GVEfXM3bCnsh",
+    "spotifyPopularity": 68,
+    "genres": [
+      "retro soul",
+      "soul blues",
+      "blues"
+    ],
+    "primaryGenre": "retro soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Blues",
+    "likes": "995.0K",
+    "tier": "Rising"
+  }
+]

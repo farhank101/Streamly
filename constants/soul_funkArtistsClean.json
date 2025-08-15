@@ -1,0 +1,211 @@
+[
+  {
+    "id": "5RTLRtXjbXI2lSXc6jxlAz",
+    "name": "Ravyn Lenae",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb138d70fe372dedacdca53b61",
+    "followers": 740094,
+    "spotifyId": "5RTLRtXjbXI2lSXc6jxlAz",
+    "spotifyPopularity": 81,
+    "genres": [
+      "alternative r&b",
+      "indie soul"
+    ],
+    "primaryGenre": "alternative r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "740.1K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3DiDSECUqqY1AuBP8qtaIa",
+    "name": "Alicia Keys",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb129c417ff4c4e095032e2e2f",
+    "followers": 12721550,
+    "spotifyId": "3DiDSECUqqY1AuBP8qtaIa",
+    "spotifyPopularity": 81,
+    "genres": [
+      "r&b",
+      "neo soul"
+    ],
+    "primaryGenre": "r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "12.7M",
+    "tier": "Top"
+  },
+  {
+    "id": "54bV1pHNm5h5EcEgMis1RC",
+    "name": "Mc Rodrigo do CN",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4fd600a930dcee006e63813e",
+    "followers": 266504,
+    "spotifyId": "54bV1pHNm5h5EcEgMis1RC",
+    "spotifyPopularity": 80,
+    "genres": [
+      "funk",
+      "funk de bh",
+      "brazilian funk",
+      "funk carioca"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "266.5K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7guDJrEfX3qb6FEbdPA5qi",
+    "name": "Stevie Wonder",
+    "image": "https://i.scdn.co/image/c59faacbed7aa770266bad048660810eca204108",
+    "followers": 7037442,
+    "spotifyId": "7guDJrEfX3qb6FEbdPA5qi",
+    "spotifyPopularity": 78,
+    "genres": [
+      "motown",
+      "classic soul",
+      "soul"
+    ],
+    "primaryGenre": "motown",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3qnGvpP8Yth1AqSBMqON5x",
+    "name": "Leon Bridges",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd5112a5b16a01e971ebb049c",
+    "followers": 1889583,
+    "spotifyId": "3qnGvpP8Yth1AqSBMqON5x",
+    "spotifyPopularity": 77,
+    "genres": [
+      "retro soul"
+    ],
+    "primaryGenre": "retro soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "1.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1CbQrKvCpEnekM3QMGJtXK",
+    "name": "MC Meno K",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbb83e0b2decc9e04a0c78c8c",
+    "followers": 229640,
+    "spotifyId": "1CbQrKvCpEnekM3QMGJtXK",
+    "spotifyPopularity": 77,
+    "genres": [
+      "funk",
+      "brazilian funk",
+      "funk carioca",
+      "brega funk"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "229.6K",
+    "tier": "Rising"
+  },
+  {
+    "id": "34giN3qeTOdgDSJIdtIMdm",
+    "name": "Mc Jhey",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaba5334e1aa59f6998a7a090",
+    "followers": 498795,
+    "spotifyId": "34giN3qeTOdgDSJIdtIMdm",
+    "spotifyPopularity": 76,
+    "genres": [
+      "phonk",
+      "funk",
+      "brazilian funk",
+      "brazilian phonk"
+    ],
+    "primaryGenre": "phonk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "498.8K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7me0S5Z40qVWj3gzyK8aC3",
+    "name": "Mc Livinho",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0c76b75c8206efcf0d9743da",
+    "followers": 7929178,
+    "spotifyId": "7me0S5Z40qVWj3gzyK8aC3",
+    "spotifyPopularity": 76,
+    "genres": [
+      "funk",
+      "brazilian funk",
+      "funk carioca"
+    ],
+    "primaryGenre": "funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "3koiLjNrgRTNbOwViDipeA",
+    "name": "Marvin Gaye",
+    "image": "https://i.scdn.co/image/cf79bd3e5c787e2ec152eeb1ea5538b0d4cf1434",
+    "followers": 5878731,
+    "spotifyId": "3koiLjNrgRTNbOwViDipeA",
+    "spotifyPopularity": 76,
+    "genres": [
+      "motown",
+      "classic soul",
+      "soul",
+      "northern soul",
+      "quiet storm"
+    ],
+    "primaryGenre": "motown",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "5.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1ThoqLcyIYvZn7iWbj8fsj",
+    "name": "Bill Withers",
+    "image": "https://i.scdn.co/image/96b85aec6907206572527e1eeec6569d5e977a38",
+    "followers": 1957379,
+    "spotifyId": "1ThoqLcyIYvZn7iWbj8fsj",
+    "spotifyPopularity": 75,
+    "genres": [
+      "soul",
+      "classic soul",
+      "motown"
+    ],
+    "primaryGenre": "soul",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "2.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "06e0gXtUpvgPUZFrR2ywsg",
+    "name": "DJ Dozabri",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe93178bccf892bcb0001c823",
+    "followers": 64416,
+    "spotifyId": "06e0gXtUpvgPUZFrR2ywsg",
+    "spotifyPopularity": 74,
+    "genres": [
+      "brazilian funk",
+      "funk"
+    ],
+    "primaryGenre": "brazilian funk",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "64.4K",
+    "tier": "Emerging"
+  }
+]

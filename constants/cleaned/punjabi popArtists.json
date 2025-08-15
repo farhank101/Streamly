@@ -1,0 +1,23 @@
+[
+  {
+    "id": "6DARBhWbfcS9E4yJzcliqQ",
+    "name": "Karan Aujla",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2a354a64d9c5c602db0be2a4",
+    "followers": 20365903,
+    "spotifyId": "6DARBhWbfcS9E4yJzcliqQ",
+    "spotifyPopularity": 82,
+    "genres": [
+      "punjabi pop",
+      "punjabi hip hop",
+      "bhangra",
+      "desi hip hop",
+      "desi"
+    ],
+    "primaryGenre": "punjabi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "20.4M",
+    "tier": "Top"
+  }
+]

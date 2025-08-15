@@ -1,0 +1,20 @@
+[
+  {
+    "id": "4Z8W4fKeB5YxbusRsdQVPb",
+    "name": "Radiohead",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc8824aec0936958401589b65",
+    "followers": 13043866,
+    "spotifyId": "4Z8W4fKeB5YxbusRsdQVPb",
+    "spotifyPopularity": 89,
+    "genres": [
+      "art rock",
+      "alternative rock"
+    ],
+    "primaryGenre": "art rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "13.0M",
+    "tier": "Top"
+  }
+]

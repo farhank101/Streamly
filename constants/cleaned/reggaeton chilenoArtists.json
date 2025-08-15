@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1Yj5Xey7kTwvZla8sqdsdE",
+    "name": "Cris MJ",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb418720dd75ca0213bc39e3e5",
+    "followers": 6597915,
+    "spotifyId": "1Yj5Xey7kTwvZla8sqdsdE",
+    "spotifyPopularity": 86,
+    "genres": [
+      "reggaeton chileno",
+      "chilean trap",
+      "chilean mambo",
+      "reggaeton"
+    ],
+    "primaryGenre": "reggaeton chileno",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "6.6M",
+    "tier": "Popular"
+  }
+]

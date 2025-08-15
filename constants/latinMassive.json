@@ -1,0 +1,431 @@
+[
+  {
+    "id": "5n9bMYfz9qss2VOW89EVs2",
+    "name": "Bomba Estéreo",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb6138f2e113c0f569b2c3f5a",
+    "followers": 1134367,
+    "spotifyId": "5n9bMYfz9qss2VOW89EVs2",
+    "spotifyPopularity": 72,
+    "genres": [
+      "latin alternative",
+      "electrocumbia"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Latin",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
+    "id": "2IMZYfNi21MGqxopj9fWx8",
+    "name": "Rels B",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb60d7f6254ce93e5ded619df4",
+    "followers": 9747209,
+    "spotifyId": "2IMZYfNi21MGqxopj9fWx8",
+    "spotifyPopularity": 86,
+    "genres": [
+      "urbano latino",
+      "trap latino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hip hop",
+    "primaryGenre": "Latin",
+    "likes": "9.7M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "6VxDAcLZ7MRxztuhhFfy90",
+    "name": "Edmar Castañeda",
+    "image": "https://i.scdn.co/image/ab6772690000c46c32878dd9655aae75ea53f03d",
+    "followers": 10664,
+    "spotifyId": "6VxDAcLZ7MRxztuhhFfy90",
+    "spotifyPopularity": 33,
+    "genres": [
+      "latin jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Latin",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6OBGbSaBUvQtk9wpQfDbOE",
+    "name": "Kevin Kaarl",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0d2dc2b31af50e7578c32573",
+    "followers": 8691029,
+    "spotifyId": "6OBGbSaBUvQtk9wpQfDbOE",
+    "spotifyPopularity": 77,
+    "genres": [
+      "latin folk",
+      "mexican indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Latin",
+    "likes": "8.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "1hcdI2N1023RvSwLzTtdsp",
+    "name": "Natalia Lafourcade",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebefb8cc9d57eabb9f1e3f8d0b",
+    "followers": 5246058,
+    "spotifyId": "1hcdI2N1023RvSwLzTtdsp",
+    "spotifyPopularity": 75,
+    "genres": [
+      "latin folk",
+      "bolero",
+      "latin indie",
+      "latin alternative",
+      "latin folklore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Latin",
+    "likes": "5.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "0XK6kT7xcZAlcYrNjOgzJe",
+    "name": "Carla Morrison",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb13022e44760fe2175dc11a0f",
+    "followers": 4911971,
+    "spotifyId": "0XK6kT7xcZAlcYrNjOgzJe",
+    "spotifyPopularity": 74,
+    "genres": [
+      "latin indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Latin",
+    "likes": "4.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "7a0XAaPaK2aDSqa8p3QnC7",
+    "name": "Beéle",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8e10d05db45e77a86256fc5d",
+    "followers": 2466120,
+    "spotifyId": "7a0XAaPaK2aDSqa8p3QnC7",
+    "spotifyPopularity": 92,
+    "genres": [
+      "latin afrobeats",
+      "reggaeton",
+      "pop urbano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Latin",
+    "likes": "2.5M",
+    "tier": "Global Star"
+  },
+  {
+    "id": "7ltDVBr6mKbRvohxheJ9h1",
+    "name": "ROSALÍA",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd7bb678bef6d2f26110cae49",
+    "followers": 8495382,
+    "spotifyId": "7ltDVBr6mKbRvohxheJ9h1",
+    "spotifyPopularity": 78,
+    "genres": [
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Latin",
+    "likes": "8.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "4V8Sr092TqfHkfAA5fXXqG",
+    "name": "Luis Fonsi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3981f9c0501750fffdb65001",
+    "followers": 10909876,
+    "spotifyId": "4V8Sr092TqfHkfAA5fXXqG",
+    "spotifyPopularity": 77,
+    "genres": [
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Latin",
+    "likes": "10.9M",
+    "tier": "Established"
+  },
+  {
+    "id": "0Q8NcsJwoCbZOHHW63su5S",
+    "name": "Mora",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe6252cc367480d8fe43e711f",
+    "followers": 7679232,
+    "spotifyId": "0Q8NcsJwoCbZOHHW63su5S",
+    "spotifyPopularity": 86,
+    "genres": [
+      "urbano latino",
+      "trap latino",
+      "reggaeton"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Latin",
+    "likes": "7.7M",
+    "tier": "Major Star"
+  },
+  {
+    "id": "5PlfkPxwCpRRWQJBxCa0By",
+    "name": "HUGEL",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb343b799b41a8c308fb4a72c2",
+    "followers": 592692,
+    "spotifyId": "5PlfkPxwCpRRWQJBxCa0By",
+    "spotifyPopularity": 83,
+    "genres": [
+      "latin house",
+      "afro house",
+      "techengue"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Latin",
+    "likes": "592K",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "3UTF2no3muGdiFXVujl94i",
+    "name": "Kapo",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd21af7619db28f072b7a9f54",
+    "followers": 856910,
+    "spotifyId": "3UTF2no3muGdiFXVujl94i",
+    "spotifyPopularity": 82,
+    "genres": [
+      "latin afrobeats"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Latin",
+    "likes": "856K",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "7L2xCq0Mc82JvdEYFydl9H",
+    "name": "LATIN HOUSE GANG",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2135498f2f4ddd3ecb3008dc",
+    "followers": 12717,
+    "spotifyId": "7L2xCq0Mc82JvdEYFydl9H",
+    "spotifyPopularity": 46,
+    "genres": [
+      "latin house",
+      "techengue",
+      "afro house",
+      "tribal house",
+      "tech house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Latin",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4boI7bJtmB1L3b1cuL75Zr",
+    "name": "Mon Laferte",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd4d9941b20bbf2bbe3714acc",
+    "followers": 9733259,
+    "spotifyId": "4boI7bJtmB1L3b1cuL75Zr",
+    "spotifyPopularity": 79,
+    "genres": [
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Latin",
+    "likes": "9.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "6wH6iStAh4KIaWfuhf0NYM",
+    "name": "Manu Chao",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf3373500e9ae4be34f94ae84",
+    "followers": 1964972,
+    "spotifyId": "6wH6iStAh4KIaWfuhf0NYM",
+    "spotifyPopularity": 77,
+    "genres": [
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Latin",
+    "likes": "2.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "2cy1zPcrFcXAJTP0APWewL",
+    "name": "Gente De Zona",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8dcf938a337680db23215942",
+    "followers": 1726644,
+    "spotifyId": "2cy1zPcrFcXAJTP0APWewL",
+    "spotifyPopularity": 73,
+    "genres": [
+      "latin",
+      "latin dance"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Latin",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "6MnWA8xVW1sEzV9s7wXpQb",
+    "name": "Jazz At Lincoln Center Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe89d1a3d2714d38cd902f9e8",
+    "followers": 42795,
+    "spotifyId": "6MnWA8xVW1sEzV9s7wXpQb",
+    "spotifyPopularity": 38,
+    "genres": [
+      "latin jazz",
+      "big band",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "Latin",
+    "likes": "42K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7JrHNXd3zMD7xTFFhvnoyN",
+    "name": "Rave Radio",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5d9b6987bbc751c1ca12d8ac",
+    "followers": 10207,
+    "spotifyId": "7JrHNXd3zMD7xTFFhvnoyN",
+    "spotifyPopularity": 36,
+    "genres": [
+      "latin house",
+      "melbourne bounce",
+      "tech house",
+      "bass house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "radio",
+    "primaryGenre": "Latin",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0qraFJK6boYSp4ZMMX4PzG",
+    "name": "Los Retros",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeee6f231bde846066beda6bd",
+    "followers": 530762,
+    "spotifyId": "0qraFJK6boYSp4ZMMX4PzG",
+    "spotifyPopularity": 61,
+    "genres": [
+      "latin indie",
+      "bedroom pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "Latin",
+    "likes": "530K",
+    "tier": "Established"
+  },
+  {
+    "id": "7H5CbmeG3gR9Qu0Ki0b0Tb",
+    "name": "Retro Jazz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb70228ab8bd25c14ddd589b53",
+    "followers": 10135,
+    "spotifyId": "7H5CbmeG3gR9Qu0Ki0b0Tb",
+    "spotifyPopularity": 30,
+    "genres": [
+      "latin jazz",
+      "bossa nova"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "Latin",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2LCcy9CZWwZ7Vvykt8IVVq",
+    "name": "Carlos Sadness",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebad8d27a515ccf412e9f45173",
+    "followers": 352768,
+    "spotifyId": "2LCcy9CZWwZ7Vvykt8IVVq",
+    "spotifyPopularity": 58,
+    "genres": [
+      "latin indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "sad",
+    "primaryGenre": "Latin",
+    "likes": "352K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5OSCH9ac5F4NIcBdu2B4K8",
+    "name": "Relaxing Instrumental Jazz Ensemble",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeec77f9fd6d911da33629c0b",
+    "followers": 23462,
+    "spotifyId": "5OSCH9ac5F4NIcBdu2B4K8",
+    "spotifyPopularity": 38,
+    "genres": [
+      "latin jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "relaxing",
+    "primaryGenre": "Latin",
+    "likes": "23K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7sjiAjXjA4ncQE7cJTcMb5",
+    "name": "Billy the Diamond",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb04714acb2b5ee134c78b0aa9",
+    "followers": 25834,
+    "spotifyId": "7sjiAjXjA4ncQE7cJTcMb5",
+    "spotifyPopularity": 32,
+    "genres": [
+      "latin house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "diamond",
+    "primaryGenre": "Latin",
+    "likes": "25K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0OluGbRuQQEcYyttGww517",
+    "name": "Los Mesoneros",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb67c8df6da14ede0f87e7f09",
+    "followers": 252930,
+    "spotifyId": "0OluGbRuQQEcYyttGww517",
+    "spotifyPopularity": 53,
+    "genres": [
+      "latin indie",
+      "latin alternative",
+      "mexican indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "Latin",
+    "likes": "252K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5ti5FPHgtaSf15KcUisZMt",
+    "name": "maye",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb677a9b5a0670c013c4e35e5b",
+    "followers": 245946,
+    "spotifyId": "5ti5FPHgtaSf15KcUisZMt",
+    "spotifyPopularity": 60,
+    "genres": [
+      "latin indie",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Latin",
+    "likes": "245K",
+    "tier": "Established"
+  }
+]

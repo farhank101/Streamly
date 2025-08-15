@@ -1,0 +1,19 @@
+[
+  {
+    "id": "0C0XlULifJtAgn6ZNCW2eu",
+    "name": "The Killers",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb207b21f3ed0ee96adce3166a",
+    "followers": 7899885,
+    "spotifyId": "0C0XlULifJtAgn6ZNCW2eu",
+    "spotifyPopularity": 80,
+    "genres": [
+      "alternative rock"
+    ],
+    "primaryGenre": "alternative rock",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Indie",
+    "likes": "7.9M",
+    "tier": "Popular"
+  }
+]

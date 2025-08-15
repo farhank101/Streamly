@@ -1,0 +1,123 @@
+[
+  {
+    "id": "2ye2Wgw4gimLv2eAKyk1NB",
+    "name": "Metallica",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44",
+    "followers": 31470213,
+    "spotifyId": "2ye2Wgw4gimLv2eAKyk1NB",
+    "spotifyPopularity": 86,
+    "genres": [
+      "metal",
+      "thrash metal",
+      "rock",
+      "heavy metal",
+      "hard rock"
+    ],
+    "primaryGenre": "metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "31.5M",
+    "tier": "Top"
+  },
+  {
+    "id": "6ZLTlhejhndI4Rh53vYhrY",
+    "name": "Ozzy Osbourne",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb5b52f7e13f720c7a4856306",
+    "followers": 7218880,
+    "spotifyId": "6ZLTlhejhndI4Rh53vYhrY",
+    "spotifyPopularity": 85,
+    "genres": [
+      "metal",
+      "glam metal",
+      "heavy metal",
+      "hard rock"
+    ],
+    "primaryGenre": "metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "7.2M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "name": "Black Sabbath",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4870cd833ebe1092601820c3",
+    "followers": 9485362,
+    "spotifyId": "5M52tdBnJaKSvOpJGz8mfZ",
+    "spotifyPopularity": 84,
+    "genres": [
+      "metal",
+      "heavy metal",
+      "rock",
+      "stoner rock",
+      "doom metal",
+      "hard rock"
+    ],
+    "primaryGenre": "metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Rock",
+    "likes": "9.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "0nmQIMXWTXfhgOBdNzhGOs",
+    "name": "Avenged Sevenfold",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb097658d63473ecb243ed4b1f",
+    "followers": 11420851,
+    "spotifyId": "0nmQIMXWTXfhgOBdNzhGOs",
+    "spotifyPopularity": 79,
+    "genres": [
+      "metal",
+      "alternative metal"
+    ],
+    "primaryGenre": "metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "11.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "3TOqt5oJwL9BE2NG9MEwDa",
+    "name": "Disturbed",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6823b6df396ecf49931e34a1",
+    "followers": 7529921,
+    "spotifyId": "3TOqt5oJwL9BE2NG9MEwDa",
+    "spotifyPopularity": 78,
+    "genres": [
+      "metal",
+      "nu metal",
+      "alternative metal",
+      "rap metal",
+      "hard rock",
+      "rock"
+    ],
+    "primaryGenre": "metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "7.5M",
+    "tier": "Popular"
+  },
+  {
+    "id": "1Qp56T7n950O3EGMsSl81D",
+    "name": "Ghost",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2d972470f1f8110be7c07017",
+    "followers": 3683571,
+    "spotifyId": "1Qp56T7n950O3EGMsSl81D",
+    "spotifyPopularity": 78,
+    "genres": [
+      "metal",
+      "hard rock"
+    ],
+    "primaryGenre": "metal",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Metal",
+    "likes": "3.7M",
+    "tier": "Popular"
+  }
+]

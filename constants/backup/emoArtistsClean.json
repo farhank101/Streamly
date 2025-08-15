@@ -1,0 +1,21 @@
+[
+  {
+    "id": "4iJLPqClelZOBCBifm8Fzv",
+    "name": "Pierce The Veil",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6f8f8d13be17bf486219edc7",
+    "followers": 3719361,
+    "spotifyId": "4iJLPqClelZOBCBifm8Fzv",
+    "spotifyPopularity": 80,
+    "genres": [
+      "emo",
+      "screamo",
+      "post-hardcore"
+    ],
+    "primaryGenre": "emo",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Punk",
+    "likes": "3.7M",
+    "tier": "Popular"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1aw0Cdl1DIrtUrUA6fGbAR",
+    "name": "Dread Mar I",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f95c6e5315e196a970c38cd",
+    "followers": 2947142,
+    "spotifyId": "1aw0Cdl1DIrtUrUA6fGbAR",
+    "spotifyPopularity": 74,
+    "genres": [
+      "spanish-language reggae",
+      "reggae"
+    ],
+    "primaryGenre": "spanish-language reggae",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "2.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2AbQwU2cuEGfD465wCXlg2",
+    "name": "Rawayana",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb5c14a2ec63ac237caab6593",
+    "followers": 1002119,
+    "spotifyId": "2AbQwU2cuEGfD465wCXlg2",
+    "spotifyPopularity": 72,
+    "genres": [
+      "spanish-language reggae",
+      "reggae"
+    ],
+    "primaryGenre": "spanish-language reggae",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Reggae",
+    "likes": "1.0M",
+    "tier": "Popular"
+  }
+]

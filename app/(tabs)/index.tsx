@@ -72,9 +72,12 @@ type MixedItem = HeaderItem | GenreItem | CategoryItem | MoodItem;
 
 // Safe image source resolver with proper fallbacks
 const getSafeImageSource = (item: any) => {
+  console.log('🖼️ getSafeImageSource called with item:', item);
+  
   try {
     // Priority 1: Local image from homeImages
     if (item.imageKey && (homeImages as any)[item.imageKey]) {
+      console.log('✅ Using homeImages for:', item.imageKey);
       return (homeImages as any)[item.imageKey];
     }
 
@@ -84,10 +87,12 @@ const getSafeImageSource = (item: any) => {
       typeof item.image === "string" &&
       item.image.trim() !== ""
     ) {
+      console.log('✅ Using remote image:', item.image);
       return { uri: item.image.trim() };
     }
 
     // Priority 3: Default placeholder
+    console.log('🔄 Using default placeholder for:', item.name || item.title);
     return {
       uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
     };
@@ -255,13 +260,19 @@ const genres = [
   {
     id: "instrumentals",
     name: "INSTRUMENTALS",
-    imageKey: "instrumentals",
+    imageKey: "genre_instrumentals",
     likes: "678K",
   },
-  { id: "punk", name: "PUNK", imageKey: "punk", likes: "345K" },
-  { id: "blues", name: "BLUES", imageKey: "blues", likes: "234K" },
-  { id: "soul_funk", name: "SOUL/FUNK", imageKey: "soul_funk", likes: "1.2M" },
+  { id: "punk", name: "PUNK", imageKey: "genre_punk", likes: "345K" },
+  { id: "blues", name: "BLUES", imageKey: "genre_blues", likes: "234K" },
+  {
+    id: "soul_funk",
+    name: "SOUL/FUNK",
+    imageKey: "genre_soul_funk",
+    likes: "1.2M",
+  },
   { id: "reggae", name: "REGGAE", imageKey: "genre_reggae", likes: "789K" },
+  { id: "folk", name: "FOLK", imageKey: "genre_folk", likes: "456K" },
 ];
 
 // Moods data matching your original layout
@@ -658,30 +669,33 @@ export default function HomeScreen() {
     </TouchableOpacity>
   );
 
-  const renderBrowseCard = (item: any) => (
-    <TouchableOpacity
-      style={styles.browseCard}
-      activeOpacity={0.8}
-      onPress={() => handleCardPress(item)}
-    >
-      <Image
-        source={getSafeImageSource(item)}
-        style={styles.browseCardImage}
-        onError={(error) =>
-          console.log("Browse image load error:", error.nativeEvent)
-        }
-        defaultSource={{
-          uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
-        }}
-      />
-      <LinearGradient
-        colors={["transparent", "rgba(0,0,0,0.7)"]}
-        style={styles.browseCardGradient}
+  const renderBrowseCard = (item: any) => {
+    console.log('🎨 renderBrowseCard called with item:', item);
+    return (
+      <TouchableOpacity
+        style={styles.browseCard}
+        activeOpacity={0.8}
+        onPress={() => handleCardPress(item)}
       >
-        <Text style={styles.browseCardName}>{item.name}</Text>
-      </LinearGradient>
-    </TouchableOpacity>
-  );
+        <Image
+          source={getSafeImageSource(item)}
+          style={styles.browseCardImage}
+          onError={(error) =>
+            console.log("Browse image load error:", error.nativeEvent)
+          }
+          defaultSource={{
+            uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+          }}
+        />
+        <LinearGradient
+          colors={["transparent", "rgba(0,0,0,0.7)"]}
+          style={styles.browseCardGradient}
+        >
+          <Text style={styles.browseCardName}>{item.name}</Text>
+        </LinearGradient>
+      </TouchableOpacity>
+    );
+  };
 
   // Grid layout renderer for Genres & Moods (restoring your original design)
   const renderGridSection = (
@@ -730,39 +744,52 @@ export default function HomeScreen() {
     isCircular = false,
     showViewAll = false,
     subtitle?: string
-  ) => (
-    <View style={styles.section}>
-      <View style={styles.sectionHeader}>
-        <View style={styles.sectionTitleContainer}>
-          <Text style={styles.sectionTitle}>{title}</Text>
-          {subtitle && <Text style={styles.sectionSubtitle}>{subtitle}</Text>}
-        </View>
-        {showViewAll && (
-          <TouchableOpacity onPress={() => handleViewAll(title)}>
-            <Text style={styles.viewAllText}>View All &gt;</Text>
-          </TouchableOpacity>
-        )}
-      </View>
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.horizontalListContent}
-      >
-        {data.map((item, index) => (
-          <View
-            key={generateUniqueKey(item, index)}
-            style={styles.cardContainer}
-          >
-            {isCircular
-              ? renderContentCard(item, isLarge, true)
-              : title === "Browse"
-              ? renderBrowseCard(item)
-              : renderContentCard(item, isLarge)}
+  ) => {
+    console.log(`🎯 Rendering section: ${title} with ${data.length} items`);
+    console.log(`🎯 First item:`, data[0]);
+
+    return (
+      <View style={styles.section}>
+        <View style={styles.sectionHeader}>
+          <View style={styles.sectionTitleContainer}>
+            <Text style={styles.sectionTitle}>{title}</Text>
+            {subtitle && <Text style={styles.sectionSubtitle}>{subtitle}</Text>}
           </View>
-        ))}
-      </ScrollView>
-    </View>
-  );
+          {showViewAll && (
+            <TouchableOpacity onPress={() => handleViewAll(title)}>
+              <Text style={styles.viewAllText}>View All &gt;</Text>
+            </TouchableOpacity>
+          )}
+        </View>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.horizontalListContent}
+        >
+          {data.map((item, index) => {
+            const shouldUseBrowseCard =
+              title === "Browse" || title === "Genres" || title === "Moods";
+            console.log(
+              `🎯 Item ${index}: ${item.name} - Using browse card: ${shouldUseBrowseCard}`
+            );
+
+            return (
+              <View
+                key={generateUniqueKey(item, index)}
+                style={styles.cardContainer}
+              >
+                {isCircular
+                  ? renderContentCard(item, isLarge, true)
+                  : shouldUseBrowseCard
+                  ? renderBrowseCard(item)
+                  : renderContentCard(item, isLarge)}
+              </View>
+            );
+          })}
+        </ScrollView>
+      </View>
+    );
+  };
 
   return (
     <ScrollView
@@ -835,6 +862,10 @@ export default function HomeScreen() {
         horizontal
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={styles.navTabs}
+        onScroll={(event) =>
+          console.log("📱 Nav tabs scroll:", event.nativeEvent.contentOffset.x)
+        }
+        scrollEventThrottle={16}
       >
         <TouchableOpacity
           style={styles.navTab}
@@ -1078,6 +1109,8 @@ const styles = StyleSheet.create({
     paddingVertical: SPACING.sm,
     paddingHorizontal: SPACING.md,
     borderRadius: SIZES.borderRadius,
+    minWidth: 120, // Ensure minimum width for proper spacing
+    alignItems: "center", // Center the text
   },
   activeTab: {
     backgroundColor: "transparent",

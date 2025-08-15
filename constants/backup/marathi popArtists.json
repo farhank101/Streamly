@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1SJOL9HJ08YOn92lFcYf8a",
+    "name": "Shankar Mahadevan",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3f27a828c24d73cf0427e2e7",
+    "followers": 12628145,
+    "spotifyId": "1SJOL9HJ08YOn92lFcYf8a",
+    "spotifyPopularity": 79,
+    "genres": [
+      "marathi pop",
+      "bollywood",
+      "devotional",
+      "bhajan",
+      "desi",
+      "tamil dance",
+      "hindi pop",
+      "tamil pop"
+    ],
+    "primaryGenre": "marathi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "12.6M",
+    "tier": "Top"
+  }
+]

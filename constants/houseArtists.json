@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2o5jDhtHVPhrJdv3cEQ99Z",
+    "name": "Tiësto",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe84e08fb1dfa2bf9b5a61563",
+    "followers": 7908846,
+    "spotifyId": "2o5jDhtHVPhrJdv3cEQ99Z",
+    "spotifyPopularity": 85,
+    "genres": [
+      "edm",
+      "trance",
+      "big room",
+      "house",
+      "dance"
+    ],
+    "primaryGenre": "house",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "",
+    "likes": "7.9M",
+    "tier": "Popular"
+  }
+]

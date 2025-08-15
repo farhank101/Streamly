@@ -1,0 +1,138 @@
+[
+  {
+    "id": "7tYKF4w9nC0nq9CsPZTHyP",
+    "name": "SZA",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf",
+    "followers": 31713266,
+    "spotifyId": "7tYKF4w9nC0nq9CsPZTHyP",
+    "spotifyPopularity": 92,
+    "genres": [
+      "r&b"
+    ],
+    "primaryGenre": "r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "31.7M",
+    "tier": "Top"
+  },
+  {
+    "id": "7bXgB6jMjp9ATFy66eO08Z",
+    "name": "Chris Brown",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba48397e590a1c70e2cda7728",
+    "followers": 27388509,
+    "spotifyId": "7bXgB6jMjp9ATFy66eO08Z",
+    "spotifyPopularity": 91,
+    "genres": [
+      "r&b"
+    ],
+    "primaryGenre": "r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "27.4M",
+    "tier": "Top"
+  },
+  {
+    "id": "23zg3TcAtWQy7J6upgbUnj",
+    "name": "USHER",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb716114797a4a644c67c5fa72",
+    "followers": 13472886,
+    "spotifyId": "23zg3TcAtWQy7J6upgbUnj",
+    "spotifyPopularity": 85,
+    "genres": [
+      "r&b"
+    ],
+    "primaryGenre": "r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "13.5M",
+    "tier": "Top"
+  },
+  {
+    "id": "3tlXnStJ1fFhdScmQeLpuG",
+    "name": "Brent Faiyaz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2af1d912483f27af21eba49f",
+    "followers": 7683087,
+    "spotifyId": "3tlXnStJ1fFhdScmQeLpuG",
+    "spotifyPopularity": 84,
+    "genres": [
+      "r&b"
+    ],
+    "primaryGenre": "r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.7M",
+    "tier": "Popular"
+  },
+  {
+    "id": "4fxd5Ee7UefO4CUXgwJ7IP",
+    "name": "GIVĒON",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb48769fa9ef3b5f24af90a09d",
+    "followers": 5005691,
+    "spotifyId": "4fxd5Ee7UefO4CUXgwJ7IP",
+    "spotifyPopularity": 83,
+    "genres": [
+      "r&b"
+    ],
+    "primaryGenre": "r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "5.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "360IAlyVv4PCEVjgyMZrxK",
+    "name": "Miguel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb35e36c368fdcd26aba296bd1",
+    "followers": 5997446,
+    "spotifyId": "360IAlyVv4PCEVjgyMZrxK",
+    "spotifyPopularity": 81,
+    "genres": [
+      "r&b"
+    ],
+    "primaryGenre": "r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "6.0M",
+    "tier": "Popular"
+  },
+  {
+    "id": "57LYzLEk2LcFghVwuWbcuS",
+    "name": "Summer Walker",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb557390f6b45ab596d5d70297",
+    "followers": 7822817,
+    "spotifyId": "57LYzLEk2LcFghVwuWbcuS",
+    "spotifyPopularity": 80,
+    "genres": [
+      "r&b"
+    ],
+    "primaryGenre": "r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "7.8M",
+    "tier": "Popular"
+  },
+  {
+    "id": "5ZS223C6JyBfXasXxrRqOk",
+    "name": "Jhené Aiko",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbc7ca5ae34cffbb572660ee3",
+    "followers": 9451148,
+    "spotifyId": "5ZS223C6JyBfXasXxrRqOk",
+    "spotifyPopularity": 80,
+    "genres": [
+      "r&b"
+    ],
+    "primaryGenre": "r&b",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Soul/Funk",
+    "likes": "9.5M",
+    "tier": "Popular"
+  }
+]

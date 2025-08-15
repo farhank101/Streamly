@@ -1,0 +1,40 @@
+[
+  {
+    "id": "2uFUBdaVGtyMqckSeCl0Qj",
+    "name": "Ludovico Einaudi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb86008946f7c35b22282d7e8c",
+    "followers": 3916717,
+    "spotifyId": "2uFUBdaVGtyMqckSeCl0Qj",
+    "spotifyPopularity": 80,
+    "genres": [
+      "neoclassical",
+      "classical"
+    ],
+    "primaryGenre": "neoclassical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "3.9M",
+    "tier": "Popular"
+  },
+  {
+    "id": "2VZNmg4vCnew4Pavo8zDdW",
+    "name": "Max Richter",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8dee498089aaed97d680c5b7",
+    "followers": 1113063,
+    "spotifyId": "2VZNmg4vCnew4Pavo8zDdW",
+    "spotifyPopularity": 74,
+    "genres": [
+      "neoclassical",
+      "minimalism",
+      "classical",
+      "ambient"
+    ],
+    "primaryGenre": "neoclassical",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Classical",
+    "likes": "1.1M",
+    "tier": "Popular"
+  }
+]

@@ -1,18 +1,20 @@
 /**
- * Hip Hop Artists Database with Spotify Images
- * Comprehensive list of Hip Hop artists with their Spotify data
+ * Hip Hop Artists Database with Spotify Images (auto-generated)
+ * Cleaned of duplicates - 2025-08-15T18:06:43.427Z
  */
 
 export interface HipHopArtist {
   id: string;
   name: string;
   genre: string;
-  image: string;
+  image: string | null;
   likes: string;
   followers: string | number;
   tier: string;
   spotifyId?: string | null;
   spotifyPopularity?: number;
+  popularity?: number;
+  isArtist?: boolean;
 }
 
 export const hiphopArtists: HipHopArtist[] = [
@@ -732,17 +734,6 @@ export const hiphopArtists: HipHopArtist[] = [
     "spotifyPopularity": 63
   },
   {
-    "id": "116",
-    "name": "Eminem (Slim Shady)",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebdb62eedf9ad6f0786b18a53a",
-    "likes": "5052K",
-    "genre": "Battle",
-    "followers": 5052139,
-    "tier": "Underground",
-    "spotifyId": "008PpLcKUtVXle6JSwkq3I",
-    "spotifyPopularity": 61
-  },
-  {
     "id": "117",
     "name": "Canibus",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc73857fef8c76efb648a5687",
@@ -1027,17 +1018,6 @@ export const hiphopArtists: HipHopArtist[] = [
     "tier": "Underground",
     "spotifyId": "0LAHNvXbHzjlMt2lHY3FJh",
     "spotifyPopularity": 15
-  },
-  {
-    "id": "143",
-    "name": "Logic (UK)",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb646477c13fe9ffb656d3607d",
-    "likes": "6139K",
-    "genre": "International",
-    "followers": 6139822,
-    "tier": "Underground",
-    "spotifyId": "4xRYI6VqpkE3UwrDrAZL8L",
-    "spotifyPopularity": 76
   },
   {
     "id": "144",
@@ -1337,7 +1317,7 @@ export const hiphopArtists: HipHopArtist[] = [
     "spotifyPopularity": 38
   },
   {
-    "id": "171",
+    "id": "341",
     "name": "Action Bronson",
     "image": "https://i.scdn.co/image/ab6761610000e5ebaef8392a62c123944b6383b2",
     "likes": "873K",
@@ -1390,17 +1370,6 @@ export const hiphopArtists: HipHopArtist[] = [
     "tier": "Underground",
     "spotifyId": "67gqUXxHedeUGDTxwBzdjS",
     "spotifyPopularity": 63
-  },
-  {
-    "id": "176",
-    "name": "Big K.R.I.T.",
-    "image": "https://i.scdn.co/image/1b4858fbd24046a81cace5ee18d19c868262b91f",
-    "likes": "12453K",
-    "genre": "Southern",
-    "followers": 12453266,
-    "tier": "Underground",
-    "spotifyId": "5me0Irg2ANcsgc93uaYrpb",
-    "spotifyPopularity": 80
   },
   {
     "id": "177",
@@ -1546,17 +1515,6 @@ export const hiphopArtists: HipHopArtist[] = [
     "spotifyPopularity": 67
   },
   {
-    "id": "190",
-    "name": "Danny Brown",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb196db1757e46efbecd7314c6",
-    "likes": "896K",
-    "genre": "Experimental",
-    "followers": 896730,
-    "tier": "Underground",
-    "spotifyId": "7aA592KWirLsnfb5ulGWvU",
-    "spotifyPopularity": 63
-  },
-  {
     "id": "191",
     "name": "KRS-One",
     "image": "https://i.scdn.co/image/ab6761610000e5eb1efb82b7712facda2cf50e20",
@@ -1667,83 +1625,6 @@ export const hiphopArtists: HipHopArtist[] = [
     "spotifyPopularity": 69
   },
   {
-    "id": "201",
-    "name": "Tyler, The Creator",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebdf2728294ff77dd11eeb18fb",
-    "likes": "23394K",
-    "genre": "Alternative",
-    "followers": 23394763,
-    "tier": "Underground",
-    "spotifyId": "4V8LLVI7PbaPR0K2TGSxFF",
-    "spotifyPopularity": 93
-  },
-  {
-    "id": "202",
-    "name": "Childish Gambino",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc3dc5429b676b16d451e5f77",
-    "likes": "14353K",
-    "genre": "Alternative",
-    "followers": 14353226,
-    "tier": "Underground",
-    "spotifyId": "73sIBHcqh3Z3NyqHKZ7FOL",
-    "spotifyPopularity": 81
-  },
-  {
-    "id": "203",
-    "name": "Chance the Rapper",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd4d18d62a36a26fe36b70e2a",
-    "likes": "6026K",
-    "genre": "Alternative",
-    "followers": 6026671,
-    "tier": "Underground",
-    "spotifyId": "1anyVhU62p31KFi8MEzkbf",
-    "spotifyPopularity": 77
-  },
-  {
-    "id": "204",
-    "name": "Logic",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb646477c13fe9ffb656d3607d",
-    "likes": "6139K",
-    "genre": "Alternative",
-    "followers": 6139822,
-    "tier": "Underground",
-    "spotifyId": "4xRYI6VqpkE3UwrDrAZL8L",
-    "spotifyPopularity": 76
-  },
-  {
-    "id": "205",
-    "name": "NF",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb1cf142a710a2f3d9b7a62da1",
-    "likes": "11019K",
-    "genre": "Alternative",
-    "followers": 11019321,
-    "tier": "Underground",
-    "spotifyId": "6fOMl44jA4Sp5b9PpYCkzz",
-    "spotifyPopularity": 79
-  },
-  {
-    "id": "206",
-    "name": "XXXTENTACION",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf0c20db5ef6c6fbe5135d2e4",
-    "likes": "51021K",
-    "genre": "SoundCloud",
-    "followers": 51021513,
-    "tier": "Underground",
-    "spotifyId": "15UsOTVnJzReFVN1VCnxy4",
-    "spotifyPopularity": 87
-  },
-  {
-    "id": "207",
-    "name": "Juice WRLD",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb23a60030944f7853c21565ef",
-    "likes": "41567K",
-    "genre": "SoundCloud",
-    "followers": 41567285,
-    "tier": "Underground",
-    "spotifyId": "4MCBfE4596Uoi2O4DtmEMz",
-    "spotifyPopularity": 89
-  },
-  {
     "id": "208",
     "name": "Lil Peep",
     "image": "https://i.scdn.co/image/ab6761610000e5eb3d9d59e200e82fa53d8781a1",
@@ -1830,17 +1711,6 @@ export const hiphopArtists: HipHopArtist[] = [
     "tier": "Underground",
     "spotifyId": "67lytN32YpUxiSeWlKfHJ3",
     "spotifyPopularity": 68
-  },
-  {
-    "id": "216",
-    "name": "Pop Smoke",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb597f9edd2cd1a892d4412b09",
-    "likes": "15441K",
-    "genre": "Drill",
-    "followers": 15441181,
-    "tier": "Underground",
-    "spotifyId": "0eDvMgVFoNV3TpwtrVCoTj",
-    "spotifyPopularity": 79
   },
   {
     "id": "217",
@@ -2215,11 +2085,117 @@ export const hiphopArtists: HipHopArtist[] = [
     "tier": "Underground",
     "spotifyId": "7HBai5xymOxIWoMWvWshe1",
     "spotifyPopularity": 61
+  },
+  {
+    "id": "251",
+    "name": "Cypress Hill",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb608ba101d4ff74222a6d5e5d",
+    "likes": "2343K",
+    "genre": "Latin",
+    "followers": 2343445,
+    "tier": "Underground",
+    "spotifyId": "4P0dddbxPil35MNN9G2MEX",
+    "spotifyPopularity": 70
+  },
+  {
+    "id": "252",
+    "name": "Delinquent Habits",
+    "image": "https://i.scdn.co/image/cc3e1790231fa51e892a29cf456e0d22027c748f",
+    "likes": "273K",
+    "genre": "Latin",
+    "followers": 273409,
+    "tier": "Underground",
+    "spotifyId": "0Ph64AJnzKQwXj4y7bWi2U",
+    "spotifyPopularity": 57
+  },
+  {
+    "id": "253",
+    "name": "Funkdoobiest",
+    "image": "https://i.scdn.co/image/64b147d32959568e21d99d999f87b033ffce73d5",
+    "likes": "139K",
+    "genre": "Latin",
+    "followers": 139276,
+    "tier": "Underground",
+    "spotifyId": "0pbj7bsLCiQ5f8P9mFnuPN",
+    "spotifyPopularity": 52
+  },
+  {
+    "id": "254",
+    "name": "Kid Frost",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9e7079d893a86f0e987defb0",
+    "likes": "96K",
+    "genre": "Latin",
+    "followers": 96173,
+    "tier": "Underground",
+    "spotifyId": "6OxjXk1y4QXXRUJyldFIIG",
+    "spotifyPopularity": 45
+  },
+  {
+    "id": "255",
+    "name": "Mellow Man Ace",
+    "image": "https://i.scdn.co/image/f97f614a0939593fae4fe5385aec03d401caf2f4",
+    "likes": "12K",
+    "genre": "Latin",
+    "followers": 12464,
+    "tier": "Underground",
+    "spotifyId": "37YcGi7z4aXgzWu4jGRe4H",
+    "spotifyPopularity": 34
+  },
+  {
+    "id": "268",
+    "name": "Hitman Holla",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb180c5d1e1a569635f60e2c1",
+    "likes": "10K",
+    "genre": "Battle",
+    "followers": 10139,
+    "tier": "Underground",
+    "spotifyId": "6kp0attlt9k4kyFc7e4o1q",
+    "spotifyPopularity": 22
+  },
+  {
+    "id": "269",
+    "name": "Tsu Surf",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6028dad2db1183c257d74083",
+    "likes": "57K",
+    "genre": "Battle",
+    "followers": 57557,
+    "tier": "Underground",
+    "spotifyId": "6tYVXU1sKSsk6SIdkfIWGu",
+    "spotifyPopularity": 43
+  },
+  {
+    "id": "270",
+    "name": "Calicoe",
+    "image": "https://i.scdn.co/image/ab67616d0000b273adcfadffdfc0ad50a0a8c703",
+    "likes": "5K",
+    "genre": "Battle",
+    "followers": 5214,
+    "tier": "Underground",
+    "spotifyId": "3GqqM5iwm0CnLXtbZM4EGH",
+    "spotifyPopularity": 16
+  },
+  {
+    "id": "306",
+    "name": "Brockhampton",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5685a95f87c28ae5efc5ba48",
+    "likes": "2269K",
+    "genre": "Alternative",
+    "followers": 2269736,
+    "tier": "Underground",
+    "spotifyId": "1Bl6wpkWCQ4KVgnASpvzzA",
+    "spotifyPopularity": 65
+  },
+  {
+    "id": "307",
+    "name": "Injury Reserve",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2a8b5966bf18ebc260d6f697",
+    "likes": "280K",
+    "genre": "Alternative",
+    "followers": 280351,
+    "tier": "Underground",
+    "spotifyId": "3nf2EaHj8HikLNdaiW3v73",
+    "spotifyPopularity": 47
   }
 ];
-
-// Separate arrays for different tiers
-export const majorHipHopArtists = hiphopArtists.filter(artist => artist.tier === "Top" || artist.tier === "Major" || artist.tier === "Established" || artist.tier === "Rising" || artist.tier === "Legend");
-export const undergroundHipHopArtists = hiphopArtists.filter(artist => artist.tier === "Underground");
 
 export default hiphopArtists;

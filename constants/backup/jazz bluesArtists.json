@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1eYhYunlNJlDoQhtYBvPsi",
+    "name": "Ray Charles",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6fc460f10177fa38af69b8bf",
+    "followers": 2570328,
+    "spotifyId": "1eYhYunlNJlDoQhtYBvPsi",
+    "spotifyPopularity": 71,
+    "genres": [
+      "jazz blues",
+      "soul",
+      "soul blues",
+      "blues",
+      "classic soul",
+      "vocal jazz"
+    ],
+    "primaryGenre": "jazz blues",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Jazz",
+    "likes": "2.6M",
+    "tier": "Popular"
+  }
+]

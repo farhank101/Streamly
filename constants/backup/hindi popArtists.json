@@ -1,0 +1,22 @@
+[
+  {
+    "id": "4YRxDV8wJFPHPTeXepOstw",
+    "name": "Arijit Singh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7",
+    "followers": 155504190,
+    "spotifyId": "4YRxDV8wJFPHPTeXepOstw",
+    "spotifyPopularity": 93,
+    "genres": [
+      "hindi pop",
+      "bollywood",
+      "desi",
+      "bangla pop"
+    ],
+    "primaryGenre": "hindi pop",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Pop",
+    "likes": "155.5M",
+    "tier": "Top"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "5lwmRuXgjX8xIwlnauTZIP",
+    "name": "Romeo Santos",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6d8b48abede0f9e433aa6e49",
+    "followers": 25957215,
+    "spotifyId": "5lwmRuXgjX8xIwlnauTZIP",
+    "spotifyPopularity": 86,
+    "genres": [
+      "bachata",
+      "latin"
+    ],
+    "primaryGenre": "bachata",
+    "country": null,
+    "discoveryMethod": "genre_search",
+    "genre": "Latin",
+    "likes": "26.0M",
+    "tier": "Top"
+  }
+]
