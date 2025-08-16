@@ -37,33 +37,56 @@ export const getArtistImage = async (
   const finalConfig = { ...DEFAULT_CONFIG, ...config };
 
   try {
+    console.log(`🔄 getArtistImage called for: ${artistName}`);
+    console.log(`🔄 Config:`, finalConfig);
+
     // Try primary source first
     let imageUrl = "";
 
     if (finalConfig.primarySource === "spotify") {
+      console.log(`🔄 Trying Spotify first for: ${artistName}`);
       imageUrl = await getSpotifyArtistImage(artistName);
+      console.log(`🔄 Spotify result for ${artistName}:`, imageUrl ? imageUrl.substring(0, 50) + "..." : "No image");
     } else {
+      console.log(`🔄 Trying LastFM first for: ${artistName}`);
       imageUrl = await getLastfmArtistImage(artistName);
+      console.log(`🔄 LastFM result for ${artistName}:`, imageUrl ? imageUrl.substring(0, 50) + "..." : "No image");
     }
 
     // If we got an image, return it
-    if (imageUrl) {
+    if (imageUrl && imageUrl.length > 0) {
+      console.log(`✅ Primary source successful for ${artistName}`);
       return imageUrl;
     }
 
     // If fallback is enabled and primary failed, try the other source
     if (finalConfig.enableFallback) {
+      console.log(`🔄 Trying fallback source for: ${artistName}`);
       if (finalConfig.primarySource === "spotify") {
         imageUrl = await getLastfmArtistImage(artistName);
+        console.log(`🔄 LastFM fallback result for ${artistName}:`, imageUrl ? imageUrl.substring(0, 50) + "..." : "No image");
       } else {
         imageUrl = await getSpotifyArtistImage(artistName);
+        console.log(`🔄 Spotify fallback result for ${artistName}:`, imageUrl ? imageUrl.substring(0, 50) + "..." : "No image");
       }
+    }
+
+    // If still no image, provide a better fallback
+    if (!imageUrl || imageUrl.length === 0) {
+      // Generate a unique fallback image based on artist name
+      const fallbackImage = `https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face&artist=${encodeURIComponent(artistName)}`;
+      console.log(`🔄 Using fallback image for ${artistName}:`, fallbackImage);
+      return fallbackImage;
     }
 
     return imageUrl;
   } catch (error) {
-    console.error(`Failed to get artist image for ${artistName}:`, error);
-    return "";
+    console.error(`❌ Failed to get artist image for ${artistName}:`, error);
+    
+    // Even if everything fails, provide a fallback image
+    const fallbackImage = `https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face&artist=${encodeURIComponent(artistName)}`;
+    console.log(`🔄 Using emergency fallback image for ${artistName}:`, fallbackImage);
+    return fallbackImage;
   }
 };
 

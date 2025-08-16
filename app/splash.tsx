@@ -6,10 +6,12 @@
 import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, Image, Animated } from 'react-native';
 import { useRouter } from 'expo-router';
+import { useAuth } from '../context/AuthContext';
 import { COLORS, SHADOWS } from '../constants/theme';
 
 export default function SplashScreen() {
   const router = useRouter();
+  const { isAuthenticated, isLoading } = useAuth();
   const fadeAnim = new Animated.Value(0);
   
   useEffect(() => {
@@ -20,20 +22,24 @@ export default function SplashScreen() {
       useNativeDriver: true,
     }).start();
     
-    // Navigate to onboarding or main app after timeout
+    // Navigate to appropriate screen after timeout and auth check
     const timer = setTimeout(() => {
-      // Check if user has completed onboarding before
-      const hasCompletedOnboarding = false; // This would be a real check in production
+      if (isLoading) {
+        // Still loading auth state, wait a bit more
+        return;
+      }
       
-      if (hasCompletedOnboarding) {
+      if (isAuthenticated) {
+        // User is authenticated, go to main app
         router.replace('/(tabs)');
       } else {
+        // User is not authenticated, go to onboarding
         router.replace('/onboarding');
       }
     }, 2000);
     
     return () => clearTimeout(timer);
-  }, []);
+  }, [isAuthenticated, isLoading]);
   
   return (
     <View style={styles.container}>

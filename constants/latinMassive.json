@@ -3,7 +3,7 @@
     "id": "5n9bMYfz9qss2VOW89EVs2",
     "name": "Bomba Estéreo",
     "image": "https://i.scdn.co/image/ab6761610000e5ebb6138f2e113c0f569b2c3f5a",
-    "followers": 1134367,
+    "followers": 1134477,
     "spotifyId": "5n9bMYfz9qss2VOW89EVs2",
     "spotifyPopularity": 72,
     "genres": [
@@ -17,10 +17,28 @@
     "tier": "Established"
   },
   {
+    "id": "7plUpXSFcSJUZSiZAoXqr1",
+    "name": "Ximena Sariñana",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2a85827ccbdcb2c144ad9f21",
+    "followers": 1600812,
+    "spotifyId": "7plUpXSFcSJUZSiZAoXqr1",
+    "spotifyPopularity": 68,
+    "genres": [
+      "latin indie",
+      "mexican indie",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Latin",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
     "id": "2IMZYfNi21MGqxopj9fWx8",
     "name": "Rels B",
     "image": "https://i.scdn.co/image/ab6761610000e5eb60d7f6254ce93e5ded619df4",
-    "followers": 9747209,
+    "followers": 9750659,
     "spotifyId": "2IMZYfNi21MGqxopj9fWx8",
     "spotifyPopularity": 86,
     "genres": [
@@ -30,14 +48,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "hip hop",
     "primaryGenre": "Latin",
-    "likes": "9.7M",
+    "likes": "9.8M",
     "tier": "Major Star"
   },
   {
     "id": "6VxDAcLZ7MRxztuhhFfy90",
     "name": "Edmar Castañeda",
     "image": "https://i.scdn.co/image/ab6772690000c46c32878dd9655aae75ea53f03d",
-    "followers": 10664,
+    "followers": 10669,
     "spotifyId": "6VxDAcLZ7MRxztuhhFfy90",
     "spotifyPopularity": 33,
     "genres": [
@@ -54,7 +72,7 @@
     "id": "6OBGbSaBUvQtk9wpQfDbOE",
     "name": "Kevin Kaarl",
     "image": "https://i.scdn.co/image/ab6761610000e5eb0d2dc2b31af50e7578c32573",
-    "followers": 8691029,
+    "followers": 8694689,
     "spotifyId": "6OBGbSaBUvQtk9wpQfDbOE",
     "spotifyPopularity": 77,
     "genres": [
@@ -71,7 +89,7 @@
     "id": "1hcdI2N1023RvSwLzTtdsp",
     "name": "Natalia Lafourcade",
     "image": "https://i.scdn.co/image/ab6761610000e5ebefb8cc9d57eabb9f1e3f8d0b",
-    "followers": 5246058,
+    "followers": 5247547,
     "spotifyId": "1hcdI2N1023RvSwLzTtdsp",
     "spotifyPopularity": 75,
     "genres": [
@@ -91,7 +109,7 @@
     "id": "0XK6kT7xcZAlcYrNjOgzJe",
     "name": "Carla Morrison",
     "image": "https://i.scdn.co/image/ab6761610000e5eb13022e44760fe2175dc11a0f",
-    "followers": 4911971,
+    "followers": 4913307,
     "spotifyId": "0XK6kT7xcZAlcYrNjOgzJe",
     "spotifyPopularity": 74,
     "genres": [
@@ -107,7 +125,7 @@
     "id": "7a0XAaPaK2aDSqa8p3QnC7",
     "name": "Beéle",
     "image": "https://i.scdn.co/image/ab6761610000e5eb8e10d05db45e77a86256fc5d",
-    "followers": 2466120,
+    "followers": 2475969,
     "spotifyId": "7a0XAaPaK2aDSqa8p3QnC7",
     "spotifyPopularity": 92,
     "genres": [
@@ -125,7 +143,7 @@
     "id": "7ltDVBr6mKbRvohxheJ9h1",
     "name": "ROSALÍA",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd7bb678bef6d2f26110cae49",
-    "followers": 8495382,
+    "followers": 8495707,
     "spotifyId": "7ltDVBr6mKbRvohxheJ9h1",
     "spotifyPopularity": 78,
     "genres": [
@@ -141,7 +159,7 @@
     "id": "4V8Sr092TqfHkfAA5fXXqG",
     "name": "Luis Fonsi",
     "image": "https://i.scdn.co/image/ab6761610000e5eb3981f9c0501750fffdb65001",
-    "followers": 10909876,
+    "followers": 10910839,
     "spotifyId": "4V8Sr092TqfHkfAA5fXXqG",
     "spotifyPopularity": 77,
     "genres": [
@@ -157,7 +175,7 @@
     "id": "0Q8NcsJwoCbZOHHW63su5S",
     "name": "Mora",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe6252cc367480d8fe43e711f",
-    "followers": 7679232,
+    "followers": 7685036,
     "spotifyId": "0Q8NcsJwoCbZOHHW63su5S",
     "spotifyPopularity": 86,
     "genres": [
@@ -175,7 +193,7 @@
     "id": "5PlfkPxwCpRRWQJBxCa0By",
     "name": "HUGEL",
     "image": "https://i.scdn.co/image/ab6761610000e5eb343b799b41a8c308fb4a72c2",
-    "followers": 592692,
+    "followers": 594188,
     "spotifyId": "5PlfkPxwCpRRWQJBxCa0By",
     "spotifyPopularity": 83,
     "genres": [
@@ -186,14 +204,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "latin",
     "primaryGenre": "Latin",
-    "likes": "592K",
+    "likes": "594K",
     "tier": "Popular Star"
   },
   {
     "id": "3UTF2no3muGdiFXVujl94i",
     "name": "Kapo",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd21af7619db28f072b7a9f54",
-    "followers": 856910,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7353cde951b10b3bde087251",
+    "followers": 858958,
     "spotifyId": "3UTF2no3muGdiFXVujl94i",
     "spotifyPopularity": 82,
     "genres": [
@@ -202,14 +220,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "latin",
     "primaryGenre": "Latin",
-    "likes": "856K",
+    "likes": "858K",
     "tier": "Popular Star"
   },
   {
     "id": "7L2xCq0Mc82JvdEYFydl9H",
     "name": "LATIN HOUSE GANG",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2135498f2f4ddd3ecb3008dc",
-    "followers": 12717,
+    "followers": 12757,
     "spotifyId": "7L2xCq0Mc82JvdEYFydl9H",
     "spotifyPopularity": 46,
     "genres": [
@@ -229,7 +247,7 @@
     "id": "4boI7bJtmB1L3b1cuL75Zr",
     "name": "Mon Laferte",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd4d9941b20bbf2bbe3714acc",
-    "followers": 9733259,
+    "followers": 9739854,
     "spotifyId": "4boI7bJtmB1L3b1cuL75Zr",
     "spotifyPopularity": 79,
     "genres": [
@@ -245,7 +263,7 @@
     "id": "6wH6iStAh4KIaWfuhf0NYM",
     "name": "Manu Chao",
     "image": "https://i.scdn.co/image/ab6761610000e5ebf3373500e9ae4be34f94ae84",
-    "followers": 1964972,
+    "followers": 1965471,
     "spotifyId": "6wH6iStAh4KIaWfuhf0NYM",
     "spotifyPopularity": 77,
     "genres": [
@@ -261,7 +279,7 @@
     "id": "2cy1zPcrFcXAJTP0APWewL",
     "name": "Gente De Zona",
     "image": "https://i.scdn.co/image/ab6761610000e5eb8dcf938a337680db23215942",
-    "followers": 1726644,
+    "followers": 1727076,
     "spotifyId": "2cy1zPcrFcXAJTP0APWewL",
     "spotifyPopularity": 73,
     "genres": [
@@ -275,10 +293,42 @@
     "tier": "Established"
   },
   {
+    "id": "5luyt0SUvGkDMY4ILP6Qhl",
+    "name": "Descemer Bueno",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4c10be0fddca72620c2b005e",
+    "followers": 88436,
+    "spotifyId": "5luyt0SUvGkDMY4ILP6Qhl",
+    "spotifyPopularity": 70,
+    "genres": [
+      "latin"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "latin",
+    "primaryGenre": "Latin",
+    "likes": "88K",
+    "tier": "Established"
+  },
+  {
+    "id": "3frx2nsVBAA3DvbKTE9JeT",
+    "name": "Miguel Bueno",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc67c69e14d9d87e31a526220",
+    "followers": 73250,
+    "spotifyId": "3frx2nsVBAA3DvbKTE9JeT",
+    "spotifyPopularity": 67,
+    "genres": [
+      "latin afrobeats"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "reggae",
+    "primaryGenre": "Latin",
+    "likes": "73K",
+    "tier": "Established"
+  },
+  {
     "id": "6MnWA8xVW1sEzV9s7wXpQb",
     "name": "Jazz At Lincoln Center Orchestra",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe89d1a3d2714d38cd902f9e8",
-    "followers": 42795,
+    "followers": 42801,
     "spotifyId": "6MnWA8xVW1sEzV9s7wXpQb",
     "spotifyPopularity": 38,
     "genres": [
@@ -296,7 +346,7 @@
     "id": "7JrHNXd3zMD7xTFFhvnoyN",
     "name": "Rave Radio",
     "image": "https://i.scdn.co/image/ab6761610000e5eb5d9b6987bbc751c1ca12d8ac",
-    "followers": 10207,
+    "followers": 10206,
     "spotifyId": "7JrHNXd3zMD7xTFFhvnoyN",
     "spotifyPopularity": 36,
     "genres": [
@@ -315,7 +365,7 @@
     "id": "0qraFJK6boYSp4ZMMX4PzG",
     "name": "Los Retros",
     "image": "https://i.scdn.co/image/ab6761610000e5ebeee6f231bde846066beda6bd",
-    "followers": 530762,
+    "followers": 530953,
     "spotifyId": "0qraFJK6boYSp4ZMMX4PzG",
     "spotifyPopularity": 61,
     "genres": [
@@ -332,7 +382,7 @@
     "id": "7H5CbmeG3gR9Qu0Ki0b0Tb",
     "name": "Retro Jazz",
     "image": "https://i.scdn.co/image/ab6761610000e5eb70228ab8bd25c14ddd589b53",
-    "followers": 10135,
+    "followers": 10140,
     "spotifyId": "7H5CbmeG3gR9Qu0Ki0b0Tb",
     "spotifyPopularity": 30,
     "genres": [
@@ -349,7 +399,7 @@
     "id": "2LCcy9CZWwZ7Vvykt8IVVq",
     "name": "Carlos Sadness",
     "image": "https://i.scdn.co/image/ab6761610000e5ebad8d27a515ccf412e9f45173",
-    "followers": 352768,
+    "followers": 352794,
     "spotifyId": "2LCcy9CZWwZ7Vvykt8IVVq",
     "spotifyPopularity": 58,
     "genres": [
@@ -365,7 +415,7 @@
     "id": "5OSCH9ac5F4NIcBdu2B4K8",
     "name": "Relaxing Instrumental Jazz Ensemble",
     "image": "https://i.scdn.co/image/ab6761610000e5ebeec77f9fd6d911da33629c0b",
-    "followers": 23462,
+    "followers": 23458,
     "spotifyId": "5OSCH9ac5F4NIcBdu2B4K8",
     "spotifyPopularity": 38,
     "genres": [
@@ -381,7 +431,7 @@
     "id": "7sjiAjXjA4ncQE7cJTcMb5",
     "name": "Billy the Diamond",
     "image": "https://i.scdn.co/image/ab6761610000e5eb04714acb2b5ee134c78b0aa9",
-    "followers": 25834,
+    "followers": 25832,
     "spotifyId": "7sjiAjXjA4ncQE7cJTcMb5",
     "spotifyPopularity": 32,
     "genres": [
@@ -397,7 +447,7 @@
     "id": "0OluGbRuQQEcYyttGww517",
     "name": "Los Mesoneros",
     "image": "https://i.scdn.co/image/ab6761610000e5ebb67c8df6da14ede0f87e7f09",
-    "followers": 252930,
+    "followers": 252976,
     "spotifyId": "0OluGbRuQQEcYyttGww517",
     "spotifyPopularity": 53,
     "genres": [
@@ -415,7 +465,7 @@
     "id": "5ti5FPHgtaSf15KcUisZMt",
     "name": "maye",
     "image": "https://i.scdn.co/image/ab6761610000e5eb677a9b5a0670c013c4e35e5b",
-    "followers": 245946,
+    "followers": 246012,
     "spotifyId": "5ti5FPHgtaSf15KcUisZMt",
     "spotifyPopularity": 60,
     "genres": [
@@ -425,7 +475,488 @@
     "discoveryMethod": "search_term",
     "searchTerm": "bedroom pop",
     "primaryGenre": "Latin",
-    "likes": "245K",
+    "likes": "246K",
     "tier": "Established"
+  },
+  {
+    "id": "0wn2qDKzeFlhjRUtJAwJjp",
+    "name": "Bandalos Chinos",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf08d44f4ab003d35e169804c",
+    "followers": 435796,
+    "spotifyId": "0wn2qDKzeFlhjRUtJAwJjp",
+    "spotifyPopularity": 64,
+    "genres": [
+      "latin indie",
+      "mexican indie",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "band",
+    "primaryGenre": "Latin",
+    "likes": "435K",
+    "tier": "Established"
+  },
+  {
+    "id": "3Ik2TovwBiWawoShYwa4Hh",
+    "name": "Pedrito Martinez",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2caf0362bcfd7fe340a350de",
+    "followers": 28926,
+    "spotifyId": "3Ik2TovwBiWawoShYwa4Hh",
+    "spotifyPopularity": 39,
+    "genres": [
+      "latin jazz",
+      "timba",
+      "son cubano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "group",
+    "primaryGenre": "Latin",
+    "likes": "28K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1YKJToMncgtzNmlLyCfoRD",
+    "name": "Dúo Sentimiento",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d16ed335d54774c5bc6d7dbd",
+    "followers": 10007,
+    "spotifyId": "1YKJToMncgtzNmlLyCfoRD",
+    "spotifyPopularity": 28,
+    "genres": [
+      "latin folklore",
+      "huayno"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "duo",
+    "primaryGenre": "Latin",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3eZXi1et2XpXPD7PoUDDzE",
+    "name": "Ainda",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb63164bdfa4e37d1b1eca870f",
+    "followers": 80524,
+    "spotifyId": "3eZXi1et2XpXPD7PoUDDzE",
+    "spotifyPopularity": 47,
+    "genres": [
+      "latin indie",
+      "latin folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "duo",
+    "primaryGenre": "Latin",
+    "likes": "80K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0bvP91QlkYvAFP71Cw6PkM",
+    "name": "Solo Fernández",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc013b0beeb2bc70001ce61b3",
+    "followers": 14140,
+    "spotifyId": "0bvP91QlkYvAFP71Cw6PkM",
+    "spotifyPopularity": 36,
+    "genres": [
+      "latin indie",
+      "latin alternative",
+      "mexican indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "solo",
+    "primaryGenre": "Latin",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6iGoMyoSIjyTxbCRyHREtI",
+    "name": "Sol y Lluvia",
+    "image": "https://i.scdn.co/image/ab67616d0000b27343b930af2d2e87c1cd6046ae",
+    "followers": 144285,
+    "spotifyId": "6iGoMyoSIjyTxbCRyHREtI",
+    "spotifyPopularity": 44,
+    "genres": [
+      "latin folklore",
+      "folclor andino",
+      "nueva trova",
+      "latin rock",
+      "trova",
+      "latin folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "solo",
+    "primaryGenre": "Latin",
+    "likes": "144K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2QhmXpKTQIK3Wf0fEcpYEk",
+    "name": "Workout Remix Factory",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe683f46d3ca31ba134581dcf",
+    "followers": 91680,
+    "spotifyId": "2QhmXpKTQIK3Wf0fEcpYEk",
+    "spotifyPopularity": 31,
+    "genres": [
+      "latin jazz",
+      "merengue",
+      "flamenco pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "remix",
+    "primaryGenre": "Latin",
+    "likes": "91K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0e1Zih19iuVEnhZPOuqL9V",
+    "name": "Leanys",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7101d18697363695af1485fa",
+    "followers": 20764,
+    "spotifyId": "0e1Zih19iuVEnhZPOuqL9V",
+    "spotifyPopularity": 39,
+    "genres": [
+      "latin indie",
+      "latin r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lead",
+    "primaryGenre": "Latin",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5hCv8oMMxHb3FoHMGLN8Vx",
+    "name": "Leandro Da Silva",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3b390ec8ce2e66de10d6f28e",
+    "followers": 42975,
+    "spotifyId": "5hCv8oMMxHb3FoHMGLN8Vx",
+    "spotifyPopularity": 38,
+    "genres": [
+      "latin house",
+      "tribal house",
+      "tech house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lead",
+    "primaryGenre": "Latin",
+    "likes": "42K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5XHchrkk32VTO05bnCwPeT",
+    "name": "Miss Melody",
+    "image": "https://i.scdn.co/image/ab67616d0000b27319b28a3dfe748eaca9e84ba7",
+    "followers": 20582,
+    "spotifyId": "5XHchrkk32VTO05bnCwPeT",
+    "spotifyPopularity": 36,
+    "genres": [
+      "latin house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "melody",
+    "primaryGenre": "Latin",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1Be8ITi2hwXQWdQCKbmQv4",
+    "name": "Manybeat",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb84a52bf302f7e5f59adf86e7",
+    "followers": 30488,
+    "spotifyId": "1Be8ITi2hwXQWdQCKbmQv4",
+    "spotifyPopularity": 43,
+    "genres": [
+      "latin house",
+      "afro house",
+      "tribal house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "beat",
+    "primaryGenre": "Latin",
+    "likes": "30K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0xmReQikhslaXMtTgKJQ9g",
+    "name": "New Swing Sextet",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd846086d26e39c00c946818",
+    "followers": 14661,
+    "spotifyId": "0xmReQikhslaXMtTgKJQ9g",
+    "spotifyPopularity": 33,
+    "genres": [
+      "latin jazz",
+      "salsa",
+      "mambo",
+      "cha cha cha"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "swing",
+    "primaryGenre": "Latin",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
+    "id": "31Wb354M8kymhMPAvwF7I4",
+    "name": "Disco Bahía",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb90c5c84b973a6cf1929d199c",
+    "followers": 38860,
+    "spotifyId": "31Wb354M8kymhMPAvwF7I4",
+    "spotifyPopularity": 50,
+    "genres": [
+      "latin indie",
+      "mexican indie",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "disco",
+    "primaryGenre": "Latin",
+    "likes": "38K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6D1DgoF2TYTbPQbRPEriaI",
+    "name": "Afro Medusa",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd404b09f5991deed29ef82e4",
+    "followers": 18302,
+    "spotifyId": "6D1DgoF2TYTbPQbRPEriaI",
+    "spotifyPopularity": 58,
+    "genres": [
+      "latin house",
+      "afro house",
+      "funky house",
+      "disco house",
+      "house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "disco",
+    "primaryGenre": "Latin",
+    "likes": "18K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5dncbrnveDMX9DgxcedeUg",
+    "name": "Louie Vega",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe9bf5ca5f257cae2a47d1eb4",
+    "followers": 86486,
+    "spotifyId": "5dncbrnveDMX9DgxcedeUg",
+    "spotifyPopularity": 52,
+    "genres": [
+      "latin house",
+      "deep house",
+      "chicago house",
+      "disco house",
+      "funky house",
+      "house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "disco",
+    "primaryGenre": "Latin",
+    "likes": "86K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0PTJ848ulShbjTx2yqaAlb",
+    "name": "Newen Afrobeat",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbcdb7acc08afe026f7a2b5d2",
+    "followers": 65021,
+    "spotifyId": "0PTJ848ulShbjTx2yqaAlb",
+    "spotifyPopularity": 31,
+    "genres": [
+      "latin afrobeats",
+      "afrobeat"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "new",
+    "primaryGenre": "Latin",
+    "likes": "65K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7rAlT8ekkzP9ScdBbBkRou",
+    "name": "Nortec Collective",
+    "image": "https://i.scdn.co/image/190ecc1028b4f2952dcb086cd8f8633ec91719b9",
+    "followers": 184519,
+    "spotifyId": "7rAlT8ekkzP9ScdBbBkRou",
+    "spotifyPopularity": 32,
+    "genres": [
+      "latin alternative",
+      "electrocumbia",
+      "mexican rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "present",
+    "primaryGenre": "Latin",
+    "likes": "184K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0CgwrEiQpSx2oppyHGCSV3",
+    "name": "ARIEL",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5139cceb8791f3733c366656",
+    "followers": 10968,
+    "spotifyId": "0CgwrEiQpSx2oppyHGCSV3",
+    "spotifyPopularity": 24,
+    "genres": [
+      "latin indie",
+      "mexican indie"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "culture",
+    "primaryGenre": "Latin",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4nzV0hThyodYzrwksnS86G",
+    "name": "Ambar Lucid",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb70ccf6e3b6dad3aa3f2493e9",
+    "followers": 140026,
+    "spotifyId": "4nzV0hThyodYzrwksnS86G",
+    "spotifyPopularity": 45,
+    "genres": [
+      "latin indie",
+      "bedroom pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "independent",
+    "primaryGenre": "Latin",
+    "likes": "140K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0UI6s6uva6Ozm7VlICnFmc",
+    "name": "Alegre All Stars",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730820d5dd58318f0800e0a87e",
+    "followers": 25983,
+    "spotifyId": "0UI6s6uva6Ozm7VlICnFmc",
+    "spotifyPopularity": 27,
+    "genres": [
+      "latin jazz",
+      "salsa",
+      "mambo",
+      "son cubano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "stars",
+    "primaryGenre": "Latin",
+    "likes": "25K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1U7nDI6jydkqHWaOtUdlkx",
+    "name": "Miguelle & Tons",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0ea956863a175196313e9b02",
+    "followers": 12598,
+    "spotifyId": "1U7nDI6jydkqHWaOtUdlkx",
+    "spotifyPopularity": 44,
+    "genres": [
+      "latin house",
+      "afro house",
+      "tech house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "tones",
+    "primaryGenre": "Latin",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6GKbEjuVNKuuAKetDXA2Mi",
+    "name": "Key-Key",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5f2849325f4207be7615e7e5",
+    "followers": 58837,
+    "spotifyId": "6GKbEjuVNKuuAKetDXA2Mi",
+    "spotifyPopularity": 61,
+    "genres": [
+      "latin afrobeats"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "keys",
+    "primaryGenre": "Latin",
+    "likes": "58K",
+    "tier": "Established"
+  },
+  {
+    "id": "6CK6I6I7fKtcThateyQpVY",
+    "name": "House Music Bro",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb64827d73de9353af4407bbd4",
+    "followers": 16116,
+    "spotifyId": "6CK6I6I7fKtcThateyQpVY",
+    "spotifyPopularity": 21,
+    "genres": [
+      "latin house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hours",
+    "primaryGenre": "Latin",
+    "likes": "16K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6LcWO77VeIUPqNY22N3fI0",
+    "name": "Daymé Arocena",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb106be0dd68e81bb6fa863966",
+    "followers": 40168,
+    "spotifyId": "6LcWO77VeIUPqNY22N3fI0",
+    "spotifyPopularity": 40,
+    "genres": [
+      "latin jazz",
+      "timba"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "days",
+    "primaryGenre": "Latin",
+    "likes": "40K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7DBx4maFkuoaBd7w7tTsQR",
+    "name": "Brøder",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb44bdf46508b9c499c798dace",
+    "followers": 10001,
+    "spotifyId": "7DBx4maFkuoaBd7w7tTsQR",
+    "spotifyPopularity": 46,
+    "genres": [
+      "latin house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "broad",
+    "primaryGenre": "Latin",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1mPUNeOkJql5onhKwqiLMj",
+    "name": "Sllash & Doppe",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5624fe1a94acdb4da193c6a3",
+    "followers": 21487,
+    "spotifyId": "1mPUNeOkJql5onhKwqiLMj",
+    "spotifyPopularity": 50,
+    "genres": [
+      "latin house",
+      "tribal house",
+      "tech house",
+      "afro house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "slashing",
+    "primaryGenre": "Latin",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1wFpAE8HCGoqaLjzRO51w9",
+    "name": "Making Movies",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb205b3df943c9394d064b21b3",
+    "followers": 15862,
+    "spotifyId": "1wFpAE8HCGoqaLjzRO51w9",
+    "spotifyPopularity": 33,
+    "genres": [
+      "latin indie",
+      "latin alternative"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "making",
+    "primaryGenre": "Latin",
+    "likes": "15K",
+    "tier": "Underground"
   }
 ]

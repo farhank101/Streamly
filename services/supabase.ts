@@ -16,6 +16,22 @@ const supabaseAnonKey = config.supabase.anonKey;
 // Initialize the Supabase client
 export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey);
 
+// Check if Supabase is properly initialized
+export const isSupabaseInitialized = () => {
+  return supabase && supabaseUrl && supabaseAnonKey && 
+         supabaseUrl !== "https://placeholder.supabase.co" && 
+         supabaseAnonKey !== "placeholder-anon-key";
+};
+
+// Get initialization status
+export const getSupabaseStatus = () => {
+  return {
+    initialized: isSupabaseInitialized(),
+    url: supabaseUrl,
+    hasAnonKey: !!supabaseAnonKey,
+  };
+};
+
 /**
  * Authentication helpers
  */
@@ -128,30 +144,67 @@ export const getCurrentSession = async () => {
 
 // Get the current user with profile data
 export const getCurrentUser = async () => {
-  const { data, error } = await supabase.auth.getUser();
+  try {
+    // First check if we have a valid session
+    const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
+    
+    if (sessionError) {
+      console.warn("Session check error:", sessionError);
+      return { data: null, error: sessionError };
+    }
 
-  if (error || !data.user) {
-    return { data, error };
+    if (!sessionData.session) {
+      return { data: null, error: { message: "No active session" } };
+    }
+
+    // Then get the current user
+    const { data, error } = await supabase.auth.getUser();
+
+    if (error) {
+      console.warn("User check error:", error);
+      return { data: null, error };
+    }
+
+    if (!data.user) {
+      return { data: null, error: { message: "No user found" } };
+    }
+
+    // Get additional user profile data
+    let profileData = null;
+    try {
+      const { data: profile, error: profileError } = await supabase
+        .from("users")
+        .select("*")
+        .eq("id", data.user.id)
+        .single();
+
+      if (profileError) {
+        console.warn("Error fetching user profile:", profileError);
+        // Don't fail completely if profile fetch fails
+      } else {
+        profileData = profile;
+      }
+    } catch (profileErr) {
+      console.warn("Profile fetch error:", profileErr);
+    }
+
+    // Combine auth user with profile data
+    const userWithProfile = {
+      ...data.user,
+      profile: profileData,
+    };
+
+    return { data: { user: userWithProfile }, error: null };
+  } catch (error: any) {
+    console.error("getCurrentUser error:", error);
+    return { 
+      data: null, 
+      error: { 
+        message: error.message || "Failed to get current user",
+        details: error 
+      } 
+    };
   }
-
-  // Get additional user profile data
-  const { data: profileData, error: profileError } = await supabase
-    .from("users")
-    .select("*")
-    .eq("id", data.user.id)
-    .single();
-
-  if (profileError) {
-    console.error("Error fetching user profile:", profileError);
-  }
-
-  // Combine auth user with profile data
-  const userWithProfile = {
-    ...data.user,
-    profile: profileData,
-  };
-
-  return { data: { user: userWithProfile }, error };
 };
 
 // Reset password

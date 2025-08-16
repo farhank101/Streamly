@@ -1,9 +1,25 @@
 [
   {
+    "id": "3vbKDsSS70ZX9D2OcvbZmS",
+    "name": "Beck",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb917df61d55ce3ab98d43351a",
+    "followers": 1695987,
+    "spotifyId": "3vbKDsSS70ZX9D2OcvbZmS",
+    "spotifyPopularity": 69,
+    "genres": [
+      "anti-folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rock",
+    "primaryGenre": "Folk",
+    "likes": "1.7M",
+    "tier": "Established"
+  },
+  {
     "id": "7EK1bQADBoqbYXnT4Cqv9w",
     "name": "John Denver",
     "image": "https://i.scdn.co/image/ab6761610000e5eb748322a35cb459c837d5ac9e",
-    "followers": 2509363,
+    "followers": 2510105,
     "spotifyId": "7EK1bQADBoqbYXnT4Cqv9w",
     "spotifyPopularity": 72,
     "genres": [
@@ -16,10 +32,27 @@
     "tier": "Established"
   },
   {
+    "id": "2sG4zTOLvjKG1PSoOyf5Ej",
+    "name": "Brandi Carlile",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd06d316705f62c59ba7d7fe3",
+    "followers": 907057,
+    "spotifyId": "2sG4zTOLvjKG1PSoOyf5Ej",
+    "spotifyPopularity": 66,
+    "genres": [
+      "folk",
+      "americana"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "country",
+    "primaryGenre": "Folk",
+    "likes": "907K",
+    "tier": "Established"
+  },
+  {
     "id": "0cQKFS3DaffGmQGPZ0Miln",
     "name": "Clement",
     "image": "https://i.scdn.co/image/ab6761610000e5ebb134bd7f7f47668fd67d9313",
-    "followers": 98320,
+    "followers": 98466,
     "spotifyId": "0cQKFS3DaffGmQGPZ0Miln",
     "spotifyPopularity": 46,
     "genres": [
@@ -35,7 +68,7 @@
     "id": "3gd8FJtBJtkRxdfbTu19U2",
     "name": "Mumford & Sons",
     "image": "https://i.scdn.co/image/ab6761610000e5eb22f0413399a2275174f909b4",
-    "followers": 6588431,
+    "followers": 6588510,
     "spotifyId": "3gd8FJtBJtkRxdfbTu19U2",
     "spotifyPopularity": 77,
     "genres": [
@@ -53,7 +86,7 @@
     "id": "7yAymwuYh9RcpX84GSNIq2",
     "name": "Josiah Queen",
     "image": "https://i.scdn.co/image/ab6761610000e5eb643bfda11e7a4f7796454bea",
-    "followers": 557411,
+    "followers": 559225,
     "spotifyId": "7yAymwuYh9RcpX84GSNIq2",
     "spotifyPopularity": 75,
     "genres": [
@@ -65,14 +98,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "folk",
     "primaryGenre": "Folk",
-    "likes": "557K",
+    "likes": "559K",
     "tier": "Established"
   },
   {
     "id": "0rZp7G3gIH6WkyeXbrZnGi",
     "name": "Novo Amor",
     "image": "https://i.scdn.co/image/ab6761610000e5eb18a1928eb2892201f56d39e0",
-    "followers": 1352432,
+    "followers": 1353087,
     "spotifyId": "0rZp7G3gIH6WkyeXbrZnGi",
     "spotifyPopularity": 73,
     "genres": [
@@ -85,26 +118,124 @@
     "tier": "Established"
   },
   {
+    "id": "6HTUcOExehqydqa7C3usAa",
+    "name": "Abel Pintos",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5abc5ae82d2517c7cbdb5b44",
+    "followers": 3649724,
+    "spotifyId": "6HTUcOExehqydqa7C3usAa",
+    "spotifyPopularity": 69,
+    "genres": [
+      "folklore argentino",
+      "cuarteto"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "3.6M",
+    "tier": "Established"
+  },
+  {
     "id": "5Ie2bwKzsBGbzCEuqpkEgT",
     "name": "Katike Ramu",
     "image": "https://i.scdn.co/image/ab67616d0000b2734ac140684a1ed4c64d6792a5",
-    "followers": 260295,
+    "followers": 260325,
     "spotifyId": "5Ie2bwKzsBGbzCEuqpkEgT",
     "spotifyPopularity": 50,
     "genres": [
       "folk"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "k-pop",
+    "searchTerm": "folk",
     "primaryGenre": "Folk",
     "likes": "260K",
     "tier": "Rising"
   },
   {
+    "id": "1m9l2bsj6oYndpc8LF4lUn",
+    "name": "Srinidhi Nerella",
+    "image": "https://i.scdn.co/image/ab67616d0000b27331b82765ea5a7118bd93472c",
+    "followers": 14651,
+    "spotifyId": "1m9l2bsj6oYndpc8LF4lUn",
+    "spotifyPopularity": 49,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "14K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6pDXWDqSn6xXqHkA4IkyS3",
+    "name": "Suman Badanakal",
+    "image": "https://i.scdn.co/image/ab67616d0000b27331b82765ea5a7118bd93472c",
+    "followers": 225011,
+    "spotifyId": "6pDXWDqSn6xXqHkA4IkyS3",
+    "spotifyPopularity": 48,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "225K",
+    "tier": "Rising"
+  },
+  {
+    "id": "21zOcCtm8df0IfDxw58Eub",
+    "name": "Shirisha",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737841dad90d1c29bfa30eed88",
+    "followers": 300535,
+    "spotifyId": "21zOcCtm8df0IfDxw58Eub",
+    "spotifyPopularity": 48,
+    "genres": [
+      "folk",
+      "telugu pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "300K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6ZZ2DeepA3GpoGU4KwqSlU",
+    "name": "Luciano Pereyra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc4eaee122a32e4601164e2f8",
+    "followers": 2320562,
+    "spotifyId": "6ZZ2DeepA3GpoGU4KwqSlU",
+    "spotifyPopularity": 67,
+    "genres": [
+      "folklore argentino"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "2.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "12zbUHbPHL5DGuJtiUfsip",
+    "name": "Julien Baker",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8b2bd6b3cd88b0146f13ac99",
+    "followers": 521673,
+    "spotifyId": "12zbUHbPHL5DGuJtiUfsip",
+    "spotifyPopularity": 66,
+    "genres": [
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "folk",
+    "primaryGenre": "Folk",
+    "likes": "521K",
+    "tier": "Established"
+  },
+  {
     "id": "26DytDdxKgr9N0tdrBSLs2",
     "name": "Wilder Woods",
     "image": "https://i.scdn.co/image/ab6761610000e5ebdf61a3ec5978b16905746d31",
-    "followers": 90172,
+    "followers": 90263,
     "spotifyId": "26DytDdxKgr9N0tdrBSLs2",
     "spotifyPopularity": 49,
     "genres": [
@@ -117,10 +248,26 @@
     "tier": "Rising"
   },
   {
+    "id": "2pQzh5cuuqpDErGZNaOULd",
+    "name": "gavn!",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8c74b4c7826cef9f562fd1b3",
+    "followers": 211239,
+    "spotifyId": "2pQzh5cuuqpDErGZNaOULd",
+    "spotifyPopularity": 61,
+    "genres": [
+      "christian folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "sad",
+    "primaryGenre": "Folk",
+    "likes": "211K",
+    "tier": "Established"
+  },
+  {
     "id": "3z6Gk257P9jNcZbBXJNX5i",
     "name": "Regina Spektor",
     "image": "https://i.scdn.co/image/ab6761610000e5eba36a9f95d59ab791d5e897e9",
-    "followers": 1440297,
+    "followers": 1440282,
     "spotifyId": "3z6Gk257P9jNcZbBXJNX5i",
     "spotifyPopularity": 63,
     "genres": [
@@ -136,7 +283,7 @@
     "id": "7Ky9MAWbIE0z5VtPSNiMvd",
     "name": "Guitarreros",
     "image": "https://i.scdn.co/image/ab6761610000e5eb16903f39573f53e8c98c1385",
-    "followers": 33377,
+    "followers": 33385,
     "spotifyId": "7Ky9MAWbIE0z5VtPSNiMvd",
     "spotifyPopularity": 36,
     "genres": [
@@ -154,7 +301,7 @@
     "id": "0rpMdBzQXf7aYRnu5fDBJy",
     "name": "Violent Femmes",
     "image": "https://i.scdn.co/image/ab6761610000e5ebb3c3b161756ef6f9c9afef38",
-    "followers": 819277,
+    "followers": 819495,
     "spotifyId": "0rpMdBzQXf7aYRnu5fDBJy",
     "spotifyPopularity": 60,
     "genres": [
@@ -170,7 +317,7 @@
     "id": "36quEhAYqOGJgWM9KTwczK",
     "name": "The Saxophones",
     "image": "https://i.scdn.co/image/ab6761610000e5eba6eaffd85fd2375fe9470d9b",
-    "followers": 38008,
+    "followers": 38013,
     "spotifyId": "36quEhAYqOGJgWM9KTwczK",
     "spotifyPopularity": 40,
     "genres": [
@@ -186,7 +333,7 @@
     "id": "4XNEA2zwGthyCOdS9znQGd",
     "name": "Vocal Few",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc2c19bdffc335c526dfbd3a1",
-    "followers": 11759,
+    "followers": 11763,
     "spotifyId": "4XNEA2zwGthyCOdS9znQGd",
     "spotifyPopularity": 29,
     "genres": [
@@ -202,7 +349,7 @@
     "id": "5xia1qpEJF9nVZ7Ut5n00n",
     "name": "Go Hang Music",
     "image": "https://i.scdn.co/image/ab6761610000e5eb06870a5006ce077c41fd5512",
-    "followers": 26223,
+    "followers": 26252,
     "spotifyId": "5xia1qpEJF9nVZ7Ut5n00n",
     "spotifyPopularity": 37,
     "genres": [
@@ -216,10 +363,26 @@
     "tier": "Underground"
   },
   {
+    "id": "0sYlth2PW1zWJMEU2vCukz",
+    "name": "Flower Face",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb12a129bb56d187c3d17cf634",
+    "followers": 169061,
+    "spotifyId": "0sYlth2PW1zWJMEU2vCukz",
+    "spotifyPopularity": 52,
+    "genres": [
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "Folk",
+    "likes": "169K",
+    "tier": "Rising"
+  },
+  {
     "id": "7HoyQiwbj67vedZeOSFQSJ",
     "name": "Perlo",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2b7763a4ecbfd5c89ab049f4",
-    "followers": 11835,
+    "followers": 11837,
     "spotifyId": "7HoyQiwbj67vedZeOSFQSJ",
     "spotifyPopularity": 35,
     "genres": [
@@ -232,19 +395,934 @@
     "tier": "Underground"
   },
   {
-    "id": "0sYlth2PW1zWJMEU2vCukz",
-    "name": "Flower Face",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb12a129bb56d187c3d17cf634",
-    "followers": 169030,
-    "spotifyId": "0sYlth2PW1zWJMEU2vCukz",
-    "spotifyPopularity": 52,
+    "id": "4R5FNY5clRc9Fukue1WzRB",
+    "name": "Vàli",
+    "image": "https://i.scdn.co/image/ab67616d0000b27343f33e2a989456cfc0de3512",
+    "followers": 33991,
+    "spotifyId": "4R5FNY5clRc9Fukue1WzRB",
+    "spotifyPopularity": 29,
+    "genres": [
+      "ambient folk",
+      "medieval"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "post-rock",
+    "primaryGenre": "Folk",
+    "likes": "33K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2XVBrMGLqvPSgXlA9EJ9Vs",
+    "name": "singer lavanya",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c52d866067e66d974f2ce6cb",
+    "followers": 13664,
+    "spotifyId": "2XVBrMGLqvPSgXlA9EJ9Vs",
+    "spotifyPopularity": 44,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "singer",
+    "primaryGenre": "Folk",
+    "likes": "13K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7rjSL2TqwaSJVGjgZShhXe",
+    "name": "Mallamma Singer",
+    "image": "https://i.scdn.co/image/ab67616d0000b273280147f43c979b9b710de899",
+    "followers": 12560,
+    "spotifyId": "7rjSL2TqwaSJVGjgZShhXe",
+    "spotifyPopularity": 42,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "singer",
+    "primaryGenre": "Folk",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5hW4L92KnC6dX9t7tYM4Ve",
+    "name": "Joni Mitchell",
+    "image": "https://i.scdn.co/image/68cfb061951dbd44c95422a54cb70baec0722ca3",
+    "followers": 1617736,
+    "spotifyId": "5hW4L92KnC6dX9t7tYM4Ve",
+    "spotifyPopularity": 65,
+    "genres": [
+      "folk",
+      "singer-songwriter",
+      "folk rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "singer",
+    "primaryGenre": "Folk",
+    "likes": "1.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "5c3GLXai8YOMid29ZEuR9y",
+    "name": "Nick Drake",
+    "image": "https://i.scdn.co/image/d364b498f85ae764cd278fbba9a8ed7f00c3e434",
+    "followers": 925914,
+    "spotifyId": "5c3GLXai8YOMid29ZEuR9y",
+    "spotifyPopularity": 64,
+    "genres": [
+      "folk",
+      "singer-songwriter"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "singer",
+    "primaryGenre": "Folk",
+    "likes": "925K",
+    "tier": "Established"
+  },
+  {
+    "id": "1EevBGfUh3RSQSGpluxgBm",
+    "name": "Joan Baez",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb05c5f9bf4906453af63025aa",
+    "followers": 812850,
+    "spotifyId": "1EevBGfUh3RSQSGpluxgBm",
+    "spotifyPopularity": 61,
+    "genres": [
+      "folk",
+      "folk rock",
+      "singer-songwriter"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "singer",
+    "primaryGenre": "Folk",
+    "likes": "812K",
+    "tier": "Established"
+  },
+  {
+    "id": "4PGCodvYkKFR1qPfeDlIPQ",
+    "name": "Duo Coplanacu",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1a3700718dcda72052fe62f0",
+    "followers": 42814,
+    "spotifyId": "4PGCodvYkKFR1qPfeDlIPQ",
+    "spotifyPopularity": 45,
+    "genres": [
+      "folklore argentino",
+      "chamamé",
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "duo",
+    "primaryGenre": "Folk",
+    "likes": "42K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5SAeZRhgmJhgq196BR1Mna",
+    "name": "Dúo Salteño",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732a6cb1ef011ec2e44555f35f",
+    "followers": 16292,
+    "spotifyId": "5SAeZRhgmJhgq196BR1Mna",
+    "spotifyPopularity": 30,
+    "genres": [
+      "folklore argentino",
+      "latin folklore",
+      "chamamé"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "duo",
+    "primaryGenre": "Folk",
+    "likes": "16K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3qtcbDvdIgQOXkPbtRvBaQ",
+    "name": "The Kingston Trio",
+    "image": "https://i.scdn.co/image/c77989e1d9a05cf54ac2d98737469d05183e560e",
+    "followers": 122115,
+    "spotifyId": "3qtcbDvdIgQOXkPbtRvBaQ",
+    "spotifyPopularity": 42,
+    "genres": [
+      "folk",
+      "traditional folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "trio",
+    "primaryGenre": "Folk",
+    "likes": "122K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4IjHltwoSKbUeZLPeULyDe",
+    "name": "Nahuel Pennisi",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebba4f3efc1c1f825dee4969cc",
+    "followers": 155681,
+    "spotifyId": "4IjHltwoSKbUeZLPeULyDe",
+    "spotifyPopularity": 55,
+    "genres": [
+      "folklore argentino",
+      "chamamé",
+      "cuarteto"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "quartet",
+    "primaryGenre": "Folk",
+    "likes": "155K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2Yeg6v7m8lqNrPk7IYAjPB",
+    "name": "The Tolkien Ensemble",
+    "image": "https://i.scdn.co/image/ab67616d0000b27331b4cb6bda1dae707fb0114f",
+    "followers": 11800,
+    "spotifyId": "2Yeg6v7m8lqNrPk7IYAjPB",
+    "spotifyPopularity": 25,
     "genres": [
       "ambient folk"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "dream pop",
+    "searchTerm": "ensemble",
     "primaryGenre": "Folk",
-    "likes": "169K",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0K59Fm1y7s3j498ueS4qzY",
+    "name": "Soledad",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5914c48d40ee28fe0074d426",
+    "followers": 803168,
+    "spotifyId": "0K59Fm1y7s3j498ueS4qzY",
+    "spotifyPopularity": 61,
+    "genres": [
+      "folklore argentino",
+      "chamamé",
+      "latin folklore",
+      "latin folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "solo",
+    "primaryGenre": "Folk",
+    "likes": "803K",
+    "tier": "Established"
+  },
+  {
+    "id": "1kfAQBrI7qZInqadGFtW8C",
+    "name": "Mission House",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe26dce64bc891ae9af792969",
+    "followers": 27146,
+    "spotifyId": "1kfAQBrI7qZInqadGFtW8C",
+    "spotifyPopularity": 46,
+    "genres": [
+      "christian folk",
+      "worship"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "house",
+    "primaryGenre": "Folk",
+    "likes": "27K",
     "tier": "Rising"
+  },
+  {
+    "id": "1GlOpg3dPUft550esb82K3",
+    "name": "Chaqueño Palavecino",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7f9bba7b21fd61d56810811f",
+    "followers": 599760,
+    "spotifyId": "1GlOpg3dPUft550esb82K3",
+    "spotifyPopularity": 62,
+    "genres": [
+      "folklore argentino",
+      "chamamé",
+      "latin folklore"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "traditional",
+    "primaryGenre": "Folk",
+    "likes": "599K",
+    "tier": "Established"
+  },
+  {
+    "id": "48CUA59SDed3IdCctKndud",
+    "name": "Volkan Konak",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb70bc110caf8cf1127b247b2",
+    "followers": 606011,
+    "spotifyId": "48CUA59SDed3IdCctKndud",
+    "spotifyPopularity": 61,
+    "genres": [
+      "karadeniz folk",
+      "arabesk",
+      "turkish pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "traditional",
+    "primaryGenre": "Folk",
+    "likes": "606K",
+    "tier": "Established"
+  },
+  {
+    "id": "6z989iXQpOqgPU7vDclfna",
+    "name": "The Modern Post",
+    "image": "https://i.scdn.co/image/ab67616d0000b27383d33d4b9467ccbe11da98f8",
+    "followers": 29424,
+    "spotifyId": "6z989iXQpOqgPU7vDclfna",
+    "spotifyPopularity": 37,
+    "genres": [
+      "christian folk",
+      "worship",
+      "christian alternative rock",
+      "christian"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "modern",
+    "primaryGenre": "Folk",
+    "likes": "29K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4IDpDJIDfK96HMLD4Tphyl",
+    "name": "AJJ",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb02c0f464eae9777866454908",
+    "followers": 266848,
+    "spotifyId": "4IDpDJIDfK96HMLD4Tphyl",
+    "spotifyPopularity": 52,
+    "genres": [
+      "folk punk",
+      "anti-folk",
+      "midwest emo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "artistic",
+    "primaryGenre": "Folk",
+    "likes": "266K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6WaMIm1aLMTkFzYyYZcLOt",
+    "name": "Janu Lyri",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734cf94224b49893560f60e185",
+    "followers": 10895,
+    "spotifyId": "6WaMIm1aLMTkFzYyYZcLOt",
+    "spotifyPopularity": 23,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "revolutionary",
+    "primaryGenre": "Folk",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6PzNEcjhgM7tQ9FfrPEPrc",
+    "name": "Dan Andriano in the Emergency Room",
+    "image": "https://i.scdn.co/image/ab67616d0000b273385dc1b1f4d1a9498d393b7f",
+    "followers": 20124,
+    "spotifyId": "6PzNEcjhgM7tQ9FfrPEPrc",
+    "spotifyPopularity": 28,
+    "genres": [
+      "folk punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "emerging",
+    "primaryGenre": "Folk",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5RsLS2CnzkMCGfl3FobdUR",
+    "name": "Carrie Newcomer",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0ae8dbb6f615d046cf47ee75",
+    "followers": 18746,
+    "spotifyId": "5RsLS2CnzkMCGfl3FobdUR",
+    "spotifyPopularity": 32,
+    "genres": [
+      "folk",
+      "singer-songwriter"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "newcomer",
+    "primaryGenre": "Folk",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5Ey3uTacwRtzW0Ws9JpA07",
+    "name": "Hanmanth Yadav",
+    "image": "https://i.scdn.co/image/ab67616d0000b27333282adea65cf625f5bcd005",
+    "followers": 40943,
+    "spotifyId": "5Ey3uTacwRtzW0Ws9JpA07",
+    "spotifyPopularity": 47,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "recent",
+    "primaryGenre": "Folk",
+    "likes": "40K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1VAH9Qx2oYYgeoCmJIh1uN",
+    "name": "Relare Ganga",
+    "image": "https://i.scdn.co/image/ab67616d0000b273abf4e9076fb3e53dbcbdbf7f",
+    "followers": 11295,
+    "spotifyId": "1VAH9Qx2oYYgeoCmJIh1uN",
+    "spotifyPopularity": 37,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "recent",
+    "primaryGenre": "Folk",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4tX9NGI6YM0yL0EnyVuck4",
+    "name": "Kondu Sagar Exclusive",
+    "image": "https://i.scdn.co/image/ab67616d0000b27388edd66a8bef1d0260d862ec",
+    "followers": 59718,
+    "spotifyId": "4tX9NGI6YM0yL0EnyVuck4",
+    "spotifyPopularity": 34,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "recent",
+    "primaryGenre": "Folk",
+    "likes": "59K",
+    "tier": "Underground"
+  },
+  {
+    "id": "77OdfWXrYy6DcYPzmUOr6a",
+    "name": "The New Christy Minstrels",
+    "image": "https://i.scdn.co/image/59cb5fa5ae4d09c514b639506b9038b5a215890e",
+    "followers": 33640,
+    "spotifyId": "77OdfWXrYy6DcYPzmUOr6a",
+    "spotifyPopularity": 31,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "new",
+    "primaryGenre": "Folk",
+    "likes": "33K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3wrEHsju5cfWeP9SfdSl1T",
+    "name": "Premalatha Chinnu",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ce7b9212b66e3fff3ed08c1d",
+    "followers": 16697,
+    "spotifyId": "3wrEHsju5cfWeP9SfdSl1T",
+    "spotifyPopularity": 32,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "present",
+    "primaryGenre": "Folk",
+    "likes": "16K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2PAjAnpGH93C6vXOa8ZKzD",
+    "name": "Future Of Forestry",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebff2993139a32e6b24eb9aa1a",
+    "followers": 53400,
+    "spotifyId": "2PAjAnpGH93C6vXOa8ZKzD",
+    "spotifyPopularity": 33,
+    "genres": [
+      "christian folk",
+      "christian alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "future",
+    "primaryGenre": "Folk",
+    "likes": "53K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6c3Jb6rRod9x4pGtiizwzT",
+    "name": "The Native",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb82f9e11a9455031475518101",
+    "followers": 13113,
+    "spotifyId": "6c3Jb6rRod9x4pGtiizwzT",
+    "spotifyPopularity": 35,
+    "genres": [
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "independent",
+    "primaryGenre": "Folk",
+    "likes": "13K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3K8cGxW088HVyhFSGWJJcX",
+    "name": "Mree",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb71cf295d4138d954438ba5af",
+    "followers": 64392,
+    "spotifyId": "3K8cGxW088HVyhFSGWJJcX",
+    "spotifyPopularity": 43,
+    "genres": [
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "independent",
+    "primaryGenre": "Folk",
+    "likes": "64K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5dKutHiJLCpYIfbgFNrg4z",
+    "name": "Morgan Harper Nichols",
+    "image": "https://i.scdn.co/image/ab67616d0000b27369c9c6f6518b2a8a224bd1a5",
+    "followers": 18444,
+    "spotifyId": "5dKutHiJLCpYIfbgFNrg4z",
+    "spotifyPopularity": 30,
+    "genres": [
+      "christian folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "niche",
+    "primaryGenre": "Folk",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "63VYSQ61vaspc56frXcEWX",
+    "name": "P.N. Lingaraju",
+    "image": "https://i.scdn.co/image/ab67616d0000b273867ab9f7e6fadd2d5b144229",
+    "followers": 13511,
+    "spotifyId": "63VYSQ61vaspc56frXcEWX",
+    "spotifyPopularity": 43,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "devoted",
+    "primaryGenre": "Folk",
+    "likes": "13K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5X4FlwYCB1jsZg1lh1HlH2",
+    "name": "Akunuri Devaiah",
+    "image": "https://i.scdn.co/image/ab67616d0000b273966bcbba33a2f76569a887e5",
+    "followers": 60446,
+    "spotifyId": "5X4FlwYCB1jsZg1lh1HlH2",
+    "spotifyPopularity": 36,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "devoted",
+    "primaryGenre": "Folk",
+    "likes": "60K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4l6qncc7ne4yU7z9i1Mtet",
+    "name": "Jorge Fandermole",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb29a47e1a8bf65275fb3aa417",
+    "followers": 42965,
+    "spotifyId": "4l6qncc7ne4yU7z9i1Mtet",
+    "spotifyPopularity": 41,
+    "genres": [
+      "folklore argentino",
+      "chamamé",
+      "latin folklore",
+      "trova",
+      "candombe"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "fan",
+    "primaryGenre": "Folk",
+    "likes": "42K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3Sbi1ZvpuDN1JPSEA9rv6C",
+    "name": "Spoorthy",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739b63daf278a97ef9fe75518f",
+    "followers": 11529,
+    "spotifyId": "3Sbi1ZvpuDN1JPSEA9rv6C",
+    "spotifyPopularity": 34,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "supporter",
+    "primaryGenre": "Folk",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7EhEsTJmCXfnakzFWqvIrR",
+    "name": "Jogula Venkatesh",
+    "image": "https://i.scdn.co/image/ab67616d0000b273662ee7279a7e633142506e6f",
+    "followers": 19143,
+    "spotifyId": "7EhEsTJmCXfnakzFWqvIrR",
+    "spotifyPopularity": 40,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "supporter",
+    "primaryGenre": "Folk",
+    "likes": "19K",
+    "tier": "Rising"
+  },
+  {
+    "id": "34BiIBztE1DHa68gucWDHs",
+    "name": "A.Clement",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735410a212eac8764d687b70cb",
+    "followers": 15857,
+    "spotifyId": "34BiIBztE1DHa68gucWDHs",
+    "spotifyPopularity": 38,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "supporter",
+    "primaryGenre": "Folk",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "25WzzaACKIw8c7I0B6NEgg",
+    "name": "Nalgonda Gaddar Narsanna",
+    "image": "https://i.scdn.co/image/ab67616d0000b27399d0e73f5beb6d3bb0d746da",
+    "followers": 53768,
+    "spotifyId": "25WzzaACKIw8c7I0B6NEgg",
+    "spotifyPopularity": 36,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "supporter",
+    "primaryGenre": "Folk",
+    "likes": "53K",
+    "tier": "Underground"
+  },
+  {
+    "id": "59w4wGMXlt4HULBSTVxRAY",
+    "name": "The Watersons",
+    "image": "https://i.scdn.co/image/bb8e2f36fa9b0f216acaf99acdf972459a2a7954",
+    "followers": 11920,
+    "spotifyId": "59w4wGMXlt4HULBSTVxRAY",
+    "spotifyPopularity": 26,
+    "genres": [
+      "traditional folk",
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "watchers",
+    "primaryGenre": "Folk",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1iuJNmtyZVJxHVrnosRipw",
+    "name": "Walter Mitty and His Makeshift Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3ae2f71d206277f30163b284",
+    "followers": 23423,
+    "spotifyId": "1iuJNmtyZVJxHVrnosRipw",
+    "spotifyPopularity": 34,
+    "genres": [
+      "folk punk",
+      "anti-folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "makers",
+    "primaryGenre": "Folk",
+    "likes": "23K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2ooIqOf4X2uz4mMptXCtie",
+    "name": "Neutral Milk Hotel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3c0a3cafde53be39a91f373e",
+    "followers": 776644,
+    "spotifyId": "2ooIqOf4X2uz4mMptXCtie",
+    "spotifyPopularity": 59,
+    "genres": [
+      "anti-folk",
+      "folk punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "modes",
+    "primaryGenre": "Folk",
+    "likes": "776K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4HemfSCDgnPiHQh8Z6iyd6",
+    "name": "Apes of the State",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb50814b86121870deadffe42a",
+    "followers": 44983,
+    "spotifyId": "4HemfSCDgnPiHQh8Z6iyd6",
+    "spotifyPopularity": 40,
+    "genres": [
+      "folk punk",
+      "anti-folk",
+      "queercore",
+      "midwest emo"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "states",
+    "primaryGenre": "Folk",
+    "likes": "44K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3wRGr9z5I5xmmVc21fIvC6",
+    "name": "Days N Daze",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaa749ebab80b41f40dd84432",
+    "followers": 150172,
+    "spotifyId": "3wRGr9z5I5xmmVc21fIvC6",
+    "spotifyPopularity": 45,
+    "genres": [
+      "folk punk",
+      "anti-folk",
+      "celtic punk",
+      "punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "days",
+    "primaryGenre": "Folk",
+    "likes": "150K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5fQdSkybNhdOYKwLLUWL71",
+    "name": "Los Changos",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b3b47b78cd1a7698a51d7b11",
+    "followers": 18330,
+    "spotifyId": "5fQdSkybNhdOYKwLLUWL71",
+    "spotifyPopularity": 36,
+    "genres": [
+      "folklore argentino",
+      "chamamé"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "changed",
+    "primaryGenre": "Folk",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3CVk2LzA3zH6FBAXuPbnhc",
+    "name": "Taylor Armstrong",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7caf64176da94cea2fba89a4",
+    "followers": 42042,
+    "spotifyId": "3CVk2LzA3zH6FBAXuPbnhc",
+    "spotifyPopularity": 46,
+    "genres": [
+      "christian folk",
+      "christian alternative rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "tailored",
+    "primaryGenre": "Folk",
+    "likes": "42K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0MVp3LuNho9Hk6Q1owsWwt",
+    "name": "Right Away, Great Captain!",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb9b73c2a648759a40a7bdec8",
+    "followers": 45929,
+    "spotifyId": "0MVp3LuNho9Hk6Q1owsWwt",
+    "spotifyPopularity": 34,
+    "genres": [
+      "folk punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "right",
+    "primaryGenre": "Folk",
+    "likes": "45K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0Hdt3Ay5E8GW0zh7YdXC54",
+    "name": "A.clement",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730bbba43de9fcfd865458da5a",
+    "followers": 17394,
+    "spotifyId": "0Hdt3Ay5E8GW0zh7YdXC54",
+    "spotifyPopularity": 25,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "evolving",
+    "primaryGenre": "Folk",
+    "likes": "17K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3lmR0qMiGuoIF9UC54egcG",
+    "name": "Aldous Harding",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb642f1b437166dec05ad41729",
+    "followers": 244552,
+    "spotifyId": "3lmR0qMiGuoIF9UC54egcG",
+    "spotifyPopularity": 48,
+    "genres": [
+      "ambient folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "harming",
+    "primaryGenre": "Folk",
+    "likes": "244K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2vygktENKClW8ST7QhxgGb",
+    "name": "Brendan Kelly and the Wandering Birds",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9bc012c2ed6d922715443253",
+    "followers": 11729,
+    "spotifyId": "2vygktENKClW8ST7QhxgGb",
+    "spotifyPopularity": 25,
+    "genres": [
+      "folk punk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "wandering",
+    "primaryGenre": "Folk",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0qRZrPcZlIKBn7bXEAmWld",
+    "name": "A. Clement",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739bd09b16b49a8e749ad284c0",
+    "followers": 29178,
+    "spotifyId": "0qRZrPcZlIKBn7bXEAmWld",
+    "spotifyPopularity": 39,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "commending",
+    "primaryGenre": "Folk",
+    "likes": "29K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0nd3tsqHVtnAWBCQgwtbIz",
+    "name": "The Brothers Four",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb128c676eef7371d484a26161",
+    "followers": 68782,
+    "spotifyId": "0nd3tsqHVtnAWBCQgwtbIz",
+    "spotifyPopularity": 42,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "Folk",
+    "likes": "68K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4WZ1Di6SD7p1rzgdY9e81y",
+    "name": "A. Clement",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738ba064558482d9e7eb175470",
+    "followers": 33748,
+    "spotifyId": "4WZ1Di6SD7p1rzgdY9e81y",
+    "spotifyPopularity": 30,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "assembling",
+    "primaryGenre": "Folk",
+    "likes": "33K",
+    "tier": "Underground"
+  },
+  {
+    "id": "11Y54BxlxC3UIAUkU2eadQ",
+    "name": "Rend Collective",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb701899872da174bb597987e",
+    "followers": 473773,
+    "spotifyId": "11Y54BxlxC3UIAUkU2eadQ",
+    "spotifyPopularity": 62,
+    "genres": [
+      "christian folk",
+      "worship",
+      "christian",
+      "pop worship",
+      "ccm"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "collecting",
+    "primaryGenre": "Folk",
+    "likes": "473K",
+    "tier": "Established"
+  },
+  {
+    "id": "3sva1UjOJOx6cGISZOpItl",
+    "name": "David Wimbish & The Collection",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55281c1fc3d31aec49edefde",
+    "followers": 54946,
+    "spotifyId": "3sva1UjOJOx6cGISZOpItl",
+    "spotifyPopularity": 45,
+    "genres": [
+      "christian folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "collecting",
+    "primaryGenre": "Folk",
+    "likes": "54K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5lHDypXbNmHTDoFWpSTqXd",
+    "name": "Strings And Heart",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd5d9ddc7b6934c3323da8482",
+    "followers": 138283,
+    "spotifyId": "5lHDypXbNmHTDoFWpSTqXd",
+    "spotifyPopularity": 62,
+    "genres": [
+      "christian folk",
+      "christian pop",
+      "christian alternative rock",
+      "christian",
+      "worship"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "storing",
+    "primaryGenre": "Folk",
+    "likes": "138K",
+    "tier": "Established"
+  },
+  {
+    "id": "13LYSQUY5EoYGVs1hSvV27",
+    "name": "Gajwel Venu",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a9acf75457ebbe6086fc13ac",
+    "followers": 19928,
+    "spotifyId": "13LYSQUY5EoYGVs1hSvV27",
+    "spotifyPopularity": 29,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "governing",
+    "primaryGenre": "Folk",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4U6PEIsUwPLSVgjVe4ydgY",
+    "name": "Telu Vijaya",
+    "image": "https://i.scdn.co/image/ab67616d0000b273806d7c7956287311368258aa",
+    "followers": 57195,
+    "spotifyId": "4U6PEIsUwPLSVgjVe4ydgY",
+    "spotifyPopularity": 22,
+    "genres": [
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "governing",
+    "primaryGenre": "Folk",
+    "likes": "57K",
+    "tier": "Underground"
   }
 ]

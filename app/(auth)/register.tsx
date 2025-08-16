@@ -635,7 +635,6 @@ const styles = StyleSheet.create({
     borderColor: "rgba(255, 255, 255, 0.2)",
     maxHeight: 200,
     zIndex: 1000,
-    elevation: 5,
     ...SHADOWS.medium,
   },
   dropdownScroll: {

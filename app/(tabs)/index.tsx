@@ -70,14 +70,11 @@ interface MoodItem {
 
 type MixedItem = HeaderItem | GenreItem | CategoryItem | MoodItem;
 
-// Safe image source resolver with proper fallbacks
+// Custom image source resolver that works with homeImages
 const getSafeImageSource = (item: any) => {
-  console.log('🖼️ getSafeImageSource called with item:', item);
-  
   try {
     // Priority 1: Local image from homeImages
     if (item.imageKey && (homeImages as any)[item.imageKey]) {
-      console.log('✅ Using homeImages for:', item.imageKey);
       return (homeImages as any)[item.imageKey];
     }
 
@@ -87,12 +84,10 @@ const getSafeImageSource = (item: any) => {
       typeof item.image === "string" &&
       item.image.trim() !== ""
     ) {
-      console.log('✅ Using remote image:', item.image);
       return { uri: item.image.trim() };
     }
 
     // Priority 3: Default placeholder
-    console.log('🔄 Using default placeholder for:', item.name || item.title);
     return {
       uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
     };
@@ -124,29 +119,30 @@ const generateUniqueKey = (item: any, index: number) => {
 const recentlyPlayedSeed = [
   {
     id: "recent_1",
-    title: "Queen",
-    artist: "Queen",
-    imageKey: "queen",
+    title: "PLAYLIST RADIO",
+    subtitle: "70s Rock Anthems",
+    imageKey: "genre_rock",
     image: "https://picsum.photos/300/300?random=4",
     likes: "598K",
-    isArtist: true,
+    isPlaylist: true,
   },
   {
     id: "recent_2",
-    title: "70s Rock Anthems Radio",
-    subtitle: "PLAYLIST RADIO",
-    imageKey: "rock70s",
+    title: "Chill Vibes",
+    subtitle: "Relaxing beats",
+    imageKey: "chill",
     image: "https://picsum.photos/300/300?random=5",
     likes: "420K",
     isPlaylist: true,
   },
   {
     id: "recent_3",
-    title: "Progressive",
-    artist: "Various Artists",
-    imageKey: "progressive",
+    title: "Workout Mix",
+    subtitle: "High energy tracks",
+    imageKey: "workout",
     image: "https://picsum.photos/300/300?random=6",
     likes: "128K",
+    isPlaylist: true,
   },
 ];
 
@@ -154,40 +150,289 @@ const madeForYou = [
   {
     id: "mfy_1",
     title: "Deep Focus",
-    subtitle: "Concentration music",
-    imageKey: "deep_focus",
+    subtitle: "Make monday more productive",
+    imageKey: "focus",
     image: "https://picsum.photos/300/300?random=7",
     likes: "678K",
   },
   {
     id: "mfy_2",
-    title: "Chill Vibes",
-    subtitle: "Relaxing beats",
-    imageKey: "chill_vibes",
+    title: "Productive Morning",
+    subtitle: "Start your day right",
+    imageKey: "workout",
     image: "https://picsum.photos/300/300?random=8",
     likes: "543K",
   },
   {
     id: "mfy_3",
-    title: "Workout Mix",
-    subtitle: "High energy tracks",
-    imageKey: "workout_mix",
+    title: "Mellow Beats",
+    subtitle: "Calm and collected",
+    imageKey: "chill",
     image: "https://picsum.photos/300/300?random=9",
     likes: "456K",
   },
 ];
 
+// Browse section data
+const browseGenres = [
+  { id: "hiphop", name: "HIP-HOP", imageKey: "genre_hiphop", likes: "2.1M" },
+  {
+    id: "dance_electro",
+    name: "DANCE / ELECTRO",
+    imageKey: "genre_dance_electro",
+    likes: "1.8M",
+  },
+  { id: "pop", name: "POP", imageKey: "genre_pop", likes: "3.4M" },
+  { id: "country", name: "COUNTRY", imageKey: "genre_country", likes: "1.2M" },
+  { id: "rock", name: "ROCK", imageKey: "genre_rock", likes: "2.8M" },
+  { id: "indie", name: "INDIE", imageKey: "genre_indie", likes: "956K" },
+  { id: "latin", name: "LATIN", imageKey: "genre_latin", likes: "1.5M" },
+  { id: "rb", name: "R&B", imageKey: "genre_rb", likes: "2.3M" },
+  { id: "metal", name: "METAL", imageKey: "genre_metal", likes: "1.1M" },
+  {
+    id: "classical",
+    name: "CLASSICAL",
+    imageKey: "genre_classical",
+    likes: "567K",
+  },
+  { id: "jazz", name: "JAZZ", imageKey: "genre_jazz", likes: "423K" },
+  {
+    id: "instrumentals",
+    name: "INSTRUMENTALS",
+    imageKey: "genre_instrumentals",
+    likes: "678K",
+  },
+  { id: "punk", name: "PUNK", imageKey: "genre_punk", likes: "345K" },
+  { id: "blues", name: "BLUES", imageKey: "genre_blues", likes: "234K" },
+  {
+    id: "soul_funk",
+    name: "SOUL / FUNK",
+    imageKey: "genre_soul_funk",
+    likes: "1.2M",
+  },
+  { id: "reggae", name: "REGGAE", imageKey: "genre_reggae", likes: "789K" },
+];
+
+const browseMoods = [
+  { id: "party", name: "PARTY", imageKey: "party", likes: "1.8M" },
+  { id: "chill", name: "CHILL", imageKey: "chill", likes: "1.2M" },
+  { id: "workout", name: "WORKOUT", imageKey: "workout", likes: "1.5M" },
+  { id: "focus", name: "FOCUS", imageKey: "focus", likes: "890K" },
+  { id: "driving", name: "DRIVING", imageKey: "driving", likes: "1.1M" },
+  { id: "rainy_day", name: "RAINY DAY", imageKey: "rainy_day", likes: "678K" },
+  { id: "romance", name: "ROMANCE", imageKey: "romance", likes: "2.3M" },
+  { id: "sleep", name: "SLEEP", imageKey: "sleep", likes: "456K" },
+  { id: "comedy", name: "COMEDY", imageKey: "comedy", likes: "234K" },
+  { id: "family", name: "FAMILY", imageKey: "family", likes: "567K" },
+  { id: "dinner", name: "DINNER", imageKey: "dinner", likes: "789K" },
+  { id: "travel", name: "TRAVEL", imageKey: "travel", likes: "1.3M" },
+];
+
+// Additional sections for Home
+const playlistPicks = [
+  {
+    id: "playlist_picks_1",
+    title: "Random Compilations",
+    subtitle: "Mixed genres",
+    imageKey: "genre_pop",
+    image: "https://picsum.photos/300/300?random=20",
+    likes: "890K",
+    isPlaylist: true,
+  },
+  {
+    id: "playlist_picks_2",
+    title: "Workout Mix",
+    subtitle: "High energy",
+    imageKey: "workout",
+    image: "https://picsum.photos/300/300?random=21",
+    likes: "756K",
+    isPlaylist: true,
+  },
+  {
+    id: "playlist_picks_3",
+    title: "Chill Vibes",
+    subtitle: "Relaxing",
+    imageKey: "chill",
+    image: "https://picsum.photos/300/300?random=22",
+    likes: "654K",
+    isPlaylist: true,
+  },
+];
+
+const newReleases = [
+  {
+    id: "new_release_1",
+    title: "New Album",
+    subtitle: "Artist Name",
+    imageKey: "genre_pop",
+    image: "https://picsum.photos/300/300?random=30",
+    likes: "123K",
+  },
+  {
+    id: "new_release_2",
+    title: "Latest Single",
+    subtitle: "Another Artist",
+    imageKey: "genre_hiphop",
+    image: "https://picsum.photos/300/300?random=31",
+    likes: "98K",
+  },
+  {
+    id: "new_release_3",
+    title: "EP Release",
+    subtitle: "Indie Artist",
+    imageKey: "genre_indie",
+    image: "https://picsum.photos/300/300?random=32",
+    likes: "76K",
+  },
+];
+
+const popularArtists = [
+  {
+    id: "artist_1",
+    name: "The Beatles",
+    imageKey: "artist_beatles",
+    image: "https://picsum.photos/300/300?random=40",
+    likes: "5.2M",
+    isArtist: true,
+  },
+  {
+    id: "artist_2",
+    name: "Taylor Swift",
+    imageKey: "artist_taylor",
+    image: "https://picsum.photos/300/300?random=41",
+    likes: "4.8M",
+    isArtist: true,
+  },
+  {
+    id: "artist_3",
+    name: "Ed Sheeran",
+    imageKey: "artist_ed",
+    image: "https://picsum.photos/300/300?random=42",
+    likes: "3.9M",
+    isArtist: true,
+  },
+  {
+    id: "artist_4",
+    name: "Drake",
+    imageKey: "artist_drake",
+    image: "https://picsum.photos/300/300?random=43",
+    likes: "4.1M",
+    isArtist: true,
+  },
+];
+
+// Podcasts data
+const podcasts = [
+  {
+    id: "podcast_1",
+    title: "Daily Dose",
+    subtitle: "Music news daily",
+    imageKey: "genre_pop",
+    image: "https://picsum.photos/300/300?random=50",
+    likes: "234K",
+  },
+  {
+    id: "podcast_2",
+    title: "The Joe Rogan Experience",
+    subtitle: "Long form conversations",
+    imageKey: "genre_rock",
+    image: "https://picsum.photos/300/300?random=51",
+    likes: "189K",
+  },
+  {
+    id: "podcast_3",
+    title: "Music Theory",
+    subtitle: "Understanding music",
+    imageKey: "genre_classical",
+    image: "https://picsum.photos/300/300?random=52",
+    likes: "156K",
+  },
+];
+
 // Get top artists from different genres for recommendations
-const recommendedArtistsSeed = allArtists
-  .filter((artist) => artist.tier === "Top" || artist.tier === "Major")
-  .slice(0, 6)
-  .map((artist) => ({
-    id: artist.id,
-    name: artist.name,
-    imageKey: `artist_${artist.id}`,
-    image: artist.image,
-    likes: artist.likes,
-  }));
+console.log("🌱 allArtists imported:", allArtists);
+console.log(
+  "🌱 allArtists length:",
+  allArtists ? allArtists.length : "undefined"
+);
+
+// Check if allArtists is actually an array and has data
+if (!allArtists || !Array.isArray(allArtists) || allArtists.length === 0) {
+  console.error("❌ allArtists is empty or not an array!");
+  // Fallback to hardcoded artists with real images
+  const fallbackArtists = [
+    {
+      id: "fallback_1",
+      name: "Drake",
+      imageKey: "artist_drake",
+      image: "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9",
+      likes: "4.1M",
+    },
+    {
+      id: "fallback_2",
+      name: "Taylor Swift",
+      imageKey: "artist_taylor",
+      image: "https://i.scdn.co/image/ab6761610000e5eb81f47f44084e0a09b5f0fa13",
+      likes: "4.8M",
+    },
+    {
+      id: "fallback_3",
+      name: "Ed Sheeran",
+      imageKey: "artist_ed",
+      image: "https://i.scdn.co/image/ab6761610000e5ebe672b5f553298dcdccb0e676",
+      likes: "3.9M",
+    },
+    {
+      id: "fallback_4",
+      name: "The Weeknd",
+      imageKey: "artist_weeknd",
+      image: "https://i.scdn.co/image/ab6761610000e5eb86e362deb9f22566331fbdeb",
+      likes: "3.7M",
+    },
+    {
+      id: "fallback_5",
+      name: "Post Malone",
+      imageKey: "artist_post",
+      image: "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      likes: "3.2M",
+    },
+    {
+      id: "fallback_6",
+      name: "Ariana Grande",
+      imageKey: "artist_ariana",
+      image: "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da",
+      likes: "3.5M",
+    },
+  ];
+  console.log("🔄 Using fallback artists:", fallbackArtists);
+  var recommendedArtistsSeed = fallbackArtists;
+} else {
+  console.log("🌱 allArtists has data, first item:", allArtists[0]);
+  console.log(
+    "🌱 allArtists with Top/Major tier:",
+    allArtists.filter(
+      (artist) => artist.tier === "Top" || artist.tier === "Major"
+    )
+  );
+
+  recommendedArtistsSeed = allArtists
+    .filter((artist) => artist.tier === "Top" || artist.tier === "Major")
+    .slice(0, 6)
+    .map((artist) => ({
+      id: artist.id,
+      name: artist.name,
+      imageKey: `artist_${artist.id}`,
+      image: artist.image,
+      likes: artist.likes,
+    }));
+}
+
+// Debug logging for recommendedArtistsSeed
+console.log("🌱 recommendedArtistsSeed created:", recommendedArtistsSeed);
+if (recommendedArtistsSeed.length > 0) {
+  console.log("🌱 First seed artist:", recommendedArtistsSeed[0]);
+  console.log("🌱 First seed artist image:", recommendedArtistsSeed[0].image);
+}
 
 // Alternative artist names for Last.fm fallback (no longer used for primary search)
 const artistNameMapping = {
@@ -204,7 +449,7 @@ const popularPlaylists = [
     id: "playlist_1",
     title: "Hip Hop Hits",
     subtitle: "Best hip hop tracks",
-    imageKey: "pl_hiphop_hits",
+    imageKey: "genre_hiphop",
     image: "https://picsum.photos/300/300?random=10",
     likes: "520K",
   },
@@ -212,7 +457,7 @@ const popularPlaylists = [
     id: "playlist_2",
     title: "Pop Fresh!",
     subtitle: "Latest pop hits",
-    imageKey: "pl_pop_fresh",
+    imageKey: "genre_pop",
     image: "https://picsum.photos/300/300?random=11",
     likes: "412K",
   },
@@ -220,7 +465,7 @@ const popularPlaylists = [
     id: "playlist_3",
     title: "Rap Essentials",
     subtitle: "Classic rap tracks",
-    imageKey: "pl_rap_essentials",
+    imageKey: "genre_hiphop",
     image: "https://picsum.photos/300/300?random=12",
     likes: "389K",
   },
@@ -291,38 +536,6 @@ const moods = [
   { id: "travel", name: "TRAVEL", imageKey: "travel", likes: "1.3M" },
 ];
 
-// Podcasts data
-const podcasts = [
-  {
-    id: "podcast_1",
-    title: "Music History",
-    subtitle: "Exploring music through time",
-    imageKey: "genre_classical",
-    likes: "234K",
-  },
-  {
-    id: "podcast_2",
-    title: "Artist Interviews",
-    subtitle: "Behind the scenes with musicians",
-    imageKey: "genre_rock",
-    likes: "189K",
-  },
-  {
-    id: "podcast_3",
-    title: "Music Theory",
-    subtitle: "Understanding the fundamentals",
-    imageKey: "genre_jazz",
-    likes: "156K",
-  },
-  {
-    id: "podcast_4",
-    title: "Concert Stories",
-    subtitle: "Amazing live performance tales",
-    imageKey: "genre_pop",
-    likes: "298K",
-  },
-];
-
 export default function HomeScreen() {
   const { user } = useAuth();
   const router = useRouter();
@@ -339,6 +552,8 @@ export default function HomeScreen() {
   const [isLoading, setIsLoading] = useState(true);
   const [showFullGenres, setShowFullGenres] = useState(false);
   const [showFullMoods, setShowFullMoods] = useState(false);
+  const [showFullGenresGrid, setShowFullGenresGrid] = useState(false);
+  const [showFullMoodsGrid, setShowFullMoodsGrid] = useState(false);
 
   useEffect(() => {
     const loadTrendingMusic = async () => {
@@ -363,37 +578,18 @@ export default function HomeScreen() {
     const hydrateArtists = async () => {
       try {
         console.log("🔄 Starting to hydrate artists...");
-
-        // Use original artist names for Spotify searches
-        const artistNames = recommendedArtistsSeed.map((a) => a.name);
-        console.log("🎵 Artist names to fetch:", artistNames);
-
-        // Explicitly set Spotify as primary source with fallback enabled
-        const imageConfig: Partial<ImageServiceConfig> = {
-          primarySource: "spotify",
-          enableFallback: true,
-        };
-
-        const artistImages = await batchGetArtistImages(
-          artistNames,
-          imageConfig
+        console.log(
+          "🔄 recommendedArtistsSeed length:",
+          recommendedArtistsSeed.length
         );
-        console.log("🖼️ Batch fetched artist images:", artistImages);
+        console.log(
+          "🔄 recommendedArtistsSeed first item:",
+          recommendedArtistsSeed[0]
+        );
 
-        const updated = recommendedArtistsSeed.map((a) => {
-          // Use original artist name for Spotify
-          const fetchedImage = artistImages[a.name];
-          console.log(`🖼️ Artist image for ${a.name}:`, fetchedImage);
-
-          // Use fetched image if available, otherwise keep original
-          const finalImage = fetchedImage || a.image;
-          console.log(`✅ Final image for ${a.name}:`, finalImage);
-
-          return { ...a, image: finalImage };
-        });
-
-        console.log("🎉 Artists hydrated:", updated);
-        setRecommendedArtists(updated);
+        // Use the data directly since it already contains real Spotify images
+        console.log("🎉 Setting recommendedArtists directly (no API calls needed)");
+        setRecommendedArtists(recommendedArtistsSeed);
       } catch (error) {
         console.error("❌ Failed to hydrate artists:", error);
         console.log("🔄 Using fallback artist data");
@@ -407,7 +603,8 @@ export default function HomeScreen() {
 
         const artistNames = recentlyPlayedSeed
           .filter((item) => item.isArtist && item.artist)
-          .map((item) => item.artist); // Use original artist names
+          .map((item) => item.artist!)
+          .filter((name): name is string => name !== undefined); // Use original artist names
 
         console.log("🎵 Recently played artist names:", artistNames);
 
@@ -428,16 +625,8 @@ export default function HomeScreen() {
           );
 
           const updated = recentlyPlayedSeed.map((item) => {
-            if (item.isArtist && item.artist) {
-              // Use original artist name for Spotify
-              const fetchedImage = artistImages[item.artist];
-              console.log(`🖼️ Artist image for ${item.artist}:`, fetchedImage);
-
-              const finalImage = fetchedImage || item.image;
-              console.log(`✅ Final image for ${item.artist}:`, finalImage);
-
-              return { ...item, image: finalImage };
-            }
+            // Since recentlyPlayedSeed items are playlists, not artists,
+            // we don't need to hydrate them with artist images
             return item;
           });
 
@@ -567,39 +756,7 @@ export default function HomeScreen() {
     setActiveTab(tab);
   };
 
-  // Manual refresh function for debugging
-  const refreshImages = async () => {
-    console.log("🔄 Manual refresh triggered");
-    setIsLoading(true);
-
-    try {
-      const artistNames = recommendedArtistsSeed.map(
-        (a) => artistNameMapping[a.name] || a.name
-      );
-      console.log("🎵 Refreshing artist images for:", artistNames);
-
-      const artistImages = await batchGetArtistImages(artistNames);
-      console.log("🖼️ Refresh results:", artistImages);
-
-      const updated = recommendedArtistsSeed.map((a) => {
-        const searchName = artistNameMapping[a.name] || a.name;
-        const lastfmImage = artistImages[searchName];
-        console.log(
-          `🔄 Refresh: ${a.name} (searched as ${searchName}) -> ${
-            lastfmImage || "using fallback"
-          }`
-        );
-        return { ...a, image: lastfmImage || a.image };
-      });
-
-      setRecommendedArtists(updated);
-      console.log("✅ Refresh completed");
-    } catch (error) {
-      console.error("❌ Refresh failed:", error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  // Manual refresh function removed - no longer needed since we use static data
 
   // Render functions with proper unique keys
   const renderContentCard = (
@@ -670,7 +827,7 @@ export default function HomeScreen() {
   );
 
   const renderBrowseCard = (item: any) => {
-    console.log('🎨 renderBrowseCard called with item:', item);
+    console.log("🎨 renderBrowseCard called with item:", item);
     return (
       <TouchableOpacity
         style={styles.browseCard}
@@ -734,6 +891,51 @@ export default function HomeScreen() {
           </TouchableOpacity>
         ))}
       </View>
+    </View>
+  );
+
+  // Horizontal tiles renderer for Genres & Moods with View All
+  const renderHorizontalTilesSection = (
+    title: string,
+    data: any[],
+    showViewAll: boolean,
+    onViewAll: () => void
+  ) => (
+    <View style={styles.section}>
+      <View style={styles.sectionHeader}>
+        <Text style={styles.sectionTitle}>{title}</Text>
+        {showViewAll && (
+          <TouchableOpacity onPress={onViewAll}>
+            <Text style={styles.viewAllText}>View All &gt;</Text>
+          </TouchableOpacity>
+        )}
+      </View>
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={styles.horizontalListContent}
+      >
+        {data.slice(0, 5).map((item, index) => (
+          <TouchableOpacity
+            key={generateUniqueKey(item, index)}
+            style={styles.horizontalTile}
+            activeOpacity={0.8}
+            onPress={() => handleCardPress(item)}
+          >
+            <Image
+              source={getSafeImageSource(item)}
+              style={styles.horizontalTileImage}
+              resizeMode="cover"
+            />
+            <LinearGradient
+              colors={["transparent", "rgba(0,0,0,0.8)"]}
+              style={styles.horizontalTileGradient}
+            >
+              <Text style={styles.horizontalTileName}>{item.name}</Text>
+            </LinearGradient>
+          </TouchableOpacity>
+        ))}
+      </ScrollView>
     </View>
   );
 
@@ -810,7 +1012,12 @@ export default function HomeScreen() {
           style={styles.headerGradient}
         >
           <View style={styles.headerContent}>
-            <Text style={styles.headerTitle}>Welcome Back</Text>
+            <View style={styles.headerTopRow}>
+              <Text style={styles.headerTitle}>Home</Text>
+              <TouchableOpacity style={styles.searchButton}>
+                <Ionicons name="search" size={24} color={COLORS.textPrimary} />
+              </TouchableOpacity>
+            </View>
             <Text style={styles.headerSubtitle}>
               Discover your next favorite track
             </Text>
@@ -893,6 +1100,7 @@ export default function HomeScreen() {
             GENRES & MOODS
           </Text>
         </TouchableOpacity>
+
         <TouchableOpacity
           style={styles.navTab}
           onPress={() => navigateHeaderTab("PODCASTS")}
@@ -906,77 +1114,99 @@ export default function HomeScreen() {
             PODCASTS
           </Text>
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.navTab}
-          onPress={() => navigateHeaderTab("RECOMMENDATIONS")}
-        >
-          <Text
-            style={[
-              styles.navTabText,
-              activeTab === "RECOMMENDATIONS" && styles.activeTabText,
-            ]}
-          >
-            RECOMMENDATIONS
-          </Text>
-        </TouchableOpacity>
       </ScrollView>
 
       {/* Content based on active tab */}
       {activeTab === "OVERVIEW" && (
         <>
           {renderSection("Recently Played", recentlyPlayed, false, false, true)}
-          {renderSection("Made For You", madeForYou, true, false, true)}
           {renderSection(
-            "Recommended Artists",
-            recommendedArtists,
-            false,
+            "Make monday more productive",
+            madeForYou,
             true,
+            false,
             true
           )}
           {renderSection(
-            "Popular Playlists",
+            "Browse",
+            browseGenres.slice(0, 4),
+            false,
+            false,
+            true
+          )}
+          {renderSection("Playlist picks", playlistPicks, false, false, true)}
+          {renderSection("Podcasts", podcasts, false, false, true)}
+          {renderSection(
+            "New releases for you",
+            newReleases,
+            false,
+            false,
+            true
+          )}
+          {(() => {
+            console.log("🎯 Rendering 'You might like these artists' section");
+            console.log("🎯 recommendedArtists data:", recommendedArtists);
+            console.log(
+              "🎯 recommendedArtists length:",
+              recommendedArtists.length
+            );
+            if (recommendedArtists.length > 0) {
+              console.log("🎯 First artist:", recommendedArtists[0]);
+              console.log(
+                "🎯 First artist image:",
+                recommendedArtists[0].image
+              );
+            }
+            return renderSection(
+              "You might like these artists",
+              recommendedArtists,
+              false,
+              true,
+              true
+            );
+          })()}
+          {renderSection(
+            "Popular playlists",
             popularPlaylists,
             false,
             false,
             true
           )}
-          {renderSection("Trending Now", trendingMusic, false, false, true)}
         </>
       )}
 
       {activeTab === "GENRES & MOODS" && (
         <>
-          {showFullGenres
-            ? renderGridSection("Genres", genres, () =>
-                setShowFullGenres(false)
-              )
-            : renderSection("Genres", genres.slice(0, 5), false, false, true)}
-          {showFullMoods
-            ? renderGridSection("Moods", moods, () => setShowFullMoods(false))
-            : renderSection("Moods", moods.slice(0, 5), false, false, true)}
+          {!showFullGenresGrid && !showFullMoodsGrid ? (
+            <>
+              {renderHorizontalTilesSection("Genres", browseGenres, true, () =>
+                setShowFullGenresGrid(true)
+              )}
+              {renderHorizontalTilesSection("Moods", browseMoods, true, () =>
+                setShowFullMoodsGrid(true)
+              )}
+            </>
+          ) : showFullGenresGrid ? (
+            <>
+              {renderGridSection("Genres", browseGenres, () =>
+                setShowFullGenresGrid(false)
+              )}
+            </>
+          ) : (
+            <>
+              {renderGridSection("Moods", browseMoods, () =>
+                setShowFullMoodsGrid(false)
+              )}
+            </>
+          )}
         </>
       )}
 
       {activeTab === "PODCASTS" && (
-        <>{renderSection("Popular Podcasts", podcasts, false, false, true)}</>
-      )}
-
-      {activeTab === "RECOMMENDATIONS" && (
         <>
-          {renderSection(
-            "Personalized Recommendations",
-            recommendedArtists,
-            false,
-            true,
-            true
-          )}
-          {renderSection(
-            "Trending Recommendations",
-            trendingMusic,
-            false,
-            false,
-            true
-          )}
+          {renderSection("Popular Podcasts", podcasts, false, false, true)}
+          {renderSection("Trending Podcasts", podcasts, false, false, true)}
+          {renderSection("New Episodes", podcasts, false, false, true)}
         </>
       )}
     </ScrollView>
@@ -990,11 +1220,11 @@ const styles = StyleSheet.create({
     paddingTop: SPACING.sm,
   },
   header: {
-    marginTop: SPACING.lg,
-    marginBottom: SPACING.lg,
+    marginTop: SPACING.md,
+    marginBottom: SPACING.md,
   },
   headerGradient: {
-    paddingVertical: SPACING.xl,
+    paddingVertical: SPACING.lg,
     paddingHorizontal: SPACING.lg,
     borderRadius: SIZES.borderRadius,
     marginHorizontal: SPACING.lg,
@@ -1007,12 +1237,22 @@ const styles = StyleSheet.create({
   headerContent: {
     alignItems: "center",
   },
+  headerTopRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+    marginBottom: SPACING.xs,
+  },
+  searchButton: {
+    padding: SPACING.xs,
+  },
   headerTitle: {
-    fontSize: 32,
+    fontSize: 28,
     fontFamily: "InterBold",
     color: COLORS.textPrimary,
-    textAlign: "center",
-    marginBottom: SPACING.xs,
+    textAlign: "left",
+    marginBottom: 0,
   },
   headerSubtitle: {
     fontSize: 16,
@@ -1025,8 +1265,8 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
     marginHorizontal: 0,
     paddingHorizontal: SPACING.lg,
-    paddingVertical: SPACING.md,
-    marginBottom: SPACING.lg,
+    paddingVertical: SPACING.sm,
+    marginBottom: SPACING.md,
   },
   continueRow: {
     flexDirection: "row",
@@ -1076,7 +1316,7 @@ const styles = StyleSheet.create({
   },
   quickActions: {
     paddingHorizontal: SPACING.lg,
-    marginBottom: SPACING.lg,
+    marginBottom: SPACING.md,
   },
   quickAction: {
     flexDirection: "row",
@@ -1105,11 +1345,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: SPACING.lg,
   },
   navTab: {
-    marginRight: SPACING.xl,
-    paddingVertical: SPACING.sm,
+    marginRight: SPACING.lg,
+    paddingVertical: SPACING.xs,
     paddingHorizontal: SPACING.md,
     borderRadius: SIZES.borderRadius,
-    minWidth: 120, // Ensure minimum width for proper spacing
+    minWidth: 100, // Ensure minimum width for proper spacing
     alignItems: "center", // Center the text
   },
   activeTab: {
@@ -1145,13 +1385,13 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   section: {
-    marginBottom: SPACING.xl,
+    marginBottom: SPACING.md,
     backgroundColor: "transparent",
     marginHorizontal: 0,
     paddingVertical: 0,
   },
   sectionHeader: {
-    marginBottom: SPACING.sm,
+    marginBottom: SPACING.xs,
     marginTop: 0,
     flexDirection: "row",
     justifyContent: "space-between",
@@ -1165,10 +1405,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   sectionTitle: {
-    fontSize: 22,
+    fontSize: 18,
     fontFamily: "InterBold",
     color: COLORS.textPrimary,
-    marginBottom: SPACING.sm,
+    marginBottom: SPACING.xs,
     textAlign: "left",
     letterSpacing: 0.5,
   },
@@ -1188,7 +1428,7 @@ const styles = StyleSheet.create({
     overflow: "visible",
   },
   scrollContent: {
-    paddingBottom: SPACING.xl,
+    paddingBottom: SPACING.lg,
   },
   horizontalListContent: {
     paddingHorizontal: SPACING.lg,
@@ -1197,8 +1437,8 @@ const styles = StyleSheet.create({
     marginRight: SPACING.md,
   },
   contentCard: {
-    width: 150,
-    height: 150,
+    width: 140,
+    height: 140,
     borderRadius: SIZES.cardBorderRadius,
     overflow: "hidden",
     position: "relative",
@@ -1209,13 +1449,13 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
   },
   largeCard: {
-    width: 200,
-    height: 200,
+    width: 180,
+    height: 180,
   },
   circularCard: {
-    width: 120,
-    height: 150,
-    borderRadius: 60,
+    width: 100,
+    height: 130,
+    borderRadius: 50,
     elevation: 4,
     shadowColor: COLORS.textSecondary,
     shadowOffset: { width: 0, height: 4 },
@@ -1506,6 +1746,44 @@ const styles = StyleSheet.create({
   },
   podcastCardName: {
     fontSize: 14,
+    fontFamily: "InterBold",
+    color: COLORS.textPrimary,
+    textAlign: "center",
+    textShadowColor: "rgba(0, 0, 0, 0.8)",
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
+  },
+  horizontalTile: {
+    width: 120,
+    height: 120,
+    borderRadius: SIZES.cardBorderRadius,
+    overflow: "hidden",
+    marginRight: SPACING.md,
+    position: "relative",
+    elevation: 4,
+    shadowColor: COLORS.textSecondary,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
+    borderWidth: 1,
+    borderColor: "rgba(255, 255, 255, 0.1)",
+  },
+  horizontalTileImage: {
+    width: "100%",
+    height: "100%",
+  },
+  horizontalTileGradient: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: "50%",
+    justifyContent: "flex-end",
+    padding: SPACING.sm,
+    borderRadius: SIZES.cardBorderRadius,
+  },
+  horizontalTileName: {
+    fontSize: 12,
     fontFamily: "InterBold",
     color: COLORS.textPrimary,
     textAlign: "center",

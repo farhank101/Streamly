@@ -3,7 +3,7 @@
     "id": "1Cs0zKBU1kc0i8ypK3B9ai",
     "name": "David Guetta",
     "image": "https://i.scdn.co/image/ab6761610000e5ebf150017ca69c8793503c2d4f",
-    "followers": 27056648,
+    "followers": 27056642,
     "spotifyId": "1Cs0zKBU1kc0i8ypK3B9ai",
     "spotifyPopularity": 92,
     "genres": [
@@ -20,7 +20,7 @@
     "id": "64KEffDW9EtZ1y2vBYgq8T",
     "name": "Marshmello",
     "image": "https://i.scdn.co/image/ab6761610000e5eb3b2498dc8a8c6eceed0a2db3",
-    "followers": 34340237,
+    "followers": 34341734,
     "spotifyId": "64KEffDW9EtZ1y2vBYgq8T",
     "spotifyPopularity": 84,
     "genres": [
@@ -33,10 +33,26 @@
     "tier": "Popular Star"
   },
   {
+    "id": "1vCWHaC5f2uS3yhpwWbIA6",
+    "name": "Avicii",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebae07171f989fb39736674113",
+    "followers": 23465613,
+    "spotifyId": "1vCWHaC5f2uS3yhpwWbIA6",
+    "spotifyPopularity": 84,
+    "genres": [
+      "edm"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "pop",
+    "primaryGenre": "Electronic",
+    "likes": "23.5M",
+    "tier": "Popular Star"
+  },
+  {
     "id": "7CajNmpbOovFoOoasH2HaY",
     "name": "Calvin Harris",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb014a3c1730d960c66396ed63",
-    "followers": 23089822,
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1e4bcd2bef1896648762dd6b",
+    "followers": 23089353,
     "spotifyId": "7CajNmpbOovFoOoasH2HaY",
     "spotifyPopularity": 89,
     "genres": [
@@ -49,26 +65,10 @@
     "tier": "Major Star"
   },
   {
-    "id": "1vCWHaC5f2uS3yhpwWbIA6",
-    "name": "Avicii",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebae07171f989fb39736674113",
-    "followers": 23466283,
-    "spotifyId": "1vCWHaC5f2uS3yhpwWbIA6",
-    "spotifyPopularity": 84,
-    "genres": [
-      "edm"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "electronic",
-    "primaryGenre": "Electronic",
-    "likes": "23.5M",
-    "tier": "Popular Star"
-  },
-  {
     "id": "2o5jDhtHVPhrJdv3cEQ99Z",
     "name": "Tiësto",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe84e08fb1dfa2bf9b5a61563",
-    "followers": 7908846,
+    "followers": 7909986,
     "spotifyId": "2o5jDhtHVPhrJdv3cEQ99Z",
     "spotifyPopularity": 85,
     "genres": [
@@ -85,26 +85,10 @@
     "tier": "Major Star"
   },
   {
-    "id": "28j8lBWDdDSHSSt5oPlsX2",
-    "name": "ZHU",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf55fe976665d7db9af7ff4d3",
-    "followers": 963200,
-    "spotifyId": "28j8lBWDdDSHSSt5oPlsX2",
-    "spotifyPopularity": 65,
-    "genres": [
-      "edm"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "electronic",
-    "primaryGenre": "Electronic",
-    "likes": "963K",
-    "tier": "Established"
-  },
-  {
     "id": "60d24wfXkVzDSfLS6hyCjZ",
     "name": "Martin Garrix",
     "image": "https://i.scdn.co/image/ab6761610000e5ebf5b8ee60f1f4ee3453aba40b",
-    "followers": 15155774,
+    "followers": 15155473,
     "spotifyId": "60d24wfXkVzDSfLS6hyCjZ",
     "spotifyPopularity": 79,
     "genres": [
@@ -122,7 +106,7 @@
     "id": "1h6Cn3P4NGzXbaXidqURXs",
     "name": "Swedish House Mafia",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2a69903cac5dbe1f233ffb79",
-    "followers": 3921663,
+    "followers": 3922180,
     "spotifyId": "1h6Cn3P4NGzXbaXidqURXs",
     "spotifyPopularity": 80,
     "genres": [
@@ -135,10 +119,29 @@
     "tier": "Popular Star"
   },
   {
+    "id": "5X4LWwbUFNzPkEas04uU82",
+    "name": "DVBBS",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3c22b620f9a0fe9d974624fc",
+    "followers": 1062352,
+    "spotifyId": "5X4LWwbUFNzPkEas04uU82",
+    "spotifyPopularity": 62,
+    "genres": [
+      "edm",
+      "big room",
+      "electronica",
+      "slap house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Electronic",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
     "id": "2qxJFvFYMEDqd7ui6kSAcq",
     "name": "Zedd",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe28762aed82cde1178fb3873",
-    "followers": 6096179,
+    "followers": 6096396,
     "spotifyId": "2qxJFvFYMEDqd7ui6kSAcq",
     "spotifyPopularity": 78,
     "genres": [
@@ -154,7 +157,7 @@
     "id": "4D75GcNG95ebPtNvoNVXhz",
     "name": "AFROJACK",
     "image": "https://i.scdn.co/image/ab6761610000e5eb78484e23002e1607039af9b9",
-    "followers": 4021965,
+    "followers": 4022028,
     "spotifyId": "4D75GcNG95ebPtNvoNVXhz",
     "spotifyPopularity": 77,
     "genres": [
@@ -171,7 +174,7 @@
     "id": "4AVFqumd2ogHFlRbKIjp1t",
     "name": "Alesso",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2828484ea968409a0ea584a6",
-    "followers": 4026554,
+    "followers": 4026732,
     "spotifyId": "4AVFqumd2ogHFlRbKIjp1t",
     "spotifyPopularity": 77,
     "genres": [
@@ -187,7 +190,7 @@
     "id": "2HkAI0YrEcgoR8QdaURqhO",
     "name": "Dimitri Vegas",
     "image": "https://i.scdn.co/image/ab6761610000e5eb784b217707f1cd849149d58e",
-    "followers": 404213,
+    "followers": 404557,
     "spotifyId": "2HkAI0YrEcgoR8QdaURqhO",
     "spotifyPopularity": 75,
     "genres": [
@@ -204,7 +207,7 @@
     "id": "6hyMWrxGBsOx6sWcVj1DqP",
     "name": "Sebastian Ingrosso",
     "image": "https://i.scdn.co/image/ab6761610000e5eb075dfef99c39943c2e317560",
-    "followers": 998015,
+    "followers": 998277,
     "spotifyId": "6hyMWrxGBsOx6sWcVj1DqP",
     "spotifyPopularity": 72,
     "genres": [
@@ -220,7 +223,7 @@
     "id": "1xNmvlEiICkRlRGqlNFZ43",
     "name": "Axwell",
     "image": "https://i.scdn.co/image/ab6761610000e5eb47df925e56857f312974ff55",
-    "followers": 1505743,
+    "followers": 1505682,
     "spotifyId": "1xNmvlEiICkRlRGqlNFZ43",
     "spotifyPopularity": 72,
     "genres": [
@@ -236,7 +239,7 @@
     "id": "2ZRQcIgzPCVaT9XKhXZIzh",
     "name": "Gryffin",
     "image": "https://i.scdn.co/image/ab6761610000e5eb25c5af3945476680f64c36c8",
-    "followers": 998429,
+    "followers": 998631,
     "spotifyId": "2ZRQcIgzPCVaT9XKhXZIzh",
     "spotifyPopularity": 71,
     "genres": [
@@ -245,16 +248,34 @@
       "future bass"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "edm",
+    "searchTerm": "electronic",
     "primaryGenre": "Electronic",
     "likes": "998K",
     "tier": "Established"
   },
   {
+    "id": "4gzotznr0D1sH9FBn7RqNW",
+    "name": "Electronica House",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb88f4f40bff9c6d5cb260180e",
+    "followers": 122507,
+    "spotifyId": "4gzotznr0D1sH9FBn7RqNW",
+    "spotifyPopularity": 39,
+    "genres": [
+      "electronica",
+      "guaracha",
+      "electro house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "Electronic",
+    "likes": "122K",
+    "tier": "Underground"
+  },
+  {
     "id": "2CIMQHirSU0MQqyYHq0eOx",
     "name": "deadmau5",
     "image": "https://i.scdn.co/image/ab6761610000e5eb89ffabe57a25cedeca3309e7",
-    "followers": 2849442,
+    "followers": 2849636,
     "spotifyId": "2CIMQHirSU0MQqyYHq0eOx",
     "spotifyPopularity": 70,
     "genres": [
@@ -263,7 +284,7 @@
       "dubstep"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "edm",
+    "searchTerm": "electronic",
     "primaryGenre": "Electronic",
     "likes": "2.8M",
     "tier": "Established"
@@ -272,14 +293,14 @@
     "id": "4Wjf8diP59VmPG7fi4y724",
     "name": "Cedric Gervais",
     "image": "https://i.scdn.co/image/ab6761610000e5eb577e3855698e0003f8e74e9b",
-    "followers": 117738,
+    "followers": 117776,
     "spotifyId": "4Wjf8diP59VmPG7fi4y724",
     "spotifyPopularity": 69,
     "genres": [
       "edm"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "edm",
+    "searchTerm": "electronic",
     "primaryGenre": "Electronic",
     "likes": "117K",
     "tier": "Established"
@@ -288,7 +309,7 @@
     "id": "6TQj5BFPooTa08A7pk8AQ1",
     "name": "Kaskade",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc96f32c30b4c236b5b9c40fa",
-    "followers": 991237,
+    "followers": 991345,
     "spotifyId": "6TQj5BFPooTa08A7pk8AQ1",
     "spotifyPopularity": 67,
     "genres": [
@@ -304,7 +325,7 @@
     "id": "0daugAjUgbJSqdlyYNwIbT",
     "name": "Vicetone",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc2403e7a97ee0fd9b8b121ce",
-    "followers": 512846,
+    "followers": 512910,
     "spotifyId": "0daugAjUgbJSqdlyYNwIbT",
     "spotifyPopularity": 65,
     "genres": [
@@ -317,10 +338,26 @@
     "tier": "Established"
   },
   {
+    "id": "28j8lBWDdDSHSSt5oPlsX2",
+    "name": "ZHU",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf55fe976665d7db9af7ff4d3",
+    "followers": 963285,
+    "spotifyId": "28j8lBWDdDSHSSt5oPlsX2",
+    "spotifyPopularity": 65,
+    "genres": [
+      "edm"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Electronic",
+    "likes": "963K",
+    "tier": "Established"
+  },
+  {
     "id": "47z7ZrgFoBvVpCnElCE3Zh",
     "name": "Yellow Claw",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe320244965421cddcf099eec",
-    "followers": 1044342,
+    "followers": 1044379,
     "spotifyId": "47z7ZrgFoBvVpCnElCE3Zh",
     "spotifyPopularity": 64,
     "genres": [
@@ -337,7 +374,7 @@
     "id": "3dz0NnIZhtKKeXZxLOxCam",
     "name": "Porter Robinson",
     "image": "https://i.scdn.co/image/ab6761610000e5eb1ac12dcb2cc4fc7c740c5e0c",
-    "followers": 1213083,
+    "followers": 1213179,
     "spotifyId": "3dz0NnIZhtKKeXZxLOxCam",
     "spotifyPopularity": 64,
     "genres": [
@@ -351,29 +388,10 @@
     "tier": "Established"
   },
   {
-    "id": "5X4LWwbUFNzPkEas04uU82",
-    "name": "DVBBS",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3c22b620f9a0fe9d974624fc",
-    "followers": 1062350,
-    "spotifyId": "5X4LWwbUFNzPkEas04uU82",
-    "spotifyPopularity": 62,
-    "genres": [
-      "edm",
-      "big room",
-      "electronica",
-      "slap house"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "edm",
-    "primaryGenre": "Electronic",
-    "likes": "1.1M",
-    "tier": "Established"
-  },
-  {
     "id": "1LOB7jTeEV14pHai6EXSzF",
     "name": "Cash Cash",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc6b0d99b1a736712a1653d6a",
-    "followers": 698407,
+    "followers": 698430,
     "spotifyId": "1LOB7jTeEV14pHai6EXSzF",
     "spotifyPopularity": 62,
     "genres": [
@@ -389,7 +407,7 @@
     "id": "7HqEmV7FeCi16bQyHMpIrF",
     "name": "VASSY",
     "image": "https://i.scdn.co/image/ab6761610000e5eb39bbf8ac64c4488b097b2507",
-    "followers": 40330,
+    "followers": 40348,
     "spotifyId": "7HqEmV7FeCi16bQyHMpIrF",
     "spotifyPopularity": 61,
     "genres": [
@@ -405,7 +423,7 @@
     "id": "4aKdmOXdUKX07HVd3sGgzw",
     "name": "Rezz",
     "image": "https://i.scdn.co/image/ab6761610000e5eb133d38808d09895d7c5c9434",
-    "followers": 586792,
+    "followers": 586933,
     "spotifyId": "4aKdmOXdUKX07HVd3sGgzw",
     "spotifyPopularity": 61,
     "genres": [
@@ -417,5 +435,218 @@
     "primaryGenre": "Electronic",
     "likes": "586K",
     "tier": "Established"
+  },
+  {
+    "id": "4xnMDfgEmXZEEDdITKcGuE",
+    "name": "Audien",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdc41520ab6e466a1029e4fd2",
+    "followers": 200221,
+    "spotifyId": "4xnMDfgEmXZEEDdITKcGuE",
+    "spotifyPopularity": 59,
+    "genres": [
+      "edm",
+      "progressive house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Electronic",
+    "likes": "200K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4QZjx3AfLqJhGYkmWAEUm7",
+    "name": "Rooftime",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb56cd2c054fbcfd43c1783709",
+    "followers": 123669,
+    "spotifyId": "4QZjx3AfLqJhGYkmWAEUm7",
+    "spotifyPopularity": 60,
+    "genres": [
+      "electronic",
+      "brazilian bass"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Electronic",
+    "likes": "123K",
+    "tier": "Established"
+  },
+  {
+    "id": "0Cd6nHYwecCNM1sVEXKlYr",
+    "name": "Krewella",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1c53621c18aea84298018a25",
+    "followers": 903084,
+    "spotifyId": "0Cd6nHYwecCNM1sVEXKlYr",
+    "spotifyPopularity": 56,
+    "genres": [
+      "edm",
+      "dubstep"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Electronic",
+    "likes": "903K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1tBU8jUEdVR3mqSsAqEGfD",
+    "name": "Tommy Trash",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb59714d5eaba37dbf36f92cc5",
+    "followers": 146844,
+    "spotifyId": "1tBU8jUEdVR3mqSsAqEGfD",
+    "spotifyPopularity": 56,
+    "genres": [
+      "edm"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Electronic",
+    "likes": "146K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4pb4rqWSoGUgxm63xmJ8xc",
+    "name": "Madeon",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeb3e154881ba6cc3e4d4980d",
+    "followers": 653909,
+    "spotifyId": "4pb4rqWSoGUgxm63xmJ8xc",
+    "spotifyPopularity": 56,
+    "genres": [
+      "edm",
+      "french house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Electronic",
+    "likes": "653K",
+    "tier": "Rising"
+  },
+  {
+    "id": "521qvhdobR0GzhvU6TFw76",
+    "name": "Tritonal",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb44e5d61a4fd3ccc65045fc7",
+    "followers": 234018,
+    "spotifyId": "521qvhdobR0GzhvU6TFw76",
+    "spotifyPopularity": 54,
+    "genres": [
+      "edm",
+      "progressive house",
+      "progressive trance"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "edm",
+    "primaryGenre": "Electronic",
+    "likes": "234K",
+    "tier": "Rising"
+  },
+  {
+    "id": "00Q38FFuCE7XCDMhuYYTao",
+    "name": "D-Devils",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf79892834f48c860f3c2e4aa",
+    "followers": 40236,
+    "spotifyId": "00Q38FFuCE7XCDMhuYYTao",
+    "spotifyPopularity": 57,
+    "genres": [
+      "electronica",
+      "techno"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "techno",
+    "primaryGenre": "Electronic",
+    "likes": "40K",
+    "tier": "Rising"
+  },
+  {
+    "id": "22bukBZvUppuwQwmDz75Gz",
+    "name": "Sander van Doorn",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebee23091a3a926f1bf4f43fdc",
+    "followers": 356499,
+    "spotifyId": "22bukBZvUppuwQwmDz75Gz",
+    "spotifyPopularity": 51,
+    "genres": [
+      "edm",
+      "progressive house",
+      "big room"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "trance",
+    "primaryGenre": "Electronic",
+    "likes": "356K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2q5QIs6iibW6xyHZZRSeh2",
+    "name": "Hyper Fenton",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf1cbca29ed6b4f9134ddd466",
+    "followers": 41481,
+    "spotifyId": "2q5QIs6iibW6xyHZZRSeh2",
+    "spotifyPopularity": 43,
+    "genres": [
+      "cedm",
+      "christian hip hop",
+      "christian pop",
+      "gospel r&b",
+      "christian"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hype",
+    "primaryGenre": "Electronic",
+    "likes": "41K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6CZGjSCwsv967PAK4MfqC3",
+    "name": "Futures",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8b034e89c94d0732635e2c8c",
+    "followers": 14013,
+    "spotifyId": "6CZGjSCwsv967PAK4MfqC3",
+    "spotifyPopularity": 33,
+    "genres": [
+      "cedm",
+      "worship",
+      "christian pop",
+      "pop worship",
+      "christian"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "future",
+    "primaryGenre": "Electronic",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4HkAv0IL2kiVIC4CylhUer",
+    "name": "Good Weather Forecast",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb714c31b6141daebeb6ff9ab",
+    "followers": 13029,
+    "spotifyId": "4HkAv0IL2kiVIC4CylhUer",
+    "spotifyPopularity": 29,
+    "genres": [
+      "cedm",
+      "christian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "forecast",
+    "primaryGenre": "Electronic",
+    "likes": "13K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2lmkAeBbKuATAqV9Zq81j4",
+    "name": "Elevation Youth",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6350e90f00823af1ebfe6c9f",
+    "followers": 41308,
+    "spotifyId": "2lmkAeBbKuATAqV9Zq81j4",
+    "spotifyPopularity": 36,
+    "genres": [
+      "cedm",
+      "worship",
+      "christian pop",
+      "pop worship"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "elevating",
+    "primaryGenre": "Electronic",
+    "likes": "41K",
+    "tier": "Underground"
   }
 ]

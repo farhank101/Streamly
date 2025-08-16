@@ -10,7 +10,12 @@ import {
   Dimensions,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { allArtists, UnifiedArtist, getAllGenres, getArtistsByGenre } from "../../constants/allArtists";
+import {
+  allArtists,
+  UnifiedArtist,
+  getAllGenres,
+  getArtistsByGenre,
+} from "../../constants/allArtists";
 import { COLORS, SPACING, SIZES, FONTS } from "../../constants/theme";
 
 const { width } = Dimensions.get("window");
@@ -26,20 +31,29 @@ export default function ArtistsScreen() {
 
   // Filter artists by genre and search
   const filteredArtists = allArtists
-    .filter((artist: UnifiedArtist) => {
-      const matchesGenre = selectedGenre === "All" || artist.genre === selectedGenre;
-      const matchesSearch = artist.name.toLowerCase().includes(searchQuery.toLowerCase());
+    .filter((artist: any) => {
+      const matchesGenre =
+        selectedGenre === "All" || artist.genre === selectedGenre;
+      const matchesSearch = artist.name
+        .toLowerCase()
+        .includes(searchQuery.toLowerCase());
       return matchesGenre && matchesSearch;
     })
-    .sort((a: UnifiedArtist, b: UnifiedArtist) => {
+    .sort((a: any, b: any) => {
       switch (sortBy) {
         case "popularity":
           return (b.spotifyPopularity || 0) - (a.spotifyPopularity || 0);
         case "name":
           return a.name.localeCompare(b.name);
         case "followers":
-          const aFollowers = parseFloat(a.followers.replace(/[^0-9.]/g, ''));
-          const bFollowers = parseFloat(b.followers.replace(/[^0-9.]/g, ''));
+          const aFollowers =
+            typeof a.followers === "string"
+              ? parseFloat(a.followers.replace(/[^0-9.]/g, ""))
+              : a.followers;
+          const bFollowers =
+            typeof b.followers === "string"
+              ? parseFloat(b.followers.replace(/[^0-9.]/g, ""))
+              : b.followers;
           return bFollowers - aFollowers;
         default:
           return 0;
@@ -65,7 +79,9 @@ export default function ArtistsScreen() {
           {item.genre} • {item.tier}
         </Text>
         <Text style={styles.artistFollowers}>
-          {item.followers.includes('M') ? item.followers : `${item.likes} likes`}
+          {typeof item.followers === "string" && item.followers.includes("M")
+            ? item.followers
+            : `${item.likes} likes`}
         </Text>
         <View style={styles.popularityBar}>
           <View
@@ -79,13 +95,12 @@ export default function ArtistsScreen() {
     </TouchableOpacity>
   );
 
-  const GenreButton = ({
-    genre,
-  }: {
-    genre: string;
-  }) => (
+  const GenreButton = ({ genre }: { genre: string }) => (
     <TouchableOpacity
-      style={[styles.genreButton, selectedGenre === genre && styles.genreButtonActive]}
+      style={[
+        styles.genreButton,
+        selectedGenre === genre && styles.genreButtonActive,
+      ]}
       onPress={() => setSelectedGenre(genre)}
     >
       <Text
@@ -156,7 +171,7 @@ export default function ArtistsScreen() {
       </View>
 
       <FlatList
-        data={filteredArtists}
+        data={filteredArtists as any}
         renderItem={renderArtist}
         keyExtractor={(item) => item.id}
         numColumns={2}

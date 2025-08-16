@@ -1,13 +1,13 @@
 import { ImageSourcePropType } from "react-native";
 
-// Temporarily use a simple fallback instead of the default track image
-const DEFAULT_TRACK = {
+// Default placeholder image
+const DEFAULT_PLACEHOLDER = {
   uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
 };
 
 // Named export used by Explore screen for both Genres & Moods
 export const genreImages: Record<string, ImageSourcePropType> = {
-  // Genres - matching the exact order and names from the reference image
+  // Genres - using local images
   hiphop: require("./genres/hiphop.png"),
   dance_electro: require("./genres/dance_electro.png"),
   pop: require("./genres/pop.png"),
@@ -29,10 +29,10 @@ export const genreImages: Record<string, ImageSourcePropType> = {
   reggae: require("./genres/reggae.png"),
   folk: require("./genres/folk.png"),
 
-  // Moods (used in the same grid renderer)
+  // Moods - using local images
   party: require("./moods/partymood.png"),
   chill: require("./moods/chillmood.png"),
-  workout: require("./moods/wokoutmood.png"),
+  workout: require("./moods/workoutmood.png"),
   focus: require("./moods/focusmood.png"),
   driving: require("./moods/drivingmood.png"),
   rainy_day: require("./moods/rainymood.png"),
@@ -44,8 +44,9 @@ export const genreImages: Record<string, ImageSourcePropType> = {
   travel: require("./moods/travelmood.png"),
 };
 
-// Default export for Home screen mappings; extend as you add more images
+// Default export for Home screen mappings
 const homeImages: Record<string, ImageSourcePropType> = {
+  // Genre images with prefix
   genre_hiphop: require("./genres/hiphop.png"),
   genre_dance_electro: require("./genres/dance_electro.png"),
   genre_pop: require("./genres/pop.png"),
@@ -57,6 +58,7 @@ const homeImages: Record<string, ImageSourcePropType> = {
   genre_metal: require("./genres/metal.png"),
   genre_radio: require("./genres/radio.png"),
   genre_progressive: require("./genres/progressive.png"),
+
   // Additional categories
   decades: require("./genres/decades.png"),
   classical: require("./genres/classical.png"),
@@ -67,6 +69,7 @@ const homeImages: Record<string, ImageSourcePropType> = {
   soul_funk: require("./genres/soul_funk.png"),
   reggae: require("./genres/reggae.png"),
   folk: require("./genres/folk.png"),
+
   // Add missing genre_ prefixed keys
   genre_classical: require("./genres/classical.png"),
   genre_jazz: require("./genres/jazz.png"),
@@ -76,10 +79,11 @@ const homeImages: Record<string, ImageSourcePropType> = {
   genre_soul_funk: require("./genres/soul_funk.png"),
   genre_reggae: require("./genres/reggae.png"),
   genre_folk: require("./genres/folk.png"),
-  // Moods
+
+  // Moods - using local images
   party: require("./moods/partymood.png"),
   chill: require("./moods/chillmood.png"),
-  workout: require("./moods/wokoutmood.png"),
+  workout: require("./moods/workoutmood.png"),
   focus: require("./moods/focusmood.png"),
   driving: require("./moods/drivingmood.png"),
   rainy_day: require("./moods/rainymood.png"),
@@ -107,70 +111,70 @@ const homeImages: Record<string, ImageSourcePropType> = {
     uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
   },
   artist_skrillex: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/FF6B6B/FFFFFF?text=SKRILLEX",
   },
   artist_zedd: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/4ECDC4/FFFFFF?text=ZEDD",
   },
   artist_marshmello: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/45B7D1/FFFFFF?text=MARSHMELLO",
   },
   artist_deadmau5: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/FDCB6E/FFFFFF?text=DEADMAU5",
   },
   artist_eric_prydz: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/74B9FF/FFFFFF?text=ERIC+PRYDZ",
   },
   artist_tchami: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/55A3FF/FFFFFF?text=TCHAMI",
   },
   artist_adam_beyer: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/A29BFE/FFFFFF?text=ADAM+BEYER",
   },
   artist_nina_kraviz: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/FF7675/FFFFFF?text=NINA+KRAVIZ",
   },
   artist_amelie_lens: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/6C5CE7/FFFFFF?text=AMELIE+LENS",
   },
   artist_armin_van_buuren: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/00B894/FFFFFF?text=ARMIN",
   },
   artist_tiesto: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/FD79A8/FFFFFF?text=TIESTO",
   },
   artist_paul_van_dyk: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/E17055/FFFFFF?text=PAUL+VAN+DYK",
   },
   artist_odesza: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/00CEC9/FFFFFF?text=ODESZA",
   },
   artist_flume: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/A29BFE/FFFFFF?text=FLUME",
   },
   artist_illenium: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/FF7675/FFFFFF?text=ILLENIUM",
   },
   artist_pendulum: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/6C5CE7/FFFFFF?text=PENDULUM",
   },
   artist_netsky: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/00B894/FFFFFF?text=NETSKY",
   },
   artist_aphex_twin: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/FD79A8/FFFFFF?text=APHEX+TWIN",
   },
   artist_boards_of_canada: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/E17055/FFFFFF?text=BOARDS+OF+CANADA",
   },
   artist_meduza: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/00CEC9/FFFFFF?text=MEDUZA",
   },
   artist_acraze: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/A29BFE/FFFFFF?text=ACRAZE",
   },
   artist_john_summit: {
-    uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
+    uri: "https://via.placeholder.com/300x300/FF7675/FFFFFF?text=JOHN+SUMMIT",
   },
 
   // Add more home screen specific images here as needed

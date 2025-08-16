@@ -18,6 +18,7 @@ import {
   getCurrentUser,
   resetPassword as resetPasswordService,
   deleteUserAccount as deleteUserAccountService,
+  isSupabaseInitialized,
 } from "../services/supabase";
 
 interface AuthContextType extends AuthState {
@@ -27,6 +28,7 @@ interface AuthContextType extends AuthState {
   resetPassword: (email: string) => Promise<{ error: any }>;
   deleteAccount: () => Promise<{ error: any }>;
   isAuthenticated: boolean;
+  refreshSession: () => Promise<void>;
 }
 
 // Create the context with default values
@@ -40,6 +42,7 @@ const AuthContext = createContext<AuthContextType>({
   logout: async () => ({ error: null }),
   resetPassword: async () => ({ error: null }),
   deleteAccount: async () => ({ error: null }),
+  refreshSession: async () => {},
 });
 
 // Custom hook to use the auth context
@@ -55,77 +58,107 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
     isAuthenticated: false,
   });
 
-  // Check for existing session on mount
-  useEffect(() => {
-    const checkUser = async () => {
-      try {
-        setState((prev) => ({ ...prev, isLoading: true }));
+  // Enhanced session checking with retry mechanism
+  const checkUser = async (retryCount = 0): Promise<void> => {
+    try {
+      // Check if Supabase is properly initialized
+      if (!isSupabaseInitialized()) {
+        console.warn(
+          "Supabase not properly initialized, checking environment..."
+        );
+        setState({
+          user: null,
+          isLoading: false,
+          error:
+            "Supabase configuration error. Please check your environment variables.",
+          isAuthenticated: false,
+        });
+        return;
+      }
 
-        const { data, error } = await getCurrentUser();
+      setState((prev) => ({ ...prev, isLoading: true, error: null }));
 
-        if (error) {
-          throw error;
+      // First try to get the current session
+      const { data: sessionData, error: sessionError } =
+        await supabase.auth.getSession();
+
+      if (sessionError) {
+        console.warn("Session check error:", sessionError);
+        // Don't throw here, continue to user check
+      }
+
+      // Then try to get the current user
+      const { data, error } = await getCurrentUser();
+
+      if (error) {
+        // If it's an auth session missing error, try to refresh
+        if (error.message?.includes("Auth session missing") && retryCount < 2) {
+          console.log("Auth session missing, attempting to refresh...");
+          try {
+            const { data: refreshData, error: refreshError } =
+              await supabase.auth.refreshSession();
+            if (!refreshError && refreshData.session) {
+              // Retry after refresh
+              setTimeout(() => checkUser(retryCount + 1), 1000);
+              return;
+            }
+          } catch (refreshErr) {
+            console.warn("Session refresh failed:", refreshErr);
+          }
         }
 
-        if (data?.user) {
-          // Convert Supabase user to our User type
-          const user: User = {
-            id: data.user.id,
-            email: data.user.email || "",
-            username:
-              (data.user as any).profile?.username ||
-              data.user.user_metadata?.username,
-            avatarUrl:
-              (data.user as any).profile?.avatar_url ||
-              data.user.user_metadata?.avatar_url,
-            premiumStatus:
-              (data.user as any).profile?.premium_status ||
-              data.user.user_metadata?.premium_status ||
-              false,
-            preferences:
-              (data.user as any).profile?.preferences ||
-              data.user.user_metadata?.preferences ||
-              {},
-            createdAt: new Date(data.user.created_at),
-            updatedAt: new Date(
-              (data.user as any).profile?.updated_at ||
-                data.user.updated_at ||
-                data.user.created_at
-            ),
-          };
-
-          setState({
-            user,
-            isLoading: false,
-            error: null,
-            isAuthenticated: true,
-          });
-        } else {
+        // If we still have an error after retry, handle it gracefully
+        if (retryCount >= 2) {
+          console.warn("Max retries reached, setting unauthenticated state");
           setState({
             user: null,
             isLoading: false,
             error: null,
             isAuthenticated: false,
           });
+          return;
         }
-      } catch (error: any) {
-        console.error("Auth check error:", error);
-        setState({
-          user: null,
-          isLoading: false,
-          error: error.message,
-          isAuthenticated: false,
-        });
+
+        throw error;
       }
-    };
 
-    checkUser();
+      if (data?.user) {
+        // Convert Supabase user to our User type
+        const user: User = {
+          id: data.user.id,
+          email: data.user.email || "",
+          username:
+            (data.user as any).profile?.username ||
+            data.user.user_metadata?.username ||
+            data.user.email?.split("@")[0] || // Fallback to email prefix
+            `user_${data.user.id.slice(0, 8)}`, // Fallback to user ID prefix
+          avatarUrl:
+            (data.user as any).profile?.avatar_url ||
+            data.user.user_metadata?.avatar_url ||
+            null,
+          premiumStatus:
+            (data.user as any).profile?.premium_status ||
+            data.user.user_metadata?.premium_status ||
+            false,
+          preferences:
+            (data.user as any).profile?.preferences ||
+            data.user.user_metadata?.preferences ||
+            {},
+          createdAt: new Date(data.user.created_at),
+          updatedAt: new Date(
+            (data.user as any).profile?.updated_at ||
+              data.user.updated_at ||
+              data.user.created_at
+          ),
+        };
 
-    // Listen for auth state changes
-    const { data } = supabase.auth.onAuthStateChange(async (event, session) => {
-      if (event === "SIGNED_IN" && session) {
-        checkUser();
-      } else if (event === "SIGNED_OUT") {
+        setState({
+          user,
+          isLoading: false,
+          error: null,
+          isAuthenticated: true,
+        });
+      } else {
         setState({
           user: null,
           isLoading: false,
@@ -133,10 +166,119 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
           isAuthenticated: false,
         });
       }
+    } catch (error: any) {
+      console.error("Auth check error:", error);
+
+      // Handle specific error types gracefully
+      if (error.message?.includes("Auth session missing")) {
+        console.log("Auth session missing, setting unauthenticated state");
+        setState({
+          user: null,
+          isLoading: false,
+          error: null,
+          isAuthenticated: false,
+        });
+      } else {
+        setState({
+          user: null,
+          isLoading: false,
+          error: error.message || "Authentication error",
+          isAuthenticated: false,
+        });
+      }
+    }
+  };
+
+  // Refresh session function
+  const refreshSession = async (): Promise<void> => {
+    try {
+      const { data, error } = await supabase.auth.refreshSession();
+      if (!error && data.session) {
+        await checkUser();
+      } else {
+        // If refresh fails, clear the state
+        setState({
+          user: null,
+          isLoading: false,
+          error: null,
+          isAuthenticated: false,
+        });
+      }
+    } catch (error) {
+      console.error("Session refresh error:", error);
+      setState({
+        user: null,
+        isLoading: false,
+        error: null,
+        isAuthenticated: false,
+      });
+    }
+  };
+
+  // Check for existing session on mount
+  useEffect(() => {
+    let mounted = true;
+
+    const initializeAuth = async () => {
+      try {
+        // Log Supabase status in development
+        if (process.env.NODE_ENV === "development") {
+          console.log("🔐 Initializing authentication...");
+          console.log("🔐 Supabase status:", {
+            initialized: isSupabaseInitialized(),
+            url: process.env.EXPO_PUBLIC_SUPABASE_URL ? "Set" : "Missing",
+            anonKey: process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY
+              ? "Set"
+              : "Missing",
+          });
+        }
+
+        // Wait a bit for Supabase to initialize
+        await new Promise((resolve) => setTimeout(resolve, 100));
+
+        if (mounted) {
+          await checkUser();
+        }
+      } catch (error) {
+        console.error("Auth initialization error:", error);
+        if (mounted) {
+          setState({
+            user: null,
+            isLoading: false,
+            error: null,
+            isAuthenticated: false,
+          });
+        }
+      }
+    };
+
+    initializeAuth();
+
+    // Listen for auth state changes
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange(async (event, session) => {
+      if (!mounted) return;
+
+      console.log("Auth state change:", event, session?.user?.id);
+
+      if (event === "SIGNED_IN" && session) {
+        await checkUser();
+      } else if (event === "SIGNED_OUT") {
+        setState({
+          user: null,
+          isLoading: false,
+          error: null,
+          isAuthenticated: false,
+        });
+      } else if (event === "TOKEN_REFRESHED" && session) {
+        await checkUser();
+      }
     });
 
     return () => {
-      data.subscription.unsubscribe();
+      mounted = false;
+      subscription.unsubscribe();
     };
   }, []);
 
@@ -282,10 +424,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
     logout,
     resetPassword,
     deleteAccount,
+    refreshSession,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
 
-export { useAuth, AuthProvider };
 export default AuthContext;

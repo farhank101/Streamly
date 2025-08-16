@@ -142,11 +142,11 @@ export default function SearchResultsScreen() {
       const trackToPlay: Track = {
         id: track.id,
         sourceId: track.sourceId,
-        sourceType: track.sourceType as 'youtube',
+        sourceType: track.sourceType as "youtube",
         title: track.title,
         artist: track.artist,
         duration: track.duration,
-        thumbnailUrl: track.thumbnailUrl,
+        thumbnailUrl: track.thumbnailUrl || "",
         createdAt: new Date(),
       };
       play(trackToPlay);

@@ -3,7 +3,7 @@
     "id": "23zg3TcAtWQy7J6upgbUnj",
     "name": "USHER",
     "image": "https://i.scdn.co/image/ab6761610000e5eb716114797a4a644c67c5fa72",
-    "followers": 13472886,
+    "followers": 13475993,
     "spotifyId": "23zg3TcAtWQy7J6upgbUnj",
     "spotifyPopularity": 85,
     "genres": [
@@ -19,7 +19,7 @@
     "id": "6g0Wah2YFtb1rFgKhUktlo",
     "name": "Raphael Saadiq",
     "image": "https://i.scdn.co/image/ab6761610000e5eb345c549fb14fdc699ca6560b",
-    "followers": 574747,
+    "followers": 574810,
     "spotifyId": "6g0Wah2YFtb1rFgKhUktlo",
     "spotifyPopularity": 53,
     "genres": [
@@ -37,7 +37,7 @@
     "id": "2Mu5NfyYm8n5iTomuKAEHl",
     "name": "Ms. Lauryn Hill",
     "image": "https://i.scdn.co/image/ccb108f19352e88d6e69b1093d75a2be5efa1c99",
-    "followers": 3395497,
+    "followers": 3396141,
     "spotifyId": "2Mu5NfyYm8n5iTomuKAEHl",
     "spotifyPopularity": 75,
     "genres": [
@@ -53,7 +53,7 @@
     "id": "4sbXXFzEWJY2zsZjelerjX",
     "name": "Dadju",
     "image": "https://i.scdn.co/image/ab6761610000e5eb0910ff09d3b54b114d233aa3",
-    "followers": 7625884,
+    "followers": 7629201,
     "spotifyId": "4sbXXFzEWJY2zsZjelerjX",
     "spotifyPopularity": 75,
     "genres": [
@@ -69,10 +69,44 @@
     "tier": "Established"
   },
   {
+    "id": "1jtvmXiemNFkPO11NMdjfu",
+    "name": "Nsqk",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0956823d3722ba30acddbef0",
+    "followers": 472656,
+    "spotifyId": "1jtvmXiemNFkPO11NMdjfu",
+    "spotifyPopularity": 72,
+    "genres": [
+      "latin r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "R&B",
+    "likes": "472K",
+    "tier": "Established"
+  },
+  {
+    "id": "4uJNQGa3L2frXDxwgouTIw",
+    "name": "Franglish",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7f568214a2651749cea9b073",
+    "followers": 1803676,
+    "spotifyId": "4uJNQGa3L2frXDxwgouTIw",
+    "spotifyPopularity": 70,
+    "genres": [
+      "french r&b",
+      "pop urbaine",
+      "french rap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rap",
+    "primaryGenre": "R&B",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
     "id": "3oKRxpszQKUjjaHz388fVA",
     "name": "Parcels",
     "image": "https://i.scdn.co/image/ab6761610000e5eb3f64ee564d3617f6a764f933",
-    "followers": 1033736,
+    "followers": 1034193,
     "spotifyId": "3oKRxpszQKUjjaHz388fVA",
     "spotifyPopularity": 73,
     "genres": [
@@ -85,10 +119,26 @@
     "tier": "Established"
   },
   {
+    "id": "25jJ6vyXwTRa0e6XCcdR6U",
+    "name": "Ari Abdul",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7cd193d17b3d7c67b8ddbf1f",
+    "followers": 715826,
+    "spotifyId": "25jJ6vyXwTRa0e6XCcdR6U",
+    "spotifyPopularity": 69,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "electronic",
+    "primaryGenre": "R&B",
+    "likes": "715K",
+    "tier": "Established"
+  },
+  {
     "id": "1JHi3wMSHjY01RGrlo7lGh",
     "name": "Omido",
     "image": "https://i.scdn.co/image/ab6761610000e5ebbd307639dd181bb2cfba7813",
-    "followers": 65513,
+    "followers": 65568,
     "spotifyId": "1JHi3wMSHjY01RGrlo7lGh",
     "spotifyPopularity": 62,
     "genres": [
@@ -104,7 +154,7 @@
     "id": "7bXgB6jMjp9ATFy66eO08Z",
     "name": "Chris Brown",
     "image": "https://i.scdn.co/image/ab6761610000e5eba48397e590a1c70e2cda7728",
-    "followers": 27388509,
+    "followers": 27401520,
     "spotifyId": "7bXgB6jMjp9ATFy66eO08Z",
     "spotifyPopularity": 91,
     "genres": [
@@ -120,7 +170,7 @@
     "id": "7tYKF4w9nC0nq9CsPZTHyP",
     "name": "SZA",
     "image": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf",
-    "followers": 31713266,
+    "followers": 31732744,
     "spotifyId": "7tYKF4w9nC0nq9CsPZTHyP",
     "spotifyPopularity": 92,
     "genres": [
@@ -136,7 +186,7 @@
     "id": "2HPaUgqeutzr3jx5a9WyDV",
     "name": "PARTYNEXTDOOR",
     "image": "https://i.scdn.co/image/ab6761610000e5eb957320981e31e862bc2fb844",
-    "followers": 9602587,
+    "followers": 9610112,
     "spotifyId": "2HPaUgqeutzr3jx5a9WyDV",
     "spotifyPopularity": 87,
     "genres": [
@@ -154,7 +204,7 @@
     "id": "3tlXnStJ1fFhdScmQeLpuG",
     "name": "Brent Faiyaz",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2af1d912483f27af21eba49f",
-    "followers": 7683087,
+    "followers": 7686472,
     "spotifyId": "3tlXnStJ1fFhdScmQeLpuG",
     "spotifyPopularity": 84,
     "genres": [
@@ -170,7 +220,7 @@
     "id": "5RTLRtXjbXI2lSXc6jxlAz",
     "name": "Ravyn Lenae",
     "image": "https://i.scdn.co/image/ab6761610000e5eb138d70fe372dedacdca53b61",
-    "followers": 740094,
+    "followers": 741290,
     "spotifyId": "5RTLRtXjbXI2lSXc6jxlAz",
     "spotifyPopularity": 81,
     "genres": [
@@ -180,14 +230,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "r&b",
     "primaryGenre": "R&B",
-    "likes": "740K",
+    "likes": "741K",
     "tier": "Popular Star"
   },
   {
     "id": "1ThoqLcyIYvZn7iWbj8fsj",
     "name": "Bill Withers",
     "image": "https://i.scdn.co/image/96b85aec6907206572527e1eeec6569d5e977a38",
-    "followers": 1957379,
+    "followers": 1957991,
     "spotifyId": "1ThoqLcyIYvZn7iWbj8fsj",
     "spotifyPopularity": 75,
     "genres": [
@@ -205,7 +255,7 @@
     "id": "3qnGvpP8Yth1AqSBMqON5x",
     "name": "Leon Bridges",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd5112a5b16a01e971ebb049c",
-    "followers": 1889583,
+    "followers": 1890105,
     "spotifyId": "3qnGvpP8Yth1AqSBMqON5x",
     "spotifyPopularity": 77,
     "genres": [
@@ -218,10 +268,74 @@
     "tier": "Established"
   },
   {
+    "id": "2mxe0TnaNL039ysAj51xPQ",
+    "name": "R. Kelly",
+    "image": "https://i.scdn.co/image/b81390065f0c65c26270a4ca1d2ceae3e30efed6",
+    "followers": 2478619,
+    "spotifyId": "2mxe0TnaNL039ysAj51xPQ",
+    "spotifyPopularity": 71,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "R&B",
+    "likes": "2.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "42LEQxfXLEuzdqorKBbUVN",
+    "name": "RaiNao",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0297054e5768f3daf3f9978a",
+    "followers": 261358,
+    "spotifyId": "42LEQxfXLEuzdqorKBbUVN",
+    "spotifyPopularity": 70,
+    "genres": [
+      "latin r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "R&B",
+    "likes": "261K",
+    "tier": "Established"
+  },
+  {
+    "id": "7LaEPzqOfzvbRCBTpzRkQv",
+    "name": "Reed Wonder",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0746aab9c07c00585fbffc8e",
+    "followers": 86421,
+    "spotifyId": "7LaEPzqOfzvbRCBTpzRkQv",
+    "spotifyPopularity": 66,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "R&B",
+    "likes": "86K",
+    "tier": "Established"
+  },
+  {
+    "id": "05oH07COxkXKIMt6mIPRee",
+    "name": "Brandy",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb39417aaafb9c373e78594ef",
+    "followers": 4038222,
+    "spotifyId": "05oH07COxkXKIMt6mIPRee",
+    "spotifyPopularity": 69,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "R&B",
+    "likes": "4.0M",
+    "tier": "Established"
+  },
+  {
     "id": "0oK5D6uPhGu4Jk2dbZfodU",
     "name": "Thee Sacred Souls",
     "image": "https://i.scdn.co/image/ab6761610000e5eb1a99219498d5119b0e742b19",
-    "followers": 862438,
+    "followers": 863308,
     "spotifyId": "0oK5D6uPhGu4Jk2dbZfodU",
     "spotifyPopularity": 74,
     "genres": [
@@ -230,14 +344,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "soul",
     "primaryGenre": "R&B",
-    "likes": "862K",
+    "likes": "863K",
     "tier": "Established"
   },
   {
     "id": "4fxd5Ee7UefO4CUXgwJ7IP",
     "name": "GIVĒON",
     "image": "https://i.scdn.co/image/ab6761610000e5eb48769fa9ef3b5f24af90a09d",
-    "followers": 5005691,
+    "followers": 5008267,
     "spotifyId": "4fxd5Ee7UefO4CUXgwJ7IP",
     "spotifyPopularity": 83,
     "genres": [
@@ -253,7 +367,7 @@
     "id": "1Q9Sx5tOmwems0qwLJZ5Cy",
     "name": "SOULFIA",
     "image": "https://i.scdn.co/image/ab6761610000e5eb78509f3cf79bf52b6d8abb73",
-    "followers": 40478,
+    "followers": 40482,
     "spotifyId": "1Q9Sx5tOmwems0qwLJZ5Cy",
     "spotifyPopularity": 49,
     "genres": [
@@ -271,7 +385,7 @@
     "id": "1UTxQ0jbtZoJPXD9cUC3iD",
     "name": "Soul Brothers",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe37c0eb933a26737ff69eb44",
-    "followers": 107737,
+    "followers": 107849,
     "spotifyId": "1UTxQ0jbtZoJPXD9cUC3iD",
     "spotifyPopularity": 49,
     "genres": [
@@ -288,7 +402,7 @@
     "id": "3UVRliakQfa1pMWIsNuiZ8",
     "name": "Musiq Soulchild",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc9d43ed95cf5550a1cb7aa43",
-    "followers": 1235361,
+    "followers": 1235581,
     "spotifyId": "3UVRliakQfa1pMWIsNuiZ8",
     "spotifyPopularity": 61,
     "genres": [
@@ -306,7 +420,7 @@
     "id": "3DiDSECUqqY1AuBP8qtaIa",
     "name": "Alicia Keys",
     "image": "https://i.scdn.co/image/ab6761610000e5eb129c417ff4c4e095032e2e2f",
-    "followers": 12721550,
+    "followers": 12723420,
     "spotifyId": "3DiDSECUqqY1AuBP8qtaIa",
     "spotifyPopularity": 81,
     "genres": [
@@ -323,7 +437,7 @@
     "id": "7GaxyUddsPok8BuhxN6OUW",
     "name": "James Brown",
     "image": "https://i.scdn.co/image/ab6761610000e5eb158342aa8bb8a192c778f2a5",
-    "followers": 2296079,
+    "followers": 2296397,
     "spotifyId": "7GaxyUddsPok8BuhxN6OUW",
     "spotifyPopularity": 66,
     "genres": [
@@ -342,7 +456,7 @@
     "id": "57LYzLEk2LcFghVwuWbcuS",
     "name": "Summer Walker",
     "image": "https://i.scdn.co/image/ab6761610000e5eb557390f6b45ab596d5d70297",
-    "followers": 7822817,
+    "followers": 7825259,
     "spotifyId": "57LYzLEk2LcFghVwuWbcuS",
     "spotifyPopularity": 80,
     "genres": [
@@ -358,7 +472,7 @@
     "id": "0MiCOT2cVYso39XSskiUUo",
     "name": "The Souljazz Orchestra",
     "image": "https://i.scdn.co/image/3e525ec8b825db8719d407d6b69939da2d92731b",
-    "followers": 97675,
+    "followers": 97690,
     "spotifyId": "0MiCOT2cVYso39XSskiUUo",
     "spotifyPopularity": 45,
     "genres": [
@@ -376,7 +490,7 @@
     "id": "1g51NlHKUXlgfvGP22m0uD",
     "name": "J SOUL BROTHERS III",
     "image": "https://i.scdn.co/image/ab6761610000e5ebfaf7ff45a859300bf19bc15f",
-    "followers": 938014,
+    "followers": 938095,
     "spotifyId": "1g51NlHKUXlgfvGP22m0uD",
     "spotifyPopularity": 58,
     "genres": [
@@ -393,7 +507,7 @@
     "id": "0F3maSKfGGVtfATaAyeyPG",
     "name": "Chris Grey",
     "image": "https://i.scdn.co/image/ab6761610000e5eb3f52638e4236777b75100290",
-    "followers": 812369,
+    "followers": 813933,
     "spotifyId": "0F3maSKfGGVtfATaAyeyPG",
     "spotifyPopularity": 72,
     "genres": [
@@ -402,14 +516,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "soul",
     "primaryGenre": "R&B",
-    "likes": "812K",
+    "likes": "813K",
     "tier": "Established"
   },
   {
     "id": "7LVC96BEVGugTAp38AajV6",
     "name": "Lithe",
     "image": "https://i.scdn.co/image/ab6761610000e5eb47a65f889ae6db1fc109f1f0",
-    "followers": 470105,
+    "followers": 470508,
     "spotifyId": "7LVC96BEVGugTAp38AajV6",
     "spotifyPopularity": 73,
     "genres": [
@@ -425,7 +539,7 @@
     "id": "7AcV1lk8Zrgo1691PDWEle",
     "name": "Freshlyground",
     "image": "https://i.scdn.co/image/cdc8cf94774db4f0066ca1f90eb3fda45955a420",
-    "followers": 83653,
+    "followers": 83685,
     "spotifyId": "7AcV1lk8Zrgo1691PDWEle",
     "spotifyPopularity": 65,
     "genres": [
@@ -443,7 +557,7 @@
     "id": "7nwUJBm0HE4ZxD3f5cy5ok",
     "name": "Aretha Franklin",
     "image": "https://i.scdn.co/image/ab6761610000e5ebf12270128127ba170f90097d",
-    "followers": 3744694,
+    "followers": 3745541,
     "spotifyId": "7nwUJBm0HE4ZxD3f5cy5ok",
     "spotifyPopularity": 72,
     "genres": [
@@ -462,7 +576,7 @@
     "id": "60df5JBRRPcnSpsIMxxwQm",
     "name": "Otis Redding",
     "image": "https://i.scdn.co/image/4ad89c805aff0fb76b01b6b62b39e21fcd8943c3",
-    "followers": 2495986,
+    "followers": 2496502,
     "spotifyId": "60df5JBRRPcnSpsIMxxwQm",
     "spotifyPopularity": 71,
     "genres": [
@@ -481,7 +595,7 @@
     "id": "4tMm1dU6Gn04VAZ9ClHcIZ",
     "name": "Jacquees",
     "image": "https://i.scdn.co/image/ab6761610000e5eb910bd8f5a8559d0d35e1059b",
-    "followers": 3440479,
+    "followers": 3441623,
     "spotifyId": "4tMm1dU6Gn04VAZ9ClHcIZ",
     "spotifyPopularity": 71,
     "genres": [
@@ -498,7 +612,7 @@
     "id": "7u6LfVyYpEzMpHLL7jTyvU",
     "name": "Dwele",
     "image": "https://i.scdn.co/image/aa89f602bf1630354e7e43a977492634e1f77814",
-    "followers": 311412,
+    "followers": 311443,
     "spotifyId": "7u6LfVyYpEzMpHLL7jTyvU",
     "spotifyPopularity": 69,
     "genres": [
@@ -514,7 +628,7 @@
     "id": "7IfculRW2WXyzNQ8djX8WX",
     "name": "Erykah Badu",
     "image": "https://i.scdn.co/image/ab6761610000e5ebfb1bc9e7ca44d473641b7842",
-    "followers": 3186328,
+    "followers": 3186902,
     "spotifyId": "7IfculRW2WXyzNQ8djX8WX",
     "spotifyPopularity": 70,
     "genres": [
@@ -531,7 +645,7 @@
     "id": "0iOVhN3tnSvgDbcg25JoJb",
     "name": "Etta James",
     "image": "https://i.scdn.co/image/ab6761610000e5eb058531dfd9746a96ad85265f",
-    "followers": 1951516,
+    "followers": 1952037,
     "spotifyId": "0iOVhN3tnSvgDbcg25JoJb",
     "spotifyPopularity": 70,
     "genres": [
@@ -548,26 +662,10 @@
     "tier": "Established"
   },
   {
-    "id": "2mxe0TnaNL039ysAj51xPQ",
-    "name": "R. Kelly",
-    "image": "https://i.scdn.co/image/b81390065f0c65c26270a4ca1d2ceae3e30efed6",
-    "followers": 2478577,
-    "spotifyId": "2mxe0TnaNL039ysAj51xPQ",
-    "spotifyPopularity": 71,
-    "genres": [
-      "r&b"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "soul",
-    "primaryGenre": "R&B",
-    "likes": "2.5M",
-    "tier": "Established"
-  },
-  {
     "id": "6OB7PzOSbC30b8E5uGjRBo",
     "name": "Aurora Olivas",
     "image": "https://i.scdn.co/image/ab6761610000e5ebbb9c3fbdeacc88083f9e14b1",
-    "followers": 54993,
+    "followers": 55140,
     "spotifyId": "6OB7PzOSbC30b8E5uGjRBo",
     "spotifyPopularity": 66,
     "genres": [
@@ -576,14 +674,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "soul",
     "primaryGenre": "R&B",
-    "likes": "54K",
+    "likes": "55K",
     "tier": "Established"
   },
   {
     "id": "0bzfPKdbXL5ezYW2z3UGQj",
     "name": "Michael Kiwanuka",
     "image": "https://i.scdn.co/image/ab6761610000e5eb970e66fdac7be4f4829d4b05",
-    "followers": 1640178,
+    "followers": 1640468,
     "spotifyId": "0bzfPKdbXL5ezYW2z3UGQj",
     "spotifyPopularity": 70,
     "genres": [
@@ -599,7 +697,7 @@
     "id": "3dkbV4qihUeMsqN4vBGg93",
     "name": "Al Green",
     "image": "https://i.scdn.co/image/ab6761610000e5eb64382b1015df52a6bc32c3b7",
-    "followers": 2229989,
+    "followers": 2230592,
     "spotifyId": "3dkbV4qihUeMsqN4vBGg93",
     "spotifyPopularity": 70,
     "genres": [
@@ -615,26 +713,10 @@
     "tier": "Established"
   },
   {
-    "id": "7LaEPzqOfzvbRCBTpzRkQv",
-    "name": "Reed Wonder",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb0746aab9c07c00585fbffc8e",
-    "followers": 86216,
-    "spotifyId": "7LaEPzqOfzvbRCBTpzRkQv",
-    "spotifyPopularity": 66,
-    "genres": [
-      "dark r&b"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "soul",
-    "primaryGenre": "R&B",
-    "likes": "86K",
-    "tier": "Established"
-  },
-  {
     "id": "6ueGR6SWhUJfvEhqkvMsVs",
     "name": "Janelle Monáe",
     "image": "https://i.scdn.co/image/ab6761610000e5eb5dab878686269b7b8f4c3ab1",
-    "followers": 1497817,
+    "followers": 1497833,
     "spotifyId": "6ueGR6SWhUJfvEhqkvMsVs",
     "spotifyPopularity": 69,
     "genres": [
@@ -650,7 +732,7 @@
     "id": "5hA2fNOsOjec1PiwPcrQ3k",
     "name": "Ruby Velle & The Soulphonics",
     "image": "https://i.scdn.co/image/ab6761610000e5eb8804ee0ef68cbf90d109f334",
-    "followers": 21156,
+    "followers": 21160,
     "spotifyId": "5hA2fNOsOjec1PiwPcrQ3k",
     "spotifyPopularity": 36,
     "genres": [
@@ -667,7 +749,7 @@
     "id": "5KiKWAR8D8UjkuD21Depbe",
     "name": "Vanna Rainelle",
     "image": "https://i.scdn.co/image/ab6761610000e5eb6f2fd8d9400f9394a02f7c0e",
-    "followers": 76168,
+    "followers": 76375,
     "spotifyId": "5KiKWAR8D8UjkuD21Depbe",
     "spotifyPopularity": 61,
     "genres": [
@@ -680,10 +762,531 @@
     "tier": "Established"
   },
   {
+    "id": "1A9o3Ljt67pFZ89YtPPL5X",
+    "name": "Snoh Aalegra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb04ae2067ae0171af5cbf1cf1",
+    "followers": 1395578,
+    "spotifyId": "1A9o3Ljt67pFZ89YtPPL5X",
+    "spotifyPopularity": 69,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "1lAvOODEAbUI5b51WRBbdx",
+    "name": "Darci",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb20c2518bdcdeb36f426e0566",
+    "followers": 275856,
+    "spotifyId": "1lAvOODEAbUI5b51WRBbdx",
+    "spotifyPopularity": 66,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "275K",
+    "tier": "Established"
+  },
+  {
+    "id": "3ETLPQkcEd7z4k3IbZmXMq",
+    "name": "Cleo Sol",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc7ef033a721654291ccf2ea9",
+    "followers": 967857,
+    "spotifyId": "3ETLPQkcEd7z4k3IbZmXMq",
+    "spotifyPopularity": 68,
+    "genres": [
+      "neo soul",
+      "alternative r&b",
+      "uk r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "967K",
+    "tier": "Established"
+  },
+  {
+    "id": "7b04D0yLktCUpvxQBhmG7R",
+    "name": "LEISURE",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf6589d1d011c7568f9d8c113",
+    "followers": 282175,
+    "spotifyId": "7b04D0yLktCUpvxQBhmG7R",
+    "spotifyPopularity": 68,
+    "genres": [
+      "indie soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "282K",
+    "tier": "Established"
+  },
+  {
+    "id": "02zPEtdzUWnPToEVLRiQ7e",
+    "name": "Madison McFerrin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb71e7efe93f980f8bf7ffbf2f",
+    "followers": 106042,
+    "spotifyId": "02zPEtdzUWnPToEVLRiQ7e",
+    "spotifyPopularity": 68,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "106K",
+    "tier": "Established"
+  },
+  {
+    "id": "7urq0VfqxEYEEiZUkebXT4",
+    "name": "112",
+    "image": "https://i.scdn.co/image/21a8b23a23a41f3736b2dd6a5df2d7dc8341ea05",
+    "followers": 1352625,
+    "spotifyId": "7urq0VfqxEYEEiZUkebXT4",
+    "spotifyPopularity": 68,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "1uiEZYehlNivdK3iQyAbye",
+    "name": "Tom Misch",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb52fc43462304eb6ae5bba5f",
+    "followers": 1343465,
+    "spotifyId": "1uiEZYehlNivdK3iQyAbye",
+    "spotifyPopularity": 68,
+    "genres": [
+      "indie soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "23XPnlp8nAIDjGf7S9ap3I",
+    "name": "SOULHEAD",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733370c97cf97e4e3e93655dcc",
+    "followers": 19300,
+    "spotifyId": "23XPnlp8nAIDjGf7S9ap3I",
+    "spotifyPopularity": 35,
+    "genres": [
+      "j-r&b",
+      "j-rap",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4dwDVC6lrMINxVBxETE1AB",
+    "name": "Aaron Frazer",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd3bda7f0fa5e6e12ce09d8e8",
+    "followers": 106026,
+    "spotifyId": "4dwDVC6lrMINxVBxETE1AB",
+    "spotifyPopularity": 68,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "106K",
+    "tier": "Established"
+  },
+  {
+    "id": "2nTjd2lNo1GVEfXM3bCnsh",
+    "name": "The Teskey Brothers",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbaf7e1f882e784750e6d7745",
+    "followers": 995377,
+    "spotifyId": "2nTjd2lNo1GVEfXM3bCnsh",
+    "spotifyPopularity": 68,
+    "genres": [
+      "retro soul",
+      "soul blues",
+      "blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "995K",
+    "tier": "Established"
+  },
+  {
+    "id": "3jk39CGeaaSO3FPKNx1RUx",
+    "name": "Syd",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb93c1b17e5b733ebccc7171c",
+    "followers": 616559,
+    "spotifyId": "3jk39CGeaaSO3FPKNx1RUx",
+    "spotifyPopularity": 67,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "616K",
+    "tier": "Established"
+  },
+  {
+    "id": "3X458ddYA2YcVWuVIGGOYe",
+    "name": "Toni Braxton",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb89773feeaeff0e1cb4951d37",
+    "followers": 4478512,
+    "spotifyId": "3X458ddYA2YcVWuVIGGOYe",
+    "spotifyPopularity": 67,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "4.5M",
+    "tier": "Established"
+  },
+  {
+    "id": "4RzbexUO843fc5SLqKEQCr",
+    "name": "Aaryan Shah",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb758c2827e9bcd8268fd7d8b0",
+    "followers": 326915,
+    "spotifyId": "4RzbexUO843fc5SLqKEQCr",
+    "spotifyPopularity": 63,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "326K",
+    "tier": "Established"
+  },
+  {
+    "id": "3QTDHixorJelOLxoxcjqGx",
+    "name": "SiR",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8fad33ba0d5ff81d0c453ce9",
+    "followers": 1159186,
+    "spotifyId": "3QTDHixorJelOLxoxcjqGx",
+    "spotifyPopularity": 67,
+    "genres": [
+      "alternative r&b",
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "5NDMothbpdpq2xHqSjrrWn",
+    "name": "Faith Evans",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb59b1c5df87253aa6bfd1f524",
+    "followers": 1802232,
+    "spotifyId": "5NDMothbpdpq2xHqSjrrWn",
+    "spotifyPopularity": 67,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "1.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "3zTOe1BtyTkwNvYZOxXktX",
+    "name": "Joe",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb56910dd36ced0f6f3fbecacd",
+    "followers": 2150086,
+    "spotifyId": "3zTOe1BtyTkwNvYZOxXktX",
+    "spotifyPopularity": 67,
+    "genres": [
+      "r&b",
+      "quiet storm"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "2.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "6TVVIyd0fsRDGg6WzHKyTP",
+    "name": "Durand Jones & The Indications",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba0c699d06eac9003f5cde9a2",
+    "followers": 464941,
+    "spotifyId": "6TVVIyd0fsRDGg6WzHKyTP",
+    "spotifyPopularity": 67,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "464K",
+    "tier": "Established"
+  },
+  {
+    "id": "587PA35pRGL1JwQr6idJbb",
+    "name": "NEIL FRANCES",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb30a5a51cd9f9998007285593",
+    "followers": 266413,
+    "spotifyId": "587PA35pRGL1JwQr6idJbb",
+    "spotifyPopularity": 67,
+    "genres": [
+      "indie soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "266K",
+    "tier": "Established"
+  },
+  {
+    "id": "5ZS223C6JyBfXasXxrRqOk",
+    "name": "Jhené Aiko",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbc7ca5ae34cffbb572660ee3",
+    "followers": 9453703,
+    "spotifyId": "5ZS223C6JyBfXasXxrRqOk",
+    "spotifyPopularity": 80,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "9.5M",
+    "tier": "Popular Star"
+  },
+  {
+    "id": "2WoVwexZuODvclzULjPQtm",
+    "name": "Sampha",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb36d5be1a79a8a98c4d02f012",
+    "followers": 852760,
+    "spotifyId": "2WoVwexZuODvclzULjPQtm",
+    "spotifyPopularity": 66,
+    "genres": [
+      "indie soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "852K",
+    "tier": "Established"
+  },
+  {
+    "id": "1lE6SEy8f84Zhjvp7r8yTD",
+    "name": "Syleena Johnson",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdf8de935670b720d05a68179",
+    "followers": 347718,
+    "spotifyId": "1lE6SEy8f84Zhjvp7r8yTD",
+    "spotifyPopularity": 66,
+    "genres": [
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "347K",
+    "tier": "Established"
+  },
+  {
+    "id": "63XBtGSEZINSyXylZxEUbv",
+    "name": "Victoria Monét",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0e3524063986882f3706730b",
+    "followers": 1240489,
+    "spotifyId": "63XBtGSEZINSyXylZxEUbv",
+    "spotifyPopularity": 66,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "05YVYeV4HxYp5rrWalvuE1",
+    "name": "Grover Washington, Jr.",
+    "image": "https://i.scdn.co/image/40f39e48362c76c3c794a28466922e0f405d7b4a",
+    "followers": 435469,
+    "spotifyId": "05YVYeV4HxYp5rrWalvuE1",
+    "spotifyPopularity": 65,
+    "genres": [
+      "soul jazz",
+      "smooth jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "435K",
+    "tier": "Established"
+  },
+  {
+    "id": "2SPIThivWqjfsjlYPNxYX9",
+    "name": "Limi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb74d2d2da4dceaa6c72f51e30",
+    "followers": 95505,
+    "spotifyId": "2SPIThivWqjfsjlYPNxYX9",
+    "spotifyPopularity": 63,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "95K",
+    "tier": "Established"
+  },
+  {
+    "id": "2kEDso93O2hDgCbnuiSkkZ",
+    "name": "Jalen Ngonda",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc25c1a242016e8199d9669ea",
+    "followers": 275861,
+    "spotifyId": "2kEDso93O2hDgCbnuiSkkZ",
+    "spotifyPopularity": 65,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "275K",
+    "tier": "Established"
+  },
+  {
+    "id": "6eU0jV2eEZ8XTM7EmlguK6",
+    "name": "Black Pumas",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb39d27eaedd0adde305e9c98f",
+    "followers": 1159592,
+    "spotifyId": "6eU0jV2eEZ8XTM7EmlguK6",
+    "spotifyPopularity": 65,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "19Fi1Rj7kk8kyiwxpXy3yM",
+    "name": "August Alsina",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb45ffc8f55fc50b8888e97f98",
+    "followers": 2740947,
+    "spotifyId": "19Fi1Rj7kk8kyiwxpXy3yM",
+    "spotifyPopularity": 65,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "2.7M",
+    "tier": "Established"
+  },
+  {
+    "id": "4jCbgl5Dmt3uOh8WRQfpPs",
+    "name": "Bilal",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4765d45dd53df43a94d82fa9",
+    "followers": 308522,
+    "spotifyId": "4jCbgl5Dmt3uOh8WRQfpPs",
+    "spotifyPopularity": 64,
+    "genres": [
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "308K",
+    "tier": "Established"
+  },
+  {
+    "id": "099J9XcZ0A8kXtBANb5WCs",
+    "name": "Durand Jones",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb414ee2109e2e63e29c3a04e8",
+    "followers": 27561,
+    "spotifyId": "099J9XcZ0A8kXtBANb5WCs",
+    "spotifyPopularity": 64,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "27K",
+    "tier": "Established"
+  },
+  {
+    "id": "3Y7RZ31TRPVadSFVy1o8os",
+    "name": "H.E.R.",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb417db49cde3ed1c5a65e3514",
+    "followers": 8570513,
+    "spotifyId": "3Y7RZ31TRPVadSFVy1o8os",
+    "spotifyPopularity": 77,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "8.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "2FjzRd1bgtsmhESettmFAN",
+    "name": "DON WEST",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb53c510197e5bfeb719bec474",
+    "followers": 102773,
+    "spotifyId": "2FjzRd1bgtsmhESettmFAN",
+    "spotifyPopularity": 64,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "102K",
+    "tier": "Established"
+  },
+  {
+    "id": "7Aq8lpLMSt1Zxu56pe9bmp",
+    "name": "Jagged Edge",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2bb45e7d9626f2fec4b6465f",
+    "followers": 2257760,
+    "spotifyId": "7Aq8lpLMSt1Zxu56pe9bmp",
+    "spotifyPopularity": 64,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "soul",
+    "primaryGenre": "R&B",
+    "likes": "2.3M",
+    "tier": "Established"
+  },
+  {
     "id": "6XTGKOV9jceQ6f67lnhpbF",
     "name": "LATIN MAFIA",
     "image": "https://i.scdn.co/image/ab6761610000e5eb8abe977d17e650d4fa2ec093",
-    "followers": 1671675,
+    "followers": 1673161,
     "spotifyId": "6XTGKOV9jceQ6f67lnhpbF",
     "spotifyPopularity": 78,
     "genres": [
@@ -699,7 +1302,7 @@
     "id": "4o6gZFD9CkUCVzYqrDR3wV",
     "name": "Jazzyfatnastees",
     "image": "https://i.scdn.co/image/ab67616d0000b2735574b943e6834f7a25baf994",
-    "followers": 34352,
+    "followers": 34436,
     "spotifyId": "4o6gZFD9CkUCVzYqrDR3wV",
     "spotifyPopularity": 39,
     "genres": [
@@ -712,59 +1315,10 @@
     "tier": "Underground"
   },
   {
-    "id": "02zPEtdzUWnPToEVLRiQ7e",
-    "name": "Madison McFerrin",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb71e7efe93f980f8bf7ffbf2f",
-    "followers": 105965,
-    "spotifyId": "02zPEtdzUWnPToEVLRiQ7e",
-    "spotifyPopularity": 68,
-    "genres": [
-      "alternative r&b"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "jazz",
-    "primaryGenre": "R&B",
-    "likes": "105K",
-    "tier": "Established"
-  },
-  {
-    "id": "1uiEZYehlNivdK3iQyAbye",
-    "name": "Tom Misch",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebb52fc43462304eb6ae5bba5f",
-    "followers": 1343299,
-    "spotifyId": "1uiEZYehlNivdK3iQyAbye",
-    "spotifyPopularity": 68,
-    "genres": [
-      "indie soul"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "jazz",
-    "primaryGenre": "R&B",
-    "likes": "1.3M",
-    "tier": "Established"
-  },
-  {
-    "id": "05YVYeV4HxYp5rrWalvuE1",
-    "name": "Grover Washington, Jr.",
-    "image": "https://i.scdn.co/image/40f39e48362c76c3c794a28466922e0f405d7b4a",
-    "followers": 435371,
-    "spotifyId": "05YVYeV4HxYp5rrWalvuE1",
-    "spotifyPopularity": 65,
-    "genres": [
-      "soul jazz",
-      "smooth jazz"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "jazz",
-    "primaryGenre": "R&B",
-    "likes": "435K",
-    "tier": "Established"
-  },
-  {
     "id": "1YrtUPrWcPfgdl9BaD9nhd",
     "name": "Khalil Fong",
     "image": "https://i.scdn.co/image/ab6761610000e5eb95983b263941317ed7d90c58",
-    "followers": 709345,
+    "followers": 710483,
     "spotifyId": "1YrtUPrWcPfgdl9BaD9nhd",
     "spotifyPopularity": 64,
     "genres": [
@@ -777,14 +1331,132 @@
     "discoveryMethod": "search_term",
     "searchTerm": "jazz",
     "primaryGenre": "R&B",
-    "likes": "709K",
+    "likes": "710K",
     "tier": "Established"
+  },
+  {
+    "id": "7gSjFKpVmDgC2MMsnN8CYq",
+    "name": "Jazmine Sullivan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe85d25b9286d6815ddb0d82a",
+    "followers": 2171259,
+    "spotifyId": "7gSjFKpVmDgC2MMsnN8CYq",
+    "spotifyPopularity": 64,
+    "genres": [
+      "r&b",
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "R&B",
+    "likes": "2.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "7H3z77VbkJcCcFilmKqKNM",
+    "name": "Pale Jay",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f9248427efd447ee9bb61a3",
+    "followers": 150326,
+    "spotifyId": "7H3z77VbkJcCcFilmKqKNM",
+    "spotifyPopularity": 62,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "R&B",
+    "likes": "150K",
+    "tier": "Established"
+  },
+  {
+    "id": "6X5L6rmyvrWWu60Gx6exiZ",
+    "name": "54 Ultra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6a342eef661a840d09463cf8",
+    "followers": 75259,
+    "spotifyId": "6X5L6rmyvrWWu60Gx6exiZ",
+    "spotifyPopularity": 61,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "R&B",
+    "likes": "75K",
+    "tier": "Established"
+  },
+  {
+    "id": "6eAUAR4N9NOpirukqdIzVI",
+    "name": "Madison Ryann Ward",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb41018244a170551ea2f9a2b4",
+    "followers": 334163,
+    "spotifyId": "6eAUAR4N9NOpirukqdIzVI",
+    "spotifyPopularity": 61,
+    "genres": [
+      "gospel r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "R&B",
+    "likes": "334K",
+    "tier": "Established"
+  },
+  {
+    "id": "5cM1PvItlR21WUyBnsdMcn",
+    "name": "Robert Glasper",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeac91c1b242fe7aff48894f5",
+    "followers": 498605,
+    "spotifyId": "5cM1PvItlR21WUyBnsdMcn",
+    "spotifyPopularity": 60,
+    "genres": [
+      "neo soul",
+      "jazz rap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "R&B",
+    "likes": "498K",
+    "tier": "Established"
+  },
+  {
+    "id": "3rxIQc9kWT6Ueg4BhnOwRK",
+    "name": "Quincy Jones",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe79e47fbc540635fd5e18e4d",
+    "followers": 443675,
+    "spotifyId": "3rxIQc9kWT6Ueg4BhnOwRK",
+    "spotifyPopularity": 59,
+    "genres": [
+      "soul jazz",
+      "big band",
+      "quiet storm"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "R&B",
+    "likes": "443K",
+    "tier": "Rising"
+  },
+  {
+    "id": "43JlwunhXm1oqdKyOa2Z9Y",
+    "name": "Hiatus Kaiyote",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9d93bc38b5011e8d921c6c39",
+    "followers": 716011,
+    "spotifyId": "43JlwunhXm1oqdKyOa2Z9Y",
+    "spotifyPopularity": 59,
+    "genres": [
+      "neo soul",
+      "indie soul",
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "jazz",
+    "primaryGenre": "R&B",
+    "likes": "716K",
+    "tier": "Rising"
   },
   {
     "id": "1vfezMIyCr4XUdYRaKIKi3",
     "name": "Keyshia Cole",
     "image": "https://i.scdn.co/image/ab6761610000e5eb432cb55e0b82419302f7cc5a",
-    "followers": 4260505,
+    "followers": 4261444,
     "spotifyId": "1vfezMIyCr4XUdYRaKIKi3",
     "spotifyPopularity": 73,
     "genres": [
@@ -797,10 +1469,26 @@
     "tier": "Established"
   },
   {
+    "id": "1QsdzIKkTT5gDFj8GB1cIX",
+    "name": "Yseult",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfb0da035dd3739987fcdaeba",
+    "followers": 313820,
+    "spotifyId": "1QsdzIKkTT5gDFj8GB1cIX",
+    "spotifyPopularity": 68,
+    "genres": [
+      "french r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "indie",
+    "primaryGenre": "R&B",
+    "likes": "313K",
+    "tier": "Established"
+  },
+  {
     "id": "360IAlyVv4PCEVjgyMZrxK",
     "name": "Miguel",
     "image": "https://i.scdn.co/image/ab6761610000e5eb35e36c368fdcd26aba296bd1",
-    "followers": 5997446,
+    "followers": 5998786,
     "spotifyId": "360IAlyVv4PCEVjgyMZrxK",
     "spotifyPopularity": 81,
     "genres": [
@@ -813,26 +1501,10 @@
     "tier": "Popular Star"
   },
   {
-    "id": "5ZS223C6JyBfXasXxrRqOk",
-    "name": "Jhené Aiko",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbc7ca5ae34cffbb572660ee3",
-    "followers": 9451148,
-    "spotifyId": "5ZS223C6JyBfXasXxrRqOk",
-    "spotifyPopularity": 80,
-    "genres": [
-      "r&b"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "alternative",
-    "primaryGenre": "R&B",
-    "likes": "9.5M",
-    "tier": "Popular Star"
-  },
-  {
     "id": "0NIIxcxNHmOoyBx03SfTCD",
     "name": "Tinashe",
     "image": "https://i.scdn.co/image/ab6761610000e5eba669f860c74c9007934d2cb6",
-    "followers": 3053716,
+    "followers": 3054021,
     "spotifyId": "0NIIxcxNHmOoyBx03SfTCD",
     "spotifyPopularity": 79,
     "genres": [
@@ -845,26 +1517,10 @@
     "tier": "Established"
   },
   {
-    "id": "3Y7RZ31TRPVadSFVy1o8os",
-    "name": "H.E.R.",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb417db49cde3ed1c5a65e3514",
-    "followers": 8568864,
-    "spotifyId": "3Y7RZ31TRPVadSFVy1o8os",
-    "spotifyPopularity": 77,
-    "genres": [
-      "r&b"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "alternative",
-    "primaryGenre": "R&B",
-    "likes": "8.6M",
-    "tier": "Established"
-  },
-  {
     "id": "7HO5fOXE4gh3lzZn64tX2E",
     "name": "Mariah the Scientist",
     "image": "https://i.scdn.co/image/ab6761610000e5eb6e0ad52899974a169ab69c88",
-    "followers": 1012240,
+    "followers": 1014217,
     "spotifyId": "7HO5fOXE4gh3lzZn64tX2E",
     "spotifyPopularity": 74,
     "genres": [
@@ -880,7 +1536,7 @@
     "id": "2ICR2m4hOBPhaYiZB3rnLW",
     "name": "Sonder",
     "image": "https://i.scdn.co/image/ab6761610000e5ebfc55ad52c4f90c036acc8c15",
-    "followers": 1946925,
+    "followers": 1948649,
     "spotifyId": "2ICR2m4hOBPhaYiZB3rnLW",
     "spotifyPopularity": 74,
     "genres": [
@@ -894,26 +1550,60 @@
     "tier": "Established"
   },
   {
-    "id": "25jJ6vyXwTRa0e6XCcdR6U",
-    "name": "Ari Abdul",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7cd193d17b3d7c67b8ddbf1f",
-    "followers": 715205,
-    "spotifyId": "25jJ6vyXwTRa0e6XCcdR6U",
-    "spotifyPopularity": 69,
+    "id": "6NRSfOnXw4qaypEfIV2QXn",
+    "name": "Dutch Melrose",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3aa6f1cd1bbafb2aafee375c",
+    "followers": 290517,
+    "spotifyId": "6NRSfOnXw4qaypEfIV2QXn",
+    "spotifyPopularity": 68,
     "genres": [
       "dark r&b"
     ],
     "discoveryMethod": "search_term",
     "searchTerm": "alternative",
     "primaryGenre": "R&B",
-    "likes": "715K",
+    "likes": "290K",
+    "tier": "Established"
+  },
+  {
+    "id": "2KnhnL8zuqLhIhGk601fsb",
+    "name": "kwn",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc3bfed5430b154e0a1b209f8",
+    "followers": 183103,
+    "spotifyId": "2KnhnL8zuqLhIhGk601fsb",
+    "spotifyPopularity": 68,
+    "genres": [
+      "uk r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "R&B",
+    "likes": "183K",
+    "tier": "Established"
+  },
+  {
+    "id": "3Z7onAknzpinUu3KtmgeZb",
+    "name": "Avenoir",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb02baf3d12ad30ca8b91637cf",
+    "followers": 429032,
+    "spotifyId": "3Z7onAknzpinUu3KtmgeZb",
+    "spotifyPopularity": 67,
+    "genres": [
+      "dark r&b",
+      "alternative r&b",
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "alternative",
+    "primaryGenre": "R&B",
+    "likes": "429K",
     "tier": "Established"
   },
   {
     "id": "3GQboECxDT1xqPPWC30p7v",
     "name": "Charlotte Day Wilson",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2ccfadb75e9a48c867870c42",
-    "followers": 286159,
+    "followers": 286212,
     "spotifyId": "3GQboECxDT1xqPPWC30p7v",
     "spotifyPopularity": 62,
     "genres": [
@@ -929,7 +1619,7 @@
     "id": "462T0buQ5ScBUQCRpodDRf",
     "name": "Charles Bradley",
     "image": "https://i.scdn.co/image/ab6761610000e5eb5b855b0ad3f90d4addabf7f2",
-    "followers": 553744,
+    "followers": 553906,
     "spotifyId": "462T0buQ5ScBUQCRpodDRf",
     "spotifyPopularity": 62,
     "genres": [
@@ -947,7 +1637,7 @@
     "id": "6sj6p5wxfR9ueVEp93RRBf",
     "name": "The Charities",
     "image": "https://i.scdn.co/image/ab6761610000e5eb21c84fb6d24ccfaed4ede532",
-    "followers": 15172,
+    "followers": 15203,
     "spotifyId": "6sj6p5wxfR9ueVEp93RRBf",
     "spotifyPopularity": 45,
     "genres": [
@@ -960,10 +1650,45 @@
     "tier": "Rising"
   },
   {
+    "id": "0INatsTiEOX0EJimNTQjSM",
+    "name": "Charlotte Dos Santos",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9651a8fc47326d9386214cd6",
+    "followers": 75874,
+    "spotifyId": "0INatsTiEOX0EJimNTQjSM",
+    "spotifyPopularity": 38,
+    "genres": [
+      "alternative r&b",
+      "neo soul",
+      "indie jazz",
+      "indie soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "R&B",
+    "likes": "75K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2qhBqNQlHE3Lq5VbUI4UHA",
+    "name": "Charlene Nash",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebab5769f1a501579b2502fa30",
+    "followers": 14770,
+    "spotifyId": "2qhBqNQlHE3Lq5VbUI4UHA",
+    "spotifyPopularity": 35,
+    "genres": [
+      "gospel r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "R&B",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
     "id": "34eavfJpWV3DnvwqOmml18",
     "name": "Hitomi Shimatani",
     "image": "https://i.scdn.co/image/ab6761610000e5eba9c9e1da292f71d3e94985cc",
-    "followers": 119626,
+    "followers": 119654,
     "spotifyId": "34eavfJpWV3DnvwqOmml18",
     "spotifyPopularity": 47,
     "genres": [
@@ -983,7 +1708,7 @@
     "id": "4Z5zA4xz2K3si2EzO2GbiS",
     "name": "齊翔 XIANG",
     "image": "https://i.scdn.co/image/ab6761610000e5eb59053d16e80e9a1fe051c249",
-    "followers": 17595,
+    "followers": 17599,
     "spotifyId": "4Z5zA4xz2K3si2EzO2GbiS",
     "spotifyPopularity": 44,
     "genres": [
@@ -1003,7 +1728,7 @@
     "id": "69tXKp8pHBX6ZoVMkNdvt7",
     "name": "Motel Radio",
     "image": "https://i.scdn.co/image/ab6761610000e5eb4fb9135b63c4c8e3dcd0b766",
-    "followers": 11428,
+    "followers": 11433,
     "spotifyId": "69tXKp8pHBX6ZoVMkNdvt7",
     "spotifyPopularity": 33,
     "genres": [
@@ -1016,124 +1741,10 @@
     "tier": "Underground"
   },
   {
-    "id": "4dwDVC6lrMINxVBxETE1AB",
-    "name": "Aaron Frazer",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd3bda7f0fa5e6e12ce09d8e8",
-    "followers": 105970,
-    "spotifyId": "4dwDVC6lrMINxVBxETE1AB",
-    "spotifyPopularity": 68,
-    "genres": [
-      "retro soul"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "retro",
-    "primaryGenre": "R&B",
-    "likes": "105K",
-    "tier": "Established"
-  },
-  {
-    "id": "2nTjd2lNo1GVEfXM3bCnsh",
-    "name": "The Teskey Brothers",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebbaf7e1f882e784750e6d7745",
-    "followers": 995050,
-    "spotifyId": "2nTjd2lNo1GVEfXM3bCnsh",
-    "spotifyPopularity": 68,
-    "genres": [
-      "retro soul",
-      "soul blues",
-      "blues"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "retro",
-    "primaryGenre": "R&B",
-    "likes": "995K",
-    "tier": "Established"
-  },
-  {
-    "id": "6TVVIyd0fsRDGg6WzHKyTP",
-    "name": "Durand Jones & The Indications",
-    "image": "https://i.scdn.co/image/ab6761610000e5eba0c699d06eac9003f5cde9a2",
-    "followers": 464719,
-    "spotifyId": "6TVVIyd0fsRDGg6WzHKyTP",
-    "spotifyPopularity": 67,
-    "genres": [
-      "retro soul"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "retro",
-    "primaryGenre": "R&B",
-    "likes": "464K",
-    "tier": "Established"
-  },
-  {
-    "id": "2kEDso93O2hDgCbnuiSkkZ",
-    "name": "Jalen Ngonda",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc25c1a242016e8199d9669ea",
-    "followers": 275373,
-    "spotifyId": "2kEDso93O2hDgCbnuiSkkZ",
-    "spotifyPopularity": 65,
-    "genres": [
-      "retro soul"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "retro",
-    "primaryGenre": "R&B",
-    "likes": "275K",
-    "tier": "Established"
-  },
-  {
-    "id": "6eU0jV2eEZ8XTM7EmlguK6",
-    "name": "Black Pumas",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb39d27eaedd0adde305e9c98f",
-    "followers": 1159302,
-    "spotifyId": "6eU0jV2eEZ8XTM7EmlguK6",
-    "spotifyPopularity": 65,
-    "genres": [
-      "retro soul"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "retro",
-    "primaryGenre": "R&B",
-    "likes": "1.2M",
-    "tier": "Established"
-  },
-  {
-    "id": "099J9XcZ0A8kXtBANb5WCs",
-    "name": "Durand Jones",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb414ee2109e2e63e29c3a04e8",
-    "followers": 27529,
-    "spotifyId": "099J9XcZ0A8kXtBANb5WCs",
-    "spotifyPopularity": 64,
-    "genres": [
-      "retro soul"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "retro",
-    "primaryGenre": "R&B",
-    "likes": "27K",
-    "tier": "Established"
-  },
-  {
-    "id": "2FjzRd1bgtsmhESettmFAN",
-    "name": "DON WEST",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb53c510197e5bfeb719bec474",
-    "followers": 102403,
-    "spotifyId": "2FjzRd1bgtsmhESettmFAN",
-    "spotifyPopularity": 64,
-    "genres": [
-      "retro soul"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "retro",
-    "primaryGenre": "R&B",
-    "likes": "102K",
-    "tier": "Established"
-  },
-  {
     "id": "1PryMSya1JnSAlcwYawCxp",
     "name": "Menahan Street Band",
     "image": "https://i.scdn.co/image/ab6761610000e5eb46dc0fd03399b8a9dfed982d",
-    "followers": 251918,
+    "followers": 251947,
     "spotifyId": "1PryMSya1JnSAlcwYawCxp",
     "spotifyPopularity": 63,
     "genres": [
@@ -1146,26 +1757,10 @@
     "tier": "Established"
   },
   {
-    "id": "7H3z77VbkJcCcFilmKqKNM",
-    "name": "Pale Jay",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8f9248427efd447ee9bb61a3",
-    "followers": 150213,
-    "spotifyId": "7H3z77VbkJcCcFilmKqKNM",
-    "spotifyPopularity": 62,
-    "genres": [
-      "retro soul"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "retro",
-    "primaryGenre": "R&B",
-    "likes": "150K",
-    "tier": "Established"
-  },
-  {
     "id": "08yjRkGm8KNsShKjtbEmt6",
     "name": "Hajaj",
     "image": "https://i.scdn.co/image/ab6761610000e5eb9ecb7fa9a074666dc5b70083",
-    "followers": 64012,
+    "followers": 64156,
     "spotifyId": "08yjRkGm8KNsShKjtbEmt6",
     "spotifyPopularity": 61,
     "genres": [
@@ -1178,26 +1773,10 @@
     "tier": "Established"
   },
   {
-    "id": "6X5L6rmyvrWWu60Gx6exiZ",
-    "name": "54 Ultra",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb6a342eef661a840d09463cf8",
-    "followers": 75002,
-    "spotifyId": "6X5L6rmyvrWWu60Gx6exiZ",
-    "spotifyPopularity": 61,
-    "genres": [
-      "retro soul"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "retro",
-    "primaryGenre": "R&B",
-    "likes": "75K",
-    "tier": "Established"
-  },
-  {
     "id": "5UA8O7xDhZ74ebRYT0XOxB",
     "name": "Common Saints",
     "image": "https://i.scdn.co/image/ab6761610000e5eb009ba84c59ff9c8ebb29c133",
-    "followers": 71906,
+    "followers": 72055,
     "spotifyId": "5UA8O7xDhZ74ebRYT0XOxB",
     "spotifyPopularity": 60,
     "genres": [
@@ -1206,14 +1785,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "retro",
     "primaryGenre": "R&B",
-    "likes": "71K",
+    "likes": "72K",
     "tier": "Established"
   },
   {
     "id": "0CUpzKPDfIVzYqMn47jiV3",
     "name": "Curtis Harding",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe95ddf633dc8358ae1f9dd08",
-    "followers": 242052,
+    "followers": 242141,
     "spotifyId": "0CUpzKPDfIVzYqMn47jiV3",
     "spotifyPopularity": 60,
     "genres": [
@@ -1229,7 +1808,7 @@
     "id": "6LufpoVlIYKQCu9Gjpk8B7",
     "name": "Sharon Jones & The Dap-Kings",
     "image": "https://i.scdn.co/image/cd0f5585d478bbb91cff3e0b723ed91c6d2046d7",
-    "followers": 311254,
+    "followers": 311283,
     "spotifyId": "6LufpoVlIYKQCu9Gjpk8B7",
     "spotifyPopularity": 59,
     "genres": [
@@ -1247,7 +1826,7 @@
     "id": "0Vd8YQz8TYk2vSKEYVvIgL",
     "name": "Dojo Cuts",
     "image": "https://i.scdn.co/image/ab6761610000e5eb75ebbd8f35c61280d6c6dbee",
-    "followers": 85612,
+    "followers": 85692,
     "spotifyId": "0Vd8YQz8TYk2vSKEYVvIgL",
     "spotifyPopularity": 59,
     "genres": [
@@ -1263,7 +1842,7 @@
     "id": "6O0WkZMlHi7yqizwsA8uVf",
     "name": "The Meltdown",
     "image": "https://i.scdn.co/image/ab6761610000e5eb6bc7c9a3d00a8689ed22fe23",
-    "followers": 54840,
+    "followers": 54881,
     "spotifyId": "6O0WkZMlHi7yqizwsA8uVf",
     "spotifyPopularity": 58,
     "genres": [
@@ -1280,7 +1859,7 @@
     "id": "4fXkvh05wFhuH77MfD4m9o",
     "name": "St. Paul & The Broken Bones",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe25488bca4236e5ae6d5feb8",
-    "followers": 476271,
+    "followers": 476450,
     "spotifyId": "4fXkvh05wFhuH77MfD4m9o",
     "spotifyPopularity": 58,
     "genres": [
@@ -1296,7 +1875,7 @@
     "id": "5lcDGoJUr5WY5bCFAfYbCU",
     "name": "KIRBY",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2faa1735a7d542da4b3d8f91",
-    "followers": 296449,
+    "followers": 296784,
     "spotifyId": "5lcDGoJUr5WY5bCFAfYbCU",
     "spotifyPopularity": 58,
     "genres": [
@@ -1312,7 +1891,7 @@
     "id": "2qFOYqFxPaIwEnffVhJhEn",
     "name": "The Dip",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc00f2f1bd99bd0ee69a0aa37",
-    "followers": 206945,
+    "followers": 206974,
     "spotifyId": "2qFOYqFxPaIwEnffVhJhEn",
     "spotifyPopularity": 58,
     "genres": [
@@ -1328,7 +1907,7 @@
     "id": "4lujUKeO6nQAJXpq37Epn7",
     "name": "Son Little",
     "image": "https://i.scdn.co/image/ab6761610000e5eb4f64574b90c06838354d1d01",
-    "followers": 177442,
+    "followers": 177477,
     "spotifyId": "4lujUKeO6nQAJXpq37Epn7",
     "spotifyPopularity": 57,
     "genres": [
@@ -1345,7 +1924,7 @@
     "id": "4d53BMrRlQkrQMz5d59f2O",
     "name": "Mayer Hawthorne",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc465e461c7e8833253a89063",
-    "followers": 304578,
+    "followers": 304608,
     "spotifyId": "4d53BMrRlQkrQMz5d59f2O",
     "spotifyPopularity": 56,
     "genres": [
@@ -1362,7 +1941,7 @@
     "id": "1eNO1DUCOtZgCzlwtjtb1t",
     "name": "October London",
     "image": "https://i.scdn.co/image/ab6761610000e5eb856bb4bed980131cc0a81d2c",
-    "followers": 195864,
+    "followers": 195983,
     "spotifyId": "1eNO1DUCOtZgCzlwtjtb1t",
     "spotifyPopularity": 56,
     "genres": [
@@ -1380,7 +1959,7 @@
     "id": "536osqBGKzeozje8BfcGsa",
     "name": "Allen Stone",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd758f2f47f18546ada534dbb",
-    "followers": 413698,
+    "followers": 413784,
     "spotifyId": "536osqBGKzeozje8BfcGsa",
     "spotifyPopularity": 56,
     "genres": [
@@ -1396,7 +1975,7 @@
     "id": "5hE928rKzyMW5IqBy0a060",
     "name": "Jason LaPierre",
     "image": "https://i.scdn.co/image/ab6761610000e5eb08e2776a73dad2807fd0d758",
-    "followers": 12063,
+    "followers": 12107,
     "spotifyId": "5hE928rKzyMW5IqBy0a060",
     "spotifyPopularity": 55,
     "genres": [
@@ -1412,7 +1991,7 @@
     "id": "5unhEp2PoIxAgEFNEyYdJS",
     "name": "Thee Sinseers",
     "image": "https://i.scdn.co/image/ab6761610000e5eb03c60d75c804f9c49fd50e13",
-    "followers": 103921,
+    "followers": 103989,
     "spotifyId": "5unhEp2PoIxAgEFNEyYdJS",
     "spotifyPopularity": 55,
     "genres": [
@@ -1428,7 +2007,7 @@
     "id": "7gRH7pJQJaAvrwvi8STYEl",
     "name": "Matt Duncan",
     "image": "https://i.scdn.co/image/ab6761610000e5eb03b92d64606dd4b50c056eaf",
-    "followers": 50939,
+    "followers": 50963,
     "spotifyId": "7gRH7pJQJaAvrwvi8STYEl",
     "spotifyPopularity": 54,
     "genres": [
@@ -1444,7 +2023,7 @@
     "id": "5RRfTrwXUGYiBB0DMV4hyh",
     "name": "Adi Oasis",
     "image": "https://i.scdn.co/image/ab6761610000e5ebea0f8cc62eb7393ac8db8732",
-    "followers": 149365,
+    "followers": 149414,
     "spotifyId": "5RRfTrwXUGYiBB0DMV4hyh",
     "spotifyPopularity": 54,
     "genres": [
@@ -1462,7 +2041,7 @@
     "id": "21t0aavYGSGFkYYFhu6urk",
     "name": "The California Honeydrops",
     "image": "https://i.scdn.co/image/ab6761610000e5eb1fb1338362ecb4c8c8eb630b",
-    "followers": 145848,
+    "followers": 145918,
     "spotifyId": "21t0aavYGSGFkYYFhu6urk",
     "spotifyPopularity": 54,
     "genres": [
@@ -1478,7 +2057,7 @@
     "id": "5AgZ9r9ZdWm7mD9t03KZZu",
     "name": "The Altons",
     "image": "https://i.scdn.co/image/ab6761610000e5eb5c560b033b2019747afa1dd6",
-    "followers": 91410,
+    "followers": 91477,
     "spotifyId": "5AgZ9r9ZdWm7mD9t03KZZu",
     "spotifyPopularity": 54,
     "genres": [
@@ -1494,7 +2073,7 @@
     "id": "1e16kiJQtCTveTl7TQnkFN",
     "name": "Scary Pockets",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd3768b9a36bf6d375d6919d7",
-    "followers": 374651,
+    "followers": 374716,
     "spotifyId": "1e16kiJQtCTveTl7TQnkFN",
     "spotifyPopularity": 53,
     "genres": [
@@ -1510,7 +2089,7 @@
     "id": "2vTfPvhJkpW1DTjmMvHjOB",
     "name": "Loaded Honey",
     "image": "https://i.scdn.co/image/ab6761610000e5ebde4bca5f47f45f07c2d3bc8a",
-    "followers": 33733,
+    "followers": 33818,
     "spotifyId": "2vTfPvhJkpW1DTjmMvHjOB",
     "spotifyPopularity": 54,
     "genres": [
@@ -1526,7 +2105,7 @@
     "id": "0V7uVrIYr4FwFvUN9S4kYr",
     "name": "Nick Waterhouse",
     "image": "https://i.scdn.co/image/ab6761610000e5eb38642e6e2cc283240b97dc47",
-    "followers": 110176,
+    "followers": 110188,
     "spotifyId": "0V7uVrIYr4FwFvUN9S4kYr",
     "spotifyPopularity": 53,
     "genres": [
@@ -1542,7 +2121,7 @@
     "id": "3iKatcdLBE1YxiAyvcow4w",
     "name": "Ephemerals",
     "image": "https://i.scdn.co/image/ab6761610000e5eb3655011c95cb38d7c2960734",
-    "followers": 36959,
+    "followers": 36965,
     "spotifyId": "3iKatcdLBE1YxiAyvcow4w",
     "spotifyPopularity": 53,
     "genres": [
@@ -1559,7 +2138,7 @@
     "id": "022EiWsch2zvty0qBUksDO",
     "name": "Liam Bailey",
     "image": "https://i.scdn.co/image/ab6761610000e5eb5e10d42efc8ceb7b5a981dfe",
-    "followers": 46242,
+    "followers": 46250,
     "spotifyId": "022EiWsch2zvty0qBUksDO",
     "spotifyPopularity": 52,
     "genres": [
@@ -1577,7 +2156,7 @@
     "id": "0I2oicRXKxaqqjpHKlyTpP",
     "name": "Joey Quinones",
     "image": "https://i.scdn.co/image/ab6761610000e5eb0573f1309dde51f0976d8422",
-    "followers": 56306,
+    "followers": 56326,
     "spotifyId": "0I2oicRXKxaqqjpHKlyTpP",
     "spotifyPopularity": 52,
     "genres": [
@@ -1593,7 +2172,7 @@
     "id": "2rp9zfs7yPrwCGVl4CjWAl",
     "name": "Otis Kane",
     "image": "https://i.scdn.co/image/ab6761610000e5ebbaf38371b06c7661975fe29a",
-    "followers": 45096,
+    "followers": 45119,
     "spotifyId": "2rp9zfs7yPrwCGVl4CjWAl",
     "spotifyPopularity": 52,
     "genres": [
@@ -1610,7 +2189,7 @@
     "id": "2GHXeEEol7BPT31flS6O1B",
     "name": "Eddie 9V",
     "image": "https://i.scdn.co/image/ab6761610000e5eb533e84547e40b3b452d70b9f",
-    "followers": 23340,
+    "followers": 23397,
     "spotifyId": "2GHXeEEol7BPT31flS6O1B",
     "spotifyPopularity": 52,
     "genres": [
@@ -1627,7 +2206,7 @@
     "id": "3sO8muEXafy2NGwUZByrTr",
     "name": "Cody Chesnutt",
     "image": "https://i.scdn.co/image/02f89a69a4cef248e8ceaba2960b0b7a71bb85eb",
-    "followers": 50380,
+    "followers": 50385,
     "spotifyId": "3sO8muEXafy2NGwUZByrTr",
     "spotifyPopularity": 51,
     "genres": [
@@ -1644,7 +2223,7 @@
     "id": "0gdEDrF1Fve7FIBYcmX7W4",
     "name": "Kelly Finnigan",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc510e72141b95a63c04c5c15",
-    "followers": 35329,
+    "followers": 35341,
     "spotifyId": "0gdEDrF1Fve7FIBYcmX7W4",
     "spotifyPopularity": 51,
     "genres": [
@@ -1661,7 +2240,7 @@
     "id": "5xI4mPixKfrCCspATqbpy3",
     "name": "Eryn Allen Kane",
     "image": "https://i.scdn.co/image/ab6761610000e5eb969c4fafce37384687ec721f",
-    "followers": 86560,
+    "followers": 86565,
     "spotifyId": "5xI4mPixKfrCCspATqbpy3",
     "spotifyPopularity": 51,
     "genres": [
@@ -1677,7 +2256,7 @@
     "id": "6LXZac7iBIZgnNrywTkQRw",
     "name": "Monophonics",
     "image": "https://i.scdn.co/image/ab6761610000e5eb65bc9e74fce3873550668a5b",
-    "followers": 130630,
+    "followers": 130649,
     "spotifyId": "6LXZac7iBIZgnNrywTkQRw",
     "spotifyPopularity": 51,
     "genres": [
@@ -1693,7 +2272,7 @@
     "id": "0Hfk4u1LGIA1lLY7yduUfq",
     "name": "Los Yesterdays",
     "image": "https://i.scdn.co/image/ab6761610000e5eb8a139a2d370a8952a6d2821a",
-    "followers": 85887,
+    "followers": 85915,
     "spotifyId": "0Hfk4u1LGIA1lLY7yduUfq",
     "spotifyPopularity": 51,
     "genres": [
@@ -1709,7 +2288,7 @@
     "id": "0994Up3Ob4zUFm3OFOWpzJ",
     "name": "CARRTOONS",
     "image": "https://i.scdn.co/image/ab6761610000e5eb444602d8b1a05e34ab6be1ea",
-    "followers": 73693,
+    "followers": 73706,
     "spotifyId": "0994Up3Ob4zUFm3OFOWpzJ",
     "spotifyPopularity": 51,
     "genres": [
@@ -1725,7 +2304,7 @@
     "id": "1plioVQ0mcgAO7uhvWkJJy",
     "name": "Lady Wray",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd187a91ef96c7a9f3f4afb29",
-    "followers": 104627,
+    "followers": 104670,
     "spotifyId": "1plioVQ0mcgAO7uhvWkJJy",
     "spotifyPopularity": 50,
     "genres": [
@@ -1741,7 +2320,7 @@
     "id": "50gPQYV9WREGkWM53dNb9r",
     "name": "Izo FitzRoy",
     "image": "https://i.scdn.co/image/ab6761610000e5eb4f980a8a4e7b59be688dc125",
-    "followers": 43110,
+    "followers": 43127,
     "spotifyId": "50gPQYV9WREGkWM53dNb9r",
     "spotifyPopularity": 50,
     "genres": [
@@ -1758,7 +2337,7 @@
     "id": "75OSuJw6r1LCdYgmTt0gHs",
     "name": "Micah Edwards",
     "image": "https://i.scdn.co/image/ab6761610000e5eb9130e78df1e3d7a80a801b6a",
-    "followers": 50089,
+    "followers": 50108,
     "spotifyId": "75OSuJw6r1LCdYgmTt0gHs",
     "spotifyPopularity": 49,
     "genres": [
@@ -1774,7 +2353,7 @@
     "id": "60nDKjd690Luygtd3Fm0Cu",
     "name": "Ogi",
     "image": "https://i.scdn.co/image/ab6761610000e5ebf879b63a1865581d0557a19f",
-    "followers": 62926,
+    "followers": 62977,
     "spotifyId": "60nDKjd690Luygtd3Fm0Cu",
     "spotifyPopularity": 49,
     "genres": [
@@ -1790,7 +2369,7 @@
     "id": "4XMc1qHObZ7aXQrH5MmbjK",
     "name": "Busty and the Bass",
     "image": "https://i.scdn.co/image/ab6761610000e5ebbfbcd81418a57ba143916d9c",
-    "followers": 88929,
+    "followers": 88945,
     "spotifyId": "4XMc1qHObZ7aXQrH5MmbjK",
     "spotifyPopularity": 49,
     "genres": [
@@ -1806,7 +2385,7 @@
     "id": "47RTTEHKmO94V6qGq5xhbn",
     "name": "Jason Joshua",
     "image": "https://i.scdn.co/image/ab6761610000e5eb8e4bc237615212912b555520",
-    "followers": 57199,
+    "followers": 57242,
     "spotifyId": "47RTTEHKmO94V6qGq5xhbn",
     "spotifyPopularity": 49,
     "genres": [
@@ -1822,7 +2401,7 @@
     "id": "1WGb8nCPGJA0RyriSDIQfC",
     "name": "Say She She",
     "image": "https://i.scdn.co/image/ab6761610000e5eb886e9e28013866be94a6f992",
-    "followers": 76527,
+    "followers": 76564,
     "spotifyId": "1WGb8nCPGJA0RyriSDIQfC",
     "spotifyPopularity": 49,
     "genres": [
@@ -1838,7 +2417,7 @@
     "id": "2a4lU7F8toqKpb5v6Ftqya",
     "name": "Theo Katzman",
     "image": "https://i.scdn.co/image/ab6761610000e5ebded9baf4c435de66cd260df9",
-    "followers": 87723,
+    "followers": 87736,
     "spotifyId": "2a4lU7F8toqKpb5v6Ftqya",
     "spotifyPopularity": 49,
     "genres": [
@@ -1854,7 +2433,7 @@
     "id": "6EkOEYrG2cAQgIatrHQJbX",
     "name": "Jensine Benitez",
     "image": "https://i.scdn.co/image/ab6761610000e5eb3104d0f62ddb4aceadd1acf9",
-    "followers": 23193,
+    "followers": 23224,
     "spotifyId": "6EkOEYrG2cAQgIatrHQJbX",
     "spotifyPopularity": 48,
     "genres": [
@@ -1870,7 +2449,7 @@
     "id": "5rZUNweztKBI1Xy3XhYHoJ",
     "name": "Danielle Ponder",
     "image": "https://i.scdn.co/image/ab6761610000e5eb538c1a1030bfbf3b69124253",
-    "followers": 72429,
+    "followers": 72485,
     "spotifyId": "5rZUNweztKBI1Xy3XhYHoJ",
     "spotifyPopularity": 48,
     "genres": [
@@ -1886,7 +2465,7 @@
     "id": "0ZPqGxW2iwZz7vGJWzuTUi",
     "name": "The Olympians",
     "image": "https://i.scdn.co/image/ab6761610000e5eb8ddedcddd71473175cd6213c",
-    "followers": 76746,
+    "followers": 76758,
     "spotifyId": "0ZPqGxW2iwZz7vGJWzuTUi",
     "spotifyPopularity": 48,
     "genres": [
@@ -1902,7 +2481,7 @@
     "id": "2iAyNq1LgQlXcmtM7SzkdV",
     "name": "Aaron Childs",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd3ae43ba4b96f03c91648df4",
-    "followers": 18711,
+    "followers": 18718,
     "spotifyId": "2iAyNq1LgQlXcmtM7SzkdV",
     "spotifyPopularity": 48,
     "genres": [
@@ -1918,7 +2497,7 @@
     "id": "0unydCSm9ARiINdrNqugDg",
     "name": "Hannah Williams",
     "image": "https://i.scdn.co/image/ab6761610000e5eb9ad967db623ef135f45e2f3a",
-    "followers": 30620,
+    "followers": 30654,
     "spotifyId": "0unydCSm9ARiINdrNqugDg",
     "spotifyPopularity": 48,
     "genres": [
@@ -1934,7 +2513,7 @@
     "id": "3JUUs8oZ6MRA1f2ahfusYu",
     "name": "Roseaux",
     "image": "https://i.scdn.co/image/ab6761610000e5ebcbcf3781f4fab1248088e6e1",
-    "followers": 48043,
+    "followers": 48050,
     "spotifyId": "3JUUs8oZ6MRA1f2ahfusYu",
     "spotifyPopularity": 48,
     "genres": [
@@ -1947,26 +2526,599 @@
     "tier": "Rising"
   },
   {
+    "id": "3MAzDpqE01xyUmzNsc0Ee0",
+    "name": "Lee Fields",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8ef47a9cdbbbbe6f3d6f4339",
+    "followers": 63462,
+    "spotifyId": "3MAzDpqE01xyUmzNsc0Ee0",
+    "spotifyPopularity": 48,
+    "genres": [
+      "retro soul",
+      "soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "63K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5tHs3fthucNRGAFpdE9rmz",
+    "name": "Gabriels",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7c3ee4602ccc27286b25776b",
+    "followers": 150738,
+    "spotifyId": "5tHs3fthucNRGAFpdE9rmz",
+    "spotifyPopularity": 48,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "150K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2gqMBdyddvN82dzZt4ZF14",
+    "name": "Yola",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb93e3613f0fdd6f17dbe273a5",
+    "followers": 147170,
+    "spotifyId": "2gqMBdyddvN82dzZt4ZF14",
+    "spotifyPopularity": 48,
+    "genres": [
+      "retro soul",
+      "americana",
+      "folk"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "147K",
+    "tier": "Rising"
+  },
+  {
+    "id": "374oLUCju3HTjpggU9W31Y",
+    "name": "The Sha La Das",
+    "image": "https://i.scdn.co/image/fdce7754b7359d31ef6b5fc6d9b0a26c795da8b6",
+    "followers": 18479,
+    "spotifyId": "374oLUCju3HTjpggU9W31Y",
+    "spotifyPopularity": 47,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "18K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2bToe6WyGvADJftreuXh2K",
+    "name": "Lee Fields & The Expressions",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2ab0f0d7e19354bbe50c3546",
+    "followers": 158192,
+    "spotifyId": "2bToe6WyGvADJftreuXh2K",
+    "spotifyPopularity": 47,
+    "genres": [
+      "retro soul",
+      "soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "158K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2r5nTmvuWViPvZaLDRZ1J0",
+    "name": "Malted Milk",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fdf9a30f4ecc53cef449260",
+    "followers": 17457,
+    "spotifyId": "2r5nTmvuWViPvZaLDRZ1J0",
+    "spotifyPopularity": 47,
+    "genres": [
+      "soul blues",
+      "retro soul",
+      "pop soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "17K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5Wq4oFrEbsAvYqQ1cc6vLz",
+    "name": "Ralfi Pagan",
+    "image": "https://i.scdn.co/image/ab67616d0000b273296ac25e9a7bd2a0ff635995",
+    "followers": 55877,
+    "spotifyId": "5Wq4oFrEbsAvYqQ1cc6vLz",
+    "spotifyPopularity": 47,
+    "genres": [
+      "classic soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "55K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1Q33Sd9px79c7lWMbQXwxm",
+    "name": "The Flying Stars Of Brooklyn NY",
+    "image": "https://i.scdn.co/image/ab67616d0000b273922687b91900440fd1803d39",
+    "followers": 29786,
+    "spotifyId": "1Q33Sd9px79c7lWMbQXwxm",
+    "spotifyPopularity": 46,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "29K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2erVTUGh7hd5PQ3qwChdxw",
+    "name": "The Tibbs",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfab526d6554f7726dbc10da8",
+    "followers": 20849,
+    "spotifyId": "2erVTUGh7hd5PQ3qwChdxw",
+    "spotifyPopularity": 47,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "21SOnTj5ECwVXeBUTRcP3s",
+    "name": "Cory Henry",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4574de41b740cb3f96c3588e",
+    "followers": 197606,
+    "spotifyId": "21SOnTj5ECwVXeBUTRcP3s",
+    "spotifyPopularity": 46,
+    "genres": [
+      "retro soul",
+      "jazz fusion"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "197K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0CcvfJAMRa28MnCnujCdXQ",
+    "name": "Lady Blackbird",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd26f1a333f99d3487b6a0854",
+    "followers": 75504,
+    "spotifyId": "0CcvfJAMRa28MnCnujCdXQ",
+    "spotifyPopularity": 46,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "75K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7CPwAwFBnruFlDqUQCrM1Q",
+    "name": "Raquel Rodriguez",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf5aa810f4c3b1b26daedfae0",
+    "followers": 41369,
+    "spotifyId": "7CPwAwFBnruFlDqUQCrM1Q",
+    "spotifyPopularity": 46,
+    "genres": [
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "41K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3u7WZTVUhTgjSKrlqzPfs9",
+    "name": "Mica Millar",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb96f1fcd98065288ad2aa4d62",
+    "followers": 20648,
+    "spotifyId": "3u7WZTVUhTgjSKrlqzPfs9",
+    "spotifyPopularity": 46,
+    "genres": [
+      "retro soul",
+      "retro pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0GlCo4o05HxdzR4Gj7GKyw",
+    "name": "Revel Day",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe596b38274ad6a3a0a4f4cf8",
+    "followers": 10974,
+    "spotifyId": "0GlCo4o05HxdzR4Gj7GKyw",
+    "spotifyPopularity": 46,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
     "id": "3a48yEJThFMOCvgcCwOyyD",
     "name": "The Vintage Explosion",
     "image": "https://i.scdn.co/image/ab6761610000e5ebb7f77a81ca4c70abfae87af6",
-    "followers": 24072,
+    "followers": 24112,
     "spotifyId": "3a48yEJThFMOCvgcCwOyyD",
     "spotifyPopularity": 46,
     "genres": [
       "retro soul"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "vintage",
+    "searchTerm": "retro",
     "primaryGenre": "R&B",
     "likes": "24K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1FcTd89N9ESEOsIDD883Kp",
+    "name": "Greyhounds",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb83eeb30bc3bf22d73a6fba13",
+    "followers": 35805,
+    "spotifyId": "1FcTd89N9ESEOsIDD883Kp",
+    "spotifyPopularity": 46,
+    "genres": [
+      "retro soul",
+      "modern blues"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "35K",
+    "tier": "Rising"
+  },
+  {
+    "id": "04HwdlOSZ8Rnmp4D3vyjI2",
+    "name": "Nigel Hall",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdfd1c0a646b56de78a373219",
+    "followers": 15881,
+    "spotifyId": "04HwdlOSZ8Rnmp4D3vyjI2",
+    "spotifyPopularity": 45,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "15K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4pZU0qHXvstRiBnhhRpY2R",
+    "name": "Haile Supreme",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb21804930292752f8dc4905ff",
+    "followers": 10078,
+    "spotifyId": "4pZU0qHXvstRiBnhhRpY2R",
+    "spotifyPopularity": 45,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0Fn28eidAZsxHQhTzY3gKp",
+    "name": "The James Hunter Six",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc6900a21bb2a6ee90dd7f691",
+    "followers": 42638,
+    "spotifyId": "0Fn28eidAZsxHQhTzY3gKp",
+    "spotifyPopularity": 45,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "42K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5cbak2U6nZWXDYiG72E3lH",
+    "name": "Devon Gilfillian",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaf9ae552186a078c0d9f6e55",
+    "followers": 58994,
+    "spotifyId": "5cbak2U6nZWXDYiG72E3lH",
+    "spotifyPopularity": 44,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "58K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5I6ni4YWY0WJUs6rFqufxT",
+    "name": "The Main Squeeze",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb095c4bf677f4fff1960605ea",
+    "followers": 123209,
+    "spotifyId": "5I6ni4YWY0WJUs6rFqufxT",
+    "spotifyPopularity": 44,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "123K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0EqBE2VOwsHgSOrjsQCs5j",
+    "name": "Brainstory",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2781e9e65fc2a7ae1dbae2b6",
+    "followers": 56152,
+    "spotifyId": "0EqBE2VOwsHgSOrjsQCs5j",
+    "spotifyPopularity": 43,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "56K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6m4tJuf67jwVSvMP34hrck",
+    "name": "Saun & Starr",
+    "image": "https://i.scdn.co/image/c0b1f5eb4a0890883235e7791561bc398af8f1a7",
+    "followers": 20811,
+    "spotifyId": "6m4tJuf67jwVSvMP34hrck",
+    "spotifyPopularity": 43,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "09bP40OuEV5tOM1rQnZNxI",
+    "name": "Mamas Gun",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb270a19c9c03f3ae9b2eb0466",
+    "followers": 44052,
+    "spotifyId": "09bP40OuEV5tOM1rQnZNxI",
+    "spotifyPopularity": 43,
+    "genres": [
+      "retro soul",
+      "retro pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "44K",
+    "tier": "Rising"
+  },
+  {
+    "id": "04ka9403wgTxmWFMY1PD5t",
+    "name": "Judith Hill",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2d8d2473cce0976489bd0260",
+    "followers": 67828,
+    "spotifyId": "04ka9403wgTxmWFMY1PD5t",
+    "spotifyPopularity": 42,
+    "genres": [
+      "neo soul",
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "67K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4yMxdaUoKCalQPX9BMeeFf",
+    "name": "Avery*Sunshine",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6dd23d8f32ed16bfccb44d2f",
+    "followers": 74722,
+    "spotifyId": "4yMxdaUoKCalQPX9BMeeFf",
+    "spotifyPopularity": 43,
+    "genres": [
+      "neo soul",
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "74K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2IZXxSIGhFtkHJyMh6UTln",
+    "name": "Aiyana-Lee",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb450130b573b0d4d681881498",
+    "followers": 69472,
+    "spotifyId": "2IZXxSIGhFtkHJyMh6UTln",
+    "spotifyPopularity": 42,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "69K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2ZZZ8cXLBRgiH6fiwaA0Ah",
+    "name": "Trish Toledo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9dcf3d5d881da43ab053d6ea",
+    "followers": 49019,
+    "spotifyId": "2ZZZ8cXLBRgiH6fiwaA0Ah",
+    "spotifyPopularity": 42,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "49K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4nzySyLtM3nYbLWVB8gy0U",
+    "name": "Ironsides",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb52e0cdc1b79897a63072f168",
+    "followers": 23451,
+    "spotifyId": "4nzySyLtM3nYbLWVB8gy0U",
+    "spotifyPopularity": 41,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "23K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0UBIK7mjIJeYZ5qy6fUPG2",
+    "name": "Felix Ames",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd1771e4c7c12d9c3236de73f",
+    "followers": 34226,
+    "spotifyId": "0UBIK7mjIJeYZ5qy6fUPG2",
+    "spotifyPopularity": 41,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "34K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1AcZuMRjIAdmksbzApOXnw",
+    "name": "Holy Hive",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdb97d86610d92dbf7f7e96dc",
+    "followers": 37814,
+    "spotifyId": "1AcZuMRjIAdmksbzApOXnw",
+    "spotifyPopularity": 40,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "37K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2nLlWcvMIIGHHnDOQMi0h6",
+    "name": "Oh He Dead",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8f76c60695ee4236b0fa7632",
+    "followers": 27487,
+    "spotifyId": "2nLlWcvMIIGHHnDOQMi0h6",
+    "spotifyPopularity": 41,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "27K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7DIW7zcnjQFBTMxhK6V2VQ",
+    "name": "Bobby Oroza",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3d6cdd5db6344d7e0c1f18fa",
+    "followers": 48337,
+    "spotifyId": "7DIW7zcnjQFBTMxhK6V2VQ",
+    "spotifyPopularity": 40,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "48K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3kANxNTLNOhxpOPoCbGq9E",
+    "name": "Joey Dosik",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5c66093eb3d60078b3319590",
+    "followers": 40862,
+    "spotifyId": "3kANxNTLNOhxpOPoCbGq9E",
+    "spotifyPopularity": 41,
+    "genres": [
+      "retro soul",
+      "retro pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "40K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7rtM2wPKQlFpsm0C4qJlDk",
+    "name": "Kendra Morris",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfa2df1a7220093a3605dd6e2",
+    "followers": 30316,
+    "spotifyId": "7rtM2wPKQlFpsm0C4qJlDk",
+    "spotifyPopularity": 40,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "30K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2f6fW5uWhqbEDXDK6IGirN",
+    "name": "Abraham Alexander",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe22b8020836d89864e978fde",
+    "followers": 28251,
+    "spotifyId": "2f6fW5uWhqbEDXDK6IGirN",
+    "spotifyPopularity": 40,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "retro",
+    "primaryGenre": "R&B",
+    "likes": "28K",
     "tier": "Rising"
   },
   {
     "id": "106REdDEgMBskjfbOqWOqn",
     "name": "Blue Vintage",
     "image": "https://i.scdn.co/image/ab6761610000e5ebeadeff2e8cb6eb81eeae3a54",
-    "followers": 18389,
+    "followers": 18401,
     "spotifyId": "106REdDEgMBskjfbOqWOqn",
     "spotifyPopularity": 36,
     "genres": [
@@ -1983,7 +3135,7 @@
     "id": "7HkdQ0gt53LP4zmHsL0nap",
     "name": "Ella Mai",
     "image": "https://i.scdn.co/image/ab6761610000e5eb4349cc98c1606d1be4fb375d",
-    "followers": 6088192,
+    "followers": 6089593,
     "spotifyId": "7HkdQ0gt53LP4zmHsL0nap",
     "spotifyPopularity": 72,
     "genres": [
@@ -1999,7 +3151,7 @@
     "id": "20s0P9QLxGqKuCsGwFsp7w",
     "name": "Mario",
     "image": "https://i.scdn.co/image/ab6761610000e5eb48f54214e0580b101375840c",
-    "followers": 3890926,
+    "followers": 3892109,
     "spotifyId": "20s0P9QLxGqKuCsGwFsp7w",
     "spotifyPopularity": 69,
     "genres": [
@@ -2012,62 +3164,157 @@
     "tier": "Established"
   },
   {
-    "id": "1A9o3Ljt67pFZ89YtPPL5X",
-    "name": "Snoh Aalegra",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb04ae2067ae0171af5cbf1cf1",
-    "followers": 1395241,
-    "spotifyId": "1A9o3Ljt67pFZ89YtPPL5X",
-    "spotifyPopularity": 69,
+    "id": "4HgF4KnohByNElYid7iCNb",
+    "name": "Bobby V.",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcf100186c3b280c3fd7c731e",
+    "followers": 1060541,
+    "spotifyId": "4HgF4KnohByNElYid7iCNb",
+    "spotifyPopularity": 66,
     "genres": [
-      "alternative r&b"
+      "r&b"
     ],
     "discoveryMethod": "search_term",
     "searchTerm": "chill",
     "primaryGenre": "R&B",
-    "likes": "1.4M",
+    "likes": "1.1M",
     "tier": "Established"
   },
   {
-    "id": "2KnhnL8zuqLhIhGk601fsb",
-    "name": "kwn",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc3bfed5430b154e0a1b209f8",
-    "followers": 182521,
-    "spotifyId": "2KnhnL8zuqLhIhGk601fsb",
-    "spotifyPopularity": 68,
+    "id": "0s4kXsjYeH0S1xRyVGN4NO",
+    "name": "FLO",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5177c1239724039d09090788",
+    "followers": 498651,
+    "spotifyId": "0s4kXsjYeH0S1xRyVGN4NO",
+    "spotifyPopularity": 65,
     "genres": [
       "uk r&b"
     ],
     "discoveryMethod": "search_term",
     "searchTerm": "chill",
     "primaryGenre": "R&B",
-    "likes": "182K",
+    "likes": "498K",
     "tier": "Established"
   },
   {
-    "id": "3Z7onAknzpinUu3KtmgeZb",
-    "name": "Avenoir",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb02baf3d12ad30ca8b91637cf",
-    "followers": 428470,
-    "spotifyId": "3Z7onAknzpinUu3KtmgeZb",
-    "spotifyPopularity": 67,
+    "id": "30gojhXynjLSWe1kHNUZ1Q",
+    "name": "zandros",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfe798b0eb3d69f066095e9cd",
+    "followers": 70370,
+    "spotifyId": "30gojhXynjLSWe1kHNUZ1Q",
+    "spotifyPopularity": 61,
     "genres": [
-      "dark r&b",
-      "alternative r&b",
-      "r&b"
+      "dark r&b"
     ],
     "discoveryMethod": "search_term",
     "searchTerm": "chill",
     "primaryGenre": "R&B",
-    "likes": "428K",
+    "likes": "70K",
     "tier": "Established"
   },
   {
-    "id": "3QTDHixorJelOLxoxcjqGx",
-    "name": "SiR",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8fad33ba0d5ff81d0c453ce9",
-    "followers": 1158996,
-    "spotifyId": "3QTDHixorJelOLxoxcjqGx",
-    "spotifyPopularity": 67,
+    "id": "12trz2INGglrKMzLmg0y2C",
+    "name": "Emotional Oranges",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3ed627f5610500c2266200fd",
+    "followers": 376080,
+    "spotifyId": "12trz2INGglrKMzLmg0y2C",
+    "spotifyPopularity": 62,
+    "genres": [
+      "indie r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "R&B",
+    "likes": "376K",
+    "tier": "Established"
+  },
+  {
+    "id": "0ocxWXtgr9tJW60xV5ZufT",
+    "name": "Isaiah Falls",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb13f39b8a9b7b0d49de4be91",
+    "followers": 128945,
+    "spotifyId": "0ocxWXtgr9tJW60xV5ZufT",
+    "spotifyPopularity": 63,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "R&B",
+    "likes": "128K",
+    "tier": "Established"
+  },
+  {
+    "id": "0dUYLC7DLjeS8gIh8cz2Pq",
+    "name": "Jenevieve",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6df1edc7b740dee72c9e392d",
+    "followers": 233774,
+    "spotifyId": "0dUYLC7DLjeS8gIh8cz2Pq",
+    "spotifyPopularity": 63,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "R&B",
+    "likes": "233K",
+    "tier": "Established"
+  },
+  {
+    "id": "7MxGWmiAbqjNOGmj23wbWf",
+    "name": "Sasha Keable",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5bc948e89bba35a5f24c9b2d",
+    "followers": 119844,
+    "spotifyId": "7MxGWmiAbqjNOGmj23wbWf",
+    "spotifyPopularity": 62,
+    "genres": [
+      "uk r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "R&B",
+    "likes": "119K",
+    "tier": "Established"
+  },
+  {
+    "id": "6kmDosYCYjFQtywDq0DLPZ",
+    "name": "Khamari",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6921bdf2ddc6e84970fd172e",
+    "followers": 249975,
+    "spotifyId": "6kmDosYCYjFQtywDq0DLPZ",
+    "spotifyPopularity": 62,
+    "genres": [
+      "indie r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "R&B",
+    "likes": "249K",
+    "tier": "Established"
+  },
+  {
+    "id": "16rCzZOMQX7P8Kmn5YKexI",
+    "name": "Mahalia",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbffc1b26ed2fd56ae2d569fd",
+    "followers": 1015771,
+    "spotifyId": "16rCzZOMQX7P8Kmn5YKexI",
+    "spotifyPopularity": 62,
+    "genres": [
+      "uk r&b",
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chill",
+    "primaryGenre": "R&B",
+    "likes": "1.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "1vaQ6v3pOFxAIrFoPrAcom",
+    "name": "Ari Lennox",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe19e1bf09f254e9734d6b47d",
+    "followers": 892159,
+    "spotifyId": "1vaQ6v3pOFxAIrFoPrAcom",
+    "spotifyPopularity": 62,
     "genres": [
       "alternative r&b",
       "neo soul"
@@ -2075,14 +3322,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "chill",
     "primaryGenre": "R&B",
-    "likes": "1.2M",
+    "likes": "892K",
     "tier": "Established"
   },
   {
     "id": "1LU7BxbUvvuA4eNDdEO22D",
     "name": "3AM",
     "image": "https://i.scdn.co/image/ab6761610000e5eb53736c6e138b8a9961d92b2f",
-    "followers": 562418,
+    "followers": 562644,
     "spotifyId": "1LU7BxbUvvuA4eNDdEO22D",
     "spotifyPopularity": 66,
     "genres": [
@@ -2098,7 +3345,7 @@
     "id": "0zfvfy9XlborSqXNRhi8Bk",
     "name": "Samantha Barrón",
     "image": "https://i.scdn.co/image/ab6761610000e5eb9a03c6bb9bd484b15bb31606",
-    "followers": 343198,
+    "followers": 343578,
     "spotifyId": "0zfvfy9XlborSqXNRhi8Bk",
     "spotifyPopularity": 61,
     "genres": [
@@ -2112,43 +3359,28 @@
     "tier": "Established"
   },
   {
-    "id": "6NRSfOnXw4qaypEfIV2QXn",
-    "name": "Dutch Melrose",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb3aa6f1cd1bbafb2aafee375c",
-    "followers": 290143,
-    "spotifyId": "6NRSfOnXw4qaypEfIV2QXn",
-    "spotifyPopularity": 68,
+    "id": "0jgJv4J29BJiJu1luw2SdA",
+    "name": "Ms. Ambar",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdc6ef7ea1c0f280139446551",
+    "followers": 55182,
+    "spotifyId": "0jgJv4J29BJiJu1luw2SdA",
+    "spotifyPopularity": 55,
     "genres": [
-      "dark r&b"
+      "latin r&b",
+      "mexican hip hop"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "dark",
+    "searchTerm": "romantic",
     "primaryGenre": "R&B",
-    "likes": "290K",
-    "tier": "Established"
+    "likes": "55K",
+    "tier": "Rising"
   },
   {
-    "id": "1lAvOODEAbUI5b51WRBbdx",
-    "name": "Darci",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb20c2518bdcdeb36f426e0566",
-    "followers": 275701,
-    "spotifyId": "1lAvOODEAbUI5b51WRBbdx",
-    "spotifyPopularity": 66,
-    "genres": [
-      "dark r&b"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "dark",
-    "primaryGenre": "R&B",
-    "likes": "275K",
-    "tier": "Established"
-  },
-  {
-    "id": "4RzbexUO843fc5SLqKEQCr",
-    "name": "Aaryan Shah",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb758c2827e9bcd8268fd7d8b0",
-    "followers": 326397,
-    "spotifyId": "4RzbexUO843fc5SLqKEQCr",
+    "id": "0wRGuF39WWxHeftv2TBNQT",
+    "name": "Ex Habit",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebac3be714fec6ca8f2eccdb3b",
+    "followers": 121050,
+    "spotifyId": "0wRGuF39WWxHeftv2TBNQT",
     "spotifyPopularity": 63,
     "genres": [
       "dark r&b"
@@ -2156,32 +3388,79 @@
     "discoveryMethod": "search_term",
     "searchTerm": "dark",
     "primaryGenre": "R&B",
-    "likes": "326K",
+    "likes": "121K",
     "tier": "Established"
   },
   {
-    "id": "3rxIQc9kWT6Ueg4BhnOwRK",
-    "name": "Quincy Jones",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebe79e47fbc540635fd5e18e4d",
-    "followers": 443519,
-    "spotifyId": "3rxIQc9kWT6Ueg4BhnOwRK",
+    "id": "7IrBqZo6diq3hV3GpUhrs2",
+    "name": "Jim Legxacy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb93fa23b3bcd6feb16ea5c6a3",
+    "followers": 69116,
+    "spotifyId": "7IrBqZo6diq3hV3GpUhrs2",
+    "spotifyPopularity": 62,
+    "genres": [
+      "uk r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "R&B",
+    "likes": "69K",
+    "tier": "Established"
+  },
+  {
+    "id": "4V2pR2iSd1g0RZCglrP3jn",
+    "name": "PLVTINUM",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7c797685f14e49a7da8c6281",
+    "followers": 402790,
+    "spotifyId": "4V2pR2iSd1g0RZCglrP3jn",
+    "spotifyPopularity": 62,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "R&B",
+    "likes": "402K",
+    "tier": "Established"
+  },
+  {
+    "id": "4vo5IKFugn33ytkc7xHvEk",
+    "name": "Daniel Di Angelo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7e2cf7db02a2a2ea1baffd64",
+    "followers": 288776,
+    "spotifyId": "4vo5IKFugn33ytkc7xHvEk",
     "spotifyPopularity": 59,
     "genres": [
-      "soul jazz",
-      "big band",
-      "quiet storm"
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "R&B",
+    "likes": "288K",
+    "tier": "Rising"
+  },
+  {
+    "id": "457yGSZecENoIuNWelRHhH",
+    "name": "The Love Unlimited Orchestra",
+    "image": "https://i.scdn.co/image/ab67616d0000b27300211472a7a8d60a471f24c7",
+    "followers": 120528,
+    "spotifyId": "457yGSZecENoIuNWelRHhH",
+    "spotifyPopularity": 52,
+    "genres": [
+      "philly soul",
+      "disco"
     ],
     "discoveryMethod": "search_term",
     "searchTerm": "orchestra",
     "primaryGenre": "R&B",
-    "likes": "443K",
+    "likes": "120K",
     "tier": "Rising"
   },
   {
     "id": "66l6SXrWHLjXFHfv202kdA",
     "name": "Pastor T.L. Barrett and the Youth for Christ Choir",
     "image": "https://i.scdn.co/image/ab6761610000e5eba872fe49a7b6573b0d1ca454",
-    "followers": 33899,
+    "followers": 33912,
     "spotifyId": "66l6SXrWHLjXFHfv202kdA",
     "spotifyPopularity": 39,
     "genres": [
@@ -2197,7 +3476,7 @@
     "id": "1twC2fwPG5FkvYcMpVBQRz",
     "name": "Randy Crawford",
     "image": "https://i.scdn.co/image/5cdc6f9707988cd602164687718e2b9e868ee129",
-    "followers": 380469,
+    "followers": 380545,
     "spotifyId": "1twC2fwPG5FkvYcMpVBQRz",
     "spotifyPopularity": 55,
     "genres": [
@@ -2213,7 +3492,7 @@
     "id": "4EgvOK2eIdBfhklxnrEBOK",
     "name": "ORGAVSM",
     "image": "https://i.scdn.co/image/ab6761610000e5eb1be16bca93bfc5f4d550224f",
-    "followers": 27748,
+    "followers": 27895,
     "spotifyId": "4EgvOK2eIdBfhklxnrEBOK",
     "spotifyPopularity": 51,
     "genres": [
@@ -2226,26 +3505,42 @@
     "tier": "Rising"
   },
   {
-    "id": "4V2pR2iSd1g0RZCglrP3jn",
-    "name": "PLVTINUM",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7c797685f14e49a7da8c6281",
-    "followers": 402617,
-    "spotifyId": "4V2pR2iSd1g0RZCglrP3jn",
-    "spotifyPopularity": 62,
+    "id": "4mErKO4g29SXtBwj4S80aB",
+    "name": "rum.gold",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1a921c67521a3ae46ed1bdf1",
+    "followers": 117192,
+    "spotifyId": "4mErKO4g29SXtBwj4S80aB",
+    "spotifyPopularity": 51,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "gold",
+    "primaryGenre": "R&B",
+    "likes": "117K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0XPSOhKsMhkMtCJN2zdLJb",
+    "name": "memyself&vi",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8b51c02dd9e5169641a848f5",
+    "followers": 10749,
+    "spotifyId": "0XPSOhKsMhkMtCJN2zdLJb",
+    "spotifyPopularity": 40,
     "genres": [
       "dark r&b"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "platinum",
+    "searchTerm": "meme",
     "primaryGenre": "R&B",
-    "likes": "402K",
-    "tier": "Established"
+    "likes": "10K",
+    "tier": "Rising"
   },
   {
     "id": "7GN9PivdemQRKjDt4z5Zv8",
     "name": "The Internet",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc32c5dcda378eb561f81b1f9",
-    "followers": 1516943,
+    "followers": 1517150,
     "spotifyId": "7GN9PivdemQRKjDt4z5Zv8",
     "spotifyPopularity": 62,
     "genres": [
@@ -2259,27 +3554,10 @@
     "tier": "Established"
   },
   {
-    "id": "5cM1PvItlR21WUyBnsdMcn",
-    "name": "Robert Glasper",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebeac91c1b242fe7aff48894f5",
-    "followers": 498496,
-    "spotifyId": "5cM1PvItlR21WUyBnsdMcn",
-    "spotifyPopularity": 60,
-    "genres": [
-      "neo soul",
-      "jazz rap"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "underground",
-    "primaryGenre": "R&B",
-    "likes": "498K",
-    "tier": "Established"
-  },
-  {
     "id": "7MNEVabc4cs19CbzAFZmXz",
     "name": "Terrace Martin",
     "image": "https://i.scdn.co/image/ab6761610000e5ebb729c16b539c36327a43c946",
-    "followers": 205367,
+    "followers": 205424,
     "spotifyId": "7MNEVabc4cs19CbzAFZmXz",
     "spotifyPopularity": 57,
     "genres": [
@@ -2292,10 +3570,42 @@
     "tier": "Rising"
   },
   {
+    "id": "1O9iHQjrVuiAYOJFCBeFSl",
+    "name": "serpentwithfeet",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb48b0d233f574dbc5efa2bfcb",
+    "followers": 147876,
+    "spotifyId": "1O9iHQjrVuiAYOJFCBeFSl",
+    "spotifyPopularity": 58,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "experimental",
+    "primaryGenre": "R&B",
+    "likes": "147K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0N41KJ4H6bkPAm2tx7VS8C",
+    "name": "Anna Wise",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb7f6ad465e06239674c744dc",
+    "followers": 79717,
+    "spotifyId": "0N41KJ4H6bkPAm2tx7VS8C",
+    "spotifyPopularity": 57,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "experimental",
+    "primaryGenre": "R&B",
+    "likes": "79K",
+    "tier": "Rising"
+  },
+  {
     "id": "1zJBFCev9UwOMcrZsLi2od",
     "name": "Lou Rawls",
     "image": "https://i.scdn.co/image/ab6761610000e5eb2b5fe134b2f32477d117a3e5",
-    "followers": 249590,
+    "followers": 249696,
     "spotifyId": "1zJBFCev9UwOMcrZsLi2od",
     "spotifyPopularity": 54,
     "genres": [
@@ -2310,27 +3620,10 @@
     "tier": "Rising"
   },
   {
-    "id": "457yGSZecENoIuNWelRHhH",
-    "name": "The Love Unlimited Orchestra",
-    "image": "https://i.scdn.co/image/ab67616d0000b27300211472a7a8d60a471f24c7",
-    "followers": 120462,
-    "spotifyId": "457yGSZecENoIuNWelRHhH",
-    "spotifyPopularity": 52,
-    "genres": [
-      "philly soul",
-      "disco"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "lo-fi",
-    "primaryGenre": "R&B",
-    "likes": "120K",
-    "tier": "Rising"
-  },
-  {
     "id": "3m5hegxlB80Z2zQb1893pc",
     "name": "Loleatta Holloway",
     "image": "https://i.scdn.co/image/0729e1f110b96ac6b9113b4c87998afd40fd06c4",
-    "followers": 50293,
+    "followers": 50304,
     "spotifyId": "3m5hegxlB80Z2zQb1893pc",
     "spotifyPopularity": 51,
     "genres": [
@@ -2350,7 +3643,7 @@
     "id": "14EkDZQXCL0J9CpQ1tKIKC",
     "name": "Lord's Child",
     "image": "https://i.scdn.co/image/ab6761610000e5eb034cf4c15b3f6122b09f2057",
-    "followers": 67551,
+    "followers": 67560,
     "spotifyId": "14EkDZQXCL0J9CpQ1tKIKC",
     "spotifyPopularity": 49,
     "genres": [
@@ -2363,10 +3656,26 @@
     "tier": "Rising"
   },
   {
+    "id": "2M4KXzgedR4EKG4qgTeDKa",
+    "name": "Love Unlimited",
+    "image": "https://i.scdn.co/image/ab67616d0000b27322ba84576cd294acb1a3a1a8",
+    "followers": 78578,
+    "spotifyId": "2M4KXzgedR4EKG4qgTeDKa",
+    "spotifyPopularity": 40,
+    "genres": [
+      "philly soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lo-fi",
+    "primaryGenre": "R&B",
+    "likes": "78K",
+    "tier": "Rising"
+  },
+  {
     "id": "09O5HSw8RO3aAnWNCADaKS",
     "name": "Ethan Low",
     "image": "https://i.scdn.co/image/ab6761610000e5eb38b22c6692dcf29f40fd86d9",
-    "followers": 76323,
+    "followers": 76340,
     "spotifyId": "09O5HSw8RO3aAnWNCADaKS",
     "spotifyPopularity": 51,
     "genres": [
@@ -2382,7 +3691,7 @@
     "id": "3sHS70DMNgPxRqx2fUNrRA",
     "name": "QUIN",
     "image": "https://i.scdn.co/image/ab6761610000e5ebf70f80bd85ff7472da280ba3",
-    "followers": 47287,
+    "followers": 47296,
     "spotifyId": "3sHS70DMNgPxRqx2fUNrRA",
     "spotifyPopularity": 42,
     "genres": [
@@ -2395,26 +3704,10 @@
     "tier": "Rising"
   },
   {
-    "id": "0wRGuF39WWxHeftv2TBNQT",
-    "name": "Ex Habit",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebac3be714fec6ca8f2eccdb3b",
-    "followers": 120933,
-    "spotifyId": "0wRGuF39WWxHeftv2TBNQT",
-    "spotifyPopularity": 63,
-    "genres": [
-      "dark r&b"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "bedroom pop",
-    "primaryGenre": "R&B",
-    "likes": "120K",
-    "tier": "Established"
-  },
-  {
     "id": "2efrqekWSHlvhATD50AG3m",
     "name": "Orion Sun",
     "image": "https://i.scdn.co/image/ab6761610000e5eba54e653428cded1a4791ad24",
-    "followers": 412245,
+    "followers": 412338,
     "spotifyId": "2efrqekWSHlvhATD50AG3m",
     "spotifyPopularity": 60,
     "genres": [
@@ -2428,33 +3721,81 @@
     "tier": "Established"
   },
   {
-    "id": "30gojhXynjLSWe1kHNUZ1Q",
-    "name": "zandros",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebfe798b0eb3d69f066095e9cd",
-    "followers": 70218,
-    "spotifyId": "30gojhXynjLSWe1kHNUZ1Q",
-    "spotifyPopularity": 61,
+    "id": "23FgP9gxRT6QMcRhsV71kY",
+    "name": "greek",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe425a72679ffe864dcb4ff09",
+    "followers": 67920,
+    "spotifyId": "23FgP9gxRT6QMcRhsV71kY",
+    "spotifyPopularity": 55,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "R&B",
+    "likes": "67K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3BBN1P1JNw0sSdYEdBkOZK",
+    "name": "Bathe",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb54250ea5cc36cd413e010308",
+    "followers": 43634,
+    "spotifyId": "3BBN1P1JNw0sSdYEdBkOZK",
+    "spotifyPopularity": 45,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "R&B",
+    "likes": "43K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3nirCcAFDstMworUJd3OfN",
+    "name": "Nicholas Bonnin",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdf0fec1863f2cb7636f04ea5",
+    "followers": 56050,
+    "spotifyId": "3nirCcAFDstMworUJd3OfN",
+    "spotifyPopularity": 56,
     "genres": [
       "dark r&b"
     ],
     "discoveryMethod": "search_term",
     "searchTerm": "bedroom pop",
     "primaryGenre": "R&B",
-    "likes": "70K",
-    "tier": "Established"
+    "likes": "56K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6xRlQCMpg8bmkHlluqDF7Z",
+    "name": "Devin Kennedy",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb318cf77c3286dcc7e8fec3f8",
+    "followers": 85767,
+    "spotifyId": "6xRlQCMpg8bmkHlluqDF7Z",
+    "spotifyPopularity": 51,
+    "genres": [
+      "indie r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "bedroom pop",
+    "primaryGenre": "R&B",
+    "likes": "85K",
+    "tier": "Rising"
   },
   {
     "id": "6u6AbTVrbabv27DLcSrF8i",
     "name": "Dreamer Isioma",
     "image": "https://i.scdn.co/image/ab6761610000e5eb32667484986e2f43b9c3a722",
-    "followers": 187359,
+    "followers": 187378,
     "spotifyId": "6u6AbTVrbabv27DLcSrF8i",
     "spotifyPopularity": 51,
     "genres": [
       "alternative r&b"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "dream pop",
+    "searchTerm": "bedroom pop",
     "primaryGenre": "R&B",
     "likes": "187K",
     "tier": "Rising"
@@ -2463,7 +3804,7 @@
     "id": "7vjRpVXoecwKTEsrb9iscj",
     "name": "Jadu Heart",
     "image": "https://i.scdn.co/image/ab6761610000e5ebfc4a29ef74de54036f0db47e",
-    "followers": 148175,
+    "followers": 148235,
     "spotifyId": "7vjRpVXoecwKTEsrb9iscj",
     "spotifyPopularity": 57,
     "genres": [
@@ -2474,5 +3815,1838 @@
     "primaryGenre": "R&B",
     "likes": "148K",
     "tier": "Rising"
+  },
+  {
+    "id": "7xGGqA85UIWX1GoTVM4itC",
+    "name": "The Staple Singers",
+    "image": "https://i.scdn.co/image/9de56ba0f97bd8a1cc7a42756dc58978c4f9962f",
+    "followers": 363256,
+    "spotifyId": "7xGGqA85UIWX1GoTVM4itC",
+    "spotifyPopularity": 54,
+    "genres": [
+      "soul",
+      "motown",
+      "classic soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "singer",
+    "primaryGenre": "R&B",
+    "likes": "363K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3txT8oRKvO8rnYXxn8lnSm",
+    "name": "The Group Fire",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb47b39b874627a67e89618144",
+    "followers": 11916,
+    "spotifyId": "3txT8oRKvO8rnYXxn8lnSm",
+    "spotifyPopularity": 32,
+    "genres": [
+      "gospel r&b",
+      "gospel"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "group",
+    "primaryGenre": "R&B",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7LvvNoUPwTZpgXDWBRrfHg",
+    "name": "DRAMA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb496a25112654b1aafc9f7fbb",
+    "followers": 158886,
+    "spotifyId": "7LvvNoUPwTZpgXDWBRrfHg",
+    "spotifyPopularity": 59,
+    "genres": [
+      "indie soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "duo",
+    "primaryGenre": "R&B",
+    "likes": "158K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4nts0oxMT67lVUoi5Kjxrb",
+    "name": "Solomon Burke",
+    "image": "https://i.scdn.co/image/aed870c7f3469439b6cb87036a7a8a0f009334ae",
+    "followers": 289152,
+    "spotifyId": "4nts0oxMT67lVUoi5Kjxrb",
+    "spotifyPopularity": 59,
+    "genres": [
+      "soul",
+      "soul blues",
+      "classic soul",
+      "motown"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "solo",
+    "primaryGenre": "R&B",
+    "likes": "289K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0hZEO1Bl2QRGUaeeSLWDYN",
+    "name": "Joseph Solomon",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2d1e7e96d1f746522f46a72a",
+    "followers": 168303,
+    "spotifyId": "0hZEO1Bl2QRGUaeeSLWDYN",
+    "spotifyPopularity": 51,
+    "genres": [
+      "gospel r&b",
+      "christian hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "solo",
+    "primaryGenre": "R&B",
+    "likes": "168K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2auiVi8sUZo17dLy1HwrTU",
+    "name": "Solange",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb631cf0aa859e5a20e836f14f",
+    "followers": 2156570,
+    "spotifyId": "2auiVi8sUZo17dLy1HwrTU",
+    "spotifyPopularity": 63,
+    "genres": [
+      "alternative r&b",
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "solo",
+    "primaryGenre": "R&B",
+    "likes": "2.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "4QmC9vyeUlNcmR9sKzbmxe",
+    "name": "Sølv",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeec8dc6647d8ff780a46c74e",
+    "followers": 28430,
+    "spotifyId": "4QmC9vyeUlNcmR9sKzbmxe",
+    "spotifyPopularity": 47,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "solo",
+    "primaryGenre": "R&B",
+    "likes": "28K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4UhiMIdxKqQxmzdE9nYe6O",
+    "name": "m-flo",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb05eca2880e6bd9db6d38444c",
+    "followers": 387613,
+    "spotifyId": "4UhiMIdxKqQxmzdE9nYe6O",
+    "spotifyPopularity": 57,
+    "genres": [
+      "j-r&b",
+      "j-pop",
+      "j-rap",
+      "shibuya-kei"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "remix",
+    "primaryGenre": "R&B",
+    "likes": "387K",
+    "tier": "Rising"
+  },
+  {
+    "id": "11EZGTWr2pY0VZPlWokAbl",
+    "name": "The Originals",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d12c40e9c2140939ac4ba130",
+    "followers": 113759,
+    "spotifyId": "11EZGTWr2pY0VZPlWokAbl",
+    "spotifyPopularity": 42,
+    "genres": [
+      "northern soul",
+      "motown",
+      "classic soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "original",
+    "primaryGenre": "R&B",
+    "likes": "113K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0yw2O9rh7YQd5MqEHOFGzW",
+    "name": "Ragz Originale",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6d0aeb41a5ffc9c685631f1d",
+    "followers": 30931,
+    "spotifyId": "0yw2O9rh7YQd5MqEHOFGzW",
+    "spotifyPopularity": 44,
+    "genres": [
+      "uk r&b",
+      "alté"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "original",
+    "primaryGenre": "R&B",
+    "likes": "30K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0YCL71Clky5els6NireSBP",
+    "name": "Liv.e",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7715e0efa8b952e5f4eb01b2",
+    "followers": 78804,
+    "spotifyId": "0YCL71Clky5els6NireSBP",
+    "spotifyPopularity": 42,
+    "genres": [
+      "alternative r&b",
+      "experimental hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "live",
+    "primaryGenre": "R&B",
+    "likes": "78K",
+    "tier": "Rising"
+  },
+  {
+    "id": "53ZDw5ZHldHJgaUjcJhdGc",
+    "name": "Léa Castel",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe69968e68e51ff4aaa3a1a34",
+    "followers": 142772,
+    "spotifyId": "53ZDw5ZHldHJgaUjcJhdGc",
+    "spotifyPopularity": 46,
+    "genres": [
+      "french r&b",
+      "french pop",
+      "variété française"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "lead",
+    "primaryGenre": "R&B",
+    "likes": "142K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5aJC3tVn8aaTFq3FQFQ7E9",
+    "name": "Full Of Harmony",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebda7b033e3ab6b1be4e1a4cfb",
+    "followers": 10600,
+    "spotifyId": "5aJC3tVn8aaTFq3FQFQ7E9",
+    "spotifyPopularity": 26,
+    "genres": [
+      "j-r&b",
+      "j-rap",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "harmony",
+    "primaryGenre": "R&B",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "13B7Yh5BjSEwNj40HapGcM",
+    "name": "Melodicb",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc116ed5b97c0d36b66147ca0",
+    "followers": 10363,
+    "spotifyId": "13B7Yh5BjSEwNj40HapGcM",
+    "spotifyPopularity": 44,
+    "genres": [
+      "gospel r&b",
+      "christian hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "melody",
+    "primaryGenre": "R&B",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4yqgRp5LrmRXgSKpAqTBdl",
+    "name": "Shabalala Rhythm",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d58021adca9a976eeb8c1e21",
+    "followers": 19151,
+    "spotifyId": "4yqgRp5LrmRXgSKpAqTBdl",
+    "spotifyPopularity": 34,
+    "genres": [
+      "afro soul",
+      "afropop",
+      "african gospel",
+      "traditional music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rhythm",
+    "primaryGenre": "R&B",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4k7KKAyXbpBKe0iziD7c2P",
+    "name": "Beatchild",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc1fa6f98bd2968a59806d77a",
+    "followers": 29580,
+    "spotifyId": "4k7KKAyXbpBKe0iziD7c2P",
+    "spotifyPopularity": 36,
+    "genres": [
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "beat",
+    "primaryGenre": "R&B",
+    "likes": "29K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7opRqRgF9lvnVraBFCMvIj",
+    "name": "Groove Theory",
+    "image": "https://i.scdn.co/image/0c6b42bbb8bec8960f105340259f29e1ae40d6d7",
+    "followers": 239337,
+    "spotifyId": "7opRqRgF9lvnVraBFCMvIj",
+    "spotifyPopularity": 52,
+    "genres": [
+      "neo soul",
+      "new jack swing"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "239K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2WH7zT823EKmIXKIcM1kYa",
+    "name": "grooveman Spot",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2a31c84f05a14c67b620cacd",
+    "followers": 14380,
+    "spotifyId": "2WH7zT823EKmIXKIcM1kYa",
+    "spotifyPopularity": 37,
+    "genres": [
+      "j-r&b",
+      "j-rap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
+    "id": "56tAdT5WT6Mi288cBRDjnt",
+    "name": "BURY",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba56fbd032519204e05642a22",
+    "followers": 19193,
+    "spotifyId": "56tAdT5WT6Mi288cBRDjnt",
+    "spotifyPopularity": 57,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "19K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7izkpvBGc31hUccjdSNz8k",
+    "name": "Richard \"Groove\" Holmes",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcf10d04083de49206cb9eee5",
+    "followers": 20510,
+    "spotifyId": "7izkpvBGc31hUccjdSNz8k",
+    "spotifyPopularity": 33,
+    "genres": [
+      "soul jazz",
+      "jazz funk",
+      "hard bop",
+      "acid jazz",
+      "jazz"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "03PCdNvkF81s7xHmtkNcoz",
+    "name": "King Floyd",
+    "image": "https://i.scdn.co/image/ab67616d0000b273304772c154c32c6fb08c731f",
+    "followers": 29567,
+    "spotifyId": "03PCdNvkF81s7xHmtkNcoz",
+    "spotifyPopularity": 46,
+    "genres": [
+      "classic soul",
+      "motown"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "29K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3N3R2mEESjTYM3W6ye2bod",
+    "name": "Serayah",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb19b68de05ab42df81172c2da",
+    "followers": 44658,
+    "spotifyId": "3N3R2mEESjTYM3W6ye2bod",
+    "spotifyPopularity": 45,
+    "genres": [
+      "gospel r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "44K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0PDqlUGugF5Jt6DZyATvfz",
+    "name": "Betty Wright",
+    "image": "https://i.scdn.co/image/e1c052baf67063bd9565b61c4a5ec0195ebb49f5",
+    "followers": 312120,
+    "spotifyId": "0PDqlUGugF5Jt6DZyATvfz",
+    "spotifyPopularity": 48,
+    "genres": [
+      "classic soul",
+      "soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "312K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4S4kD5NBlgaq4YLBQSEMyY",
+    "name": "Mali Music",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcd891c41e0eed3a5c530d085",
+    "followers": 181285,
+    "spotifyId": "4S4kD5NBlgaq4YLBQSEMyY",
+    "spotifyPopularity": 48,
+    "genres": [
+      "gospel r&b",
+      "gospel",
+      "christian hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "181K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5cHmjJA9Lo0ga8s8QdxEzs",
+    "name": "Terry Callier",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b998febae33992b01da631d5",
+    "followers": 73896,
+    "spotifyId": "5cHmjJA9Lo0ga8s8QdxEzs",
+    "spotifyPopularity": 47,
+    "genres": [
+      "northern soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "73K",
+    "tier": "Rising"
+  },
+  {
+    "id": "24p0hSTqoxNsy89rKNrSDj",
+    "name": "Nathan Davis Jr",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9adc7f776b97653e12089951",
+    "followers": 21760,
+    "spotifyId": "24p0hSTqoxNsy89rKNrSDj",
+    "spotifyPopularity": 47,
+    "genres": [
+      "gospel r&b",
+      "christian hip hop",
+      "christian pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6sCf6HW9zBhLN64XC8tRdv",
+    "name": "Adriana Evans",
+    "image": "https://i.scdn.co/image/38a6dcdb095c4d3201c6fd379f67bd0b2dfac709",
+    "followers": 52283,
+    "spotifyId": "6sCf6HW9zBhLN64XC8tRdv",
+    "spotifyPopularity": 46,
+    "genres": [
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "52K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7JLwBH0X2G8tgHceqvOu5B",
+    "name": "Timmy Thomas",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731cbf8d0693a628a93be45b83",
+    "followers": 21956,
+    "spotifyId": "7JLwBH0X2G8tgHceqvOu5B",
+    "spotifyPopularity": 47,
+    "genres": [
+      "classic soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3iQM78Xg0wJnGZhgVNLPmY",
+    "name": "McFadden & Whitehead",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb911aca65900165f7039f56d0",
+    "followers": 86346,
+    "spotifyId": "3iQM78Xg0wJnGZhgVNLPmY",
+    "spotifyPopularity": 46,
+    "genres": [
+      "philly soul",
+      "disco"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "groove",
+    "primaryGenre": "R&B",
+    "likes": "86K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1XkoF8ryArs86LZvFOkbyr",
+    "name": "Mary J. Blige",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3d7888ba4d2bf67fe6b64a55",
+    "followers": 4289617,
+    "spotifyId": "1XkoF8ryArs86LZvFOkbyr",
+    "spotifyPopularity": 74,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "swing",
+    "primaryGenre": "R&B",
+    "likes": "4.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "0urTpYCsixqZwgNTkPJOJ4",
+    "name": "Aaliyah",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd2493cea701d45401cc79ffd",
+    "followers": 4956084,
+    "spotifyId": "0urTpYCsixqZwgNTkPJOJ4",
+    "spotifyPopularity": 68,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "swing",
+    "primaryGenre": "R&B",
+    "likes": "5.0M",
+    "tier": "Established"
+  },
+  {
+    "id": "03Avx5uX73mr7MtZZzkzls",
+    "name": "I love you Orchestra Swing Style",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0f95164e5cc85e684a023cf3",
+    "followers": 24315,
+    "spotifyId": "03Avx5uX73mr7MtZZzkzls",
+    "spotifyPopularity": 36,
+    "genres": [
+      "j-r&b",
+      "city pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "swing",
+    "primaryGenre": "R&B",
+    "likes": "24K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2iTUm1HTcazZpWGtCw5qAr",
+    "name": "Elvis Drew",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb99c911b247a769480ab46165",
+    "followers": 64957,
+    "spotifyId": "2iTUm1HTcazZpWGtCw5qAr",
+    "spotifyPopularity": 58,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "64K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2iwUUr9Udu8z6L2ZJcYr6i",
+    "name": "Stileto",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd2ea592e4d11196210d1f851",
+    "followers": 52213,
+    "spotifyId": "2iwUUr9Udu8z6L2ZJcYr6i",
+    "spotifyPopularity": 57,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "52K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0MqXw0plXKIaJtM342hIag",
+    "name": "Layto",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb43fa823630d4a718343071ed",
+    "followers": 157960,
+    "spotifyId": "0MqXw0plXKIaJtM342hIag",
+    "spotifyPopularity": 57,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "157K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3AYZMgvmzNKc3cGmJUSITh",
+    "name": "Jake Daniels",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb50035d6ee88b5c42db70adbb",
+    "followers": 111927,
+    "spotifyId": "3AYZMgvmzNKc3cGmJUSITh",
+    "spotifyPopularity": 55,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "111K",
+    "tier": "Rising"
+  },
+  {
+    "id": "61i5hkPM85ZcIxRsg61Hkl",
+    "name": "Kendyle Paige",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6b79f2efc3998f7a72f00350",
+    "followers": 10532,
+    "spotifyId": "61i5hkPM85ZcIxRsg61Hkl",
+    "spotifyPopularity": 53,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5bO289lfxAHDKDrrR7UytN",
+    "name": "Mitchel Dae",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebff5278f5274e7fe4ebb7d74a",
+    "followers": 25238,
+    "spotifyId": "5bO289lfxAHDKDrrR7UytN",
+    "spotifyPopularity": 53,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "25K",
+    "tier": "Rising"
+  },
+  {
+    "id": "55U998XxmxjicLMKDSz6R3",
+    "name": "Bettye LaVette",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1dbdb1a340c7fcad71936975",
+    "followers": 50202,
+    "spotifyId": "55U998XxmxjicLMKDSz6R3",
+    "spotifyPopularity": 52,
+    "genres": [
+      "soul blues",
+      "northern soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "50K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3hkBUDhKEiz64k5kTrd1QQ",
+    "name": "Crypto",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb632f23087603fc44298442a8",
+    "followers": 22329,
+    "spotifyId": "3hkBUDhKEiz64k5kTrd1QQ",
+    "spotifyPopularity": 49,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "22K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2WHVbKysnJdhkB4VBWxC3v",
+    "name": "King Kavalier",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb10662115e5f1f97feb5d308a",
+    "followers": 14580,
+    "spotifyId": "2WHVbKysnJdhkB4VBWxC3v",
+    "spotifyPopularity": 49,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "14K",
+    "tier": "Rising"
+  },
+  {
+    "id": "01Z8Z9K54zewyP04ZfGLSv",
+    "name": "Irma Thomas",
+    "image": "https://i.scdn.co/image/5f19bee526185a406666199a27abe2a6e3d391b1",
+    "followers": 121711,
+    "spotifyId": "01Z8Z9K54zewyP04ZfGLSv",
+    "spotifyPopularity": 50,
+    "genres": [
+      "classic soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "121K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7inC0Ybb6OGEMB7GP8nfi1",
+    "name": "Rhea Raj",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbfa5a27703f70d334546c25b",
+    "followers": 37666,
+    "spotifyId": "7inC0Ybb6OGEMB7GP8nfi1",
+    "spotifyPopularity": 47,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "blues",
+    "primaryGenre": "R&B",
+    "likes": "37K",
+    "tier": "Rising"
+  },
+  {
+    "id": "35RvGPQ1OxbEZknWyiaAcs",
+    "name": "Two Another",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb72387fe22f7a2e00a1d3c9cc",
+    "followers": 117359,
+    "spotifyId": "35RvGPQ1OxbEZknWyiaAcs",
+    "spotifyPopularity": 58,
+    "genres": [
+      "indie soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "disco",
+    "primaryGenre": "R&B",
+    "likes": "117K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5hnSOpUeldFZV2lzs8TP1w",
+    "name": "3House",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfade6583b8bd35d28064b95c",
+    "followers": 98137,
+    "spotifyId": "5hnSOpUeldFZV2lzs8TP1w",
+    "spotifyPopularity": 57,
+    "genres": [
+      "j-r&b",
+      "j-rap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "house",
+    "primaryGenre": "R&B",
+    "likes": "98K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6UtYvUtXnmg5EtllDFlWp8",
+    "name": "CHIKA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb57cdcd9cac324dcfd5120945",
+    "followers": 207620,
+    "spotifyId": "6UtYvUtXnmg5EtllDFlWp8",
+    "spotifyPopularity": 58,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "house",
+    "primaryGenre": "R&B",
+    "likes": "207K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7gU9VyFRN3JWPJ5oHOil60",
+    "name": "Tayc",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb986f5e1c6f66dc40537407c3",
+    "followers": 3605696,
+    "spotifyId": "7gU9VyFRN3JWPJ5oHOil60",
+    "spotifyPopularity": 74,
+    "genres": [
+      "french r&b",
+      "pop urbaine",
+      "afrobeats",
+      "afrobeat",
+      "afro r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "world",
+    "primaryGenre": "R&B",
+    "likes": "3.6M",
+    "tier": "Established"
+  },
+  {
+    "id": "3BQ9mWlgFRfMr5EdNfc10a",
+    "name": "Nej",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8c5c6807af32de7ae71dd2f9",
+    "followers": 1359875,
+    "spotifyId": "3BQ9mWlgFRfMr5EdNfc10a",
+    "spotifyPopularity": 65,
+    "genres": [
+      "french r&b",
+      "moroccan pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "world",
+    "primaryGenre": "R&B",
+    "likes": "1.4M",
+    "tier": "Established"
+  },
+  {
+    "id": "1xMn0bhYRWHDV01mU8gP1J",
+    "name": "LBI利比",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcaaa95720c660b8918ecaa9e",
+    "followers": 145316,
+    "spotifyId": "1xMn0bhYRWHDV01mU8gP1J",
+    "spotifyPopularity": 68,
+    "genres": [
+      "chinese r&b",
+      "mandopop",
+      "c-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "world",
+    "primaryGenre": "R&B",
+    "likes": "145K",
+    "tier": "Established"
+  },
+  {
+    "id": "2dZM3D9rBveK3dywr1WQkN",
+    "name": "Alliance Ethnik",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f05438406a5201bb8cedba3b",
+    "followers": 57523,
+    "spotifyId": "2dZM3D9rBveK3dywr1WQkN",
+    "spotifyPopularity": 43,
+    "genres": [
+      "french r&b",
+      "french rap"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "ethnic",
+    "primaryGenre": "R&B",
+    "likes": "57K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2AV6XDIs32ofIJhkkDevjm",
+    "name": "Curtis Mayfield",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebeea0f2f51d7969bbb4000f92",
+    "followers": 1169804,
+    "spotifyId": "2AV6XDIs32ofIJhkkDevjm",
+    "spotifyPopularity": 60,
+    "genres": [
+      "classic soul",
+      "soul",
+      "motown"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "traditional",
+    "primaryGenre": "R&B",
+    "likes": "1.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "5Tx9SammMKFG5aozuij1U1",
+    "name": "Sa-ra Creative Partners",
+    "image": "https://i.scdn.co/image/ab67616d0000b27389d5eb976f10f7ea09c1ae47",
+    "followers": 15207,
+    "spotifyId": "5Tx9SammMKFG5aozuij1U1",
+    "spotifyPopularity": 21,
+    "genres": [
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "creative",
+    "primaryGenre": "R&B",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6avGAzQTmqu8mfSmZrN7gT",
+    "name": "The Moments",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d1401861103f8eb69b1a1e51",
+    "followers": 176813,
+    "spotifyId": "6avGAzQTmqu8mfSmZrN7gT",
+    "spotifyPopularity": 38,
+    "genres": [
+      "classic soul",
+      "philly soul",
+      "northern soul",
+      "quiet storm"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "momentum",
+    "primaryGenre": "R&B",
+    "likes": "176K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2KZp9cq9DQ9unz17ohWTlL",
+    "name": "KIRE",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7bc20662d8575db99968afab",
+    "followers": 39133,
+    "spotifyId": "2KZp9cq9DQ9unz17ohWTlL",
+    "spotifyPopularity": 42,
+    "genres": [
+      "chinese r&b",
+      "chinese hip hop",
+      "c-pop",
+      "mandopop",
+      "chinese indie",
+      "taiwanese indie",
+      "taiwanese pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rising",
+    "primaryGenre": "R&B",
+    "likes": "39K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6ktPQsThz35JwdtDsvi51S",
+    "name": "Anthony David",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb076f73f60301d4093b808c90",
+    "followers": 151136,
+    "spotifyId": "6ktPQsThz35JwdtDsvi51S",
+    "spotifyPopularity": 40,
+    "genres": [
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "debut",
+    "primaryGenre": "R&B",
+    "likes": "151K",
+    "tier": "Rising"
+  },
+  {
+    "id": "20v3nhzoeaO2WvDSCdY0f4",
+    "name": "First Choice",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730179e31dada5056ec69fde6a",
+    "followers": 50944,
+    "spotifyId": "20v3nhzoeaO2WvDSCdY0f4",
+    "spotifyPopularity": 38,
+    "genres": [
+      "philly soul",
+      "disco",
+      "chicago house",
+      "post-disco",
+      "disco house"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "first",
+    "primaryGenre": "R&B",
+    "likes": "50K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2416FtiudAa79lko2LIVii",
+    "name": "First Love Music",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc413f7ad466cc5c6a5593138",
+    "followers": 15936,
+    "spotifyId": "2416FtiudAa79lko2LIVii",
+    "spotifyPopularity": 33,
+    "genres": [
+      "gospel r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "first",
+    "primaryGenre": "R&B",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "5UIl2yxuQbC2rU8m9pN8mD",
+    "name": "Mumu Fresh",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb620ba133e0f799c4da5a4298",
+    "followers": 21823,
+    "spotifyId": "5UIl2yxuQbC2rU8m9pN8mD",
+    "spotifyPopularity": 33,
+    "genres": [
+      "neo soul",
+      "retro pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "fresh",
+    "primaryGenre": "R&B",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "34Bm9d5DAJjSnaI02BCjdA",
+    "name": "The New Birth",
+    "image": "https://i.scdn.co/image/be8c24d6773ed813a2629cf4cf5ad7c4dc0ccff5",
+    "followers": 155110,
+    "spotifyId": "34Bm9d5DAJjSnaI02BCjdA",
+    "spotifyPopularity": 36,
+    "genres": [
+      "classic soul",
+      "quiet storm"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "new",
+    "primaryGenre": "R&B",
+    "likes": "155K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3AdY4ZU741vIdM0oUNIDns",
+    "name": "New Ridaz",
+    "image": "https://i.scdn.co/image/ab67616d0000b27342eada67f711e29df246f023",
+    "followers": 46581,
+    "spotifyId": "3AdY4ZU741vIdM0oUNIDns",
+    "spotifyPopularity": 30,
+    "genres": [
+      "latin r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "new",
+    "primaryGenre": "R&B",
+    "likes": "46K",
+    "tier": "Underground"
+  },
+  {
+    "id": "336vr2M3Va0FjyvB55lJEd",
+    "name": "D'Angelo",
+    "image": "https://i.scdn.co/image/c69197fa9d01ec73e2617525b920e76b550ba2e2",
+    "followers": 1304969,
+    "spotifyId": "336vr2M3Va0FjyvB55lJEd",
+    "spotifyPopularity": 63,
+    "genres": [
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "new",
+    "primaryGenre": "R&B",
+    "likes": "1.3M",
+    "tier": "Established"
+  },
+  {
+    "id": "0tbeZu9lv8YEKSQ9tZSslu",
+    "name": "Amber Mark",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1f301e0eb14239eb0a31b6e7",
+    "followers": 454256,
+    "spotifyId": "0tbeZu9lv8YEKSQ9tZSslu",
+    "spotifyPopularity": 63,
+    "genres": [
+      "alternative r&b",
+      "indie soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "new",
+    "primaryGenre": "R&B",
+    "likes": "454K",
+    "tier": "Established"
+  },
+  {
+    "id": "5XMyhVhi5ZN2pi0Qwi1zXS",
+    "name": "Joy Crookes",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf7ea53cd2207d81a415efe7b",
+    "followers": 519802,
+    "spotifyId": "5XMyhVhi5ZN2pi0Qwi1zXS",
+    "spotifyPopularity": 62,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "new",
+    "primaryGenre": "R&B",
+    "likes": "519K",
+    "tier": "Established"
+  },
+  {
+    "id": "2MGT7CYlixSPxAnnkhLpaA",
+    "name": "Next",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb58f9f8c32588c5bfe4388b8",
+    "followers": 1248674,
+    "spotifyId": "2MGT7CYlixSPxAnnkhLpaA",
+    "spotifyPopularity": 57,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "next",
+    "primaryGenre": "R&B",
+    "likes": "1.2M",
+    "tier": "Rising"
+  },
+  {
+    "id": "2yTwZyGRSRDUjZNsLvIOW4",
+    "name": "kulturr",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdba81e98ce6dc1a4f1f59e62",
+    "followers": 21211,
+    "spotifyId": "2yTwZyGRSRDUjZNsLvIOW4",
+    "spotifyPopularity": 57,
+    "genres": [
+      "french r&b",
+      "pop urbaine"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "culture",
+    "primaryGenre": "R&B",
+    "likes": "21K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4yJHrytMK7mqtKsXVGaBNg",
+    "name": "Fana Hues",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb063bccd9d16924d8824389bb",
+    "followers": 125628,
+    "spotifyId": "4yJHrytMK7mqtKsXVGaBNg",
+    "spotifyPopularity": 60,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "fan",
+    "primaryGenre": "R&B",
+    "likes": "125K",
+    "tier": "Established"
+  },
+  {
+    "id": "7xAcVHPiirnUqfdqo0USb1",
+    "name": "Fantasia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb78bf731dde467f2f0c60ca6b",
+    "followers": 2208099,
+    "spotifyId": "7xAcVHPiirnUqfdqo0USb1",
+    "spotifyPopularity": 60,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "fan",
+    "primaryGenre": "R&B",
+    "likes": "2.2M",
+    "tier": "Established"
+  },
+  {
+    "id": "0W8WpLB5WoXLgiA193LXk6",
+    "name": "Sun-El Musician",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcaa046739e2904c2fe5d9a93",
+    "followers": 875819,
+    "spotifyId": "0W8WpLB5WoXLgiA193LXk6",
+    "spotifyPopularity": 53,
+    "genres": [
+      "afro soul",
+      "afropop",
+      "afro house",
+      "3 step",
+      "amapiano",
+      "gqom",
+      "private school piano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "musicians",
+    "primaryGenre": "R&B",
+    "likes": "875K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3Z0hrO5NvALfcVK5hk79CJ",
+    "name": "Showmaîn",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8faa10360c0c30867c6141e5",
+    "followers": 19834,
+    "spotifyId": "3Z0hrO5NvALfcVK5hk79CJ",
+    "spotifyPopularity": 37,
+    "genres": [
+      "chinese r&b",
+      "chinese indie",
+      "c-pop",
+      "mandopop",
+      "taiwanese pop",
+      "chinese hip hop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "showmen",
+    "primaryGenre": "R&B",
+    "likes": "19K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0x7bC0gbku4Mu85Pv6wYva",
+    "name": "ShowMinorSavage",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9d1e2c8bf1bdacea4a0e7d34",
+    "followers": 27744,
+    "spotifyId": "0x7bC0gbku4Mu85Pv6wYva",
+    "spotifyPopularity": 37,
+    "genres": [
+      "j-r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "showmen",
+    "primaryGenre": "R&B",
+    "likes": "27K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7Jkv0oBbEmxtNnLsxT7NMt",
+    "name": "Refugee Camp All-Stars",
+    "image": "https://i.scdn.co/image/ab67616d0000b273458282805fe7267fa6d59d2b",
+    "followers": 12855,
+    "spotifyId": "7Jkv0oBbEmxtNnLsxT7NMt",
+    "spotifyPopularity": 41,
+    "genres": [
+      "neo soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "stars",
+    "primaryGenre": "R&B",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1B8AXU6gIIafpyLEpbcv1u",
+    "name": "Edwin Starr",
+    "image": "https://i.scdn.co/image/d2de194d27ca66e6a5bd892f54173bef7b60bdb7",
+    "followers": 172514,
+    "spotifyId": "1B8AXU6gIIafpyLEpbcv1u",
+    "spotifyPopularity": 51,
+    "genres": [
+      "northern soul",
+      "motown",
+      "classic soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "stars",
+    "primaryGenre": "R&B",
+    "likes": "172K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1EpyA68dKpjf7jXmQL88Hy",
+    "name": "Noname",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3039e709aa86d7909788d243",
+    "followers": 763112,
+    "spotifyId": "1EpyA68dKpjf7jXmQL88Hy",
+    "spotifyPopularity": 53,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "names",
+    "primaryGenre": "R&B",
+    "likes": "763K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1TSEWPOtBfCelJqufaJvvZ",
+    "name": "Thee Heart Tones",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9a16ee78684911e5e81156a9",
+    "followers": 11423,
+    "spotifyId": "1TSEWPOtBfCelJqufaJvvZ",
+    "spotifyPopularity": 38,
+    "genres": [
+      "retro soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "tones",
+    "primaryGenre": "R&B",
+    "likes": "11K",
+    "tier": "Underground"
+  },
+  {
+    "id": "438JBZR1AR0l04AzcYW9gy",
+    "name": "Harold Melvin & The Blue Notes",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdf3b3e0e84951aed03e2169c",
+    "followers": 661376,
+    "spotifyId": "438JBZR1AR0l04AzcYW9gy",
+    "spotifyPopularity": 55,
+    "genres": [
+      "philly soul",
+      "classic soul",
+      "motown",
+      "soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "notes",
+    "primaryGenre": "R&B",
+    "likes": "661K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0GUFrEry7OHxPMcpjPH9lQ",
+    "name": "Phillip-Michael Scales",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3ebc5552e0041b6b063149d1",
+    "followers": 14542,
+    "spotifyId": "0GUFrEry7OHxPMcpjPH9lQ",
+    "spotifyPopularity": 37,
+    "genres": [
+      "retro soul",
+      "modern blues",
+      "blues rock"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "scales",
+    "primaryGenre": "R&B",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4EYRKWX3RvHihDHDr8TocR",
+    "name": "The Mar-Keys",
+    "image": "https://i.scdn.co/image/ab67616d0000b27344e5f4c58dbecf728edd50fe",
+    "followers": 31707,
+    "spotifyId": "4EYRKWX3RvHihDHDr8TocR",
+    "spotifyPopularity": 34,
+    "genres": [
+      "classic soul",
+      "northern soul",
+      "soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "keys",
+    "primaryGenre": "R&B",
+    "likes": "31K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2FBvlvG5TL6SPA2tCLiusa",
+    "name": "Tempest",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf892bc39c680586316a2dd91",
+    "followers": 28424,
+    "spotifyId": "2FBvlvG5TL6SPA2tCLiusa",
+    "spotifyPopularity": 36,
+    "genres": [
+      "alternative r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "tempos",
+    "primaryGenre": "R&B",
+    "likes": "28K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6vuD08WKtmp1yc7kQx1rBm",
+    "name": "The Main Ingredient",
+    "image": "https://i.scdn.co/image/ec163d32cabb18044284c5287b8107f7c1410b4c",
+    "followers": 233492,
+    "spotifyId": "6vuD08WKtmp1yc7kQx1rBm",
+    "spotifyPopularity": 46,
+    "genres": [
+      "classic soul",
+      "philly soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rhythms",
+    "primaryGenre": "R&B",
+    "likes": "233K",
+    "tier": "Rising"
+  },
+  {
+    "id": "45dMXQSIdhCQd5RUqDSpka",
+    "name": "ELAIZA",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0efa27d434c5038b4ddc869a",
+    "followers": 18044,
+    "spotifyId": "45dMXQSIdhCQd5RUqDSpka",
+    "spotifyPopularity": 36,
+    "genres": [
+      "j-r&b",
+      "city pop",
+      "japanese indie",
+      "j-pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "eras",
+    "primaryGenre": "R&B",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1xCrrnnj9xif5G0y3ie5dM",
+    "name": "Patrick Brasca",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6f5c05e2c63264a26c854186",
+    "followers": 163340,
+    "spotifyId": "1xCrrnnj9xif5G0y3ie5dM",
+    "spotifyPopularity": 58,
+    "genres": [
+      "chinese r&b",
+      "chinese hip hop",
+      "mandopop",
+      "c-pop",
+      "taiwanese pop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "eras",
+    "primaryGenre": "R&B",
+    "likes": "163K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2saNOYtb2v8aXMmezcwAiI",
+    "name": "Zeina",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3e7fba6620953d7d9935b81f",
+    "followers": 99349,
+    "spotifyId": "2saNOYtb2v8aXMmezcwAiI",
+    "spotifyPopularity": 52,
+    "genres": [
+      "dark r&b",
+      "indie r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "times",
+    "primaryGenre": "R&B",
+    "likes": "99K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1goOx6gnQdUllLfSMsL4Rt",
+    "name": "Marques Houston",
+    "image": "https://i.scdn.co/image/3f04f3bcfea5d40eb0f7ab4557efef8453e28486",
+    "followers": 886354,
+    "spotifyId": "1goOx6gnQdUllLfSMsL4Rt",
+    "spotifyPopularity": 50,
+    "genres": [
+      "r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "hours",
+    "primaryGenre": "R&B",
+    "likes": "886K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6pthLI3SnpAzmSsdky1iy3",
+    "name": "day2k",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2500e0dd6cca46332d8b46eb",
+    "followers": 26936,
+    "spotifyId": "6pthLI3SnpAzmSsdky1iy3",
+    "spotifyPopularity": 48,
+    "genres": [
+      "latin r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "days",
+    "primaryGenre": "R&B",
+    "likes": "26K",
+    "tier": "Rising"
+  },
+  {
+    "id": "41mwTkqJfMxPMbQmEdN2S2",
+    "name": "Dayo Bello",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb747c85b1898e1bcae712c2c8",
+    "followers": 17156,
+    "spotifyId": "41mwTkqJfMxPMbQmEdN2S2",
+    "spotifyPopularity": 41,
+    "genres": [
+      "uk r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "days",
+    "primaryGenre": "R&B",
+    "likes": "17K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3MJfWNIXIwgsRX5OeHl2O3",
+    "name": "9DAYS",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdfa5af8acabfacb6477217d4",
+    "followers": 13084,
+    "spotifyId": "3MJfWNIXIwgsRX5OeHl2O3",
+    "spotifyPopularity": 38,
+    "genres": [
+      "neo soul",
+      "alté"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "days",
+    "primaryGenre": "R&B",
+    "likes": "13K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0iiDqBBNToKJG4YoyESrBf",
+    "name": "Always Never",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe3e074ea4b5fdbb80a7dccd1",
+    "followers": 120423,
+    "spotifyId": "0iiDqBBNToKJG4YoyESrBf",
+    "spotifyPopularity": 46,
+    "genres": [
+      "dark r&b",
+      "trap soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "always",
+    "primaryGenre": "R&B",
+    "likes": "120K",
+    "tier": "Rising"
+  },
+  {
+    "id": "34OTRVwyaE8DkOrGMQa7Ah",
+    "name": "LATENIGHTJIGGY",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9d32faca831b1f905428cc02",
+    "followers": 22464,
+    "spotifyId": "34OTRVwyaE8DkOrGMQa7Ah",
+    "spotifyPopularity": 40,
+    "genres": [
+      "latin r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "R&B",
+    "likes": "22K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6QbSwCeNaIhbfp1jpZ02nZ",
+    "name": "Alter.",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb7e167a0d5aef3d48ecc7a59",
+    "followers": 17572,
+    "spotifyId": "6QbSwCeNaIhbfp1jpZ02nZ",
+    "spotifyPopularity": 40,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "altered",
+    "primaryGenre": "R&B",
+    "likes": "17K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1gW1Q6W7d3a9dDXk1KlbG8",
+    "name": "Chase Shakur",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfbf7eb37f3366e43964c56a4",
+    "followers": 267524,
+    "spotifyId": "1gW1Q6W7d3a9dDXk1KlbG8",
+    "spotifyPopularity": 57,
+    "genres": [
+      "dark r&b"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chasing",
+    "primaryGenre": "R&B",
+    "likes": "267K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3dGTi4MZZo4zXdQaKAS1va",
+    "name": "Rotary Connection",
+    "image": "https://i.scdn.co/image/ab67616d0000b273133ad63a92206ca962c75bbc",
+    "followers": 21381,
+    "spotifyId": "3dGTi4MZZo4zXdQaKAS1va",
+    "spotifyPopularity": 32,
+    "genres": [
+      "classic soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "connecting",
+    "primaryGenre": "R&B",
+    "likes": "21K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2UocIcNiHj5n4tj1CnBzRq",
+    "name": "Barbara Lewis",
+    "image": "https://i.scdn.co/image/e73ef2454e85fdd404e185733f8be24bfb5546a7",
+    "followers": 85934,
+    "spotifyId": "2UocIcNiHj5n4tj1CnBzRq",
+    "spotifyPopularity": 46,
+    "genres": [
+      "northern soul",
+      "doo-wop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "85K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2ttm3uT0N1RN7vwKv1pQgh",
+    "name": "Brook Benton",
+    "image": "https://i.scdn.co/image/4ada684f556acdc024c09dac0e172d92a3f94a5a",
+    "followers": 81699,
+    "spotifyId": "2ttm3uT0N1RN7vwKv1pQgh",
+    "spotifyPopularity": 45,
+    "genres": [
+      "classic soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "81K",
+    "tier": "Rising"
+  },
+  {
+    "id": "53jXEVVJtpaWVQ3ffvhDtl",
+    "name": "Betty Everett",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732d01005d68574e2ec360834b",
+    "followers": 34753,
+    "spotifyId": "53jXEVVJtpaWVQ3ffvhDtl",
+    "spotifyPopularity": 44,
+    "genres": [
+      "northern soul",
+      "doo-wop",
+      "motown"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "34K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3jiBDfjnWIdLQEEOdKqZex",
+    "name": "Doris Troy",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737eb9c0868fe80bcd235c6d64",
+    "followers": 18369,
+    "spotifyId": "3jiBDfjnWIdLQEEOdKqZex",
+    "spotifyPopularity": 43,
+    "genres": [
+      "northern soul",
+      "doo-wop",
+      "motown"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "18K",
+    "tier": "Rising"
+  },
+  {
+    "id": "05kB8yh0Bbxj73qH63Ob3C",
+    "name": "Helen Shapiro",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b41736773754754739a1887d",
+    "followers": 74078,
+    "spotifyId": "05kB8yh0Bbxj73qH63Ob3C",
+    "spotifyPopularity": 40,
+    "genres": [
+      "northern soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "74K",
+    "tier": "Rising"
+  },
+  {
+    "id": "72Q7helEnjOptf8FAoZQTi",
+    "name": "The Velvelettes",
+    "image": "https://i.scdn.co/image/ab67616d0000b273af108edeb220a38f1719a957",
+    "followers": 146967,
+    "spotifyId": "72Q7helEnjOptf8FAoZQTi",
+    "spotifyPopularity": 40,
+    "genres": [
+      "northern soul",
+      "motown",
+      "classic soul",
+      "soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "146K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2GF1B0GIaFrLFLdfH6ufRO",
+    "name": "The Exciters",
+    "image": "https://i.scdn.co/image/236a6080f08ac0002a206e089bdb854782856782",
+    "followers": 24482,
+    "spotifyId": "2GF1B0GIaFrLFLdfH6ufRO",
+    "spotifyPopularity": 40,
+    "genres": [
+      "northern soul",
+      "doo-wop",
+      "motown"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "24K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2JyxVsEiD9HVRM7CtFaLCK",
+    "name": "Timi Yuro",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb27d23645fe2ed2780f09224a",
+    "followers": 29661,
+    "spotifyId": "2JyxVsEiD9HVRM7CtFaLCK",
+    "spotifyPopularity": 37,
+    "genres": [
+      "northern soul",
+      "adult standards"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "29K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7yICbxtb8buBAJECvQbRPb",
+    "name": "The Spiral Starecase",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736a3c49ba3975d662adf949bb",
+    "followers": 14348,
+    "spotifyId": "7yICbxtb8buBAJECvQbRPb",
+    "spotifyPopularity": 37,
+    "genres": [
+      "northern soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4WFTfNjxQYskBioYk39r9n",
+    "name": "Billy Joe Royal",
+    "image": "https://i.scdn.co/image/165b1aa9ff8abae9d9d3f74bf8a42fe8c99b3b8a",
+    "followers": 34144,
+    "spotifyId": "4WFTfNjxQYskBioYk39r9n",
+    "spotifyPopularity": 35,
+    "genres": [
+      "northern soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "34K",
+    "tier": "Underground"
+  },
+  {
+    "id": "2NtGOVTuHBMDfR5PMNPBGT",
+    "name": "Dee Dee Sharp",
+    "image": "https://i.scdn.co/image/fff5273686201973a5c6b241c64b2e4e18fd0d15",
+    "followers": 39320,
+    "spotifyId": "2NtGOVTuHBMDfR5PMNPBGT",
+    "spotifyPopularity": 37,
+    "genres": [
+      "philly soul",
+      "doo-wop",
+      "northern soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "39K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6PyZY3e7wgYgRdegqvqhSo",
+    "name": "Dee Clark",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e7275d3e2300cd4524596e2c",
+    "followers": 17245,
+    "spotifyId": "6PyZY3e7wgYgRdegqvqhSo",
+    "spotifyPopularity": 31,
+    "genres": [
+      "northern soul",
+      "doo-wop",
+      "classic soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "17K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1kCqTUSrWJEHZm2GSpRuMV",
+    "name": "Maxine Brown",
+    "image": "https://i.scdn.co/image/ab67616d0000b27382b44a1aca8e036d83f57149",
+    "followers": 18646,
+    "spotifyId": "1kCqTUSrWJEHZm2GSpRuMV",
+    "spotifyPopularity": 28,
+    "genres": [
+      "northern soul",
+      "classic soul",
+      "doo-wop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "18K",
+    "tier": "Underground"
+  },
+  {
+    "id": "64wglyu5BoOzwMXYjtAbfS",
+    "name": "Chuck Jackson",
+    "image": "https://i.scdn.co/image/b4ce4e7ef02dfca888f8f5f7d97f56fc79dcb5b0",
+    "followers": 22045,
+    "spotifyId": "64wglyu5BoOzwMXYjtAbfS",
+    "spotifyPopularity": 28,
+    "genres": [
+      "northern soul",
+      "motown",
+      "doo-wop"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "22K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1wonEkTZkBGYq7J4w56yZl",
+    "name": "The Sweet Inspirations",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a7c6376d70761134ddd0a18a",
+    "followers": 14391,
+    "spotifyId": "1wonEkTZkBGYq7J4w56yZl",
+    "spotifyPopularity": 26,
+    "genres": [
+      "classic soul",
+      "soul",
+      "philly soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "14K",
+    "tier": "Underground"
+  },
+  {
+    "id": "3KeTziLAcJFEnbhfIMRh5w",
+    "name": "Dee Dee Warwick",
+    "image": "https://i.scdn.co/image/080324c5229c4a6240fc716d098f9711dc82a6f2",
+    "followers": 12448,
+    "spotifyId": "3KeTziLAcJFEnbhfIMRh5w",
+    "spotifyPopularity": 21,
+    "genres": [
+      "northern soul",
+      "philly soul",
+      "classic soul",
+      "soul"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "building",
+    "primaryGenre": "R&B",
+    "likes": "12K",
+    "tier": "Underground"
   }
 ]

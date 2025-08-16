@@ -186,7 +186,7 @@ class LocalStorageService {
     `;
 
     const result = await this.db.getAllAsync(query, [limit]);
-    return result.map((row) => ({
+    return result.map((row: any) => ({
       ...row,
       playedAt: new Date(row.playedAt),
     }));
@@ -246,7 +246,7 @@ class LocalStorageService {
     `;
 
     const result = await this.db.getAllAsync(query, [limit]);
-    return result.map((row) => ({
+    return result.map((row: any) => ({
       ...row,
       timestamp: new Date(row.timestamp),
     }));
@@ -360,8 +360,8 @@ class LocalStorageService {
 
     return {
       ...result,
-      metadata: JSON.parse(result.metadata),
-      cachedAt: new Date(result.cachedAt),
+      metadata: JSON.parse((result as any).metadata),
+      cachedAt: new Date((result as any).cachedAt),
     };
   }
 
@@ -420,10 +420,10 @@ class LocalStorageService {
     );
 
     return {
-      historyCount: historyResult?.count || 0,
-      scrobblesCount: scrobblesResult?.count || 0,
-      lyricsCacheCount: lyricsResult?.count || 0,
-      metadataCacheCount: metadataResult?.count || 0,
+      historyCount: (historyResult as any)?.count || 0,
+      scrobblesCount: (scrobblesResult as any)?.count || 0,
+      lyricsCacheCount: (lyricsResult as any)?.count || 0,
+      metadataCacheCount: (metadataResult as any)?.count || 0,
     };
   }
 }

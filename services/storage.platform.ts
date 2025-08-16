@@ -5,15 +5,11 @@
 
 import { Platform } from 'react-native';
 
-// Use dynamic imports to avoid loading SQLite on web
-let storageService: any;
+// Import both storage services
+import nativeStorage from './storage';
+import webStorage from './storage.web';
 
-if (Platform.OS === 'web') {
-  // Use web implementation
-  storageService = require('./storage.web').default;
-} else {
-  // Use native SQLite implementation
-  storageService = require('./storage').default;
-}
+// Export the appropriate storage service based on platform
+const storageService = Platform.OS === 'web' ? webStorage : nativeStorage;
 
 export default storageService;

@@ -18,16 +18,30 @@ import { LinearGradient } from "expo-linear-gradient";
 import { COLORS, SPACING, SIZES, FONTS } from "../../constants/theme";
 import { MoodData, moodData, chillMoodData } from "../../constants/moodData";
 import { genreImages } from "../../assets/images/home/index";
-import { getArtistImage } from "../../utils/imageUtils";
 
 export default function MoodScreen() {
   const { id } = useLocalSearchParams();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("OVERVIEW");
 
+  // Resolve mood by slug from the in-memory database with a safe fallback
   const slug = String(id || "").toLowerCase();
-  const mood: MoodData = (moodData as any)[slug] || chillMoodData;
+  const mood: MoodData = moodData[slug] || chillMoodData;
   const headerImage = (genreImages as any)[slug];
+
+  // Synchronous image resolver for artists (to avoid async issues in render)
+  const getArtistImageSync = (
+    artistName: string,
+    artistImage?: string
+  ): any => {
+    if (artistImage && artistImage.startsWith("http")) {
+      return { uri: artistImage };
+    }
+    // Return a default placeholder for now
+    return {
+      uri: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
+    };
+  };
 
   const renderContentCard = (item: any) => (
     <TouchableOpacity style={styles.contentCard} activeOpacity={0.8}>
@@ -62,7 +76,7 @@ export default function MoodScreen() {
   const renderArtistCard = (artist: any) => (
     <TouchableOpacity style={styles.artistCard} activeOpacity={0.8}>
       <Image
-        source={getArtistImage(artist.name, artist.image)}
+        source={getArtistImageSync(artist.name, artist.image)}
         style={styles.artistImage}
       />
       <Text style={styles.artistName} numberOfLines={1}>
@@ -144,26 +158,43 @@ export default function MoodScreen() {
         </LinearGradient>
       </View>
 
-      <View style={styles.navTabs}>
-        {(["OVERVIEW", "PLAYLISTS", "NEW RELEASES", "ARTISTS"] as const).map(
-          (tab) => (
-            <TouchableOpacity
-              key={tab}
-              style={[styles.navTab, activeTab === tab && styles.activeTab]}
-              onPress={() => setActiveTab(tab)}
-            >
-              <Text
-                style={[
-                  styles.navTabText,
-                  activeTab === tab && styles.activeTabText,
-                ]}
+      <LinearGradient
+        colors={[
+          "rgba(99, 102, 241, 0.05)",
+          "rgba(99, 102, 241, 0.02)",
+          "transparent",
+        ]}
+        style={styles.navTabsContainer}
+      >
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.navTabsContent}
+        >
+          {(["OVERVIEW", "PLAYLISTS", "NEW RELEASES", "ARTISTS"] as const).map(
+            (tab) => (
+              <TouchableOpacity
+                key={tab}
+                style={[styles.navTab, activeTab === tab && styles.activeTab]}
+                onPress={() => setActiveTab(tab)}
               >
-                {tab}
-              </Text>
-            </TouchableOpacity>
-          )
-        )}
-      </View>
+                <Text
+                  style={[
+                    styles.navTabText,
+                    activeTab === tab && styles.activeTabText,
+                  ]}
+                >
+                  {tab}
+                </Text>
+                {activeTab === tab && (
+                  <View style={styles.activeTabIndicator} />
+                )}
+              </TouchableOpacity>
+            )
+          )}
+        </ScrollView>
+        <View style={styles.navTabsDivider} />
+      </LinearGradient>
 
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
         {activeTab === "OVERVIEW" && (
@@ -229,22 +260,71 @@ const styles = StyleSheet.create({
     color: COLORS.textPrimary,
     flex: 1,
   },
-  navTabs: {
-    flexDirection: "row",
-    paddingHorizontal: SPACING.lg,
-    marginBottom: SPACING.sm,
+  navTabsContainer: {
+    backgroundColor: COLORS.background,
+    paddingBottom: SPACING.sm,
+    borderBottomWidth: 1,
+    borderBottomColor: COLORS.border,
+    shadowColor: COLORS.primaryAccent,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 5,
   },
-  navTab: { marginRight: SPACING.xl, paddingBottom: SPACING.sm },
-  activeTab: {},
+  navTabsContent: {
+    paddingHorizontal: SPACING.lg,
+    alignItems: "center",
+  },
+  navTab: {
+    marginRight: SPACING.xl,
+    paddingBottom: SPACING.sm,
+    paddingHorizontal: SPACING.md,
+    paddingVertical: SPACING.sm,
+    alignItems: "center",
+    minWidth: 90,
+    borderRadius: SIZES.borderRadius,
+    backgroundColor: "rgba(255,255,255,0.02)",
+    borderWidth: 1,
+    borderColor: "transparent",
+  },
+  activeTab: {
+    backgroundColor: "rgba(99, 102, 241, 0.1)",
+    borderColor: "rgba(99, 102, 241, 0.3)",
+    shadowColor: COLORS.primaryAccent,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 3,
+  },
   navTabText: {
     fontSize: 14,
     fontFamily: FONTS.family.interMedium,
     color: COLORS.textSecondary,
+    textAlign: "center",
+    letterSpacing: 0.5,
+    marginBottom: SPACING.xs,
   },
   activeTabText: {
     color: COLORS.textPrimary,
     fontFamily: FONTS.family.interBold,
-    textDecorationLine: "underline",
+  },
+  activeTabIndicator: {
+    width: "100%",
+    height: 2,
+    backgroundColor: COLORS.primaryAccent,
+    borderRadius: 1,
+    marginTop: SPACING.xs,
+    shadowColor: COLORS.primaryAccent,
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  navTabsDivider: {
+    width: "100%",
+    height: 1,
+    backgroundColor: COLORS.border,
+    marginTop: SPACING.sm,
   },
   content: { flex: 1 },
   section: { marginBottom: SPACING.xl },

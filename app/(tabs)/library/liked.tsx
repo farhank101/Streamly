@@ -108,7 +108,7 @@ export default function LikedTab() {
         title: track.title,
         artist: track.artist,
         duration: track.duration,
-        thumbnailUrl: track.thumbnailUrl,
+        thumbnailUrl: track.thumbnailUrl || "",
         createdAt: new Date(),
       };
       play(trackToPlay);

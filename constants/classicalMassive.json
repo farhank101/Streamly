@@ -3,7 +3,7 @@
     "id": "2wOqMjp9TyABvtHdOSOTUS",
     "name": "Ludwig van Beethoven",
     "image": "https://i.scdn.co/image/ab6761610000e5eba636b0b244253f602a629796",
-    "followers": 5660866,
+    "followers": 5661620,
     "spotifyId": "2wOqMjp9TyABvtHdOSOTUS",
     "spotifyPopularity": 74,
     "genres": [
@@ -21,7 +21,7 @@
     "id": "6uRJnvQ3f8whVnmeoecv5Z",
     "name": "Berliner Philharmoniker",
     "image": "https://i.scdn.co/image/ab6761610000e5eb055b7b456a9d22d6ae1ed18f",
-    "followers": 254341,
+    "followers": 254419,
     "spotifyId": "6uRJnvQ3f8whVnmeoecv5Z",
     "spotifyPopularity": 74,
     "genres": [
@@ -40,7 +40,7 @@
     "id": "2uFUBdaVGtyMqckSeCl0Qj",
     "name": "Ludovico Einaudi",
     "image": "https://i.scdn.co/image/ab6761610000e5eb86008946f7c35b22282d7e8c",
-    "followers": 3916717,
+    "followers": 3917503,
     "spotifyId": "2uFUBdaVGtyMqckSeCl0Qj",
     "spotifyPopularity": 80,
     "genres": [
@@ -54,10 +54,86 @@
     "tier": "Popular Star"
   },
   {
+    "id": "5zCaQxjl110XTrm4LQ1CxY",
+    "name": "Herbert von Karajan",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf67fde1740e91a88445d5bdd",
+    "followers": 193892,
+    "spotifyId": "5zCaQxjl110XTrm4LQ1CxY",
+    "spotifyPopularity": 70,
+    "genres": [
+      "classical",
+      "opera",
+      "orchestra",
+      "requiem"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Classical",
+    "likes": "193K",
+    "tier": "Established"
+  },
+  {
+    "id": "4NJhFmfw43RLBLjQvxDuRS",
+    "name": "Wolfgang Amadeus Mozart",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7fa9108c6dadb8c3ec21da88",
+    "followers": 5830112,
+    "spotifyId": "4NJhFmfw43RLBLjQvxDuRS",
+    "spotifyPopularity": 78,
+    "genres": [
+      "classical",
+      "opera",
+      "requiem",
+      "classical piano",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Classical",
+    "likes": "5.8M",
+    "tier": "Established"
+  },
+  {
+    "id": "5yxyJsFanEAuwSM5kOuZKc",
+    "name": "London Symphony Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5a5d168879568c94e86c61aa",
+    "followers": 342127,
+    "spotifyId": "5yxyJsFanEAuwSM5kOuZKc",
+    "spotifyPopularity": 76,
+    "genres": [
+      "classical",
+      "orchestra",
+      "opera"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Classical",
+    "likes": "342K",
+    "tier": "Established"
+  },
+  {
+    "id": "5wTAi7QkpP6kp8a54lmTOq",
+    "name": "Johannes Brahms",
+    "image": "https://i.scdn.co/image/d5c6af18beb1411ab49c2976647e0d370bf66a88",
+    "followers": 1066758,
+    "spotifyId": "5wTAi7QkpP6kp8a54lmTOq",
+    "spotifyPopularity": 68,
+    "genres": [
+      "classical",
+      "classical piano",
+      "chamber music",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "r&b",
+    "primaryGenre": "Classical",
+    "likes": "1.1M",
+    "tier": "Established"
+  },
+  {
     "id": "2tfWguHr2nj4e8KXLKciVq",
     "name": "André Previn",
     "image": "https://i.scdn.co/image/8680bc690ee5747b08f6a9a7566f000cce6e220b",
-    "followers": 40292,
+    "followers": 40307,
     "spotifyId": "2tfWguHr2nj4e8KXLKciVq",
     "spotifyPopularity": 64,
     "genres": [
@@ -74,7 +150,7 @@
     "id": "5aIqB5nVVvmFsvSdExz408",
     "name": "Johann Sebastian Bach",
     "image": "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88",
-    "followers": 4751637,
+    "followers": 4752396,
     "spotifyId": "5aIqB5nVVvmFsvSdExz408",
     "spotifyPopularity": 79,
     "genres": [
@@ -88,30 +164,10 @@
     "tier": "Established"
   },
   {
-    "id": "4NJhFmfw43RLBLjQvxDuRS",
-    "name": "Wolfgang Amadeus Mozart",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb7fa9108c6dadb8c3ec21da88",
-    "followers": 5829315,
-    "spotifyId": "4NJhFmfw43RLBLjQvxDuRS",
-    "spotifyPopularity": 78,
-    "genres": [
-      "classical",
-      "opera",
-      "requiem",
-      "classical piano",
-      "chamber music"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "classical",
-    "primaryGenre": "Classical",
-    "likes": "5.8M",
-    "tier": "Established"
-  },
-  {
     "id": "7y97mc3bZRFXzT2szRM4L4",
     "name": "Frédéric Chopin",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe55372097569b7b56b439365",
-    "followers": 3529746,
+    "followers": 3530253,
     "spotifyId": "7y97mc3bZRFXzT2szRM4L4",
     "spotifyPopularity": 75,
     "genres": [
@@ -128,7 +184,7 @@
     "id": "3MKCzCnpzw3TjUYs2v7vDA",
     "name": "Pyotr Ilyich Tchaikovsky",
     "image": "https://i.scdn.co/image/9a7c31f43e22a95f6d3c57baf4f87a3a9d2b93e0",
-    "followers": 1507447,
+    "followers": 1507693,
     "spotifyId": "3MKCzCnpzw3TjUYs2v7vDA",
     "spotifyPopularity": 71,
     "genres": [
@@ -145,7 +201,7 @@
     "id": "1Uff91EOsvd99rtAupatMP",
     "name": "Claude Debussy",
     "image": "https://i.scdn.co/image/5e1155c852578ddf5d2cfea94ccb3a8a65efa882",
-    "followers": 1631827,
+    "followers": 1631968,
     "spotifyId": "1Uff91EOsvd99rtAupatMP",
     "spotifyPopularity": 71,
     "genres": [
@@ -162,7 +218,7 @@
     "id": "17hR0sYHpx7VYTMRfFUOmY",
     "name": "Maurice Ravel",
     "image": "https://i.scdn.co/image/0d8f2b3e9ab748e7767fd31ff9386e06e5834e2b",
-    "followers": 543215,
+    "followers": 543252,
     "spotifyId": "17hR0sYHpx7VYTMRfFUOmY",
     "spotifyPopularity": 61,
     "genres": [
@@ -177,28 +233,10 @@
     "tier": "Established"
   },
   {
-    "id": "5yxyJsFanEAuwSM5kOuZKc",
-    "name": "London Symphony Orchestra",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb5a5d168879568c94e86c61aa",
-    "followers": 341997,
-    "spotifyId": "5yxyJsFanEAuwSM5kOuZKc",
-    "spotifyPopularity": 76,
-    "genres": [
-      "classical",
-      "orchestra",
-      "opera"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "classical",
-    "primaryGenre": "Classical",
-    "likes": "341K",
-    "tier": "Established"
-  },
-  {
     "id": "2VZNmg4vCnew4Pavo8zDdW",
     "name": "Max Richter",
     "image": "https://i.scdn.co/image/ab6761610000e5eb8dee498089aaed97d680c5b7",
-    "followers": 1113063,
+    "followers": 1113289,
     "spotifyId": "2VZNmg4vCnew4Pavo8zDdW",
     "spotifyPopularity": 74,
     "genres": [
@@ -217,7 +255,7 @@
     "id": "6nZiWg5ZB511S24WmB7TCV",
     "name": "Alexander Scriabin",
     "image": "https://i.scdn.co/image/b2183c87f1ac1d61113e11c813cf94b2cc353b8b",
-    "followers": 85196,
+    "followers": 85216,
     "spotifyId": "6nZiWg5ZB511S24WmB7TCV",
     "spotifyPopularity": 53,
     "genres": [
@@ -234,7 +272,7 @@
     "id": "7nzSoJISlVJsn7O0yTeMOB",
     "name": "Joe Hisaishi",
     "image": "https://i.scdn.co/image/ab6761610000e5eb255e3fb8af57399bc9975c61",
-    "followers": 1452116,
+    "followers": 1452583,
     "spotifyId": "7nzSoJISlVJsn7O0yTeMOB",
     "spotifyPopularity": 72,
     "genres": [
@@ -251,7 +289,7 @@
     "id": "2QOIawHpSlOwXDvSqQ9YJR",
     "name": "Antonio Vivaldi",
     "image": "https://i.scdn.co/image/9785700bae86f991f78183076861c7342a4bcf90",
-    "followers": 2690300,
+    "followers": 2690716,
     "spotifyId": "2QOIawHpSlOwXDvSqQ9YJR",
     "spotifyPopularity": 72,
     "genres": [
@@ -264,29 +302,10 @@
     "tier": "Established"
   },
   {
-    "id": "5zCaQxjl110XTrm4LQ1CxY",
-    "name": "Herbert von Karajan",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf67fde1740e91a88445d5bdd",
-    "followers": 193831,
-    "spotifyId": "5zCaQxjl110XTrm4LQ1CxY",
-    "spotifyPopularity": 70,
-    "genres": [
-      "classical",
-      "opera",
-      "orchestra",
-      "requiem"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "classical",
-    "primaryGenre": "Classical",
-    "likes": "193K",
-    "tier": "Established"
-  },
-  {
     "id": "0Gw30FmjnPfqEh75ACEjyh",
     "name": "Classical Study Music",
     "image": "https://i.scdn.co/image/ab6761610000e5eb946de767ac0e1292b273be50",
-    "followers": 102025,
+    "followers": 101989,
     "spotifyId": "0Gw30FmjnPfqEh75ACEjyh",
     "spotifyPopularity": 37,
     "genres": [
@@ -296,14 +315,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "classical",
     "primaryGenre": "Classical",
-    "likes": "102K",
+    "likes": "101K",
     "tier": "Underground"
   },
   {
     "id": "459INk8vcC0ebEef82WjIK",
     "name": "Erik Satie",
     "image": "https://i.scdn.co/image/dd55078caac8105a3799c9d29f5172410da0c904",
-    "followers": 927542,
+    "followers": 927666,
     "spotifyId": "459INk8vcC0ebEef82WjIK",
     "spotifyPopularity": 69,
     "genres": [
@@ -320,7 +339,7 @@
     "id": "003f4bk13c6Q3gAUXv7dGJ",
     "name": "Wiener Philharmoniker",
     "image": "https://i.scdn.co/image/ab6761610000e5eb4bb5eb0860d831455fab32b6",
-    "followers": 153926,
+    "followers": 153978,
     "spotifyId": "003f4bk13c6Q3gAUXv7dGJ",
     "spotifyPopularity": 69,
     "genres": [
@@ -339,7 +358,7 @@
     "id": "77CaCn32H4mOMQA7UElzfF",
     "name": "Academy of St. Martin in the Fields",
     "image": "https://i.scdn.co/image/ab6761610000e5ebdddee9077f640ed8e3d9a2e4",
-    "followers": 66801,
+    "followers": 66823,
     "spotifyId": "77CaCn32H4mOMQA7UElzfF",
     "spotifyPopularity": 68,
     "genres": [
@@ -354,29 +373,10 @@
     "tier": "Established"
   },
   {
-    "id": "5wTAi7QkpP6kp8a54lmTOq",
-    "name": "Johannes Brahms",
-    "image": "https://i.scdn.co/image/d5c6af18beb1411ab49c2976647e0d370bf66a88",
-    "followers": 1066492,
-    "spotifyId": "5wTAi7QkpP6kp8a54lmTOq",
-    "spotifyPopularity": 68,
-    "genres": [
-      "classical",
-      "classical piano",
-      "chamber music",
-      "orchestra"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "classical",
-    "primaryGenre": "Classical",
-    "likes": "1.1M",
-    "tier": "Established"
-  },
-  {
     "id": "436sYg6CZhNefQJogaXeK0",
     "name": "Camille Saint-Saëns",
     "image": "https://i.scdn.co/image/f565d81f8dcfdec438207f6d8b34689f3489232a",
-    "followers": 431869,
+    "followers": 431935,
     "spotifyId": "436sYg6CZhNefQJogaXeK0",
     "spotifyPopularity": 68,
     "genres": [
@@ -392,7 +392,7 @@
     "id": "0fauHpmSHwodVYIjTqOGHz",
     "name": "Yiruma",
     "image": "https://i.scdn.co/image/ab6761610000e5eb4e45a9bfdc9dc3095d684b83",
-    "followers": 1223883,
+    "followers": 1224044,
     "spotifyId": "0fauHpmSHwodVYIjTqOGHz",
     "spotifyPopularity": 67,
     "genres": [
@@ -408,7 +408,7 @@
     "id": "59r5UU2HOytn9V5uMZ5Vur",
     "name": "Daniel Hope",
     "image": "https://i.scdn.co/image/ab6761610000e5eb67a2820207d51bdddb2b451d",
-    "followers": 53579,
+    "followers": 53609,
     "spotifyId": "59r5UU2HOytn9V5uMZ5Vur",
     "spotifyPopularity": 66,
     "genres": [
@@ -424,7 +424,7 @@
     "id": "5Dl3HXZjG6ZOWT5cV375lk",
     "name": "Yo-Yo Ma",
     "image": "https://i.scdn.co/image/ab6761610000e5ebfb0fcd51414e7bbe85e00b6f",
-    "followers": 643953,
+    "followers": 644111,
     "spotifyId": "5Dl3HXZjG6ZOWT5cV375lk",
     "spotifyPopularity": 67,
     "genres": [
@@ -434,14 +434,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "classical",
     "primaryGenre": "Classical",
-    "likes": "643K",
+    "likes": "644K",
     "tier": "Established"
   },
   {
     "id": "3PfJE6ebCbCHeuqO4BfNeA",
     "name": "London Philharmonic Orchestra",
     "image": "https://i.scdn.co/image/ab6761610000e5eb68060bb8c0b22952f9013901",
-    "followers": 244090,
+    "followers": 244143,
     "spotifyId": "3PfJE6ebCbCHeuqO4BfNeA",
     "spotifyPopularity": 67,
     "genres": [
@@ -459,7 +459,7 @@
     "id": "1385hLNbrnbCJGokfH2ac2",
     "name": "Franz Liszt",
     "image": "https://i.scdn.co/image/9ec531e3712e68c72ae3cf06f17e4055a615c4bf",
-    "followers": 900811,
+    "followers": 900886,
     "spotifyId": "1385hLNbrnbCJGokfH2ac2",
     "spotifyPopularity": 67,
     "genres": [
@@ -476,7 +476,7 @@
     "id": "3hJv5p2HwekJysNB2NDnEC",
     "name": "André Rieu",
     "image": "https://i.scdn.co/image/ab6761610000e5eb683bb51f2b1caf8b536ab893",
-    "followers": 1349732,
+    "followers": 1349859,
     "spotifyId": "3hJv5p2HwekJysNB2NDnEC",
     "spotifyPopularity": 67,
     "genres": [
@@ -493,7 +493,7 @@
     "id": "0Kekt6CKSo0m5mivKcoH51",
     "name": "Sergei Rachmaninoff",
     "image": "https://i.scdn.co/image/463e3c5c3e814761532f554913cf2af456bcba59",
-    "followers": 820258,
+    "followers": 820406,
     "spotifyId": "0Kekt6CKSo0m5mivKcoH51",
     "spotifyPopularity": 66,
     "genres": [
@@ -510,7 +510,7 @@
     "id": "6NUhQz7eAEsZvjEHTKHux9",
     "name": "Sir Neville Marriner",
     "image": "https://i.scdn.co/image/addf4464734979a85ef71a61c421f23a6bc143ae",
-    "followers": 34844,
+    "followers": 34859,
     "spotifyId": "6NUhQz7eAEsZvjEHTKHux9",
     "spotifyPopularity": 66,
     "genres": [
@@ -527,7 +527,7 @@
     "id": "1QL7yTHrdahRMpvNtn6rI2",
     "name": "George Frideric Handel",
     "image": "https://i.scdn.co/image/6391390229a5fb88e8e0d71e3e942b427d12d9a8",
-    "followers": 972299,
+    "followers": 972494,
     "spotifyId": "1QL7yTHrdahRMpvNtn6rI2",
     "spotifyPopularity": 66,
     "genres": [
@@ -545,7 +545,7 @@
     "id": "51HxUAjeZIOv4aniusaDkT",
     "name": "Johann Strauss Orchestra",
     "image": "https://i.scdn.co/image/74abdf733dc6a935c3288658cf50d7be92dd4705",
-    "followers": 52545,
+    "followers": 52571,
     "spotifyId": "51HxUAjeZIOv4aniusaDkT",
     "spotifyPopularity": 66,
     "genres": [
@@ -562,7 +562,7 @@
     "id": "7E3BRXV9ZbCt5lQTCXMTia",
     "name": "Ólafur Arnalds",
     "image": "https://i.scdn.co/image/ab6761610000e5eb7d901cbff8cb882e7ba4e5f3",
-    "followers": 869948,
+    "followers": 870060,
     "spotifyId": "7E3BRXV9ZbCt5lQTCXMTia",
     "spotifyPopularity": 66,
     "genres": [
@@ -572,14 +572,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "classical",
     "primaryGenre": "Classical",
-    "likes": "869K",
+    "likes": "870K",
     "tier": "Established"
   },
   {
     "id": "6HclTVD03WSY6GUpN16BkP",
     "name": "Claudio Abbado",
     "image": "https://i.scdn.co/image/bc4cad090275374d9276721974ab23eb61e5fe66",
-    "followers": 61894,
+    "followers": 61914,
     "spotifyId": "6HclTVD03WSY6GUpN16BkP",
     "spotifyPopularity": 66,
     "genres": [
@@ -598,7 +598,7 @@
     "id": "2p0UyoPfYfI76PCStuXfOP",
     "name": "Franz Schubert",
     "image": "https://i.scdn.co/image/ffd1ed5399935c49e9c34ba3681a899104998299",
-    "followers": 1184932,
+    "followers": 1185058,
     "spotifyId": "2p0UyoPfYfI76PCStuXfOP",
     "spotifyPopularity": 65,
     "genres": [
@@ -616,7 +616,7 @@
     "id": "4yNf9wUbfht6etRreqEtLk",
     "name": "Relaxing Piano Music",
     "image": "https://i.scdn.co/image/ab6761610000e5ebcba5f875a1e81e0f2ed3c33d",
-    "followers": 51482,
+    "followers": 51460,
     "spotifyId": "4yNf9wUbfht6etRreqEtLk",
     "spotifyPopularity": 63,
     "genres": [
@@ -632,7 +632,7 @@
     "id": "2UqjDAXnDxejEyE0CzfUrZ",
     "name": "Robert Schumann",
     "image": "https://i.scdn.co/image/795f15e4d860456a306055ccc995075c5dad9fa6",
-    "followers": 601618,
+    "followers": 601645,
     "spotifyId": "2UqjDAXnDxejEyE0CzfUrZ",
     "spotifyPopularity": 65,
     "genres": [
@@ -650,7 +650,7 @@
     "id": "58R31AvN8JMHM7xkNpVLjX",
     "name": "Alexis Ffrench",
     "image": "https://i.scdn.co/image/ab6761610000e5ebf02d96dbc42dc8f48f55c692",
-    "followers": 187751,
+    "followers": 187788,
     "spotifyId": "58R31AvN8JMHM7xkNpVLjX",
     "spotifyPopularity": 65,
     "genres": [
@@ -666,7 +666,7 @@
     "id": "1tcgfoMTT1szjUeaikxRjA",
     "name": "Ryuichi Sakamoto",
     "image": "https://i.scdn.co/image/ab6761610000e5eb323c73cb431edf7ba9ed34b2",
-    "followers": 1097935,
+    "followers": 1098178,
     "spotifyId": "1tcgfoMTT1szjUeaikxRjA",
     "spotifyPopularity": 64,
     "genres": [
@@ -683,7 +683,7 @@
     "id": "5ihY290YPGc3aY2xTyx7Gy",
     "name": "Edvard Grieg",
     "image": "https://i.scdn.co/image/a5dc4df4f87b534afc7b21116bc7680492210656",
-    "followers": 567147,
+    "followers": 567220,
     "spotifyId": "5ihY290YPGc3aY2xTyx7Gy",
     "spotifyPopularity": 64,
     "genres": [
@@ -700,7 +700,7 @@
     "id": "78sEozQOEJxzXegUuqRSgH",
     "name": "Daniel Barenboim",
     "image": "https://i.scdn.co/image/ab6761610000e5eb078ae88e99727476235d816f",
-    "followers": 148984,
+    "followers": 149029,
     "spotifyId": "78sEozQOEJxzXegUuqRSgH",
     "spotifyPopularity": 64,
     "genres": [
@@ -712,14 +712,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "classical",
     "primaryGenre": "Classical",
-    "likes": "148K",
+    "likes": "149K",
     "tier": "Established"
   },
   {
     "id": "1YZhNFBxkEB5UKTgMDvot4",
     "name": "Lang Lang",
     "image": "https://i.scdn.co/image/ab6761610000e5eb15c1582cd95a6521f41ec712",
-    "followers": 315981,
+    "followers": 316035,
     "spotifyId": "1YZhNFBxkEB5UKTgMDvot4",
     "spotifyPopularity": 64,
     "genres": [
@@ -729,14 +729,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "classical",
     "primaryGenre": "Classical",
-    "likes": "315K",
+    "likes": "316K",
     "tier": "Established"
   },
   {
     "id": "2gClsBep1tt1rv1CN210SO",
     "name": "Gabriel Fauré",
     "image": "https://i.scdn.co/image/965d539c15af1d86ec4875f05ec21d32414c3e64",
-    "followers": 228628,
+    "followers": 228683,
     "spotifyId": "2gClsBep1tt1rv1CN210SO",
     "spotifyPopularity": 64,
     "genres": [
@@ -753,7 +753,7 @@
     "id": "0hIG9FXgjQxT8fKaYceFbA",
     "name": "Itzhak Perlman",
     "image": "https://i.scdn.co/image/f1658bc66d1f99ab6d118f26a2abaf7dc33a272f",
-    "followers": 170998,
+    "followers": 171056,
     "spotifyId": "0hIG9FXgjQxT8fKaYceFbA",
     "spotifyPopularity": 64,
     "genres": [
@@ -763,31 +763,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "classical",
     "primaryGenre": "Classical",
-    "likes": "170K",
-    "tier": "Established"
-  },
-  {
-    "id": "4GQwgdcDQwqtcHICjUNndp",
-    "name": "Sir Simon Rattle",
-    "image": "https://i.scdn.co/image/ab6772690000c46c9fd4055a34d4d6d6a0314138",
-    "followers": 57027,
-    "spotifyId": "4GQwgdcDQwqtcHICjUNndp",
-    "spotifyPopularity": 64,
-    "genres": [
-      "classical",
-      "orchestra"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "classical",
-    "primaryGenre": "Classical",
-    "likes": "57K",
+    "likes": "171K",
     "tier": "Established"
   },
   {
     "id": "2DO4p3CPDnInsJfg0jFfaF",
     "name": "English Chamber Orchestra",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd56134c89f7b5ccbd2a06ca1",
-    "followers": 20367,
+    "followers": 20368,
     "spotifyId": "2DO4p3CPDnInsJfg0jFfaF",
     "spotifyPopularity": 64,
     "genres": [
@@ -805,7 +788,7 @@
     "id": "0jrFMgW018F1XVnLtCXOKi",
     "name": "Fabrizio Paterlini",
     "image": "https://i.scdn.co/image/ab6761610000e5eb612df214c0169a732d032f27",
-    "followers": 173878,
+    "followers": 173900,
     "spotifyId": "0jrFMgW018F1XVnLtCXOKi",
     "spotifyPopularity": 63,
     "genres": [
@@ -821,7 +804,7 @@
     "id": "6s1pCNXcbdtQJlsnM1hRIA",
     "name": "Dmitri Shostakovich",
     "image": "https://i.scdn.co/image/28f745db0a77d0e70db1c0be305f51b3478706aa",
-    "followers": 519761,
+    "followers": 519909,
     "spotifyId": "6s1pCNXcbdtQJlsnM1hRIA",
     "spotifyPopularity": 63,
     "genres": [
@@ -839,7 +822,7 @@
     "id": "3IpQziA6YwD53PQ5xbwgLF",
     "name": "Jóhann Jóhannsson",
     "image": "https://i.scdn.co/image/ab6761610000e5ebd48e69f1a6285f43905ad89b",
-    "followers": 309292,
+    "followers": 309332,
     "spotifyId": "3IpQziA6YwD53PQ5xbwgLF",
     "spotifyPopularity": 63,
     "genres": [
@@ -855,7 +838,7 @@
     "id": "6n7nd5iceYpXVwcx8VPpxF",
     "name": "Antonín Dvořák",
     "image": "https://i.scdn.co/image/f1cd0eea7fb3b75bfad16a10af1dc0dd0763efba",
-    "followers": 683355,
+    "followers": 683477,
     "spotifyId": "6n7nd5iceYpXVwcx8VPpxF",
     "spotifyPopularity": 63,
     "genres": [
@@ -873,7 +856,7 @@
     "id": "0iqgjl0OG3z53PZVIB7ZyD",
     "name": "Víkingur Ólafsson",
     "image": "https://i.scdn.co/image/ab6761610000e5eb4718bebe82eb2ad2cce9191a",
-    "followers": 102839,
+    "followers": 102861,
     "spotifyId": "0iqgjl0OG3z53PZVIB7ZyD",
     "spotifyPopularity": 63,
     "genres": [
@@ -891,7 +874,7 @@
     "id": "2LmyJyCF5V1eQyvHgJNbTn",
     "name": "Leonard Bernstein",
     "image": "https://i.scdn.co/image/ab6761610000e5eb41df58451c2babdf18b21f19",
-    "followers": 239384,
+    "followers": 239398,
     "spotifyId": "2LmyJyCF5V1eQyvHgJNbTn",
     "spotifyPopularity": 62,
     "genres": [
@@ -908,7 +891,7 @@
     "id": "1a8BHlhdNoAHaeUHxfF2q9",
     "name": "Classical New Age Piano Music",
     "image": "https://i.scdn.co/image/ab6761610000e5eb62e917c13bd7eb782c638bba",
-    "followers": 16132,
+    "followers": 16124,
     "spotifyId": "1a8BHlhdNoAHaeUHxfF2q9",
     "spotifyPopularity": 29,
     "genres": [
@@ -925,7 +908,7 @@
     "id": "1Dot4uMsJMx8n1Xi7gAdV6",
     "name": "Jean-Yves Thibaudet",
     "image": "https://i.scdn.co/image/ab6761610000e5eb60b6694c42464c30589755b9",
-    "followers": 38309,
+    "followers": 38319,
     "spotifyId": "1Dot4uMsJMx8n1Xi7gAdV6",
     "spotifyPopularity": 61,
     "genres": [
@@ -939,10 +922,411 @@
     "tier": "Established"
   },
   {
+    "id": "3gacryguGmpmCvgPGt2CBI",
+    "name": "New York Philharmonic",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaac46a30dc91a8148051a633",
+    "followers": 116154,
+    "spotifyId": "3gacryguGmpmCvgPGt2CBI",
+    "spotifyPopularity": 61,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "116K",
+    "tier": "Established"
+  },
+  {
+    "id": "6tdexW8bZTG8NgOFUCYQn1",
+    "name": "Philadelphia Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd57b27a2a13fe0431064e2c6",
+    "followers": 41746,
+    "spotifyId": "6tdexW8bZTG8NgOFUCYQn1",
+    "spotifyPopularity": 61,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "41K",
+    "tier": "Established"
+  },
+  {
+    "id": "5gqhueRUZEa7VDnQt4HODp",
+    "name": "Nils Frahm",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb0378b1542b9661dfa8b676f4",
+    "followers": 708201,
+    "spotifyId": "5gqhueRUZEa7VDnQt4HODp",
+    "spotifyPopularity": 60,
+    "genres": [
+      "neoclassical",
+      "minimalism",
+      "ambient"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "708K",
+    "tier": "Established"
+  },
+  {
+    "id": "3COykW4UPvB0DqwnzlnfWt",
+    "name": "Capella Istropolitana",
+    "image": "https://i.scdn.co/image/32d4ce83e8bfc5da6c001b9affcdc0b1c914c968",
+    "followers": 10581,
+    "spotifyId": "3COykW4UPvB0DqwnzlnfWt",
+    "spotifyPopularity": 60,
+    "genres": [
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "10K",
+    "tier": "Established"
+  },
+  {
+    "id": "2VKfXEWzhUi9siHBDTI02Y",
+    "name": "Joep Beving",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebc53c80b658873b89378fad4f",
+    "followers": 287068,
+    "spotifyId": "2VKfXEWzhUi9siHBDTI02Y",
+    "spotifyPopularity": 60,
+    "genres": [
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "287K",
+    "tier": "Established"
+  },
+  {
+    "id": "72uoxerTvAd7x3cbfYmNc8",
+    "name": "Chad Lawson",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebf3847bcb63650f50ef221a46",
+    "followers": 59364,
+    "spotifyId": "72uoxerTvAd7x3cbfYmNc8",
+    "spotifyPopularity": 60,
+    "genres": [
+      "neoclassical",
+      "minimalism"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "59K",
+    "tier": "Established"
+  },
+  {
+    "id": "3NMfMCA11Xo7RUc91o64Og",
+    "name": "Hideyuki Hashimoto",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6112635ed81eff4bca2408b1",
+    "followers": 34239,
+    "spotifyId": "3NMfMCA11Xo7RUc91o64Og",
+    "spotifyPopularity": 60,
+    "genres": [
+      "japanese classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "34K",
+    "tier": "Established"
+  },
+  {
+    "id": "35pZsti1RSA5Zv98jAm8kX",
+    "name": "Orpheus Chamber Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebae79cc231c0bde53d5ed1f5b",
+    "followers": 12218,
+    "spotifyId": "35pZsti1RSA5Zv98jAm8kX",
+    "spotifyPopularity": 60,
+    "genres": [
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "12K",
+    "tier": "Established"
+  },
+  {
+    "id": "0HyM2wwUfOsZYD4Dj5IOOZ",
+    "name": "Alexandra Streliski",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2c2b75f10d71c667ad834ebe",
+    "followers": 130710,
+    "spotifyId": "0HyM2wwUfOsZYD4Dj5IOOZ",
+    "spotifyPopularity": 60,
+    "genres": [
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "130K",
+    "tier": "Established"
+  },
+  {
+    "id": "14YzutUdMwS9yTnI0IFBaD",
+    "name": "Hania Rani",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb4559fae3a0d3dda1e4dc11b8",
+    "followers": 322181,
+    "spotifyId": "14YzutUdMwS9yTnI0IFBaD",
+    "spotifyPopularity": 59,
+    "genres": [
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "322K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2iSn12gFykgv92aTvPiH4s",
+    "name": "HAUSER",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8c2521a454c69e84595ed504",
+    "followers": 354937,
+    "spotifyId": "2iSn12gFykgv92aTvPiH4s",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "354K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4kHtgiRnpmFIV5Tm4BIs8l",
+    "name": "Sergei Prokofiev",
+    "image": "https://i.scdn.co/image/c3b40885e23fd20cfd503871f57172a640d107ea",
+    "followers": 300937,
+    "spotifyId": "4kHtgiRnpmFIV5Tm4BIs8l",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classical",
+      "neoclassical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "300K",
+    "tier": "Rising"
+  },
+  {
+    "id": "60adCptqwRkANTtVja0bvf",
+    "name": "Academy of Ancient Music",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6a1abee417a2e69f55b4bbbb",
+    "followers": 41865,
+    "spotifyId": "60adCptqwRkANTtVja0bvf",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classical",
+      "requiem",
+      "opera",
+      "choral"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "41K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2ANtgfhQkKpsW6EYSDqldz",
+    "name": "Gustav Mahler",
+    "image": "https://i.scdn.co/image/269aaec4775a72c6574dc856fc1f3f4a84c3d023",
+    "followers": 368600,
+    "spotifyId": "2ANtgfhQkKpsW6EYSDqldz",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "368K",
+    "tier": "Rising"
+  },
+  {
+    "id": "62TD7509VQIxUe4WpwO0s3",
+    "name": "Johann Pachelbel",
+    "image": "https://i.scdn.co/image/4c8a440d9c6b4429feb7df77b4fdad86bcabe66f",
+    "followers": 192585,
+    "spotifyId": "62TD7509VQIxUe4WpwO0s3",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "192K",
+    "tier": "Rising"
+  },
+  {
+    "id": "430byzy0c5bPn5opiu0SRd",
+    "name": "Edward Elgar",
+    "image": "https://i.scdn.co/image/8691898841248ffbc5e984334879337c81a268fd",
+    "followers": 197266,
+    "spotifyId": "430byzy0c5bPn5opiu0SRd",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "197K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5goS0v24Fc1ydjCKQRwtjM",
+    "name": "Johann Strauss II",
+    "image": "https://i.scdn.co/image/7c66e77f061dcfe1da26d682f228d0e957035e8d",
+    "followers": 499549,
+    "spotifyId": "5goS0v24Fc1ydjCKQRwtjM",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "499K",
+    "tier": "Rising"
+  },
+  {
+    "id": "13dkPjqmbcchm8cXjEJQeP",
+    "name": "Glenn Gould",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebae1364cd7533a53776d8ae43",
+    "followers": 270423,
+    "spotifyId": "13dkPjqmbcchm8cXjEJQeP",
+    "spotifyPopularity": 58,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "270K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2Oz3z7PPQUMU2KNYgcO1sA",
+    "name": "The English Concert",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55b58d0ec2693200440f1f51",
+    "followers": 23321,
+    "spotifyId": "2Oz3z7PPQUMU2KNYgcO1sA",
+    "spotifyPopularity": 58,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "23K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1vYrIm6O7VtBGszIWe75mB",
+    "name": "Gabríel Ólafs",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb078b77503f0709b9c69b010e",
+    "followers": 35458,
+    "spotifyId": "1vYrIm6O7VtBGszIWe75mB",
+    "spotifyPopularity": 58,
+    "genres": [
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "35K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0K23lQ2hSQAlxSEeZ05bjI",
+    "name": "Boston Symphony Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd0a3658888e867a773db58e5",
+    "followers": 67462,
+    "spotifyId": "0K23lQ2hSQAlxSEeZ05bjI",
+    "spotifyPopularity": 58,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "67K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0d6alfZHUx3xoRnPjkTL7Q",
+    "name": "Alice Sara Ott",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb768afb391475fc23ecc1b0ac",
+    "followers": 65249,
+    "spotifyId": "0d6alfZHUx3xoRnPjkTL7Q",
+    "spotifyPopularity": 58,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "65K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0jJszR81GjA87jeRq0Jgwz",
+    "name": "The Cleveland Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb406351f717207692ce3caab0",
+    "followers": 16658,
+    "spotifyId": "0jJszR81GjA87jeRq0Jgwz",
+    "spotifyPopularity": 58,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "16K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4dl2as3pdCgkcctBVPhB8A",
+    "name": "Baroque Festival Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5646ba0eda09151b53975bb7",
+    "followers": 28739,
+    "spotifyId": "4dl2as3pdCgkcctBVPhB8A",
+    "spotifyPopularity": 57,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "classical",
+    "primaryGenre": "Classical",
+    "likes": "28K",
+    "tier": "Rising"
+  },
+  {
     "id": "42Vmza0WYHdhsgxFmf9Tui",
     "name": "Charles Gounod",
     "image": "https://i.scdn.co/image/49e5be304bfd0629f5d1873aaa9ab251df1cc9e6",
-    "followers": 36674,
+    "followers": 36680,
     "spotifyId": "42Vmza0WYHdhsgxFmf9Tui",
     "spotifyPopularity": 53,
     "genres": [
@@ -955,10 +1339,27 @@
     "tier": "Rising"
   },
   {
+    "id": "4GQwgdcDQwqtcHICjUNndp",
+    "name": "Sir Simon Rattle",
+    "image": "https://i.scdn.co/image/ab6772690000c46c9fd4055a34d4d6d6a0314138",
+    "followers": 57035,
+    "spotifyId": "4GQwgdcDQwqtcHICjUNndp",
+    "spotifyPopularity": 64,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "chart",
+    "primaryGenre": "Classical",
+    "likes": "57K",
+    "tier": "Established"
+  },
+  {
     "id": "07OhqeLloDO7wu0yCaVO2D",
     "name": "Charles-Valentin Alkan",
     "image": "https://i.scdn.co/image/7730a5feb9a65851c25ff6c6f32f8ee29b89f83c",
-    "followers": 18060,
+    "followers": 18062,
     "spotifyId": "07OhqeLloDO7wu0yCaVO2D",
     "spotifyPopularity": 41,
     "genres": [
@@ -974,7 +1375,7 @@
     "id": "2BDEX7NzONc6kAxVXu9lBa",
     "name": "Dominique Charpentier",
     "image": "https://i.scdn.co/image/ab6761610000e5ebadc98ce0e06558260ac7fefc",
-    "followers": 10765,
+    "followers": 10768,
     "spotifyId": "2BDEX7NzONc6kAxVXu9lBa",
     "spotifyPopularity": 48,
     "genres": [
@@ -990,7 +1391,7 @@
     "id": "428GNN7qZnTsMaK3SfPo6D",
     "name": "Slovak Radio Symphony Orchestra",
     "image": "https://i.scdn.co/image/ab6761610000e5eb0f4cdd832091cc4fa92e9490",
-    "followers": 24527,
+    "followers": 24535,
     "spotifyId": "428GNN7qZnTsMaK3SfPo6D",
     "spotifyPopularity": 57,
     "genres": [
@@ -1008,7 +1409,7 @@
     "id": "4EEQIAJoeN1V30MqFFtXxB",
     "name": "Murray Perahia",
     "image": "https://i.scdn.co/image/36a16b86186e883f0f2d6e068b88df6773456d73",
-    "followers": 49308,
+    "followers": 49312,
     "spotifyId": "4EEQIAJoeN1V30MqFFtXxB",
     "spotifyPopularity": 53,
     "genres": [
@@ -1025,7 +1426,7 @@
     "id": "3ilNZUdmNZ2nUcuAOIpsQl",
     "name": "Esa-Pekka Salonen",
     "image": "https://i.scdn.co/image/9aa2ed680e6f02840fb6f35fd9890abedce0a4e0",
-    "followers": 15342,
+    "followers": 15347,
     "spotifyId": "3ilNZUdmNZ2nUcuAOIpsQl",
     "spotifyPopularity": 50,
     "genres": [
@@ -1041,7 +1442,7 @@
     "id": "0qudezVgvl4Chd9BgNFB83",
     "name": "Chilly Gonzales",
     "image": "https://i.scdn.co/image/ab6761610000e5ebc300079c1c4a77e1ac925471",
-    "followers": 250374,
+    "followers": 250382,
     "spotifyId": "0qudezVgvl4Chd9BgNFB83",
     "spotifyPopularity": 54,
     "genres": [
@@ -1054,10 +1455,29 @@
     "tier": "Rising"
   },
   {
+    "id": "0uQzXALO3Bu9YRYMKyAFCC",
+    "name": "Dark Sanctuary",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb3253c48e7457a3a0e7922878",
+    "followers": 24877,
+    "spotifyId": "0uQzXALO3Bu9YRYMKyAFCC",
+    "spotifyPopularity": 28,
+    "genres": [
+      "neoclassical",
+      "dark ambient",
+      "darkwave",
+      "gothic metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "dark",
+    "primaryGenre": "Classical",
+    "likes": "24K",
+    "tier": "Underground"
+  },
+  {
     "id": "3hf0xcU68g7UnrCCglh3YC",
     "name": "Relaxing Piano Music Consort",
     "image": "https://i.scdn.co/image/ab67616d0000b27366ed912b4df25bc6a44786da",
-    "followers": 131319,
+    "followers": 131276,
     "spotifyId": "3hf0xcU68g7UnrCCglh3YC",
     "spotifyPopularity": 41,
     "genres": [
@@ -1067,23 +1487,6 @@
     "searchTerm": "relaxing",
     "primaryGenre": "Classical",
     "likes": "131K",
-    "tier": "Rising"
-  },
-  {
-    "id": "13dkPjqmbcchm8cXjEJQeP",
-    "name": "Glenn Gould",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebae1364cd7533a53776d8ae43",
-    "followers": 270411,
-    "spotifyId": "13dkPjqmbcchm8cXjEJQeP",
-    "spotifyPopularity": 58,
-    "genres": [
-      "classical piano",
-      "classical"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "piano",
-    "primaryGenre": "Classical",
-    "likes": "270K",
     "tier": "Rising"
   },
   {
@@ -1106,7 +1509,7 @@
     "id": "4Ws5hSoABAwvGJ4LhHwHgq",
     "name": "Vladimir Horowitz",
     "image": "https://i.scdn.co/image/ab6761610000e5eba0c5bd974ec30d1cb6833747",
-    "followers": 157724,
+    "followers": 157839,
     "spotifyId": "4Ws5hSoABAwvGJ4LhHwHgq",
     "spotifyPopularity": 52,
     "genres": [
@@ -1123,7 +1526,7 @@
     "id": "5zyNXVd952fWOjkdGHCvPd",
     "name": "Béla Bartók",
     "image": "https://i.scdn.co/image/592ddf9d4d2154cd3256c6e69171d5371fca8f0c",
-    "followers": 122652,
+    "followers": 122664,
     "spotifyId": "5zyNXVd952fWOjkdGHCvPd",
     "spotifyPopularity": 46,
     "genres": [
@@ -1138,43 +1541,194 @@
     "tier": "Rising"
   },
   {
-    "id": "2VKfXEWzhUi9siHBDTI02Y",
-    "name": "Joep Beving",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebc53c80b658873b89378fad4f",
-    "followers": 287043,
-    "spotifyId": "2VKfXEWzhUi9siHBDTI02Y",
-    "spotifyPopularity": 60,
+    "id": "2VIdKQmRHnWofsR4odfFOh",
+    "name": "Maurizio Pollini",
+    "image": "https://i.scdn.co/image/b569f4420a0c5257c26c745a8928cac516dd4144",
+    "followers": 79380,
+    "spotifyId": "2VIdKQmRHnWofsR4odfFOh",
+    "spotifyPopularity": 59,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Classical",
+    "likes": "79K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3WJfB0QSAWAO283H19gL5a",
+    "name": "Hikaru Shirosu",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb300c824520fe76aa9ceb7f08",
+    "followers": 44846,
+    "spotifyId": "3WJfB0QSAWAO283H19gL5a",
+    "spotifyPopularity": 57,
+    "genres": [
+      "japanese classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Classical",
+    "likes": "44K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5HG9Eg7Ik8ZuNtMyGYTxLG",
+    "name": "Alexandre Tharaud",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb28ffef6ef57c316ca94986e4",
+    "followers": 40072,
+    "spotifyId": "5HG9Eg7Ik8ZuNtMyGYTxLG",
+    "spotifyPopularity": 58,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Classical",
+    "likes": "40K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4yanWaefFUJnIUV0aITdvV",
+    "name": "Florian Christl",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2a0a84501005d6b892801e88",
+    "followers": 53017,
+    "spotifyId": "4yanWaefFUJnIUV0aITdvV",
+    "spotifyPopularity": 56,
+    "genres": [
+      "classical",
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Classical",
+    "likes": "53K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5Kb0Qf13EyYtVJvzCdI9M7",
+    "name": "Jenő Jandó",
+    "image": "https://i.scdn.co/image/34110ec088c4d87c11a5aaa4744ff893bea593e8",
+    "followers": 12305,
+    "spotifyId": "5Kb0Qf13EyYtVJvzCdI9M7",
+    "spotifyPopularity": 57,
+    "genres": [
+      "classical",
+      "classical piano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Classical",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2YdRnOqBXCl9g8xCLcGh8C",
+    "name": "Mikhail Pletnev",
+    "image": "https://i.scdn.co/image/ab6772690000c46cf77e6a84cfbfdf136d8470a3",
+    "followers": 24940,
+    "spotifyId": "2YdRnOqBXCl9g8xCLcGh8C",
+    "spotifyPopularity": 56,
+    "genres": [
+      "classical",
+      "classical piano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Classical",
+    "likes": "24K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7FEzSfCBSOo0wAmdk9pQ6M",
+    "name": "Isata Kanneh-Mason",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1de4e95e32122784e33b6684",
+    "followers": 15966,
+    "spotifyId": "7FEzSfCBSOo0wAmdk9pQ6M",
+    "spotifyPopularity": 56,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Classical",
+    "likes": "15K",
+    "tier": "Rising"
+  },
+  {
+    "id": "66MvLAvLznk5UOvASVGjk4",
+    "name": "Martha Argerich",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb66cd5da57e71a33da20de712",
+    "followers": 172560,
+    "spotifyId": "66MvLAvLznk5UOvASVGjk4",
+    "spotifyPopularity": 56,
+    "genres": [
+      "classical piano",
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "piano",
+    "primaryGenre": "Classical",
+    "likes": "172K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7GMpkbegUlL4UvUe5w47zu",
+    "name": "James Heather",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2c58203521cb05b4a48a2478",
+    "followers": 32292,
+    "spotifyId": "7GMpkbegUlL4UvUe5w47zu",
+    "spotifyPopularity": 55,
     "genres": [
       "neoclassical"
     ],
     "discoveryMethod": "search_term",
     "searchTerm": "piano",
     "primaryGenre": "Classical",
-    "likes": "287K",
-    "tier": "Established"
+    "likes": "32K",
+    "tier": "Rising"
   },
   {
-    "id": "72uoxerTvAd7x3cbfYmNc8",
-    "name": "Chad Lawson",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf3847bcb63650f50ef221a46",
-    "followers": 59349,
-    "spotifyId": "72uoxerTvAd7x3cbfYmNc8",
-    "spotifyPopularity": 60,
+    "id": "4JSWO1Pf2zV991fq64uAce",
+    "name": "Jean-Philippe Rameau",
+    "image": "https://i.scdn.co/image/f1e0eb85efe201fb8ab57cd4fda8ce684f1e912c",
+    "followers": 87055,
+    "spotifyId": "4JSWO1Pf2zV991fq64uAce",
+    "spotifyPopularity": 55,
     "genres": [
-      "neoclassical",
-      "minimalism"
+      "classical",
+      "classical piano"
     ],
     "discoveryMethod": "search_term",
     "searchTerm": "piano",
     "primaryGenre": "Classical",
-    "likes": "59K",
-    "tier": "Established"
+    "likes": "87K",
+    "tier": "Rising"
+  },
+  {
+    "id": "6HNEnXVjt13cvaZ9HN4tu5",
+    "name": "Los Angeles Guitar Quartet",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb9a10dce9e9a59042b87d195a",
+    "followers": 11600,
+    "spotifyId": "6HNEnXVjt13cvaZ9HN4tu5",
+    "spotifyPopularity": 28,
+    "genres": [
+      "japanese classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "guitar",
+    "primaryGenre": "Classical",
+    "likes": "11K",
+    "tier": "Underground"
   },
   {
     "id": "3Ka1nDpDzxDveEqUPzIeom",
     "name": "Joshua Bell",
     "image": "https://i.scdn.co/image/ab6761610000e5ebe2af39a1cde5a1a46876fcfb",
-    "followers": 110252,
+    "followers": 110270,
     "spotifyId": "3Ka1nDpDzxDveEqUPzIeom",
     "spotifyPopularity": 57,
     "genres": [
@@ -1190,7 +1744,7 @@
     "id": "7AANfmLM36QqH6QsOQnV3h",
     "name": "Nigel Kennedy",
     "image": "https://i.scdn.co/image/ab6761610000e5eb6e382163efb8cb813401e415",
-    "followers": 49755,
+    "followers": 49764,
     "spotifyId": "7AANfmLM36QqH6QsOQnV3h",
     "spotifyPopularity": 54,
     "genres": [
@@ -1206,7 +1760,7 @@
     "id": "5JdT0LYJdlPbTC58p60WTX",
     "name": "Hilary Hahn",
     "image": "https://i.scdn.co/image/ab6761610000e5eb35f3c2e54e1a83659203b437",
-    "followers": 174717,
+    "followers": 174731,
     "spotifyId": "5JdT0LYJdlPbTC58p60WTX",
     "spotifyPopularity": 51,
     "genres": [
@@ -1222,7 +1776,7 @@
     "id": "6pzfUmBsQAKxOhy0NSi8zn",
     "name": "Anne-Sophie Mutter",
     "image": "https://i.scdn.co/image/ab6761610000e5eb170aeefcafc916c597b1f9dd",
-    "followers": 72391,
+    "followers": 72407,
     "spotifyId": "6pzfUmBsQAKxOhy0NSi8zn",
     "spotifyPopularity": 48,
     "genres": [
@@ -1239,7 +1793,7 @@
     "id": "0521x50ZcNqqT1fKMJg5c5",
     "name": "Max Bruch",
     "image": "https://i.scdn.co/image/732db27e72776dc749cc2e6acaa6d6ae77902be2",
-    "followers": 67373,
+    "followers": 67389,
     "spotifyId": "0521x50ZcNqqT1fKMJg5c5",
     "spotifyPopularity": 46,
     "genres": [
@@ -1252,26 +1806,10 @@
     "tier": "Rising"
   },
   {
-    "id": "2iSn12gFykgv92aTvPiH4s",
-    "name": "HAUSER",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb8c2521a454c69e84595ed504",
-    "followers": 354641,
-    "spotifyId": "2iSn12gFykgv92aTvPiH4s",
-    "spotifyPopularity": 59,
-    "genres": [
-      "classical"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "violin",
-    "primaryGenre": "Classical",
-    "likes": "354K",
-    "tier": "Rising"
-  },
-  {
     "id": "39FC9x5PaTNYHp5hwlaY4q",
     "name": "Niccolò Paganini",
     "image": "https://i.scdn.co/image/ce53589936d5094e156198f0fb316d7efa788020",
-    "followers": 503287,
+    "followers": 503403,
     "spotifyId": "39FC9x5PaTNYHp5hwlaY4q",
     "spotifyPopularity": 55,
     "genres": [
@@ -1284,26 +1822,10 @@
     "tier": "Rising"
   },
   {
-    "id": "4dl2as3pdCgkcctBVPhB8A",
-    "name": "Baroque Festival Orchestra",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb5646ba0eda09151b53975bb7",
-    "followers": 28707,
-    "spotifyId": "4dl2as3pdCgkcctBVPhB8A",
-    "spotifyPopularity": 57,
-    "genres": [
-      "classical"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "violin",
-    "primaryGenre": "Classical",
-    "likes": "28K",
-    "tier": "Rising"
-  },
-  {
     "id": "32i0ni9RO8Q7T7T7ZqkGU2",
     "name": "Yehudi Menuhin",
     "image": "https://i.scdn.co/image/baa3646450d802f14ef938ff64e3315e1b1cf56d",
-    "followers": 39941,
+    "followers": 39943,
     "spotifyId": "32i0ni9RO8Q7T7T7ZqkGU2",
     "spotifyPopularity": 44,
     "genres": [
@@ -1319,7 +1841,7 @@
     "id": "25mbgceDJKxXGP8c5FmC83",
     "name": "Trevor Pinnock",
     "image": "https://i.scdn.co/image/ab6772690000c46cdc8598dd1465e5586ed804d0",
-    "followers": 20523,
+    "followers": 20527,
     "spotifyId": "25mbgceDJKxXGP8c5FmC83",
     "spotifyPopularity": 55,
     "genres": [
@@ -1335,7 +1857,7 @@
     "id": "33k6kPYIS5TgseAc70LZjy",
     "name": "David Garrett",
     "image": "https://i.scdn.co/image/ab6761610000e5ebdd0b51e36ad4c435335354bf",
-    "followers": 519839,
+    "followers": 519874,
     "spotifyId": "33k6kPYIS5TgseAc70LZjy",
     "spotifyPopularity": 55,
     "genres": [
@@ -1351,7 +1873,7 @@
     "id": "5dmMpIyAVaH6b9FLFgWPrF",
     "name": "Arcangelo Corelli",
     "image": "https://i.scdn.co/image/53d4319bb9f9621d8ad12a6228c42c1433070d2d",
-    "followers": 138548,
+    "followers": 138558,
     "spotifyId": "5dmMpIyAVaH6b9FLFgWPrF",
     "spotifyPopularity": 55,
     "genres": [
@@ -1367,7 +1889,7 @@
     "id": "0vBafEFOLXtq5mZuhMgsyL",
     "name": "Christopher Hogwood",
     "image": "https://i.scdn.co/image/bab910fbd10b078f85a0c7f7c0b5108b00dc8c4d",
-    "followers": 10987,
+    "followers": 10992,
     "spotifyId": "0vBafEFOLXtq5mZuhMgsyL",
     "spotifyPopularity": 54,
     "genres": [
@@ -1384,7 +1906,7 @@
     "id": "16WKM2I7sY0uccRe5tlRc6",
     "name": "Cologne Chamber Orchestra",
     "image": "https://i.scdn.co/image/616d344bf38bd151de7f4e02b9acc00fc9e99ddc",
-    "followers": 11973,
+    "followers": 12005,
     "spotifyId": "16WKM2I7sY0uccRe5tlRc6",
     "spotifyPopularity": 53,
     "genres": [
@@ -1394,14 +1916,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "violin",
     "primaryGenre": "Classical",
-    "likes": "11K",
+    "likes": "12K",
     "tier": "Rising"
   },
   {
     "id": "2fg5h5pzleqI4RjFopWroj",
     "name": "Georg Philipp Telemann",
     "image": "https://i.scdn.co/image/1bfb64dffe1596f4efda1384007d15338e255446",
-    "followers": 142009,
+    "followers": 142018,
     "spotifyId": "2fg5h5pzleqI4RjFopWroj",
     "spotifyPopularity": 53,
     "genres": [
@@ -1417,7 +1939,7 @@
     "id": "7yaBUcdjmqPP2vIv6F5bFD",
     "name": "Jascha Heifetz",
     "image": "https://i.scdn.co/image/6a7aeef10289f8b1235f7e7a06cce20da2d478a2",
-    "followers": 69212,
+    "followers": 69220,
     "spotifyId": "7yaBUcdjmqPP2vIv6F5bFD",
     "spotifyPopularity": 39,
     "genres": [
@@ -1434,7 +1956,7 @@
     "id": "7o2OjTu0Ls0xiWl3RzjdVp",
     "name": "David Oistrakh",
     "image": "https://i.scdn.co/image/13d9002dfc36d27dc5d5e0883b1208846611d295",
-    "followers": 42212,
+    "followers": 42218,
     "spotifyId": "7o2OjTu0Ls0xiWl3RzjdVp",
     "spotifyPopularity": 40,
     "genres": [
@@ -1451,9 +1973,75 @@
     "id": "3r1dphXjVBOwbUAYrrkEkQ",
     "name": "Fabio Biondi",
     "image": "https://i.scdn.co/image/ab6761610000e5eb02900a3b0b06bc4d9d517250",
-    "followers": 12407,
+    "followers": 12414,
     "spotifyId": "3r1dphXjVBOwbUAYrrkEkQ",
     "spotifyPopularity": 50,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "violin",
+    "primaryGenre": "Classical",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "00hfOKuZEhvKKNXmVdb1We",
+    "name": "Janine Jansen",
+    "image": "https://i.scdn.co/image/218b36dc81ff0046bb932edb7271b619695f774b",
+    "followers": 57255,
+    "spotifyId": "00hfOKuZEhvKKNXmVdb1We",
+    "spotifyPopularity": 49,
+    "genres": [
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "violin",
+    "primaryGenre": "Classical",
+    "likes": "57K",
+    "tier": "Rising"
+  },
+  {
+    "id": "68xp8lYo96f9PMra0LHHl6",
+    "name": "Venice Baroque Orchestra",
+    "image": "https://i.scdn.co/image/48974584fdc49b6e825b35480588a040db71c4ed",
+    "followers": 10329,
+    "spotifyId": "68xp8lYo96f9PMra0LHHl6",
+    "spotifyPopularity": 47,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "violin",
+    "primaryGenre": "Classical",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3m8qh3adp23dCoZBHZt5IH",
+    "name": "Kassia",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba0f99368c8e6c92c7b068ff5",
+    "followers": 34064,
+    "spotifyId": "3m8qh3adp23dCoZBHZt5IH",
+    "spotifyPopularity": 46,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "violin",
+    "primaryGenre": "Classical",
+    "likes": "34K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4yscD4NQlCKXEpUvBV3nj8",
+    "name": "Tafelmusik Baroque Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebcb98f34098e8769ce3ec94a2",
+    "followers": 12728,
+    "spotifyId": "4yscD4NQlCKXEpUvBV3nj8",
+    "spotifyPopularity": 44,
     "genres": [
       "classical"
     ],
@@ -1467,7 +2055,7 @@
     "id": "41OHse5xHr1E6wceODGrPB",
     "name": "Jess Gillam",
     "image": "https://i.scdn.co/image/ab6761610000e5ebcc6f330a565b148b84b244a3",
-    "followers": 15769,
+    "followers": 15784,
     "spotifyId": "41OHse5xHr1E6wceODGrPB",
     "spotifyPopularity": 44,
     "genres": [
@@ -1501,7 +2089,7 @@
     "id": "6I6fmQU7HGrUsCm4B5Nlk3",
     "name": "Royal Liverpool Philharmonic Orchestra",
     "image": "https://i.scdn.co/image/ab6761610000e5eb675e8b38e931c942e499285c",
-    "followers": 17232,
+    "followers": 17233,
     "spotifyId": "6I6fmQU7HGrUsCm4B5Nlk3",
     "spotifyPopularity": 58,
     "genres": [
@@ -1518,7 +2106,7 @@
     "id": "2HqNckz4bPVT37fWkhugTZ",
     "name": "Royal Concertgebouw Orchestra",
     "image": "https://i.scdn.co/image/ab6761610000e5eb4d56596b0ac41c8e45ef7448",
-    "followers": 51199,
+    "followers": 51205,
     "spotifyId": "2HqNckz4bPVT37fWkhugTZ",
     "spotifyPopularity": 55,
     "genres": [
@@ -1532,44 +2120,28 @@
     "tier": "Rising"
   },
   {
-    "id": "6tdexW8bZTG8NgOFUCYQn1",
-    "name": "Philadelphia Orchestra",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd57b27a2a13fe0431064e2c6",
-    "followers": 41735,
-    "spotifyId": "6tdexW8bZTG8NgOFUCYQn1",
-    "spotifyPopularity": 61,
+    "id": "6yeL5iw4hXNZtd8T7FOoFU",
+    "name": "Los Angeles Philharmonic",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb506d57529e01527ff97b2bad",
+    "followers": 23276,
+    "spotifyId": "6yeL5iw4hXNZtd8T7FOoFU",
+    "spotifyPopularity": 58,
     "genres": [
       "classical",
-      "orchestra"
+      "orchestra",
+      "opera"
     ],
     "discoveryMethod": "search_term",
     "searchTerm": "orchestra",
     "primaryGenre": "Classical",
-    "likes": "41K",
-    "tier": "Established"
-  },
-  {
-    "id": "3gacryguGmpmCvgPGt2CBI",
-    "name": "New York Philharmonic",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebaac46a30dc91a8148051a633",
-    "followers": 116131,
-    "spotifyId": "3gacryguGmpmCvgPGt2CBI",
-    "spotifyPopularity": 61,
-    "genres": [
-      "classical",
-      "orchestra"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "orchestra",
-    "primaryGenre": "Classical",
-    "likes": "116K",
-    "tier": "Established"
+    "likes": "23K",
+    "tier": "Rising"
   },
   {
     "id": "1W3sZMluDmealiI6B5awE9",
     "name": "Russian National Orchestra",
     "image": "https://i.scdn.co/image/0768f9aaf0f294e63ddb79406a06f19fdc6c7ade",
-    "followers": 15438,
+    "followers": 15441,
     "spotifyId": "1W3sZMluDmealiI6B5awE9",
     "spotifyPopularity": 45,
     "genres": [
@@ -1583,61 +2155,10 @@
     "tier": "Rising"
   },
   {
-    "id": "0jJszR81GjA87jeRq0Jgwz",
-    "name": "The Cleveland Orchestra",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb406351f717207692ce3caab0",
-    "followers": 16647,
-    "spotifyId": "0jJszR81GjA87jeRq0Jgwz",
-    "spotifyPopularity": 58,
-    "genres": [
-      "classical",
-      "orchestra"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "orchestra",
-    "primaryGenre": "Classical",
-    "likes": "16K",
-    "tier": "Rising"
-  },
-  {
-    "id": "35pZsti1RSA5Zv98jAm8kX",
-    "name": "Orpheus Chamber Orchestra",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebae79cc231c0bde53d5ed1f5b",
-    "followers": 12211,
-    "spotifyId": "35pZsti1RSA5Zv98jAm8kX",
-    "spotifyPopularity": 60,
-    "genres": [
-      "classical",
-      "chamber music"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "orchestra",
-    "primaryGenre": "Classical",
-    "likes": "12K",
-    "tier": "Established"
-  },
-  {
-    "id": "0K23lQ2hSQAlxSEeZ05bjI",
-    "name": "Boston Symphony Orchestra",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebd0a3658888e867a773db58e5",
-    "followers": 67447,
-    "spotifyId": "0K23lQ2hSQAlxSEeZ05bjI",
-    "spotifyPopularity": 58,
-    "genres": [
-      "classical",
-      "orchestra"
-    ],
-    "discoveryMethod": "search_term",
-    "searchTerm": "orchestra",
-    "primaryGenre": "Classical",
-    "likes": "67K",
-    "tier": "Rising"
-  },
-  {
     "id": "23BiSNXm5UaRFuusoWisYO",
     "name": "BBC Symphony Orchestra",
     "image": "https://i.scdn.co/image/9108ad35156db4694bb30c36174a564c228500c2",
-    "followers": 43412,
+    "followers": 43410,
     "spotifyId": "23BiSNXm5UaRFuusoWisYO",
     "spotifyPopularity": 53,
     "genres": [
@@ -1655,7 +2176,7 @@
     "id": "6TD08jYeuN128P2MZTbc8E",
     "name": "Chicago Symphony Orchestra",
     "image": "https://i.scdn.co/image/ab6761610000e5eb7e3487f5797a7920b45a184c",
-    "followers": 77552,
+    "followers": 77566,
     "spotifyId": "6TD08jYeuN128P2MZTbc8E",
     "spotifyPopularity": 56,
     "genres": [
@@ -1672,7 +2193,7 @@
     "id": "2rfkmr5WzRN9D9gAfb2ycd",
     "name": "Slovak Philharmonic",
     "image": "https://i.scdn.co/image/ab6761610000e5ebaf02bca7675a9e857d98c562",
-    "followers": 12085,
+    "followers": 12089,
     "spotifyId": "2rfkmr5WzRN9D9gAfb2ycd",
     "spotifyPopularity": 56,
     "genres": [
@@ -1689,7 +2210,7 @@
     "id": "20iZXzMb8LoWXOeca32i82",
     "name": "Vladimir Ashkenazy",
     "image": "https://i.scdn.co/image/ab6761610000e5eba5a4a932f73faefc19b4e24f",
-    "followers": 77550,
+    "followers": 77557,
     "spotifyId": "20iZXzMb8LoWXOeca32i82",
     "spotifyPopularity": 52,
     "genres": [
@@ -1707,7 +2228,7 @@
     "id": "3EQvBmWlfyaRLGDuVfKmve",
     "name": "Lorin Maazel",
     "image": "https://i.scdn.co/image/6ed41d89bf284c90c9f5ac7e995abdb1d2e858f5",
-    "followers": 19643,
+    "followers": 19647,
     "spotifyId": "3EQvBmWlfyaRLGDuVfKmve",
     "spotifyPopularity": 55,
     "genres": [
@@ -1725,7 +2246,7 @@
     "id": "4RkU7dxppCNi2078hPMUI4",
     "name": "Israel Philharmonic Orchestra",
     "image": "https://i.scdn.co/image/ab6761610000e5eb74ec11be548a693523a13015",
-    "followers": 15595,
+    "followers": 15603,
     "spotifyId": "4RkU7dxppCNi2078hPMUI4",
     "spotifyPopularity": 55,
     "genres": [
@@ -1743,7 +2264,7 @@
     "id": "22pAlZRKZ8WyPTtf63Y5nV",
     "name": "Exam Study Classical Music Orchestra",
     "image": "https://i.scdn.co/image/ab67616d0000b273e1ec7ae11b8fc8962f396f63",
-    "followers": 74683,
+    "followers": 74658,
     "spotifyId": "22pAlZRKZ8WyPTtf63Y5nV",
     "spotifyPopularity": 29,
     "genres": [
@@ -1759,7 +2280,7 @@
     "id": "4AcXapei4U7xnWecv9AEBd",
     "name": "Orchestre Symphonique de Montréal",
     "image": "https://i.scdn.co/image/ab6761610000e5eb23c40a5ab7938f014b50cd73",
-    "followers": 17423,
+    "followers": 17430,
     "spotifyId": "4AcXapei4U7xnWecv9AEBd",
     "spotifyPopularity": 53,
     "genres": [
@@ -1773,10 +2294,128 @@
     "tier": "Rising"
   },
   {
+    "id": "1XaPI6thQ3zTKqIU6sCvd2",
+    "name": "Gothenburg Symphony Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5e0b47b63aa6ce21344c6cc4",
+    "followers": 13240,
+    "spotifyId": "1XaPI6thQ3zTKqIU6sCvd2",
+    "spotifyPopularity": 52,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Classical",
+    "likes": "13K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0SlNRZ8zBLAgyB1lsoYxAa",
+    "name": "Gewandhausorchester",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2621532f53c862da5e7d50ba",
+    "followers": 20448,
+    "spotifyId": "0SlNRZ8zBLAgyB1lsoYxAa",
+    "spotifyPopularity": 52,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Classical",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3akUqAy3Q1WqRZqceC4jW9",
+    "name": "London Festival Orchestra",
+    "image": "https://i.scdn.co/image/e71b09f4ae75137c5117488b0dc551a508cf571e",
+    "followers": 11916,
+    "spotifyId": "3akUqAy3Q1WqRZqceC4jW9",
+    "spotifyPopularity": 51,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Classical",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0DJZPK3nRWESIS0yexi6Qi",
+    "name": "Russian State Symphony Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb86ee8476ad87023183d4448b",
+    "followers": 16281,
+    "spotifyId": "0DJZPK3nRWESIS0yexi6Qi",
+    "spotifyPopularity": 54,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Classical",
+    "likes": "16K",
+    "tier": "Rising"
+  },
+  {
+    "id": "35NnUEPKGspM23lTZvK3cb",
+    "name": "Czech Philharmonic",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb23f7f16fa6fdd09b081907c8",
+    "followers": 24878,
+    "spotifyId": "35NnUEPKGspM23lTZvK3cb",
+    "spotifyPopularity": 50,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Classical",
+    "likes": "24K",
+    "tier": "Rising"
+  },
+  {
+    "id": "50hiYMhi0g77BOkkQ4zebB",
+    "name": "Mstislav Rostropovich",
+    "image": "https://i.scdn.co/image/181192b92580df277fd7c6a2d9f3536a4c778fe5",
+    "followers": 63815,
+    "spotifyId": "50hiYMhi0g77BOkkQ4zebB",
+    "spotifyPopularity": 53,
+    "genres": [
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Classical",
+    "likes": "63K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5vBh0nve44zwwVF5KWtCwA",
+    "name": "Alfred Brendel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb669845465a41edd9d504b3bc",
+    "followers": 51785,
+    "spotifyId": "5vBh0nve44zwwVF5KWtCwA",
+    "spotifyPopularity": 53,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "orchestra",
+    "primaryGenre": "Classical",
+    "likes": "51K",
+    "tier": "Rising"
+  },
+  {
     "id": "3V9McxlPI0G2RmkU0DhYGO",
     "name": "Paavo Järvi",
     "image": "https://i.scdn.co/image/ab6761610000e5eb95fa6d9b5c26a7c6d202b515",
-    "followers": 13193,
+    "followers": 13194,
     "spotifyId": "3V9McxlPI0G2RmkU0DhYGO",
     "spotifyPopularity": 48,
     "genres": [
@@ -1794,7 +2433,7 @@
     "id": "0R5BzePlbvG8xTXw0QF3uw",
     "name": "Goldmund",
     "image": "https://i.scdn.co/image/ab6761610000e5eb98f0df1075e9bc80bede8d4b",
-    "followers": 108466,
+    "followers": 108472,
     "spotifyId": "0R5BzePlbvG8xTXw0QF3uw",
     "spotifyPopularity": 50,
     "genres": [
@@ -1811,7 +2450,7 @@
     "id": "7Mvajuzos6NgbClbKdv96H",
     "name": "André Antunes",
     "image": "https://i.scdn.co/image/ab6761610000e5eb975a1a1df6201f3230c40770",
-    "followers": 20997,
+    "followers": 21003,
     "spotifyId": "7Mvajuzos6NgbClbKdv96H",
     "spotifyPopularity": 26,
     "genres": [
@@ -1820,14 +2459,14 @@
     "discoveryMethod": "search_term",
     "searchTerm": "legendary",
     "primaryGenre": "Classical",
-    "likes": "20K",
+    "likes": "21K",
     "tier": "Underground"
   },
   {
     "id": "2prZJWfQMnIgwUKxKcBxH7",
     "name": "Pierre Boulez",
     "image": "https://i.scdn.co/image/a893b03e7ecee9bb2ff7fe5288bc776bbe3e34a6",
-    "followers": 45621,
+    "followers": 45625,
     "spotifyId": "2prZJWfQMnIgwUKxKcBxH7",
     "spotifyPopularity": 53,
     "genres": [
@@ -1845,7 +2484,7 @@
     "id": "5U827e4jbYz6EjtN0fIDt9",
     "name": "Arnold Schoenberg",
     "image": "https://i.scdn.co/image/6baf76a199780038b113c76aaa8d62e467fb45b5",
-    "followers": 84628,
+    "followers": 84636,
     "spotifyId": "5U827e4jbYz6EjtN0fIDt9",
     "spotifyPopularity": 47,
     "genres": [
@@ -1858,28 +2497,26 @@
     "tier": "Rising"
   },
   {
-    "id": "6yeL5iw4hXNZtd8T7FOoFU",
-    "name": "Los Angeles Philharmonic",
-    "image": "https://i.scdn.co/image/ab6761610000e5eb506d57529e01527ff97b2bad",
-    "followers": 23268,
-    "spotifyId": "6yeL5iw4hXNZtd8T7FOoFU",
-    "spotifyPopularity": 58,
+    "id": "4F7KfJQw9lIXvFydi4TOyi",
+    "name": "Thomas Adès",
+    "image": "https://i.scdn.co/image/ab6772690000c46c19b62d4da860e3996ffd860e",
+    "followers": 15507,
+    "spotifyId": "4F7KfJQw9lIXvFydi4TOyi",
+    "spotifyPopularity": 36,
     "genres": [
-      "classical",
-      "orchestra",
-      "opera"
+      "classical piano"
     ],
     "discoveryMethod": "search_term",
-    "searchTerm": "lo-fi",
+    "searchTerm": "avant-garde",
     "primaryGenre": "Classical",
-    "likes": "23K",
-    "tier": "Rising"
+    "likes": "15K",
+    "tier": "Underground"
   },
   {
     "id": "11T8SOX82xraocZzUXzkvM",
     "name": "Hector Berlioz",
     "image": "https://i.scdn.co/image/ce6a6553ca7cbb5df088af82745a7fe63c06f511",
-    "followers": 125904,
+    "followers": 125913,
     "spotifyId": "11T8SOX82xraocZzUXzkvM",
     "spotifyPopularity": 44,
     "genres": [
@@ -1890,6 +2527,983 @@
     "searchTerm": "lo-fi",
     "primaryGenre": "Classical",
     "likes": "125K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7ie36YytMoKtPiL7tUvmoE",
+    "name": "Igor Stravinsky",
+    "image": "https://i.scdn.co/image/49da328b0629313b2c452bf35d8c50d013274f5b",
+    "followers": 383215,
+    "spotifyId": "7ie36YytMoKtPiL7tUvmoE",
+    "spotifyPopularity": 51,
+    "genres": [
+      "classical",
+      "neoclassical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "singer",
+    "primaryGenre": "Classical",
+    "likes": "383K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2xPfYsn4P2vH7eI6ADyFB7",
+    "name": "Midori",
+    "image": "https://i.scdn.co/image/8c339f7731b51d5c4aedc280e9d16df478833032",
+    "followers": 15840,
+    "spotifyId": "2xPfYsn4P2vH7eI6ADyFB7",
+    "spotifyPopularity": 28,
+    "genres": [
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "duo",
+    "primaryGenre": "Classical",
+    "likes": "15K",
+    "tier": "Underground"
+  },
+  {
+    "id": "4hBgCK8FyJ5bV36ZZLB56X",
+    "name": "Sviatoslav Richter",
+    "image": "https://i.scdn.co/image/1b73c6aaab0f43cfe569edc79aa96fe458752c57",
+    "followers": 75648,
+    "spotifyId": "4hBgCK8FyJ5bV36ZZLB56X",
+    "spotifyPopularity": 43,
+    "genres": [
+      "classical piano",
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "quartet",
+    "primaryGenre": "Classical",
+    "likes": "75K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3aKoUd44IrrqOa6Rzn9Ybq",
+    "name": "Angèle Dubeau",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebfe8c94ab6471d54c46ad23f2",
+    "followers": 30093,
+    "spotifyId": "3aKoUd44IrrqOa6Rzn9Ybq",
+    "spotifyPopularity": 49,
+    "genres": [
+      "classical",
+      "minimalism"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "ensemble",
+    "primaryGenre": "Classical",
+    "likes": "30K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0dy2MCCdtamIXLSncTg9SP",
+    "name": "Beatrice Rana",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba14393a4db85e85fdb152d09",
+    "followers": 10664,
+    "spotifyId": "0dy2MCCdtamIXLSncTg9SP",
+    "spotifyPopularity": 39,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "beat",
+    "primaryGenre": "Classical",
+    "likes": "10K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1M9s5TbPcKurMEzvvW0FFH",
+    "name": "Florence Beatrice Price",
+    "image": "https://i.scdn.co/image/f903625b5eb5effb2aa48e17e1264863a785fdf5",
+    "followers": 20079,
+    "spotifyId": "1M9s5TbPcKurMEzvvW0FFH",
+    "spotifyPopularity": 44,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "beat",
+    "primaryGenre": "Classical",
+    "likes": "20K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1X93CiijNCFQa4o17hLwI3",
+    "name": "Slow Meadow",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1e0bf7f4e0781f10a285ecde",
+    "followers": 56092,
+    "spotifyId": "1X93CiijNCFQa4o17hLwI3",
+    "spotifyPopularity": 47,
+    "genres": [
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "ambient",
+    "primaryGenre": "Classical",
+    "likes": "56K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5DpSoH5zCXNRqYai7pmcGG",
+    "name": "Yngwie Malmsteen",
+    "image": "https://i.scdn.co/image/ab6761610000e5eba25b72feac0cd2089fd7ea16",
+    "followers": 469785,
+    "spotifyId": "5DpSoH5zCXNRqYai7pmcGG",
+    "spotifyPopularity": 52,
+    "genres": [
+      "neoclassical",
+      "power metal",
+      "heavy metal",
+      "glam metal"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "rising",
+    "primaryGenre": "Classical",
+    "likes": "469K",
+    "tier": "Rising"
+  },
+  {
+    "id": "59PMoeYMK4U67YYzVWZGoi",
+    "name": "Michael Silverman",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6e92ad5ccab65a9ca7820a08",
+    "followers": 12365,
+    "spotifyId": "59PMoeYMK4U67YYzVWZGoi",
+    "spotifyPopularity": 44,
+    "genres": [
+      "classical piano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "debut",
+    "primaryGenre": "Classical",
+    "likes": "12K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2MMdTWWDamS8wyZJ6Hosch",
+    "name": "Teodor Currentzis",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb6b98d25cfefcc21d9abd2677",
+    "followers": 23382,
+    "spotifyId": "2MMdTWWDamS8wyZJ6Hosch",
+    "spotifyPopularity": 45,
+    "genres": [
+      "classical",
+      "opera"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "current",
+    "primaryGenre": "Classical",
+    "likes": "23K",
+    "tier": "Rising"
+  },
+  {
+    "id": "284mnx33IWcymQEpMxyfHl",
+    "name": "Modest Mussorgsky",
+    "image": "https://i.scdn.co/image/20b923e03dd0fb8cd20fb93559b9ed9a0e7aefbc",
+    "followers": 87724,
+    "spotifyId": "284mnx33IWcymQEpMxyfHl",
+    "spotifyPopularity": 52,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "modes",
+    "primaryGenre": "Classical",
+    "likes": "87K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4Q8xUjuIUY5YyhDO2P0Rdx",
+    "name": "St. Petersburg State Symphony Orchestra",
+    "image": "https://i.scdn.co/image/61298a594fa1ec2fa3ff3c2491904a6b6bab86ca",
+    "followers": 11038,
+    "spotifyId": "4Q8xUjuIUY5YyhDO2P0Rdx",
+    "spotifyPopularity": 45,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "states",
+    "primaryGenre": "Classical",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1R1hwKrqqLqYiD53NtXEBJ",
+    "name": "Akademie für Alte Musik Berlin",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb70e7cb3600791f873fe651a0",
+    "followers": 14765,
+    "spotifyId": "1R1hwKrqqLqYiD53NtXEBJ",
+    "spotifyPopularity": 49,
+    "genres": [
+      "classical",
+      "opera",
+      "requiem"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "14K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0roWUeP7Ac4yK4VN6L2gF4",
+    "name": "Gioachino Rossini",
+    "image": "https://i.scdn.co/image/48200a929742e954caa5552179de10478d10753a",
+    "followers": 248550,
+    "spotifyId": "0roWUeP7Ac4yK4VN6L2gF4",
+    "spotifyPopularity": 57,
+    "genres": [
+      "classical",
+      "opera"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "248K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4OihBPCQzR4GfbzqOY69Xm",
+    "name": "Jacques Offenbach",
+    "image": "https://i.scdn.co/image/397c307dfd4e9aec9fe266ead8de89a28408ca99",
+    "followers": 122751,
+    "spotifyId": "4OihBPCQzR4GfbzqOY69Xm",
+    "spotifyPopularity": 56,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "122K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0japPUWMmW3gxqjSB1VEVL",
+    "name": "Igor Levit",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb1e1a70d173e6793ff5db3bc2",
+    "followers": 57392,
+    "spotifyId": "0japPUWMmW3gxqjSB1VEVL",
+    "spotifyPopularity": 54,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "57K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3tMLo1k3iUo82coMLWXzxq",
+    "name": "Henry Purcell",
+    "image": "https://i.scdn.co/image/b1e56021e0af6da7c4dad6e677318c716f66a4c3",
+    "followers": 184754,
+    "spotifyId": "3tMLo1k3iUo82coMLWXzxq",
+    "spotifyPopularity": 54,
+    "genres": [
+      "classical",
+      "choral"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "184K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4LYCuV8d6rylb6zjv2k03l",
+    "name": "Paul Lewis",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb626e50a0b479c14f39069d7d",
+    "followers": 16983,
+    "spotifyId": "4LYCuV8d6rylb6zjv2k03l",
+    "spotifyPopularity": 53,
+    "genres": [
+      "classical",
+      "classical piano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "16K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5SBOWUBQdfga0xprPVBxOr",
+    "name": "Idil Biret",
+    "image": "https://i.scdn.co/image/b86c970d53076979e8318d1d7c5c285649c1a5fd",
+    "followers": 16402,
+    "spotifyId": "5SBOWUBQdfga0xprPVBxOr",
+    "spotifyPopularity": 53,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "16K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0mFblCBw0GcoY7zY1P8tzE",
+    "name": "Domenico Scarlatti",
+    "image": "https://i.scdn.co/image/02dc4bf883736095757701dfb28acc40f5df8216",
+    "followers": 162962,
+    "spotifyId": "0mFblCBw0GcoY7zY1P8tzE",
+    "spotifyPopularity": 53,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "162K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5N1GUHhFMRFFgMTjSOJDb9",
+    "name": "Arthur Rubinstein",
+    "image": "https://i.scdn.co/image/3a11cc5557f26ee484b36f6900d9ad9a643fb543",
+    "followers": 141538,
+    "spotifyId": "5N1GUHhFMRFFgMTjSOJDb9",
+    "spotifyPopularity": 50,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "141K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0iZW6hAah0wPk6gOZCGcmy",
+    "name": "Jan Lisiecki",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebec90cfbedbd70e535ed252d0",
+    "followers": 23141,
+    "spotifyId": "0iZW6hAah0wPk6gOZCGcmy",
+    "spotifyPopularity": 50,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "23K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0nJvyjVTb8sAULPYyA1bqU",
+    "name": "Aaron Copland",
+    "image": "https://i.scdn.co/image/f57c487339e5d75bfbf22272ae148641b2a0e18d",
+    "followers": 103480,
+    "spotifyId": "0nJvyjVTb8sAULPYyA1bqU",
+    "spotifyPopularity": 49,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "103K",
+    "tier": "Rising"
+  },
+  {
+    "id": "606pshIhidPHebEaDWSXDe",
+    "name": "Mitsuko Uchida",
+    "image": "https://i.scdn.co/image/ab6772690000c46c3cb945530367a9a1235d6444",
+    "followers": 56424,
+    "spotifyId": "606pshIhidPHebEaDWSXDe",
+    "spotifyPopularity": 47,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "56K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2CFaOiHKik5FgNGzZJ08sx",
+    "name": "George Szell",
+    "image": "https://i.scdn.co/image/f9c56547cabf19ebd1aad33741252861ce5ed1b4",
+    "followers": 13466,
+    "spotifyId": "2CFaOiHKik5FgNGzZJ08sx",
+    "spotifyPopularity": 47,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "13K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2bISdi2DpR6ApPu2Tkxlyz",
+    "name": "Yunchan Lim",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb92a462e17b3b941626a9735",
+    "followers": 33493,
+    "spotifyId": "2bISdi2DpR6ApPu2Tkxlyz",
+    "spotifyPopularity": 46,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "33K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3i67VvAwUlOKZa3fc75zs8",
+    "name": "Elisabeth Leonskaja",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8dad72db381f7d5910058b6a",
+    "followers": 25289,
+    "spotifyId": "3i67VvAwUlOKZa3fc75zs8",
+    "spotifyPopularity": 46,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "25K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3G5zQYaRH9y6ruE4QnoITP",
+    "name": "Stephen Hough",
+    "image": "https://i.scdn.co/image/52bd535effda6b8beafe447db9fb4acf1b5ca409",
+    "followers": 11083,
+    "spotifyId": "3G5zQYaRH9y6ruE4QnoITP",
+    "spotifyPopularity": 46,
+    "genres": [
+      "classical piano",
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2XpDoARX6IQRx9w19lO62x",
+    "name": "Jordi Forniés",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb5d3aebf8ef77a143d5df6b91",
+    "followers": 46907,
+    "spotifyId": "2XpDoARX6IQRx9w19lO62x",
+    "spotifyPopularity": 43,
+    "genres": [
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "46K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4WMHJgeJCssiGW3ssUT7eb",
+    "name": "Johann Strauss I",
+    "image": "https://i.scdn.co/image/5e095ff0a5ee41de8a1e97054e53bf775b240239",
+    "followers": 67085,
+    "spotifyId": "4WMHJgeJCssiGW3ssUT7eb",
+    "spotifyPopularity": 43,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "67K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2BoWH2w47EUxEiOuvl4mxF",
+    "name": "Radu Lupu",
+    "image": "https://i.scdn.co/image/2d1ca54a8db5885ba86c2fbe2c537d9e73d0cb38",
+    "followers": 24425,
+    "spotifyId": "2BoWH2w47EUxEiOuvl4mxF",
+    "spotifyPopularity": 43,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "24K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0xfOM47aJ8EcFX7T6Ugr9W",
+    "name": "Christoph Eschenbach",
+    "image": "https://i.scdn.co/image/bed313fa091a803cff89df037b75a3361b3533ba",
+    "followers": 10484,
+    "spotifyId": "0xfOM47aJ8EcFX7T6Ugr9W",
+    "spotifyPopularity": 42,
+    "genres": [
+      "classical piano",
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5k15M5itLxlNtLk7BGpGa1",
+    "name": "Claudio Arrau",
+    "image": "https://i.scdn.co/image/412078c6389dfe2e0d1591e9c95791809bc19265",
+    "followers": 48124,
+    "spotifyId": "5k15M5itLxlNtLk7BGpGa1",
+    "spotifyPopularity": 42,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "48K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3ffMbKIrSWo557U1wDxNDq",
+    "name": "Il Giardino Armonico",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebb605c335d15745f4da415c6c",
+    "followers": 28561,
+    "spotifyId": "3ffMbKIrSWo557U1wDxNDq",
+    "spotifyPopularity": 42,
+    "genres": [
+      "classical",
+      "opera",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "28K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4SbPzV12NmiqoWBMCvtP3X",
+    "name": "Rafał Blechacz",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb50b1b97ca0855e8c79d4a68a",
+    "followers": 17089,
+    "spotifyId": "4SbPzV12NmiqoWBMCvtP3X",
+    "spotifyPopularity": 42,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "17K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3tzzRz6WvbIF021Ak4l2PE",
+    "name": "María Dueñas",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebe588e1161afc0ea7d7cbfa9f",
+    "followers": 14598,
+    "spotifyId": "3tzzRz6WvbIF021Ak4l2PE",
+    "spotifyPopularity": 41,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "14K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2AL02x65Azh5v7Drur4KNp",
+    "name": "Maxim Vengerov",
+    "image": "https://i.scdn.co/image/a82b3bb7d04578e64a3c11f4487e1cf12f18a6b2",
+    "followers": 45310,
+    "spotifyId": "2AL02x65Azh5v7Drur4KNp",
+    "spotifyPopularity": 41,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "45K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0JwCInHbEPiiLqGj8cIr3j",
+    "name": "Chloe Chua",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebd21a5a34edd3ce568867e284",
+    "followers": 14978,
+    "spotifyId": "0JwCInHbEPiiLqGj8cIr3j",
+    "spotifyPopularity": 41,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "14K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0G0i5Fk40ZZ6JylmVT4rsu",
+    "name": "Martin Herzberg",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb070f5d904c9289d59eb75ab6",
+    "followers": 17811,
+    "spotifyId": "0G0i5Fk40ZZ6JylmVT4rsu",
+    "spotifyPopularity": 41,
+    "genres": [
+      "neoclassical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "17K",
+    "tier": "Rising"
+  },
+  {
+    "id": "1T6BHJnhY5xIVvZKzV5f2u",
+    "name": "YUNDI",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb70465f9e4cd27a7419cf14b9",
+    "followers": 25967,
+    "spotifyId": "1T6BHJnhY5xIVvZKzV5f2u",
+    "spotifyPopularity": 40,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "25K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7cIdAeGd445NFOMJ3fr64K",
+    "name": "Emma Kirkby",
+    "image": "https://i.scdn.co/image/87c76fce4bb4e58797e69c1640995afce961d13d",
+    "followers": 16435,
+    "spotifyId": "7cIdAeGd445NFOMJ3fr64K",
+    "spotifyPopularity": 40,
+    "genres": [
+      "classical",
+      "choral",
+      "opera"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "16K",
+    "tier": "Rising"
+  },
+  {
+    "id": "7xH3VOMwOjnqGu7NERNUx1",
+    "name": "Ferruccio Busoni",
+    "image": "https://i.scdn.co/image/c62c209ae7f4c641c929f2419b7ed38ff6ec8e20",
+    "followers": 10701,
+    "spotifyId": "7xH3VOMwOjnqGu7NERNUx1",
+    "spotifyPopularity": 40,
+    "genres": [
+      "classical piano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "10K",
+    "tier": "Rising"
+  },
+  {
+    "id": "4KAvqco7JE80QdRlEjvyrd",
+    "name": "Fernando Sor",
+    "image": "https://i.scdn.co/image/b5c032904d3b4d68777fcfa2f76e3e5648e27f28",
+    "followers": 17245,
+    "spotifyId": "4KAvqco7JE80QdRlEjvyrd",
+    "spotifyPopularity": 39,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "17K",
+    "tier": "Underground"
+  },
+  {
+    "id": "0WiK9IsQEQEuIQ1iDxvuPg",
+    "name": "Johann Nepomuk Hummel",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb2d93f81de3ed3b2bbec8202e",
+    "followers": 20184,
+    "spotifyId": "0WiK9IsQEQEuIQ1iDxvuPg",
+    "spotifyPopularity": 38,
+    "genres": [
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "20K",
+    "tier": "Underground"
+  },
+  {
+    "id": "6ChLWj2mIxKtKa2pNifotH",
+    "name": "Grigory Sokolov",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb8a273f8a02adb34099c8e664",
+    "followers": 44032,
+    "spotifyId": "6ChLWj2mIxKtKa2pNifotH",
+    "spotifyPopularity": 37,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "44K",
+    "tier": "Underground"
+  },
+  {
+    "id": "7k2OVLYjYoFDAxfVOl6ZD2",
+    "name": "Julia Fischer",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebbcf559c9729fb246bfe8e8e6",
+    "followers": 33698,
+    "spotifyId": "7k2OVLYjYoFDAxfVOl6ZD2",
+    "spotifyPopularity": 38,
+    "genres": [
+      "classical",
+      "chamber music"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "early",
+    "primaryGenre": "Classical",
+    "likes": "33K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1M9AXZkNPdOd1IPEsQsXnT",
+    "name": "Léo Delibes",
+    "image": "https://i.scdn.co/image/c12a6d385c87030706a0f36dd8798deb299c87a4",
+    "followers": 68927,
+    "spotifyId": "1M9AXZkNPdOd1IPEsQsXnT",
+    "spotifyPopularity": 54,
+    "genres": [
+      "classical",
+      "opera"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "68K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2kXJ68O899XvWOBdpzlXgs",
+    "name": "Nikolai Rimsky-Korsakov",
+    "image": "https://i.scdn.co/image/93e1a6107946160e8308aafd91de512cf458d443",
+    "followers": 134353,
+    "spotifyId": "2kXJ68O899XvWOBdpzlXgs",
+    "spotifyPopularity": 53,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "134K",
+    "tier": "Rising"
+  },
+  {
+    "id": "0IuqAyi5CMgpuyhckrcqNs",
+    "name": "Mariss Jansons",
+    "image": "https://i.scdn.co/image/9a30c2f2f38b32c919631fe90be83d934d67fc29",
+    "followers": 18731,
+    "spotifyId": "0IuqAyi5CMgpuyhckrcqNs",
+    "spotifyPopularity": 49,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "18K",
+    "tier": "Rising"
+  },
+  {
+    "id": "25Eab1kIY1gh0Yo1oV04G4",
+    "name": "Bedřich Smetana",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebdc2b5a5750076de09ae73500",
+    "followers": 115999,
+    "spotifyId": "25Eab1kIY1gh0Yo1oV04G4",
+    "spotifyPopularity": 48,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "115K",
+    "tier": "Rising"
+  },
+  {
+    "id": "34MYamymtmnsmpwbqydd7I",
+    "name": "Alexander Borodin",
+    "image": "https://i.scdn.co/image/8125f954593fd7d345da95c593fada8b7248d873",
+    "followers": 58145,
+    "spotifyId": "34MYamymtmnsmpwbqydd7I",
+    "spotifyPopularity": 48,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "58K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3GMPZX0AZo90KkPjFpgPT9",
+    "name": "Bruce Liu",
+    "image": "https://i.scdn.co/image/ab6761610000e5ebaa1535e4c32dacbd27dd5925",
+    "followers": 15280,
+    "spotifyId": "3GMPZX0AZo90KkPjFpgPT9",
+    "spotifyPopularity": 46,
+    "genres": [
+      "classical piano",
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "15K",
+    "tier": "Rising"
+  },
+  {
+    "id": "3L1iFJfRzE7yzilr2yGl6t",
+    "name": "Pablo de Sarasate",
+    "image": "https://i.scdn.co/image/29fa2c54d2b9af14e6e986f143ad696aef1e18ea",
+    "followers": 37104,
+    "spotifyId": "3L1iFJfRzE7yzilr2yGl6t",
+    "spotifyPopularity": 45,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "37K",
+    "tier": "Rising"
+  },
+  {
+    "id": "2bM3j1JQWBkmzuoZKu4zj2",
+    "name": "Anton Bruckner",
+    "image": "https://i.scdn.co/image/c8dc83d307c0a8c18ac505da6133bc37df4442a1",
+    "followers": 80392,
+    "spotifyId": "2bM3j1JQWBkmzuoZKu4zj2",
+    "spotifyPopularity": 43,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "80K",
+    "tier": "Rising"
+  },
+  {
+    "id": "5cp6B8bMNsXdQKgE6exdzx",
+    "name": "Oslo Philharmonic Orchestra",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb7e04d1386371e1942a100a22",
+    "followers": 11616,
+    "spotifyId": "5cp6B8bMNsXdQKgE6exdzx",
+    "spotifyPopularity": 42,
+    "genres": [
+      "classical",
+      "orchestra"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "11K",
+    "tier": "Rising"
+  },
+  {
+    "id": "088fpww3Ae4U9cMZv5O6m8",
+    "name": "Amilcare Ponchielli",
+    "image": "https://i.scdn.co/image/25d949b156335c9209149e33e540c899697bcc9a",
+    "followers": 18062,
+    "spotifyId": "088fpww3Ae4U9cMZv5O6m8",
+    "spotifyPopularity": 42,
+    "genres": [
+      "classical",
+      "opera"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "18K",
+    "tier": "Rising"
+  },
+  {
+    "id": "662RkpOvE7MIPWnfYbY5xs",
+    "name": "Eugène Ysaÿe",
+    "image": "https://i.scdn.co/image/2581b151bc3ca6d0d29cf1cf4ee73ccc6a2daf66",
+    "followers": 17349,
+    "spotifyId": "662RkpOvE7MIPWnfYbY5xs",
+    "spotifyPopularity": 33,
+    "genres": [
+      "classical"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "late",
+    "primaryGenre": "Classical",
+    "likes": "17K",
+    "tier": "Underground"
+  },
+  {
+    "id": "1ylcY77FWeSVQKh5et1VGp",
+    "name": "Music Lab Collective",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb84a989d258d106abdf30039f",
+    "followers": 35451,
+    "spotifyId": "1ylcY77FWeSVQKh5et1VGp",
+    "spotifyPopularity": 54,
+    "genres": [
+      "classical piano"
+    ],
+    "discoveryMethod": "search_term",
+    "searchTerm": "collecting",
+    "primaryGenre": "Classical",
+    "likes": "35K",
     "tier": "Rising"
   }
 ]

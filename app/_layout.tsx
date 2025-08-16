@@ -6,12 +6,12 @@
 import React from "react";
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
-import { View, Text, ActivityIndicator } from "react-native";
+import { View, Text, ActivityIndicator, TouchableOpacity } from "react-native";
 import { AuthProvider, useAuth } from "../context/AuthContext";
 import { PlayerProvider } from "../context/PlayerContext";
 import { useFonts } from "../hooks/useFonts";
 import storage from "../services/storage.platform";
-import { COLORS, SPACING, FONTS } from "../constants/theme";
+import { COLORS, SPACING, FONTS, SIZES } from "../constants/theme";
 import ErrorBoundary from "../components/ErrorBoundary";
 
 // Loading component
@@ -89,9 +89,10 @@ function MainAppLayout() {
 
 // Main layout component with auth logic
 function AppLayout() {
-  const { isAuthenticated, isLoading } = useAuth();
+  const { isAuthenticated, isLoading, error, refreshSession } = useAuth();
   const { fontsLoaded } = useFonts();
   const [storageInitialized, setStorageInitialized] = React.useState(false);
+  const [retryCount, setRetryCount] = React.useState(0);
 
   // Initialize storage
   React.useEffect(() => {
@@ -107,9 +108,86 @@ function AppLayout() {
     initStorage();
   }, []);
 
+  // Handle auth errors and retry
+  React.useEffect(() => {
+    if (error && retryCount < 3) {
+      console.log(`Auth error detected, retrying... (${retryCount + 1}/3)`);
+      const timer = setTimeout(async () => {
+        try {
+          await refreshSession();
+          setRetryCount((prev) => prev + 1);
+        } catch (retryError) {
+          console.error("Retry failed:", retryError);
+        }
+      }, 2000 * (retryCount + 1)); // Exponential backoff
+
+      return () => clearTimeout(timer);
+    }
+  }, [error, retryCount, refreshSession]);
+
   // Show loading component while fonts are loading, auth is checking, or storage is initializing
   if (!fontsLoaded || isLoading || !storageInitialized) {
     return <LoadingComponent />;
+  }
+
+  // Show error state if we've exhausted retries
+  if (error && retryCount >= 3) {
+    return (
+      <View
+        style={{
+          flex: 1,
+          backgroundColor: COLORS.background,
+          justifyContent: "center",
+          alignItems: "center",
+          padding: SPACING.lg,
+        }}
+      >
+        <Text
+          style={{
+            color: COLORS.error,
+            fontFamily: FONTS.family.interBold,
+            fontSize: 18,
+            textAlign: "center",
+            marginBottom: SPACING.md,
+          }}
+        >
+          Authentication Error
+        </Text>
+        <Text
+          style={{
+            color: COLORS.textSecondary,
+            fontFamily: FONTS.family.interMedium,
+            fontSize: 14,
+            textAlign: "center",
+            marginBottom: SPACING.lg,
+          }}
+        >
+          {error}
+        </Text>
+        <TouchableOpacity
+          style={{
+            backgroundColor: COLORS.primaryAccent,
+            paddingHorizontal: SPACING.lg,
+            paddingVertical: SPACING.md,
+            borderRadius: SIZES.borderRadius,
+          }}
+          onPress={() => {
+            setRetryCount(0);
+            refreshSession();
+          }}
+        >
+          <Text
+            style={{
+              color: COLORS.textPrimary,
+              fontFamily: FONTS.family.interBold,
+              fontSize: 16,
+            }}
+          >
+            Retry
+          </Text>
+        </TouchableOpacity>
+      </View>
+    );
   }
 
   // Show auth screens if not authenticated

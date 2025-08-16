@@ -194,6 +194,115 @@ export const rockGenreData: GenreData = {
         "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=LED+ZEPPELIN",
       likes: "823,456",
     },
+    {
+      id: "4",
+      name: "Pink Floyd",
+      image:
+        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=PINK+FLOYD",
+      likes: "756,234",
+    },
+    {
+      id: "5",
+      name: "The Rolling Stones",
+      image:
+        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=ROLLING+STONES",
+      likes: "892,567",
+    },
+    {
+      id: "6",
+      name: "AC/DC",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=AC+DC",
+      likes: "654,321",
+    },
+    {
+      id: "7",
+      name: "Guns N' Roses",
+      image:
+        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=GUNS+N+ROSES",
+      likes: "789,123",
+    },
+    {
+      id: "8",
+      name: "Metallica",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=METALLICA",
+      likes: "912,456",
+    },
+    {
+      id: "9",
+      name: "Nirvana",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=NIRVANA",
+      likes: "678,901",
+    },
+    {
+      id: "10",
+      name: "Red Hot Chili Peppers",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=RHCP",
+      likes: "543,678",
+    },
+    {
+      id: "11",
+      name: "Foo Fighters",
+      image:
+        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=FOO+FIGHTERS",
+      likes: "456,789",
+    },
+    {
+      id: "12",
+      name: "Green Day",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=GREEN+DAY",
+      likes: "345,678",
+    },
+    {
+      id: "13",
+      name: "Linkin Park",
+      image:
+        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=LINKIN+PARK",
+      likes: "567,890",
+    },
+    {
+      id: "14",
+      name: "System of a Down",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=SOAD",
+      likes: "234,567",
+    },
+    {
+      id: "15",
+      name: "Tool",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=TOOL",
+      likes: "123,456",
+    },
+    {
+      id: "16",
+      name: "Radiohead",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=RADIOHEAD",
+      likes: "789,012",
+    },
+    {
+      id: "17",
+      name: "The Strokes",
+      image:
+        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=THE+STROKES",
+      likes: "456,123",
+    },
+    {
+      id: "18",
+      name: "Arctic Monkeys",
+      image:
+        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=ARCTIC+MONKEYS",
+      likes: "567,234",
+    },
+    {
+      id: "19",
+      name: "Muse",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=MUSE",
+      likes: "678,345",
+    },
+    {
+      id: "20",
+      name: "Coldplay",
+      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=COLDPLAY",
+      likes: "789,456",
+    },
   ],
 };
 
@@ -394,12 +503,142 @@ export const genreData: Record<string, GenreData> = {
         releaseDate: "EP: 15/12/24",
       },
     ],
-    artists: hipHopArtists.map((artist) => ({
-      id: artist.id,
-      name: artist.name,
-      image: artist.image,
-      likes: artist.likes,
-    })),
+    artists: [
+      {
+        id: "1",
+        name: "Eminem",
+        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=EMINEM",
+        likes: "2.1M",
+      },
+      {
+        id: "2",
+        name: "Drake",
+        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=DRAKE",
+        likes: "3.2M",
+      },
+      {
+        id: "3",
+        name: "Kendrick Lamar",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=KENDRICK",
+        likes: "2.8M",
+      },
+      {
+        id: "4",
+        name: "J. Cole",
+        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=J+COLE",
+        likes: "2.5M",
+      },
+      {
+        id: "5",
+        name: "Travis Scott",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=TRAVIS+SCOTT",
+        likes: "2.3M",
+      },
+      {
+        id: "6",
+        name: "Post Malone",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=POST+MALONE",
+        likes: "2.7M",
+      },
+      {
+        id: "7",
+        name: "21 Savage",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=21+SAVAGE",
+        likes: "1.9M",
+      },
+      {
+        id: "8",
+        name: "Lil Baby",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=LIL+BABY",
+        likes: "2.0M",
+      },
+      {
+        id: "9",
+        name: "DaBaby",
+        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=DABABY",
+        likes: "1.8M",
+      },
+      {
+        id: "10",
+        name: "Megan Thee Stallion",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=MEGAN+THEE+STALLION",
+        likes: "1.6M",
+      },
+      {
+        id: "11",
+        name: "Cardi B",
+        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=CARDI+B",
+        likes: "2.4M",
+      },
+      {
+        id: "12",
+        name: "Nicki Minaj",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=NICKI+MINAJ",
+        likes: "2.6M",
+      },
+      {
+        id: "13",
+        name: "Lil Uzi Vert",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=LIL+UZI+VERT",
+        likes: "1.7M",
+      },
+      {
+        id: "14",
+        name: "Playboi Carti",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=PLAYBOI+CARTI",
+        likes: "1.5M",
+      },
+      {
+        id: "15",
+        name: "Juice WRLD",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=JUICE+WRLD",
+        likes: "2.2M",
+      },
+      {
+        id: "16",
+        name: "Pop Smoke",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=POP+SMOKE",
+        likes: "1.4M",
+      },
+      {
+        id: "17",
+        name: "Lil Tjay",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=LIL+TJAY",
+        likes: "1.3M",
+      },
+      {
+        id: "18",
+        name: "Polo G",
+        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=POLO+G",
+        likes: "1.2M",
+      },
+      {
+        id: "19",
+        name: "Roddy Ricch",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=RODDY+RICCH",
+        likes: "1.8M",
+      },
+      {
+        id: "20",
+        name: "Lil Durk",
+        image:
+          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=LIL+DURK",
+        likes: "1.6M",
+      },
+    ],
   },
 
   dance_electro: {
@@ -622,188 +861,375 @@ export const genreData: Record<string, GenreData> = {
 
   pop: {
     name: "POP",
-    color: "#55A3FF",
+    color: "#FF9FF3",
     popular: [
       {
         id: "1",
-        title: "Workout Pop",
+        title: "Pop Hits",
         image:
-          "https://via.placeholder.com/200x200/55A3FF/FFFFFF?text=WORKOUT+POP",
-        likes: "654,321",
+          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=POP+HITS",
+        likes: "1.2M",
       },
       {
         id: "2",
-        title: "Love Pop",
+        title: "Pop Love Songs",
         image:
-          "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=LOVE+POP",
-        likes: "523,980",
+          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=LOVE+SONGS",
+        likes: "890K",
       },
       {
         id: "3",
-        title: "Pop Essentials",
+        title: "Pop Party",
         image:
-          "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=POP+ESSENTIALS",
-        likes: "789,111",
+          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=POP+PARTY",
+        likes: "756K",
       },
     ],
     playlists: [
       {
         id: "1",
-        title: "Top Pop",
-        image: "https://via.placeholder.com/200x200/E84393/FFFFFF?text=TOP+POP",
-        likes: "900,222",
+        title: "Top 40 Pop",
+        image: "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=TOP+40",
+        likes: "2.1M",
       },
       {
         id: "2",
-        title: "Teen Pop",
+        title: "Pop Classics",
         image:
-          "https://via.placeholder.com/200x200/FAB1A0/FFFFFF?text=TEEN+POP",
-        likes: "332,118",
+          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=CLASSICS",
+        likes: "1.8M",
       },
       {
         id: "3",
-        title: "Indie Pop",
+        title: "Modern Pop",
         image:
-          "https://via.placeholder.com/200x200/81ECEC/FFFFFF?text=INDIE+POP",
-        likes: "214,992",
+          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=MODERN+POP",
+        likes: "1.5M",
       },
     ],
     newReleases: [
       {
         id: "1",
-        title: "Shine",
-        artist: "Luna Day",
-        image: "https://via.placeholder.com/200x200/55A3FF/FFFFFF?text=SHINE",
-        releaseDate: "Album release: 03/02/25",
-      },
-      {
-        id: "2",
-        title: "Violet",
-        artist: "Amara",
-        image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=VIOLET",
-        releaseDate: "Album release: 21/01/25",
-      },
-      {
-        id: "3",
-        title: "Echo",
-        artist: "The Waves",
-        image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=ECHO",
-        releaseDate: "Album release: 12/01/25",
+        title: "Midnight Dreams",
+        artist: "Pop Star",
+        image:
+          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=MIDNIGHT+DREAMS",
+        releaseDate: "Album release: 15/03/25",
       },
     ],
     artists: [
       {
         id: "1",
-        name: "Taylor S.",
-        image: "https://via.placeholder.com/150x150/55A3FF/FFFFFF?text=TAYLOR",
-        likes: "3.8M",
+        name: "Taylor Swift",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=TAYLOR+SWIFT",
+        likes: "3.5M",
       },
       {
         id: "2",
-        name: "Ariana G.",
-        image: "https://via.placeholder.com/150x150/A29BFE/FFFFFF?text=ARIANA",
-        likes: "2.9M",
+        name: "Ariana Grande",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=ARIANA+GRANDE",
+        likes: "3.2M",
       },
       {
         id: "3",
+        name: "Ed Sheeran",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=ED+SHEERAN",
+        likes: "2.8M",
+      },
+      {
+        id: "4",
+        name: "Billie Eilish",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=BILLIE+EILISH",
+        likes: "2.6M",
+      },
+      {
+        id: "5",
         name: "Dua Lipa",
-        image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=DUA",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=DUA+LIPA",
         likes: "2.4M",
+      },
+      {
+        id: "6",
+        name: "The Weeknd",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=THE+WEEKND",
+        likes: "2.9M",
+      },
+      {
+        id: "7",
+        name: "Justin Bieber",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=JUSTIN+BIEBER",
+        likes: "2.7M",
+      },
+      {
+        id: "8",
+        name: "Lady Gaga",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=LADY+GAGA",
+        likes: "2.3M",
+      },
+      {
+        id: "9",
+        name: "Katy Perry",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=KATY+PERRY",
+        likes: "2.1M",
+      },
+      {
+        id: "10",
+        name: "Bruno Mars",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=BRUNO+MARS",
+        likes: "2.5M",
+      },
+      {
+        id: "11",
+        name: "Shawn Mendes",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=SHAWN+MENDES",
+        likes: "1.9M",
+      },
+      {
+        id: "12",
+        name: "Camila Cabello",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=CAMILA+CABELLO",
+        likes: "1.8M",
+      },
+      {
+        id: "13",
+        name: "Post Malone",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=POST+MALONE",
+        likes: "2.2M",
+      },
+      {
+        id: "14",
+        name: "Halsey",
+        image: "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=HALSEY",
+        likes: "1.7M",
+      },
+      {
+        id: "15",
+        name: "Lorde",
+        image: "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=LORDE",
+        likes: "1.6M",
+      },
+      {
+        id: "16",
+        name: "Lana Del Rey",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=LANA+DEL+REY",
+        likes: "1.5M",
+      },
+      {
+        id: "17",
+        name: "SZA",
+        image: "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=SZA",
+        likes: "1.8M",
+      },
+      {
+        id: "18",
+        name: "Doja Cat",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=DOJA+CAT",
+        likes: "1.9M",
+      },
+      {
+        id: "19",
+        name: "Olivia Rodrigo",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=OLIVIA+RODRIGO",
+        likes: "2.0M",
+      },
+      {
+        id: "20",
+        name: "Conan Gray",
+        image:
+          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=CONAN+GRAY",
+        likes: "1.4M",
       },
     ],
   },
 
   country: {
     name: "COUNTRY",
-    color: "#E17055",
+    color: "#FFD93D",
     popular: [
       {
         id: "1",
-        title: "Workout Country",
-        image:
-          "https://via.placeholder.com/200x200/E17055/FFFFFF?text=WORKOUT+COUNTRY",
-        likes: "145,332",
+        title: "Country Hits",
+        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=COUNTRY+HITS",
+        likes: "1.5M",
       },
       {
         id: "2",
-        title: "Love Country",
-        image:
-          "https://via.placeholder.com/200x200/FAB1A0/FFFFFF?text=LOVE+COUNTRY",
-        likes: "189,004",
+        title: "Classic Country",
+        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=CLASSIC+COUNTRY",
+        likes: "1.1M",
       },
       {
         id: "3",
-        title: "Country Essentials",
-        image:
-          "https://via.placeholder.com/200x200/FFEAA7/FFFFFF?text=ESSENTIALS",
-        likes: "254,881",
+        title: "Modern Country",
+        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=MODERN+COUNTRY",
+        likes: "987K",
       },
     ],
     playlists: [
       {
         id: "1",
-        title: "Pop Country",
-        image:
-          "https://via.placeholder.com/200x200/81ECEC/FFFFFF?text=POP+COUNTRY",
-        likes: "102,992",
+        title: "Country Roads",
+        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=COUNTRY+ROADS",
+        likes: "2.1M",
       },
       {
         id: "2",
-        title: "Country Legends",
-        image: "https://via.placeholder.com/200x200/00CEC9/FFFFFF?text=LEGENDS",
-        likes: "301,119",
+        title: "Outlaw Country",
+        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=OUTLAW+COUNTRY",
+        likes: "1.7M",
       },
       {
         id: "3",
-        title: "Guitar Country",
-        image: "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=GUITAR",
-        likes: "87,334",
+        title: "Country Love Songs",
+        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=LOVE+SONGS",
+        likes: "1.4M",
       },
     ],
     newReleases: [
       {
         id: "1",
-        title: "Dust Road",
-        artist: "Amber Lynn",
-        image:
-          "https://via.placeholder.com/200x200/E17055/FFFFFF?text=DUST+ROAD",
-        releaseDate: "Album release: 07/02/25",
-      },
-      {
-        id: "2",
-        title: "Home Town",
-        artist: "Randy J.",
-        image:
-          "https://via.placeholder.com/200x200/FAB1A0/FFFFFF?text=HOME+TOWN",
-        releaseDate: "Album release: 24/01/25",
-      },
-      {
-        id: "3",
-        title: "Wild Horses",
-        artist: "Western Sky",
-        image:
-          "https://via.placeholder.com/200x200/FFEAA7/FFFFFF?text=WILD+HORSES",
-        releaseDate: "Album release: 10/01/25",
+        title: "Prairie Wind",
+        artist: "Country Star",
+        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=PRAIRIE+WIND",
+        releaseDate: "Album release: 22/03/25",
       },
     ],
     artists: [
       {
         id: "1",
-        name: "Luke Bryan",
-        image: "https://via.placeholder.com/150x150/E17055/FFFFFF?text=LUKE",
-        likes: "1.2M",
+        name: "Johnny Cash",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=JOHNNY+CASH",
+        likes: "2.9M",
       },
       {
         id: "2",
-        name: "Carrie Underwood",
-        image: "https://via.placeholder.com/150x150/FAB1A0/FFFFFF?text=CARRIE",
-        likes: "1.1M",
+        name: "Willie Nelson",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=WILLIE+NELSON",
+        likes: "2.7M",
       },
       {
         id: "3",
         name: "Dolly Parton",
-        image: "https://via.placeholder.com/150x150/FFEAA7/FFFFFF?text=DOLLY",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=DOLLY+PARTON",
+        likes: "2.8M",
+      },
+      {
+        id: "4",
+        name: "George Strait",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=GEORGE+STRAIT",
+        likes: "2.5M",
+      },
+      {
+        id: "5",
+        name: "Garth Brooks",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=GARTH+BROOKS",
+        likes: "2.6M",
+      },
+      {
+        id: "6",
+        name: "Shania Twain",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=SHANIA+TWAIN",
+        likes: "2.4M",
+      },
+      {
+        id: "7",
+        name: "Alan Jackson",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=ALAN+JACKSON",
+        likes: "2.2M",
+      },
+      {
+        id: "8",
+        name: "Reba McEntire",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=REBA+MCENTIRE",
+        likes: "2.1M",
+      },
+      {
+        id: "9",
+        name: "Tim McGraw",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=TIM+MCGRAW",
+        likes: "2.3M",
+      },
+      {
+        id: "10",
+        name: "Faith Hill",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=FAITH+HILL",
+        likes: "2.0M",
+      },
+      {
+        id: "11",
+        name: "Kenny Chesney",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=KENNY+CHESNEY",
+        likes: "1.9M",
+      },
+      {
+        id: "12",
+        name: "Toby Keith",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=TOBY+KEITH",
+        likes: "1.8M",
+      },
+      {
+        id: "13",
+        name: "Brad Paisley",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=BRAD+PAISLEY",
+        likes: "1.7M",
+      },
+      {
+        id: "14",
+        name: "Carrie Underwood",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=CARRIE+UNDERWOOD",
+        likes: "2.2M",
+      },
+      {
+        id: "15",
+        name: "Miranda Lambert",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=MIRANDA+LAMBERT",
+        likes: "1.9M",
+      },
+      {
+        id: "16",
+        name: "Luke Bryan",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=LUKE+BRYAN",
+        likes: "1.8M",
+      },
+      {
+        id: "17",
+        name: "Blake Shelton",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=BLAKE+SHELTON",
+        likes: "1.7M",
+      },
+      {
+        id: "18",
+        name: "Keith Urban",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=KEITH+URBAN",
+        likes: "1.6M",
+      },
+      {
+        id: "19",
+        name: "Zac Brown Band",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=ZAC+BROWN+BAND",
         likes: "1.5M",
+      },
+      {
+        id: "20",
+        name: "Florida Georgia Line",
+        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=FLORIDA+GEORGIA+LINE",
+        likes: "1.4M",
       },
     ],
   },
@@ -1558,94 +1984,176 @@ export const genreData: Record<string, GenreData> = {
 
   jazz: {
     name: "JAZZ",
-    color: "#6C5CE7",
+    color: "#FF6B35",
     popular: [
       {
         id: "1",
-        title: "Smooth Jazz",
-        image: "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=SMOOTH",
-        likes: "132,004",
+        title: "Jazz Classics",
+        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=JAZZ+CLASSICS",
+        likes: "1.2M",
       },
       {
         id: "2",
-        title: "Love Jazz",
-        image:
-          "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=LOVE+JAZZ",
-        likes: "90,113",
+        title: "Smooth Jazz",
+        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=SMOOTH+JAZZ",
+        likes: "890K",
       },
       {
         id: "3",
-        title: "Jazz Essentials",
-        image:
-          "https://via.placeholder.com/200x200/341F97/FFFFFF?text=ESSENTIALS",
-        likes: "201,551",
+        title: "Bebop Masters",
+        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=BEBOP+MASTERS",
+        likes: "654K",
       },
     ],
     playlists: [
       {
         id: "1",
-        title: "Jazz Classics",
-        image:
-          "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=CLASSICS",
-        likes: "118,002",
+        title: "Jazz Standards",
+        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=JAZZ+STANDARDS",
+        likes: "1.8M",
       },
       {
         id: "2",
         title: "Modern Jazz",
-        image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=MODERN",
-        likes: "97,882",
+        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=MODERN+JAZZ",
+        likes: "1.4M",
       },
       {
         id: "3",
-        title: "Fusion",
-        image: "https://via.placeholder.com/200x200/341F97/FFFFFF?text=FUSION",
-        likes: "81,440",
+        title: "Jazz Fusion",
+        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=JAZZ+FUSION",
+        likes: "1.1M",
       },
     ],
     newReleases: [
       {
         id: "1",
-        title: "Midnight Blue",
-        artist: "Sax Union",
-        image:
-          "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=MIDNIGHT",
-        releaseDate: "Album release: 08/02/25",
-      },
-      {
-        id: "2",
-        title: "Sunrise",
-        artist: "Quartet 4",
-        image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=SUNRISE",
-        releaseDate: "Album release: 20/01/25",
-      },
-      {
-        id: "3",
-        title: "Blue Train",
-        artist: "Coltrane Inspired",
-        image:
-          "https://via.placeholder.com/200x200/341F97/FFFFFF?text=BLUE+TRAIN",
-        releaseDate: "Album release: 06/01/25",
+        title: "Midnight Session",
+        artist: "Jazz Collective",
+        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=MIDNIGHT+SESSION",
+        releaseDate: "Album release: 20/03/25",
       },
     ],
     artists: [
       {
         id: "1",
         name: "Miles Davis",
-        image: "https://via.placeholder.com/150x150/6C5CE7/FFFFFF?text=MILES",
-        likes: "1.7M",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=MILES+DAVIS",
+        likes: "2.8M",
       },
       {
         id: "2",
         name: "John Coltrane",
-        image:
-          "https://via.placeholder.com/150x150/A29BFE/FFFFFF?text=COLTRANE",
-        likes: "1.5M",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=JOHN+COLTRANE",
+        likes: "2.6M",
       },
       {
         id: "3",
+        name: "Louis Armstrong",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=LOUIS+ARMSTRONG",
+        likes: "2.4M",
+      },
+      {
+        id: "4",
+        name: "Duke Ellington",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=DUKE+ELLINGTON",
+        likes: "2.2M",
+      },
+      {
+        id: "5",
+        name: "Charlie Parker",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=CHARLIE+PARKER",
+        likes: "2.0M",
+      },
+      {
+        id: "6",
+        name: "Thelonious Monk",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=THELONIOUS+MONK",
+        likes: "1.9M",
+      },
+      {
+        id: "7",
+        name: "Ella Fitzgerald",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=ELLA+FITZGERALD",
+        likes: "2.1M",
+      },
+      {
+        id: "8",
+        name: "Billie Holiday",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=BILLIE+HOLIDAY",
+        likes: "1.8M",
+      },
+      {
+        id: "9",
+        name: "Dave Brubeck",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=DAVE+BRUBECK",
+        likes: "1.7M",
+      },
+      {
+        id: "10",
         name: "Herbie Hancock",
-        image: "https://via.placeholder.com/150x150/341F97/FFFFFF?text=HERBIE",
-        likes: "1.1M",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=HERBIE+HANCOCK",
+        likes: "1.9M",
+      },
+      {
+        id: "11",
+        name: "Wynton Kelly",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=WYNTON+KELLY",
+        likes: "1.5M",
+      },
+      {
+        id: "12",
+        name: "Cannonball Adderley",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=CANNONBALL+ADDERLEY",
+        likes: "1.6M",
+      },
+      {
+        id: "13",
+        name: "Art Blakey",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=ART+BLAKEY",
+        likes: "1.4M",
+      },
+      {
+        id: "14",
+        name: "Sonny Rollins",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=SONNY+ROLLINS",
+        likes: "1.7M",
+      },
+      {
+        id: "15",
+        name: "Wes Montgomery",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=WES+MONTGOMERY",
+        likes: "1.6M",
+      },
+      {
+        id: "16",
+        name: "Grant Green",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=GRANT+GREEN",
+        likes: "1.3M",
+      },
+      {
+        id: "17",
+        name: "Jimmy Smith",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=JIMMY+SMITH",
+        likes: "1.5M",
+      },
+      {
+        id: "18",
+        name: "Stan Getz",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=STAN+GETZ",
+        likes: "1.4M",
+      },
+      {
+        id: "19",
+        name: "Gerry Mulligan",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=GERRY+MULLIGAN",
+        likes: "1.2M",
+      },
+      {
+        id: "20",
+        name: "Chet Baker",
+        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=CHET+BAKER",
+        likes: "1.8M",
       },
     ],
   },
@@ -2199,6 +2707,181 @@ export const genreData: Record<string, GenreData> = {
       },
     ],
   },
-};
 
-import { hipHopArtists } from "./allArtists";
+  // Electronic genre with expanded artists
+  electronic: {
+    name: "ELECTRONIC",
+    color: "#00D2FF",
+    popular: [
+      {
+        id: "1",
+        title: "EDM Hits",
+        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=EDM+HITS",
+        likes: "1.8M",
+      },
+      {
+        id: "2",
+        title: "Deep House",
+        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=DEEP+HOUSE",
+        likes: "956K",
+      },
+      {
+        id: "3",
+        title: "Techno Vibes",
+        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=TECHNO+VIBES",
+        likes: "723K",
+      },
+    ],
+    playlists: [
+      {
+        id: "1",
+        title: "Electronic Essentials",
+        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=ESSENTIALS",
+        likes: "2.3M",
+      },
+      {
+        id: "2",
+        title: "Chill Electronic",
+        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=CHILL+ELECTRONIC",
+        likes: "1.6M",
+      },
+      {
+        id: "3",
+        title: "Dance Floor",
+        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=DANCE+FLOOR",
+        likes: "1.9M",
+      },
+    ],
+    newReleases: [
+      {
+        id: "1",
+        title: "Neon Nights",
+        artist: "Digital Dreams",
+        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=NEON+NIGHTS",
+        releaseDate: "Album release: 18/03/25",
+      },
+    ],
+    artists: [
+      {
+        id: "1",
+        name: "Daft Punk",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=DAFT+PUNK",
+        likes: "3.1M",
+      },
+      {
+        id: "2",
+        name: "The Chemical Brothers",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=CHEMICAL+BROTHERS",
+        likes: "2.8M",
+      },
+      {
+        id: "3",
+        name: "Aphex Twin",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=APHEX+TWIN",
+        likes: "2.5M",
+      },
+      {
+        id: "4",
+        name: "Deadmau5",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=DEADMAU5",
+        likes: "2.7M",
+      },
+      {
+        id: "5",
+        name: "Skrillex",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=SKRILLEX",
+        likes: "2.9M",
+      },
+      {
+        id: "6",
+        name: "Calvin Harris",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=CALVIN+HARRIS",
+        likes: "2.6M",
+      },
+      {
+        id: "7",
+        name: "David Guetta",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=DAVID+GUETTA",
+        likes: "2.4M",
+      },
+      {
+        id: "8",
+        name: "Tiesto",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=TIESTO",
+        likes: "2.3M",
+      },
+      {
+        id: "9",
+        name: "Avicii",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=AVICII",
+        likes: "2.8M",
+      },
+      {
+        id: "10",
+        name: "Swedish House Mafia",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=SWEDISH+HOUSE+MAFIA",
+        likes: "2.2M",
+      },
+      {
+        id: "11",
+        name: "Zedd",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=ZEDD",
+        likes: "2.0M",
+      },
+      {
+        id: "12",
+        name: "Martin Garrix",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=MARTIN+GARRIX",
+        likes: "1.9M",
+      },
+      {
+        id: "13",
+        name: "Marshmello",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=MARSHMELLO",
+        likes: "2.1M",
+      },
+      {
+        id: "14",
+        name: "The Prodigy",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=THE+PRODIGY",
+        likes: "1.8M",
+      },
+      {
+        id: "15",
+        name: "Underworld",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=UNDERWORLD",
+        likes: "1.7M",
+      },
+      {
+        id: "16",
+        name: "Massive Attack",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=MASSIVE+ATTACK",
+        likes: "1.9M",
+      },
+      {
+        id: "17",
+        name: "Portishead",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=PORTISHEAD",
+        likes: "1.6M",
+      },
+      {
+        id: "18",
+        name: "Moby",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=MOBY",
+        likes: "1.8M",
+      },
+      {
+        id: "19",
+        name: "Fatboy Slim",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=FATBOY+SLIM",
+        likes: "1.5M",
+      },
+      {
+        id: "20",
+        name: "The Crystal Method",
+        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=CRYSTAL+METHOD",
+        likes: "1.4M",
+      },
+    ],
+  },
+};
