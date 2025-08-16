@@ -1,9 +1,9 @@
 /**
  * Now Playing Screen
- * Full-screen player with controls and track information
+ * Premium full-screen player with modern design and smooth animations
  */
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   View,
   Text,
@@ -13,15 +13,20 @@ import {
   Dimensions,
   Animated,
   PanResponder,
+  StatusBar,
+  ScrollView,
+  Platform,
 } from "react-native";
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import { COLORS, SPACING, SIZES } from "../constants/theme";
+import { LinearGradient } from "expo-linear-gradient";
+import { COLORS, SPACING, SIZES, SHADOWS } from "../constants/theme";
 import { usePlayer } from "../context/PlayerContext";
 import { useAuth } from "../context/AuthContext";
 import ProgressBar from "../components/player/ProgressBar";
+import { AudioVisualizer } from "../components/player/AudioVisualizer";
 
-const { width: SCREEN_WIDTH } = Dimensions.get("window");
+const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
 
 export default function NowPlayingScreen() {
   const router = useRouter();
@@ -30,20 +35,61 @@ export default function NowPlayingScreen() {
   const { isAuthenticated } = useAuth();
 
   const [isLiked, setIsLiked] = useState(false);
+  const [isShuffled, setIsShuffled] = useState(false);
+  const [repeatMode, setRepeatMode] = useState<"off" | "one" | "all">("off");
   const [sliderValue, setSliderValue] = useState(0);
   const [isSeeking, setIsSeeking] = useState(false);
 
-  // Animation for the slider
-  const sliderAnimation = new Animated.Value(0);
+  // Animations
+  const fadeAnim = useRef(new Animated.Value(0)).current;
+  const slideAnim = useRef(new Animated.Value(50)).current;
+  const artworkScale = useRef(new Animated.Value(0.8)).current;
+  const controlsOpacity = useRef(new Animated.Value(0)).current;
+  const backgroundOpacity = useRef(new Animated.Value(0)).current;
 
   // Update slider position based on current playback time
   useEffect(() => {
     if (!isSeeking && duration > 0) {
       const progress = position / duration;
       setSliderValue(progress);
-      sliderAnimation.setValue(progress);
     }
   }, [position, duration, isSeeking]);
+
+  // Start entrance animations
+  useEffect(() => {
+    const animations = [
+      Animated.parallel([
+        Animated.timing(fadeAnim, {
+          toValue: 1,
+          duration: 800,
+          useNativeDriver: true,
+        }),
+        Animated.timing(slideAnim, {
+          toValue: 0,
+          duration: 800,
+          useNativeDriver: true,
+        }),
+        Animated.timing(artworkScale, {
+          toValue: 1,
+          duration: 1000,
+          useNativeDriver: true,
+        }),
+        Animated.timing(backgroundOpacity, {
+          toValue: 1,
+          duration: 1200,
+          useNativeDriver: true,
+        }),
+      ]),
+      Animated.timing(controlsOpacity, {
+        toValue: 1,
+        duration: 600,
+        delay: 400,
+        useNativeDriver: true,
+      }),
+    ];
+
+    Animated.stagger(100, animations).start();
+  }, []);
 
   // Pan responder for the slider
   const panResponder = PanResponder.create({
@@ -58,7 +104,6 @@ export default function NowPlayingScreen() {
         Math.min(1, gestureState.moveX / SCREEN_WIDTH)
       );
       setSliderValue(newValue);
-      sliderAnimation.setValue(newValue);
     },
     onPanResponderRelease: () => {
       if (duration > 0) {
@@ -69,216 +114,428 @@ export default function NowPlayingScreen() {
   });
 
   // Handle like/unlike
-  const handleLike = () => {
-    if (!isAuthenticated) {
-      // Prompt to sign in
-      router.push("/(auth)/login");
-      return;
-    }
-
-    // Toggle like status
-    setIsLiked(!isLiked);
-
-    // In a real app, we would call an API to like/unlike the track
-    console.log(`${isLiked ? "Unlike" : "Like"} track ${currentTrack?.id}`);
-  };
+  const handleLike = () => setIsLiked(!isLiked);
 
   // Handle add to playlist
   const handleAddToPlaylist = () => {
-    if (!isAuthenticated) {
-      // Prompt to sign in
-      router.push("/(auth)/login");
-      return;
+    // TODO: Implement add to playlist functionality
+    console.log("Add to playlist");
+  };
+
+  // Handle shuffle toggle
+  const handleShuffle = () => setIsShuffled(!isShuffled);
+
+  // Handle repeat mode toggle
+  const handleRepeat = () => {
+    const modes: Array<"off" | "one" | "all"> = ["off", "one", "all"];
+    const currentIndex = modes.indexOf(repeatMode);
+    const nextIndex = (currentIndex + 1) % modes.length;
+    setRepeatMode(modes[nextIndex]);
+  };
+
+  // Handle play/pause
+  const handlePlayPause = async () => {
+    try {
+      if (isPlaying) {
+        await pause();
+      } else {
+        await play(currentTrack);
+      }
+    } catch (error) {
+      console.error("Play/pause error:", error);
     }
-
-    // In a real app, this would open a modal to select a playlist
-    console.log(`Add track ${currentTrack?.id} to playlist`);
   };
 
-  // Format time in mm:ss
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = Math.floor(seconds % 60);
-    return `${mins}:${secs.toString().padStart(2, "0")}`;
+  // Handle previous/next track
+  const handlePrevious = () => {
+    // TODO: Implement previous track
+    console.log("Previous track");
   };
 
-  // If no track is playing, show a message
+  const handleNext = () => {
+    // TODO: Implement next track
+    console.log("Next track");
+  };
+
+  // Get repeat mode icon
+  const getRepeatIcon = () => {
+    switch (repeatMode) {
+      case "off":
+        return "repeat-outline";
+      case "one":
+        return "repeat-one";
+      case "all":
+        return "repeat";
+      default:
+        return "repeat-outline";
+    }
+  };
+
+  // Get repeat mode color
+  const getRepeatColor = () => {
+    return repeatMode === "off" ? COLORS.textSecondary : COLORS.primaryAccent;
+  };
+
+  // Get shuffle color
+  const getShuffleColor = () => {
+    return isShuffled ? COLORS.primaryAccent : COLORS.textSecondary;
+  };
+
   if (!currentTrack) {
     return (
       <View style={styles.noTrackContainer}>
-        <Text style={styles.noTrackText}>No track is currently playing</Text>
-        <TouchableOpacity
-          style={styles.browseButton}
-          onPress={() => router.push("/")}
+        <LinearGradient
+          colors={[COLORS.background, COLORS.surface]}
+          style={styles.noTrackGradient}
         >
-          <Text style={styles.browseButtonText}>Browse Music</Text>
-        </TouchableOpacity>
+          <StatusBar barStyle="light-content" backgroundColor="transparent" />
+          <View style={styles.noTrackContent}>
+            <Ionicons
+              name="musical-notes-outline"
+              size={80}
+              color={COLORS.textSecondary}
+            />
+            <Text style={styles.noTrackText}>No Track Playing</Text>
+            <Text style={styles.noTrackSubtext}>
+              Start playing music to see the player
+            </Text>
+            <TouchableOpacity
+              style={styles.browseButton}
+              onPress={() => router.push("/(tabs)/search")}
+            >
+              <Text style={styles.browseButtonText}>Browse Music</Text>
+            </TouchableOpacity>
+          </View>
+        </LinearGradient>
       </View>
     );
   }
 
   return (
     <View style={styles.container}>
-      {/* Header with close button */}
-      <View style={styles.header}>
+      <StatusBar barStyle="light-content" backgroundColor="transparent" />
+
+      {/* Animated Background */}
+      <Animated.View
+        style={[styles.backgroundOverlay, { opacity: backgroundOpacity }]}
+      >
+        <LinearGradient
+          colors={[
+            "rgba(99, 102, 241, 0.3)",
+            "rgba(139, 92, 246, 0.2)",
+            "rgba(6, 182, 212, 0.1)",
+            "rgba(15, 15, 35, 0.8)",
+          ]}
+          style={styles.backgroundGradient}
+        />
+      </Animated.View>
+
+      {/* Header */}
+      <Animated.View
+        style={[
+          styles.header,
+          { opacity: fadeAnim, transform: [{ translateY: slideAnim }] },
+        ]}
+      >
         <TouchableOpacity
           onPress={() => router.back()}
           style={styles.closeButton}
         >
-          <Ionicons name="chevron-down" size={28} color={COLORS.textPrimary} />
+          <LinearGradient
+            colors={["rgba(255, 255, 255, 0.1)", "rgba(255, 255, 255, 0.05)"]}
+            style={styles.closeButtonGradient}
+          >
+            <Ionicons
+              name="chevron-down"
+              size={24}
+              color={COLORS.textPrimary}
+            />
+          </LinearGradient>
         </TouchableOpacity>
+
         <View style={styles.headerTitleContainer}>
           <Text style={styles.headerTitle}>Now Playing</Text>
+          <Text style={styles.headerSubtitle}>From your library</Text>
         </View>
+
         <TouchableOpacity style={styles.queueButton} onPress={() => {}}>
-          <Ionicons name="list" size={24} color={COLORS.textSecondary} />
+          <LinearGradient
+            colors={["rgba(255, 255, 255, 0.1)", "rgba(255, 255, 255, 0.05)"]}
+            style={styles.queueButtonGradient}
+          >
+            <Ionicons name="list" size={20} color={COLORS.textPrimary} />
+          </LinearGradient>
         </TouchableOpacity>
-      </View>
+      </Animated.View>
 
-      {/* Album artwork */}
-      <View style={styles.artworkContainer}>
-        <Image
-          source={
-            currentTrack.thumbnailUrl
-              ? { uri: currentTrack.thumbnailUrl }
-              : {
-                  uri: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
+      <ScrollView
+        style={styles.scrollContainer}
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={styles.scrollContent}
+      >
+        {/* Album Artwork */}
+        <Animated.View
+          style={[
+            styles.artworkContainer,
+            {
+              opacity: fadeAnim,
+              transform: [{ translateY: slideAnim }, { scale: artworkScale }],
+            },
+          ]}
+        >
+          <View style={styles.artworkWrapper}>
+            <Image
+              source={
+                currentTrack.thumbnailUrl
+                  ? { uri: currentTrack.thumbnailUrl }
+                  : require("../assets/images/default-track.png")
+              }
+              style={styles.artwork}
+              resizeMode="cover"
+            />
+            <View style={styles.artworkGlow} />
+          </View>
+
+          <View style={styles.sourceIconContainer}>
+            <LinearGradient
+              colors={["rgba(0, 0, 0, 0.8)", "rgba(0, 0, 0, 0.6)"]}
+              style={styles.sourceIconGradient}
+            >
+              <Ionicons
+                name={
+                  currentTrack.sourceType === "youtube"
+                    ? "logo-youtube"
+                    : "cloud"
                 }
-          }
-          style={styles.artwork}
-          resizeMode="cover"
-        />
-        <View style={styles.sourceIconContainer}>
-          <Ionicons
-            name={
-              currentTrack.sourceType === "youtube" ? "logo-youtube" : "cloud"
-            }
-            size={16}
-            color={COLORS.textPrimary}
-          />
-        </View>
-      </View>
+                size={16}
+                color={COLORS.textPrimary}
+              />
+            </LinearGradient>
+          </View>
+        </Animated.View>
 
-      {/* Audio Visualizer - TODO: Implement */}
-      <View style={styles.visualizerContainer}>
-        <Text style={styles.visualizerText}>Audio Visualizer Coming Soon</Text>
-      </View>
-
-      {/* Track info */}
-      <View style={styles.infoContainer}>
-        <Text style={styles.title} numberOfLines={1}>
-          {currentTrack.title}
-        </Text>
-        <Text style={styles.artist} numberOfLines={1}>
-          {currentTrack.artist}
-        </Text>
-      </View>
-
-      {/* Progress bar */}
-      <View style={styles.progressContainer}>
-        <View style={styles.progressBar}>
-          <Animated.View
-            style={[
-              styles.progressFill,
-              {
-                width: sliderAnimation.interpolate({
-                  inputRange: [0, 1],
-                  outputRange: ["0%", "100%"],
-                }),
-              },
-            ]}
-          />
-          <Animated.View
-            style={[
-              styles.progressThumb,
-              {
-                left: sliderAnimation.interpolate({
-                  inputRange: [0, 1],
-                  outputRange: [0, SCREEN_WIDTH - 80 - 16],
-                }),
-              },
-            ]}
-            {...panResponder.panHandlers}
-          />
-        </View>
-        <View style={styles.timeContainer}>
-          <Text style={styles.timeText}>{formatTime(position)}</Text>
-          <Text style={styles.timeText}>{formatTime(duration)}</Text>
-        </View>
-      </View>
-
-      {/* Playback controls */}
-      <View style={styles.controlsContainer}>
-        <TouchableOpacity style={styles.controlButton} onPress={() => {}}>
-          <Ionicons name="shuffle" size={24} color={COLORS.textSecondary} />
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.controlButton} onPress={() => {}}>
-          <Ionicons
-            name="play-skip-back"
-            size={32}
-            color={COLORS.textSecondary}
-          />
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={styles.playPauseButton}
-          onPress={() =>
-            isPlaying ? pause() : currentTrack ? play(currentTrack) : null
-          }
+        {/* Track Info */}
+        <Animated.View
+          style={[
+            styles.infoContainer,
+            { opacity: fadeAnim, transform: [{ translateY: slideAnim }] },
+          ]}
         >
-          <Ionicons
-            name={isPlaying ? "pause" : "play"}
-            size={32}
-            color={COLORS.textPrimary}
-          />
-        </TouchableOpacity>
+          <Text style={styles.title} numberOfLines={2}>
+            {currentTrack.title}
+          </Text>
+          <Text style={styles.artist} numberOfLines={1}>
+            {currentTrack.artist}
+          </Text>
+          <Text style={styles.album} numberOfLines={1}>
+            {currentTrack.album || "Unknown Album"}
+          </Text>
+        </Animated.View>
 
-        <TouchableOpacity style={styles.controlButton} onPress={() => {}}>
-          <Ionicons
-            name="play-skip-forward"
-            size={32}
-            color={COLORS.textSecondary}
-          />
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.controlButton} onPress={() => {}}>
-          <Ionicons name="repeat" size={24} color={COLORS.textSecondary} />
-        </TouchableOpacity>
-      </View>
-
-      {/* Additional actions */}
-      <View style={styles.actionsContainer}>
-        <TouchableOpacity style={styles.actionButton} onPress={handleLike}>
-          <Ionicons
-            name={isLiked ? "heart" : "heart-outline"}
-            size={24}
-            color={isLiked ? "#FF3B30" : COLORS.textPrimary}
-          />
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={styles.actionButton}
-          onPress={handleAddToPlaylist}
+        {/* Audio Visualizer */}
+        <Animated.View
+          style={[
+            styles.visualizerContainer,
+            { opacity: fadeAnim, transform: [{ translateY: slideAnim }] },
+          ]}
         >
-          <Ionicons
-            name="add-circle-outline"
-            size={24}
-            color={COLORS.textPrimary}
+          <AudioVisualizer
+            isPlaying={isPlaying}
+            intensity={0.7}
+            color={COLORS.primaryAccent}
+            height={80}
           />
-        </TouchableOpacity>
+        </Animated.View>
 
-        <TouchableOpacity
-          style={styles.actionButton}
-          onPress={() => router.push(`/track/${currentTrack.id}`)}
+        {/* Progress Bar */}
+        <Animated.View
+          style={[
+            styles.progressContainer,
+            { opacity: fadeAnim, transform: [{ translateY: slideAnim }] },
+          ]}
         >
-          <Ionicons
-            name="information-circle-outline"
-            size={24}
-            color={COLORS.textPrimary}
-          />
-        </TouchableOpacity>
-      </View>
+          <ProgressBar showTime={true} height={6} />
+        </Animated.View>
+
+        {/* Playback Controls */}
+        <Animated.View
+          style={[
+            styles.controlsContainer,
+            {
+              opacity: controlsOpacity,
+              transform: [{ translateY: slideAnim }],
+            },
+          ]}
+        >
+          <TouchableOpacity
+            style={styles.controlButton}
+            onPress={handleShuffle}
+            activeOpacity={0.7}
+          >
+            <Ionicons name="shuffle" size={24} color={getShuffleColor()} />
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.controlButton}
+            onPress={handlePrevious}
+            activeOpacity={0.7}
+          >
+            <Ionicons
+              name="play-skip-back"
+              size={28}
+              color={COLORS.textPrimary}
+            />
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.playPauseButton}
+            onPress={handlePlayPause}
+            activeOpacity={0.9}
+          >
+            <LinearGradient
+              colors={[COLORS.primaryAccent, COLORS.secondary]}
+              style={styles.playPauseGradient}
+            >
+              <Ionicons
+                name={isPlaying ? "pause" : "play"}
+                size={32}
+                color={COLORS.textPrimary}
+              />
+            </LinearGradient>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.controlButton}
+            onPress={handleNext}
+            activeOpacity={0.7}
+          >
+            <Ionicons
+              name="play-skip-forward"
+              size={28}
+              color={COLORS.textPrimary}
+            />
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.controlButton}
+            onPress={handleRepeat}
+            activeOpacity={0.7}
+          >
+            <Ionicons
+              name={getRepeatIcon()}
+              size={24}
+              color={getRepeatColor()}
+            />
+          </TouchableOpacity>
+        </Animated.View>
+
+        {/* Additional Actions */}
+        <Animated.View
+          style={[
+            styles.actionsContainer,
+            {
+              opacity: controlsOpacity,
+              transform: [{ translateY: slideAnim }],
+            },
+          ]}
+        >
+          <TouchableOpacity
+            style={styles.actionButton}
+            onPress={handleLike}
+            activeOpacity={0.7}
+          >
+            <LinearGradient
+              colors={
+                isLiked
+                  ? ["#FF3B30", "#FF6B6B"]
+                  : ["rgba(255, 255, 255, 0.1)", "rgba(255, 255, 255, 0.05)"]
+              }
+              style={styles.actionButtonGradient}
+            >
+              <Ionicons
+                name={isLiked ? "heart" : "heart-outline"}
+                size={24}
+                color={isLiked ? "#FFFFFF" : COLORS.textPrimary}
+              />
+            </LinearGradient>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.actionButton}
+            onPress={handleAddToPlaylist}
+            activeOpacity={0.7}
+          >
+            <LinearGradient
+              colors={["rgba(255, 255, 255, 0.1)", "rgba(255, 255, 255, 0.05)"]}
+              style={styles.actionButtonGradient}
+            >
+              <Ionicons
+                name="add-circle-outline"
+                size={24}
+                color={COLORS.textPrimary}
+              />
+            </LinearGradient>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.actionButton}
+            onPress={() => router.push(`/track/${currentTrack.id}`)}
+            activeOpacity={0.7}
+          >
+            <LinearGradient
+              colors={["rgba(255, 255, 255, 0.1)", "rgba(255, 255, 255, 0.05)"]}
+              style={styles.actionButtonGradient}
+            >
+              <Ionicons
+                name="information-circle-outline"
+                size={24}
+                color={COLORS.textPrimary}
+              />
+            </LinearGradient>
+          </TouchableOpacity>
+        </Animated.View>
+
+        {/* Next Up Queue Preview */}
+        <Animated.View
+          style={[
+            styles.queuePreviewContainer,
+            {
+              opacity: controlsOpacity,
+              transform: [{ translateY: slideAnim }],
+            },
+          ]}
+        >
+          <View style={styles.queuePreviewHeader}>
+            <Ionicons name="list" size={20} color={COLORS.textSecondary} />
+            <Text style={styles.queuePreviewTitle}>Next Up</Text>
+            <TouchableOpacity>
+              <Ionicons
+                name="chevron-up"
+                size={20}
+                color={COLORS.textSecondary}
+              />
+            </TouchableOpacity>
+          </View>
+          <View style={styles.queuePreviewContent}>
+            <Image
+              source={{ uri: currentTrack.thumbnailUrl }}
+              style={styles.queuePreviewImage}
+              resizeMode="cover"
+            />
+            <View style={styles.queuePreviewInfo}>
+              <Text style={styles.queuePreviewTrack} numberOfLines={1}>
+                {currentTrack.title}
+              </Text>
+              <Text style={styles.queuePreviewArtist} numberOfLines={1}>
+                {currentTrack.artist}
+              </Text>
+            </View>
+            <TouchableOpacity style={styles.queuePreviewButton}>
+              <Ionicons name="play" size={16} color={COLORS.textPrimary} />
+            </TouchableOpacity>
+          </View>
+        </Animated.View>
+      </ScrollView>
     </View>
   );
 }
@@ -287,44 +544,77 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
-    paddingBottom: 50, // Space for home indicator on newer iPhones
   },
   noTrackContainer: {
     flex: 1,
+  },
+  noTrackGradient: {
+    flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: COLORS.background,
     padding: SPACING.lg,
   },
+  noTrackContent: {
+    alignItems: "center",
+  },
   noTrackText: {
-    fontSize: 18,
-    fontFamily: "InterRegular",
+    fontSize: 24,
+    fontFamily: "InterBold",
     color: COLORS.textPrimary,
-    marginBottom: SPACING.lg,
+    marginTop: SPACING.lg,
+    marginBottom: SPACING.sm,
+    textAlign: "center",
+  },
+  noTrackSubtext: {
+    fontSize: 16,
+    fontFamily: "InterRegular",
+    color: COLORS.textSecondary,
+    marginBottom: SPACING.xl,
     textAlign: "center",
   },
   browseButton: {
     backgroundColor: COLORS.primaryAccent,
-    paddingVertical: SPACING.sm,
-    paddingHorizontal: SPACING.lg,
-    borderRadius: 20,
+    paddingVertical: SPACING.md,
+    paddingHorizontal: SPACING.xl,
+    borderRadius: 25,
+    ...SHADOWS.medium,
   },
   browseButtonText: {
     color: COLORS.textPrimary,
     fontFamily: "InterBold",
-    fontSize: 14,
+    fontSize: 16,
+  },
+  backgroundOverlay: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+  },
+  backgroundGradient: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
   },
   header: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
     paddingHorizontal: SPACING.md,
-    paddingTop: SPACING.lg,
+    paddingTop: Platform.OS === "ios" ? 60 : 40,
     paddingBottom: SPACING.md,
+    zIndex: 10,
   },
   closeButton: {
-    width: 40,
-    height: 40,
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    overflow: "hidden",
+  },
+  closeButtonGradient: {
+    flex: 1,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -333,111 +623,131 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   headerTitle: {
-    fontSize: 16,
+    fontSize: 18,
     fontFamily: "InterBold",
     color: COLORS.textPrimary,
+    marginBottom: 2,
+  },
+  headerSubtitle: {
+    fontSize: 12,
+    fontFamily: "InterRegular",
+    color: COLORS.textSecondary,
   },
   queueButton: {
-    width: 40,
-    height: 40,
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    overflow: "hidden",
+  },
+  queueButtonGradient: {
+    flex: 1,
     justifyContent: "center",
     alignItems: "center",
   },
+  scrollContainer: {
+    flex: 1,
+  },
+  scrollContent: {
+    paddingBottom: 100,
+  },
   artworkContainer: {
-    width: SCREEN_WIDTH - 80,
-    height: SCREEN_WIDTH - 80,
-    alignSelf: "center",
+    alignItems: "center",
     marginVertical: SPACING.xl,
-    borderRadius: 8,
-    backgroundColor: "rgba(255, 255, 255, 0.1)",
     position: "relative",
   },
+  artworkWrapper: {
+    position: "relative",
+    borderRadius: 20,
+    overflow: "hidden",
+    ...SHADOWS.large,
+  },
   artwork: {
-    width: "100%",
-    height: "100%",
-    borderRadius: 8,
+    width: SCREEN_WIDTH - 120,
+    height: SCREEN_WIDTH - 120,
+    borderRadius: 20,
+  },
+  artworkGlow: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    borderRadius: 20,
+    backgroundColor: "rgba(99, 102, 241, 0.2)",
+    shadowColor: COLORS.primaryAccent,
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.5,
+    shadowRadius: 20,
+    elevation: 20,
   },
   sourceIconContainer: {
     position: "absolute",
-    bottom: 10,
-    right: 10,
-    backgroundColor: "rgba(0, 0, 0, 0.7)",
-    borderRadius: 4,
-    padding: 4,
+    bottom: 20,
+    right: 20,
+    borderRadius: 8,
+    overflow: "hidden",
+  },
+  sourceIconGradient: {
+    padding: 8,
+    borderRadius: 8,
   },
   infoContainer: {
-    paddingHorizontal: SPACING.lg,
+    paddingHorizontal: SPACING.xl,
     alignItems: "center",
     marginBottom: SPACING.xl,
   },
   title: {
-    fontSize: 20,
+    fontSize: 28,
     fontFamily: "InterBold",
     color: COLORS.textPrimary,
     textAlign: "center",
-    marginBottom: SPACING.xs,
+    marginBottom: SPACING.sm,
+    lineHeight: 34,
   },
   artist: {
-    fontSize: 16,
-    fontFamily: "InterRegular",
+    fontSize: 20,
+    fontFamily: "InterMedium",
     color: COLORS.textSecondary,
     textAlign: "center",
+    marginBottom: SPACING.xs,
   },
-  progressContainer: {
-    paddingHorizontal: SPACING.lg,
+  album: {
+    fontSize: 16,
+    fontFamily: "InterRegular",
+    color: COLORS.textTertiary,
+    textAlign: "center",
+  },
+  visualizerContainer: {
+    paddingHorizontal: SPACING.xl,
     marginBottom: SPACING.xl,
   },
-  progressBar: {
-    height: 4,
-    backgroundColor: "rgba(255, 255, 255, 0.1)",
-    borderRadius: 2,
-    marginBottom: SPACING.xs,
-    position: "relative",
-  },
-  progressFill: {
-    height: "100%",
-    backgroundColor: COLORS.primaryAccent,
-    borderRadius: 2,
-    position: "absolute",
-    left: 0,
-    top: 0,
-  },
-  progressThumb: {
-    width: 16,
-    height: 16,
-    borderRadius: 8,
-    backgroundColor: COLORS.primaryAccent,
-    position: "absolute",
-    top: -6,
-    marginLeft: -8,
-  },
-  timeContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-  },
-  timeText: {
-    fontSize: 12,
-    fontFamily: "InterRegular",
-    color: COLORS.textSecondary,
+  progressContainer: {
+    paddingHorizontal: SPACING.xl,
+    marginBottom: SPACING.xl,
   },
   controlsContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    paddingHorizontal: SPACING.lg,
+    paddingHorizontal: SPACING.xl,
     marginBottom: SPACING.xl,
   },
   controlButton: {
-    width: 40,
-    height: 40,
+    width: 48,
+    height: 48,
     justifyContent: "center",
     alignItems: "center",
+    borderRadius: 24,
   },
   playPauseButton: {
-    width: 60,
-    height: 60,
-    borderRadius: 30,
-    backgroundColor: COLORS.primaryAccent,
+    width: 72,
+    height: 72,
+    borderRadius: 36,
+    overflow: "hidden",
+    ...SHADOWS.medium,
+  },
+  playPauseGradient: {
+    flex: 1,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -445,22 +755,73 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
+    marginBottom: SPACING.xl,
   },
   actionButton: {
-    width: 50,
-    height: 50,
+    width: 56,
+    height: 56,
     justifyContent: "center",
     alignItems: "center",
     marginHorizontal: SPACING.md,
+    borderRadius: 28,
+    overflow: "hidden",
   },
-  visualizerContainer: {
+  actionButtonGradient: {
+    flex: 1,
+    justifyContent: "center",
     alignItems: "center",
-    marginBottom: SPACING.lg,
-    paddingHorizontal: SPACING.lg,
   },
-  visualizerText: {
+  queuePreviewContainer: {
+    marginHorizontal: SPACING.xl,
+    backgroundColor: "rgba(255, 255, 255, 0.05)",
+    borderRadius: 16,
+    padding: SPACING.md,
+    borderWidth: 1,
+    borderColor: "rgba(255, 255, 255, 0.1)",
+  },
+  queuePreviewHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: SPACING.md,
+  },
+  queuePreviewTitle: {
+    fontSize: 14,
+    fontFamily: "InterMedium",
     color: COLORS.textSecondary,
+    flex: 1,
+    marginLeft: SPACING.sm,
+  },
+  queuePreviewContent: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  queuePreviewImage: {
+    width: 48,
+    height: 48,
+    borderRadius: 8,
+    marginRight: SPACING.md,
+  },
+  queuePreviewInfo: {
+    flex: 1,
+  },
+  queuePreviewTrack: {
+    fontSize: 16,
+    fontFamily: "InterMedium",
+    color: COLORS.textPrimary,
+    marginBottom: 2,
+  },
+  queuePreviewArtist: {
     fontSize: 14,
     fontFamily: "InterRegular",
+    color: COLORS.textSecondary,
+  },
+  queuePreviewButton: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: "rgba(255, 255, 255, 0.1)",
+    justifyContent: "center",
+    alignItems: "center",
   },
 });

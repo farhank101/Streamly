@@ -17,6 +17,7 @@ interface PlayerContextType {
   isBuffering: boolean;
   error: string | null;
   volume: number;
+  audioQuality: 'low' | 'medium' | 'high';
 
   // Controls
   play: (track: Track) => Promise<void>;
@@ -25,10 +26,12 @@ interface PlayerContextType {
   seek: (position: number) => Promise<void>;
   setVolume: (volume: number) => Promise<void>;
   setPlaybackRate: (rate: number) => Promise<void>;
+  setAudioQuality: (quality: 'low' | 'medium' | 'high') => Promise<void>;
 
   // Utilities
   isTrackPlaying: (trackId: string) => boolean;
   cleanup: () => Promise<void>;
+  retryPlayback: () => Promise<void>;
 }
 
 const PlayerContext = createContext<PlayerContextType | undefined>(undefined);
@@ -55,6 +58,7 @@ export const PlayerProvider: React.FC<PlayerProviderProps> = ({ children }) => {
     isBuffering: false,
     error: null,
     volume: 1.0,
+    audioQuality: 'medium',
   });
 
   // Subscribe to audio service state changes
@@ -127,9 +131,32 @@ export const PlayerProvider: React.FC<PlayerProviderProps> = ({ children }) => {
     }
   };
 
+  // Set audio quality
+  const setAudioQuality = async (quality: 'low' | 'medium' | 'high'): Promise<void> => {
+    try {
+      await audioService.setAudioQuality(quality);
+    } catch (error) {
+      console.error("❌ PlayerContext.setAudioQuality error:", error);
+      throw error;
+    }
+  };
+
   // Check if a specific track is playing
   const isTrackPlaying = (trackId: string): boolean => {
     return audioService.isTrackPlaying(trackId);
+  };
+
+  // Retry playback if there was an error
+  const retryPlayback = async (): Promise<void> => {
+    if (playerState.currentTrack && playerState.error) {
+      try {
+        console.log("🔄 Retrying playback...");
+        await audioService.playTrack(playerState.currentTrack);
+      } catch (error) {
+        console.error("❌ Retry failed:", error);
+        throw error;
+      }
+    }
   };
 
   const cleanup = async () => {
@@ -146,6 +173,7 @@ export const PlayerProvider: React.FC<PlayerProviderProps> = ({ children }) => {
     isBuffering: playerState.isBuffering,
     error: playerState.error,
     volume: playerState.volume,
+    audioQuality: playerState.audioQuality,
 
     // Controls
     play,
@@ -154,10 +182,12 @@ export const PlayerProvider: React.FC<PlayerProviderProps> = ({ children }) => {
     seek,
     setVolume,
     setPlaybackRate,
+    setAudioQuality,
 
     // Utilities
     isTrackPlaying,
     cleanup,
+    retryPlayback,
   };
 
   return (

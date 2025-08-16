@@ -42,7 +42,7 @@ export interface MoodData {
 }
 
 const placeholder = (bg: string, text: string, w = 200, h = 200) =>
-  `https://via.placeholder.com/${w}x${h}/${bg}/FFFFFF?text=${encodeURIComponent(
+  `https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face
     text
   )}`;
 

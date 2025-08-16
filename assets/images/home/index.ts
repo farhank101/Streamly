@@ -111,70 +111,90 @@ const homeImages: Record<string, ImageSourcePropType> = {
     uri: "https://i.scdn.co/image/ab6761610000e5eb8e8c5c3b1c0c0c0c0c0c0c0c",
   },
   artist_skrillex: {
-    uri: "https://via.placeholder.com/300x300/FF6B6B/FFFFFF?text=SKRILLEX",
+    uri: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=face",
   },
   artist_zedd: {
-    uri: "https://via.placeholder.com/300x300/4ECDC4/FFFFFF?text=ZEDD",
+    uri: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&crop=face",
   },
   artist_marshmello: {
-    uri: "https://via.placeholder.com/300x300/45B7D1/FFFFFF?text=MARSHMELLO",
+    uri: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop&crop=face",
   },
   artist_deadmau5: {
-    uri: "https://via.placeholder.com/300x300/FDCB6E/FFFFFF?text=DEADMAU5",
+    uri: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=face",
   },
   artist_eric_prydz: {
-    uri: "https://via.placeholder.com/300x300/74B9FF/FFFFFF?text=ERIC+PRYDZ",
+    uri: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&crop=face",
   },
   artist_tchami: {
-    uri: "https://via.placeholder.com/300x300/55A3FF/FFFFFF?text=TCHAMI",
+    uri: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop&crop=face",
   },
   artist_adam_beyer: {
-    uri: "https://via.placeholder.com/300x300/A29BFE/FFFFFF?text=ADAM+BEYER",
+    uri: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=face",
   },
   artist_nina_kraviz: {
-    uri: "https://via.placeholder.com/300x300/FF7675/FFFFFF?text=NINA+KRAVIZ",
+    uri: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&crop=face",
   },
   artist_amelie_lens: {
-    uri: "https://via.placeholder.com/300x300/6C5CE7/FFFFFF?text=AMELIE+LENS",
+    uri: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop&crop=face",
   },
   artist_armin_van_buuren: {
-    uri: "https://via.placeholder.com/300x300/00B894/FFFFFF?text=ARMIN",
+    uri: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=face",
   },
   artist_tiesto: {
-    uri: "https://via.placeholder.com/300x300/FD79A8/FFFFFF?text=TIESTO",
+    uri: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&crop=face",
   },
   artist_paul_van_dyk: {
-    uri: "https://via.placeholder.com/300x300/E17055/FFFFFF?text=PAUL+VAN+DYK",
+    uri: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop&crop=face",
   },
   artist_odesza: {
-    uri: "https://via.placeholder.com/300x300/00CEC9/FFFFFF?text=ODESZA",
+    uri: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=face",
   },
   artist_flume: {
-    uri: "https://via.placeholder.com/300x300/A29BFE/FFFFFF?text=FLUME",
+    uri: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&crop=face",
   },
   artist_illenium: {
-    uri: "https://via.placeholder.com/300x300/FF7675/FFFFFF?text=ILLENIUM",
+    uri: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop&crop=face",
   },
   artist_pendulum: {
-    uri: "https://via.placeholder.com/300x300/6C5CE7/FFFFFF?text=PENDULUM",
+    uri: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=face",
   },
   artist_netsky: {
-    uri: "https://via.placeholder.com/300x300/00B894/FFFFFF?text=NETSKY",
+    uri: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&crop=face",
   },
   artist_aphex_twin: {
-    uri: "https://via.placeholder.com/300x300/FD79A8/FFFFFF?text=APHEX+TWIN",
+    uri: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop&crop=face",
   },
   artist_boards_of_canada: {
-    uri: "https://via.placeholder.com/300x300/E17055/FFFFFF?text=BOARDS+OF+CANADA",
+    uri: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=face",
   },
   artist_meduza: {
-    uri: "https://via.placeholder.com/300x300/00CEC9/FFFFFF?text=MEDUZA",
+    uri: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&crop=face",
   },
   artist_acraze: {
-    uri: "https://via.placeholder.com/300x300/A29BFE/FFFFFF?text=ACRAZE",
+    uri: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop&crop=face",
   },
   artist_john_summit: {
-    uri: "https://via.placeholder.com/300x300/FF7675/FFFFFF?text=JOHN+SUMMIT",
+    uri: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=face",
+  },
+
+  // Recommended Artists with Real Spotify Images
+  artist_21_savage: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb4f8f76117470957c0e81e5b2",
+  },
+  artist_cardi_b: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eba23286f24edd4a7dbdc6311d",
+  },
+  artist_dababy: {
+    uri: "https://i.scdn.co/image/ab6761610000e5ebbd6918901c1714560669f570",
+  },
+  artist_drake: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9",
+  },
+  artist_eminem: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+  },
+  artist_gunna: {
+    uri: "https://i.scdn.co/image/ab6761610000e5eba998bc86f87b9fe7e2466110",
   },
 
   // Add more home screen specific images here as needed

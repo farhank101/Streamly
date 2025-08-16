@@ -57,7 +57,7 @@ export default function TrackDetailScreen() {
             title: `YouTube Track ${id}`,
             artist: 'Unknown Artist',
             duration: 240,
-            thumbnailUrl: 'https://via.placeholder.com/500x500/333333/CCCCCC?text=No+Image',
+            thumbnailUrl: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&h=500&fit=crop&crop=face',
             createdAt: new Date(),
             playCount: 1500,
           };
@@ -71,7 +71,7 @@ export default function TrackDetailScreen() {
           title: `Track ${id}`,
           artist: `Artist for ${id}`,
           duration: 240,
-          thumbnailUrl: 'https://via.placeholder.com/500x500/333333/CCCCCC?text=No+Image',
+          thumbnailUrl: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=500&fit=crop&crop=face',
           createdAt: new Date(),
           playCount: 1500,
         };

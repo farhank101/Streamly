@@ -44,7 +44,7 @@ export default function HistoryTab() {
           title: "Bohemian Rhapsody",
           artist: "Queen",
           thumbnailUrl:
-            "https://via.placeholder.com/60x60/6366F1/FFFFFF?text=Q",
+            "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=60&h=60&fit=crop&crop=face",
           duration: 354,
           sourceType: "youtube",
           sourceId: "mock_1",
@@ -57,7 +57,7 @@ export default function HistoryTab() {
           title: "Hotel California",
           artist: "Eagles",
           thumbnailUrl:
-            "https://via.placeholder.com/60x60/8B5CF6/FFFFFF?text=E",
+            "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=60&h=60&fit=crop&crop=face",
           duration: 391,
           sourceType: "youtube",
           sourceId: "mock_2",
@@ -70,7 +70,7 @@ export default function HistoryTab() {
           title: "Stairway to Heaven",
           artist: "Led Zeppelin",
           thumbnailUrl:
-            "https://via.placeholder.com/60x60/06B6D4/FFFFFF?text=L",
+            "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=60&h=60&fit=crop&crop=face",
           duration: 482,
           sourceType: "youtube",
           sourceId: "mock_3",

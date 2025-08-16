@@ -70,7 +70,7 @@ export default function PlaylistDetailScreen() {
             artist: `Artist ${index + 1}`,
             album: `Album ${index + 1}`,
             duration: 180 + index * 30, // 3-5 minutes
-            thumbnailUrl: "https://via.placeholder.com/300",
+            thumbnailUrl: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=face",
             createdAt: new Date(),
             playCount: 1000 + index * 100,
           }));

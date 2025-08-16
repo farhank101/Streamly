@@ -122,7 +122,8 @@ const recentlyPlayedSeed = [
     title: "PLAYLIST RADIO",
     subtitle: "70s Rock Anthems",
     imageKey: "genre_rock",
-    image: "https://picsum.photos/300/300?random=4",
+    image:
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
     likes: "598K",
     isPlaylist: true,
   },
@@ -131,7 +132,8 @@ const recentlyPlayedSeed = [
     title: "Chill Vibes",
     subtitle: "Relaxing beats",
     imageKey: "chill",
-    image: "https://picsum.photos/300/300?random=5",
+    image:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&crop=face",
     likes: "420K",
     isPlaylist: true,
   },
@@ -140,7 +142,8 @@ const recentlyPlayedSeed = [
     title: "Workout Mix",
     subtitle: "High energy tracks",
     imageKey: "workout",
-    image: "https://picsum.photos/300/300?random=6",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=face",
     likes: "128K",
     isPlaylist: true,
   },
@@ -152,7 +155,8 @@ const madeForYou = [
     title: "Deep Focus",
     subtitle: "Make monday more productive",
     imageKey: "focus",
-    image: "https://picsum.photos/300/300?random=7",
+    image:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&crop=face",
     likes: "678K",
   },
   {
@@ -160,7 +164,8 @@ const madeForYou = [
     title: "Productive Morning",
     subtitle: "Start your day right",
     imageKey: "workout",
-    image: "https://picsum.photos/300/300?random=8",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=face",
     likes: "543K",
   },
   {
@@ -168,7 +173,8 @@ const madeForYou = [
     title: "Mellow Beats",
     subtitle: "Calm and collected",
     imageKey: "chill",
-    image: "https://picsum.photos/300/300?random=9",
+    image:
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
     likes: "456K",
   },
 ];
@@ -235,7 +241,8 @@ const playlistPicks = [
     title: "Random Compilations",
     subtitle: "Mixed genres",
     imageKey: "genre_pop",
-    image: "https://picsum.photos/300/300?random=20",
+    image:
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
     likes: "890K",
     isPlaylist: true,
   },
@@ -244,7 +251,8 @@ const playlistPicks = [
     title: "Workout Mix",
     subtitle: "High energy",
     imageKey: "workout",
-    image: "https://picsum.photos/300/300?random=21",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=face",
     likes: "756K",
     isPlaylist: true,
   },
@@ -253,7 +261,8 @@ const playlistPicks = [
     title: "Chill Vibes",
     subtitle: "Relaxing",
     imageKey: "chill",
-    image: "https://picsum.photos/300/300?random=22",
+    image:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&crop=face",
     likes: "654K",
     isPlaylist: true,
   },
@@ -265,7 +274,8 @@ const newReleases = [
     title: "New Album",
     subtitle: "Artist Name",
     imageKey: "genre_pop",
-    image: "https://picsum.photos/300/300?random=30",
+    image:
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
     likes: "123K",
   },
   {
@@ -273,7 +283,8 @@ const newReleases = [
     title: "Latest Single",
     subtitle: "Another Artist",
     imageKey: "genre_hiphop",
-    image: "https://picsum.photos/300/300?random=31",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=face",
     likes: "98K",
   },
   {
@@ -281,7 +292,8 @@ const newReleases = [
     title: "EP Release",
     subtitle: "Indie Artist",
     imageKey: "genre_indie",
-    image: "https://picsum.photos/300/300?random=32",
+    image:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&crop=face",
     likes: "76K",
   },
 ];
@@ -291,7 +303,8 @@ const popularArtists = [
     id: "artist_1",
     name: "The Beatles",
     imageKey: "artist_beatles",
-    image: "https://picsum.photos/300/300?random=40",
+    image:
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
     likes: "5.2M",
     isArtist: true,
   },
@@ -299,7 +312,8 @@ const popularArtists = [
     id: "artist_2",
     name: "Taylor Swift",
     imageKey: "artist_taylor",
-    image: "https://picsum.photos/300/300?random=41",
+    image:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&crop=face",
     likes: "4.8M",
     isArtist: true,
   },
@@ -307,7 +321,8 @@ const popularArtists = [
     id: "artist_3",
     name: "Ed Sheeran",
     imageKey: "artist_ed",
-    image: "https://picsum.photos/300/300?random=42",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=face",
     likes: "3.9M",
     isArtist: true,
   },
@@ -315,7 +330,8 @@ const popularArtists = [
     id: "artist_4",
     name: "Drake",
     imageKey: "artist_drake",
-    image: "https://picsum.photos/300/300?random=43",
+    image:
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
     likes: "4.1M",
     isArtist: true,
   },
@@ -328,7 +344,8 @@ const podcasts = [
     title: "Daily Dose",
     subtitle: "Music news daily",
     imageKey: "genre_pop",
-    image: "https://picsum.photos/300/300?random=50",
+    image:
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
     likes: "234K",
   },
   {
@@ -336,7 +353,8 @@ const podcasts = [
     title: "The Joe Rogan Experience",
     subtitle: "Long form conversations",
     imageKey: "genre_rock",
-    image: "https://picsum.photos/300/300?random=51",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=face",
     likes: "189K",
   },
   {
@@ -344,7 +362,8 @@ const podcasts = [
     title: "Music Theory",
     subtitle: "Understanding music",
     imageKey: "genre_classical",
-    image: "https://picsum.photos/300/300?random=52",
+    image:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&crop=face",
     likes: "156K",
   },
 ];
@@ -356,76 +375,57 @@ console.log(
   allArtists ? allArtists.length : "undefined"
 );
 
-// Check if allArtists is actually an array and has data
-if (!allArtists || !Array.isArray(allArtists) || allArtists.length === 0) {
-  console.error("❌ allArtists is empty or not an array!");
-  // Fallback to hardcoded artists with real images
-  const fallbackArtists = [
-    {
-      id: "fallback_1",
-      name: "Drake",
-      imageKey: "artist_drake",
-      image: "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9",
-      likes: "4.1M",
-    },
-    {
-      id: "fallback_2",
-      name: "Taylor Swift",
-      imageKey: "artist_taylor",
-      image: "https://i.scdn.co/image/ab6761610000e5eb81f47f44084e0a09b5f0fa13",
-      likes: "4.8M",
-    },
-    {
-      id: "fallback_3",
-      name: "Ed Sheeran",
-      imageKey: "artist_ed",
-      image: "https://i.scdn.co/image/ab6761610000e5ebe672b5f553298dcdccb0e676",
-      likes: "3.9M",
-    },
-    {
-      id: "fallback_4",
-      name: "The Weeknd",
-      imageKey: "artist_weeknd",
-      image: "https://i.scdn.co/image/ab6761610000e5eb86e362deb9f22566331fbdeb",
-      likes: "3.7M",
-    },
-    {
-      id: "fallback_5",
-      name: "Post Malone",
-      imageKey: "artist_post",
-      image: "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
-      likes: "3.2M",
-    },
-    {
-      id: "fallback_6",
-      name: "Ariana Grande",
-      imageKey: "artist_ariana",
-      image: "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da",
-      likes: "3.5M",
-    },
-  ];
-  console.log("🔄 Using fallback artists:", fallbackArtists);
-  var recommendedArtistsSeed = fallbackArtists;
-} else {
-  console.log("🌱 allArtists has data, first item:", allArtists[0]);
-  console.log(
-    "🌱 allArtists with Top/Major tier:",
-    allArtists.filter(
-      (artist) => artist.tier === "Top" || artist.tier === "Major"
-    )
-  );
-
-  recommendedArtistsSeed = allArtists
-    .filter((artist) => artist.tier === "Top" || artist.tier === "Major")
-    .slice(0, 6)
-    .map((artist) => ({
-      id: artist.id,
-      name: artist.name,
-      imageKey: `artist_${artist.id}`,
-      image: artist.image,
-      likes: artist.likes,
-    }));
-}
+// Use real Spotify images for the recommended artists section
+const recommendedArtistsSeed = [
+  {
+    id: "21_savage",
+    name: "21 Savage",
+    imageKey: "artist_21_savage",
+    image: "https://i.scdn.co/image/ab6761610000e5eb4f8f76117470957c0e81e5b2",
+    likes: "1.8M",
+    isArtist: true,
+  },
+  {
+    id: "cardi_b",
+    name: "Cardi B",
+    imageKey: "artist_cardi_b",
+    image: "https://i.scdn.co/image/ab6761610000e5eba23286f24edd4a7dbdc6311d",
+    likes: "2.3M",
+    isArtist: true,
+  },
+  {
+    id: "dababy",
+    name: "DaBaby",
+    imageKey: "artist_dababy",
+    image: "https://i.scdn.co/image/ab6761610000e5ebbd6918901c1714560669f570",
+    likes: "1.7M",
+    isArtist: true,
+  },
+  {
+    id: "drake",
+    name: "Drake",
+    imageKey: "artist_drake",
+    image: "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9",
+    likes: "3.2M",
+    isArtist: true,
+  },
+  {
+    id: "eminem",
+    name: "Eminem",
+    imageKey: "artist_eminem",
+    image: "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+    likes: "2.9M",
+    isArtist: true,
+  },
+  {
+    id: "gunna",
+    name: "Gunna",
+    imageKey: "artist_gunna",
+    image: "https://i.scdn.co/image/ab6761610000e5eba998bc86f87b9fe7e2466110",
+    likes: "1.7M",
+    isArtist: true,
+  },
+];
 
 // Debug logging for recommendedArtistsSeed
 console.log("🌱 recommendedArtistsSeed created:", recommendedArtistsSeed);
@@ -450,7 +450,8 @@ const popularPlaylists = [
     title: "Hip Hop Hits",
     subtitle: "Best hip hop tracks",
     imageKey: "genre_hiphop",
-    image: "https://picsum.photos/300/300?random=10",
+    image:
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
     likes: "520K",
   },
   {
@@ -458,7 +459,8 @@ const popularPlaylists = [
     title: "Pop Fresh!",
     subtitle: "Latest pop hits",
     imageKey: "genre_pop",
-    image: "https://picsum.photos/300/300?random=11",
+    image:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&crop=face",
     likes: "412K",
   },
   {
@@ -466,7 +468,8 @@ const popularPlaylists = [
     title: "Rap Essentials",
     subtitle: "Classic rap tracks",
     imageKey: "genre_hiphop",
-    image: "https://picsum.photos/300/300?random=12",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=face",
     likes: "389K",
   },
 ];
@@ -588,7 +591,9 @@ export default function HomeScreen() {
         );
 
         // Use the data directly since it already contains real Spotify images
-        console.log("🎉 Setting recommendedArtists directly (no API calls needed)");
+        console.log(
+          "🎉 Setting recommendedArtists directly (no API calls needed)"
+        );
         setRecommendedArtists(recommendedArtistsSeed);
       } catch (error) {
         console.error("❌ Failed to hydrate artists:", error);
@@ -601,41 +606,12 @@ export default function HomeScreen() {
       try {
         console.log("🔄 Starting to hydrate recently played...");
 
-        const artistNames = recentlyPlayedSeed
-          .filter((item) => item.isArtist && item.artist)
-          .map((item) => item.artist!)
-          .filter((name): name is string => name !== undefined); // Use original artist names
-
-        console.log("🎵 Recently played artist names:", artistNames);
-
-        if (artistNames.length > 0) {
-          // Explicitly set Spotify as primary source with fallback enabled
-          const imageConfig: Partial<ImageServiceConfig> = {
-            primarySource: "spotify",
-            enableFallback: true,
-          };
-
-          const artistImages = await batchGetArtistImages(
-            artistNames,
-            imageConfig
-          );
-          console.log(
-            "🖼️ Batch fetched recently played artist images:",
-            artistImages
-          );
-
-          const updated = recentlyPlayedSeed.map((item) => {
-            // Since recentlyPlayedSeed items are playlists, not artists,
-            // we don't need to hydrate them with artist images
-            return item;
-          });
-
-          console.log("🎉 Recently played hydrated:", updated);
-          setRecentlyPlayed(updated);
-        } else {
-          console.log("ℹ️ No artists in recently played to hydrate");
-          setRecentlyPlayed(recentlyPlayedSeed);
-        }
+        // Since recentlyPlayedSeed items are playlists, not artists,
+        // we don't need to hydrate them with artist images
+        console.log(
+          "ℹ️ Recently played items are playlists, no artist hydration needed"
+        );
+        setRecentlyPlayed(recentlyPlayedSeed);
       } catch (error) {
         console.error("❌ Failed to hydrate recently played:", error);
         console.log("🔄 Using fallback recently played data");
@@ -747,6 +723,8 @@ export default function HomeScreen() {
       setShowFullGenres(true);
     } else if (section === "Moods") {
       setShowFullMoods(true);
+    } else if (section === "You might like these artists") {
+      router.push("/(tabs)/artists");
     } else {
       router.push("/(tabs)/search");
     }

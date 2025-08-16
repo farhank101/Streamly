@@ -392,6 +392,22 @@ export default function ProfileScreen() {
                 color={COLORS.textSecondary}
               />
             </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.settingItem}
+              onPress={() => router.push("/audio-test")}
+            >
+              <View style={styles.settingInfo}>
+                <Text style={styles.settingLabel}>Audio Test</Text>
+                <Text style={styles.settingDescription}>
+                  Test audio playback
+                </Text>
+              </View>
+              <Ionicons
+                name="chevron-forward"
+                size={20}
+                color={COLORS.textSecondary}
+              />
+            </TouchableOpacity>
             <View style={styles.versionInfo}>
               <Text style={styles.versionText}>Streamly v1.0.0</Text>
             </View>
@@ -409,15 +425,12 @@ export default function ProfileScreen() {
           <View style={styles.modalContent}>
             <Text style={styles.modalTitle}>Confirm Account Deletion</Text>
             <Text style={styles.modalText}>
-              Are you sure you want to delete your account? This action cannot be undone and will permanently remove all your data.
+              Are you sure you want to delete your account? This action cannot
+              be undone and will permanently remove all your data.
             </Text>
             <Text style={styles.modalWarning}>
-              This will delete:
-              • All your playlists
-              • Your listening history
-              • Liked songs
-              • User profile and settings
-              • All cached data
+              This will delete: • All your playlists • Your listening history •
+              Liked songs • User profile and settings • All cached data
             </Text>
             <Text style={styles.modalText}>
               Please type "DELETE" exactly to confirm.

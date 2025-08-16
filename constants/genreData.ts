@@ -50,19 +50,20 @@ export const rockGenreData: GenreData = {
       id: "1",
       title: "Workout Rock",
       image:
-        "https://via.placeholder.com/200x200/FECA57/FFFFFF?text=WORKOUT+ROCK",
+        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
       likes: "414,228",
     },
     {
       id: "2",
       title: "Love Rock",
-      image: "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=LOVE+ROCK",
+      image:
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
       likes: "98,284",
     },
     {
       id: "3",
       title: "Rockab",
-      image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=ROCKAB",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
       likes: "82,125",
     },
   ],
@@ -70,84 +71,84 @@ export const rockGenreData: GenreData = {
     {
       id: "1",
       title: "Pop Rock",
-      image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=POP+ROCK",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
       likes: "420,112",
     },
     {
       id: "2",
       title: "Woodstock Legends",
       image:
-        "https://via.placeholder.com/200x200/00B894/FFFFFF?text=WOODSTOCK+LEGENDS",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
       likes: "64,199",
     },
     {
       id: "3",
       title: "Guitar!",
-      image: "https://via.placeholder.com/200x200/FAB1A0/FFFFFF?text=GUITAR",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
       likes: "299,156",
     },
     {
       id: "4",
       title: "90s Alternative Rock",
-      image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=90S+ALT",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
       likes: "711,692",
     },
     {
       id: "5",
       title: "Indie Rock",
       image:
-        "https://via.placeholder.com/200x200/00B894/FFFFFF?text=INDIE+ROCK",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
       likes: "490,172",
     },
     {
       id: "6",
       title: "Progressive Rock",
-      image: "https://via.placeholder.com/200x200/20BF6B/FFFFFF?text=PROG+ROCK",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
       likes: "128,045",
     },
     {
       id: "7",
       title: "80s Rock Anthems",
-      image: "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=80S+ROCK",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
       likes: "381,737",
     },
     {
       id: "8",
       title: "Love Rock",
-      image: "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=LOVE+ROCK",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
       likes: "98,284",
     },
     {
       id: "9",
       title: "Rockabilly",
       image:
-        "https://via.placeholder.com/200x200/E84393/FFFFFF?text=ROCKABILLY",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
       likes: "82,127",
     },
     {
       id: "10",
       title: "Guitar Solos",
       image:
-        "https://via.placeholder.com/200x200/0984E3/FFFFFF?text=GUITAR+SOLOS",
+        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
       likes: "299,154",
     },
     {
       id: "11",
       title: "Pop Rock",
-      image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=POP+ROCK",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
       likes: "420,112",
     },
     {
       id: "12",
       title: "Woodstock Legends",
       image:
-        "https://via.placeholder.com/200x200/00B894/FFFFFF?text=WOODSTOCK+LEGENDS",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
       likes: "64,199",
     },
     {
       id: "13",
       title: "70s Rock Anthems",
-      image: "https://via.placeholder.com/200x200/E84393/FFFFFF?text=70S+ROCK",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
       likes: "387,722",
     },
   ],
@@ -156,21 +157,21 @@ export const rockGenreData: GenreData = {
       id: "1",
       title: "V",
       artist: "The Vegabonds",
-      image: "https://via.placeholder.com/200x200/FECA57/FFFFFF?text=VEGABONDS",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
       releaseDate: "Album release: 18/01/19",
     },
     {
       id: "2",
       title: "Powerwolf",
       artist: "Metallum Nostrum",
-      image: "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=POWERWOLF",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
       releaseDate: "Album release: 11/01/19",
     },
     {
       id: "3",
       title: "Glanto",
       artist: "David B",
-      image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=DAVID+B",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
       releaseDate: "Album release: 15/03/19",
     },
   ],
@@ -178,129 +179,129 @@ export const rockGenreData: GenreData = {
     {
       id: "1",
       name: "The Beatles",
-      image: "https://via.placeholder.com/150x150/FECA57/FFFFFF?text=BEATLES",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
       likes: "871,189",
     },
     {
       id: "2",
       name: "Queen",
-      image: "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=QUEEN",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
       likes: "948,117",
     },
     {
       id: "3",
       name: "Led Zeppelin",
       image:
-        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=LED+ZEPPELIN",
+        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
       likes: "823,456",
     },
     {
       id: "4",
       name: "Pink Floyd",
       image:
-        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=PINK+FLOYD",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
       likes: "756,234",
     },
     {
       id: "5",
       name: "The Rolling Stones",
       image:
-        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=ROLLING+STONES",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
       likes: "892,567",
     },
     {
       id: "6",
       name: "AC/DC",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=AC+DC",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
       likes: "654,321",
     },
     {
       id: "7",
       name: "Guns N' Roses",
       image:
-        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=GUNS+N+ROSES",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
       likes: "789,123",
     },
     {
       id: "8",
       name: "Metallica",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=METALLICA",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
       likes: "912,456",
     },
     {
       id: "9",
       name: "Nirvana",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=NIRVANA",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
       likes: "678,901",
     },
     {
       id: "10",
       name: "Red Hot Chili Peppers",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=RHCP",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
       likes: "543,678",
     },
     {
       id: "11",
       name: "Foo Fighters",
       image:
-        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=FOO+FIGHTERS",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
       likes: "456,789",
     },
     {
       id: "12",
       name: "Green Day",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=GREEN+DAY",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
       likes: "345,678",
     },
     {
       id: "13",
       name: "Linkin Park",
       image:
-        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=LINKIN+PARK",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
       likes: "567,890",
     },
     {
       id: "14",
       name: "System of a Down",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=SOAD",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
       likes: "234,567",
     },
     {
       id: "15",
       name: "Tool",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=TOOL",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
       likes: "123,456",
     },
     {
       id: "16",
       name: "Radiohead",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=RADIOHEAD",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
       likes: "789,012",
     },
     {
       id: "17",
       name: "The Strokes",
       image:
-        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=THE+STROKES",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
       likes: "456,123",
     },
     {
       id: "18",
       name: "Arctic Monkeys",
       image:
-        "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=ARCTIC+MONKEYS",
+        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
       likes: "567,234",
     },
     {
       id: "19",
       name: "Muse",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=MUSE",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
       likes: "678,345",
     },
     {
       id: "20",
       name: "Coldplay",
-      image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=COLDPLAY",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
       likes: "789,456",
     },
   ],
@@ -507,135 +508,135 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Eminem",
-        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=EMINEM",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.1M",
       },
       {
         id: "2",
         name: "Drake",
-        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=DRAKE",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "3.2M",
       },
       {
         id: "3",
         name: "Kendrick Lamar",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=KENDRICK",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.8M",
       },
       {
         id: "4",
         name: "J. Cole",
-        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=J+COLE",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.5M",
       },
       {
         id: "5",
         name: "Travis Scott",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=TRAVIS+SCOTT",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "2.3M",
       },
       {
         id: "6",
         name: "Post Malone",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=POST+MALONE",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.7M",
       },
       {
         id: "7",
         name: "21 Savage",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=21+SAVAGE",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.9M",
       },
       {
         id: "8",
         name: "Lil Baby",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=LIL+BABY",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "2.0M",
       },
       {
         id: "9",
         name: "DaBaby",
-        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=DABABY",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "10",
         name: "Megan Thee Stallion",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=MEGAN+THEE+STALLION",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.6M",
       },
       {
         id: "11",
         name: "Cardi B",
-        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=CARDI+B",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "2.4M",
       },
       {
         id: "12",
         name: "Nicki Minaj",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=NICKI+MINAJ",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.6M",
       },
       {
         id: "13",
         name: "Lil Uzi Vert",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=LIL+UZI+VERT",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.7M",
       },
       {
         id: "14",
         name: "Playboi Carti",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=PLAYBOI+CARTI",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.5M",
       },
       {
         id: "15",
         name: "Juice WRLD",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=JUICE+WRLD",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.2M",
       },
       {
         id: "16",
         name: "Pop Smoke",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=POP+SMOKE",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.4M",
       },
       {
         id: "17",
         name: "Lil Tjay",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=LIL+TJAY",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.3M",
       },
       {
         id: "18",
         name: "Polo G",
-        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=POLO+G",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.2M",
       },
       {
         id: "19",
         name: "Roddy Ricch",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=RODDY+RICCH",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "20",
         name: "Lil Durk",
         image:
-          "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=LIL+DURK",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.6M",
       },
     ],
@@ -648,39 +649,39 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Club Bangers",
-        image: "https://via.placeholder.com/200x200/4ECDC4/FFFFFF?text=CLUB",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "389,222",
       },
       {
         id: "2",
         title: "EDM Love",
         image:
-          "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=EDM+LOVE",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "245,991",
       },
       {
         id: "3",
         title: "Electro Essentials",
-        image: "https://via.placeholder.com/200x200/5F27CD/FFFFFF?text=ELECTRO",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "310,442",
       },
       {
         id: "4",
         title: "Techno Underground",
-        image: "https://via.placeholder.com/200x200/48DBFB/FFFFFF?text=TECHNO",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "198,567",
       },
       {
         id: "5",
         title: "Trance Classics",
-        image: "https://via.placeholder.com/200x200/54A0FF/FFFFFF?text=TRANCE",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "267,890",
       },
       {
         id: "6",
         title: "Future Bass",
         image:
-          "https://via.placeholder.com/200x200/222F3E/FFFFFF?text=FUTURE+BASS",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "156,734",
       },
     ],
@@ -689,52 +690,52 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Festival Anthems",
         image:
-          "https://via.placeholder.com/200x200/48DBFB/FFFFFF?text=FESTIVAL",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "544,880",
       },
       {
         id: "2",
         title: "House Party",
-        image: "https://via.placeholder.com/200x200/54A0FF/FFFFFF?text=HOUSE",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "311,120",
       },
       {
         id: "3",
         title: "Techno Night",
-        image: "https://via.placeholder.com/200x200/222F3E/FFFFFF?text=TECHNO",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "201,337",
       },
       {
         id: "4",
         title: "Trance Journey",
         image:
-          "https://via.placeholder.com/200x200/4ECDC4/FFFFFF?text=TRANCE+JOURNEY",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "298,456",
       },
       {
         id: "5",
         title: "Dubstep Warriors",
-        image: "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=DUBSTEP",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "187,234",
       },
       {
         id: "6",
         title: "Chill Electronic",
         image:
-          "https://via.placeholder.com/200x200/5F27CD/FFFFFF?text=CHILL+ELECTRONIC",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "234,567",
       },
       {
         id: "7",
         title: "Progressive House",
         image:
-          "https://via.placeholder.com/200x200/48DBFB/FFFFFF?text=PROGRESSIVE",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "276,890",
       },
       {
         id: "8",
         title: "IDM Essentials",
-        image: "https://via.placeholder.com/200x200/54A0FF/FFFFFF?text=IDM",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "145,678",
       },
     ],
@@ -743,21 +744,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Voltage",
         artist: "Astra",
-        image: "https://via.placeholder.com/200x200/4ECDC4/FFFFFF?text=VOLTAGE",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 09/02/25",
       },
       {
         id: "2",
         title: "Spectra",
         artist: "DJ Nova",
-        image: "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=SPECTRA",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 29/01/25",
       },
       {
         id: "3",
         title: "Pulse",
         artist: "NEXA",
-        image: "https://via.placeholder.com/200x200/5F27CD/FFFFFF?text=PULSE",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 18/01/25",
       },
       {
@@ -765,7 +766,7 @@ export const genreData: Record<string, GenreData> = {
         title: "Neon Dreams",
         artist: "Martin Garrix",
         image:
-          "https://via.placeholder.com/200x200/48DBFB/FFFFFF?text=NEON+DREAMS",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Single release: 15/02/25",
       },
       {
@@ -773,7 +774,7 @@ export const genreData: Record<string, GenreData> = {
         title: "Midnight Groove",
         artist: "David Guetta",
         image:
-          "https://via.placeholder.com/200x200/54A0FF/FFFFFF?text=MIDNIGHT+GROOVE",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         releaseDate: "EP release: 22/02/25",
       },
       {
@@ -781,7 +782,7 @@ export const genreData: Record<string, GenreData> = {
         title: "Digital Rain",
         artist: "Skrillex",
         image:
-          "https://via.placeholder.com/200x200/222F3E/FFFFFF?text=DIGITAL+RAIN",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 08/03/25",
       },
     ],
@@ -867,21 +868,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Pop Hits",
         image:
-          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=POP+HITS",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.2M",
       },
       {
         id: "2",
         title: "Pop Love Songs",
         image:
-          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=LOVE+SONGS",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "890K",
       },
       {
         id: "3",
         title: "Pop Party",
         image:
-          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=POP+PARTY",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "756K",
       },
     ],
@@ -889,21 +890,21 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Top 40 Pop",
-        image: "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=TOP+40",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.1M",
       },
       {
         id: "2",
         title: "Pop Classics",
         image:
-          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=CLASSICS",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "3",
         title: "Modern Pop",
         image:
-          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=MODERN+POP",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.5M",
       },
     ],
@@ -913,7 +914,7 @@ export const genreData: Record<string, GenreData> = {
         title: "Midnight Dreams",
         artist: "Pop Star",
         image:
-          "https://via.placeholder.com/200x200/FF9FF3/FFFFFF?text=MIDNIGHT+DREAMS",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 15/03/25",
       },
     ],
@@ -922,137 +923,137 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         name: "Taylor Swift",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=TAYLOR+SWIFT",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "3.5M",
       },
       {
         id: "2",
         name: "Ariana Grande",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=ARIANA+GRANDE",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "3.2M",
       },
       {
         id: "3",
         name: "Ed Sheeran",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=ED+SHEERAN",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.8M",
       },
       {
         id: "4",
         name: "Billie Eilish",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=BILLIE+EILISH",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.6M",
       },
       {
         id: "5",
         name: "Dua Lipa",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=DUA+LIPA",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.4M",
       },
       {
         id: "6",
         name: "The Weeknd",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=THE+WEEKND",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "2.9M",
       },
       {
         id: "7",
         name: "Justin Bieber",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=JUSTIN+BIEBER",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.7M",
       },
       {
         id: "8",
         name: "Lady Gaga",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=LADY+GAGA",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "2.3M",
       },
       {
         id: "9",
         name: "Katy Perry",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=KATY+PERRY",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.1M",
       },
       {
         id: "10",
         name: "Bruno Mars",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=BRUNO+MARS",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.5M",
       },
       {
         id: "11",
         name: "Shawn Mendes",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=SHAWN+MENDES",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.9M",
       },
       {
         id: "12",
         name: "Camila Cabello",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=CAMILA+CABELLO",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "13",
         name: "Post Malone",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=POST+MALONE",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.2M",
       },
       {
         id: "14",
         name: "Halsey",
-        image: "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=HALSEY",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.7M",
       },
       {
         id: "15",
         name: "Lorde",
-        image: "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=LORDE",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.6M",
       },
       {
         id: "16",
         name: "Lana Del Rey",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=LANA+DEL+REY",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.5M",
       },
       {
         id: "17",
         name: "SZA",
-        image: "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=SZA",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "18",
         name: "Doja Cat",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=DOJA+CAT",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.9M",
       },
       {
         id: "19",
         name: "Olivia Rodrigo",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=OLIVIA+RODRIGO",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.0M",
       },
       {
         id: "20",
         name: "Conan Gray",
         image:
-          "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=CONAN+GRAY",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.4M",
       },
     ],
@@ -1065,19 +1066,22 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Country Hits",
-        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=COUNTRY+HITS",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.5M",
       },
       {
         id: "2",
         title: "Classic Country",
-        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=CLASSIC+COUNTRY",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.1M",
       },
       {
         id: "3",
         title: "Modern Country",
-        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=MODERN+COUNTRY",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "987K",
       },
     ],
@@ -1085,19 +1089,22 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Country Roads",
-        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=COUNTRY+ROADS",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "2.1M",
       },
       {
         id: "2",
         title: "Outlaw Country",
-        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=OUTLAW+COUNTRY",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.7M",
       },
       {
         id: "3",
         title: "Country Love Songs",
-        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=LOVE+SONGS",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.4M",
       },
     ],
@@ -1106,7 +1113,8 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Prairie Wind",
         artist: "Country Star",
-        image: "https://via.placeholder.com/200x200/FFD93D/FFFFFF?text=PRAIRIE+WIND",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 22/03/25",
       },
     ],
@@ -1114,121 +1122,141 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Johnny Cash",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=JOHNNY+CASH",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.9M",
       },
       {
         id: "2",
         name: "Willie Nelson",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=WILLIE+NELSON",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.7M",
       },
       {
         id: "3",
         name: "Dolly Parton",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=DOLLY+PARTON",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "2.8M",
       },
       {
         id: "4",
         name: "George Strait",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=GEORGE+STRAIT",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.5M",
       },
       {
         id: "5",
         name: "Garth Brooks",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=GARTH+BROOKS",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "2.6M",
       },
       {
         id: "6",
         name: "Shania Twain",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=SHANIA+TWAIN",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.4M",
       },
       {
         id: "7",
         name: "Alan Jackson",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=ALAN+JACKSON",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.2M",
       },
       {
         id: "8",
         name: "Reba McEntire",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=REBA+MCENTIRE",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.1M",
       },
       {
         id: "9",
         name: "Tim McGraw",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=TIM+MCGRAW",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "2.3M",
       },
       {
         id: "10",
         name: "Faith Hill",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=FAITH+HILL",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.0M",
       },
       {
         id: "11",
         name: "Kenny Chesney",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=KENNY+CHESNEY",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.9M",
       },
       {
         id: "12",
         name: "Toby Keith",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=TOBY+KEITH",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "13",
         name: "Brad Paisley",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=BRAD+PAISLEY",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.7M",
       },
       {
         id: "14",
         name: "Carrie Underwood",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=CARRIE+UNDERWOOD",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.2M",
       },
       {
         id: "15",
         name: "Miranda Lambert",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=MIRANDA+LAMBERT",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.9M",
       },
       {
         id: "16",
         name: "Luke Bryan",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=LUKE+BRYAN",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "17",
         name: "Blake Shelton",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=BLAKE+SHELTON",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.7M",
       },
       {
         id: "18",
         name: "Keith Urban",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=KEITH+URBAN",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.6M",
       },
       {
         id: "19",
         name: "Zac Brown Band",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=ZAC+BROWN+BAND",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.5M",
       },
       {
         id: "20",
         name: "Florida Georgia Line",
-        image: "https://via.placeholder.com/150x150/FFD93D/FFFFFF?text=FLORIDA+GEORGIA+LINE",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.4M",
       },
     ],
@@ -1242,21 +1270,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Lo-fi Indie",
         image:
-          "https://via.placeholder.com/200x200/81ECEC/FFFFFF?text=LO-FI+INDIE",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "221,090",
       },
       {
         id: "2",
         title: "Bedroom Pop",
         image:
-          "https://via.placeholder.com/200x200/00CEC9/FFFFFF?text=BEDROOM+POP",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "167,205",
       },
       {
         id: "3",
         title: "Indie Essentials",
         image:
-          "https://via.placeholder.com/200x200/0984E3/FFFFFF?text=INDIE+ESSENTIALS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "310,004",
       },
     ],
@@ -1265,21 +1293,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Indie Chill",
         image:
-          "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=INDIE+CHILL",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "145,876",
       },
       {
         id: "2",
         title: "Indie Rock",
         image:
-          "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=INDIE+ROCK",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "221,432",
       },
       {
         id: "3",
         title: "Indie Fresh",
         image:
-          "https://via.placeholder.com/200x200/00CEC9/FFFFFF?text=INDIE+FRESH",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "88,340",
       },
     ],
@@ -1288,21 +1316,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Canvas",
         artist: "The Astrals",
-        image: "https://via.placeholder.com/200x200/81ECEC/FFFFFF?text=CANVAS",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 15/02/25",
       },
       {
         id: "2",
         title: "Sunset Motel",
         artist: "June & Co.",
-        image: "https://via.placeholder.com/200x200/00CEC9/FFFFFF?text=SUNSET",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 27/01/25",
       },
       {
         id: "3",
         title: "Pine",
         artist: "Arcadia",
-        image: "https://via.placeholder.com/200x200/0984E3/FFFFFF?text=PINE",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 06/01/25",
       },
     ],
@@ -1310,19 +1338,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Phoebe Bridgers",
-        image: "https://via.placeholder.com/150x150/81ECEC/FFFFFF?text=PHOEBE",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "689K",
       },
       {
         id: "2",
         name: "Tame Impala",
-        image: "https://via.placeholder.com/150x150/00CEC9/FFFFFF?text=TAME",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "3",
         name: "Arctic Monkeys",
-        image: "https://via.placeholder.com/150x150/0984E3/FFFFFF?text=AM",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.2M",
       },
     ],
@@ -1336,21 +1364,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Reggaeton Party",
         image:
-          "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=REGGAETON",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "501,991",
       },
       {
         id: "2",
         title: "Latin Love",
         image:
-          "https://via.placeholder.com/200x200/FFA801/FFFFFF?text=LATIN+LOVE",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "342,880",
       },
       {
         id: "3",
         title: "Latin Essentials",
         image:
-          "https://via.placeholder.com/200x200/FFB142/FFFFFF?text=ESSENTIALS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "698,111",
       },
     ],
@@ -1359,19 +1387,19 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Top Latin",
         image:
-          "https://via.placeholder.com/200x200/FF9F1A/FFFFFF?text=TOP+LATIN",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "603,113",
       },
       {
         id: "2",
         title: "Salsa Classics",
-        image: "https://via.placeholder.com/200x200/FFB142/FFFFFF?text=SALSA",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "250,115",
       },
       {
         id: "3",
         title: "Bachata Nights",
-        image: "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=BACHATA",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "190,700",
       },
     ],
@@ -1380,7 +1408,7 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Luna",
         artist: "Rosalía",
-        image: "https://via.placeholder.com/200x200/FDCB6E/FFFFFF?text=LUNA",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 02/02/25",
       },
       {
@@ -1388,14 +1416,14 @@ export const genreData: Record<string, GenreData> = {
         title: "Caliente",
         artist: "J Balvin",
         image:
-          "https://via.placeholder.com/200x200/FF9F1A/FFFFFF?text=CALIENTE",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 18/01/25",
       },
       {
         id: "3",
         title: "Olas",
         artist: "Bad Bunny",
-        image: "https://via.placeholder.com/200x200/FFB142/FFFFFF?text=OLAS",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 09/01/25",
       },
     ],
@@ -1403,19 +1431,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Bad Bunny",
-        image: "https://via.placeholder.com/150x150/FDCB6E/FFFFFF?text=BUNNY",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "3.2M",
       },
       {
         id: "2",
         name: "Shakira",
-        image: "https://via.placeholder.com/150x150/FF9F1A/FFFFFF?text=SHAKIRA",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.7M",
       },
       {
         id: "3",
         name: "J Balvin",
-        image: "https://via.placeholder.com/150x150/FFB142/FFFFFF?text=BALVIN",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.1M",
       },
     ],
@@ -1429,21 +1457,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Workout K-Pop",
         image:
-          "https://via.placeholder.com/200x200/FF6B81/FFFFFF?text=WORKOUT+K-POP",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "432,009",
       },
       {
         id: "2",
         title: "K-Pop Love",
         image:
-          "https://via.placeholder.com/200x200/FF7F97/FFFFFF?text=K-POP+LOVE",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "389,110",
       },
       {
         id: "3",
         title: "K-Pop Essentials",
         image:
-          "https://via.placeholder.com/200x200/FF9AA2/FFFFFF?text=K-POP+ESSENTIALS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "510,842",
       },
     ],
@@ -1452,21 +1480,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Top K-Pop",
         image:
-          "https://via.placeholder.com/200x200/FF6B81/FFFFFF?text=TOP+K-POP",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "701,223",
       },
       {
         id: "2",
         title: "Girl Groups",
         image:
-          "https://via.placeholder.com/200x200/FF7F97/FFFFFF?text=GIRL+GROUPS",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "298,764",
       },
       {
         id: "3",
         title: "Boy Bands",
         image:
-          "https://via.placeholder.com/200x200/FF9AA2/FFFFFF?text=BOY+BANDS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "344,001",
       },
     ],
@@ -1476,21 +1504,21 @@ export const genreData: Record<string, GenreData> = {
         title: "Starlight",
         artist: "ECLIPSE",
         image:
-          "https://via.placeholder.com/200x200/FF6B81/FFFFFF?text=STARLIGHT",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 12/02/25",
       },
       {
         id: "2",
         title: "Bloom",
         artist: "LOONA X",
-        image: "https://via.placeholder.com/200x200/FF7F97/FFFFFF?text=BLOOM",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 23/01/25",
       },
       {
         id: "3",
         title: "Dive",
         artist: "NEO9",
-        image: "https://via.placeholder.com/200x200/FF9AA2/FFFFFF?text=DIVE",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 04/01/25",
       },
     ],
@@ -1498,20 +1526,20 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "BTS",
-        image: "https://via.placeholder.com/150x150/FF6B81/FFFFFF?text=BTS",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "5.0M",
       },
       {
         id: "2",
         name: "BLACKPINK",
         image:
-          "https://via.placeholder.com/150x150/FF7F97/FFFFFF?text=BLACKPINK",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "4.4M",
       },
       {
         id: "3",
         name: "TWICE",
-        image: "https://via.placeholder.com/150x150/FF9AA2/FFFFFF?text=TWICE",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "3.1M",
       },
     ],
@@ -1525,20 +1553,20 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Workout Metal",
         image:
-          "https://via.placeholder.com/200x200/636E72/FFFFFF?text=WORKOUT+METAL",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "222,440",
       },
       {
         id: "2",
         title: "Metal Ballads",
-        image: "https://via.placeholder.com/200x200/2D3436/FFFFFF?text=BALLADS",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "141,112",
       },
       {
         id: "3",
         title: "Metal Essentials",
         image:
-          "https://via.placeholder.com/200x200/95A5A6/FFFFFF?text=ESSENTIALS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "310,001",
       },
     ],
@@ -1546,20 +1574,20 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Heavy Metal",
-        image: "https://via.placeholder.com/200x200/2D3436/FFFFFF?text=HEAVY",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "188,900",
       },
       {
         id: "2",
         title: "Power Metal",
-        image: "https://via.placeholder.com/200x200/636E72/FFFFFF?text=POWER",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "120,884",
       },
       {
         id: "3",
         title: "Symphonic Metal",
         image:
-          "https://via.placeholder.com/200x200/95A5A6/FFFFFF?text=SYMPHONIC",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "99,773",
       },
     ],
@@ -1568,14 +1596,14 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Iron Soul",
         artist: "Valhalla",
-        image: "https://via.placeholder.com/200x200/2D3436/FFFFFF?text=IRON",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 01/02/25",
       },
       {
         id: "2",
         title: "Forge",
         artist: "Anvilstorm",
-        image: "https://via.placeholder.com/200x200/636E72/FFFFFF?text=FORGE",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 25/01/25",
       },
       {
@@ -1583,7 +1611,7 @@ export const genreData: Record<string, GenreData> = {
         title: "Gargoyle",
         artist: "Nightfall",
         image:
-          "https://via.placeholder.com/200x200/95A5A6/FFFFFF?text=GARGOYLE",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 08/01/25",
       },
     ],
@@ -1592,20 +1620,20 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         name: "Metallica",
         image:
-          "https://via.placeholder.com/150x150/2D3436/FFFFFF?text=METALLICA",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "3.3M",
       },
       {
         id: "2",
         name: "Iron Maiden",
-        image: "https://via.placeholder.com/150x150/636E72/FFFFFF?text=MAIDEN",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.5M",
       },
       {
         id: "3",
         name: "Nightwish",
         image:
-          "https://via.placeholder.com/150x150/95A5A6/FFFFFF?text=NIGHTWISH",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.4M",
       },
     ],
@@ -1619,21 +1647,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Rock Radio",
         image:
-          "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=ROCK+RADIO",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "77,221",
       },
       {
         id: "2",
         title: "Pop Radio",
         image:
-          "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=POP+RADIO",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "68,112",
       },
       {
         id: "3",
         title: "Hip-Hop Radio",
         image:
-          "https://via.placeholder.com/200x200/341F97/FFFFFF?text=HIP-HOP+RADIO",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "59,031",
       },
     ],
@@ -1642,21 +1670,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "70s Rock Radio",
         image:
-          "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=70S+ROCK",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "40,901",
       },
       {
         id: "2",
         title: "Chill Pop Radio",
         image:
-          "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=CHILL+POP",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "38,882",
       },
       {
         id: "3",
         title: "Rap Classics Radio",
         image:
-          "https://via.placeholder.com/200x200/341F97/FFFFFF?text=RAP+CLASSICS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "44,002",
       },
     ],
@@ -1665,21 +1693,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Top 50",
         artist: "Various",
-        image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=TOP+50",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Updated weekly",
       },
       {
         id: "2",
         title: "Hotlist",
         artist: "Various",
-        image: "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=HOTLIST",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Updated weekly",
       },
       {
         id: "3",
         title: "New Music Friday",
         artist: "Various",
-        image: "https://via.placeholder.com/200x200/341F97/FFFFFF?text=NMF",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Updated weekly",
       },
     ],
@@ -1687,20 +1715,20 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Radio Hosts",
-        image: "https://via.placeholder.com/150x150/A29BFE/FFFFFF?text=HOSTS",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "20K",
       },
       {
         id: "2",
         name: "Curators",
         image:
-          "https://via.placeholder.com/150x150/6C5CE7/FFFFFF?text=CURATORS",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "18K",
       },
       {
         id: "3",
         name: "DJs",
-        image: "https://via.placeholder.com/150x150/341F97/FFFFFF?text=DJS",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "22K",
       },
     ],
@@ -1714,21 +1742,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Progressive House",
         image:
-          "https://via.placeholder.com/200x200/00B894/FFFFFF?text=PROG+HOUSE",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "120,221",
       },
       {
         id: "2",
         title: "Progressive Trance",
         image:
-          "https://via.placeholder.com/200x200/55EFC4/FFFFFF?text=PROG+TRANCE",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "98,222",
       },
       {
         id: "3",
         title: "Progressive Rock",
         image:
-          "https://via.placeholder.com/200x200/00CEC9/FFFFFF?text=PROG+ROCK",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "131,008",
       },
     ],
@@ -1737,21 +1765,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Prog Essentials",
         image:
-          "https://via.placeholder.com/200x200/00B894/FFFFFF?text=ESSENTIALS",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "77,211",
       },
       {
         id: "2",
         title: "Modern Prog",
         image:
-          "https://via.placeholder.com/200x200/55EFC4/FFFFFF?text=MODERN+PROG",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "61,902",
       },
       {
         id: "3",
         title: "Classic Prog",
         image:
-          "https://via.placeholder.com/200x200/00CEC9/FFFFFF?text=CLASSIC+PROG",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "58,120",
       },
     ],
@@ -1761,21 +1789,21 @@ export const genreData: Record<string, GenreData> = {
         title: "Parallax",
         artist: "Helix",
         image:
-          "https://via.placeholder.com/200x200/00B894/FFFFFF?text=PARALLAX",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 14/02/25",
       },
       {
         id: "2",
         title: "Equinox",
         artist: "Nova Terra",
-        image: "https://via.placeholder.com/200x200/55EFC4/FFFFFF?text=EQUINOX",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 25/01/25",
       },
       {
         id: "3",
         title: "Atlas",
         artist: "Voyager",
-        image: "https://via.placeholder.com/200x200/00CEC9/FFFFFF?text=ATLAS",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 02/01/25",
       },
     ],
@@ -1783,19 +1811,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Porcupine Tree",
-        image: "https://via.placeholder.com/150x150/00B894/FFFFFF?text=PT",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "402K",
       },
       {
         id: "2",
         name: "Dream Theater",
-        image: "https://via.placeholder.com/150x150/55EFC4/FFFFFF?text=DT",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.1M",
       },
       {
         id: "3",
         name: "Steven Wilson",
-        image: "https://via.placeholder.com/150x150/00CEC9/FFFFFF?text=SW",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "612K",
       },
     ],
@@ -1808,19 +1836,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "60s Classics",
-        image: "https://via.placeholder.com/200x200/A3CB38/FFFFFF?text=60S",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "210,004",
       },
       {
         id: "2",
         title: "80s Hits",
-        image: "https://via.placeholder.com/200x200/78E08F/FFFFFF?text=80S",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "290,883",
       },
       {
         id: "3",
         title: "90s Vibes",
-        image: "https://via.placeholder.com/200x200/C4E538/FFFFFF?text=90S",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "315,201",
       },
     ],
@@ -1829,19 +1857,19 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "70s Rock Anthems",
         image:
-          "https://via.placeholder.com/200x200/20BF6B/FFFFFF?text=70S+ROCK",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "150,778",
       },
       {
         id: "2",
         title: "90s Pop",
-        image: "https://via.placeholder.com/200x200/26DE81/FFFFFF?text=90S+POP",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "200,442",
       },
       {
         id: "3",
         title: "2000s Throwback",
-        image: "https://via.placeholder.com/200x200/78E08F/FFFFFF?text=2000S",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "175,009",
       },
     ],
@@ -1851,21 +1879,21 @@ export const genreData: Record<string, GenreData> = {
         title: "Curated Classics",
         artist: "Various",
         image:
-          "https://via.placeholder.com/200x200/A3CB38/FFFFFF?text=CLASSICS",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Updated weekly",
       },
       {
         id: "2",
         title: "Retro Mix",
         artist: "Various",
-        image: "https://via.placeholder.com/200x200/78E08F/FFFFFF?text=RETRO",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Updated weekly",
       },
       {
         id: "3",
         title: "Golden Oldies",
         artist: "Various",
-        image: "https://via.placeholder.com/200x200/C4E538/FFFFFF?text=OLDIES",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Updated weekly",
       },
     ],
@@ -1873,19 +1901,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Elvis Presley",
-        image: "https://via.placeholder.com/150x150/A3CB38/FFFFFF?text=ELVIS",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.0M",
       },
       {
         id: "2",
         name: "Madonna",
-        image: "https://via.placeholder.com/150x150/78E08F/FFFFFF?text=MADONNA",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.3M",
       },
       {
         id: "3",
         name: "Nirvana",
-        image: "https://via.placeholder.com/150x150/C4E538/FFFFFF?text=NIRVANA",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.6M",
       },
     ],
@@ -1898,20 +1926,20 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Study Classical",
-        image: "https://via.placeholder.com/200x200/B8E994/000000?text=STUDY",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "145,667",
       },
       {
         id: "2",
         title: "Romantic Era",
         image:
-          "https://via.placeholder.com/200x200/78E08F/000000?text=ROMANTIC",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "112,330",
       },
       {
         id: "3",
         title: "Baroque Essentials",
-        image: "https://via.placeholder.com/200x200/A3CB38/000000?text=BAROQUE",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "210,400",
       },
     ],
@@ -1919,19 +1947,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Russian Composers",
-        image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=RUSSIAN",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "71,000",
       },
       {
         id: "2",
         title: "Piano Focus",
-        image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=PIANO",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "66,221",
       },
       {
         id: "3",
         title: "Strings",
-        image: "https://via.placeholder.com/200x200/FAB1A0/FFFFFF?text=STRINGS",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "58,907",
       },
     ],
@@ -1940,14 +1968,14 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Requiem",
         artist: "A. Composer",
-        image: "https://via.placeholder.com/200x200/B8E994/000000?text=REQUIEM",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 30/01/25",
       },
       {
         id: "2",
         title: "Etudes",
         artist: "Virtuoso",
-        image: "https://via.placeholder.com/200x200/78E08F/000000?text=ETUDES",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 16/01/25",
       },
       {
@@ -1955,7 +1983,7 @@ export const genreData: Record<string, GenreData> = {
         title: "Concertos",
         artist: "Symphonia",
         image:
-          "https://via.placeholder.com/200x200/A3CB38/000000?text=CONCERTOS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 05/01/25",
       },
     ],
@@ -1963,20 +1991,20 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Mozart",
-        image: "https://via.placeholder.com/150x150/B8E994/000000?text=MOZART",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.2M",
       },
       {
         id: "2",
         name: "Beethoven",
         image:
-          "https://via.placeholder.com/150x150/78E08F/000000?text=BEETHOVEN",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.5M",
       },
       {
         id: "3",
         name: "Bach",
-        image: "https://via.placeholder.com/150x150/A3CB38/000000?text=BACH",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.1M",
       },
     ],
@@ -1989,19 +2017,22 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Jazz Classics",
-        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=JAZZ+CLASSICS",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.2M",
       },
       {
         id: "2",
         title: "Smooth Jazz",
-        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=SMOOTH+JAZZ",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "890K",
       },
       {
         id: "3",
         title: "Bebop Masters",
-        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=BEBOP+MASTERS",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "654K",
       },
     ],
@@ -2009,19 +2040,22 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Jazz Standards",
-        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=JAZZ+STANDARDS",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "2",
         title: "Modern Jazz",
-        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=MODERN+JAZZ",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.4M",
       },
       {
         id: "3",
         title: "Jazz Fusion",
-        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=JAZZ+FUSION",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.1M",
       },
     ],
@@ -2030,7 +2064,8 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Midnight Session",
         artist: "Jazz Collective",
-        image: "https://via.placeholder.com/200x200/FF6B35/FFFFFF?text=MIDNIGHT+SESSION",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 20/03/25",
       },
     ],
@@ -2038,121 +2073,141 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Miles Davis",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=MILES+DAVIS",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.8M",
       },
       {
         id: "2",
         name: "John Coltrane",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=JOHN+COLTRANE",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "2.6M",
       },
       {
         id: "3",
         name: "Louis Armstrong",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=LOUIS+ARMSTRONG",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.4M",
       },
       {
         id: "4",
         name: "Duke Ellington",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=DUKE+ELLINGTON",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.2M",
       },
       {
         id: "5",
         name: "Charlie Parker",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=CHARLIE+PARKER",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.0M",
       },
       {
         id: "6",
         name: "Thelonious Monk",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=THELONIOUS+MONK",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.9M",
       },
       {
         id: "7",
         name: "Ella Fitzgerald",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=ELLA+FITZGERALD",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.1M",
       },
       {
         id: "8",
         name: "Billie Holiday",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=BILLIE+HOLIDAY",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "9",
         name: "Dave Brubeck",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=DAVE+BRUBECK",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.7M",
       },
       {
         id: "10",
         name: "Herbie Hancock",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=HERBIE+HANCOCK",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.9M",
       },
       {
         id: "11",
         name: "Wynton Kelly",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=WYNTON+KELLY",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.5M",
       },
       {
         id: "12",
         name: "Cannonball Adderley",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=CANNONBALL+ADDERLEY",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.6M",
       },
       {
         id: "13",
         name: "Art Blakey",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=ART+BLAKEY",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.4M",
       },
       {
         id: "14",
         name: "Sonny Rollins",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=SONNY+ROLLINS",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.7M",
       },
       {
         id: "15",
         name: "Wes Montgomery",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=WES+MONTGOMERY",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.6M",
       },
       {
         id: "16",
         name: "Grant Green",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=GRANT+GREEN",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.3M",
       },
       {
         id: "17",
         name: "Jimmy Smith",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=JIMMY+SMITH",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.5M",
       },
       {
         id: "18",
         name: "Stan Getz",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=STAN+GETZ",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.4M",
       },
       {
         id: "19",
         name: "Gerry Mulligan",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=GERRY+MULLIGAN",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.2M",
       },
       {
         id: "20",
         name: "Chet Baker",
-        image: "https://via.placeholder.com/150x150/FF6B35/FFFFFF?text=CHET+BAKER",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.8M",
       },
     ],
@@ -2165,19 +2220,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Focus Beats",
-        image: "https://via.placeholder.com/200x200/10AC84/FFFFFF?text=FOCUS",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "156,770",
       },
       {
         id: "2",
         title: "Piano Study",
-        image: "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=PIANO",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "132,441",
       },
       {
         id: "3",
         title: "Lo-fi",
-        image: "https://via.placeholder.com/200x200/00D2D3/FFFFFF?text=LO-FI",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "201,003",
       },
     ],
@@ -2186,19 +2241,19 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Deep Focus",
         image:
-          "https://via.placeholder.com/200x200/10AC84/FFFFFF?text=DEEP+FOCUS",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "310,441",
       },
       {
         id: "2",
         title: "Ambient",
-        image: "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=AMBIENT",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "121,550",
       },
       {
         id: "3",
         title: "Strings",
-        image: "https://via.placeholder.com/200x200/00D2D3/FFFFFF?text=STRINGS",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "88,007",
       },
     ],
@@ -2207,21 +2262,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Breeze",
         artist: "Noctua",
-        image: "https://via.placeholder.com/200x200/10AC84/FFFFFF?text=BREEZE",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 05/02/25",
       },
       {
         id: "2",
         title: "Aurora",
         artist: "Lofi Labs",
-        image: "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=AURORA",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 19/01/25",
       },
       {
         id: "3",
         title: "Nimbus",
         artist: "Pianova",
-        image: "https://via.placeholder.com/200x200/00D2D3/FFFFFF?text=NIMBUS",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 02/01/25",
       },
     ],
@@ -2229,19 +2284,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Ludovico Einaudi",
-        image: "https://via.placeholder.com/150x150/10AC84/FFFFFF?text=EINAUDI",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.0M",
       },
       {
         id: "2",
         name: "Max Richter",
-        image: "https://via.placeholder.com/150x150/1DD1A1/FFFFFF?text=RICHTER",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "812K",
       },
       {
         id: "3",
         name: "Nils Frahm",
-        image: "https://via.placeholder.com/150x150/00D2D3/FFFFFF?text=FRAHM",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "654K",
       },
     ],
@@ -2255,21 +2310,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Hardcore Punk",
         image:
-          "https://via.placeholder.com/200x200/E84393/FFFFFF?text=HARDCORE",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "110,221",
       },
       {
         id: "2",
         title: "Pop Punk",
         image:
-          "https://via.placeholder.com/200x200/FF7675/FFFFFF?text=POP+PUNK",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "132,882",
       },
       {
         id: "3",
         title: "Punk Essentials",
         image:
-          "https://via.placeholder.com/200x200/FF6B6B/FFFFFF?text=ESSENTIALS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "150,004",
       },
     ],
@@ -2277,20 +2332,20 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Skate Punk",
-        image: "https://via.placeholder.com/200x200/E84393/FFFFFF?text=SKATE",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "90,121",
       },
       {
         id: "2",
         title: "Grunge",
-        image: "https://via.placeholder.com/200x200/FF7675/FFFFFF?text=GRUNGE",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "101,445",
       },
       {
         id: "3",
         title: "Post Punk",
         image:
-          "https://via.placeholder.com/200x200/FF6B6B/FFFFFF?text=POST+PUNK",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "88,334",
       },
     ],
@@ -2299,21 +2354,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Static",
         artist: "Ampersand",
-        image: "https://via.placeholder.com/200x200/E84393/FFFFFF?text=STATIC",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 10/02/25",
       },
       {
         id: "2",
         title: "Wires",
         artist: "Fuse",
-        image: "https://via.placeholder.com/200x200/FF7675/FFFFFF?text=WIRES",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 22/01/25",
       },
       {
         id: "3",
         title: "Ashes",
         artist: "No Signal",
-        image: "https://via.placeholder.com/200x200/FF6B6B/FFFFFF?text=ASHES",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 03/01/25",
       },
     ],
@@ -2321,19 +2376,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "The Clash",
-        image: "https://via.placeholder.com/150x150/E84393/FFFFFF?text=CLASH",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.1M",
       },
       {
         id: "2",
         name: "Ramones",
-        image: "https://via.placeholder.com/150x150/FF7675/FFFFFF?text=RAMONES",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.0M",
       },
       {
         id: "3",
         name: "Sex Pistols",
-        image: "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=PISTOLS",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "812K",
       },
     ],
@@ -2346,21 +2401,21 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Delta Blues",
-        image: "https://via.placeholder.com/200x200/0984E3/FFFFFF?text=DELTA",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "81,004",
       },
       {
         id: "2",
         title: "Blues Love",
         image:
-          "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=LOVE+BLUES",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "64,220",
       },
       {
         id: "3",
         title: "Blues Essentials",
         image:
-          "https://via.placeholder.com/200x200/55A3FF/FFFFFF?text=ESSENTIALS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "92,110",
       },
     ],
@@ -2368,19 +2423,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Guitar Blues",
-        image: "https://via.placeholder.com/200x200/0984E3/FFFFFF?text=GUITAR",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "70,201",
       },
       {
         id: "2",
         title: "Chicago Blues",
-        image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=CHICAGO",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "55,880",
       },
       {
         id: "3",
         title: "Soul Blues",
-        image: "https://via.placeholder.com/200x200/55A3FF/FFFFFF?text=SOUL",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "62,333",
       },
     ],
@@ -2389,21 +2444,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Blue Smoke",
         artist: "Riley James",
-        image: "https://via.placeholder.com/200x200/0984E3/FFFFFF?text=SMOKE",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 01/02/25",
       },
       {
         id: "2",
         title: "Dust Bowl",
         artist: "Memphis Co.",
-        image: "https://via.placeholder.com/200x200/74B9FF/FFFFFF?text=DUST",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 17/01/25",
       },
       {
         id: "3",
         title: "Slow Train",
         artist: "Big River",
-        image: "https://via.placeholder.com/200x200/55A3FF/FFFFFF?text=TRAIN",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 05/01/25",
       },
     ],
@@ -2411,19 +2466,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "B.B. King",
-        image: "https://via.placeholder.com/150x150/0984E3/FFFFFF?text=BB+KING",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.3M",
       },
       {
         id: "2",
         name: "Muddy Waters",
-        image: "https://via.placeholder.com/150x150/74B9FF/FFFFFF?text=MUDDY",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "902K",
       },
       {
         id: "3",
         name: "John Lee Hooker",
-        image: "https://via.placeholder.com/150x150/55A3FF/FFFFFF?text=HOOKER",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "811K",
       },
     ],
@@ -2436,21 +2491,21 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Funky Workout",
-        image: "https://via.placeholder.com/200x200/341F97/FFFFFF?text=FUNKY",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "98,002",
       },
       {
         id: "2",
         title: "Soul Love",
         image:
-          "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=SOUL+LOVE",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "77,332",
       },
       {
         id: "3",
         title: "Funk Essentials",
         image:
-          "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=ESSENTIALS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "120,441",
       },
     ],
@@ -2458,20 +2513,20 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Groove",
-        image: "https://via.placeholder.com/200x200/341F97/FFFFFF?text=GROOVE",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "66,210",
       },
       {
         id: "2",
         title: "Soul Classics",
         image:
-          "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=CLASSICS",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "70,002",
       },
       {
         id: "3",
         title: "Funkadelic",
-        image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=FUNK",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "59,882",
       },
     ],
@@ -2480,21 +2535,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Velvet",
         artist: "The Groovers",
-        image: "https://via.placeholder.com/200x200/341F97/FFFFFF?text=VELVET",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 13/02/25",
       },
       {
         id: "2",
         title: "Sugar",
         artist: "Funk City",
-        image: "https://via.placeholder.com/200x200/6C5CE7/FFFFFF?text=SUGAR",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 28/01/25",
       },
       {
         id: "3",
         title: "Move",
         artist: "Soul Vibes",
-        image: "https://via.placeholder.com/200x200/A29BFE/FFFFFF?text=MOVE",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 08/01/25",
       },
     ],
@@ -2502,19 +2557,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "James Brown",
-        image: "https://via.placeholder.com/150x150/341F97/FFFFFF?text=BROWN",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.4M",
       },
       {
         id: "2",
         name: "Prince",
-        image: "https://via.placeholder.com/150x150/6C5CE7/FFFFFF?text=PRINCE",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.0M",
       },
       {
         id: "3",
         name: "Aretha Franklin",
-        image: "https://via.placeholder.com/150x150/A29BFE/FFFFFF?text=ARETHA",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.9M",
       },
     ],
@@ -2527,20 +2582,20 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Reggae Vibes",
-        image: "https://via.placeholder.com/200x200/20BF6B/FFFFFF?text=VIBES",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "120,002",
       },
       {
         id: "2",
         title: "Roots Love",
-        image: "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=ROOTS",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "90,441",
       },
       {
         id: "3",
         title: "Reggae Essentials",
         image:
-          "https://via.placeholder.com/200x200/10AC84/FFFFFF?text=ESSENTIALS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "140,771",
       },
     ],
@@ -2548,20 +2603,20 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Roots Reggae",
-        image: "https://via.placeholder.com/200x200/20BF6B/FFFFFF?text=ROOTS",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "88,338",
       },
       {
         id: "2",
         title: "Dubwise",
-        image: "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=DUBWISE",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "61,110",
       },
       {
         id: "3",
         title: "Dancehall",
         image:
-          "https://via.placeholder.com/200x200/10AC84/FFFFFF?text=DANCEHALL",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "72,990",
       },
     ],
@@ -2570,21 +2625,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Island Sun",
         artist: "Skanking Crew",
-        image: "https://via.placeholder.com/200x200/20BF6B/FFFFFF?text=ISLAND",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 09/02/25",
       },
       {
         id: "2",
         title: "Roots & Culture",
         artist: "Dub Nation",
-        image: "https://via.placeholder.com/200x200/1DD1A1/FFFFFF?text=CULTURE",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 21/01/25",
       },
       {
         id: "3",
         title: "Riddim",
         artist: "King Sound",
-        image: "https://via.placeholder.com/200x200/10AC84/FFFFFF?text=RIDDIM",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 03/01/25",
       },
     ],
@@ -2592,19 +2647,19 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Bob Marley",
-        image: "https://via.placeholder.com/150x150/20BF6B/FFFFFF?text=MARLEY",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "3.5M",
       },
       {
         id: "2",
         name: "Peter Tosh",
-        image: "https://via.placeholder.com/150x150/1DD1A1/FFFFFF?text=TOSH",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.1M",
       },
       {
         id: "3",
         name: "Burning Spear",
-        image: "https://via.placeholder.com/150x150/10AC84/FFFFFF?text=SPEAR",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "912K",
       },
     ],
@@ -2618,21 +2673,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Acoustic Folk",
         image:
-          "https://via.placeholder.com/200x200/2ECC71/FFFFFF?text=ACOUSTIC",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "120,441",
       },
       {
         id: "2",
         title: "Indie Folk",
         image:
-          "https://via.placeholder.com/200x200/27AE60/FFFFFF?text=INDIE+FOLK",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "98,210",
       },
       {
         id: "3",
         title: "Folk Essentials",
         image:
-          "https://via.placeholder.com/200x200/1ABC9C/FFFFFF?text=ESSENTIALS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "141,007",
       },
     ],
@@ -2641,21 +2696,21 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Modern Folk",
         image:
-          "https://via.placeholder.com/200x200/2ECC71/FFFFFF?text=MODERN+FOLK",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "210,334",
       },
       {
         id: "2",
         title: "Classic Folk",
         image:
-          "https://via.placeholder.com/200x200/27AE60/FFFFFF?text=CLASSIC+FOLK",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "155,228",
       },
       {
         id: "3",
         title: "Campfire",
         image:
-          "https://via.placeholder.com/200x200/1ABC9C/FFFFFF?text=CAMPFIRE",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "120,778",
       },
     ],
@@ -2664,7 +2719,7 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Meadow",
         artist: "Willow Creek",
-        image: "https://via.placeholder.com/200x200/2ECC71/FFFFFF?text=MEADOW",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 08/02/25",
       },
       {
@@ -2672,7 +2727,7 @@ export const genreData: Record<string, GenreData> = {
         title: "Lanterns",
         artist: "Evergreen",
         image:
-          "https://via.placeholder.com/200x200/27AE60/FFFFFF?text=LANTERNS",
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 22/01/25",
       },
       {
@@ -2680,7 +2735,7 @@ export const genreData: Record<string, GenreData> = {
         title: "Northwind",
         artist: "Harbor & Pine",
         image:
-          "https://via.placeholder.com/200x200/1ABC9C/FFFFFF?text=NORTHWIND",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         releaseDate: "Album release: 04/01/25",
       },
     ],
@@ -2689,20 +2744,20 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         name: "Bon Iver",
         image:
-          "https://via.placeholder.com/150x150/2ECC71/FFFFFF?text=BON+IVER",
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "2",
         name: "Mumford & Sons",
-        image: "https://via.placeholder.com/150x150/27AE60/FFFFFF?text=MUMFORD",
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.5M",
       },
       {
         id: "3",
         name: "The Lumineers",
         image:
-          "https://via.placeholder.com/150x150/1ABC9C/FFFFFF?text=LUMINEERS",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "2.2M",
       },
     ],
@@ -2716,19 +2771,22 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "EDM Hits",
-        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=EDM+HITS",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "2",
         title: "Deep House",
-        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=DEEP+HOUSE",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "956K",
       },
       {
         id: "3",
         title: "Techno Vibes",
-        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=TECHNO+VIBES",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "723K",
       },
     ],
@@ -2736,19 +2794,22 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         title: "Electronic Essentials",
-        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=ESSENTIALS",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "2.3M",
       },
       {
         id: "2",
         title: "Chill Electronic",
-        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=CHILL+ELECTRONIC",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.6M",
       },
       {
         id: "3",
         title: "Dance Floor",
-        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=DANCE+FLOOR",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.9M",
       },
     ],
@@ -2757,7 +2818,8 @@ export const genreData: Record<string, GenreData> = {
         id: "1",
         title: "Neon Nights",
         artist: "Digital Dreams",
-        image: "https://via.placeholder.com/200x200/00D2FF/FFFFFF?text=NEON+NIGHTS",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         releaseDate: "Album release: 18/03/25",
       },
     ],
@@ -2765,121 +2827,137 @@ export const genreData: Record<string, GenreData> = {
       {
         id: "1",
         name: "Daft Punk",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=DAFT+PUNK",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "3.1M",
       },
       {
         id: "2",
         name: "The Chemical Brothers",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=CHEMICAL+BROTHERS",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.8M",
       },
       {
         id: "3",
         name: "Aphex Twin",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=APHEX+TWIN",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "2.5M",
       },
       {
         id: "4",
         name: "Deadmau5",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=DEADMAU5",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.7M",
       },
       {
         id: "5",
         name: "Skrillex",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=SKRILLEX",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "2.9M",
       },
       {
         id: "6",
         name: "Calvin Harris",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=CALVIN+HARRIS",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "2.6M",
       },
       {
         id: "7",
         name: "David Guetta",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=DAVID+GUETTA",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.4M",
       },
       {
         id: "8",
         name: "Tiesto",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=TIESTO",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "2.3M",
       },
       {
         id: "9",
         name: "Avicii",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=AVICII",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "2.8M",
       },
       {
         id: "10",
         name: "Swedish House Mafia",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=SWEDISH+HOUSE+MAFIA",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "2.2M",
       },
       {
         id: "11",
         name: "Zedd",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=ZEDD",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "2.0M",
       },
       {
         id: "12",
         name: "Martin Garrix",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=MARTIN+GARRIX",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.9M",
       },
       {
         id: "13",
         name: "Marshmello",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=MARSHMELLO",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "2.1M",
       },
       {
         id: "14",
         name: "The Prodigy",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=THE+PRODIGY",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "15",
         name: "Underworld",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=UNDERWORLD",
+        image:
+          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face",
         likes: "1.7M",
       },
       {
         id: "16",
         name: "Massive Attack",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=MASSIVE+ATTACK",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=150&h=150&fit=crop&crop=face",
         likes: "1.9M",
       },
       {
         id: "17",
         name: "Portishead",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=PORTISHEAD",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop&crop=face",
         likes: "1.6M",
       },
       {
         id: "18",
         name: "Moby",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=MOBY",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face",
         likes: "1.8M",
       },
       {
         id: "19",
         name: "Fatboy Slim",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=FATBOY+SLIM",
+        image:
+          "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=face",
         likes: "1.5M",
       },
       {
         id: "20",
         name: "The Crystal Method",
-        image: "https://via.placeholder.com/150x150/00D2FF/FFFFFF?text=CRYSTAL+METHOD",
+        image:
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop&crop=face",
         likes: "1.4M",
       },
     ],

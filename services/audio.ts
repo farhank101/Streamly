@@ -1,10 +1,11 @@
 /**
- * Audio Service
- * Handles audio playback using Expo AV
+ * Enhanced Audio Service
+ * Handles audio playback using Expo AV with actual YouTube audio streaming
  */
 
 import { Audio } from "expo-av";
 import { Track } from "../types/track";
+import { getYouTubeStreamUrl } from "./youtube";
 
 // Audio player state
 export interface AudioPlayerState {
@@ -16,6 +17,7 @@ export interface AudioPlayerState {
   isBuffering: boolean;
   error: string | null;
   volume: number;
+  audioQuality: "low" | "medium" | "high";
 }
 
 // Audio controls
@@ -26,6 +28,7 @@ export interface AudioControls {
   seek: (position: number) => void;
   setVolume: (volume: number) => void;
   setPlaybackRate: (rate: number) => void;
+  setAudioQuality: (quality: "low" | "medium" | "high") => void;
 }
 
 // Audio service class
@@ -41,10 +44,13 @@ class AudioService {
     isBuffering: false,
     error: null,
     volume: 1.0,
+    audioQuality: "medium",
   };
 
   private listeners: ((state: AudioPlayerState) => void)[] = [];
   private isLoading: boolean = false;
+  private retryCount: number = 0;
+  private maxRetries: number = 3;
 
   constructor() {
     this.initializePlayer();
@@ -52,7 +58,7 @@ class AudioService {
 
   private async initializePlayer() {
     try {
-      console.log("🔧 Initializing audio service...");
+      console.log("🔧 Initializing enhanced audio service...");
 
       // Request audio permissions
       const { status } = await Audio.requestPermissionsAsync();
@@ -69,9 +75,11 @@ class AudioService {
         playsInSilentModeIOS: true,
         shouldDuckAndroid: true,
         playThroughEarpieceAndroid: false,
+        interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
+        interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
       });
 
-      console.log("✅ Audio service initialized successfully");
+      console.log("✅ Enhanced audio service initialized successfully");
     } catch (error) {
       console.error("❌ Failed to initialize audio service:", error);
       this.state.error = "Failed to initialize audio player";
@@ -100,20 +108,123 @@ class AudioService {
     this.listeners.forEach((listener) => listener(this.getState()));
   }
 
-  // Play a track
+  // Enhanced stream URL resolution using the YouTube service
+  private async getStreamUrl(track: Track): Promise<string> {
+    if (track.sourceType === "youtube") {
+      try {
+        console.log("🎵 Getting YouTube stream URL for:", track.sourceId);
+
+        // Get audio stream with current quality setting
+        const streamUrl = await getYouTubeStreamUrl(
+          track.sourceId,
+          this.state.audioQuality
+        );
+
+        if (streamUrl) {
+          console.log(
+            "✅ Audio stream extracted successfully:",
+            streamUrl.substring(0, 100) + "..."
+          );
+          return streamUrl;
+        } else {
+          throw new Error("No stream URL returned from YouTube service");
+        }
+      } catch (error) {
+        console.warn("⚠️ Enhanced audio extraction failed:", error);
+
+        // Fallback: Try basic extraction methods
+        try {
+          const fallbackUrl = await this.getBasicFallback(track.sourceId);
+          if (fallbackUrl) {
+            console.log("✅ Basic fallback stream found");
+            return fallbackUrl;
+          }
+        } catch (fallbackError) {
+          console.warn("⚠️ Basic fallback also failed:", fallbackError);
+        }
+      }
+
+      // Final fallback: Use a direct approach
+      const directUrl = this.getDirectFallback(track.sourceId);
+      console.log("🔄 Using direct fallback");
+      return directUrl;
+    }
+
+    throw new Error(`Unsupported source type: ${track.sourceType}`);
+  }
+
+  // Basic fallback method for audio extraction
+  private async getBasicFallback(videoId: string): Promise<string | null> {
+    try {
+      // Method 1: Try using a public YouTube audio extraction API
+      const response = await fetch(
+        `https://api.vevioz.com/@api/json/mp3/${videoId}`
+      );
+      const data = await response.json();
+
+      if (data && data.url) {
+        return data.url;
+      }
+    } catch (error) {
+      console.log("Method 1 failed, trying method 2...");
+    }
+
+    try {
+      // Method 2: Try another public service
+      const response = await fetch(
+        `https://loader.to/api/button/?url=https://www.youtube.com/watch?v=${videoId}&f=mp3`
+      );
+      const html = await response.text();
+
+      // Extract download URL from response
+      const match = html.match(/href="([^"]*\.mp3[^"]*)"/);
+      if (match && match[1]) {
+        return match[1];
+      }
+    } catch (error) {
+      console.log("Method 2 failed, trying method 3...");
+    }
+
+    try {
+      // Method 3: Try using y2mate-like service
+      const response = await fetch(`https://www.y2mate.com/youtube/${videoId}`);
+      const html = await response.text();
+
+      // Look for audio download links
+      const audioMatch = html.match(
+        /href="([^"]*\.mp3[^"]*)"[^>]*>.*?Audio.*?<\/a>/i
+      );
+      if (audioMatch && audioMatch[1]) {
+        return audioMatch[1];
+      }
+    } catch (error) {
+      console.log("Method 3 failed");
+    }
+
+    return null;
+  }
+
+  // Direct fallback method
+  private getDirectFallback(videoId: string): string {
+    // Use a direct approach that might work for some videos
+    return `https://www.youtube.com/watch?v=${videoId}`;
+  }
+
+  // Play a track with enhanced error handling and retries
   async playTrack(track: Track): Promise<void> {
     try {
       console.log("🎵 Playing track:", track.title);
 
-      // Prevent concurrent loading
+      // Reset loading state if it's stuck
       if (this.isLoading) {
-        console.log("⏳ Already loading, skipping...");
-        return;
+        console.log("🔄 Resetting stuck loading state...");
+        this.isLoading = false;
       }
 
       this.isLoading = true;
       this.state.isBuffering = true;
       this.state.error = null;
+      this.retryCount = 0;
       this.notifyListeners();
 
       // Unload current track if different
@@ -127,8 +238,36 @@ class AudioService {
       this.currentTrack = track;
       this.state.currentTrack = track;
 
-      // Get streaming URL - for now, use a simple approach
-      const streamUrl = this.getStreamUrl(track);
+      // Get streaming URL with retries
+      let streamUrl: string;
+      while (this.retryCount < this.maxRetries) {
+        try {
+          streamUrl = await this.getStreamUrl(track);
+          break;
+        } catch (error) {
+          this.retryCount++;
+          console.warn(
+            `⚠️ Stream URL attempt ${this.retryCount} failed:`,
+            error
+          );
+
+          if (this.retryCount >= this.maxRetries) {
+            throw new Error(
+              "Failed to get audio stream after multiple attempts"
+            );
+          }
+
+          // Wait before retry
+          await new Promise((resolve) =>
+            setTimeout(resolve, 1000 * this.retryCount)
+          );
+        }
+      }
+
+      if (!streamUrl) {
+        throw new Error("No stream URL obtained");
+      }
+
       console.log("🔗 Stream URL:", streamUrl);
 
       // Create new sound object
@@ -137,8 +276,13 @@ class AudioService {
       // Set up status update listener
       this.sound.setOnPlaybackStatusUpdate(this.handleStatusUpdate.bind(this));
 
-      // Load the audio source
-      await this.sound.loadAsync({ uri: streamUrl });
+      // Load the audio source with timeout
+      const loadPromise = this.sound.loadAsync({ uri: streamUrl });
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Audio loading timeout")), 30000)
+      );
+
+      await Promise.race([loadPromise, timeoutPromise]);
 
       // Start playing
       await this.sound.playAsync();
@@ -150,11 +294,14 @@ class AudioService {
       console.log(`✅ Now playing: ${track.title} by ${track.artist}`);
     } catch (error) {
       console.error("❌ Failed to play track:", error);
-      this.state.error = "Failed to play track";
+      this.state.error = `Failed to play track: ${error.message}`;
       this.state.isBuffering = false;
+      this.state.isPlaying = false;
       this.notifyListeners();
+      throw error;
     } finally {
       this.isLoading = false;
+      this.notifyListeners();
     }
   }
 
@@ -180,17 +327,6 @@ class AudioService {
     }
 
     this.notifyListeners();
-  }
-
-  // Get streaming URL for a track
-  private getStreamUrl(track: Track): string {
-    if (track.sourceType === "youtube") {
-      // For now, use a simple approach with direct YouTube URLs
-      // In a real app, you'd use a service to extract audio streams
-      return `https://www.youtube.com/watch?v=${track.sourceId}`;
-    } else {
-      throw new Error(`Unsupported source type: ${track.sourceType}`);
-    }
   }
 
   // Play current track
@@ -281,6 +417,22 @@ class AudioService {
       console.log(`⚡ Playback rate set to: ${clampedRate}x`);
     } catch (error) {
       console.error("❌ Failed to set playback rate:", error);
+    }
+  }
+
+  // Set audio quality
+  async setAudioQuality(quality: "low" | "medium" | "high"): Promise<void> {
+    this.state.audioQuality = quality;
+    console.log(`🎵 Audio quality set to: ${quality}`);
+    this.notifyListeners();
+
+    // If a track is currently playing, reload with new quality
+    if (this.currentTrack && this.sound) {
+      try {
+        await this.playTrack(this.currentTrack);
+      } catch (error) {
+        console.error("❌ Failed to reload track with new quality:", error);
+      }
     }
   }
 

@@ -3,28 +3,27 @@
  * Main search interface with Songs and Videos tabs
  */
 
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import {
   View,
   Text,
-  StyleSheet,
   TextInput,
   TouchableOpacity,
   FlatList,
   Image,
+  StyleSheet,
   ActivityIndicator,
+  Alert,
   Dimensions,
 } from "react-native";
-import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import { COLORS, SPACING, SIZES, TYPOGRAPHY } from "../../constants/theme";
-import {
-  searchSongs,
-  searchVideos,
-  getTrendingMusic,
-} from "../../services/search";
+import { useRouter } from "expo-router";
+import { usePlayer } from "../../hooks/usePlayer";
+import { searchSongs, searchVideos } from "../../services/search";
+import { storage } from "../../services/storage";
 import { Track } from "../../types/track";
-import storage from "../../services/storage.platform";
+import { COLORS, SPACING, SIZES, TYPOGRAPHY } from "../../constants/theme";
+import { testStreamExtraction } from "../../services/youtube";
 
 const { width } = Dimensions.get("window");
 
@@ -32,17 +31,37 @@ type SearchTab = "songs" | "videos";
 
 export default function SearchScreen() {
   const router = useRouter();
+  const { play, currentTrack, isPlaying, isTrackPlaying } = usePlayer();
   const [activeTab, setActiveTab] = useState<SearchTab>("songs");
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<Track[]>([]);
   const [trendingMusic, setTrendingMusic] = useState<Track[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingTrending, setIsLoadingTrending] = useState(true);
+  const [debouncedQuery, setDebouncedQuery] = useState("");
 
   // Load trending music on mount
-  React.useEffect(() => {
+  useEffect(() => {
     loadTrendingMusic();
   }, []);
+
+  // Debounce search query
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedQuery(searchQuery);
+    }, 500); // Wait 500ms after user stops typing
+
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  // Perform search when debounced query changes
+  useEffect(() => {
+    if (debouncedQuery.trim()) {
+      handleSearch(debouncedQuery);
+    } else {
+      setSearchResults([]);
+    }
+  }, [debouncedQuery, activeTab]);
 
   const loadTrendingMusic = async () => {
     try {
@@ -64,14 +83,20 @@ export default function SearchScreen() {
       }
 
       try {
+        console.log(`🔍 Starting search for: "${query}" (${activeTab})`);
         setIsLoading(true);
+
         const results =
           activeTab === "songs"
             ? await searchSongs(query)
             : await searchVideos(query);
+
+        console.log(
+          `✅ Search completed. Found ${results.tracks.length} tracks`
+        );
         setSearchResults(results.tracks);
       } catch (error) {
-        console.error("Search failed:", error);
+        console.error("❌ Search failed:", error);
         setSearchResults([]);
       } finally {
         setIsLoading(false);
@@ -89,6 +114,56 @@ export default function SearchScreen() {
       router.push(`/track/${track.id}`);
     } catch (error) {
       console.error("Failed to handle track press:", error);
+    }
+  };
+
+  const handlePlayTrack = async (track: Track) => {
+    try {
+      console.log("🎵 Playing track from search:", track.title);
+      console.log("📊 Track details:", {
+        id: track.id,
+        sourceId: track.sourceId,
+        sourceType: track.sourceType,
+        title: track.title,
+        artist: track.artist
+      });
+      
+      // Show confirmation alert
+      Alert.alert(
+        "Playing Track", 
+        `Starting playback of "${track.title}" by ${track.artist}`,
+        [{ text: "OK" }]
+      );
+      
+      // Check if player context is available
+      if (!play) {
+        console.error("❌ Play function is not available from usePlayer");
+        Alert.alert("Error", "Play function is not available");
+        return;
+      }
+      
+      console.log("▶️ Calling play function...");
+      await play(track);
+      console.log("✅ Track playback started successfully");
+      
+      // Check if track is now playing
+      setTimeout(() => {
+        const isPlaying = isTrackPlaying(track.id);
+        console.log("🎵 Track playing status:", isPlaying);
+        if (isPlaying) {
+          Alert.alert("Success", "Track is now playing!");
+        } else {
+          Alert.alert("Warning", "Track may not have started playing");
+        }
+      }, 2000);
+      
+    } catch (error) {
+      console.error("❌ Failed to play track:", error);
+      console.error("❌ Error details:", {
+        message: error.message,
+        stack: error.stack
+      });
+      Alert.alert("Playback Error", `Failed to play track: ${error.message}`);
     }
   };
 
@@ -119,8 +194,18 @@ export default function SearchScreen() {
           </Text>
         </View>
       </View>
-      <TouchableOpacity style={styles.playButton}>
-        <Ionicons name="play" size={20} color={COLORS.background} />
+      <TouchableOpacity
+        style={styles.playButton}
+        onPress={(e) => {
+          e.stopPropagation(); // Prevent triggering the track press
+          handlePlayTrack(item);
+        }}
+      >
+        <Ionicons
+          name={isTrackPlaying(item.id) ? "pause" : "play"}
+          size={20}
+          color={COLORS.background}
+        />
       </TouchableOpacity>
     </TouchableOpacity>
   );
@@ -152,7 +237,9 @@ export default function SearchScreen() {
       return (
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" color={COLORS.primary} />
-          <Text style={styles.loadingText}>Searching...</Text>
+          <Text style={styles.loadingText}>
+            Searching for "{searchQuery}"...
+          </Text>
         </View>
       );
     }
@@ -165,18 +252,26 @@ export default function SearchScreen() {
           <Text style={styles.emptySubtitle}>
             Try searching for a different song or artist
           </Text>
+          <Text style={styles.emptyQuery}>Query: "{searchQuery}"</Text>
         </View>
       );
     }
 
     return (
-      <FlatList
-        data={searchResults}
-        renderItem={renderTrackItem}
-        keyExtractor={(item) => item.id}
-        showsVerticalScrollIndicator={false}
-        contentContainerStyle={styles.searchResultsList}
-      />
+      <View style={styles.searchResultsContainer}>
+        <View style={styles.resultsHeader}>
+          <Text style={styles.resultsTitle}>
+            Found {searchResults.length} results for "{searchQuery}"
+          </Text>
+        </View>
+        <FlatList
+          data={searchResults}
+          renderItem={renderTrackItem}
+          keyExtractor={(item) => item.id}
+          showsVerticalScrollIndicator={false}
+          contentContainerStyle={styles.searchResultsList}
+        />
+      </View>
     );
   };
 
@@ -190,33 +285,74 @@ export default function SearchScreen() {
       {/* Search Input */}
       <View style={styles.searchContainer}>
         <View style={styles.searchInputContainer}>
-          <Ionicons name="search" size={20} color={COLORS.primary} />
+          <Ionicons name="search" size={20} color={COLORS.textSecondary} />
           <TextInput
             style={styles.searchInput}
             placeholder="Search for songs, artists, or albums..."
             placeholderTextColor={COLORS.textTertiary}
             value={searchQuery}
-            onChangeText={(text) => {
-              setSearchQuery(text);
-              handleSearch(text);
-            }}
-            returnKeyType="search"
+            onChangeText={setSearchQuery}
           />
           {searchQuery.length > 0 && (
             <TouchableOpacity
-              onPress={() => {
-                setSearchQuery("");
-                setSearchResults([]);
-              }}
+              onPress={() => setSearchQuery("")}
+              style={styles.clearButton}
             >
-              <Ionicons
-                name="close-circle"
-                size={20}
-                color={COLORS.textSecondary}
-              />
+              <Ionicons name="close-circle" size={20} color={COLORS.textSecondary} />
             </TouchableOpacity>
           )}
         </View>
+        
+        {/* Test Button for Debugging */}
+        <TouchableOpacity
+          style={styles.testButton}
+          onPress={async () => {
+            if (searchResults.length > 0) {
+              const testTrack = searchResults[0];
+              console.log("🧪 Testing stream extraction for:", testTrack.title);
+              try {
+                await testStreamExtraction(testTrack.sourceId);
+                Alert.alert("Test Result", "Stream extraction test completed. Check console for details.");
+              } catch (error) {
+                Alert.alert("Test Failed", `Stream extraction failed: ${error.message}`);
+              }
+            } else {
+              Alert.alert("No Results", "Search for something first to test stream extraction.");
+            }
+          }}
+        >
+          <Text style={styles.testButtonText}>🧪 Test Stream</Text>
+        </TouchableOpacity>
+        
+        {/* Test Play Function Button */}
+        <TouchableOpacity
+          style={[styles.testButton, { backgroundColor: COLORS.secondary, marginTop: SPACING.sm }]}
+          onPress={async () => {
+            console.log("🧪 Testing play function with mock track");
+            const mockTrack: Track = {
+              id: "test-123",
+              title: "Test Song",
+              artist: "Test Artist",
+              thumbnailUrl: "https://via.placeholder.com/150",
+              duration: 180,
+              sourceType: "youtube",
+              sourceId: "dQw4w9WgXcQ", // Rick Roll video ID
+              album: "Test Album",
+              genre: "Test Genre",
+              releaseDate: "2024-01-01",
+              viewCount: 1000,
+              likeCount: 100,
+            };
+            
+            try {
+              await handlePlayTrack(mockTrack);
+            } catch (error) {
+              Alert.alert("Test Failed", `Play function test failed: ${error.message}`);
+            }
+          }}
+        >
+          <Text style={styles.testButtonText}>🎵 Test Play</Text>
+        </TouchableOpacity>
       </View>
 
       {/* Search Tabs */}
@@ -302,6 +438,28 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily: "InterRegular",
   },
+  clearButton: {
+    padding: SPACING.sm,
+  },
+  testButton: {
+    marginTop: SPACING.sm,
+    backgroundColor: COLORS.primary,
+    paddingVertical: SPACING.sm,
+    paddingHorizontal: SPACING.md,
+    borderRadius: SIZES.borderRadius,
+    alignItems: "center",
+    justifyContent: "center",
+    shadowColor: COLORS.primary,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 4,
+  },
+  testButtonText: {
+    color: COLORS.background,
+    fontSize: 16,
+    fontFamily: "InterMedium",
+  },
   tabsContainer: {
     flexDirection: "row",
     paddingHorizontal: SPACING.lg,
@@ -358,6 +516,13 @@ const styles = StyleSheet.create({
     color: COLORS.textSecondary,
     textAlign: "center",
   },
+  emptyQuery: {
+    marginTop: SPACING.sm,
+    fontSize: 14,
+    fontFamily: "InterRegular",
+    color: COLORS.textTertiary,
+    textAlign: "center",
+  },
   trendingSection: {
     paddingVertical: SPACING.md,
   },
@@ -370,6 +535,18 @@ const styles = StyleSheet.create({
   },
   trendingList: {
     paddingHorizontal: SPACING.lg,
+  },
+  searchResultsContainer: {
+    flex: 1,
+  },
+  resultsHeader: {
+    paddingHorizontal: SPACING.lg,
+    paddingBottom: SPACING.md,
+  },
+  resultsTitle: {
+    fontSize: 20,
+    fontFamily: "OswaldBold",
+    color: COLORS.textPrimary,
   },
   searchResultsList: {
     paddingHorizontal: SPACING.lg,

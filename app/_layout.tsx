@@ -83,6 +83,7 @@ function MainAppLayout() {
       <Stack.Screen name="now-playing" />
       <Stack.Screen name="create-playlist" />
       <Stack.Screen name="subscription-plans" />
+      <Stack.Screen name="audio-test" />
     </Stack>
   );
 }

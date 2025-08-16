@@ -1,121 +1,153 @@
 /**
  * Audio Visualizer Component
- * Displays animated bars that react to audio playback
+ * Beautiful animated bars that respond to music playback
  */
 
-import React, { useEffect, useState } from 'react';
-import { View, StyleSheet, Animated, Easing } from 'react-native';
-import { COLORS } from '../../constants/theme';
+import React, { useEffect, useRef } from "react";
+import { View, StyleSheet, Animated, Dimensions } from "react-native";
+import { COLORS, SPACING } from "../../constants/theme";
+
+const { width: SCREEN_WIDTH } = Dimensions.get("window");
+const BAR_COUNT = 32;
+const BAR_WIDTH = (SCREEN_WIDTH - 120) / BAR_COUNT - 2;
 
 interface AudioVisualizerProps {
   isPlaying: boolean;
-  intensity?: number; // 0-1 value to control animation intensity
-  barCount?: number; // Number of bars to display
-  color?: string; // Primary color of the visualizer
+  intensity?: number; // 0-1 scale for animation intensity
+  color?: string;
+  height?: number;
 }
 
-export default function AudioVisualizer({
+export const AudioVisualizer: React.FC<AudioVisualizerProps> = ({
   isPlaying,
-  intensity = 0.8,
-  barCount = 20,
+  intensity = 0.5,
   color = COLORS.primaryAccent,
-}: AudioVisualizerProps) {
-  // Create an array of animated values for each bar
-  const [bars] = useState(() => 
-    Array.from({ length: barCount }, () => new Animated.Value(0.1))
-  );
-  
-  // Generate random heights when playing
+  height = 60,
+}) => {
+  const barAnimations = useRef<Animated.Value[]>([]).current;
+  const animationRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Initialize bar animations
   useEffect(() => {
-    let animationsArray: Animated.CompositeAnimation[] = [];
-    
+    if (barAnimations.length === 0) {
+      for (let i = 0; i < BAR_COUNT; i++) {
+        barAnimations[i] = new Animated.Value(0.1);
+      }
+    }
+  }, []);
+
+  // Start/stop animations based on playing state
+  useEffect(() => {
     if (isPlaying) {
-      // Create animations for each bar
-      bars.forEach((bar, index) => {
-        // Random duration between 300ms and 800ms
-        const duration = Math.random() * 500 + 300;
-        
-        // Create a sequence of animations that loop
-        const animation = Animated.loop(
-          Animated.sequence([
-            // Animate to a random height
-            Animated.timing(bar, {
-              toValue: Math.random() * intensity + 0.1, // Random height between 0.1 and intensity+0.1
-              duration,
-              easing: Easing.ease,
-              useNativeDriver: false,
-            }),
-            // Animate back to a different random height
-            Animated.timing(bar, {
-              toValue: Math.random() * intensity + 0.1,
-              duration,
-              easing: Easing.ease,
-              useNativeDriver: false,
-            }),
-          ])
-        );
-        
-        // Start the animation with a random delay
-        setTimeout(() => {
-          animation.start();
-        }, index * 50);
-        
-        animationsArray.push(animation);
-      });
+      startAnimation();
     } else {
-      // Reset all bars to minimal height when not playing
-      bars.forEach((bar) => {
-        const animation = Animated.timing(bar, {
-          toValue: 0.1,
-          duration: 300,
-          easing: Easing.ease,
+      stopAnimation();
+    }
+
+    return () => {
+      stopAnimation();
+    };
+  }, [isPlaying, intensity]);
+
+  const startAnimation = () => {
+    if (animationRef.current) return;
+
+    const animate = () => {
+      const animations = barAnimations.map((anim, index) => {
+        // Create wave-like pattern with different phases
+        const phase = (index / BAR_COUNT) * Math.PI * 2;
+        const randomFactor = Math.random() * 0.3 + 0.7;
+        const targetValue =
+          (Math.sin(Date.now() * 0.01 + phase) * 0.5 + 0.5) *
+          intensity *
+          randomFactor;
+
+        return Animated.timing(anim, {
+          toValue: Math.max(0.1, targetValue),
+          duration: 100 + Math.random() * 200,
           useNativeDriver: false,
         });
-        
-        animation.start();
-        animationsArray.push(animation);
       });
-    }
-    
-    // Clean up animations on unmount or when isPlaying changes
-    return () => {
-      animationsArray.forEach(anim => anim.stop());
+
+      Animated.parallel(animations).start(() => {
+        if (isPlaying) {
+          animationRef.current = setTimeout(animate, 100);
+        }
+      });
     };
-  }, [isPlaying, bars, intensity]);
-  
+
+    animate();
+  };
+
+  const stopAnimation = () => {
+    if (animationRef.current) {
+      clearTimeout(animationRef.current);
+      animationRef.current = null;
+    }
+
+    // Fade out all bars
+    const fadeOutAnimations = barAnimations.map((anim) =>
+      Animated.timing(anim, {
+        toValue: 0.1,
+        duration: 300,
+        useNativeDriver: false,
+      })
+    );
+
+    Animated.parallel(fadeOutAnimations).start();
+  };
+
+  const renderBar = (index: number) => {
+    const anim = barAnimations[index];
+    if (!anim) return null;
+
+    return (
+      <Animated.View
+        key={index}
+        style={[
+          styles.bar,
+          {
+            height: anim.interpolate({
+              inputRange: [0, 1],
+              outputRange: [4, height],
+            }),
+            backgroundColor: color,
+            opacity: anim.interpolate({
+              inputRange: [0, 1],
+              outputRange: [0.3, 1],
+            }),
+          },
+        ]}
+      />
+    );
+  };
+
   return (
     <View style={styles.container}>
-      {bars.map((bar, index) => (
-        <Animated.View
-          key={index}
-          style={[
-            styles.bar,
-            {
-              backgroundColor: color,
-              height: bar.interpolate({
-                inputRange: [0, 1],
-                outputRange: ['5%', '100%'],
-              }),
-            },
-          ]}
-        />
-      ))}
+      <View style={styles.visualizerContainer}>
+        {Array.from({ length: BAR_COUNT }, (_, index) => renderBar(index))}
+      </View>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    height: 40,
-    width: '100%',
-    paddingHorizontal: 20,
+    alignItems: "center",
+    marginVertical: SPACING.lg,
+    paddingHorizontal: SPACING.lg,
+  },
+  visualizerContainer: {
+    flexDirection: "row",
+    alignItems: "flex-end",
+    justifyContent: "center",
+    height: 80,
+    paddingVertical: SPACING.sm,
   },
   bar: {
-    width: 3,
-    borderRadius: 3,
+    width: BAR_WIDTH,
+    marginHorizontal: 1,
+    borderRadius: 2,
     backgroundColor: COLORS.primaryAccent,
   },
 });
